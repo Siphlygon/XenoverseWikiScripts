@@ -10,8 +10,12 @@ associated information.
 Prints lines in the style of the Pokémon Xenoverse Wiki code. These can be copied and pasted straight onto the wiki page
 and will render correctly.
 
+NOTE: VintageDex functionality is not complete, not a priority until all important information for main dex & XenoDex
+are complete.
+
 Elements still to implement:
 - header & footer
+- species (may not be possible in English)
 - availability
   * including wild encounters
   * and static encounters
@@ -89,6 +93,18 @@ def item_info(item):
     with open('references/item_info.json') as f:
         switch = json.load(f)
     return switch.get(item)
+
+
+def pokemon_info(dex):
+    """
+        Accesses dictionary of Pokémon info.
+
+        :param string dex: The dex number relating to the Pokémon.
+        :return string: The corresponding Pokémon info, as: "INTERNALNAME, displayName".
+        """
+    with open('references/pokemon_info.json') as f:
+        switch = json.load(f)
+    return switch.get(dex)
 # endregion
 
 
@@ -221,6 +237,30 @@ def check_values_exists(test_dict, *values):
     :return bool: If specified values are in the given dictionary.
     """
     return all(v in test_dict for v in values)
+
+
+def find_dex_number(regional_numbers):
+    """
+    Takes regional numbers from pokemon.txt and convert into a Pokédex number of e.g., "X031".
+
+    :param string regional_numbers: The regional numbers for a Pokémon in pokemon.txt.
+    :return string: The (global) dex number for the Pokémon.
+    """
+    # Regional numbers are in form "X,Y,Z", where X is normal dex, Y is xeno dex, Z is vintage dex
+    # Every Pokémon only has 1 non-zero regional number
+    if regional_numbers.split(",")[0] != "0":
+        dex_nums = make_three_digits(regional_numbers.split(",")[0])
+    elif regional_numbers.split(",")[1] != "0":
+        # For some reason, X030 just doesn't exist in the game's data. As Pokédex numbers are only used for wiki display
+        # anyway, I'm just going to manually adjust these numbers and keep w/ the X030 = Mewtwo X wiki system
+        if int(regional_numbers.split(",")[1]) > 29:
+            dex_nums = "X" + make_three_digits(str(int(regional_numbers.split(",")[1]) - 1))
+        else:
+            dex_nums = "X" + make_three_digits(regional_numbers.split(",")[1])
+    else:
+        dex_nums = "V" + make_three_digits(regional_numbers.split(",")[2])
+
+    return dex_nums
 # endregion
 
 
@@ -240,17 +280,19 @@ def create_infobox(pokemon_dict):
         infobox.append("|type2 = " + pokemon_dict["Type2"].title())
 
     # Name, Species
-    infobox.append("|name = " + pokemon_dict["Name"])
-    infobox.append("|species = " + pokemon_dict["Kind"])
+    print(find_dex_number(pokemon_dict["RegionalNumbers"]))
+    dex_data = pokemon_info(find_dex_number(pokemon_dict["RegionalNumbers"]))
+    infobox.append("|name = " + dex_data.split(",")[1])
+    infobox.append("|species = Species Name")
 
     # Dex & Image
     dex_nums = pokemon_dict["RegionalNumbers"].split(",")
     if dex_nums[0] != "0":
         infobox.append("|ndex = " + make_three_digits(dex_nums[0]))
     elif dex_nums[1] != "0":
-        infobox.append("|ndex = X" + make_three_digits(dex_nums[0]))
+        infobox.append("|ndex = X" + make_three_digits(dex_nums[1]))
     else:
-        infobox.append("|ndex = V" + make_three_digits(dex_nums[0]))
+        infobox.append("|ndex = V" + make_three_digits(dex_nums[2]))
     infobox.append("|image = " + pokemon_dict["Name"] + ".png")
 
     # Abilities
@@ -440,7 +482,8 @@ def create_level_learn_list(pokemon_dict):
     second_type = pokemon_dict["Type2"].title() if "Type2" in pokemon_dict else pokemon_dict["Type1"].title()
 
     # Create the start of the level learn box.
-    level_learn_list = ["{{MoveLevelStart|" + pokemon_dict["Name"].title() + "|" + pokemon_dict["Type1"].title() + "|"
+    dex_data = pokemon_info(find_dex_number(pokemon_dict["RegionalNumbers"]))
+    level_learn_list = ["{{MoveLevelStart|" + dex_data.split(",")[1] + "|" + pokemon_dict["Type1"].title() + "|"
                         + second_type + "}}"]
 
     # Learners are stored in a comma-separated single line.
@@ -457,7 +500,7 @@ def create_level_learn_list(pokemon_dict):
         else:
             level_learn_list.append("{{MoveLevel+|" + moves[x] + "|" + move_data[0] + "}}")
 
-    level_learn_list.append("{{MoveLevelEnd|" + pokemon_dict["Name"].title() + "|" + pokemon_dict["Type1"].title() + "|"
+    level_learn_list.append("{{MoveLevelEnd|" + dex_data.split(",")[1] + "|" + pokemon_dict["Type1"].title() + "|"
                             + second_type + "}}")
 
     return level_learn_list
@@ -475,7 +518,8 @@ def create_tm_learn_list(pokemon_dict, tm_list):
     second_type = pokemon_dict["Type2"].title() if "Type2" in pokemon_dict else pokemon_dict["Type1"].title()
 
     # Initialises the TM box
-    tm_learn_list = ["{{MoveTMStart|" + pokemon_dict["Name"].title() + "|" + pokemon_dict["Type1"].title() + "|"
+    dex_data = pokemon_info(find_dex_number(pokemon_dict["RegionalNumbers"]))
+    tm_learn_list = ["{{MoveTMStart|" + dex_data.split(",")[1] + "|" + pokemon_dict["Type1"].title() + "|"
                      + second_type + "}}"]
 
     # tm_list contains every TM teachable to this Pokémon
@@ -489,7 +533,7 @@ def create_tm_learn_list(pokemon_dict, tm_list):
         else:
             tm_learn_list.append("{{MoveTM+|TM" + tm_data[0] + "}}")
 
-    tm_learn_list.append("{{MoveTMEnd|" + pokemon_dict["Name"].title() + "|" + pokemon_dict["Type1"].title() + "|"
+    tm_learn_list.append("{{MoveTMEnd|" + dex_data.split(",")[1] + "|" + pokemon_dict["Type1"].title() + "|"
                          + second_type + "}}")
 
     return tm_learn_list
@@ -506,7 +550,9 @@ def create_breeding_learn_list(pokemon_dict):
     # Box colouring a bit different for move boxes, second type is either unique or the first type repeated
     second_type = pokemon_dict["Type2"].title() if "Type2" in pokemon_dict else pokemon_dict["Type1"].title()
 
-    breeding_learn_list = ["{{MoveBreedStart|" + pokemon_dict["Name"].title() + "|" + pokemon_dict["Type1"].title() +
+    # Initialises the breeding move box
+    dex_data = pokemon_info(find_dex_number(pokemon_dict["RegionalNumbers"]))
+    breeding_learn_list = ["{{MoveBreedStart|" + dex_data.split(",")[1] + "|" + pokemon_dict["Type1"].title() +
                            "|" + second_type + "}}"]
 
     # Not every Pokémon, especially evolutions/legendaries, have egg moves
@@ -538,7 +584,7 @@ def create_breeding_learn_list(pokemon_dict):
     else:
         breeding_learn_list.append("{{MoveBreedNone}}")
 
-    breeding_learn_list.append("{{MoveBreedEnd|" + pokemon_dict["Name"].title() + "|" + pokemon_dict["Type1"].title() +
+    breeding_learn_list.append("{{MoveBreedEnd|" + dex_data.split(",")[1] + "|" + pokemon_dict["Type1"].title() +
                                "|" + second_type + "}}")
 
     return breeding_learn_list
@@ -555,7 +601,9 @@ def create_tutor_learn_list(pokemon_dict, tutor_list):
     # Box colouring a bit different for move boxes, second type is either unique or the first type repeated
     second_type = pokemon_dict["Type2"].title() if "Type2" in pokemon_dict else pokemon_dict["Type1"].title()
 
-    tutor_learn_list = ["{{MoveTutorStart|" + pokemon_dict["Name"].title() + "|" + pokemon_dict["Type1"].title() + "|" +
+    # Initialises the tutor learn list box
+    dex_data = pokemon_info(find_dex_number(pokemon_dict["RegionalNumbers"]))
+    tutor_learn_list = ["{{MoveTutorStart|" + dex_data.split(",")[1] + "|" + pokemon_dict["Type1"].title() + "|" +
                         second_type + "}}"]
 
     tutor_moves = []
@@ -573,7 +621,7 @@ def create_tutor_learn_list(pokemon_dict, tutor_list):
     for line in sorted(tutor_moves):
         tutor_learn_list.append(line)
 
-    tutor_learn_list.append("{{MoveTutorEnd|" + pokemon_dict["Name"].title() + "|" + pokemon_dict["Type1"].title() + "|"
+    tutor_learn_list.append("{{MoveTutorEnd|" + dex_data.split(",")[1] + "|" + pokemon_dict["Type1"].title() + "|"
                             + second_type + "}}")
 
     return tutor_learn_list
@@ -588,7 +636,8 @@ def create_sprites(pokemon_dict):
     """
     second_type = pokemon_dict["Type2"].title() if "Type2" in pokemon_dict else pokemon_dict["Type1"].title()
 
-    sprites = ("{{sprites|name=" + pokemon_dict["Name"].title() + "|type=" + pokemon_dict["Type1"].title() + "|type2=" +
+    dex_data = pokemon_info(find_dex_number(pokemon_dict["RegionalNumbers"]))
+    sprites = ("{{sprites|name=" + dex_data.split(",")[1] + "|type=" + pokemon_dict["Type1"].title() + "|type2=" +
                second_type + "}}")
 
     return sprites
