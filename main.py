@@ -160,23 +160,27 @@ def get_tm_tutor_data(name):
         tm_list = []
         tutor_list = []
 
-        # Iterating through all the tm.txt data
-        for x in range(4, len(line_list)):
+        # Iterates through all the TM data, which are contained in lines 5 to 193, every other line being a new move
+        for x in range(4, 193, 2):
+            # All Pokémon that learn a tm/tutor move are stored on a single, comma-separated line
             names = line_list[x].split(",")
 
+            # Because X or other form pokemon also will contain the same name (e.g.: SHYLEONX has SHYLEON in it),
+            # this ensures only exact matches to the given internal name are selected.
             matches = set(names).intersection({name.upper()})
+
+            # If said Pokémon learns any TM moves, add them to the TM list
             if len(matches) > 0:
+                tm_list.append(line_list[x-1].strip("[]"))
 
-                # The highest TM is dark pulse, at 95
-                if ((x/2) - 1) < 96:
-                    if (x/2 - 1) // 10 > 0:
-                        tm_list.append(str(int((x/2) - 1)))
-                    else:
-                        tm_list.append("0" + str(int((x/2) - 1)))
+        # Everything else is a tutor move, but with random headers and order, so we look at every line
+        for x in range(193, len(line_list)):
+            names = line_list[x].split(",")
+            matches = set(names).intersection({name.upper()})
 
-                # Otherwise, it can only be taught at move tutor
-                else:
-                    tutor_list.append(line_list[x-1].strip("[]").title())
+            # If said Pokémon learns any tutor moves, add them to the tutor list
+            if len(matches) > 0:
+                tutor_list.append(line_list[x-1].strip("[]"))
 
         return tm_list, tutor_list
 # endregion
@@ -360,19 +364,19 @@ def create_wild_items(pokemon_dict):
     if (check_values_exists(pokemon_dict, "WildItemCommon", "WildItemUncommon", "WildItemRare")
             and (pokemon_dict["WildItemCommon"] == pokemon_dict["WildItemUncommon"]
                  and pokemon_dict["WildItemUncommon"] == pokemon_dict["WildItemRare"])):
-        item = item_info(pokemon_dict["WildItemCommon"].title())
+        item = item_info(pokemon_dict["WildItemCommon"])
         wild_items.append("|always = {{Item|" + item + "}} [[" + item + "]]")
 
     # Otherwise, adds the relevant information as necessary
     else:
         if "WildItemCommon" in pokemon_dict:
-            item = item_info(pokemon_dict["WildItemCommon"].title())
+            item = item_info(pokemon_dict["WildItemCommon"])
             wild_items.append("|common = {{Item|" + item + "}} [[" + item + "]]")
         if "WildItemUncommon" in pokemon_dict:
-            item = item_info(pokemon_dict["WildItemUncommon"].title())
+            item = item_info(pokemon_dict["WildItemUncommon"])
             wild_items.append("|uncommon = {{Item|" + item + "}} [[" + item + "]]")
         if "WildItemRare" in pokemon_dict:
-            item = item_info(pokemon_dict["WildItemRare"].title())
+            item = item_info(pokemon_dict["WildItemRare"])
             wild_items.append("|rare = {{Item|" + item + "}} [[" + item + "]]")
 
     # Close box
@@ -445,7 +449,7 @@ def create_level_learn_list(pokemon_dict):
     # Stored in the form: level, MOVENAME; so new move information only starts on every other line.
     for x in range(0, len(moves)-1, 2):
         # Gets the related data from move_info.json
-        move_data = move_info(moves[x+1].title()).split(",")
+        move_data = move_info(moves[x+1]).split(",")
 
         # Adds moves to the box, accounting for STAB, and using the real name from the JSON file
         if move_data[1] == "yes" and (move_data[2] == pokemon_dict["Type1"].title() or move_data[2] == second_type):
@@ -475,15 +479,15 @@ def create_tm_learn_list(pokemon_dict, tm_list):
                      + second_type + "}}"]
 
     # tm_list contains every TM teachable to this Pokémon
-    for num in tm_list:
+    for move in tm_list:
         # Gets the related data from move_info.json
-        tm_data = tm_info(num).split(",")
+        tm_data = tm_info(move).split(",")
 
         # Adds the move to the box accounting for STAB. TMs use TM number, not the name of the move
-        if (tm_data[0] == "yes") and (tm_data[1] == pokemon_dict["Type1"].title() or tm_data[1] == second_type):
-            tm_learn_list.append("{{MoveTM+|TM" + num + "|'''}}")
+        if (tm_data[1] == "yes") and (tm_data[2] == pokemon_dict["Type1"].title() or tm_data[2] == second_type):
+            tm_learn_list.append("{{MoveTM+|TM" + tm_data[0] + "|'''}}")
         else:
-            tm_learn_list.append("{{MoveTM+|TM" + num + "}}")
+            tm_learn_list.append("{{MoveTM+|TM" + tm_data[0] + "}}")
 
     tm_learn_list.append("{{MoveTMEnd|" + pokemon_dict["Name"].title() + "|" + pokemon_dict["Type1"].title() + "|"
                          + second_type + "}}")
@@ -518,7 +522,7 @@ def create_breeding_learn_list(pokemon_dict):
 
         for move in egg_moves:
             # Gets the related data from move_info.json
-            move_data = move_info(move.title()).split(",")
+            move_data = move_info(move).split(",")
 
             # Adds to the breeding moves array accounting for STAB
             if (move_data[1] == "yes") and (move_data[2] == pokemon_dict["Type1"].title() or move_data[2] == second_type):
