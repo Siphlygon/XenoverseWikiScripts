@@ -1,0 +1,10 @@
+{
+    "Genderless": "255",
+    "Unknown": "256",
+    "AlwaysFemale": "254",
+    "Female75Percent": "191",
+    "Female50Percent": "127",
+    "Female25Percent": "63",
+    "FemaleOneEighth": "31",
+    "AlwaysMale": "0"
+}
