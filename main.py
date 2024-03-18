@@ -1,23 +1,42 @@
 # -*- coding: utf-8 -*-
-# pylint: disable=locally-disabled, too-many-lines
+# pylint: disable=locally-disabled, too-many-lines, line-too-long
 """
-Created on Sat Mar 16 00:03:52 2024
+Create Pokémon page script for the Pokémon Xenoverse Wiki.
+
+Reads in a given internal name matching a Pokémon in the game data for Pokémon Xenoverse. Contains a copy of the
+relevant game files for use and access, and a set of custom reference dictionaries matching strings in the game data to
+associated information.
+
+Prints lines in the style of the Pokémon Xenoverse Wiki code. These can be copied and pasted straight onto the wiki page
+and will render correctly.
+
+Elements still to implement:
+- header & footer
+- availability
+  * including wild encounters
+  * and static encounters
+- egg move fathers
+- evolution
+  * in the evolution box at the end of the page
+  * in indicating future STAB in the move learn lists
+  * in the opening paragraph box
+- pokédex entries (may not be possible in English)
+- separate forms (may choose not to implement)
 
 @author: Siphlygon
+Last Updated: 18th March 2024
 """
 
 import json
 
 
+# region Reference Dictionaries
 def gender_code(gender):
     """
     Accesses dictionary of gender codes.
 
-    Args:
-        gender (string): The gender represented in pokemon.txt
-
-    Returns:
-        string: The corresponding gender code.
+    :param string gender: The growth rate represented in pokemon.txt.
+    :return string: The corresponding gender code.
     """
     with open('references/gender_codes.json') as f:
         switch = json.load(f)
@@ -28,11 +47,8 @@ def growth_rate(rate):
     """
     Accesses dictionary of growth rates.
 
-    Args:
-        rate (string): The growth rate represented in pokemon.txt
-
-    Returns:
-        string: The corresponding growth rate.
+    :param string rate: The growth rate represented in pokemon.txt.
+    :return string: The corresponding growth rate.
     """
     with open('references/growth_rate.json') as f:
         switch = json.load(f)
@@ -43,11 +59,8 @@ def tm_info(number):
     """
     Accesses dictionary of TM info.
 
-    Args:
-        number (string): The TM number
-
-    Returns:
-        string: canHaveStab,Type
+    :param string number: The TM number.
+    :return string: The corresponding TM info, in the form "canHaveStab,Type".
     """
     with open('references/tm_info.json') as f:
         switch = json.load(f)
@@ -56,13 +69,10 @@ def tm_info(number):
 
 def move_info(move):
     """
-    Accesses dictionary of moves.
+    Accesses dictionary of move info.
 
-    Args:
-        move (string): The move represented in pokemon.txt and tm.txt in title case.
-
-    Returns:
-        string: MoveName,canHaveSTAB,type
+    :param string move: The move represented in pokemon.txt and tm.txt in title case.
+    :return string: The corresponding move info, in the form "MoveName,canHaveSTAB,type".
     """
     with open('references/move_info.json') as f:
         switch = json.load(f)
@@ -71,43 +81,41 @@ def move_info(move):
 
 def item_info(item):
     """
-    Accesses dictionary of held items.
+    Accesses dictionary of item info.
 
-    Args:
-        item (string): The held item represented in pokemon.txt
-
-    Returns:
-        string: The real, English name of the held item.
+    :param string item: The held item represented in pokemon.txt.
+    :return string: The real, English name of the held item.
     """
     with open('references/item_info.json') as f:
         switch = json.load(f)
     return switch.get(item)
+# endregion
+
 
 # region Data Collection Methods
 def get_pokemon_data(name):
-    """Given the internal name of a Pokémon, extracts and returns all information in pokemon.txt for
-    that Pokémon.
-
-    Args:
-        name (string): The internal name of a Pokémon.
-
-    Returns:
-        dict: A dictionary containing all relevant information in pokemon.txt
     """
+    Given the internal name of a Pokémon, extracts and returns all information in pokemon.txt for that Pokémon.
 
+    :param string name: The internal name of a Pokémon.
+    :return dict: A dictionary containing all relevant information found in pokemon.txt.
+    """
     with open("gamedata/pokemon.txt", encoding="utf8") as file:
-        # Grabs the line
+        # Accesses all lines w/o trailing spaces
         line_list = [item.rstrip() for item in file.readlines()]
 
-        # Contains all the lines including data about the Pokémon
+        # Initialises empty array & bool
         raw_data = []
-
         found_pokemon = False
+
+        # Iterating through all the pokemon.txt data
         for x in range(0, len(line_list)):
 
-            # Found the Pokémon we're looking for and it's related data
+            # Indicates we found the right section of the file. InternalNames are unique.
             if line_list[x] == "InternalName=" + name.upper():
                 found_pokemon = True
+
+                # The InternalName line is the 2nd line of the section we care about, grabs the first.
                 raw_data = line_list[x-1:x]
                 continue
 
@@ -117,41 +125,46 @@ def get_pokemon_data(name):
 
                 # Indicates the start of the next Pokémon's data - stop here
                 if "InternalName" in line_list[x]:
-                    found_pokemon = False
+                    # Size of Pokémon sections are not constant, but the next InternalName is always 3 lines too far.
                     raw_data.remove(line_list[x])
                     raw_data.remove(line_list[x-1])
                     raw_data.remove(line_list[x-2])
                     break
 
         # Convert into a dictionary of key:value pair for easy access
+        # Keys are line starters e.g., "Happiness", values are the associated data, often including commas
         pokemon_dict = {key: value for line in raw_data for key,
                         value in [line.split('=', 1)]}
 
+        # Sound typing is referred to as "Suono" in the game files (Italian)
         if pokemon_dict["Type1"] == "SUONO":
             pokemon_dict["Type1"] = "SOUND"
-        if "Type2" in pokemon_dict:
-            if pokemon_dict["Type2"] == "SUONO":
-                pokemon_dict["Type2"] = "SOUND"
+        if "Type2" in pokemon_dict and pokemon_dict["Type2"] == "SUONO":
+            pokemon_dict["Type2"] = "SOUND"
 
         return pokemon_dict
 
 
 def get_tm_tutor_data(name):
+    """
+    Given the internal name of a Pokémon, extracts and returns all information in tm.txt for that Pokémon.
 
+    :param string name: The internal name of a Pokémon.
+    :return list|list: The list of TMs learnable, and the list of tutor moves learnable.
+    """
     with open("gamedata/tm.txt", encoding="utf8") as file:
-        # Grabs the line
+        # Accesses all lines w/o trailing spaces
         line_list = [item.rstrip() for item in file.readlines()]
 
-        # Contains all the lines including data about the Pokémon
+        # Initialise empty arrays
         tm_list = []
         tutor_list = []
 
-        for x in range(0, len(line_list)):
+        # Iterating through all the tm.txt data
+        for x in range(4, len(line_list)):
             names = line_list[x].split(",")
 
-            matches = set(names).intersection(set([name.upper()]))
-            # If a TM, adds TM num & name
-            # if name.upper() in line_list[x]:
+            matches = set(names).intersection({name.upper()})
             if len(matches) > 0:
 
                 # The highest TM is dark pulse, at 95
@@ -168,14 +181,57 @@ def get_tm_tutor_data(name):
         return tm_list, tutor_list
 # endregion
 
+
+# region Common Functions
+def make_three_digits(digits):
+    """
+    Converts a string of digits, specifically dex numbers, to a 3-digit string.
+
+    :param string digits: The digits in the form of a string.
+    :return string: The given string in 3-digit form.
+    """
+    # If a 3-digit number is already passed to this function, just return
+    if len(digits) == 3:
+        return digits
+
+    # Accounts for Alolan/other forms of form "XXX_1" or w/e.
+    # The extra "_1" is ignored --> wiki pages never use them
+    curr_digits = digits if "_" not in digits else digits.split("_")[0]
+
+    new_digits = ""
+    # Add 0s as necessary to make it 3 digits:
+    if len(curr_digits) == 1:
+        new_digits = "00" + curr_digits
+    if len(curr_digits) == 2:
+        new_digits = "0" + curr_digits
+
+    return new_digits
+
+
+def check_values_exists(test_dict, *values):
+    """
+    Checks if any number of values exist in a given dictionary.
+
+    :param dict test_dict: The dictionary to test.
+    :param values: The values that are being looked for.
+    :return bool: If specified values are in the given dictionary.
+    """
+    return all(v in test_dict for v in values)
+# endregion
+
+
 # region Create Wiki Elements
 def create_infobox(pokemon_dict):
-    infobox = []
+    """
+    Creates the infobox for the Pokémon given relevant information.
 
-    infobox.append("{{Pokemon Infobox")
+    :param dict[str, str] pokemon_dict: The full Pokémon information as a dictionary.
+    :return list[str]: The wiki code to produce the infobox.
+    """
+    # Initialise the infobox
+    infobox = ["{{Pokemon Infobox", "|type1 = " + pokemon_dict["Type1"].title()]
 
-    # Typing
-    infobox.append("|type1 = " + pokemon_dict["Type1"].title())
+    # Typing for colouring
     if "Type2" in pokemon_dict:
         infobox.append("|type2 = " + pokemon_dict["Type2"].title())
 
@@ -186,26 +242,11 @@ def create_infobox(pokemon_dict):
     # Dex & Image
     dex_nums = pokemon_dict["RegionalNumbers"].split(",")
     if dex_nums[0] != "0":
-        if len(dex_nums[0]) == 1:
-            infobox.append("|ndex = 00" + dex_nums[0])
-        elif len(dex_nums[0]) == 2:
-            infobox.append("|ndex = 0" + dex_nums[0])
-        else:
-            infobox.append("|ndex = " + dex_nums[0])
+        infobox.append("|ndex = " + make_three_digits(dex_nums[0]))
     elif dex_nums[1] != "0":
-        if len(dex_nums[1]) == 1:
-            infobox.append("|ndex = X00" + dex_nums[1])
-        elif len(dex_nums[1]) == 2:
-            infobox.append("|ndex = X0" + dex_nums[1])
-        else:
-            infobox.append("|ndex = X" + dex_nums[1])
+        infobox.append("|ndex = X" + make_three_digits(dex_nums[0]))
     else:
-        if len(dex_nums[2]) == 1:
-            infobox.append("|ndex = V00" + dex_nums[2])
-        elif len(dex_nums[2]) == 2:
-            infobox.append("|ndex = V0" + dex_nums[2])
-        else:
-            infobox.append("|ndex = V" + dex_nums[2])
+        infobox.append("|ndex = V" + make_three_digits(dex_nums[0]))
     infobox.append("|image = " + pokemon_dict["Name"] + ".png")
 
     # Abilities
@@ -214,8 +255,7 @@ def create_infobox(pokemon_dict):
     if len(reg_abilities) > 1:
         infobox.append("|ability2 = " + reg_abilities[1].title())
     if "HiddenAbility" in pokemon_dict:
-        infobox.append("|hiddenability = " +
-                       pokemon_dict["HiddenAbility"].title())
+        infobox.append("|hiddenability = " + pokemon_dict["HiddenAbility"].title())
 
     # Gender, Catch Rate
     infobox.append("|gendercode = " + gender_code(pokemon_dict["GenderRate"]))
@@ -240,7 +280,7 @@ def create_infobox(pokemon_dict):
     infobox.append("|color = " + pokemon_dict["Color"])
     infobox.append("|friendship = " + pokemon_dict["Happiness"])
 
-    # Evs
+    # EVs
     evs = pokemon_dict["EffortPoints"].split(",")
     if evs[0] != "0":
         infobox.append("|evhp = " + evs[0])
@@ -262,9 +302,18 @@ def create_infobox(pokemon_dict):
 
 
 def create_opening_paragraph(pokemon_dict):
+    """
+    Creates the opening paragraph for the Pokémon given relevant information.
+
+    :param dict[str, str] pokemon_dict: The full Pokémon information as a dictionary.
+    :return list[str]: The wiki code to produce the opening paragraph.
+    """
     opening_paragraph = []
 
+    # "dual-type" prefixes Pokémon of two types.
     dual_type = "dual-type" if "Type2" in pokemon_dict else ""
+
+    # Creates the relevant type description & link
     typing = "{{Type|" + pokemon_dict["Type1"].title() + "}}/{{Type|" + pokemon_dict["Type2"].title(
     ) + "}}" if "Type2" in pokemon_dict else "{{Type|" + pokemon_dict["Type1"].title() + "}}"
 
@@ -272,17 +321,19 @@ def create_opening_paragraph(pokemon_dict):
     opening_paragraph.append(
         f"'''{pokemon_dict['Name']}''' is a {dual_type} {typing}-type Pokémon.")
 
-    # TODO: ADD EVOLUTIONS HERE
-
     return opening_paragraph
 
 
 # Really no way to do this without knowing italian, just here for posterity
 def create_pokedex_entry(pokemon_dict):
-    pokedex_entry = []
+    """
+    Currently incomplete; just creates an empty Pokédex entry.
 
-    pokedex_entry.append("{{Dex")
-    pokedex_entry.append("|type = " + pokemon_dict["Type1"].title())
+    :param dict[str, str] pokemon_dict: The full Pokémon information as a dictionary.
+    :return list[str]: The wiki code to produce the Pokédex entry.
+    """
+    pokedex_entry = ["{{Dex", "|type = " + pokemon_dict["Type1"].title()]
+
     if "Type2" in pokemon_dict:
         pokedex_entry.append("|type2 = " + pokemon_dict["Type2"].title())
     pokedex_entry.append("''WIP''")
@@ -292,29 +343,34 @@ def create_pokedex_entry(pokemon_dict):
 
 
 def create_wild_items(pokemon_dict):
-    wild_items = []
+    """
+    Creates the wild held item box for the Pokémon given relevant information.
 
-    # Open box & fix colouring
-    wild_items.append("{{HeldItems")
-    wild_items.append("|type = " + pokemon_dict["Type1"].title())
+    :param dict[str, str] pokemon_dict: The full Pokémon information as a dictionary.
+    :return list[str]: The wiki code to produce the wild held item box.
+    """
+    # Initialise the box
+    wild_items = ["{{HeldItems", "|type = " + pokemon_dict["Type1"].title()]
+
+    # Type colouring
     if "Type2" in pokemon_dict:
         wild_items.append("|type2 = " + pokemon_dict["Type2"].title())
 
-    # Add wild item data
-    if "WildItemCommon" in pokemon_dict and "WildItemUncommon" in pokemon_dict and "WildItemRare" in pokemon_dict:
-        if pokemon_dict["WildItemCommon"] == pokemon_dict["WildItemUncommon"] and pokemon_dict["WildItemUncommon"] == pokemon_dict["WildItemRare"]:
-            item = item_info(pokemon_dict["WildItemCommon"].title())
-            wild_items.append(
-                "|always = {{Item|" + item + "}} [[" + item + "]]")
+    # If the same item is listed in all slots, it indicates the Pokémon will always have that item
+    if (check_values_exists(pokemon_dict, "WildItemCommon", "WildItemUncommon", "WildItemRare")
+            and (pokemon_dict["WildItemCommon"] == pokemon_dict["WildItemUncommon"]
+                 and pokemon_dict["WildItemUncommon"] == pokemon_dict["WildItemRare"])):
+        item = item_info(pokemon_dict["WildItemCommon"].title())
+        wild_items.append("|always = {{Item|" + item + "}} [[" + item + "]]")
+
+    # Otherwise, adds the relevant information as necessary
     else:
         if "WildItemCommon" in pokemon_dict:
             item = item_info(pokemon_dict["WildItemCommon"].title())
-            wild_items.append(
-                "|common = {{Item|" + item + "}} [[" + item + "]]")
+            wild_items.append("|common = {{Item|" + item + "}} [[" + item + "]]")
         if "WildItemUncommon" in pokemon_dict:
             item = item_info(pokemon_dict["WildItemUncommon"].title())
-            wild_items.append(
-                "|uncommon = {{Item|" + item + "}} [[" + item + "]]")
+            wild_items.append("|uncommon = {{Item|" + item + "}} [[" + item + "]]")
         if "WildItemRare" in pokemon_dict:
             item = item_info(pokemon_dict["WildItemRare"].title())
             wild_items.append("|rare = {{Item|" + item + "}} [[" + item + "]]")
@@ -326,10 +382,15 @@ def create_wild_items(pokemon_dict):
 
 
 def create_stats(pokemon_dict):
-    stats = []
+    """
+    Creates the stats box for the Pokémon given relevant information.
 
-    stats.append("{{Stats")
-    stats.append("|type = " + pokemon_dict["Type1"].title())
+    :param dict[str, str] pokemon_dict: The full Pokémon information as a dictionary.
+    :return list[str]: The wiki code to produce the stats box.
+    """
+    # Initialises the stats box
+    stats = ["{{Stats", "|type = " + pokemon_dict["Type1"].title()]
+
     if "Type2" in pokemon_dict:
         stats.append("|type2 = " + pokemon_dict["Type2"].title())
 
@@ -349,10 +410,14 @@ def create_stats(pokemon_dict):
 
 # Going to have to fill this in manually
 def create_type_effectiveness(pokemon_dict):
-    type_effectiveness = []
+    """
+    Incomplete, creates an empty type effectiveness box.
 
-    type_effectiveness.append("{{TypeEffectiveness")
-    type_effectiveness.append("|type1 = " + pokemon_dict["Type1"].title())
+    :param dict[str, str] pokemon_dict: The full Pokémon information as a dictionary.
+    :return list[str]: The wiki code to produce the type effectiveness box.
+    """
+    type_effectiveness = ["{{TypeEffectiveness", "|type1 = " + pokemon_dict["Type1"].title()]
+
     if "Type2" in pokemon_dict:
         type_effectiveness.append("|type2 = " + pokemon_dict["Type2"].title())
     type_effectiveness.append("}}")
@@ -360,127 +425,167 @@ def create_type_effectiveness(pokemon_dict):
     return type_effectiveness
 
 
-def create_level_learnlist(pokemon_dict):
-    level_learnlist = []
+def create_level_learn_list(pokemon_dict):
+    """
+    Creates the level learn list for the Pokémon given relevant information.
 
-    second_type = pokemon_dict["Type2"].title(
-    ) if "Type2" in pokemon_dict else pokemon_dict["Type1"].title()
+    :param dict[str, str] pokemon_dict: The full Pokémon information as a dictionary.
+    :return list[str]: The wiki code to produce the level learn list.
+    """
+    # Box colouring a bit different for move boxes, second type is either unique or the first type repeated
+    second_type = pokemon_dict["Type2"].title() if "Type2" in pokemon_dict else pokemon_dict["Type1"].title()
 
-    level_learnlist.append("{{MoveLevelStart|" + pokemon_dict["Name"].title(
-    ) + "|" + pokemon_dict["Type1"].title() + "|" + second_type + "}}")
+    # Create the start of the level learn box.
+    level_learn_list = ["{{MoveLevelStart|" + pokemon_dict["Name"].title() + "|" + pokemon_dict["Type1"].title() + "|"
+                        + second_type + "}}"]
 
+    # Learners are stored in a comma-separated single line.
     moves = pokemon_dict["Moves"].split(",")
+
+    # Stored in the form: level, MOVENAME; so new move information only starts on every other line.
     for x in range(0, len(moves)-1, 2):
-        move_stuff = move_info(moves[x+1].title()).split(",")
-        # print(moves[x+1].title())
+        # Gets the related data from move_info.json
+        move_data = move_info(moves[x+1].title()).split(",")
 
-        if (move_stuff[1] == "yes") and (move_stuff[2] == pokemon_dict["Type1"].title() or move_stuff[2] == second_type):
-            level_learnlist.append(
-                "{{MoveLevel+|" + moves[x] + "|" + move_stuff[0] + "|'''}}")
+        # Adds moves to the box, accounting for STAB, and using the real name from the JSON file
+        if move_data[1] == "yes" and (move_data[2] == pokemon_dict["Type1"].title() or move_data[2] == second_type):
+            level_learn_list.append("{{MoveLevel+|" + moves[x] + "|" + move_data[0] + "|'''}}")
         else:
-            level_learnlist.append(
-                "{{MoveLevel+|" + moves[x] + "|" + move_stuff[0] + "}}")
+            level_learn_list.append("{{MoveLevel+|" + moves[x] + "|" + move_data[0] + "}}")
 
-    level_learnlist.append("{{MoveLevelEnd|" + pokemon_dict["Name"].title(
-    ) + "|" + pokemon_dict["Type1"].title() + "|" + second_type + "}}")
+    level_learn_list.append("{{MoveLevelEnd|" + pokemon_dict["Name"].title() + "|" + pokemon_dict["Type1"].title() + "|"
+                            + second_type + "}}")
 
-    return level_learnlist
+    return level_learn_list
 
 
-def create_tm_learnlist(pokemon_dict, tm_list):
-    tm_learnlist = []
+def create_tm_learn_list(pokemon_dict, tm_list):
+    """
+    Creates the TM learn list for the Pokémon given relevant information.
 
-    second_type = pokemon_dict["Type2"].title(
-    ) if "Type2" in pokemon_dict else pokemon_dict["Type1"].title()
+    :param dict[str, str] pokemon_dict: The full Pokémon information as a dictionary.
+    :param list[str] tm_list: The list of TMs the Pokémon can learn.
+    :return list[str]: The wiki code to produce the TM learn list.
+    """
+    # Box colouring a bit different for move boxes, second type is either unique or the first type repeated
+    second_type = pokemon_dict["Type2"].title() if "Type2" in pokemon_dict else pokemon_dict["Type1"].title()
 
-    tm_learnlist.append("{{MoveTMStart|" + pokemon_dict["Name"].title(
-    ) + "|" + pokemon_dict["Type1"].title() + "|" + second_type + "}}")
+    # Initialises the TM box
+    tm_learn_list = ["{{MoveTMStart|" + pokemon_dict["Name"].title() + "|" + pokemon_dict["Type1"].title() + "|"
+                     + second_type + "}}"]
 
+    # tm_list contains every TM teachable to this Pokémon
     for num in tm_list:
-        tm_stuff = tm_info(num).split(",")
-        if (tm_stuff[0] == "yes") and (tm_stuff[1] == pokemon_dict["Type1"].title() or tm_stuff[1] == second_type):
-            tm_learnlist.append("{{MoveTM+|TM" + num + "|'''}}")
+        # Gets the related data from move_info.json
+        tm_data = tm_info(num).split(",")
+
+        # Adds the move to the box accounting for STAB. TMs use TM number, not the name of the move
+        if (tm_data[0] == "yes") and (tm_data[1] == pokemon_dict["Type1"].title() or tm_data[1] == second_type):
+            tm_learn_list.append("{{MoveTM+|TM" + num + "|'''}}")
         else:
-            tm_learnlist.append("{{MoveTM+|TM" + num + "}}")
+            tm_learn_list.append("{{MoveTM+|TM" + num + "}}")
 
-    tm_learnlist.append("{{MoveTMEnd|" + pokemon_dict["Name"].title(
-    ) + "|" + pokemon_dict["Type1"].title() + "|" + second_type + "}}")
+    tm_learn_list.append("{{MoveTMEnd|" + pokemon_dict["Name"].title() + "|" + pokemon_dict["Type1"].title() + "|"
+                         + second_type + "}}")
 
-    return tm_learnlist
+    return tm_learn_list
 
 
-def create_breeding_learnlist(pokemon_dict):
-    breeding_learnlist = []
+def create_breeding_learn_list(pokemon_dict):
+    """
+    Creates the breeding learn list for the Pokémon given relevant information. N.b., breeding moves and egg moves mean
+    the same thing; but the former is preferred for the wiki, and the latter is preferred in game data.
 
-    second_type = pokemon_dict["Type2"].title(
-    ) if "Type2" in pokemon_dict else pokemon_dict["Type1"].title()
+    :param dict[str, str] pokemon_dict: The full Pokémon information as a dictionary.
+    :return list[str]: The wiki code to produce the breeding learn list.
+    """
+    # Box colouring a bit different for move boxes, second type is either unique or the first type repeated
+    second_type = pokemon_dict["Type2"].title() if "Type2" in pokemon_dict else pokemon_dict["Type1"].title()
 
-    breeding_learnlist.append("{{MoveBreedStart|" + pokemon_dict["Name"].title(
-    ) + "|" + pokemon_dict["Type1"].title() + "|" + second_type + "}}")
+    breeding_learn_list = ["{{MoveBreedStart|" + pokemon_dict["Name"].title() + "|" + pokemon_dict["Type1"].title() +
+                           "|" + second_type + "}}"]
 
+    # Not every Pokémon, especially evolutions/legendaries, have egg moves
     if "EggMoves" in pokemon_dict:
+        # Egg moves are stored together on one line, separated by commas
         egg_moves = pokemon_dict["EggMoves"].split(",")
+
+        # All Field egg group Pokémon can get every egg move from Smeargle father, indicated here
+        breed_string = "{{EM|107|Smeargle}} '''WIP'''" if "Field" in pokemon_dict["Compatibility"] else "'''WIP'''"
+
+        # Initialise array to hold the real names of the egg moves
         breeding_moves = []
 
-        breed_string = "{{EM|107|Smeargle}} '''WIP'''" if "Field" in pokemon_dict[
-            "Compatibility"] else "'''WIP'''"
-
         for move in egg_moves:
-            # print(move.title())
-            egg_stuff = move_info(move.title()).split(",")
-            if (egg_stuff[1] == "yes") and (egg_stuff[2] == pokemon_dict["Type1"].title() or egg_stuff[2] == second_type):
-                breeding_moves.append(
-                    "{{MoveBreed+|" + breed_string + "|" + egg_stuff[0] + "|'''}}")
+            # Gets the related data from move_info.json
+            move_data = move_info(move.title()).split(",")
+
+            # Adds to the breeding moves array accounting for STAB
+            if (move_data[1] == "yes") and (move_data[2] == pokemon_dict["Type1"].title() or move_data[2] == second_type):
+                breeding_moves.append("{{MoveBreed+|" + breed_string + "|" + move_data[0] + "|'''}}")
             else:
-                breeding_moves.append(
-                    "{{MoveBreed+|" + breed_string + "|" + egg_stuff[0] + "}}")
+                breeding_moves.append("{{MoveBreed+|" + breed_string + "|" + move_data[0] + "}}")
 
+        # Egg moves are stored in odd orders in the game data, this sorts them alphabetically.
         for line in sorted(breeding_moves):
-            breeding_learnlist.append(line)
+            breeding_learn_list.append(line)
+
+    # Otherwise, indicate there are no egg moves
     else:
-        breeding_learnlist.append("{{MoveBreedNone}}")
+        breeding_learn_list.append("{{MoveBreedNone}}")
 
-    breeding_learnlist.append("{{MoveBreedEnd|" + pokemon_dict["Name"].title(
-    ) + "|" + pokemon_dict["Type1"].title() + "|" + second_type + "}}")
+    breeding_learn_list.append("{{MoveBreedEnd|" + pokemon_dict["Name"].title() + "|" + pokemon_dict["Type1"].title() +
+                               "|" + second_type + "}}")
 
-    return breeding_learnlist
+    return breeding_learn_list
 
 
-def create_tutor_learnlist(pokemon_dict, tutor_list):
-    tutor_learnlist = []
+def create_tutor_learn_list(pokemon_dict, tutor_list):
+    """
+    Creates the tutor learn list for the Pokémon given relevant information.
 
-    second_type = pokemon_dict["Type2"].title(
-    ) if "Type2" in pokemon_dict else pokemon_dict["Type1"].title()
+    :param dict[str, str] pokemon_dict: The full Pokémon information as a dictionary.
+    :param list[str] tutor_list: The list of tutor moves the Pokémon can learn.
+    :return list[str]: The wiki code to produce the tutor learn list.
+    """
+    # Box colouring a bit different for move boxes, second type is either unique or the first type repeated
+    second_type = pokemon_dict["Type2"].title() if "Type2" in pokemon_dict else pokemon_dict["Type1"].title()
 
-    tutor_learnlist.append("{{MoveTutorStart|" + pokemon_dict["Name"].title(
-    ) + "|" + pokemon_dict["Type1"].title() + "|" + second_type + "}}")
+    tutor_learn_list = ["{{MoveTutorStart|" + pokemon_dict["Name"].title() + "|" + pokemon_dict["Type1"].title() + "|" +
+                        second_type + "}}"]
 
     tutor_moves = []
     for move in tutor_list:
-        move_stuff = move_info(move).split(",")
-        # print(move.title())
-        if (move_stuff[1] == "yes") and (move_stuff[2] == pokemon_dict["Type1"].title() or move_stuff[2] == second_type):
-            tutor_moves.append(
-                "{{MoveTutor+|" + move_stuff[0] + "|'''|Varies}}")
+        # Gets the relevant information from move_info.json
+        move_data = move_info(move).split(",")
+
+        # Adds to tutor moves account for STAB. Tutor price is a column currently not utilised, but "Varies" is used
+        if (move_data[1] == "yes") and (move_data[2] == pokemon_dict["Type1"].title() or move_data[2] == second_type):
+            tutor_moves.append("{{MoveTutor+|" + move_data[0] + "|'''|Varies}}")
         else:
-            tutor_moves.append(
-                "{{MoveTutor+|" + move_stuff[0] + "||Varies}}")
+            tutor_moves.append("{{MoveTutor+|" + move_data[0] + "||Varies}}")
 
+    # Similarly to egg moves, tutor moves are not in any order; we choose alphabetical
     for line in sorted(tutor_moves):
-        tutor_learnlist.append(line)
+        tutor_learn_list.append(line)
 
-    tutor_learnlist.append("{{MoveTutorEnd|" + pokemon_dict["Name"].title(
-    ) + "|" + pokemon_dict["Type1"].title() + "|" + second_type + "}}")
+    tutor_learn_list.append("{{MoveTutorEnd|" + pokemon_dict["Name"].title() + "|" + pokemon_dict["Type1"].title() + "|"
+                            + second_type + "}}")
 
-    return tutor_learnlist
+    return tutor_learn_list
 
 
 def create_sprites(pokemon_dict):
+    """
+    Creates the sprite string for the Pokémon given relevant information.
 
-    second_type = pokemon_dict["Type2"].title(
-    ) if "Type2" in pokemon_dict else pokemon_dict["Type1"].title()
-    sprites = "{{sprites|name=" + pokemon_dict["Name"].title(
-    ) + "|type=" + pokemon_dict["Type1"].title() + "|type2=" + second_type + "}}"
+    :param dict[str, str] pokemon_dict: The full Pokémon information as a dictionary.
+    :return list[str]: The wiki code to produce the sprite string.
+    """
+    second_type = pokemon_dict["Type2"].title() if "Type2" in pokemon_dict else pokemon_dict["Type1"].title()
+
+    sprites = ("{{sprites|name=" + pokemon_dict["Name"].title() + "|type=" + pokemon_dict["Type1"].title() + "|type2=" +
+               second_type + "}}")
 
     return sprites
 # endregion
@@ -488,8 +593,7 @@ def create_sprites(pokemon_dict):
 
 def main():
     # Get the name of the Pokémon for the wiki page
-    print()
-    internal_name = input("Input the name of the pokemon: ")
+    internal_name = input("\nInput the name of the pokemon: ")
 
     # Get pokemon, move, and location data
     pokemon_data = get_pokemon_data(internal_name)
@@ -502,10 +606,10 @@ def main():
     held_items = create_wild_items(pokemon_data)
     base_stats = create_stats(pokemon_data)
     type_eff = create_type_effectiveness(pokemon_data)
-    level_learnset = create_level_learnlist(pokemon_data)
-    tm_learnset = create_tm_learnlist(pokemon_data, tm_data)
-    egg_learnset = create_breeding_learnlist(pokemon_data)
-    tutor_learnset = create_tutor_learnlist(pokemon_data, tutor_data)
+    level_learn_set = create_level_learn_list(pokemon_data)
+    tm_learn_set = create_tm_learn_list(pokemon_data, tm_data)
+    egg_learn_set = create_breeding_learn_list(pokemon_data)
+    tutor_learn_set = create_tutor_learn_list(pokemon_data, tutor_data)
     sprite_string = create_sprites(pokemon_data)
 
     # Adding it all together
@@ -541,19 +645,19 @@ def main():
 
     wiki_page.append("=='''Learnset'''==")
     wiki_page.append("==='''By leveling up'''===")
-    for line in level_learnset:
+    for line in level_learn_set:
         wiki_page.append(str(line))
 
     wiki_page.append("==='''By TM/HM'''===")
-    for line in tm_learnset:
+    for line in tm_learn_set:
         wiki_page.append(str(line))
 
     wiki_page.append("==='''By breeding'''===")
-    for line in egg_learnset:
+    for line in egg_learn_set:
         wiki_page.append(str(line))
 
     wiki_page.append("==='''By tutoring'''===")
-    for line in tutor_learnset:
+    for line in tutor_learn_set:
         wiki_page.append(str(line))
 
     wiki_page.append("=='''Sprites'''==")
