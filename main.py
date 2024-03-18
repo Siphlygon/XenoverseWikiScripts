@@ -265,6 +265,64 @@ def find_dex_number(regional_numbers):
 
 
 # region Create Wiki Elements
+def create_header_footer(pokemon_dict):
+    """
+    Creates the header/footer for the Pokémon given relevant information.
+
+    :param dict[str, str] pokemon_dict: The full Pokémon information as a dictionary.
+    :return list[str]: The wiki code to produce the header/footer.
+    """
+    head_foot = ["{{PokemonPrevNextHead", "|type = " + pokemon_dict["Type1"].title()]
+
+    # Typing
+    if "Type2" in pokemon_dict:
+        head_foot.append("|type2 = " + pokemon_dict["Type2"].title())
+
+    # Get the dex number of the current Pokémon
+    dex_num = find_dex_number(pokemon_dict["RegionalNumbers"])
+
+    if dex_num[0] == "X":
+        num = dex_num[1:4]
+        if int(num) > 0:
+            head_foot.append("|prev = " + pokemon_info("X" + make_three_digits(str(int(num)-1))).split(",")[1])
+            head_foot.append("|prevnum = X" + make_three_digits(str(int(num)-1)))
+        else:
+            head_foot.append("|prev = " + pokemon_info("583").split(",")[1])
+            head_foot.append("|prevnum = 583")
+        if int(num) < 44:
+            head_foot.append("|next = " + pokemon_info("X" + make_three_digits(str(int(num)+1))).split(",")[1])
+            head_foot.append("|nextnum = X" + make_three_digits(str(int(num)+1)))
+        else:
+            head_foot.append("|next = " + pokemon_info("V001").split(",")[1])
+            head_foot.append("|nextnum = V001")
+    elif dex_num[0] == "V":
+        num = dex_num[1:4]
+        if int(num) > 0:
+            head_foot.append("|prev = " + pokemon_info("V" + make_three_digits(str(int(num)-1))).split(",")[1])
+            head_foot.append("|prevnum = V" + make_three_digits(str(int(num)-1)))
+        else:
+            head_foot.append("|prev = " + pokemon_info("X044").split(",")[1])
+            head_foot.append("|prevnum = X044")
+        if int(num) < 207:
+            head_foot.append("|next = " + pokemon_info("V" + make_three_digits(str(int(num)+1))).split(",")[1])
+            head_foot.append("|nextnum = V" + make_three_digits(str(int(num)+1)))
+    else:
+        num = dex_num[:3]
+        if int(num) > 0:
+            head_foot.append("|prev = " + pokemon_info(make_three_digits(str(int(num)-1))).split(",")[1])
+            head_foot.append("|prevnum = " + make_three_digits(str(int(num)-1)))
+        if int(num) < 583:
+            head_foot.append("|next = " + pokemon_info(make_three_digits(str(int(num)+1))).split(",")[1])
+            head_foot.append("|nextnum = " + make_three_digits(str(int(num)+1)))
+        else:
+            head_foot.append("|next = " + pokemon_info("X001").split(",")[1])
+            head_foot.append("|nextnum = X001")
+
+    head_foot.append("}}")
+
+    return head_foot
+
+
 def create_infobox(pokemon_dict):
     """
     Creates the infobox for the Pokémon given relevant information.
@@ -280,19 +338,13 @@ def create_infobox(pokemon_dict):
         infobox.append("|type2 = " + pokemon_dict["Type2"].title())
 
     # Name, Species
-    print(find_dex_number(pokemon_dict["RegionalNumbers"]))
     dex_data = pokemon_info(find_dex_number(pokemon_dict["RegionalNumbers"]))
     infobox.append("|name = " + dex_data.split(",")[1])
     infobox.append("|species = Species Name")
 
     # Dex & Image
-    dex_nums = pokemon_dict["RegionalNumbers"].split(",")
-    if dex_nums[0] != "0":
-        infobox.append("|ndex = " + make_three_digits(dex_nums[0]))
-    elif dex_nums[1] != "0":
-        infobox.append("|ndex = X" + make_three_digits(dex_nums[1]))
-    else:
-        infobox.append("|ndex = V" + make_three_digits(dex_nums[2]))
+    dex_nums = find_dex_number(pokemon_dict["RegionalNumbers"])
+    infobox.append("|ndex = " + dex_nums)
     infobox.append("|image = " + pokemon_dict["Name"] + ".png")
 
     # Abilities
@@ -653,6 +705,7 @@ def main():
     tm_data, tutor_data = get_tm_tutor_data(internal_name)
 
     # Create the necessary components of the pokemon wiki page
+    header_footer = create_header_footer(pokemon_data)
     info_box = create_infobox(pokemon_data)
     open_para = create_opening_paragraph(pokemon_data)
     dex_entry = create_pokedex_entry(pokemon_data,)
@@ -668,6 +721,8 @@ def main():
     # Adding it all together
     wiki_page = []
 
+    for line in header_footer:
+        wiki_page.append(str(line))
     for line in info_box:
         wiki_page.append(str(line))
     for line in open_para:
@@ -718,6 +773,8 @@ def main():
 
     wiki_page.append("")
     wiki_page.append("")
+    for line in header_footer:
+        wiki_page.append(str(line))
 
     for line in wiki_page:
         print(line)
