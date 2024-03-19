@@ -12,26 +12,28 @@ and will render correctly.
 
 NOTE: VintageDex functionality is not complete, not a priority until all important information for main dex & XenoDex
 are complete.
+I have chosen not to add multiple form functionality, both due to its sparcity and the difficulty of retrieving related
+information (they are not in the standard text files).
 
 Elements still to implement:
-- header & footer
 - species (may not be possible in English)
 - availability
-  * including wild encounters
-  * and static encounters
+  * static encounters
+  * breeding & evolution
 - egg move fathers
 - evolution
   * in the evolution box at the end of the page
   * in indicating future STAB in the move learn lists
   * in the opening paragraph box
 - pokédex entries (may not be possible in English)
-- separate forms (may choose not to implement)
 
 @author: Siphlygon
 Last Updated: 18th March 2024
 """
 
 import json
+import logging
+import traceback
 
 
 # region Reference Dictionaries
@@ -97,14 +99,28 @@ def item_info(item):
 
 def pokemon_info(dex):
     """
-        Accesses dictionary of Pokémon info.
+    Accesses dictionary of Pokémon info.
 
-        :param string dex: The dex number relating to the Pokémon.
-        :return string: The corresponding Pokémon info, as: "INTERNALNAME, displayName".
-        """
+    :param string dex: The dex number relating to the Pokémon.
+    :return string: The corresponding Pokémon info, as: "INTERNALNAME, displayName".
+    """
     with open('references/pokemon_info.json') as f:
         switch = json.load(f)
     return switch.get(dex)
+
+
+def location_info(zone):
+    """
+    Accesses dictionary of location info.
+
+    :param string zone: The numbered zone in terms of a string.
+    :return string: The English name of the location the zone belongs to.
+    """
+    with open('references/location_info.json') as f:
+        switch = json.load(f)
+    return switch.get(zone)
+
+
 # endregion
 
 
@@ -132,7 +148,7 @@ def get_pokemon_data(name):
                 found_pokemon = True
 
                 # The InternalName line is the 2nd line of the section we care about, grabs the first.
-                raw_data = line_list[x-1:x]
+                raw_data = line_list[x-1:x+1]
                 continue
 
             # Now we have found the Pokémon, extract the necessary data
@@ -143,14 +159,13 @@ def get_pokemon_data(name):
                 if "InternalName" in line_list[x]:
                     # Size of Pokémon sections are not constant, but the next InternalName is always 3 lines too far.
                     raw_data.remove(line_list[x])
-                    raw_data.remove(line_list[x-1])
-                    raw_data.remove(line_list[x-2])
+                    raw_data.remove(line_list[x - 1])
+                    raw_data.remove(line_list[x - 2])
                     break
 
         # Convert into a dictionary of key:value pair for easy access
         # Keys are line starters e.g., "Happiness", values are the associated data, often including commas
-        pokemon_dict = {key: value for line in raw_data for key,
-                        value in [line.split('=', 1)]}
+        pokemon_dict = {key: value for line in raw_data for key,value in [line.split('=', 1)]}
 
         # Sound typing is referred to as "Suono" in the game files (Italian)
         if pokemon_dict["Type1"] == "SUONO":
@@ -187,7 +202,7 @@ def get_tm_tutor_data(name):
 
             # If said Pokémon learns any TM moves, add them to the TM list
             if len(matches) > 0:
-                tm_list.append(line_list[x-1].strip("[]"))
+                tm_list.append(line_list[x - 1].strip("[]"))
 
         # Everything else is a tutor move, but with random headers and order, so we look at every line
         for x in range(193, len(line_list)):
@@ -196,9 +211,60 @@ def get_tm_tutor_data(name):
 
             # If said Pokémon learns any tutor moves, add them to the tutor list
             if len(matches) > 0:
-                tutor_list.append(line_list[x-1].strip("[]"))
+                tutor_list.append(line_list[x - 1].strip("[]"))
 
         return tm_list, tutor_list
+
+
+def get_availability_data(name):
+    """
+    Given the internal name of a Pokémon, extracts and returns all information in encounters.txt for that Pokémon.
+
+    :param string name: The internal name of a Pokémon.
+    :return list|list: The encounter tables for all relevant locations, and the list of zones for those locations.
+
+    :param name:
+    :return:
+    """
+    with open("gamedata/encounters.txt", encoding="utf8") as file:
+        line_list = [item.rstrip() for item in file.readlines()]
+
+        encounter_info = []
+        found_locations = []
+        for x in range(0, len(line_list)):
+
+            # Find first instance of Pokémon's name in a location
+            if name.upper() in line_list[x]:
+                # Backtrack until we find the start of the route
+                end = 0
+                start = 0
+
+                # Find the start of the route information
+                for a in range(x, 0, -1):
+                    start = a
+                    if line_list[a] == "#########################":
+                        break
+
+                # Find the start of the next route (and therefore end of current)
+                for b in range(x + 1, len(line_list), 1):
+                    end = b
+                    if line_list[b] == "#########################":
+                        break
+
+                # Grab the location ID
+                loc = line_list[start + 1].split("#")[0].rstrip()
+
+                # If the location has already been processed
+                if location_info(loc) in found_locations:
+                    continue
+
+                # Mark the location as processed and add the lines to the output
+                found_locations.append(location_info(loc))
+                encounter_info.append(line_list[start:end])
+
+    return encounter_info, found_locations
+
+
 # endregion
 
 
@@ -261,6 +327,8 @@ def find_dex_number(regional_numbers):
         dex_nums = "V" + make_three_digits(regional_numbers.split(",")[2])
 
     return dex_nums
+
+
 # endregion
 
 
@@ -283,37 +351,37 @@ def create_header_footer(pokemon_dict):
 
     if dex_num[0] == "X":
         num = dex_num[1:4]
-        if int(num) > 0:
-            head_foot.append("|prev = " + pokemon_info("X" + make_three_digits(str(int(num)-1))).split(",")[1])
-            head_foot.append("|prevnum = X" + make_three_digits(str(int(num)-1)))
+        if int(num) > 1:
+            head_foot.append("|prev = " + pokemon_info("X" + make_three_digits(str(int(num) - 1))).split(",")[1])
+            head_foot.append("|prevnum = X" + make_three_digits(str(int(num) - 1)))
         else:
             head_foot.append("|prev = " + pokemon_info("583").split(",")[1])
             head_foot.append("|prevnum = 583")
         if int(num) < 44:
-            head_foot.append("|next = " + pokemon_info("X" + make_three_digits(str(int(num)+1))).split(",")[1])
-            head_foot.append("|nextnum = X" + make_three_digits(str(int(num)+1)))
+            head_foot.append("|next = " + pokemon_info("X" + make_three_digits(str(int(num) + 1))).split(",")[1])
+            head_foot.append("|nextnum = X" + make_three_digits(str(int(num) + 1)))
         else:
             head_foot.append("|next = " + pokemon_info("V001").split(",")[1])
             head_foot.append("|nextnum = V001")
     elif dex_num[0] == "V":
         num = dex_num[1:4]
-        if int(num) > 0:
-            head_foot.append("|prev = " + pokemon_info("V" + make_three_digits(str(int(num)-1))).split(",")[1])
-            head_foot.append("|prevnum = V" + make_three_digits(str(int(num)-1)))
+        if int(num) > 1:
+            head_foot.append("|prev = " + pokemon_info("V" + make_three_digits(str(int(num) - 1))).split(",")[1])
+            head_foot.append("|prevnum = V" + make_three_digits(str(int(num) - 1)))
         else:
             head_foot.append("|prev = " + pokemon_info("X044").split(",")[1])
             head_foot.append("|prevnum = X044")
         if int(num) < 207:
-            head_foot.append("|next = " + pokemon_info("V" + make_three_digits(str(int(num)+1))).split(",")[1])
-            head_foot.append("|nextnum = V" + make_three_digits(str(int(num)+1)))
+            head_foot.append("|next = " + pokemon_info("V" + make_three_digits(str(int(num) + 1))).split(",")[1])
+            head_foot.append("|nextnum = V" + make_three_digits(str(int(num) + 1)))
     else:
         num = dex_num[:3]
-        if int(num) > 0:
-            head_foot.append("|prev = " + pokemon_info(make_three_digits(str(int(num)-1))).split(",")[1])
-            head_foot.append("|prevnum = " + make_three_digits(str(int(num)-1)))
+        if int(num) > 1:
+            head_foot.append("|prev = " + pokemon_info(make_three_digits(str(int(num) - 1))).split(",")[1])
+            head_foot.append("|prevnum = " + make_three_digits(str(int(num) - 1)))
         if int(num) < 583:
-            head_foot.append("|next = " + pokemon_info(make_three_digits(str(int(num)+1))).split(",")[1])
-            head_foot.append("|nextnum = " + make_three_digits(str(int(num)+1)))
+            head_foot.append("|next = " + pokemon_info(make_three_digits(str(int(num) + 1))).split(",")[1])
+            head_foot.append("|nextnum = " + make_three_digits(str(int(num) + 1)))
         else:
             head_foot.append("|next = " + pokemon_info("X001").split(",")[1])
             head_foot.append("|nextnum = X001")
@@ -367,8 +435,8 @@ def create_infobox(pokemon_dict):
     infobox.append("|eggsteps = " + pokemon_dict["StepsToHatch"])
 
     # Metric height & weight
-    infobox.append("|height-m = " + str(int(pokemon_dict["Height"])/10))
-    infobox.append("|weight-kg = " + str(int(pokemon_dict["Weight"])/10))
+    infobox.append("|height-m = " + str(int(pokemon_dict["Height"]) / 10))
+    infobox.append("|weight-kg = " + str(int(pokemon_dict["Weight"]) / 10))
 
     # Exp Yield & Level Rate
     infobox.append("|expyield = " + pokemon_dict["BaseEXP"])
@@ -438,6 +506,161 @@ def create_pokedex_entry(pokemon_dict):
     pokedex_entry.append("}}")
 
     return pokedex_entry
+
+
+def create_game_locations(pokemon_dict, locations, loc_numbers):
+    # Collection of location states, which is the type of encounter area
+    location_states = ["Cave", "Water", "OldRod", "GoodRod", "SuperRod", "LandDay", "LandNight", "RockSmash", "Land"]
+
+    # Start game location box
+    game_locations = ["{{Availability", "|type = " + pokemon_dict["Type1"].title()]
+    if "Type2" in pokemon_dict:
+        game_locations.append("|type2 = " + pokemon_dict["Type2"].title())
+
+    # If no wild encounters, the Pokémon is static only or evolution only or breeding only
+    if len(locations) == 0:
+        game_locations.append("|none = WIP")
+    else:
+        # Initialises lists to hold encounter information for the three different rarities
+        enc_common = []
+        enc_uncommon = []
+        enc_rare = []
+
+        # For every location the Pokémon is present
+        z = 0
+        for loc in locations:
+            # Initialises an array
+            state_indexes = []
+
+            # Find the indexes of the different states in a particular location
+            for x in range(0, len(loc)):
+                if loc[x] in location_states:
+                    state_indexes.append(x)
+
+            # Creates a dictionary
+            loc_dict = {}
+
+            # Not fully sure, but the case of len() = 1 needs to be handled individually
+            if len(state_indexes) == 1:
+                loc_dict[loc[state_indexes[0]]] = loc[state_indexes[0]+1:]
+            # Otherwise, adds the states as a key to the dictionary with the lines under it as a value
+            else:
+                for n in range(0, len(state_indexes)-1, 2):
+                    loc_dict[loc[state_indexes[n]]] = loc[state_indexes[n]+1:state_indexes[n+1]]
+
+            for state in loc_dict.items():
+                # The Pokémon is not necessarily in every state in each location
+                try:
+                    # Extracts all the indexes where the Pokémon is located in a certain state
+                    # Each index corresponds to a certain percentage, and if a Pokémon appears at multiple those
+                    # percentages are added to find the final encounter chance.
+                    indexes = [i for i, e in enumerate(state[1]) if pokemon_dict["InternalName"] in e]
+                    if not indexes:
+                        continue
+
+                    secondary_information = ""
+
+                    percentage = 0
+                    if state[0] in ["Land", "LandDay", "LandNight", "Cave"]:
+                        for index in indexes:
+                            if index in [1, 2]:
+                                percentage += 20
+                            elif index in [3, 4, 5, 6]:
+                                percentage += 10
+                            elif index in [7, 8]:
+                                percentage += 5
+                            elif index in [9, 10]:
+                                percentage += 4
+                            else:
+                                percentage += 1
+
+                        if state[0] == "LandDay":
+                            secondary_information = "Day"
+                        elif state[0] == "LandNight":
+                            secondary_information = "Night"
+
+                    elif state[0] in ["RockSmash", "Water"]:
+                        for index in indexes:
+                            if index in [1]:
+                                percentage += 60
+                            elif index in [2]:
+                                percentage += 30
+                            elif index in [3]:
+                                percentage += 5
+                            elif index in [4]:
+                                percentage += 4
+                            else:
+                                percentage += 1
+
+                        if state[0] == "RockSmash":
+                            secondary_information = "Rock Smash"
+                        else:
+                            secondary_information = "Surf"
+
+                    elif state[0] == "OldRod":
+                        for index in indexes:
+                            if index in [1]:
+                                percentage += 70
+                            else:
+                                percentage += 30
+
+                        secondary_information = "Old Rod"
+
+                    elif state[0] == "GoodRod":
+                        for index in indexes:
+                            if index in [1]:
+                                percentage += 60
+                            else:
+                                percentage += 20
+
+                        secondary_information = "Good Rod"
+
+                    # note: this is SuperRod
+                    else:
+                        for index in indexes:
+                            if index in [1]:
+                                percentage += 40
+                            elif index in [2]:
+                                percentage += 30
+                            elif index in [3]:
+                                percentage += 15
+                            elif index in [4]:
+                                percentage += 10
+                            else:
+                                percentage += 5
+
+                        secondary_information = "Super Rod"
+
+                    #
+                    loc_data = loc_numbers[z]
+
+                    route_string = "[[" + loc_data + "]] (" + secondary_information + ")" \
+                        if secondary_information != "" else "[[" + loc_data + "]]"
+                    if percentage > 15:
+                        enc_common.append(route_string)
+                    elif percentage > 5:
+                        enc_uncommon.append(route_string)
+                    else:
+                        enc_rare.append(route_string)
+
+                # ValueError is raised if they can't find the name, so the Pokémon isn't in that state
+                except ValueError:
+                    continue
+
+            #
+            z += 1
+
+        #
+        if len(enc_common) > 0:
+            game_locations.append("|common = " + ", ".join(enc_common))
+        if len(enc_uncommon) > 0:
+            game_locations.append("|uncommon = " + ", ".join(enc_uncommon))
+        if len(enc_rare) > 0:
+            game_locations.append("|rare = " + ", ".join(enc_rare))
+
+    game_locations.append("}}")
+
+    return game_locations
 
 
 def create_wild_items(pokemon_dict):
@@ -542,9 +765,9 @@ def create_level_learn_list(pokemon_dict):
     moves = pokemon_dict["Moves"].split(",")
 
     # Stored in the form: level, MOVENAME; so new move information only starts on every other line.
-    for x in range(0, len(moves)-1, 2):
+    for x in range(0, len(moves) - 1, 2):
         # Gets the related data from move_info.json
-        move_data = move_info(moves[x+1]).split(",")
+        move_data = move_info(moves[x + 1]).split(",")
 
         # Adds moves to the box, accounting for STAB, and using the real name from the JSON file
         if move_data[1] == "yes" and (move_data[2] == pokemon_dict["Type1"].title() or move_data[2] == second_type):
@@ -623,7 +846,8 @@ def create_breeding_learn_list(pokemon_dict):
             move_data = move_info(move).split(",")
 
             # Adds to the breeding moves array accounting for STAB
-            if (move_data[1] == "yes") and (move_data[2] == pokemon_dict["Type1"].title() or move_data[2] == second_type):
+            if (move_data[1] == "yes") and (
+                    move_data[2] == pokemon_dict["Type1"].title() or move_data[2] == second_type):
                 breeding_moves.append("{{MoveBreed+|" + breed_string + "|" + move_data[0] + "|'''}}")
             else:
                 breeding_moves.append("{{MoveBreed+|" + breed_string + "|" + move_data[0] + "}}")
@@ -703,12 +927,14 @@ def main():
     # Get pokemon, move, and location data
     pokemon_data = get_pokemon_data(internal_name)
     tm_data, tutor_data = get_tm_tutor_data(internal_name)
+    location_data, loc_nums = get_availability_data(internal_name)
 
     # Create the necessary components of the pokemon wiki page
     header_footer = create_header_footer(pokemon_data)
     info_box = create_infobox(pokemon_data)
     open_para = create_opening_paragraph(pokemon_data)
-    dex_entry = create_pokedex_entry(pokemon_data,)
+    dex_entry = create_pokedex_entry(pokemon_data, )
+    availability = create_game_locations(pokemon_data, location_data, loc_nums)
     held_items = create_wild_items(pokemon_data)
     base_stats = create_stats(pokemon_data)
     type_eff = create_type_effectiveness(pokemon_data)
@@ -738,6 +964,8 @@ def main():
         wiki_page.append(str(line))
 
     wiki_page.append("=='''Game locations'''==")
+    for line in availability:
+        wiki_page.append(str(line))
 
     wiki_page.append("=='''Held items'''==")
     for line in held_items:
@@ -783,4 +1011,11 @@ def main():
 if __name__ == "__main__":
 
     while True:
-        main()
+        try:
+            main()
+        except Exception:
+            print("")
+            logging.error(traceback.format_exc())
+            print("\nPlease contact @Siphlygon on Discord or on the Pokémon Xenoverse Wiki with the printed error message")
+            input("Press any key to close this script.")
+            exit()
