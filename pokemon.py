@@ -1,5 +1,5 @@
 # pylint: disable=locally-disabled, line-too-long, too-many-boolean-expressions, missing-module-docstring
-from data_access import (gender_code, growth_rate, pokemon_info, item_info)
+from data_access import (gender_code, growth_rate, pokemon_info, item_info, ability_info)
 from utility_methods import (make_three_digits, find_dex_number)
 
 
@@ -16,6 +16,7 @@ class PokemonBoxGenerator:
         self.p_data = p_data
         self.first_type = p_data["Type1"].title()
         self.second_type = p_data.get("Type2", self.p_data["Type1"]).title()
+        self.name = pokemon_info(find_dex_number(self.p_data["RegionalNumbers"])).split(",")[1]
 
     def create_header_footer(self):
         """
@@ -74,22 +75,21 @@ class PokemonBoxGenerator:
         infobox = ["{{Pokemon Infobox", "|type1 = " + self.first_type, "|type2 = " + self.second_type]
 
         # Name, Species
-        dex_data = pokemon_info(find_dex_number(self.p_data["RegionalNumbers"]))
-        infobox.append("|name = " + dex_data.split(",")[1])
+        infobox.append("|name = " + self.name)
         infobox.append("|species = Species Name")
 
         # Dex & Image
         dex_nums = find_dex_number(self.p_data["RegionalNumbers"])
         infobox.append("|ndex = " + dex_nums)
-        infobox.append("|image = " + self.p_data["Name"] + ".png")
+        infobox.append("|image = " + self.name.replace(" ", "") + ".png")
 
         # Abilities
         reg_abilities = self.p_data["Abilities"].split(",")
-        infobox.append("|ability1 = " + reg_abilities[0].title())
+        infobox.append("|ability1 = " + ability_info(reg_abilities[0]))
         if len(reg_abilities) > 1:
-            infobox.append("|ability2 = " + reg_abilities[1].title())
+            infobox.append("|ability2 = " + ability_info(reg_abilities[1]))
         if "HiddenAbility" in self.p_data:
-            infobox.append("|hiddenability = " + self.p_data["HiddenAbility"].title())
+            infobox.append("|hiddenability = " + ability_info(self.p_data["HiddenAbility"]))
 
         # Gender, Catch Rate
         infobox.extend(["|gendercode = " + gender_code(self.p_data["GenderRate"]),
@@ -142,7 +142,7 @@ class PokemonBoxGenerator:
         dual_type = "dual-type" if "Type2" in self.p_data else ""
         typing = "{{Type|" + self.first_type + "}}/{{Type|" + self.second_type + "}}" \
             if "Type2" in self.p_data else "{{Type|" + self.first_type + "}}"
-        opening_paragraph = [f"'''{self.p_data['Name']}''' is a {dual_type} {typing}-type Pokémon."]
+        opening_paragraph = [f"'''{self.name}''' is a {dual_type} {typing}-type Pokémon."]
 
         return opening_paragraph
 
@@ -205,7 +205,7 @@ class PokemonBoxGenerator:
         """
         evo_line = ["{{Evobox-1", "|type1 = " + self.first_type, "|type2 = " + self.second_type,
                     "|type1-1 = " + self.first_type, "|type2-1 = " + self.second_type,
-                    "|image1 = " + self.p_data["Name"] + ".png", "|name1 = " + self.p_data["Name"], "}}"]
+                    "|image1 = " + self.name.replace(" ", "") + ".png", "|name1 = " + self.name, "}}"]
 
         return evo_line
 
@@ -215,6 +215,7 @@ class PokemonBoxGenerator:
 
         :return list[str]: The wiki code to produce the type effectiveness box.
         """
-        sprites = ["{{sprites|name=" + self.p_data["Name"] + "|type="+ self.first_type + "|type2="+ self.second_type + "}}"]
+        sprites = ["{{sprites|name=" + self.name.replace(" ", "") + "|type=" + self.first_type + "|type2=" +
+                   self.second_type + "}}"]
 
         return sprites

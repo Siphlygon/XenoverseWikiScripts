@@ -89,3 +89,15 @@ def location_info(zone):
     with open('references/location_info.json', encoding="utf-8") as f:
         switch = json.load(f)
     return switch.get(zone)
+
+
+def ability_info(ability):
+    """
+    Accesses dictionary of ability info.
+
+    :param string ability: The ability name as it appears in pokemon.txt.
+    :return string: The English, formatted name of the ability.
+    """
+    with open('references/ability_info.json', encoding="utf-8") as f:
+        switch = json.load(f)
+    return switch.get(ability)
