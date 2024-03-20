@@ -143,10 +143,12 @@ class PokemonBoxGenerator:
 
         :return list[str]: The wiki code to produce the opening paragraph.
         """
-        dual_type = "dual-type" if "Type2" in self.p_data else ""
+        dual_type = "dual-type " if "Type2" in self.p_data else ""
         typing = "{{Type|" + self.first_type + "}}/{{Type|" + self.second_type + "}}" \
             if "Type2" in self.p_data else "{{Type|" + self.first_type + "}}"
-        opening_paragraph = [f"'''{self.name}''' is a {dual_type} {typing}-type Pokémon."]
+        opening_paragraph = [f"'''{self.name}''' is a {dual_type}{typing}-type Pokémon.", ""]
+
+        opening_paragraph.append("It is not known to evolve from or into any other Pokémon.")
 
         return opening_paragraph
 

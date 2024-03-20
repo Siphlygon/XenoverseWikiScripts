@@ -48,6 +48,7 @@ class WikiPage:
         wiki_page.extend(header_footer)
         wiki_page.extend(info_box)
         wiki_page.extend(open_para)
+        wiki_page.append("")
 
         for title, content in section_titles.items():
             wiki_page.append(f"=='''{title}'''==")
@@ -58,6 +59,7 @@ class WikiPage:
             else:
                 wiki_page.extend(content)
 
+        wiki_page.extend(["", ""])
         wiki_page.extend(header_footer)
 
         # Print wiki page
