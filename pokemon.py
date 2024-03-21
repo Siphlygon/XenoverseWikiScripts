@@ -193,7 +193,7 @@ class PokemonBoxGenerator:
         for slot in item_slots:
             if f"WildItem{slot}" in self.p_data:
                 item = item_info(self.p_data[f"WildItem{slot}"])
-                wild_items.append(f"|{slot.lower()} = " + "{{Item|" + item + "}}" +  f"[[{item}]]")
+                wild_items.append(f"|{slot.lower()} = " + "{{Item|" + item + "}} " + f"[[{item}]]")
 
         wild_items.append("}}")
 
