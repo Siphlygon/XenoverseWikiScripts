@@ -107,8 +107,16 @@ class PokemonBoxGenerator:
         infobox.append("|eggsteps = " + self.p_data["StepsToHatch"])
 
         # Metric height & weight
-        infobox.extend(["|height-m = " + str(int(self.p_data["Height"]) / 10),
-                        "|weight-kg = " + str(int(self.p_data["Weight"]) / 10)])
+        metric_height = int(self.p_data["Height"]) / 10
+        metric_weight = int(self.p_data["Weight"]) / 10
+        infobox.extend(["|height-m = " + str(metric_height),
+                        "|weight-kg = " + str(metric_weight)])
+
+        # Imperial height & weight
+        imperial_height = metric_height * 39.37008
+        imperial_weight = round(metric_weight * 2.20462262, 1)
+        infobox.extend([f"|height-ftin = {int(imperial_height // 12)}" + "'" + str(round(imperial_height % 12)).zfill(2) + '"',
+                        f"|weight-lbs = {imperial_weight}"])
 
         # Exp Yield & Level Rate
         infobox.extend(["|expyield = " + self.p_data["BaseEXP"], "|lvrate = " + growth_rate(self.p_data["GrowthRate"])])
