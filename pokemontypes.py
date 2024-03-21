@@ -113,19 +113,31 @@ class TypeEffectivenessCalculator:
 
         for idx, i_type in enumerate(immune_types):
             if i_type in types:
+                # Finds the other type for a dual-type Pokémon. If a single-type Pokémon, returns the same type.
                 other_type = types[1 - types.index(i_type)].title()
+
                 type_eff_box.append(f"|{i_type.lower()} = yes")
 
                 if idx == 0:
-                    new_normal = blank_type_chart[other_type]["Normal"]
-                    new_fighting = blank_type_chart[other_type]["Fighting"]
+                    if other_type == "Ghost":
+                        new_normal = 1
+                        new_fighting = 1
+                    else:
+                        new_normal = blank_type_chart[other_type]["Normal"]
+                        new_fighting = blank_type_chart[other_type]["Fighting"]
                     type_eff_box.append(f"|newnormal = {new_normal}")
                     type_eff_box.append(f"|newfighting = {new_fighting}")
                 elif idx == 1:
-                    new_ground = blank_type_chart[other_type]["Ground"]
+                    if other_type == "Flying":
+                        new_ground = 1
+                    else:
+                        new_ground = blank_type_chart[other_type]["Ground"]
                     type_eff_box.append(f"|newground = {new_ground}")
                 else:
-                    new_psychic = blank_type_chart[other_type]["Psychic"]
+                    if other_type == "Dark":
+                        new_psychic = 1
+                    else:
+                        new_psychic = blank_type_chart[other_type]["Psychic"]
                     type_eff_box.append(f"|newpsychic = {new_psychic}")
 
                 self.notes = True
