@@ -101,3 +101,15 @@ def ability_info(ability):
     with open('references/ability_info.json', encoding="utf-8") as f:
         switch = json.load(f)
     return switch.get(ability)
+
+
+def ability_immunities(ability):
+    """
+    Accesses dictionary of ability immunities.
+
+    :param string ability: The ability name as it appears in pokemon.txt.
+    :return string: The immunity gained by the Pokémon.
+    """
+    with open('references/ability_immunities.json', encoding="utf-8") as f:
+        switch = json.load(f)
+    return switch.get(ability)
