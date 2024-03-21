@@ -116,7 +116,7 @@ class PokemonBoxGenerator:
         metric_height = int(self.p_data["Height"]) / 10
         metric_weight = int(self.p_data["Weight"]) / 10
         infobox.extend(["|height-m = " + str(metric_height),
-                        "|weight-kg = " + str(metric_weight)])
+                        f"|weight-kg =  {metric_weight:g}"])
 
         # Imperial height & weight
         imperial_height = metric_height * 39.37008
@@ -127,7 +127,7 @@ class PokemonBoxGenerator:
             inches = 0
         imperial_weight = round(metric_weight * 2.20462262, 1)
         infobox.extend([f"|height-ftin = {feet}" + "'" + str(inches).zfill(2) + '"',
-                        f"|weight-lbs = {imperial_weight}"])
+                        f"|weight-lbs = {imperial_weight:g}"])
 
         # Exp Yield & Level Rate
         infobox.extend(["|expyield = " + self.p_data["BaseEXP"], "|lvrate = " + growth_rate(self.p_data["GrowthRate"])])
@@ -168,9 +168,10 @@ class PokemonBoxGenerator:
         dual_type = "dual-type " if "Type2" in self.p_data else ""
         typing = "{{Type|" + self.first_type + "}}/{{Type|" + self.second_type + "}}" \
             if "Type2" in self.p_data else "{{Type|" + self.first_type + "}}"
-        opening_paragraph = [f"'''{self.name}''' is a {dual_type}{typing}-type Pokémon.", ""]
 
-        opening_paragraph.append("It is not known to evolve from or into any other Pokémon.")
+        determiner = "an" if typing[7] in ["E, I"] else "a"
+        opening_paragraph = [f"'''{self.name}''' is {determiner} {dual_type}{typing}-type Pokémon.", "",
+                             "It is not known to evolve from or into any other Pokémon."]
 
         return opening_paragraph
 
