@@ -1,7 +1,6 @@
 # pylint: disable=locally-disabled, line-too-long, too-many-boolean-expressions, missing-module-docstring
 from data_access import (gender_code, growth_rate, pokemon_info, item_info, ability_info)
 from utility_methods import (make_three_digits, find_dex_number)
-from pokemontypes import TypeEffectivenessCalculator
 
 
 class PokemonBoxGenerator:
@@ -20,6 +19,8 @@ class PokemonBoxGenerator:
         else:
             self.first_type = p_data["Type1"].title()
         self.second_type = p_data.get("Type2", self.first_type).title()
+        if self.second_type == 'Suono':
+            self.second_type = "Sound"
         self.name = pokemon_info(find_dex_number(self.p_data["RegionalNumbers"])).split(",")[1]
 
     def create_header_footer(self):
@@ -169,7 +170,7 @@ class PokemonBoxGenerator:
         typing = "{{Type|" + self.first_type + "}}/{{Type|" + self.second_type + "}}" \
             if "Type2" in self.p_data else "{{Type|" + self.first_type + "}}"
 
-        determiner = "an" if typing[7] in ["E, I"] else "a"
+        determiner = "an" if typing[7] in ["E", "I"] else "a"
         opening_paragraph = [f"'''{self.name}''' is {determiner} {dual_type}{typing}-type Pokémon.", "",
                              "It is not known to evolve from or into any other Pokémon."]
 
@@ -220,27 +221,6 @@ class PokemonBoxGenerator:
         stats.append("}}")
 
         return stats
-
-    def create_type_effectiveness(self):
-        """
-        Creates the type effectiveness box for the Pokémon using TypeEffectivenessCalculator from pokemontypes.py.
-
-        :return list[str]: The wiki code to produce the type effectiveness box.
-        """
-        type_effectiveness = ["{{TypeEffectiveness", "|type1 = " + self.first_type]
-
-        if self.second_type != self.first_type:
-            type_effectiveness.append("|type2 = " + self.second_type)
-
-        type_eff_calc = TypeEffectivenessCalculator(self.first_type, self.second_type)
-        type_match_ups = type_eff_calc.calculate_type_effectiveness()
-        for value in type_match_ups.items():
-            if value[1] != 1:
-                type_effectiveness.append("|" + value[0] + " = " + str(int(value[1] * 100)))
-
-        type_effectiveness.append("}}")
-
-        return type_effectiveness
 
     def create_evolution_line(self):
         """
