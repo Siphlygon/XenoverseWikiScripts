@@ -28,7 +28,10 @@ class PokemonBoxGenerator:
 
         :return list[str]: The wiki code to produce the header/footer.
         """
-        head_foot = ["{{PokemonPrevNextHead", "|type = " + self.first_type, "|type2 = " + self.second_type]
+        head_foot = ["{{PokemonPrevNextHead", "|type = " + self.first_type]
+
+        if self.second_type != self.first_type:
+            head_foot.append("|type2 = " + self.second_type)
 
         dex_num = find_dex_number(self.p_data["RegionalNumbers"])
 
@@ -76,7 +79,10 @@ class PokemonBoxGenerator:
 
         :return list[str]: The wiki code to produce the infobox.
         """
-        infobox = ["{{Pokemon Infobox", "|type1 = " + self.first_type, "|type2 = " + self.second_type]
+        infobox = ["{{Pokemon Infobox", "|type1 = " + self.first_type]
+
+        if self.second_type != self.first_type:
+            infobox.append("|type2 = " + self.second_type)
 
         # Name, Species
         infobox.append("|name = " + self.name)
@@ -114,8 +120,13 @@ class PokemonBoxGenerator:
 
         # Imperial height & weight
         imperial_height = metric_height * 39.37008
+        feet = int(imperial_height // 12)
+        inches = round(imperial_height % 12)
+        if inches == 12:
+            feet += 1
+            inches = 0
         imperial_weight = round(metric_weight * 2.20462262, 1)
-        infobox.extend([f"|height-ftin = {int(imperial_height // 12)}" + "'" + str(round(imperial_height % 12)).zfill(2) + '"',
+        infobox.extend([f"|height-ftin = {feet}" + "'" + str(inches).zfill(2) + '"',
                         f"|weight-lbs = {imperial_weight}"])
 
         # Exp Yield & Level Rate
@@ -141,7 +152,10 @@ class PokemonBoxGenerator:
 
         :return list[str]: The wiki code to produce the Pokédex entry.
         """
-        pokedex_entry = ["{{Dex", "|type = " + self.first_type, "|type2 = " + self.second_type, "''WIP''", "}}"]
+        pokedex_entry = ["{{Dex", "|type = " + self.first_type]
+
+        if self.second_type != self.first_type:
+            pokedex_entry.append("|type2 = " + self.second_type)
 
         return pokedex_entry
 
@@ -166,7 +180,10 @@ class PokemonBoxGenerator:
 
         :return list[str]: The wiki code to produce the wild held item box.
         """
-        wild_items = ["{{HeldItems", "|type = " + self.first_type, "|type2 = " + self.second_type]
+        wild_items = ["{{HeldItems", "|type = " + self.first_type]
+
+        if self.second_type != self.first_type:
+            wild_items.append("|type2 = " + self.second_type)
 
         item_slots = ["Common", "Uncommon", "Rare"]
 
@@ -174,7 +191,7 @@ class PokemonBoxGenerator:
         for slot in item_slots:
             if f"WildItem{slot}" in self.p_data:
                 item = item_info(self.p_data[f"WildItem{slot}"])
-                wild_items.append(f"|{slot.lower()} = " + "{{Item|" + item + f"}} [[{item}]]")
+                wild_items.append(f"|{slot.lower()} = " + "{{Item|" + item + "}}" +  f"[[{item}]]")
 
         wild_items.append("}}")
 
@@ -186,7 +203,10 @@ class PokemonBoxGenerator:
 
         :return list[str]: The wiki code to produce the stats box.
         """
-        stats = ["{{Stats", "|type = " + self.first_type, "|type2 = " + self.second_type]
+        stats = ["{{Stats", "|type = " + self.first_type]
+
+        if self.second_type != self.first_type:
+            stats.append("|type2 = " + self.second_type)
 
         # Stats are given in HP/ATK/DEF/SPE/SPA/SPD order
         stat_names = ["HP", "Attack", "Defense", "Speed", "SpAtk", "SpDef"]
@@ -206,7 +226,10 @@ class PokemonBoxGenerator:
 
         :return list[str]: The wiki code to produce the type effectiveness box.
         """
-        type_effectiveness = ["{{TypeEffectiveness", "|type1 = " + self.first_type, "|type2 = " + self.second_type]
+        type_effectiveness = ["{{TypeEffectiveness", "|type1 = " + self.first_type]
+
+        if self.second_type != self.first_type:
+            type_effectiveness.append("|type2 = " + self.second_type)
 
         type_eff_calc = TypeEffectivenessCalculator(self.first_type, self.second_type)
         type_match_ups = type_eff_calc.calculate_type_effectiveness()
