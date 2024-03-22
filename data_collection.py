@@ -127,6 +127,11 @@ class DataCollection:
                 # Ensures that locations aren't processed multiple times due to different zones
                 if location_info(zone_id) not in found_locations:
                     found_locations.append(location_info(zone_id))
-                    encounter_info.append(line_list[start:end])
+
+                    # Remove level number, unnecessary for this program
+                    zone_encounters = line_list[start:end]
+                    formatted_encounters = [''.join(x for x in i if x.isalpha()) for i in zone_encounters]
+
+                    encounter_info.append(formatted_encounters)
 
         return encounter_info, found_locations
