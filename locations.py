@@ -200,18 +200,19 @@ def _account_for_static_encounters(p_data, game_locations):
 
     :param dict[str, str] p_data: A dictionary containing all the Pokémon's data in pokemon.txt.
     :param list[str] game_locations: The wiki code to produce the availability information.
+    :return bool: If the Pokémon was a static encounter.
     """
     static_enc = static_encounters(p_data["InternalName"])
-    static_string = ""
+    static_data = []
     if static_enc is not None:
         for route, static_type in static_enc.items():
             if static_type != "Static":
-                static_string += f"[[{route}]] ({static_type}) "
+                static_data.append(f"[[{route}]] ({static_type})")
             else:
-                static_string += f"[[{route}]] "
-        game_locations.append("|one = " + static_string)
-    else:
-        game_locations.append("|none = WIP")
+                static_data.append(f"[[{route}]]")
+        game_locations.append("|one = " + ", ".join(static_data))
+        return True
+    return False
 
 
 class LocationDataGenerator:
@@ -244,8 +245,11 @@ class LocationDataGenerator:
 
         # If no wild encounters, the Pokémon is static only or evolution only or breeding only, not handled currently
         if not self.encounter_locs:
-            _account_for_static_encounters(self.p_data, game_locations)
+            if not _account_for_static_encounters(self.p_data, game_locations):
+                game_locations.append("|none = WIP")
         else:
+            _account_for_static_encounters(self.p_data, game_locations)
+
             enc_common = []
             enc_uncommon = []
             enc_rare = []
@@ -256,7 +260,6 @@ class LocationDataGenerator:
             # There are no duplicate locations, ensured by data collection methods
             for loc in self.encounter_locs:
                 location_data = _process_location_data(loc, self.loc_names[curr_num], self.p_data)
-                print(location_data)
                 for location in location_data:
                     if location[0] > 15:
                         enc_common.append(location[1])
