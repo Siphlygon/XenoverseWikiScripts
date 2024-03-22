@@ -113,3 +113,16 @@ def ability_immunities(ability):
     with open('references/ability_immunities.json', encoding="utf-8") as f:
         switch = json.load(f)
     return switch.get(ability)
+
+
+def static_encounters(pokemon):
+    """
+    Accesses dictionary of static encounters. Said dictionary has unreachable elements (namely, Alolan forms) for the
+    purpose of record, and possible future implementation.
+
+    :param string pokemon: The pokemon's internal name as it appears in pokemon.txt.
+    :return dict[str, str]: A dictionary with location names as a key and the type of static encounter as a value.
+    """
+    with open('references/static_encounters.json', encoding="utf-8") as f:
+        switch = json.load(f)
+    return switch.get(pokemon)

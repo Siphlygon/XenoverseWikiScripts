@@ -1,4 +1,5 @@
 # pylint: disable=locally-disabled, line-too-long, missing-module-docstring, too-few-public-methods
+from data_access import static_encounters
 
 
 # region Percentages
@@ -193,6 +194,26 @@ def _process_location_data(loc, loc_name, p_data):
     return location_data
 
 
+def _account_for_static_encounters(p_data, game_locations):
+    """
+    Accounts for an external list of static encounters.
+
+    :param dict[str, str] p_data: A dictionary containing all the Pokémon's data in pokemon.txt.
+    :param list[str] game_locations: The wiki code to produce the availability information.
+    """
+    static_enc = static_encounters(p_data["InternalName"])
+    static_string = ""
+    if static_enc is not None:
+        for route, static_type in static_enc.items():
+            if static_type != "Static":
+                static_string += f"[[{route}]] ({static_type}) "
+            else:
+                static_string += f"[[{route}]] "
+        game_locations.append("|one = " + static_string)
+    else:
+        game_locations.append("|none = WIP")
+
+
 class LocationDataGenerator:
     """
     A class which extracts a Pokémon's data from encounters.txt, calculates the actual percentage of its appearance,
@@ -223,7 +244,7 @@ class LocationDataGenerator:
 
         # If no wild encounters, the Pokémon is static only or evolution only or breeding only, not handled currently
         if not self.encounter_locs:
-            game_locations.append("|none = WIP")
+            _account_for_static_encounters(self.p_data, game_locations)
         else:
             enc_common = []
             enc_uncommon = []

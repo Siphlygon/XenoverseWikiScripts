@@ -1,0 +1,246 @@
+{
+	"SHYLEON": {
+		"Nova Ranch": "Gift",
+		"Shyleon Temple": "Static"
+	},
+	"TRUSHOUT": {
+		"Nova Ranch": "Gift",
+		"Mt. Starburst": "Static"
+	},
+	"SHYLEON": {
+		"Nova Ranch": "Gift",
+		"Aurora Den": "Static"
+	},
+	"CROAKLING": {
+		"Hadwarf City": "Gift",
+		"Wild Bull Saloon": "Gift"
+	},
+	"INFLANT": {
+		"Hadwarf City": "Gift",
+		"Nova Ranch": "Gift"
+	},
+	"CHIRIPE": {
+		"Hadwarf City": "Gift",
+		"Shyleon Temple": "Gift"
+	},
+	"ELEKIDX": {
+		"Stardust Beach": "Boss",
+		"Hadwarf City": "Shiny"
+	},
+	"SANDYGAST": {
+		"Stardust Beach": "Static",
+		"Darkhole Island": "Static"
+	},
+	"MASGOTGHOST": {
+		"Darkhole Island": "Static"
+	},
+	"MASGOTPOISON": {
+		"String Forest": "Static"
+	},
+	"MASGOTFIRE": {
+		"Mt. Starburst": "Static"
+	},
+	"MASGOTICE": {
+		"Route 13": "Static"
+	},
+	"MASGOTFLYING": {
+		"Route 8": "Static"
+	},
+	"MASGOTGRASS": {
+		"Cluster Jungle": "Static"
+	},
+	"MASGOTWATER": {
+		"Route 11": "Static"
+	},
+	"MASGOTROCK": {
+		"Victory Road": "Static"
+	},
+	"MIMIKYU": {
+		"Darkhole Island": "Static"
+	},
+	"DARKRAI": {
+		"Pitch Black Forest": "Shrine"
+	},
+	"SHARPEDOX": {
+		"Old S.S. Meteor": "Boss"
+	},
+	"EEVEE": {
+		"Newtron City": "Egg"
+	},
+	"CHIGAMI": {
+		"Newtron City": "Trade"
+	},
+	"BERGMITE": {
+		"Route 3": "Static",
+		"Mt. Starburst": "Static"
+	},
+	"SANDSHREWALOLAN": {
+		"Polaris Town": "Trade"
+	},
+	"PICHUVINTAGE": {
+		"Route 5": "Static"
+	},
+	"GALVANTULAX": {
+		"String Forest": "Boss"
+	},
+	"GEODUDEALOLAN": {
+		"Route 12": "Trade"
+	},
+	"MAROWAKALOLAN": {
+		"Mt. Starburst": "Trade"
+	},
+	"DIGLETTALOLAN": {
+		"Sunflare Canyon": "Trade"
+	},
+	"LUXFLON": {
+		"Welkin Falls": "Static"
+	},
+	"PONYTAX": {
+		"Steelix Gorge": "Gift"
+	},
+	"MARSHADOW": {
+		"Wild Bull Saloon": "Static"
+	},
+	"HANGEAD": {
+		"Wild Bull Saloon": "If Male PC"
+	},
+	"WHISTERACT": {
+		"Wild Bull Saloon": "If Female PC"
+	},
+	"TOKAKLE": {
+		"Hypelion City": "Static"
+	},
+	"MELOETTA": {
+		"Hypelion City": "Gym Roof"
+	},
+	"MEW": {
+		"Vermilion City": "Shrine"
+	},
+	"DRATINI": {
+		"Vermilion City": "Trade"
+	},
+	"REGIROCK": {
+		"Pink Tomb": "Static"
+	},
+	"REGICE": {
+		"Pink Tomb": "Static"
+	},
+	"REGISTEEL": {
+		"Pink Tomb": "Static"
+	},
+	"REGIELEKI": {
+		"Pink Tomb": "Static"
+	},
+	"REGIDRAGO": {
+		"Pink Tomb": "Static"
+	},
+	"REGIGIGAS": {
+		"Pink Tomb": "Static"
+	},
+	"REGINALOUS": {
+		"Pink Tomb": "Static"
+	},
+	"GRENINJAX": {
+		"Shinobi Island": "Furious Battles"
+	},
+	"DONANAS": {
+		"Heroes' Path": "Gift",
+		"Altered Mt. Zodiac": "Altered"
+	},
+	"ROSERADEX": {
+		"Shyleon Temple": "Boss"
+	},
+	"LITTEN": {
+		"Vega City": "Egg"
+	},
+	"MANTINE": {
+		"Vega City": "Trade"
+	},
+	"GENESECT": {
+		"Vega City": "Shrine"
+	},
+	"RAICHUALOLAN": {
+		"Route 11": "Trade"
+	},
+	"PIKACHUX": {
+		"Victory Road": "Gift - Gender is the same as the Player"
+	},
+	"TAPUFINIX": {
+		"Altered Mt. Zodiac": "Furious Battles"
+	},
+	"TAPULELEX": {
+		"Altered Mt. Zodiac": "Furious Battles"
+	},
+	"TAPUKOKOX": {
+		"Altered Mt. Zodiac": "Furious Battles"
+	},
+	"TAPUBULUX": {
+		"Altered Mt. Zodiac": "Furious Battles"
+	},
+	"TORNADUS": {
+		"Altered Mt. Zodiac": "Furious Battles"
+	},
+	"THUNDURUS": {
+		"Altered Mt. Zodiac": "Furious Battles"
+	},
+	"LANDORUS": {
+		"Altered Mt. Zodiac": "Furious Battles"
+	},
+	"ENAMORUS": {
+		"Altered Mt. Zodiac": "Furious Battles"
+	},
+	"DRAGALISKX": {
+		"Event Horizon": "Furious Battles"
+	},
+	"AEGISLASHX": {
+		"Victory Road": "Furious Battles"
+	},
+	"DIELEBI": {
+		"Route 10": "Static"
+	},
+	"RAIKOU": {
+		"Cardinal's Sanctuary": "Furious Battles"
+	},
+	"ENTEI": {
+		"Cardinal's Palace": "Furious Battles"
+	},
+	"SUICUNE": {
+		"Cardinal's Pagoda": "Furious Battles"
+	},
+	"RAICHUX": {
+		"Vermilion City": "Gift"
+	},
+	"MEWTWO": {
+		"Abandoned Bunker": "Static"
+	},
+	"SHYLEONX": {
+		"Xenoverse": "Static"
+	},
+	"TRISHOUTX": {
+		"Xenoverse": "Static"
+	},
+	"SHULONGX": {
+		"Xenoverse": "Static"
+	},
+	"MEWTWOX": {
+		"Xenoverse": "Static"
+	},
+	"LUGIA": {
+		"Diving Cave": "Shrine"
+	},
+	"HOOH": {
+		"Rainbow Trail": "Shrine"
+	},
+	"CELEBI": {
+		"Timetravel Den": "Shrine"
+	},
+	"DEOXYS": {
+		"DNA Area": "Shrine"
+	},
+	"HEATRAN": {
+		"Lava Dome Cave": "Shrine"
+	},
+	"CRESSELIA": {
+		"Lunar Tunnel": "Shrine"
+	}
+}
