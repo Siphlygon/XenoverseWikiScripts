@@ -1,6 +1,8 @@
 # pylint: disable=locally-disabled, too-many-lines, line-too-long
 """
-Not empty
+Main script for generating a Pokémon's wiki page. The script will ask for the Pokémon's internal name and then access
+other classes and functions to facilitate the generation of the wiki page. The script will then continue repeating until
+the user decides to stop the script.
 """
 
 from pokemon import PokemonBoxGenerator
@@ -12,18 +14,15 @@ from pokemontypes import TypeEffectivenessCalculator
 
 
 def main():
-    # Get the name of the Pokémon for the wiki page
+    # Get the name of the Pokémon for the wiki page. This must match the Internal Name in the game files.
     internal_name = input("\nInput the name of the pokemon: ").upper()
 
-    # Create instance
+    # Extract data from the game files
     dc = DataCollection(internal_name)
-
-    # Get pokemon, move, and location data
     pokemon_data = dc.extract_pokemon_data()
     tm_data, tutor_data = dc.extract_move_data()
     location_data, loc_nums = dc.extract_encounter_data()
 
-    # Create instances
     poke_box_gen = PokemonBoxGenerator(pokemon_data)
     move_list_gen = MoveListGenerator(pokemon_data, tm_data, tutor_data)
     location_data_gen = LocationDataGenerator(pokemon_data, location_data, loc_nums)

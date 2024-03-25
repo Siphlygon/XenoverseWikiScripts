@@ -1,17 +1,17 @@
 # pylint: disable=locally-disabled, line-too-long, too-many-boolean-expressions, missing-module-docstring
-from data_access import (gender_code, growth_rate, pokemon_info, item_info, ability_info)
+from data_access import (gender_code, growth_rate, pokemon_info, wild_item_info, ability_info)
 from utility_methods import (make_three_digits, find_dex_number)
 
 
 class PokemonBoxGenerator:
     """
-    A class containing all the methods related to extracting data from pokemon.txt for a Pokémon.
+    A class containing all the methods related to formatting extracted data from pokemon.txt for wiki display.
     """
     def __init__(self, p_data):
         """
-        The init function of Pokemon.
+        The init function of PokemonBoxGenerator.
 
-        :param p_data: A dictionary containing all the Pokemon's data in pokemon.txt.
+        :param p_data: A dictionary containing all the Pokémon's data in pokemon.txt.
         """
         self.p_data = p_data
         if p_data["Type1"] == 'SUONO':
@@ -25,7 +25,7 @@ class PokemonBoxGenerator:
 
     def create_header_footer(self):
         """
-        Creates the header/footer for the Pokémon given relevant information.
+        Creates the header/footer for the Pokémon wiki page given relevant information.
 
         :return list[str]: The wiki code to produce the header/footer.
         """
@@ -76,7 +76,7 @@ class PokemonBoxGenerator:
 
     def create_infobox(self):
         """
-        Creates the infobox for the Pokémon given relevant information.
+        Creates the infobox for the Pokémon wiki page given relevant information.
 
         :return list[str]: The wiki code to produce the infobox.
         """
@@ -162,7 +162,7 @@ class PokemonBoxGenerator:
 
     def create_opening_paragraph(self):
         """
-        Currently incomplete; creates the opening paragraph for the Pokémon given relevant information.
+        Currently incomplete; creates the opening paragraph for the Pokémon wiki page given relevant information.
 
         :return list[str]: The wiki code to produce the opening paragraph.
         """
@@ -178,7 +178,7 @@ class PokemonBoxGenerator:
 
     def create_wild_items(self):
         """
-        Creates the wild held item box for the Pokémon given relevant information.
+        Creates the wild held item box for the Pokémon wiki page given relevant information.
 
         :return list[str]: The wiki code to produce the wild held item box.
         """
@@ -189,11 +189,15 @@ class PokemonBoxGenerator:
 
         item_slots = ["Common", "Uncommon", "Rare"]
 
+        found_items = []
         # Check and add items for each rarity slot
         for slot in item_slots:
             if f"WildItem{slot}" in self.p_data:
-                item = item_info(self.p_data[f"WildItem{slot}"])
-                wild_items.append(f"|{slot.lower()} = " + "{{Item|" + item + "}} " + f"[[{item}]]")
+                item = wild_item_info(self.p_data[f"WildItem{slot}"])
+                found_items.append(f"|{slot.lower()} = " + "{{Item|" + item + "}} " + f"[[{item}]]")
+
+        # Accounts for how the game data indicates a 100% item
+        wild_items.extend(found_items)
 
         wild_items.append("}}")
 
@@ -201,7 +205,7 @@ class PokemonBoxGenerator:
 
     def create_stats(self):
         """
-        Creates the stats box for the Pokémon given relevant information.
+        Creates the stats box for the Pokémon wiki page given relevant information.
 
         :return list[str]: The wiki code to produce the stats box.
         """
@@ -224,7 +228,7 @@ class PokemonBoxGenerator:
 
     def create_evolution_line(self):
         """
-        Creates the type effectiveness box for the Pokémon given relevant information.
+        Creates the type effectiveness box for the Pokémon wiki page given relevant information.
 
         :return list[str]: The wiki code to produce the type effectiveness box.
         """
@@ -236,7 +240,7 @@ class PokemonBoxGenerator:
 
     def create_sprites(self):
         """
-        Currently incomplete; creates the type effectiveness box for the Pokémon given relevant information.
+        Currently incomplete; creates the type effectiveness box for the Pokémon wiki page given relevant information.
 
         :return list[str]: The wiki code to produce the type effectiveness box.
         """

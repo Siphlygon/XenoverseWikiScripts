@@ -1,114 +1,132 @@
 {
-	"SHYLEON": {
-		"Nova Ranch": "Gift",
-		"Shyleon Temple": "Static"
-	},
-	"TRUSHOUT": {
-		"Nova Ranch": "Gift",
-		"Mt. Starburst": "Static"
-	},
-	"SHYLEON": {
-		"Nova Ranch": "Gift",
-		"Aurora Den": "Static"
-	},
-	"CROAKLING": {
-		"Hadwarf City": "Gift",
-		"Wild Bull Saloon": "Gift"
-	},
-	"INFLANT": {
-		"Hadwarf City": "Gift",
-		"Nova Ranch": "Gift"
-	},
-	"CHIRIPE": {
-		"Hadwarf City": "Gift",
-		"Shyleon Temple": "Gift"
-	},
-	"ELEKIDX": {
-		"Stardust Beach": "Boss",
-		"Hadwarf City": "Shiny"
-	},
-	"SANDYGAST": {
-		"Stardust Beach": "Static",
-		"Darkhole Island": "Static"
-	},
-	"MASGOTGHOST": {
-		"Darkhole Island": "Static"
-	},
-	"MASGOTPOISON": {
-		"String Forest": "Static"
-	},
-	"MASGOTFIRE": {
-		"Mt. Starburst": "Static"
-	},
-	"MASGOTICE": {
-		"Route 13": "Static"
-	},
-	"MASGOTFLYING": {
-		"Route 8": "Static"
-	},
-	"MASGOTGRASS": {
-		"Cluster Jungle": "Static"
-	},
-	"MASGOTWATER": {
-		"Route 11": "Static"
-	},
-	"MASGOTROCK": {
-		"Victory Road": "Static"
-	},
-	"MIMIKYU": {
-		"Darkhole Island": "Static"
-	},
-	"DARKRAI": {
-		"Pitch Black Forest": "Shrine"
-	},
-	"SHARPEDOX": {
-		"Old S.S. Meteor": "Boss"
-	},
-	"EEVEE": {
-		"Newtron City": "Egg"
-	},
-	"CHIGAMI": {
-		"Newtron City": "Trade"
+	"AEGISLASHX": {
+		"Victory Road": "Furious Battles"
 	},
 	"BERGMITE": {
 		"Route 3": "Static",
 		"Mt. Starburst": "Static"
 	},
-	"SANDSHREWALOLAN": {
-		"Polaris Town": "Trade"
+	"CELEBI": {
+		"Timetravel Den": "Shrine"
 	},
-	"PICHUVINTAGE": {
-		"Route 5": "Static"
+	"CHIGAMI": {
+		"Newtron City": "Trade"
 	},
-	"GALVANTULAX": {
-		"String Forest": "Boss"
+	"CHIRIPE": {
+		"Hadwarf City": "Gift",
+		"Shyleon Temple": "Gift"
 	},
-	"GEODUDEALOLAN": {
-		"Route 12": "Trade"
+	"CRESSELIA": {
+		"Lunar Tunnel": "Shrine"
 	},
-	"MAROWAKALOLAN": {
-		"Mt. Starburst": "Trade"
+	"CROAKLING": {
+		"Hadwarf City": "Gift",
+		"Wild Bull Saloon": "Gift"
+	},
+	"DARKRAI": {
+		"Pitch Black Forest": "Shrine"
+	},
+	"DEOXYS": {
+		"DNA Area": "Shrine"
+	},
+	"DIELEBI": {
+		"Route 10": "Static"
 	},
 	"DIGLETTALOLAN": {
 		"Sunflare Canyon": "Trade"
 	},
-	"LUXFLON": {
-		"Welkin Falls": "Static"
+	"DONANAS": {
+		"Heroes' Path": "Gift",
+		"Altered Mt. Zodiac": "Altered"
 	},
-	"PONYTAX": {
-		"Steelix Gorge": "Gift"
+	"DRAGALISKX": {
+		"Event Horizon": "Furious Battles"
 	},
-	"MARSHADOW": {
-		"Wild Bull Saloon": "Static"
+	"DRATINI": {
+		"Vermilion City": "Trade"
+	},
+	"EEVEE": {
+		"Newtron City": "Egg"
+	},
+	"ELEKIDX": {
+		"Stardust Beach": "Boss",
+		"Hadwarf City": "Shiny"
+	},
+	"ENAMORUS": {
+		"Altered Mt. Zodiac": "Furious Battles"
+	},
+	"ENTEI": {
+		"Cardinal's Palace": "Furious Battles"
+	},
+	"GALVANTULAX": {
+		"String Forest": "Boss"
+	},
+	"GENESECT": {
+		"Vega City": "Shrine"
+	},
+	"GEODUDEALOLAN": {
+		"Route 12": "Trade"
+	},
+	"GRENINJAX": {
+		"Shinobi Island": "Furious Battles"
 	},
 	"HANGEAD": {
 		"Wild Bull Saloon": "If Male PC"
 	},
-	"WHISTERACT": {
-		"Wild Bull Saloon": "If Female PC"
+	"HEATRAN": {
+		"Lava Dome Cave": "Shrine"
 	},
-	"TOKAKLE": {
-		"Hypelion City": "Static"
+	"HOOH": {
+		"Rainbow Trail": "Shrine"
+	},
+	"INFLANT": {
+		"Hadwarf City": "Gift",
+		"Nova Ranch": "Gift"
+	},
+	"LANDORUS": {
+		"Altered Mt. Zodiac": "Furious Battles"
+	},
+	"LITTEN": {
+		"Vega City": "Egg"
+	},
+	"LUGIA": {
+		"Diving Cave": "Shrine"
+	},
+	"LUXFLON": {
+		"Welkin Falls": "Static"
+	},
+	"MANTINE": {
+		"Vega City": "Trade"
+	},
+	"MAROWAKALOLAN": {
+		"Mt. Starburst": "Trade"
+	},
+	"MARSHADOW": {
+		"Wild Bull Saloon": "Static"
+	},
+	"MASGOTFIRE": {
+		"Mt. Starburst": "Static"
+	},
+	"MASGOTFLYING": {
+		"Route 8": "Static"
+	},
+	"MASGOTGHOST": {
+		"Darkhole Island": "Static"
+	},
+	"MASGOTGRASS": {
+		"Cluster Jungle": "Static"
+	},
+	"MASGOTICE": {
+		"Route 13": "Static"
+	},
+	"MASGOTPOISON": {
+		"String Forest": "Static"
+	},
+	"MASGOTROCK": {
+		"Victory Road": "Static"
+	},
+	"MASGOTWATER": {
+		"Route 11": "Static"
 	},
 	"MELOETTA": {
 		"Hypelion City": "Gym Roof"
@@ -116,134 +134,116 @@
 	"MEW": {
 		"Vermilion City": "Shrine"
 	},
-	"DRATINI": {
-		"Vermilion City": "Trade"
+	"MEWTWO": {
+		"Abandoned Bunker": "Static"
 	},
-	"REGIROCK": {
-		"Pink Tomb": "Static"
+	"MEWTWOX": {
+		"Xenoverse": "Static"
 	},
-	"REGICE": {
-		"Pink Tomb": "Static"
+	"MIMIKYU": {
+		"Darkhole Island": "Static"
 	},
-	"REGISTEEL": {
+	"PICHUVINTAGE": {
+		"Route 5": "Static"
+	},
+	"PIKACHUX": {
+		"Victory Road": "Gift - Gender is the same as the Player"
+	},
+	"PONYTAX": {
+		"Steelix Gorge": "Gift"
+	},
+	"RAICHUALOLAN": {
+		"Route 11": "Trade"
+	},
+	"RAICHUX": {
+		"Vermilion City": "Gift"
+	},
+	"RAIKOU": {
+		"Cardinal's Sanctuary": "Furious Battles"
+	},
+	"REGIDRAGO": {
 		"Pink Tomb": "Static"
 	},
 	"REGIELEKI": {
 		"Pink Tomb": "Static"
 	},
-	"REGIDRAGO": {
+	"REGIGIGAS": {
 		"Pink Tomb": "Static"
 	},
-	"REGIGIGAS": {
+	"REGICE": {
 		"Pink Tomb": "Static"
 	},
 	"REGINALOUS": {
 		"Pink Tomb": "Static"
 	},
-	"GRENINJAX": {
-		"Shinobi Island": "Furious Battles"
+	"REGIROCK": {
+		"Pink Tomb": "Static"
 	},
-	"DONANAS": {
-		"Heroes' Path": "Gift",
-		"Altered Mt. Zodiac": "Altered"
+	"REGISTEEL": {
+		"Pink Tomb": "Static"
 	},
 	"ROSERADEX": {
 		"Shyleon Temple": "Boss"
 	},
-	"LITTEN": {
-		"Vega City": "Egg"
+	"SANDSHREWALOLAN": {
+		"Polaris Town": "Trade"
 	},
-	"MANTINE": {
-		"Vega City": "Trade"
+	"SANDYGAST": {
+		"Stardust Beach": "Static",
+		"Darkhole Island": "Static"
 	},
-	"GENESECT": {
-		"Vega City": "Shrine"
+	"SHARPEDOX": {
+		"Old S.S. Meteor": "Boss"
 	},
-	"RAICHUALOLAN": {
-		"Route 11": "Trade"
+	"SHULONG": {
+		"Nova Ranch": "Gift",
+		"Aurora Den": "Static"
 	},
-	"PIKACHUX": {
-		"Victory Road": "Gift - Gender is the same as the Player"
+	"SHULONGX": {
+		"Xenoverse": "Static"
 	},
-	"TAPUFINIX": {
+	"SHYLEON": {
+		"Nova Ranch": "Gift",
+		"Shyleon Temple": "Static"
+	},
+	"SHYLEONX": {
+		"Xenoverse": "Static"
+	},
+	"SUICUNE": {
+		"Cardinal's Pagoda": "Furious Battles"
+	},
+	"TAPUBULUX": {
 		"Altered Mt. Zodiac": "Furious Battles"
 	},
 	"TAPULELEX": {
 		"Altered Mt. Zodiac": "Furious Battles"
 	},
+	"TAPUFINIX": {
+		"Altered Mt. Zodiac": "Furious Battles"
+	},
 	"TAPUKOKOX": {
-		"Altered Mt. Zodiac": "Furious Battles"
-	},
-	"TAPUBULUX": {
-		"Altered Mt. Zodiac": "Furious Battles"
-	},
-	"TORNADUS": {
 		"Altered Mt. Zodiac": "Furious Battles"
 	},
 	"THUNDURUS": {
 		"Altered Mt. Zodiac": "Furious Battles"
 	},
-	"LANDORUS": {
+	"TOKAKLE": {
+		"Hypelion City": "Static"
+	},
+	"TORNADUS": {
 		"Altered Mt. Zodiac": "Furious Battles"
 	},
-	"ENAMORUS": {
-		"Altered Mt. Zodiac": "Furious Battles"
-	},
-	"DRAGALISKX": {
-		"Event Horizon": "Furious Battles"
-	},
-	"AEGISLASHX": {
-		"Victory Road": "Furious Battles"
-	},
-	"DIELEBI": {
-		"Route 10": "Static"
-	},
-	"RAIKOU": {
-		"Cardinal's Sanctuary": "Furious Battles"
-	},
-	"ENTEI": {
-		"Cardinal's Palace": "Furious Battles"
-	},
-	"SUICUNE": {
-		"Cardinal's Pagoda": "Furious Battles"
-	},
-	"RAICHUX": {
-		"Vermilion City": "Gift"
-	},
-	"MEWTWO": {
-		"Abandoned Bunker": "Static"
-	},
-	"SHYLEONX": {
-		"Xenoverse": "Static"
+	"TRISHOUT": {
+		"Nova Ranch": "Gift",
+		"Mt. Starburst": "Static"
 	},
 	"TRISHOUTX": {
 		"Xenoverse": "Static"
 	},
-	"SHULONGX": {
-		"Xenoverse": "Static"
-	},
-	"MEWTWOX": {
-		"Xenoverse": "Static"
-	},
-	"LUGIA": {
-		"Diving Cave": "Shrine"
-	},
-	"HOOH": {
-		"Rainbow Trail": "Shrine"
-	},
-	"CELEBI": {
-		"Timetravel Den": "Shrine"
-	},
-	"DEOXYS": {
-		"DNA Area": "Shrine"
-	},
-	"HEATRAN": {
-		"Lava Dome Cave": "Shrine"
-	},
-	"CRESSELIA": {
-		"Lunar Tunnel": "Shrine"
-	},
 	"WEEDLE": {
 		"Nova Ranch": "Capturing Tutorial"
-	}
+	},
+	"WHISTERACT": {
+		"Wild Bull Saloon": "If Female PC"
+	},
 }

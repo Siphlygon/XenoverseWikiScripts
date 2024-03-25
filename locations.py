@@ -5,7 +5,10 @@ from data_access import static_encounters
 # region Percentages
 def calculate_percentages_and_secondary_info(biome_encounters, p_data, biome):
     """
-    Calculate encounter percentages and secondary information for a Pokémon in a given biome.
+    Branching method which decides the secondary information based on biome, and accesses other methods to calculate
+    encounter percentages, which follow specific, positional rules based on the biome.
+
+    The secondary information is returned as a string, and the percentage as an integer.
 
     :param list[str] biome_encounters: Encounter data for a particular biome.
     :param dict[str, str] p_data: A dictionary containing all the Pokémon's data in pokemon.txt.
@@ -47,8 +50,17 @@ def calculate_percentage_for_land_and_cave(indexes):
     """
     Calculate encounter percentages for land and cave biomes based on index in the list of encounters.
 
+    Pokémon may appear at multiple indices, and the resultant encounter percentage is the sum. The percentage is decided
+    as follows:
+
+    Pokémon 1-2 - 20%
+    Pokémon 3-6 - 10%
+    Pokémon 7-8 - 5%
+    Pokémon 9-10 - 4%
+    Pokémon 11-12 - 1%
+
     :param list[int] indexes: Indexes of the Pokémon's encounter data.
-    :return int: Calculated percentage.
+    :return int: Calculated percentage of encounter.
     """
     percentage = 0
     for index in indexes:
@@ -69,8 +81,17 @@ def calculate_percentage_for_rock_smash_and_water(indexes):
     """
     Calculate encounter percentages for rock smash and water biomes based on index in the list of encounters.
 
+    Pokémon may appear at multiple indices, and the resultant encounter percentage is the sum. The percentage is decided
+    as follows:
+
+    Pokémon 1 - 60%
+    Pokémon 2 - 30%
+    Pokémon 3 - 5%
+    Pokémon 4 - 4%
+    Pokémon 5 - 1%
+
     :param list[int] indexes: Indexes of the Pokémon's encounter data.
-    :return int: Calculated percentage.
+    :return int: Calculated percentage of encounter.
     """
     percentage = 0
     for index in indexes:
@@ -91,6 +112,12 @@ def calculate_percentage_for_old_rod(indexes):
     """
     Calculate encounter percentages for old rod encounters based on index in the list of encounters.
 
+    Pokémon may appear at multiple indices, and the resultant encounter percentage is the sum. The percentage is decided
+    as follows:
+
+    Pokémon 1 - 70%
+    Pokémon 2 - 30%
+
     :param list[int] indexes: Indexes of the Pokémon's encounter data.
     :return int: Calculated percentage.
     """
@@ -107,6 +134,13 @@ def calculate_percentage_for_good_rod(indexes):
     """
     Calculate encounter percentages for good rod encounters based on index in the list of encounters.
 
+    Pokémon may appear at multiple indices, and the resultant encounter percentage is the sum. The percentage is decided
+    as follows:
+
+    Pokémon 1 - 60%
+    Pokémon 2 - 20%
+    Pokémon 3 - 20%
+
     :param list[int] indexes: Indexes of the Pokémon's encounter data.
     :return int: Calculated percentage.
     """
@@ -122,6 +156,15 @@ def calculate_percentage_for_good_rod(indexes):
 def calculate_percentage_for_super_rod(indexes):
     """
     Calculate encounter percentages for super rod encounters based on index in the list of encounters.
+
+    Pokémon may appear at multiple indices, and the resultant encounter percentage is the sum. The percentage is decided
+    as follows:
+
+    Pokémon 1 - 40%
+    Pokémon 2 - 30%
+    Pokémon 3 - 15%
+    Pokémon 4 - 10%
+    Pokémon 5 - 5%
 
     :param list[int] indexes: Indexes of the Pokémon's encounter data.
     :return int: Calculated percentage.
@@ -144,7 +187,8 @@ def calculate_percentage_for_super_rod(indexes):
 
 def _format_route_string(loc_name, secondary_info):
     """
-    Format the route string that will be displayed in the availability box.
+    Format the route string that will be displayed in the availability box, with the purpose to account for secondary
+    information if present. The secondary information is displayed in parentheses after the location name.
 
     :param str loc_name: The name of the location.
     :param str secondary_info: Optional secondary information about the type of encounter.
@@ -155,11 +199,15 @@ def _format_route_string(loc_name, secondary_info):
 
 def _process_location_data(loc, loc_name, p_data):
     """
-    Process location data to determine encounter percentages and secondary information.
+    Process location data and access other methods to determine encounter percentages and secondary information.
 
-    :param list[str] loc: Encounter information for a location.
+    Breaks down the location data into biomes including the target Pokémon, and processes each biome separately. The
+    resultant data is stored in a list of lists, with each sublist containing the percentage and route string for a
+    particular biome.
+
+    :param list[str] loc: Full encounter table for a particular location.
     :param str loc_name: Name of the location.
-    :return dict: Processed location data.
+    :return list[list[str]]: Processed location data consisting of a percentage and a route string.
     """
     # Collection of location biomes, which is the type of encounter area
     location_biomes = ["Land", "LandDay", "LandNight", "Cave", "RockSmash", "Water", "OldRod", "GoodRod",
@@ -200,6 +248,10 @@ def _account_for_static_encounters(p_data, game_locations):
     """
     Accounts for an external list of static encounters.
 
+    If the Pokémon is a static encounter, the information is added to the game locations list, indicating the location
+    and type of static encounter, the latter if not a standard battle. The function also returns a boolean indicating if
+    the Pokémon was a static encounter.
+
     :param dict[str, str] p_data: A dictionary containing all the Pokémon's data in pokemon.txt.
     :param list[str] game_locations: The wiki code to produce the availability information.
     :return bool: If the Pokémon was a static encounter.
@@ -236,8 +288,10 @@ class LocationDataGenerator:
 
     def create_game_locations(self):
         """
-        Creates the game locations for the Pokémon to be encountered given relevant information. Does not yet account
-        for static encounters, breeding only, or evolution only.
+        Creates the wiki code to produce game locations for the Pokémon to be encountered given relevant information.
+
+        Does not yet account for breeding only, or evolution only, which are sometimes the only way to obtain certain
+        Pokémon.
 
         :return list[str]: The wiki code to produce the availability information.
         """
@@ -258,7 +312,6 @@ class LocationDataGenerator:
 
             # Stores the current number of the location being processed.
             curr_num = 0
-
             # There are no duplicate locations, ensured by data collection methods
             for loc in self.encounter_locs:
                 location_data = _process_location_data(loc, self.loc_names[curr_num], self.p_data)

@@ -5,7 +5,8 @@ from data_access import location_info
 
 def read_file_lines(filename):
     """
-    Read lines from a file and return them as a list.
+    Read lines from a file and return them as a list, stripping any trailing whitespaces. Reduces the time a file is
+    open, as it is closed automatically after the function is done.
 
     :param str filename: The name of the file to read.
     :return list: The list of lines read from the file.
@@ -17,6 +18,10 @@ def read_file_lines(filename):
 def find_location_indices(idx, line_list):
     """
     Find the start and end indices of a location's encounter data.
+
+    New locations are (kinda) separated by a line of hashes, and we first instead find the index, idx, of a specific
+    Pokémon's mention in said location. We then iterate backwards and forwards from that index to find the start and end
+    of the location's encounter data by searching for said hashes.
 
     :param int idx: The index of the line containing the Pokémon's mention.
     :param list line_list: The list of lines in encounters.txt.
@@ -52,7 +57,11 @@ class DataCollection:
 
     def extract_pokemon_data(self):
         """
-        Extract and return all information for a Pokémon from a given file.
+        Extract and return all information for a Pokémon from pokemon.txt.
+
+        This includes the Pokémon's name, type, base stats, and other relevant information. The data is stored in a
+        dictionary, with the type of data as the key (e.g., "Name", "Type1", "Type2", "BaseStats", etc.), and the actual
+        data as the value.
 
         :return dict[str, str]: A dictionary containing all relevant information found in the file for the Pokémon.
         """
@@ -81,7 +90,11 @@ class DataCollection:
 
     def extract_move_data(self):
         """
-        Extract and return all TM or tutor move information for a Pokémon from a given file.
+        Extract and return all TM or tutor move information for a Pokémon from tm.txt.
+
+        The separation between the two types of moves is not obviously indicated within the file itself, and so the
+        program must determine this manually. The data is stored in a tuple, with the first element being the list of TM
+        moves, and the second being the list of tutor moves.
 
         :return tuple[list[str], list[str]]: The list of moves learnable by the Pokémon from the file.
         """
@@ -110,7 +123,11 @@ class DataCollection:
         """
         Extract and return all encounter information for a Pokémon from encounters.txt.
 
-        :return tuple: The encounter tables for all relevant locations and the list of zones for those locations.
+        This is stored in numbered zones in the game's data, and any one individual location may have multiple different
+        zones and different encounter tables. The data is stored in a list of lists, with each list containing the
+        encounter tables for a specific location. The list of locations processed is also returned.
+
+        :return tuple[list[list[str]], list[str]]: The encounter tables for relevant locations and the locations processed.
         """
         line_list = read_file_lines(self.encounters_path)
 

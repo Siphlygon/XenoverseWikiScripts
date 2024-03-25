@@ -6,7 +6,10 @@ def _generate_type_chart():
     """
     Generates the type chart for every type in Pokémon Xenoverse, which uses Gen V mechanics and the Sound type.
 
-    :return dict[str, dict[str, int]]: A full type chart.
+    The chart is a dictionary of dictionaries, with the outer dictionary containing the defending type and the inner
+    dictionary containing the attacking type and the multiplier.
+
+    :return dict[str, dict[str, int]]: A full type chart of defensive-first match ups.
     """
     type_chart = {
         'Normal': {'Normal': 1, 'Fighting': 2, 'Flying': 1, 'Poison': 1, 'Ground': 1, 'Rock': 1, 'Bug': 1, 'Ghost': 0,
@@ -72,13 +75,15 @@ def _generate_type_chart():
 
 class TypeEffectivenessCalculator:
     """
-    A class to calculate the defensive type matchups of a Pokémon given its (up to) two types.
+    A class to calculate the defensive type matchups of a Pokémon given its (up to) two types, accounting for abilities
+    that grant immunities and otherwise indicating extra information if some immunities are removed in the course of a
+    battle.
     """
     def __init__(self, p_data):
         """
         The init function for TypeEffectivenessCalculator
 
-        :param p_data: A dictionary containing all the Pokemon's data in pokemon.txt.
+        :param p_data: A dictionary containing all the Pokémon's data in pokemon.txt.
         """
         self.p_data = p_data
 
@@ -99,9 +104,10 @@ class TypeEffectivenessCalculator:
 
     def account_for_types(self, type_eff_box):
         """
-        Appends extra information to the type effectiveness box to do with certain immunity-giving types. These types
-        have immunities which are nullable through certain moves or abilities, and their new match ups need to be taken
-        into account.
+        Appends extra information to the type effectiveness box to do with certain immunity-giving types.
+
+        These types have immunities which are nullable through certain moves (e.g., Gravity against Flying) or
+        abilities (e.g., Scrappy against Ghost), and their new match ups need to be taken into account.
 
         :param list[str] type_eff_box: The wiki code to produce the type effectiveness box.
         """
@@ -119,9 +125,12 @@ class TypeEffectivenessCalculator:
                 type_eff_box.append(f"|{i_type.lower()} = yes")
 
                 if idx == 0:
+                    # These if statements account for single-typed Pokémon, which have default weaknesses of 1x
                     if other_type == "Ghost":
                         new_normal = 1
                         new_fighting = 1
+                    # Otherwise, finds the new match up as if the other type was reduced to 1x - e.g., a Fire/Flying
+                    # Pokémon would be 2x weak to Ground under Gravity, because Fire's type chart is 2x weak to Ground.
                     else:
                         new_normal = blank_type_chart[other_type]["Normal"]
                         new_fighting = blank_type_chart[other_type]["Fighting"]
@@ -149,9 +158,11 @@ class TypeEffectivenessCalculator:
         Note that some liberties are taken as all Pokémon's attributes are final in Xenoverse. So, for example, I know
         that no Pokémon has Dry Skin as its only ability, and can format appropriately without extra conditionals.
 
-        :param dict[str, float] type_match_ups: A dictionary comprised of types (strings) and their relative strength (float).
+        :param dict[str, float] type_match_ups: A dictionary comprised of types and their relative multiplier.
         :param list[str] type_eff_box: The wiki code to produce the type effectiveness box.
         """
+        # Some immune abilities are the sole ability of a Pokémon, and so are factored directly into the type
+        # effectiveness box. Others are not, and so are marked as "maybe" in the box and not directly shown.
         sole_ability = "yes" if len(self.abilities) == 1 else "maybe"
 
         for ability in self.abilities:
@@ -162,6 +173,7 @@ class TypeEffectivenessCalculator:
                     type_eff_box.append(f"|new{immune_type.lower()} = {type_match_ups[immune_type]}")
                     type_match_ups[immune_type] = 0
                 self.notes = True
+            # Abilities more complex than granting a single immunity are accounted for here
             elif ability in ["DRYSKIN"]:
                 type_eff_box.append(f"|{ability.lower()} = maybe")
                 type_eff_box.append(f"|newfire = {type_match_ups["Fire"] * 1.25}")
@@ -190,9 +202,13 @@ class TypeEffectivenessCalculator:
 
     def calculate_type_effectiveness(self):
         """
-        Calculates the effectiveness of types against the Pokémon.
+        Calculates the effectiveness of types against the Pokémon given its types and abilities.
 
-        :return dict[str, float]: A dictionary comprised of types (strings) and their relative strength (float).
+        This is done by finding the multipliers of types against each of the Pokémon's types, and then multiplying them
+        together to find the final multiplier, which is displayed in the hundreds in the wiki box. Also accounts for
+        immunity granting abilities.
+
+        :return dict[str, float]: A dictionary comprised of types and their relative multiplier.
         """
         type_chart = _generate_type_chart()
 
@@ -218,7 +234,7 @@ class TypeEffectivenessCalculator:
 
     def create_type_effectiveness(self):
         """
-        Creates the type effectiveness box for the Pokémon.
+        Creates the type effectiveness box for the Pokémon wiki page.
 
         :return list[str]: The wiki code to produce the type effectiveness box.
         """
