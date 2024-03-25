@@ -19,6 +19,8 @@ def calculate_percentages_and_secondary_info(biome_encounters, p_data, biome):
         percentage = calculate_percentage_for_land_and_cave(indexes)
         if biome == "LandDay":
             secondary_info = "Day"
+        elif biome == "Cave":
+            secondary_info = "Cave"
         else:
             secondary_info = "Night" if biome == "LandNight" else ""
 
