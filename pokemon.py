@@ -1,6 +1,7 @@
 # pylint: disable=locally-disabled, line-too-long, too-many-boolean-expressions, missing-module-docstring
 from data_access import (gender_code, growth_rate, pokemon_info, wild_item_info, ability_info)
 from utility_methods import (make_three_digits, find_dex_number)
+import numpy as np
 
 
 class PokemonBoxGenerator:
@@ -190,14 +191,19 @@ class PokemonBoxGenerator:
         item_slots = ["Common", "Uncommon", "Rare"]
 
         found_items = []
+        temp_box = []
         # Check and add items for each rarity slot
         for slot in item_slots:
             if f"WildItem{slot}" in self.p_data:
                 item = wild_item_info(self.p_data[f"WildItem{slot}"])
-                found_items.append(f"|{slot.lower()} = " + "{{Item|" + item + "}} " + f"[[{item}]]")
+                temp_box.append(f"|{slot.lower()} = " + "{{Item|" + item + "}} " + f"[[{item}]]")
+                found_items.append(item)
 
         # Accounts for how the game data indicates a 100% item
-        wild_items.extend(found_items)
+        if np.unique(found_items).size == 1:
+            wild_items.append("|always = " + "{{Item|" + found_items[0] + "}} " + f"[[{found_items[0]}]]")
+        else:
+            wild_items.extend(temp_box)
 
         wild_items.append("}}")
 
