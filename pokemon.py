@@ -41,28 +41,28 @@ class PokemonBoxGenerator:
             prev_num = make_three_digits(str(num - 1))
             next_num = make_three_digits(str(num + 1))
 
-            # Deciding previous number & pokémon, across dexes
+            # Defines the boundaries of the dexes
+            dex_bounds = {"": 583, "X": 44, "V": 207}
+
             if num > 1:
                 head_foot.append(f"|prev = {pokemon_info(region + prev_num).split(',')[1]}")
                 head_foot.append(f"|prevnum = {region + prev_num}")
-            elif region == "X":
-                head_foot.append(f"|prev = {pokemon_info('583').split(',')[1]}")
-                head_foot.append("|prevnum = 583")
-            elif region == "V":
-                head_foot.append(f"|prev = {pokemon_info('X044').split(',')[1]}")
-                head_foot.append("|prevnum = X044")
+            # If the number is 1, it will go to the last number of the dex
+            else:
+                for reg, bound in dex_bounds.items():
+                    if region == reg:
+                        head_foot.append(f"|prev = {pokemon_info(reg + make_three_digits(str(bound))).split(',')[1]}")
+                        head_foot.append(f"|prevnum = {reg + make_three_digits(str(bound))}")
 
-            # Deciding next number & pokémon, across dexes
-            if (region == "" and num < 583) or (region == 'V' and num < 207) or (region == 'X' and num < 44):
+            # Deciding next number & pokémon, accounting for the different bounds of each dex
+            if num < dex_bounds[region]:
                 head_foot.append(f"|next = {pokemon_info(region + next_num).split(',')[1]}")
                 head_foot.append(f"|nextnum = {region + next_num}")
-            elif region == "":
-                head_foot.append(f"|next = {pokemon_info('X001').split(',')[1]}")
-                head_foot.append("|nextnum = X001")
-            elif region == "X":
-                head_foot.append(f"|next = {pokemon_info('V001').split(',')[1]}")
-                head_foot.append("|nextnum = V001")
+            else:
+                head_foot.append(f"|next = {pokemon_info(region + "001").split(',')[1]}")
+                head_foot.append(f"|nextnum = {region + '001'}")
 
+        # Specific range is chosen to obtain only digits and ignore either the region or any alt forms i.e., ABC_1
         if dex_num[0] == "X":
             get_prev_next(int(dex_num[1:4]), "X")
         elif dex_num[0] == "V":
