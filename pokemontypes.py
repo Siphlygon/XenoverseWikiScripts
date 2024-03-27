@@ -187,6 +187,8 @@ class TypeEffectivenessCalculator:
                 for a_type in ["Bug", "Dark", "Fighting"]:
                     type_eff_box.append(f"|new{a_type.lower()} = {type_match_ups[a_type]}")
                     type_match_ups[a_type] *= 0.5
+                type_eff_box.append(f"|newdragon = {type_match_ups['Dragon']}")
+                type_match_ups["Dragon"] = 0
                 self.notes = True
             elif ability in ["FILTER", "SOLIDROCK"]:
                 type_eff_box.append(f"|{ability.lower()} = maybe")
