@@ -1,6 +1,6 @@
 # pylint: disable=line-too-long, too-many-boolean-expressions, missing-module-docstring, F0401
 import numpy as np
-from data_access import (gender_code, growth_rate, pokemon_info, wild_item_info, ability_info)
+from data_access import (gender_code, growth_rate, pokemon_info, wild_item_info, ability_info, species_and_dex_entry)
 from utility_methods import (make_three_digits, find_dex_number)
 
 
@@ -88,7 +88,7 @@ class PokemonBoxGenerator:
 
         # Name, Species
         infobox.append("|name = " + self.name)
-        infobox.append("|species = Species Name")
+        infobox.append("|species = " + species_and_dex_entry(self.p_data["InternalNumber"])["Species"])
 
         # Dex & Image
         dex_nums = find_dex_number(self.p_data["RegionalNumbers"])
@@ -158,6 +158,10 @@ class PokemonBoxGenerator:
 
         if self.second_type != self.first_type:
             pokedex_entry.append("|type2 = " + self.second_type)
+
+        pokedex_entry.append(f"''{species_and_dex_entry(self.p_data['InternalNumber'])['Dex Entry']}''")
+
+        pokedex_entry.append("}}")
 
         return pokedex_entry
 
