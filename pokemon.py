@@ -1,7 +1,7 @@
-# pylint: disable=locally-disabled, line-too-long, too-many-boolean-expressions, missing-module-docstring
+# pylint: disable=line-too-long, too-many-boolean-expressions, missing-module-docstring, F0401
+import numpy as np
 from data_access import (gender_code, growth_rate, pokemon_info, wild_item_info, ability_info)
 from utility_methods import (make_three_digits, find_dex_number)
-import numpy as np
 
 
 class PokemonBoxGenerator:

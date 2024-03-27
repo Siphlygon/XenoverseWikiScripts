@@ -1,4 +1,4 @@
-# pylint: disable=locally-disabled, too-many-lines, line-too-long, missing-module-docstring
+# pylint: disable=too-many-lines, line-too-long, missing-module-docstring, import-error
 from data_access import (pokemon_info, move_info, tm_info)
 from utility_methods import find_dex_number
 
@@ -147,6 +147,7 @@ class MoveListGenerator:
         move_list = ["{{Move" + header + "Start|" + dex_data[1] + "|" + self.first_type + "|" +
                      self.second_type + "}}"]
 
+        breed_string = ""
         # Breeding moves need to be handled differently, as they require a breed string, and may not always be needed.
         if list_type == "breed":
             if "EggMoves" in self.p_data:

@@ -1,10 +1,9 @@
-# pylint: disable=locally-disabled, too-many-lines, line-too-long
+# pylint: disable=too-many-lines, line-too-long, missing-function-docstring, F0401
 """
 Main script for generating a Pokémon's wiki page. The script will ask for the Pokémon's internal name and then access
 other classes and functions to facilitate the generation of the wiki page. The script will then continue repeating until
 the user decides to stop the script.
 """
-
 from pokemon import PokemonBoxGenerator
 from moves import MoveListGenerator
 from locations import LocationDataGenerator
