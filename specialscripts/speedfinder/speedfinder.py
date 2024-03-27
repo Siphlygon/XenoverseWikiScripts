@@ -128,7 +128,8 @@ if __name__ == "__main__":
     print("Grouping the data by base speed...")
     n = 1
     while n < len(singles_data):
-        if singles_data[n][2] == singles_data[n - 1][2]:
+        # If the Pokémon have the same speed stat and base speed, group them together
+        if singles_data[n][0] == singles_data[n - 1][0] and singles_data[n][2] == singles_data[n - 1][2]:
             singles_data[n - 1][1] += ", " + singles_data[n][1]
             singles_data.remove(singles_data[n])
         else:
