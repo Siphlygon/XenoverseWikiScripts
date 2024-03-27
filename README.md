@@ -10,7 +10,8 @@ This project is not meant as a total replacement to manual editing, and should b
 ### Features & Planned
 Generates Pokémon wiki pages for Xenoverse 1.5.5, and currently:
 - Supports all Pokémon found in the main Pokédex and the Xenodex.
-- Extracts the abilities, wild held items, metric height and weight, base stats, gender code, growth rate, EV yield, egg groups & steps, friendship, and catch rate for a Pokémon from the game files.
+- Extracts the abilities, wild held items, metric height and weight, base exp, base stats, gender code, growth rate, EV yield, egg groups & steps, friendship, and catch rate for a Pokémon from the game files.
+- Finds the English species name and dex entry for display.
 - Calculates the effectiveness of other types against a given Pokémon, including the Sound type, and accounting for abilities.
 - Extracts all moves learnable by a Pokémon through level up, TMs, breeding, or tutoring, account for STAB.
 - Finds information about wild encounters and static encounters and displays with appropriate rarity.
@@ -19,7 +20,6 @@ Generates Pokémon wiki pages for Xenoverse 1.5.5, and currently:
 
 It does not yet, and may never:
 - Account for evolutions and related aspects (egg moves of previous evolutions, future STAB, in the evolution box, in the opening paragraph, or if egg hatching is possible) .
-- Indicate the Pokémon's species or Pokédex entries, as only the Italian versions are easily available.
 - Find the fathers for applicable egg moves.
 - Completely function for the Vintagedex (I plan to implement this, but there are some unresolved discrepancies between the wiki and the game data for vintage Pokémon).
 
