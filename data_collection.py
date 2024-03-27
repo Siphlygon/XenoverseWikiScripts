@@ -15,9 +15,8 @@ def find_location_indices(idx, line_list):
     """
     Find the start and end indices of a location's encounter data.
 
-    New locations are (kinda) separated by a line of hashes, and we first instead find the index, idx, of a specific
-    Pokémon's mention in said location. We then iterate backwards and forwards from that index to find the start and end
-    of the location's encounter data by searching for said hashes.
+    We first instead find the index, idx, of a specific Pokémon's mention in said location. We then iterate backwards
+    and forwards from that index to find the start and end of the location's encounter data by searching for hashes.
 
     :param int idx: The index of the line containing the Pokémon's mention.
     :param list line_list: The list of lines in encounters.txt.
@@ -26,11 +25,11 @@ def find_location_indices(idx, line_list):
     start, end = 0, 0
     for a in range(idx, 0, -1):
         start = a
-        if line_list[a] == "#########################":
+        if "#" in line_list[a]:
             break
     for b in range(idx + 1, len(line_list), 1):
         end = b
-        if line_list[b] == "#########################":
+        if "#" in line_list[b]:
             break
     return start, end
 
@@ -138,7 +137,7 @@ class DataCollection:
                 start, end = find_location_indices(idx, line_list)
 
                 # Finds the zone ID, which any one location can have multiple of
-                zone_id = line_list[start + 1].split("#")[0].rstrip()
+                zone_id = line_list[start].split("#")[0].rstrip()
 
                 # Ensures that zones aren't processed multiple times
                 if zone_id not in found_zones:
@@ -146,10 +145,6 @@ class DataCollection:
 
                     # Remove level number, unnecessary for this program
                     zone_encounters = line_list[start:end]
-
-                    # Remove the line of hashes at the start of later elements of zone_encounters. Standardises length
-                    if len(encounter_info) > 0:
-                        zone_encounters.pop(0)
 
                     # Strip numbers from everything and ignore first two lines; unnecessary now
                     formatted_encounters = [''.join(x for x in i if x.isalpha()) for i in zone_encounters[2:]]
