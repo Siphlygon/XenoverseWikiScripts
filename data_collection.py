@@ -44,16 +44,19 @@ class DataCollection:
     A class that contains methods to extract all related information to a Pokémon from the game's data files.
     """
 
-    def __init__(self, name):
+    def __init__(self, name, pokemon_path="gamedata/pokemon.txt", tm_path="gamedata/tm.txt", encounters_path="gamedata/encounters.txt"):
         """
         The init function of DataCollection.
 
         :param str name: The internal name of a Pokémon.
+        :param str pokemon_path: The path to the file containing Pokémon data.
+        :param str tm_path: The path to the file containing TM and tutor move data.
+        :param str encounters_path: The path to the file containing encounter data.
         """
         self.name = name
-        self.pokemon_path = "gamedata/pokemon.txt"
-        self.tm_path = "gamedata/tm.txt"
-        self.encounters_path = "gamedata/encounters.txt"
+        self.pokemon_path = pokemon_path
+        self.tm_path = tm_path
+        self.encounters_path = encounters_path
 
     def extract_pokemon_data(self):
         """
