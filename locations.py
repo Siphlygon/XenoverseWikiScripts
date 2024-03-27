@@ -1,5 +1,5 @@
 # pylint: disable=locally-disabled, line-too-long, missing-module-docstring, too-few-public-methods
-from data_access import static_encounters
+from data_access import location_info, static_encounters
 
 
 # region Percentages
@@ -197,49 +197,97 @@ def _format_route_string(loc_name, secondary_info):
     return f"[[{loc_name}]] ({secondary_info})" if secondary_info else f"[[{loc_name}]]"
 
 
-def _process_location_data(loc, loc_name, p_data):
+def _process_zone_data(zone, loc_name, p_data):
     """
-    Process location data and access other methods to determine encounter percentages and secondary information.
+    Process zone data and access other methods to determine encounter percentages and secondary information.
 
-    Breaks down the location data into biomes including the target Pokémon, and processes each biome separately. The
+    Breaks down the zone data into biomes including the target Pokémon, and processes each biome separately. The
     resultant data is stored in a list of lists, with each sublist containing the percentage and route string for a
     particular biome.
 
-    :param list[str] loc: Full encounter table for a particular location.
+    :param list[str] zone: Full encounter table for a particular zone.
     :param str loc_name: Name of the location.
-    :return list[list[str]]: Processed location data consisting of a percentage and a route string.
+    :return list[list[str]]: Processed zone data consisting of a percentage, route name, and secondary information.
     """
     # Collection of location biomes, which is the type of encounter area
-    location_biomes = ["Land", "LandDay", "LandNight", "Cave", "RockSmash", "Water", "OldRod", "GoodRod",
-                       "SuperRod"]
+    location_biomes = ["Land", "LandDay", "LandNight", "Cave", "RockSmash", "Water", "OldRod", "GoodRod", "SuperRod"]
     biome_dict = {}
 
     # Obtains the indexes where each different biome starts in a zone
-    biome_indexes = [i for i, e in enumerate(loc) if e in location_biomes]
+    biome_indexes = [i for i, e in enumerate(zone) if e in location_biomes]
 
     # Not fully sure why, but the case of 1 biome in a location needs to be handled separately. Other fixes didn't work.
     if len(biome_indexes) == 1:
-        biome_dict[loc[biome_indexes[0]]] = loc[biome_indexes[0] + 1:]
+        biome_dict[zone[biome_indexes[0]]] = zone[biome_indexes[0] + 1:]
     else:
         # Adds the biomes as a key to a dictionary with the encounters in said biome as the value
         for n in range(0, len(biome_indexes) - 1):
-            biome_dict[loc[biome_indexes[n]]] = loc[biome_indexes[n] + 1:biome_indexes[n + 1]]
-        biome_dict[loc[biome_indexes[-1]]] = loc[biome_indexes[-1] + 1:]
+            biome_dict[zone[biome_indexes[n]]] = zone[biome_indexes[n] + 1:biome_indexes[n + 1]]
+        biome_dict[zone[biome_indexes[-1]]] = zone[biome_indexes[-1] + 1:]
 
     # Remove biomes without the Pokémon present
     biome_dict = {key: value for key, value in biome_dict.items() if p_data["InternalName"] in value}
 
-    location_data = []
-    for biome, data in biome_dict.items():
-        percentages, secondary_info = calculate_percentages_and_secondary_info(data, p_data, biome)
-        route_string = _format_route_string(loc_name, secondary_info)
-        location_data.append([percentages, route_string])
+    zone_data = []
+    biomes_processed = {}
+    for idx, (biome, data) in enumerate(biome_dict.items()):
+        # Can't believe I have to account for this, but old "Land" code is overwritten by "LandDay" and "LandNight"
+        biomes_processed[biome] = idx
+        if biome in ["LandDay", "LandNight"] and "Land" in biomes_processed:
+            del zone_data[biomes_processed["Land"]]
 
-    # If the Pokémon is present in multiple biomes in one location, blank secondary info
-    if len(biome_dict) > 1:
-        percentages = [p[0] for p in location_data]
-        route_string = _format_route_string(loc_name, "")
-        location_data = [[max(percentages), route_string]]
+        percentages, secondary_info = calculate_percentages_and_secondary_info(data, p_data, biome)
+        zone_data.append([percentages, (loc_name, secondary_info)])
+
+    return zone_data
+
+
+def _format_rarity_list(rarity_list):
+    """
+    Format the rarity list into route strings, grouping encounters on the same route if they are day and night.
+
+    :param list[list[str]] rarity_list: The list of routes & secondary information for a particular rarity.
+    :return list[str]: The formatted rarity list.
+    """
+    n = 1
+    while n < len(rarity_list):
+        # If the two entries are on the same route, consider grouping
+        if rarity_list[n - 1][0] == rarity_list[n][0]:
+            # I assume it's always Day then Night, which appears to be the case. If wrong, will fix.
+            if [rarity_list[n - 1][1], rarity_list[n][1]] == ["Day", "Night"]:
+                rarity_list[n - 1][1] = ""
+                del rarity_list[n]
+            else:
+                n += 1
+        else:
+            n += 1
+
+    # Format the rarity list into route strings
+    new_rarity_list = []
+    for encounter in rarity_list:
+        route_string = _format_route_string(encounter[0], encounter[1])
+        new_rarity_list.append(route_string)
+
+    return new_rarity_list
+
+
+def _merge_same_location_data(all_zone_data):
+    """
+    Merge different zone datas for the same location.
+
+    Any location may have multiple zones, and although many have duplicate encounter tables, not all do. This function
+    merges the data for the same location, keeping only the highest encounter rate for display purposes/rarity.
+
+    :param  list[list[int | tuple[str, str]]] all_zone_data: The list of all zone data.
+    """
+    location_data = {}
+
+    for zone in all_zone_data:
+        if zone[1] in location_data:
+            if zone[0] > location_data[zone[1]]:
+                location_data[zone[1]] = zone[0]
+        else:
+            location_data[zone[1]] = zone[0]
 
     return location_data
 
@@ -274,17 +322,17 @@ class LocationDataGenerator:
     A class which extracts a Pokémon's data from encounters.txt, calculates the actual percentage of its appearance,
     and formats into a proper string.
     """
-    def __init__(self, p_data, encounter_locs, loc_names):
+    def __init__(self, p_data, encounter_locs, zone_ids):
         """
         The init function for LocationDataGenerator.
 
         :param dict[str, str] p_data: A dictionary containing all the Pokémon's data in pokemon.txt.
-        :param list[str] encounter_locs: The encounter information for every location the Pokémon is present in.
-        :param list[str] loc_names: The name of every location the Pokémon is available in.
+        :param list[list[str]] encounter_locs: The encounter information for every location the Pokémon is present in.
+        :param list[str] zone_ids: The ID of every zone the Pokémon is available in.
         """
         self.p_data = p_data
         self.encounter_locs = encounter_locs
-        self.loc_names = loc_names
+        self.zone_ids = zone_ids
 
     def create_game_locations(self):
         """
@@ -310,25 +358,32 @@ class LocationDataGenerator:
             enc_uncommon = []
             enc_rare = []
 
-            # Stores the current number of the location being processed.
-            curr_num = 0
-            # There are no duplicate locations, ensured by data collection methods
-            for loc in self.encounter_locs:
-                location_data = _process_location_data(loc, self.loc_names[curr_num], self.p_data)
-                for location in location_data:
-                    if location[0] > 15:
-                        enc_common.append(location[1])
-                    elif location[0] > 5:
-                        enc_uncommon.append(location[1])
-                    else:
-                        enc_rare.append(location[1])
-                curr_num += 1
+            all_zone_data = []
+            for idx, zone in enumerate(self.encounter_locs):
+                loc_name = location_info(self.zone_ids[idx])
+                zone_data = _process_zone_data(zone, loc_name, self.p_data)
+                all_zone_data.extend(zone_data)
+
+            # Multiple zones are present in the same location, with different encounter tables. Only display the highest
+            location_data = _merge_same_location_data(all_zone_data)
+            location_data = [[v, k] for k, v in location_data.items()]
+
+            for location in location_data:
+                if location[0] > 15:
+                    enc_common.append([location[1][0], location[1][1]])
+                elif location[0] > 5:
+                    enc_uncommon.append([location[1][0], location[1][1]])
+                else:
+                    enc_rare.append([location[1][0], location[1][1]])
 
             if enc_common:
+                enc_common = _format_rarity_list(enc_common)
                 game_locations.append("|common = " + ", ".join(enc_common))
             if enc_uncommon:
+                enc_uncommon = _format_rarity_list(enc_uncommon)
                 game_locations.append("|uncommon = " + ", ".join(enc_uncommon))
             if enc_rare:
+                enc_rare = _format_rarity_list(enc_rare)
                 game_locations.append("|rare = " + ", ".join(enc_rare))
 
         game_locations.append("}}")
