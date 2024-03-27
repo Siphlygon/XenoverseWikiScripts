@@ -70,7 +70,7 @@ class DataCollection:
         for idx, line in enumerate(line_list):
             if line == "InternalName=" + self.name:
                 found_pokemon = True
-                raw_data = line_list[idx - 1:idx + 1]
+                raw_data = line_list[idx - 2:idx + 1]
                 continue
 
             if found_pokemon:
@@ -82,7 +82,10 @@ class DataCollection:
                     raw_data.remove(line)
                     raw_data.remove(line_list[idx - 1])
                     raw_data.remove(line_list[idx - 2])
+                    raw_data.remove(line_list[idx - 3])
                     break
+
+        raw_data[0] = "InternalNumber=" + raw_data[0].replace("[", "").replace("]", "")
 
         return {key: value for line in raw_data for key, value in [line.split('=', 1)]}
 
