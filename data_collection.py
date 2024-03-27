@@ -1,8 +1,4 @@
 # pylint: disable=locally-disabled, line-too-long, missing-module-docstring
-
-from data_access import location_info
-
-
 def read_file_lines(filename):
     """
     Read lines from a file and return them as a list, stripping any trailing whitespaces. Reduces the time a file is
@@ -135,7 +131,7 @@ class DataCollection:
         line_list = read_file_lines(self.encounters_path)
 
         encounter_info = []
-        found_locations = []
+        found_zones = []
 
         for idx, line in enumerate(line_list):
             if self.name in line:
@@ -144,14 +140,19 @@ class DataCollection:
                 # Finds the zone ID, which any one location can have multiple of
                 zone_id = line_list[start + 1].split("#")[0].rstrip()
 
-                # Ensures that locations aren't processed multiple times due to different zones
-                if location_info(zone_id) not in found_locations:
-                    found_locations.append(location_info(zone_id))
+                # Ensures that zones aren't processed multiple times
+                if zone_id not in found_zones:
+                    found_zones.append(zone_id)
 
                     # Remove level number, unnecessary for this program
                     zone_encounters = line_list[start:end]
-                    formatted_encounters = [''.join(x for x in i if x.isalpha()) for i in zone_encounters]
 
+                    # Remove the line of hashes at the start of later elements of zone_encounters. Standardises length
+                    if len(encounter_info) > 0:
+                        zone_encounters.pop(0)
+
+                    # Strip numbers from everything and ignore first two lines; unnecessary now
+                    formatted_encounters = [''.join(x for x in i if x.isalpha()) for i in zone_encounters[2:]]
                     encounter_info.append(formatted_encounters)
 
-        return encounter_info, found_locations
+        return encounter_info, found_zones
