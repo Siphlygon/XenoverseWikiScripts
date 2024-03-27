@@ -1,0 +1,2946 @@
+{
+    "1": {
+        "Species": "Seed",
+        "Dex Entry": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon."
+    },
+    "2": {
+        "Species": "Seed",
+        "Dex Entry": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs."
+    },
+    "3": {
+        "Species": "Seed",
+        "Dex Entry": "By spreading the broad petals of its flower and catching the sun's rays, it fills its body with power."
+    },
+    "4": {
+        "Species": "Lizard",
+        "Dex Entry": "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely."
+    },
+    "5": {
+        "Species": "Flame",
+        "Dex Entry": "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws."
+    },
+    "6": {
+        "Species": "Flame",
+        "Dex Entry": "When expelling a blast of super hot fire, the red flame at the tip of its tail burns more intensely."
+    },
+    "7": {
+        "Species": "Tiny Turtle",
+        "Dex Entry": "It shelters itself in its shell, then strikes back with spouts of water at every opportunity."
+    },
+    "8": {
+        "Species": "Turtle",
+        "Dex Entry": "It cleverly controls its furry ears and tail to maintain its balance while swimming."
+    },
+    "9": {
+        "Species": "Shellfish",
+        "Dex Entry": "The jets of water it spouts from the rocket cannons on its shell can punch through thick steel."
+    },
+    "10": {
+        "Species": "Worm",
+        "Dex Entry": "It releases a stench from its red antenna to repel enemies. It grows by molting repeatedly."
+    },
+    "11": {
+        "Species": "Cocoon",
+        "Dex Entry": "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution."
+    },
+    "12": {
+        "Species": "Butterfly",
+        "Dex Entry": "It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen."
+    },
+    "13": {
+        "Species": "Hairy Bug",
+        "Dex Entry": "It eats its weight in leaves every day. It fends off attackers with the needle on its head."
+    },
+    "14": {
+        "Species": "Cocoon",
+        "Dex Entry": "While awaiting evolution, it hides from predators under leaves and in nooks of branches."
+    },
+    "15": {
+        "Species": "Poison Bee",
+        "Dex Entry": "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear."
+    },
+    "19": {
+        "Species": "Mouse",
+        "Dex Entry": "Cautious in the extreme, its hardy vitality lets it live in any kind of environment."
+    },
+    "20": {
+        "Species": "Mouse",
+        "Dex Entry": "Its disposition is far more violent than its looks would suggest. Don't let your hand get too close to its face, as it could bite your hand clean off."
+    },
+    "23": {
+        "Species": "Snake",
+        "Dex Entry": "By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests."
+    },
+    "24": {
+        "Species": "Cobra",
+        "Dex Entry": "After stunning its opponents with the pattern on its stomach, it quickly wraps them up in its body and waits for them to stop moving."
+    },
+    "25": {
+        "Species": "Mouse",
+        "Dex Entry": "It's in its nature to store electricity. It feels stressed now and then if it's unable to fully discharge the electricity."
+    },
+    "26": {
+        "Species": "Mouse",
+        "Dex Entry": "It turns aggressive if it has too much electricity in its body. It discharges power through its tail."
+    },
+    "27": {
+        "Species": "Mouse",
+        "Dex Entry": "It lives in areas of limited rainfall. When danger approaches, it curls up into a ball to protect its soft stomach."
+    },
+    "28": {
+        "Species": "Mouse",
+        "Dex Entry": "It is skilled at slashing enemies with its claws. If broken, they start to grow back in a day."
+    },
+    "37": {
+        "Species": "Fox",
+        "Dex Entry": "At the time of birth, it has just one tail. The tail splits from its tip as it grows older."
+    },
+    "38": {
+        "Species": "Fox",
+        "Dex Entry": "Very smart and very vengeful. Grabbing one of its many tails could result in a 1000-year curse."
+    },
+    "39": {
+        "Species": "Balloon",
+        "Dex Entry": "It captivates foes with its huge, round eyes, then lulls them to sleep by singing a soothing melody."
+    },
+    "40": {
+        "Species": "Balloon",
+        "Dex Entry": "When it gets angry, it inhales with all its might, and its body gradually inflates. Sometimes they can grow 20 times larger!"
+    },
+    "41": {
+        "Species": "Bat",
+        "Dex Entry": "It checks its surroundings and location using reflections of the ultrasonic waves from its mouth."
+    },
+    "42": {
+        "Species": "Bat",
+        "Dex Entry": "Its thick fangs are hollow like straws, making them unexpectedly fragile. These fangs are specialized for sucking blood."
+    },
+    "43": {
+        "Species": "Weed",
+        "Dex Entry": "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight."
+    },
+    "44": {
+        "Species": "Weed",
+        "Dex Entry": "It secretes a sticky, drool-like honey. Although sweet, it smells too repulsive to get very close."
+    },
+    "45": {
+        "Species": "Flower",
+        "Dex Entry": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up."
+    },
+    "46": {
+        "Species": "Mushroom",
+        "Dex Entry": "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host."
+    },
+    "47": {
+        "Species": "Mushroom",
+        "Dex Entry": "A mushroom grown larger than the host's body controls Parasect. It scatters poisonous spores."
+    },
+    "50": {
+        "Species": "Mole",
+        "Dex Entry": "It travels through tunnels that it digs underground. It hates sunlight, so it comes out only after the sun goes down."
+    },
+    "51": {
+        "Species": "Mole",
+        "Dex Entry": "This set of triplets moves cooperatively. It's the power of teamwork that enables this Pokémon to dig to a depth of 60 miles."
+    },
+    "52": {
+        "Species": "Scratch Cat",
+        "Dex Entry": "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly."
+    },
+    "53": {
+        "Species": "Classy Cat",
+        "Dex Entry": "Its lithe muscles allow it to walk without making a sound. It attacks in an instant."
+    },
+    "54": {
+        "Species": "Duck",
+        "Dex Entry": "Always tormented by headaches. It uses psychic powers, but it is not known if it intends to do so."
+    },
+    "55": {
+        "Species": "Duck",
+        "Dex Entry": "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa."
+    },
+    "58": {
+        "Species": "Puppy",
+        "Dex Entry": "It controls a big territory. If it detects an unknown smell, it roars loudly to force out the intruder."
+    },
+    "59": {
+        "Species": "Legendary",
+        "Dex Entry": "A Pokémon that has been admired since the past for its beauty. It runs agilely as if on wings."
+    },
+    "63": {
+        "Species": "Psi",
+        "Dex Entry": "Using its psychic power is such a strain on its brain that it needs to sleep for 18 hours a day."
+    },
+    "64": {
+        "Species": "Psi",
+        "Dex Entry": "If one is nearby, an eerie shadow appears on TV screens. Seeing the shadow is said to bring bad luck."
+    },
+    "65": {
+        "Species": "Psi",
+        "Dex Entry": "Its brain cells multiply continually until it dies. As a result, it remembers everything."
+    },
+    "69": {
+        "Species": "Flower",
+        "Dex Entry": "Prefers hot and humid places. It ensnares tiny insects with its vines and devours them."
+    },
+    "70": {
+        "Species": "Flycatcher",
+        "Dex Entry": "When hungry, it swallows anything that moves. Its hapless prey is melted inside by strong acids."
+    },
+    "71": {
+        "Species": "Flycatcher",
+        "Dex Entry": "Lures prey with the sweet aroma of honey. Swallowed whole, the prey is melted in a day, bones and all."
+    },
+    "74": {
+        "Species": "Rock",
+        "Dex Entry": "Its round body makes it easy to pick up, but it is hard and heavy. It's dangerous to play with them as if they were snowballs."
+    },
+    "75": {
+        "Species": "Rock",
+        "Dex Entry": "Mossy rocks are its favorite food. It can devour a ton a day while crunching loudly."
+    },
+    "76": {
+        "Species": "Megaton",
+        "Dex Entry": "Its body can survive dynamite blasts without a single scratch, but it hates rain and humidity."
+    },
+    "77": {
+        "Species": "Fire Horse",
+        "Dex Entry": "As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster."
+    },
+    "78": {
+        "Species": "Fire Horse",
+        "Dex Entry": "When at an all-out gallop, its blazing mane sparkles, enhancing its beautiful appearance."
+    },
+    "79": {
+        "Species": "Dopey",
+        "Dex Entry": "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack."
+    },
+    "80": {
+        "Species": "Hermit Crab",
+        "Dex Entry": "The Shellder that latches onto Slowpoke's tail is said to feed on the host's leftover scraps."
+    },
+    "81": {
+        "Species": "Magnet",
+        "Dex Entry": "The units at the sides of its body generate antigravity energy to keep it aloft in the air."
+    },
+    "82": {
+        "Species": "Magnet",
+        "Dex Entry": "Generates strange radio signals. It raises the temperature by 3.6 degrees Fahrenheit within 3,300 feet."
+    },
+    "86": {
+        "Species": "Sea Lion",
+        "Dex Entry": "Covered with light blue fur, its hide is thick and tough. It is active in bitter cold of -40 degrees Fahrenheit."
+    },
+    "87": {
+        "Species": "Sea Lion",
+        "Dex Entry": "Its streamlined body has little drag in water. The colder the temperature, the friskier it gets."
+    },
+    "88": {
+        "Species": "Sludge",
+        "Dex Entry": "It was born from sludge transformed by exposure to X-rays from the moon. When its internal load of germs decreases, it dies."
+    },
+    "89": {
+        "Species": "Sludge",
+        "Dex Entry": "A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact."
+    },
+    "92": {
+        "Species": "Gas",
+        "Dex Entry": "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison."
+    },
+    "93": {
+        "Species": "Gas",
+        "Dex Entry": "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes."
+    },
+    "94": {
+        "Species": "Shadow",
+        "Dex Entry": "It hides in shadows. It is said that if Gengar is hiding, it cools the area by nearly 10 degrees F."
+    },
+    "95": {
+        "Species": "Rock Snake",
+        "Dex Entry": "It usually lives underground. It searches for food while boring its way through the ground at 50 miles per hour."
+    },
+    "96": {
+        "Species": "Hypnosis",
+        "Dex Entry": "It puts its prey to sleep and devours their dreams. It seems that bad dreams taste sour, so Drowzee doesn't particularly like eating them."
+    },
+    "97": {
+        "Species": "Hypnosis",
+        "Dex Entry": "While it is an extremely dangerous Pokémon, people who are in need of a good, sound sleep call it their savior."
+    },
+    "98": {
+        "Species": "Granchio",
+        "Dex Entry": "Its claws are formidable weapons. If they break during the fight they grow back immediately."
+    },
+    "99": {
+        "Species": "Chela",
+        "Dex Entry": "Its huge claws are as hard as steel. It has incredible strength, but it is too heavy."
+    },
+    "102": {
+        "Species": "Egg",
+        "Dex Entry": "Even though it appears to be eggs of some sort, it was discovered to be a life-form more like plant seeds."
+    },
+    "103": {
+        "Species": "Coconut",
+        "Dex Entry": "Each of its heads has its own will. They use telepathy to discuss their plans before coming to a joint decision."
+    },
+    "104": {
+        "Species": "Lonely",
+        "Dex Entry": "It always wears the skull of its dead mother, so no one has any idea what its hidden face looks like."
+    },
+    "105": {
+        "Species": "Bone Keeper",
+        "Dex Entry": "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets."
+    },
+    "106": {
+        "Species": "Kicking",
+        "Dex Entry": "When in a hurry, its legs lengthen progressively. It runs smoothly with extra-long, loping strides."
+    },
+    "107": {
+        "Species": "Punching",
+        "Dex Entry": "The spirit of a pro boxer has infused this Pokémon. It throws punches that are faster than a bullet train."
+    },
+    "109": {
+        "Species": "Poison Gas",
+        "Dex Entry": "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive."
+    },
+    "110": {
+        "Species": "Poison Gas",
+        "Dex Entry": "It grows by feeding on gases released by garbage. Though very rare, triplets have been found."
+    },
+    "111": {
+        "Species": "Spikes",
+        "Dex Entry": "It is inept at turning because of its four short legs. It can only charge and run in one direction."
+    },
+    "112": {
+        "Species": "Drill",
+        "Dex Entry": "Standing on its hind legs freed its forelegs and made it smarter. It is very forgetful, however."
+    },
+    "113": {
+        "Species": "Egg",
+        "Dex Entry": "A kindly Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people."
+    },
+    "114": {
+        "Species": "Vine",
+        "Dex Entry": "Its identity is obscured by masses of thick, blue vines. The vines are said to never stop growing."
+    },
+    "115": {
+        "Species": "Parent",
+        "Dex Entry": "Raises its young in its belly pouch. Won't run from any fight to keep its young protected."
+    },
+    "116": {
+        "Species": "Dragon",
+        "Dex Entry": "If it senses any danger, it will vigorously spray water or a special type of ink from its mouth."
+    },
+    "117": {
+        "Species": "Dragon",
+        "Dex Entry": "Touching the back fin causes numbness. It hooks its tail to coral to stay in place while sleeping."
+    },
+    "120": {
+        "Species": "Star Shape",
+        "Dex Entry": "Even if its body is torn, it can regenerate as long as the glowing central core remains intact."
+    },
+    "121": {
+        "Species": "Mysterious",
+        "Dex Entry": "It rotates its geometrically shaped body to swim through the water. It always seems to be sending out mysterious radio waves."
+    },
+    "122": {
+        "Species": "Barrier",
+        "Dex Entry": "Its gestures and motions convince watchers that something unseeable actually exists. Once it is believed, it will exist as if it were a real thing."
+    },
+    "123": {
+        "Species": "Mantis",
+        "Dex Entry": "It tears and shreds prey with its wickedly sharp scythes. It very rarely spreads its wings to fly."
+    },
+    "125": {
+        "Species": "Elettric",
+        "Dex Entry": "Electricity permeates its body. It swings its arms round and round to charge up electricity before unleashing a punch."
+    },
+    "126": {
+        "Species": "Spitfire",
+        "Dex Entry": "Its body always burns with an orange glow that enables it to hide perfectly among flames."
+    },
+    "127": {
+        "Species": "Cervolante",
+        "Dex Entry": "If it fails to crush the victim in its pincers, it will swing it around and toss it hard."
+    },
+    "128": {
+        "Species": "Wild Bull",
+        "Dex Entry": "After heightening its will to fight by whipping itself with its three tails, it charges at full speed."
+    },
+    "129": {
+        "Species": "Fish",
+        "Dex Entry": "Thanks to their strong hold on life, dirty water doesn't bother them at all. They live in waters all over the world!"
+    },
+    "130": {
+        "Species": "Atrocious",
+        "Dex Entry": "Brutally vicious and enormously destructive. Known for totally destroying cities in ancient times."
+    },
+    "131": {
+        "Species": "Transport",
+        "Dex Entry": "It loves crossing the sea with people and Pokémon on its back. It understands human speech."
+    },
+    "132": {
+        "Species": "Transform",
+        "Dex Entry": "It can reorganize its cells to make itself into a duplicate of anything it sees. The quality of the duplicate depends on the individual."
+    },
+    "133": {
+        "Species": "Evolution",
+        "Dex Entry": "Possessing an unbalanced and unstable genetic makeup, it conceals many possible evolutions."
+    },
+    "134": {
+        "Species": "Bubble Jet",
+        "Dex Entry": "It has evolved to be suitable for an aquatic life. It can invisibly melt away into water."
+    },
+    "135": {
+        "Species": "Lightning",
+        "Dex Entry": "Its fur stands on end, becoming like needles it fires at enemies. Once they're weakened, it finishes them off with a 10,000 volt shock."
+    },
+    "136": {
+        "Species": "Flame",
+        "Dex Entry": "Inhaled air is heated in the flame sac in its body to an intense fire over 3,000 degrees Fahrenheit."
+    },
+    "137": {
+        "Species": "Virtual",
+        "Dex Entry": "A man-made Pokémon that came about as a result of research. It is programmed with only basic motions."
+    },
+    "142": {
+        "Species": "Fossil",
+        "Dex Entry": "Aerodactyl is a Pokémon from the age of dinosaurs. It was regenerated from genetic material extracted from amber. It is imagined to have been the king of the skies in ancient times."
+    },
+    "143": {
+        "Species": "Sleeping",
+        "Dex Entry": "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful."
+    },
+    "147": {
+        "Species": "Dragon",
+        "Dex Entry": "It sheds its skin—almost on a daily basis—and grows larger. Its skin is soft just after it's been shed."
+    },
+    "148": {
+        "Species": "Dragon",
+        "Dex Entry": "Its crystalline orbs appear to give this Pokémon the power to freely control the weather."
+    },
+    "149": {
+        "Species": "Dragon",
+        "Dex Entry": "It is said that this kindhearted Pokémon constantly flies over the immense seas and rescues drowning people."
+    },
+    "150": {
+        "Species": "Genetic",
+        "Dex Entry": "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon."
+    },
+    "151": {
+        "Species": "New Species",
+        "Dex Entry": "Its DNA is said to contain the genetic codes of all Pokémon, so it can use all kinds of techniques."
+    },
+    "152": {
+        "Species": "Leaf",
+        "Dex Entry": "It uses the leaf on its head to determine the temperature and humidity. It loves to sunbathe."
+    },
+    "153": {
+        "Species": "Leaf",
+        "Dex Entry": "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health."
+    },
+    "154": {
+        "Species": "Herb",
+        "Dex Entry": "Its breath has the fantastic ability to revive dead plants and flowers."
+    },
+    "155": {
+        "Species": "Fire Mouse",
+        "Dex Entry": "It is timid and always curls itself up in a ball. If attacked, it flares up its back for protection."
+    },
+    "156": {
+        "Species": "Volcano",
+        "Dex Entry": "It intimidates foes with the heat of its flames. The fire burns more strongly when it readies to fight."
+    },
+    "157": {
+        "Species": "Volcano",
+        "Dex Entry": "It attacks using blasts of fire. It creates heat shimmers with intense fire to hide itself."
+    },
+    "158": {
+        "Species": "Big Jaw",
+        "Dex Entry": "It has the habit of biting anything with its developed jaws. Even its Trainer needs to be careful."
+    },
+    "159": {
+        "Species": "Big Jaw",
+        "Dex Entry": "Once it bites down, it won't let go until it loses its fangs. New fangs quickly grow into place."
+    },
+    "160": {
+        "Species": "Big Jaw",
+        "Dex Entry": "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up."
+    },
+    "165": {
+        "Species": "Five Star",
+        "Dex Entry": "They are timid and grow uneasy when not in a swarm with others of their kind. The pattern on their backs differs slightly from one to another."
+    },
+    "166": {
+        "Species": "Five Star",
+        "Dex Entry": "It uses starlight as energy. When more stars appear at night, the patterns on its back grow larger."
+    },
+    "169": {
+        "Species": "Bat",
+        "Dex Entry": "Silent and swift in its four-winged flight, it bites down on its prey before they realize what's happening. In a heartbeat, it drains their blood."
+    },
+    "172": {
+        "Species": "Tiny Mouse",
+        "Dex Entry": "It is not yet skilled at controlling electricity. If you take your eyes off it, it may shock itself."
+    },
+    "174": {
+        "Species": "Balloon",
+        "Dex Entry": "It likes to sing but is not yet good at it. With praise and encouragement, it will get better little by little."
+    },
+    "177": {
+        "Species": "Tiny Bird",
+        "Dex Entry": "Because its wings aren't yet fully grown, it has to hop to get around. It is always staring at something."
+    },
+    "178": {
+        "Species": "Mystic",
+        "Dex Entry": "This odd Pokémon can see both the past and the future. It eyes the sun's movements all day."
+    },
+    "179": {
+        "Species": "Wool",
+        "Dex Entry": "When cold weather increases static electricity, its wool doubles in size and the tip of its tail glows slightly."
+    },
+    "180": {
+        "Species": "Wool",
+        "Dex Entry": "Its fluffy fleece easily stores electricity. Its rubbery hide keeps it from being electrocuted."
+    },
+    "181": {
+        "Species": "Light",
+        "Dex Entry": "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people."
+    },
+    "182": {
+        "Species": "Flower",
+        "Dex Entry": "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open."
+    },
+    "183": {
+        "Species": "Aqua Mouse",
+        "Dex Entry": "The tip of its tail, which contains oil that is lighter than water, lets it swim without drowning."
+    },
+    "184": {
+        "Species": "Aqua Rabbit",
+        "Dex Entry": "When it plays in water, it rolls up its elongated ears to prevent their insides from getting wet."
+    },
+    "185": {
+        "Species": "Imitation",
+        "Dex Entry": "To avoid being attacked, it does nothing but mimic a tree. It hates water and flees from rain."
+    },
+    "190": {
+        "Species": "Long Tail",
+        "Dex Entry": "It lives atop tall trees. When leaping from branch to branch, it deftly uses its tail for balance."
+    },
+    "193": {
+        "Species": "Clear Wing",
+        "Dex Entry": "Its large eyes can scan 360 degrees. It looks in all directions to seek out insects as its prey."
+    },
+    "194": {
+        "Species": "Water Fish",
+        "Dex Entry": "A mucous membrane covers its body. Touching it barehanded will cause a shooting pain."
+    },
+    "195": {
+        "Species": "Water Fish",
+        "Dex Entry": "Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims."
+    },
+    "196": {
+        "Species": "Sun",
+        "Dex Entry": "It uses the fine hair that covers its body to sense air currents and predict its enemy's actions."
+    },
+    "197": {
+        "Species": "Moonlight",
+        "Dex Entry": "With its black fur, it blends into the darkness. It bides its time, and when prey appears, this Pokémon goes for its throat, and then eats it."
+    },
+    "198": {
+        "Species": "Darkness",
+        "Dex Entry": "It searches for shiny things for its boss. Murkrow's presence is said to be unlucky, so many people detest it."
+    },
+    "199": {
+        "Species": "Royal",
+        "Dex Entry": "When its head was bitten, toxins entered Slowpoke's head and unlocked an extraordinary power."
+    },
+    "200": {
+        "Species": "Screech",
+        "Dex Entry": "It likes playing mischievous tricks such as screaming and wailing to startle people at night."
+    },
+    "203": {
+        "Species": "Long Neck",
+        "Dex Entry": "Its tail, which also contains a small brain, may bite on its own if it notices an alluring smell."
+    },
+    "204": {
+        "Species": "Bagworm",
+        "Dex Entry": "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it."
+    },
+    "205": {
+        "Species": "Bagworm",
+        "Dex Entry": "Its entire body is shielded by a steel-hard shell. What lurks inside the armor is a total mystery."
+    },
+    "207": {
+        "Species": "Fly Scorpion",
+        "Dex Entry": "It glides as if sliding. It startles foes by clamping on their faces, then jabs with its poison stinger."
+    },
+    "208": {
+        "Species": "Iron Snake",
+        "Dex Entry": "The iron it ingested with the soil it swallowed- transformed its body and made it harder than diamonds."
+    },
+    "209": {
+        "Species": "Fairy",
+        "Dex Entry": "Despite its intimidating face, it's quite cowardly. Its desperate attempts to appear threatening make it popular with people."
+    },
+    "210": {
+        "Species": "Fairy",
+        "Dex Entry": "It is timid in spite of its looks. If it becomes enraged, however, it will strike with its huge fangs."
+    },
+    "212": {
+        "Species": "Pincer",
+        "Dex Entry": "Once it has identified an enemy, this Pokémon smashes it mercilessly with pincers hard as steel."
+    },
+    "213": {
+        "Species": "Mold",
+        "Dex Entry": "The berries stored in its vaselike shell eventually become a thick, pulpy juice."
+    },
+    "214": {
+        "Species": "Single Horn",
+        "Dex Entry": "This powerful Pokémon thrusts its prized horn under its enemies' bellies, then lifts and throws them."
+    },
+    "215": {
+        "Species": "Sharp Claw",
+        "Dex Entry": "It has a cunning yet savage disposition. It waits for parents to leave their nests, and then it sneaks in to steal their eggs."
+    },
+    "216": {
+        "Species": "Little Bear",
+        "Dex Entry": "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations."
+    },
+    "217": {
+        "Species": "Hibernator",
+        "Dex Entry": "In its territory, it leaves scratches on trees that bear delicious berries or fruits."
+    },
+    "218": {
+        "Species": "Lava",
+        "Dex Entry": "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places."
+    },
+    "219": {
+        "Species": "Lava",
+        "Dex Entry": "The shell on its back is just skin that has cooled and hardened. It breaks easily with a slight touch."
+    },
+    "220": {
+        "Species": "Pig",
+        "Dex Entry": "It has a very sensitive nose. It can locate mushrooms, berries, and even hot springs buried under ice."
+    },
+    "221": {
+        "Species": "Swine",
+        "Dex Entry": "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly."
+    },
+    "222": {
+        "Species": "Coral",
+        "Dex Entry": "Coral branches grow from its head. They break off quite easily, but they grow back in about three days."
+    },
+    "223": {
+        "Species": "Jet",
+        "Dex Entry": "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers."
+    },
+    "224": {
+        "Species": "Jet",
+        "Dex Entry": "The ink it spits when escaping is special. It contains a substance that dulls the sense of smell, so Pokémon with keen noses get lost."
+    },
+    "226": {
+        "Species": "Kite",
+        "Dex Entry": "While elegantly swimming in the sea, it ignores Remoraid that cling to its fins seeking food scraps."
+    },
+    "227": {
+        "Species": "Armor Bird",
+        "Dex Entry": "Its feathers, which fall off as it grows, are thin and sharp. In times long past, warriors used them as swords."
+    },
+    "228": {
+        "Species": "Dark",
+        "Dex Entry": "To corner prey, they check each other's location using barks that only they can understand."
+    },
+    "229": {
+        "Species": "Dark",
+        "Dex Entry": "They spew flames mixed with poison to finish off their opponents. They divvy up their prey evenly among the members of their pack."
+    },
+    "230": {
+        "Species": "Dragon",
+        "Dex Entry": "It sleeps deep on the ocean floor to build its energy. It is said to cause tornadoes as it wakes."
+    },
+    "233": {
+        "Species": "Virtual",
+        "Dex Entry": "For the purposes of planetary development, Porygon was updated with the most cutting-edge technology available."
+    },
+    "235": {
+        "Species": "Painter",
+        "Dex Entry": "A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory."
+    },
+    "236": {
+        "Species": "Scuffle",
+        "Dex Entry": "It is always bursting with energy. To make itself stronger, it keeps on fighting even if it loses."
+    },
+    "237": {
+        "Species": "Handstand",
+        "Dex Entry": "If you become enchanted by its smooth, elegant, dance-like kicks, you may get drilled hard."
+    },
+    "239": {
+        "Species": "Electric",
+        "Dex Entry": "A weak electric current flows between its horns. Sticking a hand there shocks the unwary."
+    },
+    "240": {
+        "Species": "Live Coal",
+        "Dex Entry": "Each and every time it inhales and exhales, hot embers dribble out of its mouth and nostrils."
+    },
+    "241": {
+        "Species": "Milk Cow",
+        "Dex Entry": "Its milk is packed with nutrition, making it the ultimate beverage for the sick or weary."
+    },
+    "242": {
+        "Species": "Happiness",
+        "Dex Entry": "This kindhearted Pokémon nurses sick Pokémon back to health. It senses feelings of sadness."
+    },
+    "243": {
+        "Species": "Thunder",
+        "Dex Entry": "It is said to have fallen with lightning. It can fire thunderbolts from the rain clouds on its back."
+    },
+    "244": {
+        "Species": "Volcano",
+        "Dex Entry": "A Pokémon that races across the land. It is said that one is born every time a new volcano appears."
+    },
+    "245": {
+        "Species": "Aurora",
+        "Dex Entry": "Said to be the embodiment of north winds, it can instantly purify filthy, murky water."
+    },
+    "246": {
+        "Species": "Rock Skin",
+        "Dex Entry": "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil."
+    },
+    "247": {
+        "Species": "Hard Shell",
+        "Dex Entry": "Its body is as hard as bedrock. By venting pressurized gas, it can launch itself like a rocket."
+    },
+    "248": {
+        "Species": "Armor",
+        "Dex Entry": "If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward."
+    },
+    "249": {
+        "Species": "Diving",
+        "Dex Entry": "It sleeps in a deep-sea trench. If it flaps its wings, it is said to cause a 40-day storm."
+    },
+    "250": {
+        "Species": "Rainbow",
+        "Dex Entry": "A legend says that its body glows in seven colors. A rainbow is said to form behind it when it flies."
+    },
+    "251": {
+        "Species": "Time Travel",
+        "Dex Entry": "It has the power to travel across time, but it is said to appear only in peaceful times."
+    },
+    "252": {
+        "Species": "Wood Gecko",
+        "Dex Entry": "Treecko has small hooks on the bottom of its feet that enable it to scale vertical walls. This Pokémon attacks by slamming foes with its thick tail."
+    },
+    "253": {
+        "Species": "Wood Gecko",
+        "Dex Entry": "Leaves grow out of this Pokémon's body. They help obscure a Grovyle from the eyes of its enemies while it is in a thickly overgrown forest."
+    },
+    "254": {
+        "Species": "Forest",
+        "Dex Entry": "Sceptile has seeds growing on its back. They are said to be bursting with nutrients that revitalize trees. This Pokémon raises the trees in a forest with loving care."
+    },
+    "255": {
+        "Species": "Chick",
+        "Dex Entry": "Inside its body is a place where it keeps a small flame. Hug it! It will be as warm as a hot-water bottle."
+    },
+    "256": {
+        "Species": "Young Fowl",
+        "Dex Entry": "Its kicking mastery lets it loose 10 kicks per second. It emits sharp cries to intimidate foes."
+    },
+    "257": {
+        "Species": "Blaze",
+        "Dex Entry": "Blaziken learns martial arts that use punches and kicks. Every several years, its old feathers burn off, and new, supple feathers grow back in their place."
+    },
+    "258": {
+        "Species": "Mud Fish",
+        "Dex Entry": "The fin on Mudkip's head acts as highly sensitive radar. Using this fin to sense movements of water and air, this Pokémon can determine what is taking place around it without using its eyes."
+    },
+    "259": {
+        "Species": "Mud Fish",
+        "Dex Entry": "The surface of Marshtomp's body is enveloped by a thin, sticky film that enables it to live on land."
+    },
+    "260": {
+        "Species": "Mud Fish",
+        "Dex Entry": "Swampert predicts storms by sensing subtle differences in the sounds of waves and tidal winds with its fins."
+    },
+    "261": {
+        "Species": "Bite",
+        "Dex Entry": "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted."
+    },
+    "262": {
+        "Species": "Bite",
+        "Dex Entry": "It chases down prey in a pack. It will never disobey the commands of a skilled Trainer."
+    },
+    "263": {
+        "Species": "Tiny Raccoon",
+        "Dex Entry": "It gets interested in everything, which is why it zigs and zags. It is good at finding items."
+    },
+    "264": {
+        "Species": "Rushing",
+        "Dex Entry": "When running in a straight line, it can easily top 60 miles an hour. It has a tough time with curved roads."
+    },
+    "270": {
+        "Species": "Water Weed",
+        "Dex Entry": "Its leaf grew too large for it to live on land. That is how it began to live floating in the water."
+    },
+    "271": {
+        "Species": "Jolly",
+        "Dex Entry": "It has a mischievous spirit. If it spots an angler, it will tug on the fishing line to interfere."
+    },
+    "272": {
+        "Species": "Carefree",
+        "Dex Entry": "If it hears festive music, all its muscles fill with energy. It can't help breaking out into a dance."
+    },
+    "273": {
+        "Species": "Acorn",
+        "Dex Entry": "It attaches itself to a tree branch using the top of its head. Strong winds can sometimes make it fall."
+    },
+    "274": {
+        "Species": "Wily",
+        "Dex Entry": "The sound of its grass flute makes its listeners uneasy. It lives deep in forests."
+    },
+    "275": {
+        "Species": "Wicked",
+        "Dex Entry": "It lives quietly in the deep forest. It is said to create chilly winter winds with the fans it holds."
+    },
+    "276": {
+        "Species": "Tiny Swallow",
+        "Dex Entry": "It dislikes cold seasons. They migrate to other lands in search of warmth, flying over 180 miles a day."
+    },
+    "277": {
+        "Species": "Swallow",
+        "Dex Entry": "It dives at a steep angle as soon as it spots its prey. It catches its prey with sharp claws."
+    },
+    "278": {
+        "Species": "Seagull",
+        "Dex Entry": "With its long, thin wings, it catches updrafts and flies like a glider high up into the sky."
+    },
+    "279": {
+        "Species": "Water Bird",
+        "Dex Entry": "Skimming the water's surface, it dips its large bill in the sea, scoops up food and water, and carries it."
+    },
+    "280": {
+        "Species": "Feeling",
+        "Dex Entry": "Ralts has the ability to sense the emotions of people. If its trainer is in a cheerful mood, this Pokémon grows cheerful and joyous in the same way."
+    },
+    "281": {
+        "Species": "Emotion",
+        "Dex Entry": "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about."
+    },
+    "282": {
+        "Species": "Embrace",
+        "Dex Entry": "Gardevoir has the ability to read the future. If it senses impending danger to its Trainer, this Pokémon is said to unleash its psychokinetic energy at full power."
+    },
+    "283": {
+        "Species": "Pond Skater",
+        "Dex Entry": "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head."
+    },
+    "284": {
+        "Species": "Eyeball",
+        "Dex Entry": "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction."
+    },
+    "285": {
+        "Species": "Mushroom",
+        "Dex Entry": "Shroomish live in damp soil in the dark depths of forests. They are often found keeping still under fallen leaves. This Pokémon feeds on compost that is made up of fallen, rotted leaves."
+    },
+    "286": {
+        "Species": "Mushroom",
+        "Dex Entry": "Its short arms stretch when it throws punches. Its technique is equal to that of pro boxers."
+    },
+    "293": {
+        "Species": "Whisper",
+        "Dex Entry": "If it senses danger, it scares the foe by crying out with the volume of a jet-plane engine."
+    },
+    "294": {
+        "Species": "Big Voice",
+        "Dex Entry": "It shouts loudly by inhaling air, and then uses its well-developed stomach muscles to exhale."
+    },
+    "295": {
+        "Species": "Loud Noise",
+        "Dex Entry": "Its roar in battle shakes the ground like a tremor—or like an earthquake has struck."
+    },
+    "298": {
+        "Species": "Polka Dot",
+        "Dex Entry": "Its tail, which is packed with nutrition, is very bouncy like a rubber ball. On sunny days they gather at the edge of water and splash about for fun."
+    },
+    "299": {
+        "Species": "Compass",
+        "Dex Entry": "The magnet in Nosepass's nose provides an unerring compass, making it an excellent partner for Trainers going on a journey."
+    },
+    "303": {
+        "Species": "Deceiver",
+        "Dex Entry": "Attached to its head is a huge set of jaws formed by horns. It can chew through iron beams."
+    },
+    "304": {
+        "Species": "Iron Armor",
+        "Dex Entry": "This Pokémon has a body of steel. To make its body, Aron feeds on iron ore that it digs from mountains."
+    },
+    "305": {
+        "Species": "Iron Armor",
+        "Dex Entry": "For food, it digs up iron ore. It smashes its steely body against others to fight over territory."
+    },
+    "306": {
+        "Species": "Iron Armor",
+        "Dex Entry": "It claims a large mountain as its sole territory. It mercilessly thrashes those that violate its space."
+    },
+    "311": {
+        "Species": "Cheering",
+        "Dex Entry": "It cheers on friends with pom-poms made of sparks. It drains power from telephone poles."
+    },
+    "312": {
+        "Species": "Cheering",
+        "Dex Entry": "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles."
+    },
+    "315": {
+        "Species": "Thorn",
+        "Dex Entry": "It uses the different poisons in each hand separately when it attacks. The stronger its aroma, the healthier it is."
+    },
+    "316": {
+        "Species": "Stomach",
+        "Dex Entry": "Almost all of its body is its stomach. Its harsh digestive juices quickly dissolve anything it swallows."
+    },
+    "317": {
+        "Species": "Poison Bag",
+        "Dex Entry": "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes."
+    },
+    "318": {
+        "Species": "Savage",
+        "Dex Entry": "If they scent the faintest trace of blood, they rush to attack en masse. When alone, they're rather cowardly."
+    },
+    "319": {
+        "Species": "Brutal",
+        "Dex Entry": "Its fangs rip through sheet iron. It swims at 75 mph and is known as ''The Bully of the Sea.''"
+    },
+    "322": {
+        "Species": "Numb",
+        "Dex Entry": "The magma in its body reaches 2,200 degrees F. Its hump gets smaller when it uses Fire-type moves."
+    },
+    "323": {
+        "Species": "Eruption",
+        "Dex Entry": "It has volcanoes on its back. If magma builds up in its body, it shudders, then erupts violently."
+    },
+    "324": {
+        "Species": "Coal",
+        "Dex Entry": "Coal is the source of Torkoal's energy. Large amounts of coal can be found in the mountains where they live."
+    },
+    "327": {
+        "Species": "Spot Panda",
+        "Dex Entry": "No two Spinda have the same pattern of spots. Its tottering step fouls the aim of foes."
+    },
+    "328": {
+        "Species": "Ant Pit",
+        "Dex Entry": "As it digs through the sand, its giant jaws crush any rocks that obstruct its path. It builds a funnel-shaped nest."
+    },
+    "329": {
+        "Species": "Vibration",
+        "Dex Entry": "It violently shudders its wings, generating ultrasonic waves to induce headaches in people."
+    },
+    "330": {
+        "Species": "Mystic",
+        "Dex Entry": "It hides itself by kicking up desert sand with its wings. Red covers shield its eyes from sand."
+    },
+    "331": {
+        "Species": "Cactus",
+        "Dex Entry": "By storing water in its body, this desert dweller can survive for 30 days without water."
+    },
+    "332": {
+        "Species": "Scarecrow",
+        "Dex Entry": "It becomes active at night, seeking prey that is exhausted from the day's desert heat."
+    },
+    "333": {
+        "Species": "Cotton Bird",
+        "Dex Entry": "Its wings are like cotton tufts. If it perches on someone's head, it looks like a cotton hat."
+    },
+    "334": {
+        "Species": "Humming",
+        "Dex Entry": "It looks like a fluffy cloud when it is in flight. It hums with its soprano voice."
+    },
+    "337": {
+        "Species": "Meteorite",
+        "Dex Entry": "Because it turns active on nights of the full moon, it is said to have some link to the lunar phases."
+    },
+    "338": {
+        "Species": "Meteorite",
+        "Dex Entry": "Solar energy is the source of this Pokémon's power. On sunny days, groups of Solrock line up facing the sun and absorb its light."
+    },
+    "341": {
+        "Species": "Ruffian",
+        "Dex Entry": "No matter how dirty the water in the river, it will adapt and thrive. It has a strong will to survive."
+    },
+    "342": {
+        "Species": "Rogue",
+        "Dex Entry": "It is a ruffian that uses its pincers to pick up and toss out other Pokémon from its pond."
+    },
+    "343": {
+        "Species": "Clay Doll",
+        "Dex Entry": "It moves by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins."
+    },
+    "344": {
+        "Species": "Clay Doll",
+        "Dex Entry": "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago."
+    },
+    "349": {
+        "Species": "Fish",
+        "Dex Entry": "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water."
+    },
+    "350": {
+        "Species": "Tender",
+        "Dex Entry": "Milotic has provided inspiration to many artists. It has even been referred to as the most beautiful Pokémon of all."
+    },
+    "351": {
+        "Species": "Weather",
+        "Dex Entry": "Castform's appearance changes with the weather. This Pokémon gained the ability to use the vast power of nature to protect its tiny body."
+    },
+    "352": {
+        "Species": "Color Swap",
+        "Dex Entry": "It changes its shading to match its surroundings so it can sneak up on prey. Only its belly patterns stay fixed."
+    },
+    "355": {
+        "Species": "Requiem",
+        "Dex Entry": "It loves the crying of children. It startles bad kids by passing through walls and making them cry."
+    },
+    "356": {
+        "Species": "Beckon",
+        "Dex Entry": "Its body is hollow. It is said that those who look into its body are sucked into the void."
+    },
+    "357": {
+        "Species": "Fruit",
+        "Dex Entry": "Because it continually ate only its favorite fruit, the fruit started growing around its neck."
+    },
+    "359": {
+        "Species": "Disaster",
+        "Dex Entry": "It appears when it senses an impending natural disaster. As a result, it was mistaken as a doom-bringer."
+    },
+    "361": {
+        "Species": "Snow Hat",
+        "Dex Entry": "It's said that if they are seen at midnight, they'll cause heavy snow. They eat snow and ice to survive."
+    },
+    "362": {
+        "Species": "Face",
+        "Dex Entry": "To protect itself, it clads its body in an armor of ice, made by freezing moisture in the air."
+    },
+    "363": {
+        "Species": "Clap",
+        "Dex Entry": "Its body is covered in fluffy fur. The fur keeps it from feeling cold while it is rolling on ice."
+    },
+    "364": {
+        "Species": "Ball Roll",
+        "Dex Entry": "This Pokémon has a habit of spinning round things on its nose, whether those things are Poké Balls or Spheal."
+    },
+    "365": {
+        "Species": "Ice Break",
+        "Dex Entry": "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks."
+    },
+    "366": {
+        "Species": "Bivalve",
+        "Dex Entry": "It is protected by a sturdy shell. Once in a lifetime, it makes a magnificent pearl."
+    },
+    "367": {
+        "Species": "Deep Sea",
+        "Dex Entry": "It lives deep in the sea where no light ever filters down. It lights up its small fish-like tail to attract prey."
+    },
+    "368": {
+        "Species": "South Sea",
+        "Dex Entry": "It lives at the bottom of the sea. In the springtime, its pink body turns more vivid for some reason."
+    },
+    "374": {
+        "Species": "Iron Ball",
+        "Dex Entry": "Its cells are all magnetic, and it communicates with others by using magnetic pulses."
+    },
+    "375": {
+        "Species": "Iron Claw",
+        "Dex Entry": "With its two brains, it fires powerful psychic energy to stop its prey in their tracks."
+    },
+    "376": {
+        "Species": "Iron Leg",
+        "Dex Entry": "It firmly pins its prey using its four claws and large body. Then the teeth in the mouth on its stomach chew the prey to bits."
+    },
+    "377": {
+        "Species": "Rock Peak",
+        "Dex Entry": "It is entirely composed of rocks with no sign of a brain or heart. It is a mystery even to modern scientists."
+    },
+    "378": {
+        "Species": "Iceberg",
+        "Dex Entry": "Its entire body is made of Antarctic ice. After extensive studies, researchers believe the ice was formed during an ice age."
+    },
+    "379": {
+        "Species": "Iron",
+        "Dex Entry": "Its body is harder than any other kind of metal. The body metal is composed of a mysterious substance. Not only is it hard, it shrinks and stretches flexibly."
+    },
+    "386": {
+        "Species": "DNA",
+        "Dex Entry": "An alien virus that fell to Earth on a meteor underwent a DNA mutation to become this Pokémon."
+    },
+    "387": {
+        "Species": "Tiny Leaf",
+        "Dex Entry": "The shell on its back is made of soil. On a very healthy Turtwig, the shell should feel moist."
+    },
+    "388": {
+        "Species": "Grove",
+        "Dex Entry": "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell."
+    },
+    "389": {
+        "Species": "Continent",
+        "Dex Entry": "Small Pokemon occasionally gather on its unmoving back to begin building their nests."
+    },
+    "390": {
+        "Species": "Chimp",
+        "Dex Entry": "It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps."
+    },
+    "391": {
+        "Species": "Playful",
+        "Dex Entry": "To intimidate attackers, it stretches the fire on its tail to make itself appear bigger."
+    },
+    "392": {
+        "Species": "Flame",
+        "Dex Entry": "It uses a special kind of martial arts involving all its limbs. Its fire never goes out."
+    },
+    "393": {
+        "Species": "Penguin",
+        "Dex Entry": "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold."
+    },
+    "394": {
+        "Species": "Penguin",
+        "Dex Entry": "It lives alone, away from others. Apparently, every one of them believes it is the most important."
+    },
+    "395": {
+        "Species": "Emperor",
+        "Dex Entry": "The three horns that extend from its beak attest to its power. The leader has the biggest horns."
+    },
+    "396": {
+        "Species": "Starling",
+        "Dex Entry": "They flock in great numbers. Though small, they flap their wings with great power."
+    },
+    "397": {
+        "Species": "Starling",
+        "Dex Entry": "It flies around forests and fields in search of bug Pokemon. It stays within a huge flock."
+    },
+    "398": {
+        "Species": "Predator",
+        "Dex Entry": "It has a savage nature. It will courageously challenge foes that are much larger."
+    },
+    "399": {
+        "Species": "Plump Mouse",
+        "Dex Entry": "Rosicchia continuamente legno e rocce per affilare i denti anteriori. Nidifica vicino all'acqua."
+    },
+    "400": {
+        "Species": "Beaver",
+        "Dex Entry": "It makes its nest by damming streams with bark and mud. It is known as an industrious worker."
+    },
+    "401": {
+        "Species": "Cricket",
+        "Dex Entry": "It shakes its head back to front, causing its antennae to hit each other and sound like a xylophone."
+    },
+    "402": {
+        "Species": "Cricket",
+        "Dex Entry": "By allowing its cry to resonate in the hollow of its belly, it produces a captivating sound."
+    },
+    "403": {
+        "Species": "Flash",
+        "Dex Entry": "The extension and contraction of its muscles generates electricity. Its fur glows when it's in trouble."
+    },
+    "404": {
+        "Species": "Spark",
+        "Dex Entry": "It rests its forelegs on others to communicate with rhythmic electric pulses from its claws."
+    },
+    "405": {
+        "Species": "Gleam Eyes",
+        "Dex Entry": "When its eyes gleam gold, it can spot hiding prey--even those taking shelter behind a wall."
+    },
+    "406": {
+        "Species": "Bud",
+        "Dex Entry": "Sensitive to changing temperature, the bud is said to bloom when it feels the sun's warm touch."
+    },
+    "407": {
+        "Species": "Bouquet",
+        "Dex Entry": "It attracts prey with a sweet aroma, then downs it with thorny whips hidden in its arms."
+    },
+    "408": {
+        "Species": "Head Butt",
+        "Dex Entry": "It lived in jungles around 100 million years ago. Its skull is as hard as iron."
+    },
+    "409": {
+        "Species": "Head Butt",
+        "Dex Entry": "Its powerful head butt has enough power to shatter even the most durable things upon impact."
+    },
+    "410": {
+        "Species": "Shield",
+        "Dex Entry": "A Pokemon that lived in jungles around 100 million years ago. Its facial hide is extremely hard."
+    },
+    "411": {
+        "Species": "Shield",
+        "Dex Entry": "Any frontal attack is repulsed. It is a docile Pokemon that feeds on grass and berries."
+    },
+    "412": {
+        "Species": "Bagworm",
+        "Dex Entry": "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves."
+    },
+    "413": {
+        "Species": "Bagworm",
+        "Dex Entry": "When Burmy evolved, its cloak became a part of this Pokemon's body. The cloak is never shed."
+    },
+    "414": {
+        "Species": "Moth",
+        "Dex Entry": "It loves the honey of flowers and steals honey collected by Combee."
+    },
+    "415": {
+        "Species": "Tiny Bee",
+        "Dex Entry": "Il trio è insieme dalla nascita. È sempre impegnato a portare il nettare dei fiori a Vespiquen."
+    },
+    "416": {
+        "Species": "Beehive",
+        "Dex Entry": "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding."
+    },
+    "417": {
+        "Species": "EleSquirrel",
+        "Dex Entry": "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity."
+    },
+    "418": {
+        "Species": "Sea Weasel",
+        "Dex Entry": "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed."
+    },
+    "419": {
+        "Species": "Sea Weasel",
+        "Dex Entry": "Its flotation sac developed as a result of pursuing aquatic prey. It can double as a rubber raft."
+    },
+    "420": {
+        "Species": "Cherry",
+        "Dex Entry": "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty."
+    },
+    "421": {
+        "Species": "Blossom",
+        "Dex Entry": "It blooms during times of strong sunlight. It tries to make up for everything it endured as a bud."
+    },
+    "422": {
+        "Species": "Sea Slug",
+        "Dex Entry": "Cambia facilmente aspetto e colore secondo il luogo di provenienza."
+    },
+    "423": {
+        "Species": "Sea Slug",
+        "Dex Entry": "Long ago, its entire back was shielded with a sturdy shell. There are traces of it left in its cells."
+    },
+    "424": {
+        "Species": "Long Tail",
+        "Dex Entry": "Split into two, the tails are so adept at handling and doing things, Ambipom rarely uses its hands."
+    },
+    "427": {
+        "Species": "Rabbit",
+        "Dex Entry": "Its ears are always rolled up. They can be forcefully extended to shatter even a large boulder."
+    },
+    "428": {
+        "Species": "Rabbit",
+        "Dex Entry": "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs."
+    },
+    "429": {
+        "Species": "Magical",
+        "Dex Entry": "Its cries sound like incantations. Those hearing it are tormented by headaches and hallucinations."
+    },
+    "430": {
+        "Species": "Big Boss",
+        "Dex Entry": "It leaves its goons to do the fighting. It dirties its own hands only to deliver a final blow."
+    },
+    "431": {
+        "Species": "Catty",
+        "Dex Entry": "It claws if displeased and purrs when affectionate. Its fickleness is very popular among some."
+    },
+    "432": {
+        "Species": "Tiger Cat",
+        "Dex Entry": "It is a brazen brute that barges its way into another Pokemon's nest and claims it as its own."
+    },
+    "433": {
+        "Species": "Bell",
+        "Dex Entry": "It emits cries by agitating an orb at the back of its throat. It moves with flouncing hops."
+    },
+    "434": {
+        "Species": "Skunk",
+        "Dex Entry": "It protects itself by spraying a noxious fluid from its rear. The stench lingers for 24 hours."
+    },
+    "435": {
+        "Species": "Skunk",
+        "Dex Entry": "It attacks by spraying a repugnant fluid from its tail, but the stench dulls after a few squirts."
+    },
+    "436": {
+        "Species": "Bronze",
+        "Dex Entry": "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related."
+    },
+    "437": {
+        "Species": "Bronze Bell",
+        "Dex Entry": "One caused a news sensation when it was dug up at a construction site after a 2,000-year sleep."
+    },
+    "438": {
+        "Species": "Bonsai",
+        "Dex Entry": "It looks as if it is always crying. It is actually adjusting its body's fluid levels by eliminating excess."
+    },
+    "439": {
+        "Species": "Mime",
+        "Dex Entry": "It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokemon."
+    },
+    "440": {
+        "Species": "Playhouse",
+        "Dex Entry": "It's too small to lay eggs yet. As a surrogate, it searches out round white stones."
+    },
+    "441": {
+        "Species": "Music Note",
+        "Dex Entry": "Its tongue is just like a human's. As a result, it can cleverly mimic human speech."
+    },
+    "442": {
+        "Species": "Forbidden",
+        "Dex Entry": "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell."
+    },
+    "443": {
+        "Species": "Land Shark",
+        "Dex Entry": "It attacks using its huge mouth. While its attacks are powerful, it hurts itself out of clumsiness, too."
+    },
+    "444": {
+        "Species": "Cave",
+        "Dex Entry": "It loves sparkly things. It seeks treasures in caves and hoards the loot into its nest."
+    },
+    "445": {
+        "Species": "Mach",
+        "Dex Entry": "It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees."
+    },
+    "446": {
+        "Species": "Big Eater",
+        "Dex Entry": "It hides food under its long body hair. However, it forgets it has hidden the food."
+    },
+    "447": {
+        "Species": "Emanation",
+        "Dex Entry": "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves."
+    },
+    "448": {
+        "Species": "Aura",
+        "Dex Entry": "By catching the Aura emanating from others, it can read their thoughts and movements."
+    },
+    "449": {
+        "Species": "Hippo",
+        "Dex Entry": "It lives in arid places. Instead of perspiration, it expels grainy sand from its body."
+    },
+    "450": {
+        "Species": "Heavyweight",
+        "Dex Entry": "It brandishes its gaping mouth in a display of fearsome strength. It raises vast quantities of sand while attacking."
+    },
+    "451": {
+        "Species": "Scorpion",
+        "Dex Entry": "It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes."
+    },
+    "452": {
+        "Species": "Ogre Scorpion",
+        "Dex Entry": "It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison."
+    },
+    "453": {
+        "Species": "Toxic Mouth",
+        "Dex Entry": "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers."
+    },
+    "454": {
+        "Species": "Toxic Mouth",
+        "Dex Entry": "The toxin made in its poison sacs is pumped to the knuckle claws through tubes down its arms."
+    },
+    "455": {
+        "Species": "Bug Catcher",
+        "Dex Entry": "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down."
+    },
+    "456": {
+        "Species": "Wing Fish",
+        "Dex Entry": "After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives."
+    },
+    "457": {
+        "Species": "Neon",
+        "Dex Entry": "It lives on the deep-sea floor. It attracts prey by flashing the patterns on its four tail fins."
+    },
+    "458": {
+        "Species": "Kite",
+        "Dex Entry": "The pattern on its back varies by region. It often swims in a school of Remoraid."
+    },
+    "459": {
+        "Species": "Frost Tree",
+        "Dex Entry": "It lives on snowy mountains. Having had little contact with humans, it is boldly inquisitive."
+    },
+    "460": {
+        "Species": "Frost Tree",
+        "Dex Entry": "It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman."
+    },
+    "461": {
+        "Species": "Sharp Claw",
+        "Dex Entry": "They communicate by clawing signs in boulders and work together to surround enemies."
+    },
+    "462": {
+        "Species": "Magnet Area",
+        "Dex Entry": "Three units generate magnetism. There have been many mistaken reports of UFO sightings when Magnezone flies through the night sky."
+    },
+    "463": {
+        "Species": "Licking",
+        "Dex Entry": "It wraps things with its extensible tongue. Getting too close to it will leave you soaked with drool."
+    },
+    "464": {
+        "Species": "Drill",
+        "Dex Entry": "It can launch a rock held in its hand like a missile by tightening then expanding muscles instantly."
+    },
+    "465": {
+        "Species": "Vine",
+        "Dex Entry": "It ensnares prey by extending arms made of vines. Losing arms to predators does not trouble it."
+    },
+    "466": {
+        "Species": "Thunderbolt",
+        "Dex Entry": "It pushes the tips of its tails against its foes and then lets loose a high-voltage current. Its foes are burned to a crisp in an instant."
+    },
+    "467": {
+        "Species": "Blast",
+        "Dex Entry": "It blasts fireballs of over 3,600 degrees F from the ends of its arms. It lives in volcanic craters."
+    },
+    "469": {
+        "Species": "Ogre Darner",
+        "Dex Entry": "Its jaw power is incredible. It is adept at biting apart foes while flying by at high speed."
+    },
+    "470": {
+        "Species": "Verdant",
+        "Dex Entry": "Its cellular composition is closer to that of a plant than an animal. It uses photosynthesis to produce its energy supply without eating food."
+    },
+    "471": {
+        "Species": "Fresh Snow",
+        "Dex Entry": "It can instantaneously freeze any moisture that's around it, creating ice pellets to shoot at its prey."
+    },
+    "472": {
+        "Species": "Fang Scorpion",
+        "Dex Entry": "Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest."
+    },
+    "473": {
+        "Species": "Twin Tusk",
+        "Dex Entry": "Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age."
+    },
+    "474": {
+        "Species": "Virtual",
+        "Dex Entry": "Its behavior is noticeably unstable, which is apparently due to the incompetence of the engineer who updated its programming."
+    },
+    "475": {
+        "Species": "Blade",
+        "Dex Entry": "When protecting someone, it extends its elbows as if they were swords and fights savagely."
+    },
+    "476": {
+        "Species": "Compass",
+        "Dex Entry": "The main body controls three mobile units called Mini-Noses, which it maneuvers to catch prey."
+    },
+    "477": {
+        "Species": "Gripper",
+        "Dex Entry": "The antenna on its head captures radio waves from the world of spirits that command it to take people there."
+    },
+    "478": {
+        "Species": "Snow Land",
+        "Dex Entry": "When it finds humans or Pokémon it likes, it freezes them and takes them to its chilly den, where they become decorations."
+    },
+    "480": {
+        "Species": "Knowledge",
+        "Dex Entry": "Known as e'The Being of Knowledge.e' It is said that it can wipe out the memory of those who see its eyes."
+    },
+    "481": {
+        "Species": "Emotion",
+        "Dex Entry": "Known as e'The Being of Emotion.e' It taught humans the nobility of sorrow, pain, and joy."
+    },
+    "482": {
+        "Species": "Willpower",
+        "Dex Entry": "Known as e'The Being of Willpower.e' It sleeps at the bottom of a lake to keep the world in balance."
+    },
+    "483": {
+        "Species": "Temporal",
+        "Dex Entry": "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity."
+    },
+    "484": {
+        "Species": "Spatial",
+        "Dex Entry": "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology."
+    },
+    "485": {
+        "Species": "Lava Dome",
+        "Dex Entry": "Boiling blood, like magma, circulates through its body. It makes its dwelling place in volcanic caves."
+    },
+    "486": {
+        "Species": "Colossal",
+        "Dex Entry": "There is an enduring legend that states this Pokemon towed continents with ropes."
+    },
+    "487": {
+        "Species": "Renegade",
+        "Dex Entry": "A Pokemon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery."
+    },
+    "488": {
+        "Species": "Lunar",
+        "Dex Entry": "On nights around the quarter moon, the aurora from its tail extends and undulates beautifully."
+    },
+    "489": {
+        "Species": "Sea Drifter",
+        "Dex Entry": "A Pokemon that lives in warm seas. It inflates the flotation sac on its head to drift and search for food."
+    },
+    "490": {
+        "Species": "Seafaring",
+        "Dex Entry": "Born on a cold seafloor, it will swim great distances to return to its birthplace."
+    },
+    "491": {
+        "Species": "Pitch-Black",
+        "Dex Entry": "Folklore has it that on moonless nights, this Pokémon will make people see horrific nightmares."
+    },
+    "492": {
+        "Species": "Gratitude",
+        "Dex Entry": "It lives in flower patches and avoids detection by curling up to look like a flowering plant."
+    },
+    "493": {
+        "Species": "Alpha",
+        "Dex Entry": "It is described in mythology as the Pokemon that shaped the universe with its 1,000 arms."
+    },
+    "494": {
+        "Species": "Victory",
+        "Dex Entry": "This Pokemon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter."
+    },
+    "495": {
+        "Species": "Grass Snake",
+        "Dex Entry": "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop."
+    },
+    "496": {
+        "Species": "Grass Snake",
+        "Dex Entry": "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques."
+    },
+    "497": {
+        "Species": "Regal",
+        "Dex Entry": "They raise their heads to intimidate opponents, but only give it their all when fighting a powerful opponent."
+    },
+    "498": {
+        "Species": "Fire Pig",
+        "Dex Entry": "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead."
+    },
+    "499": {
+        "Species": "Fire Pig",
+        "Dex Entry": "Whatever it eats becomes fuel for the flame in its stomach. When it is angered, the intensity of the flame increases."
+    },
+    "500": {
+        "Species": "Mega Fire Pig",
+        "Dex Entry": "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends."
+    },
+    "501": {
+        "Species": "Sea Otter",
+        "Dex Entry": "The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade."
+    },
+    "502": {
+        "Species": "Discipline",
+        "Dex Entry": "Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops."
+    },
+    "503": {
+        "Species": "Formidable",
+        "Dex Entry": "Part of the armor on its anterior legs becomes a giant sword. Its cry alone is enough to intimidate most enemies."
+    },
+    "506": {
+        "Species": "Puppy",
+        "Dex Entry": "The long hair around its face provides an amazing radar that lets it sense subtle changes in its surroundings."
+    },
+    "507": {
+        "Species": "Loyal Dog",
+        "Dex Entry": "It loyally follows its Trainer's orders. For ages, they have helped Trainers raise Pokemon."
+    },
+    "508": {
+        "Species": "Big-Hearted",
+        "Dex Entry": "This extremely wise Pokemon excels at rescuing people stranded at sea or in the mountains."
+    },
+    "509": {
+        "Species": "Devious",
+        "Dex Entry": "Its cute act is a ruse. When victims let down their guard, they find their items taken. It attacks with sharp claws."
+    },
+    "510": {
+        "Species": "Cruel",
+        "Dex Entry": "Stealthily, it sneaks up on its target, striking from behind before its victim has a chance to react."
+    },
+    "511": {
+        "Species": "Grass Monkey",
+        "Dex Entry": "It shares the leaf on its head with weary-looking Pokemon. These leaves are known to relieve stress."
+    },
+    "512": {
+        "Species": "Thorn Monkey",
+        "Dex Entry": "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter."
+    },
+    "513": {
+        "Species": "High Temp",
+        "Dex Entry": "This Pokemon lives in caves in volcanoes. The fire within the tuft on its head can reach 600e' F."
+    },
+    "514": {
+        "Species": "Ember",
+        "Dex Entry": "A flame burns inside its body. It scatters embers from its head and tail to sear its opponents."
+    },
+    "515": {
+        "Species": "Spray",
+        "Dex Entry": "It does not thrive in dry environments. It keeps itself damp by shooting water stored in its head tuft from its tail."
+    },
+    "516": {
+        "Species": "Geyser",
+        "Dex Entry": "The high-pressure water expelled from its tail is so powerful, it can destroy a concrete wall."
+    },
+    "517": {
+        "Species": "Dream Eater",
+        "Dex Entry": "It eats the dreams of people and Pokemon. When it eats a pleasant dreams, it expels pink-colored mist."
+    },
+    "518": {
+        "Species": "Drowsing",
+        "Dex Entry": "With the mist from its forehead, it can create shapes of things from dreams it has eaten."
+    },
+    "519": {
+        "Species": "Tiny Pigeon",
+        "Dex Entry": "These Pokemon live in cities. They are accustomed to people. Flocks often gather in parks and plazas."
+    },
+    "520": {
+        "Species": "Wild Pigeon",
+        "Dex Entry": "Many people believe that, deep in the forest where Tranquill live, there is a peaceful place where there is no war."
+    },
+    "521": {
+        "Species": "Proud",
+        "Dex Entry": "Males have plumage on their heads. They will never let themselves feel close to anyone other than their Trainers."
+    },
+    "522": {
+        "Species": "Electrified",
+        "Dex Entry": "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate."
+    },
+    "523": {
+        "Species": "Thunderbolt",
+        "Dex Entry": "When this ill-tempered Pokémon runs wild, it shoots lightning from its mane in all directions."
+    },
+    "524": {
+        "Species": "Mantle",
+        "Dex Entry": "Its ear is hexagonal in shape. Compressed underground, its body is as hard as steel."
+    },
+    "525": {
+        "Species": "Ore",
+        "Dex Entry": "Because its energy was too great to be contained, the energy leaked and formed orange crystals."
+    },
+    "526": {
+        "Species": "Compressed",
+        "Dex Entry": "Compressing the energy from its internal core lets it fire off an attack capable of blowing away a mountain."
+    },
+    "527": {
+        "Species": "Bat",
+        "Dex Entry": "Suction from its nostrils enables it to stick to cave walls during sleep. It leaves a heart-shaped mark behind."
+    },
+    "528": {
+        "Species": "Courting",
+        "Dex Entry": "Anyone who comes into contact with the ultrasonic waves emitted by a courting male experiences a positive mood shift."
+    },
+    "529": {
+        "Species": "Mole",
+        "Dex Entry": "It makes its way swiftly through the soil by putting both claws together and rotating at high speed."
+    },
+    "530": {
+        "Species": "Subterrene",
+        "Dex Entry": "Forming a drill with its steel claws and head, it can bore through a steel plate, no matter how thick it is."
+    },
+    "531": {
+        "Species": "Hearing",
+        "Dex Entry": "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling."
+    },
+    "532": {
+        "Species": "Muscular",
+        "Dex Entry": "It fights by swinging a piece of lumber around. It is close to evolving when it can handle the lumber without difficulty."
+    },
+    "533": {
+        "Species": "Muscular",
+        "Dex Entry": "With strengthened bodies, they skillfully wield steel beams to take down buildings."
+    },
+    "534": {
+        "Species": "Muscular",
+        "Dex Entry": "Rather than rely on force, they master moves that utilize the centrifugal force of spinning concrete."
+    },
+    "535": {
+        "Species": "Tadpole",
+        "Dex Entry": "By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk."
+    },
+    "536": {
+        "Species": "Vibration",
+        "Dex Entry": "It lives in the water and on land. It uses its long, sticky tongue to capture prey."
+    },
+    "537": {
+        "Species": "Vibration",
+        "Dex Entry": "It increases the power of its punches by vibrating the bumps on its fists. It can turn a boulder to rubble with one punch."
+    },
+    "538": {
+        "Species": "Judo",
+        "Dex Entry": "When they encounter foes bigger than themselves, they try to throw them. They always travel in packs of five."
+    },
+    "539": {
+        "Species": "Karate",
+        "Dex Entry": "Tying their belts gets them pumped and makes their punches more destructive. Disturbing their training angers them."
+    },
+    "540": {
+        "Species": "Sewing",
+        "Dex Entry": "This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth."
+    },
+    "541": {
+        "Species": "Leaf-Wrapped",
+        "Dex Entry": "Preferring dark, damp places, it spends the entire day eating fallen leaves that lie around it."
+    },
+    "542": {
+        "Species": "Nurturing",
+        "Dex Entry": "It keeps its eggs warm with heat from fermenting leaves. It also uses leaves to make warm wrappings for Sewaddle."
+    },
+    "543": {
+        "Species": "Centipede",
+        "Dex Entry": "It discovers what is going on around it by using the feelers on its head and tail. It is brutally aggressive."
+    },
+    "544": {
+        "Species": "Curlipede",
+        "Dex Entry": "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent."
+    },
+    "545": {
+        "Species": "Megapede",
+        "Dex Entry": "Highly aggressive, it uses the claws near its neck to dig into its opponents and poison them."
+    },
+    "546": {
+        "Species": "Cotton Puff",
+        "Dex Entry": "They go wherever the wind takes them. On rainy days, their bodies are heavier, so they take shelter beneath big trees."
+    },
+    "547": {
+        "Species": "Windveiled",
+        "Dex Entry": "Like the wind, it can slip through any gap, no matter how small. It leaves balls of white fluff behind."
+    },
+    "548": {
+        "Species": "Bulb",
+        "Dex Entry": "Since they prefer moist, nutrient-rich soil, the areas where Petilil live are known to be good for growing plants."
+    },
+    "549": {
+        "Species": "Flowering",
+        "Dex Entry": "The fragrance of the garland on its head has a relaxing effect. It withers if a Trainer does not take good care of it."
+    },
+    "550": {
+        "Species": "Hostile",
+        "Dex Entry": "Red and blue Basculin usually do not get along, but sometimes members of one school mingle with the other's school."
+    },
+    "551": {
+        "Species": "Desert Croc",
+        "Dex Entry": "It moves along below the sand's surface, except for its nose and eyes. A dark membrane shields its eyes from the sun."
+    },
+    "552": {
+        "Species": "Desert Croc",
+        "Dex Entry": "The special membrane covering its eyes can sense the heat of objects, so it can see its surroundings, even in darkness."
+    },
+    "553": {
+        "Species": "Intimidation",
+        "Dex Entry": "They never allow prey to escape. Their jaws are so powerful, they can crush the body of an automobile."
+    },
+    "554": {
+        "Species": "Zen Charm",
+        "Dex Entry": "Darumaka's droppings are hot, so people used to put them in their clothes to keep themselves warm."
+    },
+    "555": {
+        "Species": "Blazing",
+        "Dex Entry": "When weakened in battle, it transforms into a stone statue. Then it sharpens its mind and fights on mentally."
+    },
+    "556": {
+        "Species": "Cactus",
+        "Dex Entry": "Arid regions are their habitat. They move rhythmically, making a sound similar to maracas."
+    },
+    "557": {
+        "Species": "Rock Inn",
+        "Dex Entry": "It makes a hole in a suitable rock. If that rock breaks, the Pokémon remains agitated until it locates a replacement."
+    },
+    "558": {
+        "Species": "Stone Home",
+        "Dex Entry": "It possesses legs of enormous strength, enabling it to carry heavy slabs for many days, even when crossing arid land."
+    },
+    "559": {
+        "Species": "Shedding",
+        "Dex Entry": "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck."
+    },
+    "560": {
+        "Species": "Hoodlum",
+        "Dex Entry": "It can smash concrete blocks with its kicking attacks. The one with the biggest crest is the group leader."
+    },
+    "561": {
+        "Species": "Avianoid",
+        "Dex Entry": "The guardians of an ancient city, they use their psychic power to attack enemies that invade their territory."
+    },
+    "562": {
+        "Species": "Spirit",
+        "Dex Entry": "Each of them carries a mask that used to be its face when it was human. Sometimes they look at it and cry."
+    },
+    "563": {
+        "Species": "Coffin",
+        "Dex Entry": "They pretend to be elaborate coffins to teach lessons to grave robbers. Their bodies are covered in pure gold."
+    },
+    "564": {
+        "Species": "Prototurtle",
+        "Dex Entry": "About 100 million years ago, these Pokemon swam in oceans. It is thought they also went on land to attack prey."
+    },
+    "565": {
+        "Species": "Prototurtle",
+        "Dex Entry": "Incredible jaw strength enables them to chew up steel beams and rocks along with their prey."
+    },
+    "566": {
+        "Species": "First Bird",
+        "Dex Entry": "Not able to fly, it lived in treetops and hopped from one branch to another."
+    },
+    "567": {
+        "Species": "First Bird",
+        "Dex Entry": "It runs better than it flies. It catches prey by running at speeds comparable to those of an automobile."
+    },
+    "568": {
+        "Species": "Trash Bag",
+        "Dex Entry": "Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places."
+    },
+    "569": {
+        "Species": "Trash Heap",
+        "Dex Entry": "Beware the poisonous liquid it shoots from its right arm. If even a little of it gets on you, you'll experience the effects of the unidentified toxin."
+    },
+    "572": {
+        "Species": "Chinchilla",
+        "Dex Entry": "These Pokémon prefer a tidy habitat. They are always sweeping and dusting, using their tails as brooms."
+    },
+    "573": {
+        "Species": "Scarf",
+        "Dex Entry": "Cinccino's body is coated in a special oil that helps it deflect attacks, such as punches."
+    },
+    "574": {
+        "Species": "Fixation",
+        "Dex Entry": "They intently observe both Trainers and Pokemon. Apparently, they are looking at something that only Gothita can see."
+    },
+    "575": {
+        "Species": "Manipulate",
+        "Dex Entry": "Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones."
+    },
+    "576": {
+        "Species": "Astral Body",
+        "Dex Entry": "They can predict the future from the placement and movement of the stars. They can see Trainers' life spans."
+    },
+    "577": {
+        "Species": "Cell",
+        "Dex Entry": "Because their bodies are enveloped in a special liquid, they can survive in any environment."
+    },
+    "578": {
+        "Species": "Mitosis",
+        "Dex Entry": "When their brains, now divided in two, are thinking the same thoughts, these Pokemon exhibit their maximum power."
+    },
+    "579": {
+        "Species": "Multiplying",
+        "Dex Entry": "These remarkably intelligent Pokemon fight by controlling arms that can grip with rock-crushing power."
+    },
+    "580": {
+        "Species": "Water Bird",
+        "Dex Entry": "When attacked, it uses its feathers to splash water, escaping under cover of the spray."
+    },
+    "581": {
+        "Species": "White Bird",
+        "Dex Entry": "It administers sharp, powerful pecks with its bill. It whips its long neck to deliver forceful repeated strikes."
+    },
+    "582": {
+        "Species": "Fresh Snow",
+        "Dex Entry": "This Pokemon formed from icicles bathed in energy from the morning sun. It sleeps buried in snow."
+    },
+    "583": {
+        "Species": "Icy Snow",
+        "Dex Entry": "It conceals itself from enemy eyes by creating many small ice particles and hiding among them."
+    },
+    "584": {
+        "Species": "Snowstorm",
+        "Dex Entry": "If both heads get angry simultaneously, this Pokemon expels a blizzard, burying everything in snow."
+    },
+    "585": {
+        "Species": "Season",
+        "Dex Entry": "The turning of the seasons changes the color and scent of this Pokemon's fur. People use it to mark the seasons."
+    },
+    "586": {
+        "Species": "Season",
+        "Dex Entry": "The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns."
+    },
+    "587": {
+        "Species": "Sky Squirrel",
+        "Dex Entry": "They live on treetops and glide using the inside of a cape-like membrane while discharging electricity."
+    },
+    "588": {
+        "Species": "Clamping",
+        "Dex Entry": "When they feel threatened, they spit an acidic liquid to drive attackers away. This Pokemon targets Shelmet."
+    },
+    "589": {
+        "Species": "Cavalry",
+        "Dex Entry": "These Pokemon evolve by wearing the shell covering of a Shelmet. The steel armor protects their whole body."
+    },
+    "590": {
+        "Species": "Mushroom",
+        "Dex Entry": "For some reason, this Pokemon resembles a Poke Ball. They release poison spores to repel those who try to catch them."
+    },
+    "591": {
+        "Species": "Mushroom",
+        "Dex Entry": "They show off their Poke Ball caps to lure prey, but very few Pokemon are fooled by this."
+    },
+    "592": {
+        "Species": "Floating",
+        "Dex Entry": "They paralyze prey with poison, then drag them down to their lairs, five miles below the surface."
+    },
+    "593": {
+        "Species": "Floating",
+        "Dex Entry": "They propel themselves by expelling ABSORBed seawater from their bodies. Their favorite food is life energy."
+    },
+    "594": {
+        "Species": "Caring",
+        "Dex Entry": "It gently holds injured and weak Pokémon in its fins. Its special membrane heals their wounds."
+    },
+    "595": {
+        "Species": "Attaching",
+        "Dex Entry": "Since it can't generate its own electricity, it sticks onto large-bodied Pokémon and absorbs static electricity."
+    },
+    "596": {
+        "Species": "EleSpider",
+        "Dex Entry": "They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it."
+    },
+    "597": {
+        "Species": "Thorn Seed",
+        "Dex Entry": "They stick their spikes into cave walls and ABSORB the minerals they find in the rock."
+    },
+    "598": {
+        "Species": "Thorn Pod",
+        "Dex Entry": "They attach themselves to cave ceilings, firing steel spikes at targets passing beneath them."
+    },
+    "599": {
+        "Species": "Gear",
+        "Dex Entry": "Two bodies comprise a fixed pair. They spin around each other to generate energy."
+    },
+    "600": {
+        "Species": "Gear",
+        "Dex Entry": "By changing the direction in which it rotates, it communicates its feelings to others. When angry, it rotates faster."
+    },
+    "601": {
+        "Species": "Gear",
+        "Dex Entry": "The gear with the red core is rotated at high speed for a rapid energy charge."
+    },
+    "602": {
+        "Species": "EleFish",
+        "Dex Entry": "These Pokémon move in schools. They have an electricity-generating organ, so they discharge electricity if in danger."
+    },
+    "603": {
+        "Species": "EleFish",
+        "Dex Entry": "It wraps itself around its prey and paralyzes it with electricity from the round spots on its sides. Then it chomps."
+    },
+    "604": {
+        "Species": "EleFish",
+        "Dex Entry": "With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity."
+    },
+    "605": {
+        "Species": "Cerebral",
+        "Dex Entry": "It uses its strong psychic power to squeeze its opponent's brain, causing unendurable headaches."
+    },
+    "606": {
+        "Species": "Cerebral",
+        "Dex Entry": "It can manipulate an opponent's memory. Apparently, it communicates by flashing its three different-colored fingers."
+    },
+    "607": {
+        "Species": "Candle",
+        "Dex Entry": "While shining a light and pretending to be a guide, it leeches off the life force of any who follow it."
+    },
+    "608": {
+        "Species": "Lamp",
+        "Dex Entry": "It arrives near the moment of death and steals spirit from the body."
+    },
+    "609": {
+        "Species": "Luring",
+        "Dex Entry": "It absorbs a spirit, which it then burns. By waving the flames on its arms, it puts its foes into a hypnotic trance."
+    },
+    "610": {
+        "Species": "Tusk",
+        "Dex Entry": "Its large tusks have a tendency to break, but each time they grow back, they grow in harder and sturdier."
+    },
+    "611": {
+        "Species": "Axe Jaw",
+        "Dex Entry": "Since a broken tusk will not grow back, they diligently sharpen their tusks on river rocks after they've been fighting."
+    },
+    "612": {
+        "Species": "Axe Jaw",
+        "Dex Entry": "Their sturdy tusks will stay sharp even if used to cut steel beams. These Pokémon are covered in hard armor."
+    },
+    "613": {
+        "Species": "Chill",
+        "Dex Entry": "Their snot is a barometer of health. When healthy, their snot is sticky and the power of their ice moves increases."
+    },
+    "614": {
+        "Species": "Freezing",
+        "Dex Entry": "It freezes its breath to create fangs and claws of ice to fight with. Cold northern areas are its habitat."
+    },
+    "615": {
+        "Species": "Crystallizing",
+        "Dex Entry": "They are born in snow clouds. They use chains made of ice crystals to capture prey."
+    },
+    "616": {
+        "Species": "Snail",
+        "Dex Entry": "It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown."
+    },
+    "617": {
+        "Species": "Shell Out",
+        "Dex Entry": "Having removed its heavy shell, it becomes very light and can fight with ninja-like movements."
+    },
+    "618": {
+        "Species": "Trap",
+        "Dex Entry": "It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of energy."
+    },
+    "619": {
+        "Species": "Martial Arts",
+        "Dex Entry": "They have mastered elegant combos. As they concentrate, their battle moves become swifter and more precise."
+    },
+    "620": {
+        "Species": "Martial Arts",
+        "Dex Entry": "They use the long fur on their arms as a whip to strike their opponents."
+    },
+    "621": {
+        "Species": "Cave",
+        "Dex Entry": "It races through narrow caves, using its sharp claws to catch prey. The skin on its face is harder than a rock."
+    },
+    "622": {
+        "Species": "Automaton",
+        "Dex Entry": "These Pokemon are thought to have been created by the science of an ancient and mysterious civilization."
+    },
+    "623": {
+        "Species": "Automaton",
+        "Dex Entry": "It is said that Golurk were ordered to protect people and Pokemon by the ancient people who made them."
+    },
+    "624": {
+        "Species": "Sharp Blade",
+        "Dex Entry": "Ignoring their injuries, groups attack by sinking the blades that cover their bodies into their prey."
+    },
+    "625": {
+        "Species": "Sword Blade",
+        "Dex Entry": "This pitiless Pokémon commands a group of Pawniard to hound prey into immobility. It then moves in to finish the prey off."
+    },
+    "626": {
+        "Species": "Bash Buffalo",
+        "Dex Entry": "They charge wildly and headbutt everything. Their headbutts have enough destructive force to derail a train."
+    },
+    "627": {
+        "Species": "Eaglet",
+        "Dex Entry": "They pick fights indiscriminately. They grow stronger and more powerful each time they faint or are injured."
+    },
+    "628": {
+        "Species": "Valiant",
+        "Dex Entry": "For the sake of its friends, this brave warrior of the sky will not stop battling, even if injured."
+    },
+    "629": {
+        "Species": "Diapered",
+        "Dex Entry": "It protects its plump posterior with the bones of prey it has consumed. As it grows, it replaces the bones."
+    },
+    "630": {
+        "Species": "Bone Vulture",
+        "Dex Entry": "Watching from the sky, they swoop to strike weakened Pokémon on the ground. They decorate themselves with bones."
+    },
+    "631": {
+        "Species": "Anteater",
+        "Dex Entry": "Using their very hot, flame-covered tongues, they burn through Durant's steel bodies and consume their insides."
+    },
+    "633": {
+        "Species": "Irate",
+        "Dex Entry": "They cannot see, so they tackle and bite to learn about their surroundings. Their bodies are covered in wounds."
+    },
+    "634": {
+        "Species": "Hostile",
+        "Dex Entry": "Since their two heads do not get along and compete with each other for food, they always eat too much."
+    },
+    "635": {
+        "Species": "Brutal",
+        "Dex Entry": "The heads on their arms do not have brains. They use all three heads to consume and destroy everything."
+    },
+    "636": {
+        "Species": "Torch",
+        "Dex Entry": "The base of volcanoes is where they make their homes. They shoot fire from their five horns to repel attacking enemies."
+    },
+    "637": {
+        "Species": "Sun",
+        "Dex Entry": "A sea of fire engulfs the surroundings of their battles, since they use their six wings to scatter their ember scales."
+    },
+    "638": {
+        "Species": "Iron Will",
+        "Dex Entry": "It has a body and heart of steel. Its glare is sufficient to make even an unruly Pokemon obey it."
+    },
+    "639": {
+        "Species": "Cavern",
+        "Dex Entry": "Its charge is strong enough to break through a giant castle wall in one blow. This Pokemon is spoken of in legends."
+    },
+    "640": {
+        "Species": "Grassland",
+        "Dex Entry": "Its head sprouts horns as sharp as blades. Using whirlwind-like movements, it confounds and swiftly cuts opponents."
+    },
+    "641": {
+        "Species": "Cyclone",
+        "Dex Entry": "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away."
+    },
+    "642": {
+        "Species": "Bolt Strike",
+        "Dex Entry": "Countless charred remains mar the landscape of places through which Thundurus has passed."
+    },
+    "643": {
+        "Species": "Vast White",
+        "Dex Entry": "When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather."
+    },
+    "644": {
+        "Species": "Deep Black",
+        "Dex Entry": "This Pokemon appears in legends. In its tail, it has a giant generator that creates electricity."
+    },
+    "645": {
+        "Species": "Abundance",
+        "Dex Entry": "From the forces of lightning and wind, it creates energy to give nutrients to the soil and make the land abundant."
+    },
+    "646": {
+        "Species": "Boundary",
+        "Dex Entry": "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out."
+    },
+    "647": {
+        "Species": "Colt",
+        "Dex Entry": "It crosses the world, running over the surfaces of oceans and rivers. It appears at scenic waterfronts."
+    },
+    "648": {
+        "Species": "Melody",
+        "Dex Entry": "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it."
+    },
+    "649": {
+        "Species": "Paleozoic",
+        "Dex Entry": "Over 300 million years ago, it was feared as the strongest of hunters. It has been modified by Team Plasma."
+    },
+    "650": {
+        "Species": "Spiny Nut",
+        "Dex Entry": "Such a thick shell of wood covers its head and back that even a direct hit from a truck wouldn't faze it."
+    },
+    "651": {
+        "Species": "Spiny Armor",
+        "Dex Entry": "It relies on its sturdy shell to deflect predators' attacks. It counterattacks with its sharp quills."
+    },
+    "652": {
+        "Species": "Spiny Armor",
+        "Dex Entry": "Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body."
+    },
+    "653": {
+        "Species": "Fox",
+        "Dex Entry": "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit."
+    },
+    "654": {
+        "Species": "Fox",
+        "Dex Entry": "It has a twig stuck in its tail. With friction from its tail fur, it sets the twig on fire and launches into battle."
+    },
+    "655": {
+        "Species": "Fox",
+        "Dex Entry": "It gazes into the flame at the tip of its branch to achieve a focused state, which allows it to see into the future."
+    },
+    "656": {
+        "Species": "Bubble Frog",
+        "Dex Entry": "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked."
+    },
+    "657": {
+        "Species": "Bubble Frog",
+        "Dex Entry": "Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute's time."
+    },
+    "658": {
+        "Species": "Ninja",
+        "Dex Entry": "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water."
+    },
+    "667": {
+        "Species": "Lion Cub",
+        "Dex Entry": "The stronger the opponent it faces, the more heat surges from its mane and the more power flows through its body."
+    },
+    "668": {
+        "Species": "Royal",
+        "Dex Entry": "With fiery breath of more than 10,000 degrees Fahrenheit, they viciously threaten any challenger. The females protect the pride's cubs."
+    },
+    "684": {
+        "Species": "Cotton Candy",
+        "Dex Entry": "Because it eats nothing but sweets, its fur is as sticky sweet as cotton candy."
+    },
+    "685": {
+        "Species": "Meringue",
+        "Dex Entry": "It can distinguish the faintest of scents. It puts its sensitive sense of smell to use by helping pastry chefs in their work."
+    },
+    "686": {
+        "Species": "Revolving",
+        "Dex Entry": "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight."
+    },
+    "687": {
+        "Species": "Overturning",
+        "Dex Entry": "It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids."
+    },
+    "700": {
+        "Species": "Intertwining",
+        "Dex Entry": "It sends a soothing aura from its ribbonlike feelers to calm fights."
+    },
+    "701": {
+        "Species": "Wrestling",
+        "Dex Entry": "Although its body is small, its proficient fighting skills enable it to keep up with big bruisers like Hercurcules or Conkeldurr."
+    },
+    "708": {
+        "Species": "Stump",
+        "Dex Entry": "An unknown spirit came to lodge in a tree stump, creating this Pokémon. A cure-all can be made from an infusion of its green leaves."
+    },
+    "709": {
+        "Species": "Elder Tree",
+        "Dex Entry": "It can control trees at will. It will trap people who harm the forest, so they can never leave."
+    },
+    "712": {
+        "Species": "Ice Chunk",
+        "Dex Entry": "It blocks opponents' attacks with the ice that shields its body. It uses cold air to repair any cracks with new ice."
+    },
+    "713": {
+        "Species": "Iceberg",
+        "Dex Entry": "The way several Bergmite huddle on its back make it look like an aircraft carrier made of ice."
+    },
+    "714": {
+        "Species": "Sound Wave",
+        "Dex Entry": "It flies around in search of fruit to eat. It uses ultrasonic waves to detect which fruits are ripe."
+    },
+    "715": {
+        "Species": "Sound Wave",
+        "Dex Entry": "The ultrasonic waves it emits from its ears can reduce a large boulder to pebbles. It swoops out of the dark to attack."
+    },
+    "1000": {
+        "Species": "Grass Quill",
+        "Dex Entry": "It sends its feathers, which are as sharp as blades, flying in attack. Its legs are strong, so its kicks are also formidable."
+    },
+    "1001": {
+        "Species": "Blade Quill",
+        "Dex Entry": "This narcissistic Pokémon is a clean freak. If you don't groom it diligently, it will stop listening to you."
+    },
+    "1002": {
+        "Species": "Arrow Quill",
+        "Dex Entry": "It fires arrow quills from its wings with such precision, they can pierce a pebble at distances over a hundred yards."
+    },
+    "1003": {
+        "Species": "Fire Cat",
+        "Dex Entry": "It spends even the smallest amount of downtime grooming its fur with its tongue. Loose fur gathers in its stomach and serves as fuel for fiery moves."
+    },
+    "1004": {
+        "Species": "Fire Cat",
+        "Dex Entry": "At its throat, it bears a bell of fire. The bell rings brightly whenever this Pokémon spits fire."
+    },
+    "1005": {
+        "Species": "Heel",
+        "Dex Entry": "This Pokémon has a violent, selfish disposition. If it's not in the mood to listen, it will ignore its Trainer's orders with complete nonchalance."
+    },
+    "1006": {
+        "Species": "Sea Lion",
+        "Dex Entry": "This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It's famous for being a hard worker."
+    },
+    "1007": {
+        "Species": "Pop Star",
+        "Dex Entry": "A skillful dancer, it creates a sequence of water balloons as it dances, and briskly bombards its enemies."
+    },
+    "1008": {
+        "Species": "Soloist",
+        "Dex Entry": "Its singing voice is its chief weapon in battle. This Pokémon's Trainer must prioritize the daily maintenance of its throat at all costs."
+    },
+    "1009": {
+        "Species": "Brutal Star",
+        "Dex Entry": "It's found crawling on beaches and seafloors. The coral that grows on Corsola's head is as good as a five-star banquet to this Pokémon."
+    },
+    "1010": {
+        "Species": "Brutal Star",
+        "Dex Entry": "Those attacked by Toxapex's poison will suffer intense pain for three days and three nights. Post-recovery, there will be some aftereffects."
+    },
+    "1011": {
+        "Species": "Illuminating",
+        "Dex Entry": "It likes damp dark places. When night falls, the spores filling the caps of its mushrooms glow."
+    },
+    "1012": {
+        "Species": "Illuminating",
+        "Dex Entry": "Its flickering spores lure in prey and put them to sleep. Once this Pokémon has its prey snoozing, it drains their vitality with its fingertips."
+    },
+    "1013": {
+        "Species": "Teamwork",
+        "Dex Entry": "They form groups of roughly 20 individuals. Their mutual bond is remarkable—they will never let down a comrade."
+    },
+    "1014": {
+        "Species": "Sand Heap",
+        "Dex Entry": "It likes the shovel on its head, so Sandygast will get serious and fight any children who come to take it back."
+    },
+    "1015": {
+        "Species": "Sand Castle",
+        "Dex Entry": "Each of its grains of sand has its own will. Palossand eats small Pokémon and siphons away their vital essence while they're still alive."
+    },
+    "1016": {
+        "Species": "Sea Cucumber",
+        "Dex Entry": "It lives in shallow seas, such as areas near a beach. It can eject its internal organs, which it uses to engulf its prey or battle enemies."
+    },
+    "1017": {
+        "Species": "Blast Turtle",
+        "Dex Entry": "It lives in volcanoes and eats sulfur and other minerals. Materials from the food it eats form the basis of its explosive shell."
+    },
+    "1018": {
+        "Species": "Disguise",
+        "Dex Entry": "A lonely Pokémon, it conceals its terrifying appearance beneath an old rag so it can get closer to people and other Pokémon."
+    },
+    "1019": {
+        "Species": "Placid",
+        "Dex Entry": "It has a compassionate personality, but if it is angered, it completely destroys its surroundings with its intense breath."
+    },
+    "1020": {
+        "Species": "Gloomdweller",
+        "Dex Entry": "This Pokémon can conceal itself in any shadow, so it went undiscovered for a long time."
+    },
+    "1021": {
+        "Species": "Mask",
+        "Dex Entry": "An exceptionally timid Pokémon always wearing a mask that covers it face. The mask itself seems to be its power source."
+    },
+    "1022": {
+        "Species": "Shout Lizard",
+        "Dex Entry": "Despite its size, it can already shout very loudly. If it cries too much, it becomes voiceless and coughs smoke."
+    },
+    "1023": {
+        "Species": "Sea Dragon",
+        "Dex Entry": "Its blue covering skin is very elastic and can rebound attacks. However, it is extremely sensitive to cold."
+    },
+    "1024": {
+        "Species": "Shock",
+        "Dex Entry": "It has a peaceful nature and attacks only when threatened. First it paralyzes the enemy with a weak electric shock, then runs away."
+    },
+    "1025": {
+        "Species": "Bolt",
+        "Dex Entry": "You can see flocks of Shawkbird during storms. If you touch one of them while it's flying, you will get zapped."
+    },
+    "1026": {
+        "Species": "Thunder",
+        "Dex Entry": "It lives on mountaintops that are likely to be stricken by lightning bolts. It stores electricity in its cloud, then plummets down to strike its prey."
+    },
+    "1027": {
+        "Species": "Trainee",
+        "Dex Entry": "It constantly undertakes an intense meditation training. As a result of this, it is always super focused in battles."
+    },
+    "1028": {
+        "Species": "Martial Arts",
+        "Dex Entry": "Thanks to the strong experience it has acquired in countless battles, it teaches weak Pokémon to fight. It is very strict as an instructor."
+    },
+    "1029": {
+        "Species": "Camouflage",
+        "Dex Entry": "(Fire Style) It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs."
+    },
+    "1030": {
+        "Species": "Musician",
+        "Dex Entry": "(Vocalist) It is said this Pokémon represents the soul of music. It has full control over its voice so that it can adapt to any kind of song."
+    },
+    "1031": {
+        "Species": "Puppet",
+        "Dex Entry": "It takes control of other Pokémon to do whatever it wants. However, it does this not with malevolence, but just because it is bashful."
+    },
+    "1032": {
+        "Species": "Control",
+        "Dex Entry": "It controls Pokémon and human beings as puppets using its strings. Feeding on their life energy, it turns their bodies in soul-less empty shells."
+    },
+    "1033": {
+        "Species": "Spite",
+        "Dex Entry": "Behind its lovely graceful appearance lies a spiteful side. It will terrify its enemies just for fun."
+    },
+    "1034": {
+        "Species": "Guardian",
+        "Dex Entry": "Whisteract haunts abandoned mansions, jealously guarding everything inside. It's said to be very vengeful towards raiders."
+    },
+    "1035": {
+        "Species": "Toxic Claw",
+        "Dex Entry": "It is a real miners' nightmare. A single touch of its metal claws and you will be badly intoxicated."
+    },
+    "1036": {
+        "Species": "Toxic Claw",
+        "Dex Entry": "Compressing and releasing its spiked tail, it will pierce even the thickest walls. It builds complicated tunnels in mazes to exhaust its preys."
+    },
+    "1037": {
+        "Species": "Snow Dog",
+        "Dex Entry": "Hikiloo is a perfect partner for beginners. It will always follow orders by its Trainer it sees as a leader."
+    },
+    "1038": {
+        "Species": "Snow Dog",
+        "Dex Entry": "Extremely loyal and intelligent Pokémon. It is widely used for pulling sleds since it can scent the safe route even in a blizzard."
+    },
+    "1039": {
+        "Species": "Wind Vane",
+        "Dex Entry": "It's incredibly fertile in ponds and swamps. It feeds on microorganisms it filters with its large mouth."
+    },
+    "1040": {
+        "Species": "Dragon",
+        "Dex Entry": "Revered as a deity in the past. Somewhere in the world, there's still the tradition to welcome the new year dedicating it a dance."
+    },
+    "1041": {
+        "Species": "Enigma Cat",
+        "Dex Entry": "Due to its delicate fur and its psychic powers, even veteran Trainers find it difficult to raise this Pokémon."
+    },
+    "1042": {
+        "Species": "Predict Cat",
+        "Dex Entry": "It can see the future through its crystal ball. Those who ask it for prediction more than three times will be cursed for life."
+    },
+    "1043": {
+        "Species": "Piggy Bank",
+        "Dex Entry": "The more it moves, the more is the gold it drops from its navel. After an intense struggle, its Trainer will make plenty of Nuggets."
+    },
+    "1044": {
+        "Species": "Knuckle Head",
+        "Dex Entry": "It runs around full of vitality and charges into bigger and stronger Pokémon. Its external shell hardens over time."
+    },
+    "1045": {
+        "Species": "Heavy Bag",
+        "Dex Entry": "They hang on tree branches, letting Beefle punching them to store the energy required to evolve."
+    },
+    "1046": {
+        "Species": "Heavyweight",
+        "Dex Entry": "It overcomes opponents with its huge body. It categorically refuses to battle against a Pokémon it doesn't deem worthy."
+    },
+    "1047": {
+        "Species": "Origami",
+        "Dex Entry": "Its skin has the same properties as the paper. Apparently origamis were invented looking at this exact Pokémon."
+    },
+    "1048": {
+        "Species": "Origami",
+        "Dex Entry": "According to the legend, this origami crane came to life thanks to a mystical melody after the death of its child creator."
+    },
+    "1049": {
+        "Species": "Blackout",
+        "Dex Entry": "Information about this Pokémon is shrouded in mystery. It is said to have appeared after a power outage."
+    },
+    "1050": {
+        "Species": "Hedge-Hoo",
+        "Dex Entry": "It withstands low temperatures thanks to its thick fur coat. If you rub that, it will charge with static electricity and electrocute."
+    },
+    "1051": {
+        "Species": "Shriek Root",
+        "Dex Entry": "If someone tries to yank them out of the ground while they're sleeping, these Pokémon will shriek out loud making even large size Pokémon dizzy."
+    },
+    "1052": {
+        "Species": "Big Mouth",
+        "Dex Entry": "It chatters non-stop in the shade of its foliage. Whoever accidentally catches the sound waves from its floreal antennas will have to swallow its endless babble."
+    },
+    "1053": {
+        "Species": "Spicy Head",
+        "Dex Entry": "It is coated with a oily, spicy substance. Pretending to be a Berry, it waits for someone to bite it. Then it laughs out loud on its own joke."
+    },
+    "1054": {
+        "Species": "Hot-Tempered",
+        "Dex Entry": "The color of its tail is indicative of its body temperature and its actual mood. If it rampages, it will burn everything down."
+    },
+    "1055": {
+        "Species": "Stone Trooper",
+        "Dex Entry": "This rock pile came to life thanks to the combative spirit of past paladins that inhabited the sword wedged in it."
+    },
+    "1056": {
+        "Species": "Megalith",
+        "Dex Entry": "It is said that the mystical energy which fills this Pokémon and makes its stones float around is somehow related to the Moon's influence."
+    },
+    "1057": {
+        "Species": "Ancient Baby",
+        "Dex Entry": "Despite its clumsy appearance, it is a very quick learner if followed step by step. Each Rockapye has a different handprint."
+    },
+    "1058": {
+        "Species": "Ancestor",
+        "Dex Entry": "It is supposed to be the missing evolutionary link. In ancient times, males and females used to raise wild Pokémon in two very different ways."
+    },
+    "1059": {
+        "Species": "Cosmic",
+        "Dex Entry": "Apparently it was found on Earth after a meteor impact. It blends in an ink puddle, then sneaks out to attack."
+    },
+    "1060": {
+        "Species": "Cosmic",
+        "Dex Entry": "A Pokémon from outer space. Using its terrible psychic powers, it can drive crazy creatures it establishes mental connection with."
+    },
+    "1061": {
+        "Species": "Stream Flow",
+        "Dex Entry": "They swim around thanks to the energy they share with the whole shoal. Due to its high calorie value, Chubiburny is known to be their favorite prey."
+    },
+    "1062": {
+        "Species": "Gummy Bear",
+        "Dex Entry": "Its pelt contains sugary high-calorie substances. It peacefully basks in the sunlight, ignoring Birigiri's bites."
+    },
+    "1063": {
+        "Species": "Sticky Sticks",
+        "Dex Entry": "It can freely stretch its limbs by burning off everything it has eaten. Before hibernation or when it has no food, it will even burn its own stilts."
+    },
+    "1064": {
+        "Species": "Betrayal",
+        "Dex Entry": "This Pokémon has a moody temper. It lures preys with its sweet face, then sucker punches them using its stinger."
+    },
+    "1065": {
+        "Species": "Betrayal",
+        "Dex Entry": "Extremely slick, it has a tendency to take advantage on its fellows. Only a few Trainers are able to develop a trustful relationship with it."
+    },
+    "1066": {
+        "Species": "Tag",
+        "Dex Entry": "It judges the behavior of other Pokémon, then marks them with tags. It rewards with a gift those who have been nice."
+    },
+    "1067": {
+        "Species": "Stag Alone",
+        "Dex Entry": "Contrary to popular belief, it is a gentle soul. Actually, the cause for its constantly sullen face seems to lie in the excessive weight of its antlers."
+    },
+    "1068": {
+        "Species": "Rescue",
+        "Dex Entry": "It wanders around on snowy mountains with its own original style. It assists whoever's been stranded by avalanches and keeps them warm."
+    },
+    "1069": {
+        "Species": "Dung Buggy",
+        "Dex Entry": "It has an excellent balance and drives around running on a tire. Once that is over worn, it looks for another new one."
+    },
+    "1070": {
+        "Species": "Off Roach",
+        "Dex Entry": "Rival gangs compete for territories in really noisy speed races that make anyone around run away."
+    },
+    "1071": {
+        "Species": "Hatchling",
+        "Dex Entry": "It has to take care of itself since birth. It doesn't know how to provide food yet, so it plays on others' pity to survive."
+    },
+    "1072": {
+        "Species": "Carrion",
+        "Dex Entry": "It feeds merely on what it steals from predators. First it deters them with the skull-like pattern, then digs into its target."
+    },
+    "1073": {
+        "Species": "Doom Bird",
+        "Dex Entry": "Said to only reveal to people and Pokémon about to die to drag them to the afterlife. It is also known as ''the Emissary of Devil''."
+    },
+    "1074": {
+        "Species": "Phobia",
+        "Dex Entry": "This Pokémon is supposed to be a physical manifestation of the Bug-type phobia, mankind has always had since ancient times."
+    },
+    "1075": {
+        "Species": "Phobia",
+        "Dex Entry": "The fear of dangers lurking in the darkness, usually seen among children, has somehow spawned this weird Pokémon."
+    },
+    "1076": {
+        "Species": "Phobia",
+        "Dex Entry": "According to several tales, a mad scientist created this creature by combining parts of different Pokémon."
+    },
+    "1077": {
+        "Species": "Graffiti",
+        "Dex Entry": "(Green Paint) It's not graffiti...that's a Pokémon! It mixes up on city walls and mocks on anyone else who comes its way."
+    },
+    "1078": {
+        "Species": "Fruit Shell",
+        "Dex Entry": "This very shy Pokémon rarely counterattacks. When in danger, it withdraws in its shell as hard as steel."
+    },
+    "1079": {
+        "Species": "Sewer Rat",
+        "Dex Entry": "(Solo Form) The most polluted areas of cities are infested by Chimaooze. When they senses danger, they team up together to eliminate the threat."
+    },
+    "1080": {
+        "Species": "Melodic",
+        "Dex Entry": "It can perfectly replicate the sound of any musical instrument. Once it learns a melody, this Pokémon will never forget it."
+    },
+    "1081": {
+        "Species": "Draconic",
+        "Dex Entry": "It takes flight by spreading its big ears as if they were wings. It viciously threaten anyone who enters its den in the mountains."
+    },
+    "1082": {
+        "Species": "Cybernetic",
+        "Dex Entry": "It was updated with the most cutting-edge technology ever created. It was originally meant to be an assistant in PokéWES."
+    },
+    "1083": {
+        "Species": "Shedding",
+        "Dex Entry": "It desperates for attention and makes everything with the sole purpose of getting noticed. When it fails, it starts whining as a baby."
+    },
+    "1084": {
+        "Species": "Shedding",
+        "Dex Entry": "It periodically sheds its skin trying to remove any flaws. Because this process makes Egohiss blind, its tail serves as a radar that senses its surroundings."
+    },
+    "1085": {
+        "Species": "Glare Snake",
+        "Dex Entry": "It has a paralyzing glare it refracts through the scales on its body. In this way, it catches preys and dresses them up with its old leather."
+    },
+    "1086": {
+        "Species": "Fruit Bat",
+        "Dex Entry": "It has the habit of swinging back and forth while hanging upside down on trees. Because of that, it is usually mistaken for a fruit."
+    },
+    "1087": {
+        "Species": "Fruit Bat",
+        "Dex Entry": "Its diet has changed and now it is trying to take its first steps into hunting. However, it is very clumsy and makes preys slip away."
+    },
+    "1088": {
+        "Species": "Bloom Hunter",
+        "Dex Entry": "It is a perfect hunter. Pretending to be a flower, it waits for preys to approach attracted by its scent, then strikes lightning-fast."
+    },
+    "1089": {
+        "Species": "Fire Frog",
+        "Dex Entry": "It uses its fingers as a sling to shoot ignited rocks with its extremely elastic membranes. Its aim is not that good though."
+    },
+    "1090": {
+        "Species": "Cannon",
+        "Dex Entry": "Its membranes toughen up during evolution, turning similar to glass. When it blows up, spits out fiery cannonballs."
+    },
+    "1091": {
+        "Species": "Stunt",
+        "Dex Entry": "All of its fights is a spectacular show. Surrounded by flames, it melts the glass on its arms, leaving an elegant trail of crystals behind."
+    },
+    "1092": {
+        "Species": "Tiny Phant",
+        "Dex Entry": "It floats because of its large ears. Really competitive, it always looks for an opponent to challenge in swimming."
+    },
+    "1093": {
+        "Species": "Pump",
+        "Dex Entry": "Floatusk will plough into everything and everyone to prove its strength. It swells of water to look bigger."
+    },
+    "1094": {
+        "Species": "Pump",
+        "Dex Entry": "Before a fight, it pumps water in its muscles to strengthen its fists. However, this power-up has a specific time limit."
+    },
+    "1095": {
+        "Species": "Holy Land",
+        "Dex Entry": "A legendary Pokémon that protect planet Earth. It has full control over nature it can shape at its will."
+    },
+    "1096": {
+        "Species": "Disaster",
+        "Dex Entry": "It was confined in Xenoverse for its thirst for power. It sticks its tail into the soil to drains life energy from the planet, leaving it lifeless and sterile."
+    },
+    "1097": {
+        "Species": "Spacetime",
+        "Dex Entry": "It seems somehow related to Celebi. Unlike its counterpart, Dielebi travels across past and future alternate dimensions."
+    },
+    "1200": {
+        "Species": "Dynamite",
+        "Dex Entry": "The sparks it scatters from its head can easily cause fires or explosions. It is a real ticking bomb!"
+    },
+    "1201": {
+        "Species": "Dynamite",
+        "Dex Entry": "Bumping its fists together, it creates strong explosions. It will discharge its fury around when enraged."
+    },
+    "1202": {
+        "Species": "Explosion",
+        "Dex Entry": "The excessive energy unleashed during evolution split up its body. It combines thunders and flares to set off terrible explosions all around."
+    },
+    "1203": {
+        "Species": "Tree Spirit",
+        "Dex Entry": "Some theories assert that this is Spiritomb's real appearance--it's the one we already know who comes from the Xenoverse."
+    },
+    "1204": {
+        "Species": "Fish Bone",
+        "Dex Entry": "It perpetually floats upside down on the surface of the water. Apparently, it doesn't feed on anything to survive."
+    },
+    "1205": {
+        "Species": "Wreckage",
+        "Dex Entry": "This Pokémon may have appeared long time ago, since very ancient sailors' tales already told of a creature used to devour ships to make them its den."
+    },
+    "1206": {
+        "Species": "All-Muscle",
+        "Dex Entry": "It is way bigger than the actual Pyukumuku. Expelling its internal organs, it propels itself to strike its opponent."
+    },
+    "1207": {
+        "Species": "Amie",
+        "Dex Entry": "It is a real anomaly between X Pokémon. Its nature makes it friendly even to human."
+    },
+    "1208": {
+        "Species": "Ice Tick",
+        "Dex Entry": "They sneak up falling from the sky in large groups, so they can overcome their small size. Then they bring the prey to Galvantula."
+    },
+    "1209": {
+        "Species": "Frostbite",
+        "Dex Entry": "It freezes the air around its nest. Then it traps preys in a thick ice web, slowly leading them to hypothermia."
+    },
+    "1210": {
+        "Species": "Cream Woof",
+        "Dex Entry": "It produces a delicious low-calory cream, but it becomes rancid if not kept cool."
+    },
+    "1211": {
+        "Species": "Hard Scale",
+        "Dex Entry": "Compressed by an enormous pressure, it body is protected by a shell as hard as steel. Nobody knows how it looks inside this shell."
+    },
+    "1212": {
+        "Species": "Clutch",
+        "Dex Entry": "It catches even the most elusive preys with its claws. It tortures them and, once it's fed up, it let them go."
+    },
+    "1213": {
+        "Species": "Evil Genius",
+        "Dex Entry": "Because its intelligence is exceptional, Gengar can communicate with any form of life. However, it uses this gift for not-so-ethical purposes."
+    },
+    "1214": {
+        "Species": "Ancient Shell",
+        "Dex Entry": "Its calcareous shell resembles an ancient water jar. It is unknown if men's artifacts were inspired by this Pokémon or vice versa."
+    },
+    "1215": {
+        "Species": "Ancient Statue",
+        "Dex Entry": "Its limbs are made of pure cristalline water. Some people believe that a single sip of that water will give you everlasting life."
+    },
+    "1216": {
+        "Species": "Cloud Horse",
+        "Dex Entry": "A thick cloud mane makes it float in the air. It is still a green baby, so it can only clumsily fly around."
+    },
+    "1217": {
+        "Species": "Nimbus Steed",
+        "Dex Entry": "(Quiet Mode) A peaceful tempered X Pokémon. However, if it gets furious, it wraps itself in thunderclouds and triggers raging lightning storms."
+    },
+    "1218": {
+        "Species": "Voodoo",
+        "Dex Entry": "Because its appearance resembles a severed head, everyone who fights this Cacnea is scared to death."
+    },
+    "1219": {
+        "Species": "Voodoo",
+        "Dex Entry": "Its internal body is made of a straw-like material. It shoots its needles to cast cursed spell against enemies."
+    },
+    "1220": {
+        "Species": "Poison Apple",
+        "Dex Entry": "The appealing sweet fragrance it releases vaguely resembles that of Leppa Berries. Behind its delicious appearance lies an acid filling."
+    },
+    "1221": {
+        "Species": "Rancid Cake",
+        "Dex Entry": "Anyone who digests its sweets will feel a strong sense of nausea. The more you eat them, the bigger Slurpuff gets."
+    },
+    "1222": {
+        "Species": "Acoustic",
+        "Dex Entry": "If you put your ear to its sound organ, you will hear the sound of a soft breathing. When it's fired up, the sound becomes defeaning."
+    },
+    "1223": {
+        "Species": "Acoustic",
+        "Dex Entry": "Using the auricular organs on its arms, Roselia amplifies the range of its voice. It can even break rocks at full volume."
+    },
+    "1224": {
+        "Species": "Acoustic",
+        "Dex Entry": "It waves its stings to modify any sound wave at will. If it interferes with its opponents' heartbeat, it will cause them irreparable harm."
+    },
+    "1225": {
+        "Species": "Fire Shooting",
+        "Dex Entry": "When frightened, it shoots fire and sparks from the top of its head. It appears to be pretty friendly with others of the same specie."
+    },
+    "1226": {
+        "Species": "Glowing",
+        "Dex Entry": "The special toxin it secretes, when heated, shines brightly. It lures preys and trap them, using its body as a cage."
+    },
+    "1227": {
+        "Species": "Will-o-wisp",
+        "Dex Entry": "It moves under cover of darkness. It throws knives of hell fire at its opponents, piercing their flesh and leaving them with atrocious burns."
+    },
+    "1228": {
+        "Species": "Mouse",
+        "Dex Entry": "Gym Leader Surge's faithful companion, it has been brought back to life after a terrible accident. It is as fast as fragile."
+    },
+    "1229": {
+        "Species": "Fusion",
+        "Dex Entry": "The Bisharp owned by Dimension Sergeant S. The consciences of both A & B's Bisharp coexist in this Pokémon."
+    },
+    "1230": {
+        "Species": "Stun Pepper",
+        "Dex Entry": "The Scovile owned by Dimension Colonel Dahlia. When ingested, its seeds will electrocute the body from the inside."
+    },
+    "1231": {
+        "Species": "Armor",
+        "Dex Entry": "The Tyranitar owned by Dimension General Victor. It generates a defeaning buzz by vibrating its wings."
+    },
+    "1232": {
+        "Species": "Genetic",
+        "Dex Entry": "It has been further genetically modified by Team Dimension. Its psychic powers are frightening."
+    },
+    "1233": {
+        "Species": "Beast",
+        "Dex Entry": "One of the four beast from Xenoverse, Dragalisk's elite soldiers. It is held by the Cardinal Peyote."
+    },
+    "1234": {
+        "Species": "Beast",
+        "Dex Entry": "One of the four beast from Xenoverse, Dragalisk's elite soldiers. It is held by the Cardinal Niva."
+    },
+    "1235": {
+        "Species": "Beast",
+        "Dex Entry": "One of the four beast from Xenoverse, Dragalisk's elite soldiers. It is held by the Cardinal Abraham."
+    },
+    "1236": {
+        "Species": "Beast",
+        "Dex Entry": "One of the four beast from Xenoverse, Dragalisk's elite soldiers. It is held by the Cardinal Chua."
+    },
+    "1237": {
+        "Species": "Frosting",
+        "Dex Entry": "It secretes ice-fresh cream from its tail. If the quality doesn't match its high requirements, it throws that away."
+    },
+    "1238": {
+        "Species": "Transform",
+        "Dex Entry": "Following a great number of experiments, it became extremely unstable, but it developed the ability to Transform even without seeing its target."
+    },
+    "1239": {
+        "Species": "Royal Hammer",
+        "Dex Entry": "It's mentioned in legends as the companion of the First King. It uses its momentum to move at high speeds."
+    },
+    "2000": {
+        "Species": "Nimbus Steed",
+        "Dex Entry": "Often found in forests, eating leaves. It has a sharp venomous stinger on its head."
+    },
+    "2001": {
+        "Species": "Nimbus Steed",
+        "Dex Entry": "Almost incapable of moving, this Pokémon can only harden its shell to protect itself from predators."
+    },
+    "2002": {
+        "Species": "Crostaceo",
+        "Dex Entry": "Flies at high speed and attacks using its large venomous stingers on its forelegs and tail."
+    },
+    "2003": {
+        "Species": "Rancid Cake",
+        "Dex Entry": "It is very timid. It will be afraid to move if it is alone. But it will be active if it is in a group."
+    },
+    "2004": {
+        "Species": "Scratch Cat",
+        "Dex Entry": "The star patterns on its back grow larger or smaller depending on the number of stars in the night sky."
+    },
+    "2005": {
+        "Species": "Draconic",
+        "Dex Entry": "If static electricity builds in its body, its fleece doubles in volume. Touching it will shock you."
+    },
+    "2006": {
+        "Species": "Disaster",
+        "Dex Entry": "Its fluffy fleece easily stores electricity. Its rubbery hide keeps it from being electrocuted."
+    },
+    "2007": {
+        "Species": "Renegade",
+        "Dex Entry": "The bright light on its tail can be seen far away. It has been treasured since ancient times as a beacon."
+    },
+    "2008": {
+        "Species": "Sharp Blade",
+        "Dex Entry": "Using its ability to read minds, it will identify impending danger and Teleport to safety."
+    },
+    "2009": {
+        "Species": "Mask",
+        "Dex Entry": "It emits special alpha waves from its body that induce headaches just by being close by."
+    },
+    "2010": {
+        "Species": "Shout Lizard",
+        "Dex Entry": "Its brain can outperform a super-computer. Its intelligence quotient is said to be 5,000."
+    },
+    "2011": {
+        "Species": "Sea Dragon",
+        "Dex Entry": "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today."
+    },
+    "2012": {
+        "Species": "Snapping",
+        "Dex Entry": "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage."
+    },
+    "2013": {
+        "Species": "Bite",
+        "Dex Entry": "It has superb accuracy. The water it shoots out can strike even moving prey from more than 300 feet."
+    },
+    "2014": {
+        "Species": "Puppy",
+        "Dex Entry": "It traps enemies with its suction-cupped tentacles then smashes them with its rock-hard head."
+    },
+    "2015": {
+        "Species": "Legendary",
+        "Dex Entry": "It continuously sheds and grows. The tip of its head is prized as a treasure for its beauty."
+    },
+    "2016": {
+        "Species": "Live Coal",
+        "Dex Entry": "An enigmatic Pokémon that can effortlessly regenerate any appendage it loses in battle."
+    },
+    "2017": {
+        "Species": "Spitfire",
+        "Dex Entry": "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem."
+    },
+    "2018": {
+        "Species": "Dragon",
+        "Dex Entry": "As it majestically swims, it doesn't care if Remoraid attach to it for scavenging its leftovers."
+    },
+    "2019": {
+        "Species": "Dragon",
+        "Dex Entry": "The Berries it stores in its vase-like shell decompose and become a gooey liquid."
+    },
+    "2020": {
+        "Species": "Dragon",
+        "Dex Entry": "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds."
+    },
+    "2021": {
+        "Species": "Duck",
+        "Dex Entry": "The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey."
+    },
+    "2022": {
+        "Species": "Duck",
+        "Dex Entry": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up."
+    },
+    "2023": {
+        "Species": "Water Fish",
+        "Dex Entry": "Bellossom gather at times and appear to dance. They say that the dance is a ritual to summon the sun."
+    },
+    "2024": {
+        "Species": "Water Fish",
+        "Dex Entry": "Forms colonies in perpetually dark places. Uses ultrasonic waves to identify and approach targets."
+    },
+    "2025": {
+        "Species": "Will-o-Wisp",
+        "Dex Entry": "Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly."
+    },
+    "2026": {
+        "Species": "Symbol",
+        "Dex Entry": "It flies so silently through the dark on its four wings that it may not be noticed even when nearby."
+    },
+    "2027": {
+        "Species": "Alloy",
+        "Dex Entry": "Almost invisible, this gaseous Pokémon cloaks the target and puts it to sleep without notice."
+    },
+    "2028": {
+        "Species": "Toxic Lizard",
+        "Dex Entry": "Because of its ability to slip through block walls, it is said to be from another dimension."
+    },
+    "2029": {
+        "Species": "Toxic Lizard",
+        "Dex Entry": "Under a full moon, this Pokémon likes to mimic the shadows of people and laugh at their fright."
+    },
+    "2030": {
+        "Species": "Baby",
+        "Dex Entry": "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories."
+    },
+    "2031": {
+        "Species": "Punk",
+        "Dex Entry": "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison."
+    },
+    "2032": {
+        "Species": "Fossil",
+        "Dex Entry": "As it grows, the stone portions of its body harden to become similar to a diamond, but colored black."
+    },
+    "2033": {
+        "Species": "Spiteful Fox",
+        "Dex Entry": "It is said that if an Onix lives for over 100 years, its composition changes to become diamond-like."
+    },
+    "2034": {
+        "Species": "Baneful Fox",
+        "Dex Entry": "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them."
+    },
+    "2035": {
+        "Species": "Love-Hate",
+        "Dex Entry": "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction."
+    },
+    "2036": {
+        "Species": "Furious",
+        "Dex Entry": "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage."
+    },
+    "2037": {
+        "Species": "Fire Child",
+        "Dex Entry": "Vicious in nature, it drives Pidgey from their nests and feasts on the eggs that are left behind."
+    },
+    "2038": {
+        "Species": "Fire Warrior",
+        "Dex Entry": "The protruding horn on its head is very hard. It is used for bashing through thick ice."
+    },
+    "2039": {
+        "Species": "Fire Blades",
+        "Dex Entry": "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters."
+    },
+    "2040": {
+        "Species": "Two-Handed",
+        "Dex Entry": "A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory."
+    },
+    "2041": {
+        "Species": "Collective",
+        "Dex Entry": "Although it looks frightening, it is actually kind and affectionate. It is very popular among women."
+    },
+    "2042": {
+        "Species": "Mimicry",
+        "Dex Entry": "Because its fangs are too heavy, it always keeps its head tilted down. However, its Bite is powerful."
+    },
+    "2043": {
+        "Species": "Big Blade",
+        "Dex Entry": "Puts enemies to sleep then eats their dreams. Occasionally gets sick from eating bad dreams."
+    },
+    "2044": {
+        "Species": "Grass Cat",
+        "Dex Entry": "When it locks eyes with an enemy, it will use a mix of PSI moves such as Hypnosis and Confusion."
+    },
+    "2045": {
+        "Species": "Grass Cat",
+        "Dex Entry": "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up the sun's rays."
+    },
+    "2046": {
+        "Species": "Magician",
+        "Dex Entry": "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health."
+    },
+    "2047": {
+        "Species": "Water Lizard",
+        "Dex Entry": "Meganium's breath has the power to revive dead grass and plants. It can make them healthy again."
+    },
+    "2048": {
+        "Species": "Water Lizard",
+        "Dex Entry": "Its large eyes can scan 360 degrees. It looks in all directions to seek out insects as its prey."
+    },
+    "2049": {
+        "Species": "Secret Agent",
+        "Dex Entry": "This powerful Pokémon thrusts its prized horn under its enemies' bellies then lifts and throws them."
+    },
+    "2050": {
+        "Species": "Electron",
+        "Dex Entry": "Moves silently and stealthily. Eats the eggs of birds, such as Pidgey and Spearow, whole."
+    },
+    "2051": {
+        "Species": "Dragon Orb",
+        "Dex Entry": "It is rumored that the ferocious warning markings on its belly differ from area to area."
+    },
+    "2052": {
+        "Species": "Anomalous",
+        "Dex Entry": "It is not yet skilled at storing electricity. It may send out a jolt if amused or startled."
+    }
+}
