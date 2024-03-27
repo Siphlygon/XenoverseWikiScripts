@@ -93,6 +93,7 @@ if __name__ == "__main__":
 
     master_data = []
     singles_data = []
+    base_data = []
 
     print("Accessing the singles tier list...")
     singles_pokemon = []
@@ -111,6 +112,9 @@ if __name__ == "__main__":
     for key, value in pokemon.items():
         dc = DataCollection(value.split(",")[0], "../../gamedata/pokemon.txt")
         data = dc.extract_pokemon_data()
+
+        base_stats = data["BaseStats"].split(",")
+        base_data.append([key, value.split(",")[1], base_stats[0], base_stats[1], base_stats[2], base_stats[4], base_stats[5], base_stats[3]])
 
         base_spd = data["BaseStats"].split(",")[3]
         construct_speed_tier_entry(value.split(",")[1], base_spd)
@@ -139,10 +143,12 @@ if __name__ == "__main__":
     workbook = Workbook()
     singles_sheet = workbook.create_sheet("Singles")
     master_sheet = workbook.create_sheet("Master")
+    base_sheet = workbook.create_sheet("Base Stats")
     workbook.remove(workbook["Sheet"])
 
     singles_sheet.append(["Speed", "Name", "Base", "IVs", "EVs", "Nature", "Boosts"])
     master_sheet.append(["Speed", "Name", "Base", "IVs", "EVs", "Nature", "Boosts"])
+    base_sheet.append(["Dex", "Name", "HP", "Attack", "Defense", "Special Attack", "Special Defense", "Speed"])
 
     for entry in singles_data:
         singles_sheet.append(entry)
@@ -150,4 +156,8 @@ if __name__ == "__main__":
     for entry in master_data:
         master_sheet.append(entry)
 
+    for entry in base_data:
+        base_sheet.append(entry)
+
     workbook.save("speedtiers.xlsx")
+    print("Finished! The speed tiers have been written to speedtiers.xlsx.")
