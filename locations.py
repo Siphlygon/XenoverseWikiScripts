@@ -29,7 +29,7 @@ def calculate_percentages_and_secondary_info(biome_encounters, p_data, biome):
 
     elif biome in ["RockSmash", "Water"]:
         percentage = calculate_percentage_for_rock_smash_and_water(indexes)
-        secondary_info = "Rock Smash" if biome == "RockSmash" else "Surf"
+        secondary_info = "Rock Smash" if biome == "RockSmash" else "Surfing"
 
     elif biome == "OldRod":
         percentage = calculate_percentage_for_old_rod(indexes)
@@ -185,23 +185,11 @@ def calculate_percentage_for_super_rod(indexes):
 # endregion
 
 
-def _format_route_string(loc_name, secondary_info):
+def _process_zone_biomes(zone, loc_name, p_data):
     """
-    Format the route string that will be displayed in the availability box, with the purpose to account for secondary
-    information if present. The secondary information is displayed in parentheses after the location name.
+    Breaks down zone data into biomes and determines encounter percentages and secondary information.
 
-    :param str loc_name: The name of the location.
-    :param str secondary_info: Optional secondary information about the type of encounter.
-    :return str: A formatted route string.
-    """
-    return f"[[{loc_name}]] ({secondary_info})" if secondary_info else f"[[{loc_name}]]"
-
-
-def _process_zone_data(zone, loc_name, p_data):
-    """
-    Process zone data and access other methods to determine encounter percentages and secondary information.
-
-    Breaks down the zone data into biomes including the target Pokémon, and processes each biome separately. The
+    Breaks down the zone data into biomes which include the target Pokémon, and processes each biome separately. The
     resultant data is stored in a list of lists, with each sublist containing the percentage and route string for a
     particular biome.
 
@@ -242,31 +230,88 @@ def _process_zone_data(zone, loc_name, p_data):
     return zone_data
 
 
+def _add_rarity_lists(location_data, game_locations):
+    """
+    Add rarity lists to the game locations list.
+
+    The location data is split into three lists based on rarity, and then formatted into locations grouped by secondary
+    information. The rarity lists are then added to the game locations list.
+
+    :param dict[tuple[str, str], int]: The merged location data to be rarity analysed.
+    :param list[str] game_locations: The wiki code to produce the availability information.
+    """
+    enc_common = []
+    enc_uncommon = []
+    enc_rare = []
+
+    # Add the location data to the appropriate rarity list
+    for location in location_data:
+        if location[0] > 15:
+            enc_common.append([location[1][0], location[1][1]])
+        elif location[0] > 5:
+            enc_uncommon.append([location[1][0], location[1][1]])
+        else:
+            enc_rare.append([location[1][0], location[1][1]])
+
+    rarity_lists = {"common": enc_common, "uncommon": enc_uncommon, "rare": enc_rare}
+
+    # Format the rarity lists into display
+    for rarity, rarity_list in rarity_lists.items():
+        if rarity_list:
+            _merge_day_and_night(rarity_list)
+            rarity_list = _format_rarity_list(rarity_list)
+
+            # Specifically setup as to facilitate line break between sections
+            rarity_string = f"|{rarity} = "
+            for i in range(0, len(rarity_list), 2):
+                rarity_string += ", ".join(rarity_list[i])
+
+                # Make sure line doesn't end on a <hr>
+                if i + 1 < len(rarity_list) - 1:
+                    rarity_string += rarity_list[i + 1]
+                else:
+                    rarity_string += rarity_list[i + 1].replace("<hr>", "")
+            game_locations.append(rarity_string)
+
+
 def _format_rarity_list(rarity_list):
     """
-    Format the rarity list into route strings, grouping encounters on the same route if they are day and night.
+    Format the rarity list into separate sections based on secondary information.
+
+    The rarity list is split into sections based on the secondary information, which are delimited by line breaks <br>.
+    Secondary information outside normal encounters is enclosed in parentheses.
 
     :param list[list[str]] rarity_list: The list of routes & secondary information for a particular rarity.
     :return list[str]: The formatted rarity list.
     """
-    n = 1
-    while n < len(rarity_list):
-        # If the two entries are on the same route, consider grouping
-        if rarity_list[n - 1][0] == rarity_list[n][0]:
-            # I assume it's always Day then Night, which appears to be the case. If wrong, will fix.
-            if [rarity_list[n - 1][1], rarity_list[n][1]] == ["Day", "Night"]:
-                rarity_list[n - 1][1] = ""
-                del rarity_list[n]
-            else:
-                n += 1
-        else:
-            n += 1
+    encounter_types = {
+        "": "Normal",
+        "Day": "Normal",
+        "Night": "Normal",
+        "Day Only": "Normal",
+        "Night Only": "Normal",
+        "Cave": "Normal",
+        "Surfing": "Surfing",
+        "Old Rod": "Old Rod",
+        "Good Rod": "Good Rod",
+        "Super Rod": "Super Rod"
+    }
 
-    # Format the rarity list into route strings
-    new_rarity_list = []
+    # Create a map of rarity to encounter lists
+    rarity_map = {encounter_type: [] for encounter_type in encounter_types.values()}
+
+    # Populate the map with the encounters with appropriate encounters
     for encounter in rarity_list:
-        route_string = _format_route_string(encounter[0], encounter[1])
-        new_rarity_list.append(route_string)
+        rarity_map[encounter_types.get(encounter[1])].append("[[" + encounter[0] + "]]")
+
+    new_rarity_list = []
+    for encounter_type, biome in rarity_map.items():
+        if biome:
+            new_rarity_list.append(biome)
+            if encounter_type != "Normal":
+                new_rarity_list.append(f" ({encounter_type})<hr> ")
+            else:
+                new_rarity_list.append(" <hr> ")
 
     return new_rarity_list
 
@@ -279,9 +324,9 @@ def _merge_same_location_data(all_zone_data):
     merges the data for the same location, keeping only the highest encounter rate for display purposes/rarity.
 
     :param  list[list[int | tuple[str, str]]] all_zone_data: The list of all zone data.
+    :return dict[tuple[str, str], int]: The merged location data.
     """
     location_data = {}
-
     for zone in all_zone_data:
         if zone[1] in location_data:
             if zone[0] > location_data[zone[1]]:
@@ -290,6 +335,45 @@ def _merge_same_location_data(all_zone_data):
             location_data[zone[1]] = zone[0]
 
     return location_data
+
+
+def _specify_day_night_exclusivity(location_dict):
+    """
+    Specify if a location is day or night exclusive.
+
+    If a location only has data for Day or Night, the function will modify the location data to reflect this. This is
+    to differentiate between encounters which are e.g., Day exclusive (Day Only) and those which can have different
+    encounter chances and thus rarity in Day and Night.
+
+    :param dict[tuple[str, str], int] location_dict: The merged location data.
+    :return dict[tuple[str, str], int]: The modified location data.
+    """
+    modified_location_dict = {}
+    for (route, secondary_info), percentage in location_dict.items():
+        if secondary_info == "Day" and (route, "Night") not in location_dict:
+            modified_location_dict[(route, "Day Only")] = percentage
+        elif secondary_info == "Night" and (route, "Day") not in location_dict:
+            modified_location_dict[(route, "Night Only")] = percentage
+        else:
+            modified_location_dict[(route, secondary_info)] = percentage
+
+    return modified_location_dict
+
+
+def _merge_day_and_night(rarity_list):
+    """
+    Merge same-rarity (implicit) encounters on the same route if they are consecutively day and night.
+
+    :param list[list[str]] rarity_list: The list of routes & secondary information for a particular rarity.
+    """
+    n = 1
+    day_night = ["Day", "Night"]
+    while n < len(rarity_list):
+        if rarity_list[n - 1][0] == rarity_list[n][0] and [rarity_list[n - 1][1], rarity_list[n][1]] == day_night:
+            rarity_list[n - 1][1] = ""
+            del rarity_list[n]
+        else:
+            n += 1
 
 
 def _account_for_static_encounters(p_data, game_locations):
@@ -354,37 +438,19 @@ class LocationDataGenerator:
         else:
             _account_for_static_encounters(self.p_data, game_locations)
 
-            enc_common = []
-            enc_uncommon = []
-            enc_rare = []
-
+            # Process the encounter data for each zone
             all_zone_data = []
             for idx, zone in enumerate(self.encounter_locs):
                 loc_name = location_info(self.zone_ids[idx])
-                zone_data = _process_zone_data(zone, loc_name, self.p_data)
+                zone_data = _process_zone_biomes(zone, loc_name, self.p_data)
                 all_zone_data.extend(zone_data)
 
             # Multiple zones are present in the same location, with different encounter tables. Only display the highest
-            location_data = _merge_same_location_data(all_zone_data)
-            location_data = [[v, k] for k, v in location_data.items()]
+            location_dict = _merge_same_location_data(all_zone_data)
+            modified_location_dict = _specify_day_night_exclusivity(location_dict)
+            location_data = [[v, k] for k, v in modified_location_dict.items()]
 
-            for location in location_data:
-                if location[0] > 15:
-                    enc_common.append([location[1][0], location[1][1]])
-                elif location[0] > 5:
-                    enc_uncommon.append([location[1][0], location[1][1]])
-                else:
-                    enc_rare.append([location[1][0], location[1][1]])
-
-            if enc_common:
-                enc_common = _format_rarity_list(enc_common)
-                game_locations.append("|common = " + ", ".join(enc_common))
-            if enc_uncommon:
-                enc_uncommon = _format_rarity_list(enc_uncommon)
-                game_locations.append("|uncommon = " + ", ".join(enc_uncommon))
-            if enc_rare:
-                enc_rare = _format_rarity_list(enc_rare)
-                game_locations.append("|rare = " + ", ".join(enc_rare))
+            _add_rarity_lists(location_data, game_locations)
 
         game_locations.append("}}")
 
