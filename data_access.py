@@ -16,6 +16,8 @@ def gender_code(gender):
     applicable. This dictionary is used to convert the game's internal representation of a gender code into a number
     representing the same for the wiki's display.
 
+    Format: "GenderRate" -> "GenderCode"
+
     :param string gender: The growth rate represented in pokemon.txt.
     :return string: The corresponding gender code.
     """
@@ -182,3 +184,21 @@ def static_encounters(pokemon):
     with open('references/static_encounters.json', encoding="utf-8") as f:
         switch = json.load(f)
     return switch.get(pokemon)
+
+
+def species_and_dex_entry(internal_num):
+    """
+    Accesses a dictionary of species names and entry numbers.
+
+    The English species name and dex entry are stored in a massive english.txt file. They are related to a Pokémon by
+    an internal number, which is a widely varying metric that unimplemented Pokémon also have. This dictionary is used
+    to convert the internal number of implemented Pokémon to the species name and dex entry.
+
+    Format: "PokemonInternalNumber" -> {"Species": "SpeciesName", "Dex Entry": "DexEntry"}
+
+    :param string internal_num: The pokemon's internal number as it appears in pokemon.txt.
+    :return dict[str, str]: A dictionary for the species name and dex entry.
+    """
+    with open('references/species_and_dex_entry.json', encoding="utf-8") as f:
+        switch = json.load(f)
+    return switch.get(internal_num)
