@@ -13,7 +13,7 @@ def _is_stab(move_data, type1, type2):
     :param str type2: The second type of the Pokémon, which may be the same as type1 if single-typed.
     :return bool: If the move will gain STAB when used.
     """
-    return move_data[1] == "yes" and (move_data[2] == type1 or move_data[2] == type2)
+    return move_data["STAB"] == "yes" and (move_data["Type"] == type1 or move_data["Type"] == type2)
 
 
 def _add_level_moves_to_list(moves, type1, type2, list_name):
@@ -28,12 +28,12 @@ def _add_level_moves_to_list(moves, type1, type2, list_name):
     :param list[str] list_name: The wiki template to add formatted moves to.
     """
     for x in range(0, len(moves) - 1, 2):
-        move_data = move_info(moves[x + 1]).split(",")
+        move_data = move_info(moves[x + 1])
 
         if _is_stab(move_data, type1, type2):
-            list_name.append("{{MoveLevel+|" + moves[x] + "|" + move_data[0] + "|'''}}")
+            list_name.append("{{MoveLevel+|" + moves[x] + "|" + move_data["Name"] + "|'''}}")
         else:
-            list_name.append("{{MoveLevel+|" + moves[x] + "|" + move_data[0] + "}}")
+            list_name.append("{{MoveLevel+|" + moves[x] + "|" + move_data["Name"] + "}}")
 
 
 def _add_tm_moves_to_list(moves, type1, type2, list_name):
@@ -49,12 +49,12 @@ def _add_tm_moves_to_list(moves, type1, type2, list_name):
     :param list[str] list_name: The wiki template to add formatted moves to.
     """
     for move in moves:
-        tm_data = tm_info(move).split(",")
+        tm_data = tm_info(move)
 
         if _is_stab(tm_data, type1, type2):
-            list_name.append("{{MoveTM+|TM" + tm_data[0] + "|'''}}")
+            list_name.append("{{MoveTM+|TM" + tm_data["TMNo"] + "|'''}}")
         else:
-            list_name.append("{{MoveTM+|TM" + tm_data[0] + "}}")
+            list_name.append("{{MoveTM+|TM" + tm_data["TMNo"] + "}}")
 
 
 def _add_breed_moves_to_list(moves, breed_string, type1, type2, list_name):
@@ -72,12 +72,12 @@ def _add_breed_moves_to_list(moves, breed_string, type1, type2, list_name):
     :param list[str] list_name: The wiki template to add formatted moves to.
     """
     for move in sorted(moves):
-        move_data = move_info(move).split(",")
+        move_data = move_info(move)
 
         if _is_stab(move_data, type1, type2):
-            list_name.append("{{MoveBreed+|" + breed_string + "|" + move_data[0] + "|'''}}")
+            list_name.append("{{MoveBreed+|" + breed_string + "|" + move_data["Name"] + "|'''}}")
         else:
-            list_name.append("{{MoveBreed+|" + breed_string + "|" + move_data[0] + "}}")
+            list_name.append("{{MoveBreed+|" + breed_string + "|" + move_data["Name"] + "}}")
 
 
 def _add_tutor_moves_to_list(moves, type1, type2, list_name):
@@ -93,12 +93,12 @@ def _add_tutor_moves_to_list(moves, type1, type2, list_name):
     :param list[str] list_name: The wiki template to add formatted moves to.
     """
     for move in sorted(moves):
-        move_data = move_info(move).split(",")
+        move_data = move_info(move)
 
         if _is_stab(move_data, type1, type2):
-            list_name.append("{{MoveTutor+|" + move_data[0] + "|'''|Varies}}")
+            list_name.append("{{MoveTutor+|" + move_data["Name"] + "|'''|Varies}}")
         else:
-            list_name.append("{{MoveTutor+|" + move_data[0] + "||Varies}}")
+            list_name.append("{{MoveTutor+|" + move_data["Name"] + "||Varies}}")
 
 
 class MoveListGenerator:
