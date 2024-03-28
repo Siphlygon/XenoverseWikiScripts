@@ -302,7 +302,10 @@ def _format_rarity_list(rarity_list):
 
     # Populate the map with the encounters with appropriate encounters
     for encounter in rarity_list:
-        rarity_map[encounter_types.get(encounter[1])].append("[[" + encounter[0] + "]]")
+        if encounter[1] in ["Day", "Night", "Day Only", "Night Only"]:
+            rarity_map[encounter_types.get(encounter[1])].append("[[" + encounter[0] + "]] (" + encounter[1] + ")")
+        else:
+            rarity_map[encounter_types.get(encounter[1])].append("[[" + encounter[0] + "]]")
 
     new_rarity_list = []
     for encounter_type, biome in rarity_map.items():
