@@ -52,10 +52,10 @@ def tm_info(move):
     reference dictionary is used for. The type of each TM and if the move can gain STAB are also stored in this
     dictionary.
 
-    Format: "TMName" -> "TMNo,canHaveSTAB,Type"
+    Format: "TMName" -> {"TMNo": "TMNo", "STAB": "yes/no", "Type": "Type"}
 
-    :param string move: The move represented in tm.txt in title case.
-    :return string: The corresponding TM info, in the form "TMNo,canHaveStab,Type".
+    :param string move: The move represented in pokemon.txt and tm.txt in title case.
+    :return string: A dictionary for the TMNo, STAB, and type.
     """
     with open('references/tm_info.json', encoding="utf-8") as f:
         switch = json.load(f)
@@ -69,10 +69,10 @@ def move_info(move):
     Every move in the wiki's move templates is stored in this dictionary, along with its proper name, if it can gain
     STAB, and its type. This is used to format moves in the wiki page.
 
-    Format: "MoveName" -> "RealMoveName,canHaveSTAB,type"
+    Format: "MoveName" -> {"Name": "MoveName", "STAB": "yes/no", "Type": "Type"}
 
     :param string move: The move represented in pokemon.txt and tm.txt in title case.
-    :return string: The corresponding move info, in the form "MoveName,canHaveSTAB,type".
+    :return string: A dictionary for the move name, STAB, and type.
     """
     with open('references/move_info.json', encoding="utf-8") as f:
         switch = json.load(f)
@@ -105,10 +105,10 @@ def pokemon_info(dex):
     chosen as the next and previous Pokémon are determined by adjusting this number. This retrieves both the internal
     name and the display name of the Pokémon.
 
-    Format: "DexNumber" -> "InternalName,DisplayName"
+    Format: "DexNumber" -> {"InternalName": "InternalName", "DisplayName": "DisplayName"}
 
     :param string dex: The dex number relating to the Pokémon.
-    :return string: The corresponding Pokémon info, as: "INTERNALNAME, displayName".
+    :return string: A dictionary for the internal name and display name.
     """
     with open('references/pokemon_info.json', encoding="utf-8") as f:
         switch = json.load(f)
@@ -176,7 +176,7 @@ def static_encounters(pokemon):
     implementation. This dictionary is used to determine the type of static encounter a Pokémon has, which can be either
     a gift, a trade, or a battle. This is always displayed for any applicable Pokémon.
 
-    Format: "PokemonInternalName" -> "LocationName,EncounterType"
+    Format: "PokemonInternalName" -> {"LocationName": "EncounterType"}
 
     :param string pokemon: The pokemon's internal name as it appears in pokemon.txt.
     :return dict[str, str]: A dictionary with location names as a key and the type of static encounter as a value.
