@@ -22,7 +22,7 @@ class PokemonBoxGenerator:
         self.second_type = p_data.get("Type2", self.first_type).title()
         if self.second_type == 'Suono':
             self.second_type = "Sound"
-        self.name = pokemon_info(find_dex_number(self.p_data["RegionalNumbers"])).split(",")[1]
+        self.name = pokemon_info(find_dex_number(self.p_data["RegionalNumbers"]))["DisplayName"]
 
     def create_header_footer(self):
         """
@@ -46,21 +46,21 @@ class PokemonBoxGenerator:
             dex_bounds = {"": 583, "X": 44, "V": 207}
 
             if num > 1:
-                head_foot.append(f"|prev = {pokemon_info(region + prev_num).split(',')[1]}")
+                head_foot.append(f"|prev = {pokemon_info(region + prev_num)["DisplayName"]}")
                 head_foot.append(f"|prevnum = {region + prev_num}")
             # If the number is 1, it will go to the last number of the dex
             else:
                 for reg, bound in dex_bounds.items():
                     if region == reg:
-                        head_foot.append(f"|prev = {pokemon_info(reg + make_three_digits(str(bound))).split(',')[1]}")
+                        head_foot.append(f"|prev = {pokemon_info(reg + make_three_digits(str(bound)))["DisplayName"]}")
                         head_foot.append(f"|prevnum = {reg + make_three_digits(str(bound))}")
 
             # Deciding next number & pokémon, accounting for the different bounds of each dex
             if num < dex_bounds[region]:
-                head_foot.append(f"|next = {pokemon_info(region + next_num).split(',')[1]}")
+                head_foot.append(f"|next = {pokemon_info(region + next_num)["DisplayName"]}")
                 head_foot.append(f"|nextnum = {region + next_num}")
             else:
-                head_foot.append(f"|next = {pokemon_info(region + "001").split(',')[1]}")
+                head_foot.append(f"|next = {pokemon_info(region + "001")["DisplayName"]}")
                 head_foot.append(f"|nextnum = {region + '001'}")
 
         # Specific range is chosen to obtain only digits and ignore either the region or any alt forms i.e., ABC_1

@@ -128,7 +128,7 @@ class MoveListGenerator:
 
         :return list[str]: The information for a specific Pokémon from pokemon_info.json.
         """
-        return pokemon_info(find_dex_number(self.p_data["RegionalNumbers"])).split(",")
+        return pokemon_info(find_dex_number(self.p_data["RegionalNumbers"]))
 
     def _create_move_list(self, list_type):
         """
@@ -144,7 +144,7 @@ class MoveListGenerator:
         header = list_type.upper() if list_type == "tm" else list_type.title()
 
         dex_data = self._get_dex_data()
-        move_list = ["{{Move" + header + "Start|" + dex_data[1] + "|" + self.first_type + "|" +
+        move_list = ["{{Move" + header + "Start|" + dex_data["DisplayName"] + "|" + self.first_type + "|" +
                      self.second_type + "}}"]
 
         breed_string = ""
@@ -157,7 +157,7 @@ class MoveListGenerator:
                 moves = self.p_data["EggMoves"].split(",")
             else:
                 move_list.append("{{MoveBreedNone}}")
-                move_list.append("{{Move" + header + "End|" + dex_data[1] + "|" + self.first_type + "|" +
+                move_list.append("{{Move" + header + "End|" + dex_data["DisplayName"] + "|" + self.first_type + "|" +
                                  self.second_type + "}}")
                 return move_list
         else:
@@ -173,7 +173,7 @@ class MoveListGenerator:
         else:
             _add_tutor_moves_to_list(moves, self.first_type, self.second_type, move_list)
 
-        move_list.append("{{Move" + header + "End|" + dex_data[1] + "|" + self.first_type + "|" +
+        move_list.append("{{Move" + header + "End|" + dex_data["DisplayName"] + "|" + self.first_type + "|" +
                          self.second_type + "}}")
 
         return move_list
