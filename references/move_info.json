@@ -1,746 +1,3722 @@
 {
-    "ABSORB": "Absorb,yes,Grass",
-    "ACCELEROCK": "Accelerock,yes,Rock",
-    "ACID": "Acid,yes,Poison",
-    "ACIDARMOR": "Acid Armor,no,Poison",
-    "ACIDRAIN": "Acid Rain,no,Water",
-    "ACIDSPRAY": "Acid Spray,yes,Poison",
-    "ACOUSTICBOMB": "Acoustic Bomb,yes,Sound",
-    "ACROBATICS": "Acrobatics,yes,Flying",
-    "ACUPRESSURE": "Acupressure,no,Normal",
-    "AERIALACE": "Aerial Ace,yes,Flying",
-    "AEROBLAST": "Aeroblast,yes,Flying",
-    "AFTERYOU": "After You,no,Normal",
-    "AGILITY": "Agility,no,Psychic",
-    "AIRCUTTER": "Air Cutter,yes,Flying",
-    "AIRSLASH": "Air Slash,yes,Flying",
-    "ALLYSWITCH": "Ally Switch,no,Psychic",
-    "AMNESIA": "Amnesia,no,Psychic",
-    "ANCHORSHOT": "Anchor Shot,yes,Steel",
-    "ANCIENTPOWER": "Ancient Power,yes,Rock",
-    "AQUAJET": "Aqua Jet,yes,Water",
-    "AQUARING": "Aqua Ring,no,Water",
-    "AQUATAIL": "Aqua Tail,yes,Water",
-    "ARMTHRUST": "Arm Thrust,yes,Fighting",
-    "AROMATHERAPY": "Aromatherapy,no,Grass",
-    "AROMATICMIST": "Aromatic Mist,no,Fairy",
-    "ASSIST": "Assist,no,Normal",
-    "ASSURANCE": "Assurance,yes,Dark",
-    "ASTONISH": "Astonish,yes,Ghost",
-    "ASTRALLANCE": "Astral Lance,yes,Steel",
-    "ATTACKORDER": "Attack Order,yes,Bug",
-    "ATTRACT": "Attract,no,Normal",
-    "AURASPHERE": "Aura Sphere,yes,Fighting",
-    "AURORABEAM": "Aurora Beam,yes,Ice",
-    "AURORAVEIL": "Aurora Veil,no,Ice",
-    "AUTOTOMIZE": "Autotomize,no,Steel",
-    "AVALANCHE": "Avalanche,yes,Ice",
-    "BABBLE": "Babble,yes,Sound",
-    "BABYDOLLEYES": "Baby-Doll Eyes,no,Fairy",
-    "BANEFULBUNKER": "Baneful Bunker,no,Poison",
-    "BARRAGE": "Barrage,yes,Normal",
-    "BARRIER": "Barrier,no,Psychic",
-    "BATONPASS": "Baton Pass,no,Normal",
-    "BEAKBLAST": "Beak Blast,yes,Flying",
-    "BEATUP": "Beat Up,yes,Dark",
-    "BELCH": "Belch,yes,Poison",
-    "BELLYDRUM": "Belly Drum,no,Normal",
-    "BENEVOLENCE": "Benevolence,no,Fairy",
-    "BESTOW": "Bestow,no,Normal",
-    "BIDE": "Bide,no,Normal",
-    "BIND": "Bind,yes,Normal",
-    "BITE": "Bite,yes,Dark",
-    "BLASTBURN": "Blast Burn,yes,Fire",
-    "BLAZEKICK": "Blaze Kick,yes,Fire",
-    "BLIZZARD": "Blizzard,yes,Ice",
-    "BLOCK": "Block,no,Normal",
-    "BLUEFLARE": "Blue Flare,yes,Fire",
-    "BLUENOTE": "Blue Note,no,Sound",
-    "BODYSLAM": "Body Slam,yes,Normal",
-    "BOLTSTRIKE": "Bolt Strike,yes,Electric",
-    "BONECLUB": "Bone Club,yes,Ground",
-    "BONEMERANG": "Bonemerang,yes,Ground",
-    "BONERUSH": "Bone Rush,yes,Ground",
-    "BOOMBURST": "Boomburst,yes,Sound",
-    "BOUNCE": "Bounce,yes,Flying",
-    "BRAVEBIRD": "Brave Bird,yes,Flying",
-    "BRICKBREAK": "Brick Break,yes,Fighting",
-    "BRINE": "Brine,yes,Water",
-    "BRUTALHOLD": "Brutal Hold,yes,Fairy",
-    "BRUTALSWING": "Brutal Swing,yes,Dark",
-    "BUBBLE": "Bubble,yes,Water",
-    "BUBBLEBEAM": "Bubble Beam,yes,Water",
-    "BUGBITE": "Bug Bite,yes,Bug",
-    "BUGBUZZ": "Bug Buzz,yes,Bug",
-    "BULKUP": "Bulk Up,no,Fighting",
-    "BULLDOZE": "Bulldoze,yes,Ground",
-    "BULLETPUNCH": "Bullet Punch,yes,Steel",
-    "BULLETSEED": "Bullet Seed,yes,Grass",
-    "BURNUP": "Burn Up,yes,Fire",
-    "CALMMIND": "Calm Mind,no,Psychic",
-    "CAMOUFLAGE": "Camouflage,no,Normal",
-    "CAPTIVATE": "Captivate,no,Normal",
-    "CELEBRATE": "Celebrate,no,Normal",
-    "CHARGE": "Charge,no,Electric",
-    "CHARGEBEAM": "Charge Beam,yes,Electric",
-    "CHARM": "Charm,no,Fairy",
-    "CHATTER": "Chatter,yes,Flying",
-    "CHEERING": "Cheering,no,Sound",
-    "CHIPAWAY": "Chip Away,yes,Normal",
-    "CIRCLETHROW": "Circle Throw,yes,Fighting",
-    "CLAMP": "Clamp,yes,Water",
-    "CLANGINGSCALES": "Clanging Scales,yes,Dragon",
-    "CLEARSMOG": "Clear Smog,yes,Poison",
-    "CLOSECOMBAT": "Close Combat,yes,Fighting",
-    "COIL": "Coil,no,Poison",
-    "COMETPUNCH": "Comet Punch,yes,Normal",
-    "CONFIDE": "Confide,no,Sound",
-    "CONFUSERAY": "Confuse Ray,no,Ghost",
-    "CONFUSION": "Confusion,yes,Psychic",
-    "CONSTRICT": "Constrict,yes,Normal",
-    "CONTROLLOPOLARE": "Magnetic Flux,no,Electric",
-    "CONVERSION": "Conversion,no,Normal",
-    "CONVERSION2": "Conversion 2,no,Normal",
-    "COPYCAT": "Copycat,no,Normal",
-    "CORALBREAK": "Coral Break,yes,Water",
-    "COREENFORCER": "Core Enforcer,yes,Dragon",
-    "CORROSIVEBREATH": "Corrosive Breath,yes,Dragon",
-    "COSMICPOWER": "Cosmic Power,no,Psychic",
-    "COTTONGUARD": "Cotton Guard,no,Grass",
-    "COTTONSPORE": "Cotton Spore,no,Grass",
-    "COUNTER": "Counter,no,Fighting",
-    "COVET": "Covet,yes,Normal",
-    "CRABHAMMER": "Crabhammer,yes,Water",
-    "CRAFTYSHIELD": "Crafty Shield,no,Fairy",
-    "CREAMWHIP": "Cream Whip,yes,Ice",
-    "CROSSCHOP": "Cross Chop,yes,Fighting",
-    "CROSSPOISON": "Cross Poison,yes,Poison",
-    "CRUNCH": "Crunch,yes,Dark",
-    "CRUSHCLAW": "Crush Claw,yes,Normal",
-    "CRUSHGRIP": "Crush Grip,yes,Normal",
-    "CURSE": "Curse,no,Ghost",
-    "CUT": "Cut,yes,Normal",
-    "DARKENINGBOLT": "Darkening Bolt,yes,Dark",
-    "DARKESTLARIAT": "Darkest Lariat,yes,Dark",
-    "DARKPULSE": "Dark Pulse,yes,Dark",
-    "DARKVOID": "Dark Void,no,Dark",
-    "DAZZLINGGLEAM": "Dazzling Gleam,yes,Fairy",
-    "DEFENDORDER": "Defend Order,no,Bug",
-    "DEFENSECURL": "Defense Curl,no,Normal",
-    "DEFOG": "Defog,no,Flying",
-    "DESTINYBOND": "Destiny Bond,no,Ghost",
-    "DETECT": "Detect,no,Fighting",
-    "DIAMONDSTORM": "Diamond Storm,yes,Rock",
-    "DIG": "Dig,yes,Ground",
-    "DISABLE": "Disable,no,Normal",
-    "DISARMINGVOICE": "Disarming Voice,yes,Fairy",
-    "DISCHARGE": "Discharge,yes,Electric",
-    "DISCOFEVER": "Disco Fever,no,Sound",
-    "DIVE": "Dive,yes,Water",
-    "DIZZYPUNCH": "Dizzy Punch,yes,Normal",
-    "DOOMDESIRE": "Doom Desire,yes,Steel",
-    "DOUBLEEDGE": "Double-Edge,yes,Normal",
-    "DOUBLEHIT": "Double Hit,yes,Normal",
-    "DOUBLEIRONBASH": "Double Iron Bash,yes,Steel",
-    "DOUBLEKICK": "Double Kick,yes,Fighting",
-    "DOUBLESLAP": "Double Slap,yes,Normal",
-    "DOUBLETEAM": "Double Team,no,Normal",
-    "DRACOMETEOR": "Draco Meteor,yes,Dragon",
-    "DRAGONASCENT": "Dragon Ascent,yes,Flying",
-    "DRAGONBREATH": "Dragon Breath,yes,Dragon",
-    "DRAGONCLAW": "Dragon Claw,yes,Dragon",
-    "DRAGONDANCE": "Dragon Dance,no,Dragon",
-    "DRAGONENDURANCE": "Dragon Endurance,no,Dragon",
-    "DRAGONENERGY": "Dragon Energy,yes,Dragon",
-    "DRAGONHAMMER": "Dragon Hammer,yes,Dragon",
-    "DRAGONPLEDGE": "Dragon Pledge,yes,Dragon",
-    "DRAGONPULSE": "Dragon Pulse,yes,Dragon",
-    "DRAGONRAGE": "Dragon Rage,no,Dragon",
-    "DRAGONRUSH": "Dragon Rush,yes,Dragon",
-    "DRAGONSTREAM": "Dragon Stream,yes,Dragon",
-    "DRAGONTAIL": "Dragon Tail,yes,Dragon",
-    "DRAININGKISS": "Draining Kiss,yes,Fairy",
-    "DRAINLIFE": "Drain Life,yes,Dark",
-    "DRAINPUNCH": "Drain Punch,yes,Fighting",
-    "DREAMEATER": "Dream Eater,yes,Psychic",
-    "DRILLPECK": "Drill Peck,yes,Flying",
-    "DRILLRUN": "Drill Run,yes,Ground",
-    "DUALCHOP": "Dual Chop,yes,Dragon",
-    "DYNAMICPUNCH": "Dynamic Punch,yes,Fighting",
-    "EARTHPOWER": "Earth Power,yes,Ground",
-    "EARTHQUAKE": "Earthquake,yes,Ground",
-    "ECHOEDVOICE": "Echoed Voice,yes,Sound",
-    "EERIEIMPULSE": "Eerie Impulse,no,Electric",
-    "EGGBOMB": "Egg Bomb,yes,Normal",
-    "ELECTRICTERRAIN": "Electric Terrain,no,Electric",
-    "ELECTRIFY": "Electrify,no,Electric",
-    "ELECTROBALL": "Electro Ball,yes,Electric",
-    "ELECTROSWING": "Electro Swing,no,Sound",
-    "ELECTROWEB": "Electroweb,yes,Electric",
-    "EMBARGO": "Embargo,no,Dark",
-    "EMBER": "Ember,yes,Fire",
-    "ENCORE": "Encore,no,Normal",
-    "ENDEAVOR": "Endeavor,no,Normal",
-    "ENDURE": "Endure,no,Normal",
-    "ENERGYBALL": "Energy Ball,yes,Grass",
-    "ENTRAINMENT": "Entrainment,no,Normal",
-    "ERUPTION": "Eruption,yes,Fire",
-    "EXPLOSION": "Explosion,yes,Normal",
-    "EXTRASENSORY": "Extrasensory,yes,Psychic",
-    "EXTREMESPEED": "Extreme Speed,yes,Normal",
-    "FACADE": "Facade,yes,Normal",
-    "FAINTATTACK": "Feint Attack,yes,Dark",
-    "FAIRYLOCK": "Fairy Lock,no,Fairy",
-    "FAIRYPLEDGE": "Fairy Pledge,yes,Fairy",
-    "FAIRYWIND": "Fairy Wind,yes,Fairy",
-    "FAKEOUT": "Fake Out,yes,Normal",
-    "FAKETEARS": "Fake Tears,no,Dark",
-    "FALSESURRENDER": "False Surrender,yes,Dark",
-    "FALSESWIPE": "False Swipe,yes,Normal",
-    "FEATHERDANCE": "Feather Dance,no,Flying",
-    "FEINT": "Feint,yes,Normal",
-    "FEINTATTACK": "Feint Attack,yes,Dark",
-    "FELLSTINGER": "Fell Stinger,yes,Bug",
-    "FERALCLUTCH": "Feral Clutch,yes,Fairy",
-    "FIERYDANCE": "Fiery Dance,yes,Fire",
-    "FINALGAMBIT": "Final Gambit,no,Fighting",
-    "FIREBLAST": "Fire Blast,yes,Fire",
-    "FIREFANG": "Fire Fang,yes,Fire",
-    "FIREKUNAI": "Fire Kunai,yes,Fire",
-    "FIRELASH": "Fire Lash,yes,Fire",
-    "FIREPLEDGE": "Fire Pledge,yes,Fire",
-    "FIREPUNCH": "Fire Punch,yes,Fire",
-    "FIRESPIN": "Fire Spin,yes,Fire",
-    "FIRSTIMPRESSION": "First Impression,yes,Bug",
-    "FISSURE": "Fissure,no,Ground",
-    "FLAIL": "Flail,yes,Normal",
-    "FLAMEBURST": "Flame Burst,yes,Fire",
-    "FLAMECHARGE": "Flame Charge,yes,Fire",
-    "FLAMEIMPACT": "Flame Impact,yes,Fire",
-    "FLAMETHROWER": "Flamethrower,yes,Fire",
-    "FLAMEWHEEL": "Flame Wheel,yes,Fire",
-    "FLAREBLITZ": "Flare Blitz,yes,Fire",
-    "FLASH": "Flash,no,Normal",
-    "FLASHCANNON": "Flash Cannon,yes,Steel",
-    "FLATTER": "Flatter,no,Dark",
-    "FLAVORTEST": "Flavor Test,yes,Fairy",
-    "FLEURCANNON": "Fleur Cannon,yes,Fairy",
-    "FLING": "Fling,yes,Dark",
-    "FLORALHEALING": "Floral Healing,no,Fairy",
-    "FLOWERSHIELD": "Flower Shield,no,Fairy",
-    "FLY": "Fly,yes,Flying",
-    "FLYINGPRESS": "Flying Press,yes,Fighting",
-    "FOCUSBLAST": "Focus Blast,yes,Fighting",
-    "FOCUSENERGY": "Focus Energy,no,Normal",
-    "FOCUSPUNCH": "Focus Punch,yes,Fighting",
-    "FOLLOWME": "Follow Me,no,Normal",
-    "FORCEPALM": "Force Palm,yes,Fighting",
-    "FORESIGHT": "Foresight,no,Normal",
-    "FORESTSCURSE": "Forest's Curse,no,Grass",
-    "FOULPLAY": "Foul Play,yes,Dark",
-    "FREEZEDRY": "Freeze-Dry,yes,Ice",
-    "FREEZESHOCK": "Freeze Shock,yes,Ice",
-    "FRENZYPLANT": "Frenzy Plant,yes,Grass",
-    "FROSTBITE": "Frostbite,yes,Ice",
-    "FROSTBREATH": "Frost Breath,yes,Ice",
-    "FRUSTRATION": "Frustration,yes,Normal",
-    "FURYATTACK": "Fury Attack,yes,Normal",
-    "FURYCUTTER": "Fury Cutter,yes,Bug",
-    "FURYSWIPES": "Fury Swipes,yes,Normal",
-    "FUSIONBOLT": "Fusion Bolt,yes,Electric",
-    "FUSIONFLARE": "Fusion Flare,yes,Fire",
-    "FUTURESIGHT": "Future Sight,yes,Psychic",
-    "GASTROACID": "Gastro Acid,no,Poison",
-    "GEARGRIND": "Gear Grind,yes,Steel",
-    "GEARUP": "Gear Up,no,Steel",
-    "GEOMANCY": "Geomancy,no,Fairy",
-    "GETLUCKY": "Get Lucky,yes,Psychic",
-    "GIGADRAIN": "Giga Drain,yes,Grass",
-    "GIGAIMPACT": "Giga Impact,yes,Normal",
-    "GLACIATE": "Glaciate,yes,Ice",
-    "GLARE": "Glare,no,Normal",
-    "GOLDENFIST": "Golden Fist,yes,Fighting",
-    "GRASSKNOT": "Grass Knot,yes,Grass",
-    "GRASSPLEDGE": "Grass Pledge,yes,Grass",
-    "GRASSWHISTLE": "Grass Whistle,no,Grass",
-    "GRASSYTERRAIN": "Grassy Terrain,no,Grass",
-    "GRAVITY": "Gravity,no,Psychic",
-    "GROWL": "Growl,no,Normal",
-    "GROWTH": "Growth,no,Normal",
-    "GRUDGE": "Grudge,no,Ghost",
-    "GUARDSPLIT": "Guard Split,no,Psychic",
-    "GUARDSWAP": "Guard Swap,no,Psychic",
-    "GUILLOTINE": "Guillotine,no,Normal",
-    "GUNKSHOT": "Gunk Shot,yes,Poison",
-    "GUST": "Gust,yes,Flying",
-    "GYROBALL": "Gyro Ball,yes,Steel",
-    "HAIL": "Hail,no,Ice",
-    "HAMMERARM": "Hammer Arm,yes,Fighting",
-    "HAPPYHOUR": "Happy Hour,no,Normal",
-    "HARDEN": "Harden,no,Normal",
-    "HAWTHORNS": "Hawthorns,no,Grass",
-    "HAZE": "Haze,no,Ice",
-    "HEADBUTT": "Headbutt,yes,Normal",
-    "HEADCHARGE": "Head Charge,yes,Normal",
-    "HEADSMASH": "Head Smash,yes,Rock",
-    "HEALBELL": "Heal Bell,no,Sound",
-    "HEALBLOCK": "Heal Block,no,Psychic",
-    "HEALINGWISH": "Healing Wish,no,Psychic",
-    "HEALORDER": "Heal Order,no,Bug",
-    "HEALPULSE": "Heal Pulse,no,Psychic",
-    "HEARTSTAMP": "Heart Stamp,yes,Psychic",
-    "HEARTSWAP": "Heart Swap,no,Psychic",
-    "HEATCRASH": "Heat Crash,yes,Fire",
-    "HEATWAVE": "Heat Wave,yes,Fire",
-    "HEAVYSLAM": "Heavy Slam,yes,Steel",
-    "HELPINGHAND": "Helping Hand,no,Normal",
-    "HEX": "Hex,yes,Ghost",
-    "HIDDENPOWER": "Hidden Power,no,Normal",
-    "HIGHHORSEPOWER": "High Horsepower,yes,Ground",
-    "HIJUMPKICK": "High Jump Kick,yes,Fighting",
-    "HISS": "Hiss,no,Sound",
-    "HOLDBACK": "Hold Back,yes,Normal",
-    "HOLDHANDS": "Hold Hands,no,Normal",
-    "HONECLAWS": "Hone Claws,no,Dark",
-    "HORNATTACK": "Horn Attack,yes,Normal",
-    "HORNDRILL": "Horn Drill,no,Normal",
-    "HORNLEECH": "Horn Leech,yes,Grass",
-    "HOTCHILIPEPPER": "Hot Chili Pepper,yes,Grass",
-    "HOWL": "Howl,no,Normal",
-    "HURRICANE": "Hurricane,yes,Flying",
-    "HYDROCANNON": "Hydro Cannon,yes,Water",
-    "HYDROPUMP": "Hydro Pump,yes,Water",
-    "HYPERBEAM": "Hyper Beam,yes,Normal",
-    "HYPERFANG": "Hyper Fang,yes,Normal",
-    "HYPERSPACEFURY": "Hyperspace Fury,yes,Dark",
-    "HYPERSPACEHOLE": "Hyperspace Hole,yes,Psychic",
-    "HYPERVOICE": "Hyper Voice,yes,Sound",
-    "HYPNOSIS": "Hypnosis,no,Psychic",
-    "ICEBALL": "Ice Ball,yes,Ice",
-    "ICEBEAM": "Ice Beam,yes,Ice",
-    "ICEBURN": "Ice Burn,yes,Ice",
-    "ICEFANG": "Ice Fang,yes,Ice",
-    "ICEHAMMER": "Ice Hammer,yes,Ice",
-    "ICEPUNCH": "Ice Punch,yes,Ice",
-    "ICESHARD": "Ice Shard,yes,Ice",
-    "ICICLECRASH": "Icicle Crash,yes,Ice",
-    "ICICLESPEAR": "Icicle Spear,yes,Ice",
-    "ICYWIND": "Icy Wind,yes,Ice",
-    "IMPRISON": "Imprison,no,Psychic",
-    "INCINERATE": "Incinerate,yes,Fire",
-    "INFERNALBLADE": "Infernal Blade,yes,Fire",
-    "INFERNO": "Inferno,yes,Fire",
-    "INFESTATION": "Infestation,yes,Bug",
-    "INGRAIN": "Ingrain,no,Grass",
-    "INSTANTCRUSH": "Instant Crush,yes,Psychic",
-    "INSTRUCT": "Instruct,no,Psychic",
-    "IONDELUGE": "Ion Deluge,no,Electric",
-    "IRONDEFENSE": "Iron Defense,no,Steel",
-    "IRONHEAD": "Iron Head,yes,Steel",
-    "IRONTAIL": "Iron Tail,yes,Steel",
-    "JETSTRIKE": "Jet Strike,yes,Sound",
-    "JUDGMENT": "Judgment,yes,Normal",
-    "JUMPKICK": "Jump Kick,yes,Fighting",
-    "KARATECHOP": "Karate Chop,yes,Fighting",
-    "KINESIS": "Kinesis,no,Psychic",
-    "KINGSSHIELD": "King's Shield,no,Steel",
-    "KNOCKOFF": "Knock Off,yes,Dark",
-    "LANDSWRATH": "Land's Wrath,yes,Ground",
-    "LASERFOCUS": "Laser Focus,no,Normal",
-    "LASERPULSE": "Laser Pulse,yes,Normal",
-    "LASTRESORT": "Last Resort,yes,Normal",
-    "LAVAPLUME": "Lava Plume,yes,Fire",
-    "LEAFAGE": "Leafage,yes,Grass",
-    "LEAFBLADE": "Leaf Blade,yes,Grass",
-    "LEAFSTORM": "Leaf Storm,yes,Grass",
-    "LEAFTORNADO": "Leaf Tornado,yes,Grass",
-    "LEECHLIFE": "Leech Life,yes,Bug",
-    "LEECHSEED": "Leech Seed,no,Grass",
-    "LEER": "Leer,no,Normal",
-    "LICK": "Lick,yes,Ghost",
-    "LIGHTOFRUIN": "Light of Ruin,yes,Fairy",
-    "LIGHTSCREEN": "Light Screen,no,Psychic",
-    "LIQUIDATION": "Liquidation,yes,Water",
-    "LOCKON": "Lock-On,no,Normal",
-    "LOVELYKISS": "Lovely Kiss,no,Normal",
-    "LOWKICK": "Low Kick,yes,Fighting",
-    "LOWSWEEP": "Low Sweep,yes,Fighting",
-    "LUCKYCHANT": "Lucky Chant,no,Normal",
-    "LUNARDANCE": "Lunar Dance,no,Psychic",
-    "LUNGE": "Lunge,yes,Bug",
-    "LUSTERPURGE": "Luster Purge,yes,Psychic",
-    "MACHPUNCH": "Mach Punch,yes,Fighting",
-    "MAGICALLEAF": "Magical Leaf,yes,Grass",
-    "MAGICCOAT": "Magic Coat,no,Psychic",
-    "MAGICROOM": "Magic Room,no,Psychic",
-    "MAGICWALL": "Magic Wall,no,Fairy",
-    "MAGMASTORM": "Magma Storm,yes,Fire",
-    "MAGNETBOMB": "Magnet Bomb,yes,Steel",
-    "MAGNETICFLUX": "Magnetic Flux,no,Electric",
-    "MAGNETRISE": "Magnet Rise,no,Electric",
-    "MAGNITUDE": "Magnitude,yes,Ground",
-    "MATBLOCK": "Mat Block,no,Fighting",
-    "MEANLOOK": "Mean Look,no,Normal",
-    "MEDITATE": "Meditate,no,Psychic",
-    "MEFIRST": "Me First,no,Normal",
-    "MEGADRAIN": "Mega Drain,yes,Grass",
-    "MEGAHORN": "Megahorn,yes,Bug",
-    "MEGAKICK": "Mega Kick,yes,Normal",
-    "MEGAPUNCH": "Mega Punch,yes,Normal",
-    "MEMENTO": "Memento,no,Dark",
-    "METALBURST": "Metal Burst,no,Steel",
-    "METALCLAW": "Metal Claw,yes,Steel",
-    "METALCRUNCHER": "Metal Cruncher,yes,Steel",
-    "METALSOUND": "Metal Sound,no,Steel",
-    "METALWHIP": "Metal Whip,yes,Steel",
-    "METEORMASH": "Meteor Mash,yes,Steel",
-    "METRONOME": "Metronome,no,Normal",
-    "MILKDRINK": "Milk Drink,no,Normal",
-    "MIMIC": "Mimic,no,Normal",
-    "MINDBLOWN": "Mind Blown,yes,Fire",
-    "MINDREADER": "Mind Reader,no,Normal",
-    "MINIMIZE": "Minimize,no,Normal",
-    "MIRACLEEYE": "Miracle Eye,no,Psychic",
-    "MIRRORCOAT": "Mirror Coat,no,Psychic",
-    "MIRRORMOVE": "Mirror Move,no,Flying",
-    "MIRRORSHOT": "Mirror Shot,yes,Steel",
-    "MIST": "Mist,no,Ice",
-    "MISTBALL": "Mist Ball,yes,Psychic",
-    "MISTYTERRAIN": "Misty Terrain,no,Fairy",
-    "MOONBLAST": "Moonblast,yes,Fairy",
-    "MOONGEISTBEAM": "Moongeist Beam,yes,Ghost",
-    "MOONLIGHT": "Moonlight,no,Fairy",
-    "MORNINGSUN": "Morning Sun,no,Normal",
-    "MUDBOMB": "Mud Bomb,yes,Ground",
-    "MUDDYWATER": "Muddy Water,yes,Water",
-    "MUDSHOT": "Mud Shot,yes,Ground",
-    "MUDSLAP": "Mud-Slap,yes,Ground",
-    "MUDSPORT": "Mud Sport,no,Ground",
-    "MULTIATTACK": "Multi-Attack,yes,Normal",
-    "MYSTICALFIRE": "Mystical Fire,yes,Fire",
-    "NASTYPLOT": "Nasty Plot,no,Dark",
-    "NATURALGIFT": "Natural Gift,no,Normal",
-    "NATURE'SMADNESS": "Nature's Madness,yes,Fairy",
-    "NATUREPOWER": "Nature Power,no,Normal",
-    "NEEDLEARM": "Needle Arm,yes,Grass",
-    "NIGHTDAZE": "Night Daze,yes,Dark",
-    "NIGHTMARE": "Nightmare,no,Ghost",
-    "NIGHTSHADE": "Night Shade,no,Ghost",
-    "NIGHTSLASH": "Night Slash,yes,Dark",
-    "NOBLEROAR": "Noble Roar,no,Normal",
-    "NOISEBURST": "Noise Burst,yes,Sound",
-    "NUZZLE": "Nuzzle,yes,Electric",
-    "OBLIVIONWING": "Oblivion Wing,yes,Flying",
-    "OCTAZOOKA": "Octazooka,yes,Water",
-    "ODORSLEUTH": "Odor Sleuth,no,Normal",
-    "OMINOUSWIND": "Ominous Wind,yes,Ghost",
-    "ORIGINPULSE": "Origin Pulse,yes,Water",
-    "OUTRAGE": "Outrage,yes,Dragon",
-    "OVERDRIVE": "Overdrive,yes,Electric",
-    "OVERHEAT": "Overheat,yes,Fire",
-    "PAINSPLIT": "Pain Split,no,Normal",
-    "PAPERCUT": "Paper Cut,yes,Steel",
-    "PARABOLICCHARGE": "Parabolic Charge,yes,Electric",
-    "PARTINGSHOT": "Parting Shot,no,Dark",
-    "PAYBACK": "Payback,yes,Dark",
-    "PAYDAY": "Pay Day,yes,Normal",
-    "PECK": "Peck,yes,Flying",
-    "PERFECTGLARE": "Perfect Glare,no,Normal",
-    "PERISHSONG": "Perish Song,no,Normal",
-    "PETALBLIZZARD": "Petal Blizzard,yes,Grass",
-    "PETALDANCE": "Petal Dance,yes,Grass",
-    "PHANTOMFORCE": "Phantom Force,yes,Ghost",
-    "PHOTONGEYSER": "Photon Geyser,yes,Psychic",
-    "PINMISSILE": "Pin Missile,yes,Bug",
-    "PLASMAFISTS": "Plasma Fists,yes,Electric",
-    "PLAYNICE": "Play Nice,no,Normal",
-    "PLAYROUGH": "Play Rough,yes,Fairy",
-    "PLUCK": "Pluck,yes,Flying",
-    "POISONFANG": "Poison Fang,yes,Poison",
-    "POISONGAS": "Poison Gas,no,Poison",
-    "POISONJAB": "Poison Jab,yes,Poison",
-    "POISONPOWDER": "Poison Powder,no,Poison",
-    "POISONSTING": "Poison Sting,yes,Poison",
-    "POISONTAIL": "Poison Tail,yes,Poison",
-    "POLLENPUFF": "Pollen Puff,yes,Bug",
-    "POLTERGEIST": "Poltergeist,yes,Ghost",
-    "POUND": "Pound,yes,Normal",
-    "POWDER": "Powder,no,Bug",
-    "POWDERSNOW": "Powder Snow,yes,Ice",
-    "POWERGEM": "Power Gem,yes,Rock",
-    "POWERSPLIT": "Power Split,no,Psychic",
-    "POWERSWAP": "Power Swap,no,Psychic",
-    "POWERTRICK": "Power Trick,no,Psychic",
-    "POWERTRIP": "Power Trip,yes,Dark",
-    "POWERUPPUNCH": "Power-Up Punch,yes,Fighting",
-    "POWERWHIP": "Power Whip,yes,Grass",
-    "PRECIPICEBLADES": "Precipice Blades,yes,Ground",
-    "PRESENT": "Present,yes,Normal",
-    "PRIMALSCREAM": "Primal Scream,yes,Sound",
-    "PRISMATICLASER": "Prismatic Laser,yes,Psychic",
-    "PROTECT": "Protect,no,Normal",
-    "PSYBEAM": "Psybeam,yes,Psychic",
-    "PSYCHIC": "Psychic,yes,Psychic",
-    "PSYCHICFANGS": "Psychic Fangs,yes,Psychic",
-    "PSYCHICTERRAIN": "Psychic Terrain,no,Psychic",
-    "PSYCHOBOOST": "Psycho Boost,yes,Psychic",
-    "PSYCHOCUT": "Psycho Cut,yes,Psychic",
-    "PSYCHOSHIFT": "Psycho Shift,no,Psychic",
-    "PSYCHUP": "Psych Up,no,Normal",
-    "PSYSHOCK": "Psyshock,yes,Psychic",
-    "PSYSTRIKE": "Psystrike,yes,Psychic",
-    "PSYWAVE": "Psywave,no,Psychic",
-    "PUNISHMENT": "Punishment,yes,Dark",
-    "PURIFY": "Purify,no,Poison",
-    "PURSUIT": "Pursuit,yes,Dark",
-    "QUASH": "Quash,no,Dark",
-    "QUICKATTACK": "Quick Attack,yes,Normal",
-    "QUICKGUARD": "Quick Guard,no,Fighting",
-    "QUIVERDANCE": "Quiver Dance,no,Bug",
-    "RAGE": "Rage,yes,Normal",
-    "RAGEPOWDER": "Rage Powder,no,Bug",
-    "RAINDANCE": "Rain Dance,no,Water",
-    "RAPIDSPIN": "Rapid Spin,yes,Normal",
-    "RAZORLEAF": "Razor Leaf,yes,Grass",
-    "RAZORSHELL": "Razor Shell,yes,Water",
-    "RAZORWIND": "Razor Wind,yes,Normal",
-    "RECOVER": "Recover,no,Normal",
-    "RECYCLE": "Recycle,no,Normal",
-    "REFLECT": "Reflect,no,Psychic",
-    "REFLECTTYPE": "Reflect Type,no,Normal",
-    "REFRESH": "Refresh,no,Normal",
-    "RELICSONG": "Relic Song,yes,Normal",
-    "REST": "Rest,no,Psychic",
-    "RETALIATE": "Retaliate,yes,Normal",
-    "RETURN": "Return,yes,Normal",
-    "REVELATIONDANCE": "Revelation Dance,yes,Normal",
-    "REVENGE": "Revenge,yes,Fighting",
-    "REVERSAL": "Reversal,yes,Fighting",
-    "REVUP": "Rev Up,yes,Sound",
-    "ROAR": "Roar,no,Normal",
-    "ROAROFTIME": "Roar of Time,yes,Dragon",
-    "ROCKBLAST": "Rock Blast,yes,Rock",
-    "ROCKCLIMB": "Rock Climb,yes,Normal",
-    "ROCKPOLISH": "Rock Polish,no,Rock",
-    "ROCKSLIDE": "Rock Slide,yes,Rock",
-    "ROCKSMASH": "Rock Smash,yes,Fighting",
-    "ROCKTHROW": "Rock Throw,yes,Rock",
-    "ROCKTOMB": "Rock Tomb,yes,Rock",
-    "ROCKWRECKER": "Rock Wrecker,yes,Rock",
-    "ROLEPLAY": "Role Play,no,Psychic",
-    "ROLLINGKICK": "Rolling Kick,yes,Fighting",
-    "ROLLOUT": "Rollout,yes,Rock",
-    "ROOST": "Roost,no,Flying",
-    "ROTOTILLER": "Rototiller,no,Ground",
-    "ROUND": "Round,yes,Normal",
-    "SACREDFIRE": "Sacred Fire,yes,Fire",
-    "SACREDSWORD": "Sacred Sword,yes,Fighting",
-    "SAFEGUARD": "Safeguard,no,Normal",
-    "SANDATTACK": "Sand Attack,no,Ground",
-    "SANDSTORM": "Sandstorm,no,Rock",
-    "SANDTOMB": "Sand Tomb,yes,Ground",
-    "SCALD": "Scald,yes,Water",
-    "SCARYFACE": "Scary Face,no,Normal",
-    "SCORCHEDASHES": "Scorched Ashes,no,Fire",
-    "SCRATCH": "Scratch,yes,Normal",
-    "SCREECH": "Screech,no,Normal",
-    "SEARINGSHOT": "Searing Shot,yes,Fire",
-    "SECRETPOWER": "Secret Power,yes,Normal",
-    "SECRETSWORD": "Secret Sword,yes,Fighting",
-    "SEEDBOMB": "Seed Bomb,yes,Grass",
-    "SEEDFLARE": "Seed Flare,yes,Grass",
-    "SEISMICTOSS": "Seismic Toss,no,Fighting",
-    "SELFDESTRUCT": "Self-Destruct,yes,Normal",
-    "SHADOWBALL": "Shadow Ball,yes,Ghost",
-    "SHADOWBONE": "Shadow Bone,yes,Ghost",
-    "SHADOWCLAW": "Shadow Claw,yes,Ghost",
-    "SHADOWFORCE": "Shadow Force,yes,Ghost",
-    "SHADOWPUNCH": "Shadow Punch,yes,Ghost",
-    "SHADOWSNEAK": "Shadow Sneak,yes,Ghost",
-    "SHARPEN": "Sharpen,no,Normal",
-    "SHEERCOLD": "Sheer Cold,no,Ice",
-    "SHELLSMASH": "Shell Smash,no,Normal",
-    "SHELLTRAP": "Shell Trap,yes,Fire",
-    "SHIFTGEAR": "Shift Gear,no,Steel",
-    "SHOCKWAVE": "Shock Wave,yes,Electric",
-    "SHOREUP": "Shore Up,no,Ground",
-    "SIGNALBEAM": "Signal Beam,yes,Bug",
-    "SILVERWIND": "Silver Wind,yes,Bug",
-    "SIMPLEBEAM": "Simple Beam,no,Normal",
-    "SING": "Sing,no,Normal",
-    "SKETCH": "Sketch,no,Normal",
-    "SKILLSWAP": "Skill Swap,no,Psychic",
-    "SKULLBASH": "Skull Bash,yes,Normal",
-    "SKYATTACK": "Sky Attack,yes,Flying",
-    "SKYDROP": "Sky Drop,yes,Flying",
-    "SKYFALL": "Sky Fall,yes,Flying",
-    "SKYUPPERCUT": "Sky Uppercut,yes,Fighting",
-    "SLACKOFF": "Slack Off,no,Normal",
-    "SLAM": "Slam,yes,Normal",
-    "SLASH": "Slash,yes,Normal",
-    "SLEEPPOWDER": "Sleep Powder,no,Grass",
-    "SLEEPTALK": "Sleep Talk,no,Sound",
-    "SLUDGE": "Sludge,yes,Poison",
-    "SLUDGEBOMB": "Sludge Bomb,yes,Poison",
-    "SLUDGEWAVE": "Sludge Wave,yes,Poison",
-    "SMACKDOWN": "Smack Down,yes,Rock",
-    "SMARTSTRIKE": "Smart Strike,yes,Steel",
-    "SMELLINGSALT": "Smelling Salts,yes,Normal",
-    "SMOG": "Smog,yes,Poison",
-    "SMOKESCREEN": "Smokescreen,no,Normal",
-    "SNARL": "Snarl,yes,Dark",
-    "SNATCH": "Snatch,no,Dark",
-    "SNORE": "Snore,yes,Sound",
-    "SOAK": "Soak,no,Water",
-    "SOFTBOILED": "Soft-Boiled,no,Normal",
-    "SOLARBEAM": "Solar Beam,yes,Grass",
-    "SOLARBLADE": "Solar Blade,yes,Grass",
-    "SONICBOOM": "Sonic Boom,no,Sound",
-    "SOUNDBARRIER": "Sound Barrier,no,Sound",
-    "SOUNDPLEDGE": "Sound Pledge,yes,Sound",
-    "SPACIALREND": "Spacial Rend,yes,Dragon",
-    "SPARK": "Spark,yes,Electric",
-    "SPARKLINGARIA": "Sparkling Aria,yes,Water",
-    "SPECTRALTHIEF": "Spectral Thief,yes,Ghost",
-    "SPEEDSWAP": "Speed Swap,no,Psychic",
-    "SPIDERWEB": "Spider Web,no,Bug",
-    "SPIKECANNON": "Spike Cannon,yes,Normal",
-    "SPIKES": "Spikes,no,Ground",
-    "SPIKYSHIELD": "Spiky Shield,no,Grass",
-    "SPIRITSHACKLE": "Spirit Shackle,yes,Ghost",
-    "SPITE": "Spite,no,Ghost",
-    "SPITUP": "Spit Up,yes,Normal",
-    "SPLASH": "Splash,no,Normal",
-    "SPORE": "Spore,no,Grass",
-    "SPOTLIGHT": "Spotlight,no,Normal",
-    "STARBURSTSHU": "Star Burst_Shu,yes,Dragon",
-    "STARBURSTSHY": "Star Burst_Shy,yes,Fairy",
-    "STARBURSTTRI": "Star Burst_Tri,yes,Sound",
-    "STEALTHROCK": "Stealth Rock,no,Rock",
-    "STEAMERUPTION": "Steam Eruption,yes,Water",
-    "STEAMROLLER": "Steamroller,yes,Bug",
-    "STEELWING": "Steel Wing,yes,Steel",
-    "STICKYTERRAIN": "Sticky Terrain,no,Poison",
-    "STICKYWEB": "Sticky Web,no,Bug",
-    "STOCKPILE": "Stockpile,no,Normal",
-    "STOMP": "Stomp,yes,Normal",
-    "STOMPINGTANTRUM": "Stomping Tantrum,yes,Ground",
-    "STONEEDGE": "Stone Edge,yes,Rock",
-    "STOREDPOWER": "Stored Power,yes,Psychic",
-    "STORMTHROW": "Storm Throw,yes,Fighting",
-    "STRENGTH": "Strength,yes,Normal",
-    "STRENGTHSAP": "Strength Sap,no,Grass",
-    "STRINGSHOT": "String Shot,no,Bug",
-    "STRUGGLE": "Struggle,yes,Normal",
-    "STRUGGLEBUG": "Struggle Bug,yes,Bug",
-    "STUNSPORE": "Stun Spore,no,Grass",
-    "SUBDUCTION": "Subduction,yes,Ground",
-    "SUBMISSION": "Submission,yes,Fighting",
-    "SUBSTITUTE": "Substitute,no,Normal",
-    "SUBWOOFER": "Subwoofer,yes,Sound",
-    "SUCKERPUNCH": "Sucker Punch,yes,Dark",
-    "SUDDENSTRIKE": "Sudden Strike,yes,Dark",
-    "SUGARRUSH": "Sugar Rush,yes,Fairy",
-    "SUNNYDAY": "Sunny Day,no,Fire",
-    "SUNSTEELSTRIKE": "Sunsteel Strike,yes,Steel",
-    "SUPERFANG": "Super Fang,no,Normal",
-    "SUPERPOWER": "Superpower,yes,Fighting",
-    "SUPERSONIC": "Supersonic,no,Normal",
-    "SURF": "Surf,yes,Water",
-    "SWAGGER": "Swagger,no,Normal",
-    "SWALLOW": "Swallow,no,Normal",
-    "SWEETKISS": "Sweet Kiss,no,Fairy",
-    "SWEETSCENT": "Sweet Scent,no,Normal",
-    "SWIFT": "Swift,yes,Normal",
-    "SWITCHEROO": "Switcheroo,no,Dark",
-    "SWORDSDANCE": "Swords Dance,no,Normal",
-    "SYNCHRONOISE": "Synchronoise,yes,Psychic",
-    "SYNTHESIS": "Synthesis,no,Grass",
-    "TACKLE": "Tackle,yes,Normal",
-    "TAILGLOW": "Tail Glow,no,Bug",
-    "TAILSLAP": "Tail Slap,yes,Normal",
-    "TAILWHIP": "Tail Whip,no,Normal",
-    "TAILWIND": "Tailwind,no,Flying",
-    "TAKEDOWN": "Take Down,yes,Normal",
-    "TAUNT": "Taunt,no,Dark",
-    "TEARFULLOOK": "Tearful Look,no,Normal",
-    "TECHNOBLAST": "Techno Blast,yes,Normal",
-    "TEETERDANCE": "Teeter Dance,no,Normal",
-    "TELEKINESIS": "Telekinesis,no,Psychic",
-    "TELEPORT": "Teleport,no,Psychic",
-    "THIEF": "Thief,yes,Dark",
-    "THOUSANDARROWS": "Thousand Arrows,yes,Ground",
-    "THOUSANDWAVES": "Thousand Waves,yes,Ground",
-    "THRASH": "Thrash,yes,Normal",
-    "THROATCHOP": "Throat Chop,yes,Dark",
-    "THUNDER": "Thunder,yes,Electric",
-    "THUNDERBOLT": "Thunderbolt,yes,Electric",
-    "THUNDERCAGE": "Thunder Cage,yes,Electric",
-    "THUNDERFANG": "Thunder Fang,yes,Electric",
-    "THUNDERHAMMER": "Thunderstruck,yes,Electric",
-    "THUNDERPUNCH": "Thunder Punch,yes,Electric",
-    "THUNDERSHOCK": "Thunder Shock,yes,Electric",
-    "THUNDERSTORM": "Thunderstorm,no,Electric",
-    "THUNDERSTRUCK": "Thunderstruck,yes,Electric",
-    "THUNDERWAVE": "Thunder Wave,no,Electric",
-    "TICKLE": "Tickle,no,Normal",
-    "TIDALDRAGOON": "Tidal Dragoon,yes,Dragon",
-    "TOPSYTURVY": "Topsy-Turvy,no,Dark",
-    "TORMENT": "Torment,no,Dark",
-    "TOXIC": "Toxic,no,Poison",
-    "TOXICSPIKES": "Toxic Spikes,no,Poison",
-    "TOXICTHREAD": "Toxic Thread,no,Poison",
-    "TRANSFORM": "Transform,no,Normal",
-    "TRIATTACK": "Tri Attack,yes,Normal",
-    "TRICK": "Trick,no,Psychic",
-    "TRICKORTREAT": "Trick-or-Treat,no,Ghost",
-    "TRICKROOM": "Trick Room,no,Psychic",
-    "TRIPLEKICK": "Triple Kick,yes,Fighting",
-    "TROPKICK": "Trop Kick,yes,Grass",
-    "TRUMPCARD": "Trump Card,yes,Normal",
-    "TWINEEDLE": "Twineedle,yes,Bug",
-    "TWISTER": "Twister,yes,Dragon",
-    "UPROAR": "Uproar,yes,Sound",
-    "UTURN": "U-turn,yes,Bug",
-    "VACUUMWAVE": "Vacuum Wave,yes,Fighting",
-    "VCREATE": "V-create,yes,Fire",
-    "VELVETSCALES": "Velvet Scales,no,Dragon",
-    "VENOMDRENCH": "Venom Drench,no,Poison",
-    "VENOSHOCK": "Venoshock,yes,Poison",
-    "VICEGRIP": "Vice Grip,yes,Normal",
-    "VINEWHIP": "Vine Whip,yes,Grass",
-    "VITALTHROW": "Vital Throw,yes,Fighting",
-    "VOIDSTAR": "Void Star,yes,Ice",
-    "VOLTSWITCH": "Volt Switch,yes,Electric",
-    "VOLTTACKLE": "Volt Tackle,yes,Electric",
-    "WAKEUPSLAP": "Wake-Up Slap,yes,Fighting",
-    "WATERFALL": "Waterfall,yes,Water",
-    "WATERGUN": "Water Gun,yes,Water",
-    "WATERPLEDGE": "Water Pledge,yes,Water",
-    "WATERPULSE": "Water Pulse,yes,Water",
-    "WATERSHURIKEN": "Water Shuriken,yes,Water",
-    "WATERSPORT": "Water Sport,no,Water",
-    "WATERSPOUT": "Water Spout,yes,Water",
-    "WEATHERBALL": "Weather Ball,yes,Normal",
-    "WHIRLPOOL": "Whirlpool,yes,Water",
-    "WHIRLWIND": "Whirlwind,no,Normal",
-    "WIDEGUARD": "Wide Guard,no,Rock",
-    "WILDCHARGE": "Wild Charge,yes,Electric",
-    "WILDDANCE": "Wild Dance,yes,Sound",
-    "WILLOWISP": "Will-O-Wisp,no,Fire",
-    "WINGATTACK": "Wing Attack,yes,Flying",
-    "WISH": "Wish,no,Normal",
-    "WITHDRAW": "Withdraw,no,Water",
-    "WONDERROOM": "Wonder Room,no,Psychic",
-    "WOODHAMMER": "Wood Hammer,yes,Grass",
-    "WORKUP": "Work Up,no,Normal",
-    "WORRYSEED": "Worry Seed,no,Grass",
-    "WRAP": "Wrap,yes,Normal",
-    "WRINGOUT": "Wring Out,yes,Normal",
-    "XSCISSOR": "X-Scissor,yes,Bug",
-    "XTRANSFORM": "X Transform,no,Normal",
-    "YAWN": "Yawn,no,Normal",
-    "ZAPCANNON": "Zap Cannon,yes,Electric",
-    "ZENHEADBUTT": "Zen Headbutt,yes,Psychic",
-    "ZINGZAP": "Zing Zap,yes,Electric"
+    "ABSORB": {
+        "Name": "Absorb",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "ACCELEROCK": {
+        "Name": "Accelerock",
+        "STAB": "yes",
+        "Type": "Rock"
+    },
+    "ACID": {
+        "Name": "Acid",
+        "STAB": "yes",
+        "Type": "Poison"
+    },
+    "ACIDARMOR": {
+        "Name": "Acid Armor",
+        "STAB": "no",
+        "Type": "Poison"
+    },
+    "ACIDRAIN": {
+        "Name": "Acid Rain",
+        "STAB": "no",
+        "Type": "Water"
+    },
+    "ACIDSPRAY": {
+        "Name": "Acid Spray",
+        "STAB": "yes",
+        "Type": "Poison"
+    },
+    "ACOUSTICBOMB": {
+        "Name": "Acoustic Bomb",
+        "STAB": "yes",
+        "Type": "Sound"
+    },
+    "ACROBATICS": {
+        "Name": "Acrobatics",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "ACUPRESSURE": {
+        "Name": "Acupressure",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "AERIALACE": {
+        "Name": "Aerial Ace",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "AEROBLAST": {
+        "Name": "Aeroblast",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "AFTERYOU": {
+        "Name": "After You",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "AGILITY": {
+        "Name": "Agility",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "AIRCUTTER": {
+        "Name": "Air Cutter",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "AIRSLASH": {
+        "Name": "Air Slash",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "ALLYSWITCH": {
+        "Name": "Ally Switch",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "AMNESIA": {
+        "Name": "Amnesia",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "ANCHORSHOT": {
+        "Name": "Anchor Shot",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "ANCIENTPOWER": {
+        "Name": "Ancient Power",
+        "STAB": "yes",
+        "Type": "Rock"
+    },
+    "AQUAJET": {
+        "Name": "Aqua Jet",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "AQUARING": {
+        "Name": "Aqua Ring",
+        "STAB": "no",
+        "Type": "Water"
+    },
+    "AQUATAIL": {
+        "Name": "Aqua Tail",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "ARMTHRUST": {
+        "Name": "Arm Thrust",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "AROMATHERAPY": {
+        "Name": "Aromatherapy",
+        "STAB": "no",
+        "Type": "Grass"
+    },
+    "AROMATICMIST": {
+        "Name": "Aromatic Mist",
+        "STAB": "no",
+        "Type": "Fairy"
+    },
+    "ASSIST": {
+        "Name": "Assist",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "ASSURANCE": {
+        "Name": "Assurance",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "ASTONISH": {
+        "Name": "Astonish",
+        "STAB": "yes",
+        "Type": "Ghost"
+    },
+    "ASTRALLANCE": {
+        "Name": "Astral Lance",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "ATTACKORDER": {
+        "Name": "Attack Order",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "ATTRACT": {
+        "Name": "Attract",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "AURASPHERE": {
+        "Name": "Aura Sphere",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "AURORABEAM": {
+        "Name": "Aurora Beam",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "AURORAVEIL": {
+        "Name": "Aurora Veil",
+        "STAB": "no",
+        "Type": "Ice"
+    },
+    "AUTOTOMIZE": {
+        "Name": "Autotomize",
+        "STAB": "no",
+        "Type": "Steel"
+    },
+    "AVALANCHE": {
+        "Name": "Avalanche",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "BABBLE": {
+        "Name": "Babble",
+        "STAB": "yes",
+        "Type": "Sound"
+    },
+    "BABYDOLLEYES": {
+        "Name": "Baby-Doll Eyes",
+        "STAB": "no",
+        "Type": "Fairy"
+    },
+    "BANEFULBUNKER": {
+        "Name": "Baneful Bunker",
+        "STAB": "no",
+        "Type": "Poison"
+    },
+    "BARRAGE": {
+        "Name": "Barrage",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "BARRIER": {
+        "Name": "Barrier",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "BATONPASS": {
+        "Name": "Baton Pass",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "BEAKBLAST": {
+        "Name": "Beak Blast",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "BEATUP": {
+        "Name": "Beat Up",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "BELCH": {
+        "Name": "Belch",
+        "STAB": "yes",
+        "Type": "Poison"
+    },
+    "BELLYDRUM": {
+        "Name": "Belly Drum",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "BENEVOLENCE": {
+        "Name": "Benevolence",
+        "STAB": "no",
+        "Type": "Fairy"
+    },
+    "BESTOW": {
+        "Name": "Bestow",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "BIDE": {
+        "Name": "Bide",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "BIND": {
+        "Name": "Bind",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "BITE": {
+        "Name": "Bite",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "BLASTBURN": {
+        "Name": "Blast Burn",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "BLAZEKICK": {
+        "Name": "Blaze Kick",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "BLIZZARD": {
+        "Name": "Blizzard",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "BLOCK": {
+        "Name": "Block",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "BLUEFLARE": {
+        "Name": "Blue Flare",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "BLUENOTE": {
+        "Name": "Blue Note",
+        "STAB": "no",
+        "Type": "Sound"
+    },
+    "BODYSLAM": {
+        "Name": "Body Slam",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "BOLTSTRIKE": {
+        "Name": "Bolt Strike",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "BONECLUB": {
+        "Name": "Bone Club",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "BONEMERANG": {
+        "Name": "Bonemerang",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "BONERUSH": {
+        "Name": "Bone Rush",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "BOOMBURST": {
+        "Name": "Boomburst",
+        "STAB": "yes",
+        "Type": "Sound"
+    },
+    "BOUNCE": {
+        "Name": "Bounce",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "BRAVEBIRD": {
+        "Name": "Brave Bird",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "BRICKBREAK": {
+        "Name": "Brick Break",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "BRINE": {
+        "Name": "Brine",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "BRUTALHOLD": {
+        "Name": "Brutal Hold",
+        "STAB": "yes",
+        "Type": "Fairy"
+    },
+    "BRUTALSWING": {
+        "Name": "Brutal Swing",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "BUBBLE": {
+        "Name": "Bubble",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "BUBBLEBEAM": {
+        "Name": "Bubble Beam",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "BUGBITE": {
+        "Name": "Bug Bite",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "BUGBUZZ": {
+        "Name": "Bug Buzz",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "BULKUP": {
+        "Name": "Bulk Up",
+        "STAB": "no",
+        "Type": "Fighting"
+    },
+    "BULLDOZE": {
+        "Name": "Bulldoze",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "BULLETPUNCH": {
+        "Name": "Bullet Punch",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "BULLETSEED": {
+        "Name": "Bullet Seed",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "BURNUP": {
+        "Name": "Burn Up",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "CALMMIND": {
+        "Name": "Calm Mind",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "CAMOUFLAGE": {
+        "Name": "Camouflage",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "CAPTIVATE": {
+        "Name": "Captivate",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "CELEBRATE": {
+        "Name": "Celebrate",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "CHARGE": {
+        "Name": "Charge",
+        "STAB": "no",
+        "Type": "Electric"
+    },
+    "CHARGEBEAM": {
+        "Name": "Charge Beam",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "CHARM": {
+        "Name": "Charm",
+        "STAB": "no",
+        "Type": "Fairy"
+    },
+    "CHATTER": {
+        "Name": "Chatter",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "CHEERING": {
+        "Name": "Cheering",
+        "STAB": "no",
+        "Type": "Sound"
+    },
+    "CHIPAWAY": {
+        "Name": "Chip Away",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "CIRCLETHROW": {
+        "Name": "Circle Throw",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "CLAMP": {
+        "Name": "Clamp",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "CLANGINGSCALES": {
+        "Name": "Clanging Scales",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "CLEARSMOG": {
+        "Name": "Clear Smog",
+        "STAB": "yes",
+        "Type": "Poison"
+    },
+    "CLOSECOMBAT": {
+        "Name": "Close Combat",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "COIL": {
+        "Name": "Coil",
+        "STAB": "no",
+        "Type": "Poison"
+    },
+    "COMETPUNCH": {
+        "Name": "Comet Punch",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "CONFIDE": {
+        "Name": "Confide",
+        "STAB": "no",
+        "Type": "Sound"
+    },
+    "CONFUSERAY": {
+        "Name": "Confuse Ray",
+        "STAB": "no",
+        "Type": "Ghost"
+    },
+    "CONFUSION": {
+        "Name": "Confusion",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "CONSTRICT": {
+        "Name": "Constrict",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "CONTROLLOPOLARE": {
+        "Name": "Magnetic Flux",
+        "STAB": "no",
+        "Type": "Electric"
+    },
+    "CONVERSION": {
+        "Name": "Conversion",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "CONVERSION2": {
+        "Name": "Conversion 2",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "COPYCAT": {
+        "Name": "Copycat",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "CORALBREAK": {
+        "Name": "Coral Break",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "COREENFORCER": {
+        "Name": "Core Enforcer",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "CORROSIVEBREATH": {
+        "Name": "Corrosive Breath",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "COSMICPOWER": {
+        "Name": "Cosmic Power",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "COTTONGUARD": {
+        "Name": "Cotton Guard",
+        "STAB": "no",
+        "Type": "Grass"
+    },
+    "COTTONSPORE": {
+        "Name": "Cotton Spore",
+        "STAB": "no",
+        "Type": "Grass"
+    },
+    "COUNTER": {
+        "Name": "Counter",
+        "STAB": "no",
+        "Type": "Fighting"
+    },
+    "COVET": {
+        "Name": "Covet",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "CRABHAMMER": {
+        "Name": "Crabhammer",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "CRAFTYSHIELD": {
+        "Name": "Crafty Shield",
+        "STAB": "no",
+        "Type": "Fairy"
+    },
+    "CREAMWHIP": {
+        "Name": "Cream Whip",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "CROSSCHOP": {
+        "Name": "Cross Chop",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "CROSSPOISON": {
+        "Name": "Cross Poison",
+        "STAB": "yes",
+        "Type": "Poison"
+    },
+    "CRUNCH": {
+        "Name": "Crunch",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "CRUSHCLAW": {
+        "Name": "Crush Claw",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "CRUSHGRIP": {
+        "Name": "Crush Grip",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "CURSE": {
+        "Name": "Curse",
+        "STAB": "no",
+        "Type": "Ghost"
+    },
+    "CUT": {
+        "Name": "Cut",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "DARKENINGBOLT": {
+        "Name": "Darkening Bolt",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "DARKESTLARIAT": {
+        "Name": "Darkest Lariat",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "DARKPULSE": {
+        "Name": "Dark Pulse",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "DARKVOID": {
+        "Name": "Dark Void",
+        "STAB": "no",
+        "Type": "Dark"
+    },
+    "DAZZLINGGLEAM": {
+        "Name": "Dazzling Gleam",
+        "STAB": "yes",
+        "Type": "Fairy"
+    },
+    "DEFENDORDER": {
+        "Name": "Defend Order",
+        "STAB": "no",
+        "Type": "Bug"
+    },
+    "DEFENSECURL": {
+        "Name": "Defense Curl",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "DEFOG": {
+        "Name": "Defog",
+        "STAB": "no",
+        "Type": "Flying"
+    },
+    "DESTINYBOND": {
+        "Name": "Destiny Bond",
+        "STAB": "no",
+        "Type": "Ghost"
+    },
+    "DETECT": {
+        "Name": "Detect",
+        "STAB": "no",
+        "Type": "Fighting"
+    },
+    "DIAMONDSTORM": {
+        "Name": "Diamond Storm",
+        "STAB": "yes",
+        "Type": "Rock"
+    },
+    "DIG": {
+        "Name": "Dig",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "DISABLE": {
+        "Name": "Disable",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "DISARMINGVOICE": {
+        "Name": "Disarming Voice",
+        "STAB": "yes",
+        "Type": "Fairy"
+    },
+    "DISCHARGE": {
+        "Name": "Discharge",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "DISCOFEVER": {
+        "Name": "Disco Fever",
+        "STAB": "no",
+        "Type": "Sound"
+    },
+    "DIVE": {
+        "Name": "Dive",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "DIZZYPUNCH": {
+        "Name": "Dizzy Punch",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "DOOMDESIRE": {
+        "Name": "Doom Desire",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "DOUBLEEDGE": {
+        "Name": "Double-Edge",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "DOUBLEHIT": {
+        "Name": "Double Hit",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "DOUBLEIRONBASH": {
+        "Name": "Double Iron Bash",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "DOUBLEKICK": {
+        "Name": "Double Kick",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "DOUBLESLAP": {
+        "Name": "Double Slap",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "DOUBLETEAM": {
+        "Name": "Double Team",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "DRACOMETEOR": {
+        "Name": "Draco Meteor",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "DRAGONASCENT": {
+        "Name": "Dragon Ascent",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "DRAGONBREATH": {
+        "Name": "Dragon Breath",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "DRAGONCLAW": {
+        "Name": "Dragon Claw",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "DRAGONDANCE": {
+        "Name": "Dragon Dance",
+        "STAB": "no",
+        "Type": "Dragon"
+    },
+    "DRAGONENDURANCE": {
+        "Name": "Dragon Endurance",
+        "STAB": "no",
+        "Type": "Dragon"
+    },
+    "DRAGONENERGY": {
+        "Name": "Dragon Energy",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "DRAGONHAMMER": {
+        "Name": "Dragon Hammer",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "DRAGONPLEDGE": {
+        "Name": "Dragon Pledge",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "DRAGONPULSE": {
+        "Name": "Dragon Pulse",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "DRAGONRAGE": {
+        "Name": "Dragon Rage",
+        "STAB": "no",
+        "Type": "Dragon"
+    },
+    "DRAGONRUSH": {
+        "Name": "Dragon Rush",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "DRAGONSTREAM": {
+        "Name": "Dragon Stream",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "DRAGONTAIL": {
+        "Name": "Dragon Tail",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "DRAININGKISS": {
+        "Name": "Draining Kiss",
+        "STAB": "yes",
+        "Type": "Fairy"
+    },
+    "DRAINLIFE": {
+        "Name": "Drain Life",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "DRAINPUNCH": {
+        "Name": "Drain Punch",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "DREAMEATER": {
+        "Name": "Dream Eater",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "DRILLPECK": {
+        "Name": "Drill Peck",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "DRILLRUN": {
+        "Name": "Drill Run",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "DUALCHOP": {
+        "Name": "Dual Chop",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "DYNAMICPUNCH": {
+        "Name": "Dynamic Punch",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "EARTHPOWER": {
+        "Name": "Earth Power",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "EARTHQUAKE": {
+        "Name": "Earthquake",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "ECHOEDVOICE": {
+        "Name": "Echoed Voice",
+        "STAB": "yes",
+        "Type": "Sound"
+    },
+    "EERIEIMPULSE": {
+        "Name": "Eerie Impulse",
+        "STAB": "no",
+        "Type": "Electric"
+    },
+    "EGGBOMB": {
+        "Name": "Egg Bomb",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "ELECTRICTERRAIN": {
+        "Name": "Electric Terrain",
+        "STAB": "no",
+        "Type": "Electric"
+    },
+    "ELECTRIFY": {
+        "Name": "Electrify",
+        "STAB": "no",
+        "Type": "Electric"
+    },
+    "ELECTROBALL": {
+        "Name": "Electro Ball",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "ELECTROSWING": {
+        "Name": "Electro Swing",
+        "STAB": "no",
+        "Type": "Sound"
+    },
+    "ELECTROWEB": {
+        "Name": "Electroweb",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "EMBARGO": {
+        "Name": "Embargo",
+        "STAB": "no",
+        "Type": "Dark"
+    },
+    "EMBER": {
+        "Name": "Ember",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "ENCORE": {
+        "Name": "Encore",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "ENDEAVOR": {
+        "Name": "Endeavor",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "ENDURE": {
+        "Name": "Endure",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "ENERGYBALL": {
+        "Name": "Energy Ball",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "ENTRAINMENT": {
+        "Name": "Entrainment",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "ERUPTION": {
+        "Name": "Eruption",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "EXPLOSION": {
+        "Name": "Explosion",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "EXTRASENSORY": {
+        "Name": "Extrasensory",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "EXTREMESPEED": {
+        "Name": "Extreme Speed",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "FACADE": {
+        "Name": "Facade",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "FAINTATTACK": {
+        "Name": "Feint Attack",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "FAIRYLOCK": {
+        "Name": "Fairy Lock",
+        "STAB": "no",
+        "Type": "Fairy"
+    },
+    "FAIRYPLEDGE": {
+        "Name": "Fairy Pledge",
+        "STAB": "yes",
+        "Type": "Fairy"
+    },
+    "FAIRYWIND": {
+        "Name": "Fairy Wind",
+        "STAB": "yes",
+        "Type": "Fairy"
+    },
+    "FAKEOUT": {
+        "Name": "Fake Out",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "FAKETEARS": {
+        "Name": "Fake Tears",
+        "STAB": "no",
+        "Type": "Dark"
+    },
+    "FALSESURRENDER": {
+        "Name": "False Surrender",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "FALSESWIPE": {
+        "Name": "False Swipe",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "FEATHERDANCE": {
+        "Name": "Feather Dance",
+        "STAB": "no",
+        "Type": "Flying"
+    },
+    "FEINT": {
+        "Name": "Feint",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "FEINTATTACK": {
+        "Name": "Feint Attack",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "FELLSTINGER": {
+        "Name": "Fell Stinger",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "FERALCLUTCH": {
+        "Name": "Feral Clutch",
+        "STAB": "yes",
+        "Type": "Fairy"
+    },
+    "FIERYDANCE": {
+        "Name": "Fiery Dance",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "FINALGAMBIT": {
+        "Name": "Final Gambit",
+        "STAB": "no",
+        "Type": "Fighting"
+    },
+    "FIREBLAST": {
+        "Name": "Fire Blast",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "FIREFANG": {
+        "Name": "Fire Fang",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "FIREKUNAI": {
+        "Name": "Fire Kunai",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "FIRELASH": {
+        "Name": "Fire Lash",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "FIREPLEDGE": {
+        "Name": "Fire Pledge",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "FIREPUNCH": {
+        "Name": "Fire Punch",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "FIRESPIN": {
+        "Name": "Fire Spin",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "FIRSTIMPRESSION": {
+        "Name": "First Impression",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "FISSURE": {
+        "Name": "Fissure",
+        "STAB": "no",
+        "Type": "Ground"
+    },
+    "FLAIL": {
+        "Name": "Flail",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "FLAMEBURST": {
+        "Name": "Flame Burst",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "FLAMECHARGE": {
+        "Name": "Flame Charge",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "FLAMEIMPACT": {
+        "Name": "Flame Impact",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "FLAMETHROWER": {
+        "Name": "Flamethrower",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "FLAMEWHEEL": {
+        "Name": "Flame Wheel",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "FLAREBLITZ": {
+        "Name": "Flare Blitz",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "FLASH": {
+        "Name": "Flash",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "FLASHCANNON": {
+        "Name": "Flash Cannon",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "FLATTER": {
+        "Name": "Flatter",
+        "STAB": "no",
+        "Type": "Dark"
+    },
+    "FLAVORTEST": {
+        "Name": "Flavor Test",
+        "STAB": "yes",
+        "Type": "Fairy"
+    },
+    "FLEURCANNON": {
+        "Name": "Fleur Cannon",
+        "STAB": "yes",
+        "Type": "Fairy"
+    },
+    "FLING": {
+        "Name": "Fling",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "FLORALHEALING": {
+        "Name": "Floral Healing",
+        "STAB": "no",
+        "Type": "Fairy"
+    },
+    "FLOWERSHIELD": {
+        "Name": "Flower Shield",
+        "STAB": "no",
+        "Type": "Fairy"
+    },
+    "FLY": {
+        "Name": "Fly",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "FLYINGPRESS": {
+        "Name": "Flying Press",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "FOCUSBLAST": {
+        "Name": "Focus Blast",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "FOCUSENERGY": {
+        "Name": "Focus Energy",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "FOCUSPUNCH": {
+        "Name": "Focus Punch",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "FOLLOWME": {
+        "Name": "Follow Me",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "FORCEPALM": {
+        "Name": "Force Palm",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "FORESIGHT": {
+        "Name": "Foresight",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "FORESTSCURSE": {
+        "Name": "Forest's Curse",
+        "STAB": "no",
+        "Type": "Grass"
+    },
+    "FOULPLAY": {
+        "Name": "Foul Play",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "FREEZEDRY": {
+        "Name": "Freeze-Dry",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "FREEZESHOCK": {
+        "Name": "Freeze Shock",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "FRENZYPLANT": {
+        "Name": "Frenzy Plant",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "FROSTBITE": {
+        "Name": "Frostbite",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "FROSTBREATH": {
+        "Name": "Frost Breath",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "FRUSTRATION": {
+        "Name": "Frustration",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "FURYATTACK": {
+        "Name": "Fury Attack",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "FURYCUTTER": {
+        "Name": "Fury Cutter",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "FURYSWIPES": {
+        "Name": "Fury Swipes",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "FUSIONBOLT": {
+        "Name": "Fusion Bolt",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "FUSIONFLARE": {
+        "Name": "Fusion Flare",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "FUTURESIGHT": {
+        "Name": "Future Sight",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "GASTROACID": {
+        "Name": "Gastro Acid",
+        "STAB": "no",
+        "Type": "Poison"
+    },
+    "GEARGRIND": {
+        "Name": "Gear Grind",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "GEARUP": {
+        "Name": "Gear Up",
+        "STAB": "no",
+        "Type": "Steel"
+    },
+    "GEOMANCY": {
+        "Name": "Geomancy",
+        "STAB": "no",
+        "Type": "Fairy"
+    },
+    "GETLUCKY": {
+        "Name": "Get Lucky",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "GIGADRAIN": {
+        "Name": "Giga Drain",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "GIGAIMPACT": {
+        "Name": "Giga Impact",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "GLACIATE": {
+        "Name": "Glaciate",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "GLARE": {
+        "Name": "Glare",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "GOLDENFIST": {
+        "Name": "Golden Fist",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "GRASSKNOT": {
+        "Name": "Grass Knot",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "GRASSPLEDGE": {
+        "Name": "Grass Pledge",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "GRASSWHISTLE": {
+        "Name": "Grass Whistle",
+        "STAB": "no",
+        "Type": "Grass"
+    },
+    "GRASSYTERRAIN": {
+        "Name": "Grassy Terrain",
+        "STAB": "no",
+        "Type": "Grass"
+    },
+    "GRAVITY": {
+        "Name": "Gravity",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "GROWL": {
+        "Name": "Growl",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "GROWTH": {
+        "Name": "Growth",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "GRUDGE": {
+        "Name": "Grudge",
+        "STAB": "no",
+        "Type": "Ghost"
+    },
+    "GUARDSPLIT": {
+        "Name": "Guard Split",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "GUARDSWAP": {
+        "Name": "Guard Swap",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "GUILLOTINE": {
+        "Name": "Guillotine",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "GUNKSHOT": {
+        "Name": "Gunk Shot",
+        "STAB": "yes",
+        "Type": "Poison"
+    },
+    "GUST": {
+        "Name": "Gust",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "GYROBALL": {
+        "Name": "Gyro Ball",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "HAIL": {
+        "Name": "Hail",
+        "STAB": "no",
+        "Type": "Ice"
+    },
+    "HAMMERARM": {
+        "Name": "Hammer Arm",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "HAPPYHOUR": {
+        "Name": "Happy Hour",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "HARDEN": {
+        "Name": "Harden",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "HAWTHORNS": {
+        "Name": "Hawthorns",
+        "STAB": "no",
+        "Type": "Grass"
+    },
+    "HAZE": {
+        "Name": "Haze",
+        "STAB": "no",
+        "Type": "Ice"
+    },
+    "HEADBUTT": {
+        "Name": "Headbutt",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "HEADCHARGE": {
+        "Name": "Head Charge",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "HEADSMASH": {
+        "Name": "Head Smash",
+        "STAB": "yes",
+        "Type": "Rock"
+    },
+    "HEALBELL": {
+        "Name": "Heal Bell",
+        "STAB": "no",
+        "Type": "Sound"
+    },
+    "HEALBLOCK": {
+        "Name": "Heal Block",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "HEALINGWISH": {
+        "Name": "Healing Wish",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "HEALORDER": {
+        "Name": "Heal Order",
+        "STAB": "no",
+        "Type": "Bug"
+    },
+    "HEALPULSE": {
+        "Name": "Heal Pulse",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "HEARTSTAMP": {
+        "Name": "Heart Stamp",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "HEARTSWAP": {
+        "Name": "Heart Swap",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "HEATCRASH": {
+        "Name": "Heat Crash",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "HEATWAVE": {
+        "Name": "Heat Wave",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "HEAVYSLAM": {
+        "Name": "Heavy Slam",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "HELPINGHAND": {
+        "Name": "Helping Hand",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "HEX": {
+        "Name": "Hex",
+        "STAB": "yes",
+        "Type": "Ghost"
+    },
+    "HIDDENPOWER": {
+        "Name": "Hidden Power",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "HIGHHORSEPOWER": {
+        "Name": "High Horsepower",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "HIJUMPKICK": {
+        "Name": "High Jump Kick",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "HISS": {
+        "Name": "Hiss",
+        "STAB": "no",
+        "Type": "Sound"
+    },
+    "HOLDBACK": {
+        "Name": "Hold Back",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "HOLDHANDS": {
+        "Name": "Hold Hands",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "HONECLAWS": {
+        "Name": "Hone Claws",
+        "STAB": "no",
+        "Type": "Dark"
+    },
+    "HORNATTACK": {
+        "Name": "Horn Attack",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "HORNDRILL": {
+        "Name": "Horn Drill",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "HORNLEECH": {
+        "Name": "Horn Leech",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "HOTCHILIPEPPER": {
+        "Name": "Hot Chili Pepper",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "HOWL": {
+        "Name": "Howl",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "HURRICANE": {
+        "Name": "Hurricane",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "HYDROCANNON": {
+        "Name": "Hydro Cannon",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "HYDROPUMP": {
+        "Name": "Hydro Pump",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "HYPERBEAM": {
+        "Name": "Hyper Beam",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "HYPERFANG": {
+        "Name": "Hyper Fang",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "HYPERSPACEFURY": {
+        "Name": "Hyperspace Fury",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "HYPERSPACEHOLE": {
+        "Name": "Hyperspace Hole",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "HYPERVOICE": {
+        "Name": "Hyper Voice",
+        "STAB": "yes",
+        "Type": "Sound"
+    },
+    "HYPNOSIS": {
+        "Name": "Hypnosis",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "ICEBALL": {
+        "Name": "Ice Ball",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "ICEBEAM": {
+        "Name": "Ice Beam",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "ICEBURN": {
+        "Name": "Ice Burn",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "ICEFANG": {
+        "Name": "Ice Fang",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "ICEHAMMER": {
+        "Name": "Ice Hammer",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "ICEPUNCH": {
+        "Name": "Ice Punch",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "ICESHARD": {
+        "Name": "Ice Shard",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "ICICLECRASH": {
+        "Name": "Icicle Crash",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "ICICLESPEAR": {
+        "Name": "Icicle Spear",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "ICYWIND": {
+        "Name": "Icy Wind",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "IMPRISON": {
+        "Name": "Imprison",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "INCINERATE": {
+        "Name": "Incinerate",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "INFERNALBLADE": {
+        "Name": "Infernal Blade",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "INFERNO": {
+        "Name": "Inferno",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "INFESTATION": {
+        "Name": "Infestation",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "INGRAIN": {
+        "Name": "Ingrain",
+        "STAB": "no",
+        "Type": "Grass"
+    },
+    "INSTANTCRUSH": {
+        "Name": "Instant Crush",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "INSTRUCT": {
+        "Name": "Instruct",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "IONDELUGE": {
+        "Name": "Ion Deluge",
+        "STAB": "no",
+        "Type": "Electric"
+    },
+    "IRONDEFENSE": {
+        "Name": "Iron Defense",
+        "STAB": "no",
+        "Type": "Steel"
+    },
+    "IRONHEAD": {
+        "Name": "Iron Head",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "IRONTAIL": {
+        "Name": "Iron Tail",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "JETSTRIKE": {
+        "Name": "Jet Strike",
+        "STAB": "yes",
+        "Type": "Sound"
+    },
+    "JUDGMENT": {
+        "Name": "Judgment",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "JUMPKICK": {
+        "Name": "Jump Kick",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "KARATECHOP": {
+        "Name": "Karate Chop",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "KINESIS": {
+        "Name": "Kinesis",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "KINGSSHIELD": {
+        "Name": "King's Shield",
+        "STAB": "no",
+        "Type": "Steel"
+    },
+    "KNOCKOFF": {
+        "Name": "Knock Off",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "LANDSWRATH": {
+        "Name": "Land's Wrath",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "LASERFOCUS": {
+        "Name": "Laser Focus",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "LASERPULSE": {
+        "Name": "Laser Pulse",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "LASTRESORT": {
+        "Name": "Last Resort",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "LAVAPLUME": {
+        "Name": "Lava Plume",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "LEAFAGE": {
+        "Name": "Leafage",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "LEAFBLADE": {
+        "Name": "Leaf Blade",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "LEAFSTORM": {
+        "Name": "Leaf Storm",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "LEAFTORNADO": {
+        "Name": "Leaf Tornado",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "LEECHLIFE": {
+        "Name": "Leech Life",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "LEECHSEED": {
+        "Name": "Leech Seed",
+        "STAB": "no",
+        "Type": "Grass"
+    },
+    "LEER": {
+        "Name": "Leer",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "LICK": {
+        "Name": "Lick",
+        "STAB": "yes",
+        "Type": "Ghost"
+    },
+    "LIGHTOFRUIN": {
+        "Name": "Light of Ruin",
+        "STAB": "yes",
+        "Type": "Fairy"
+    },
+    "LIGHTSCREEN": {
+        "Name": "Light Screen",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "LIQUIDATION": {
+        "Name": "Liquidation",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "LOCKON": {
+        "Name": "Lock-On",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "LOVELYKISS": {
+        "Name": "Lovely Kiss",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "LOWKICK": {
+        "Name": "Low Kick",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "LOWSWEEP": {
+        "Name": "Low Sweep",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "LUCKYCHANT": {
+        "Name": "Lucky Chant",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "LUNARDANCE": {
+        "Name": "Lunar Dance",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "LUNGE": {
+        "Name": "Lunge",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "LUSTERPURGE": {
+        "Name": "Luster Purge",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "MACHPUNCH": {
+        "Name": "Mach Punch",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "MAGICALLEAF": {
+        "Name": "Magical Leaf",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "MAGICCOAT": {
+        "Name": "Magic Coat",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "MAGICROOM": {
+        "Name": "Magic Room",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "MAGICWALL": {
+        "Name": "Magic Wall",
+        "STAB": "no",
+        "Type": "Fairy"
+    },
+    "MAGMASTORM": {
+        "Name": "Magma Storm",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "MAGNETBOMB": {
+        "Name": "Magnet Bomb",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "MAGNETICFLUX": {
+        "Name": "Magnetic Flux",
+        "STAB": "no",
+        "Type": "Electric"
+    },
+    "MAGNETRISE": {
+        "Name": "Magnet Rise",
+        "STAB": "no",
+        "Type": "Electric"
+    },
+    "MAGNITUDE": {
+        "Name": "Magnitude",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "MATBLOCK": {
+        "Name": "Mat Block",
+        "STAB": "no",
+        "Type": "Fighting"
+    },
+    "MEANLOOK": {
+        "Name": "Mean Look",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "MEDITATE": {
+        "Name": "Meditate",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "MEFIRST": {
+        "Name": "Me First",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "MEGADRAIN": {
+        "Name": "Mega Drain",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "MEGAHORN": {
+        "Name": "Megahorn",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "MEGAKICK": {
+        "Name": "Mega Kick",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "MEGAPUNCH": {
+        "Name": "Mega Punch",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "MEMENTO": {
+        "Name": "Memento",
+        "STAB": "no",
+        "Type": "Dark"
+    },
+    "METALBURST": {
+        "Name": "Metal Burst",
+        "STAB": "no",
+        "Type": "Steel"
+    },
+    "METALCLAW": {
+        "Name": "Metal Claw",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "METALCRUNCHER": {
+        "Name": "Metal Cruncher",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "METALSOUND": {
+        "Name": "Metal Sound",
+        "STAB": "no",
+        "Type": "Steel"
+    },
+    "METALWHIP": {
+        "Name": "Metal Whip",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "METEORMASH": {
+        "Name": "Meteor Mash",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "METRONOME": {
+        "Name": "Metronome",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "MILKDRINK": {
+        "Name": "Milk Drink",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "MIMIC": {
+        "Name": "Mimic",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "MINDBLOWN": {
+        "Name": "Mind Blown",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "MINDREADER": {
+        "Name": "Mind Reader",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "MINIMIZE": {
+        "Name": "Minimize",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "MIRACLEEYE": {
+        "Name": "Miracle Eye",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "MIRRORCOAT": {
+        "Name": "Mirror Coat",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "MIRRORMOVE": {
+        "Name": "Mirror Move",
+        "STAB": "no",
+        "Type": "Flying"
+    },
+    "MIRRORSHOT": {
+        "Name": "Mirror Shot",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "MIST": {
+        "Name": "Mist",
+        "STAB": "no",
+        "Type": "Ice"
+    },
+    "MISTBALL": {
+        "Name": "Mist Ball",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "MISTYTERRAIN": {
+        "Name": "Misty Terrain",
+        "STAB": "no",
+        "Type": "Fairy"
+    },
+    "MOONBLAST": {
+        "Name": "Moonblast",
+        "STAB": "yes",
+        "Type": "Fairy"
+    },
+    "MOONGEISTBEAM": {
+        "Name": "Moongeist Beam",
+        "STAB": "yes",
+        "Type": "Ghost"
+    },
+    "MOONLIGHT": {
+        "Name": "Moonlight",
+        "STAB": "no",
+        "Type": "Fairy"
+    },
+    "MORNINGSUN": {
+        "Name": "Morning Sun",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "MUDBOMB": {
+        "Name": "Mud Bomb",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "MUDDYWATER": {
+        "Name": "Muddy Water",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "MUDSHOT": {
+        "Name": "Mud Shot",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "MUDSLAP": {
+        "Name": "Mud-Slap",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "MUDSPORT": {
+        "Name": "Mud Sport",
+        "STAB": "no",
+        "Type": "Ground"
+    },
+    "MULTIATTACK": {
+        "Name": "Multi-Attack",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "MYSTICALFIRE": {
+        "Name": "Mystical Fire",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "NASTYPLOT": {
+        "Name": "Nasty Plot",
+        "STAB": "no",
+        "Type": "Dark"
+    },
+    "NATURALGIFT": {
+        "Name": "Natural Gift",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "NATURE'SMADNESS": {
+        "Name": "Nature's Madness",
+        "STAB": "yes",
+        "Type": "Fairy"
+    },
+    "NATUREPOWER": {
+        "Name": "Nature Power",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "NEEDLEARM": {
+        "Name": "Needle Arm",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "NIGHTDAZE": {
+        "Name": "Night Daze",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "NIGHTMARE": {
+        "Name": "Nightmare",
+        "STAB": "no",
+        "Type": "Ghost"
+    },
+    "NIGHTSHADE": {
+        "Name": "Night Shade",
+        "STAB": "no",
+        "Type": "Ghost"
+    },
+    "NIGHTSLASH": {
+        "Name": "Night Slash",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "NOBLEROAR": {
+        "Name": "Noble Roar",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "NOISEBURST": {
+        "Name": "Noise Burst",
+        "STAB": "yes",
+        "Type": "Sound"
+    },
+    "NUZZLE": {
+        "Name": "Nuzzle",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "OBLIVIONWING": {
+        "Name": "Oblivion Wing",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "OCTAZOOKA": {
+        "Name": "Octazooka",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "ODORSLEUTH": {
+        "Name": "Odor Sleuth",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "OMINOUSWIND": {
+        "Name": "Ominous Wind",
+        "STAB": "yes",
+        "Type": "Ghost"
+    },
+    "ORIGINPULSE": {
+        "Name": "Origin Pulse",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "OUTRAGE": {
+        "Name": "Outrage",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "OVERDRIVE": {
+        "Name": "Overdrive",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "OVERHEAT": {
+        "Name": "Overheat",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "PAINSPLIT": {
+        "Name": "Pain Split",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "PAPERCUT": {
+        "Name": "Paper Cut",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "PARABOLICCHARGE": {
+        "Name": "Parabolic Charge",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "PARTINGSHOT": {
+        "Name": "Parting Shot",
+        "STAB": "no",
+        "Type": "Dark"
+    },
+    "PAYBACK": {
+        "Name": "Payback",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "PAYDAY": {
+        "Name": "Pay Day",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "PECK": {
+        "Name": "Peck",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "PERFECTGLARE": {
+        "Name": "Perfect Glare",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "PERISHSONG": {
+        "Name": "Perish Song",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "PETALBLIZZARD": {
+        "Name": "Petal Blizzard",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "PETALDANCE": {
+        "Name": "Petal Dance",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "PHANTOMFORCE": {
+        "Name": "Phantom Force",
+        "STAB": "yes",
+        "Type": "Ghost"
+    },
+    "PHOTONGEYSER": {
+        "Name": "Photon Geyser",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "PINMISSILE": {
+        "Name": "Pin Missile",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "PLASMAFISTS": {
+        "Name": "Plasma Fists",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "PLAYNICE": {
+        "Name": "Play Nice",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "PLAYROUGH": {
+        "Name": "Play Rough",
+        "STAB": "yes",
+        "Type": "Fairy"
+    },
+    "PLUCK": {
+        "Name": "Pluck",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "POISONFANG": {
+        "Name": "Poison Fang",
+        "STAB": "yes",
+        "Type": "Poison"
+    },
+    "POISONGAS": {
+        "Name": "Poison Gas",
+        "STAB": "no",
+        "Type": "Poison"
+    },
+    "POISONJAB": {
+        "Name": "Poison Jab",
+        "STAB": "yes",
+        "Type": "Poison"
+    },
+    "POISONPOWDER": {
+        "Name": "Poison Powder",
+        "STAB": "no",
+        "Type": "Poison"
+    },
+    "POISONSTING": {
+        "Name": "Poison Sting",
+        "STAB": "yes",
+        "Type": "Poison"
+    },
+    "POISONTAIL": {
+        "Name": "Poison Tail",
+        "STAB": "yes",
+        "Type": "Poison"
+    },
+    "POLLENPUFF": {
+        "Name": "Pollen Puff",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "POLTERGEIST": {
+        "Name": "Poltergeist",
+        "STAB": "yes",
+        "Type": "Ghost"
+    },
+    "POUND": {
+        "Name": "Pound",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "POWDER": {
+        "Name": "Powder",
+        "STAB": "no",
+        "Type": "Bug"
+    },
+    "POWDERSNOW": {
+        "Name": "Powder Snow",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "POWERGEM": {
+        "Name": "Power Gem",
+        "STAB": "yes",
+        "Type": "Rock"
+    },
+    "POWERSPLIT": {
+        "Name": "Power Split",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "POWERSWAP": {
+        "Name": "Power Swap",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "POWERTRICK": {
+        "Name": "Power Trick",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "POWERTRIP": {
+        "Name": "Power Trip",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "POWERUPPUNCH": {
+        "Name": "Power-Up Punch",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "POWERWHIP": {
+        "Name": "Power Whip",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "PRECIPICEBLADES": {
+        "Name": "Precipice Blades",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "PRESENT": {
+        "Name": "Present",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "PRIMALSCREAM": {
+        "Name": "Primal Scream",
+        "STAB": "yes",
+        "Type": "Sound"
+    },
+    "PRISMATICLASER": {
+        "Name": "Prismatic Laser",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "PROTECT": {
+        "Name": "Protect",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "PSYBEAM": {
+        "Name": "Psybeam",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "PSYCHIC": {
+        "Name": "Psychic",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "PSYCHICFANGS": {
+        "Name": "Psychic Fangs",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "PSYCHICTERRAIN": {
+        "Name": "Psychic Terrain",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "PSYCHOBOOST": {
+        "Name": "Psycho Boost",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "PSYCHOCUT": {
+        "Name": "Psycho Cut",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "PSYCHOSHIFT": {
+        "Name": "Psycho Shift",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "PSYCHUP": {
+        "Name": "Psych Up",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "PSYSHOCK": {
+        "Name": "Psyshock",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "PSYSTRIKE": {
+        "Name": "Psystrike",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "PSYWAVE": {
+        "Name": "Psywave",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "PUNISHMENT": {
+        "Name": "Punishment",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "PURIFY": {
+        "Name": "Purify",
+        "STAB": "no",
+        "Type": "Poison"
+    },
+    "PURSUIT": {
+        "Name": "Pursuit",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "QUASH": {
+        "Name": "Quash",
+        "STAB": "no",
+        "Type": "Dark"
+    },
+    "QUICKATTACK": {
+        "Name": "Quick Attack",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "QUICKGUARD": {
+        "Name": "Quick Guard",
+        "STAB": "no",
+        "Type": "Fighting"
+    },
+    "QUIVERDANCE": {
+        "Name": "Quiver Dance",
+        "STAB": "no",
+        "Type": "Bug"
+    },
+    "RAGE": {
+        "Name": "Rage",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "RAGEPOWDER": {
+        "Name": "Rage Powder",
+        "STAB": "no",
+        "Type": "Bug"
+    },
+    "RAINDANCE": {
+        "Name": "Rain Dance",
+        "STAB": "no",
+        "Type": "Water"
+    },
+    "RAPIDSPIN": {
+        "Name": "Rapid Spin",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "RAZORLEAF": {
+        "Name": "Razor Leaf",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "RAZORSHELL": {
+        "Name": "Razor Shell",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "RAZORWIND": {
+        "Name": "Razor Wind",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "RECOVER": {
+        "Name": "Recover",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "RECYCLE": {
+        "Name": "Recycle",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "REFLECT": {
+        "Name": "Reflect",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "REFLECTTYPE": {
+        "Name": "Reflect Type",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "REFRESH": {
+        "Name": "Refresh",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "RELICSONG": {
+        "Name": "Relic Song",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "REST": {
+        "Name": "Rest",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "RETALIATE": {
+        "Name": "Retaliate",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "RETURN": {
+        "Name": "Return",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "REVELATIONDANCE": {
+        "Name": "Revelation Dance",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "REVENGE": {
+        "Name": "Revenge",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "REVERSAL": {
+        "Name": "Reversal",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "REVUP": {
+        "Name": "Rev Up",
+        "STAB": "yes",
+        "Type": "Sound"
+    },
+    "ROAR": {
+        "Name": "Roar",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "ROAROFTIME": {
+        "Name": "Roar of Time",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "ROCKBLAST": {
+        "Name": "Rock Blast",
+        "STAB": "yes",
+        "Type": "Rock"
+    },
+    "ROCKCLIMB": {
+        "Name": "Rock Climb",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "ROCKPOLISH": {
+        "Name": "Rock Polish",
+        "STAB": "no",
+        "Type": "Rock"
+    },
+    "ROCKSLIDE": {
+        "Name": "Rock Slide",
+        "STAB": "yes",
+        "Type": "Rock"
+    },
+    "ROCKSMASH": {
+        "Name": "Rock Smash",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "ROCKTHROW": {
+        "Name": "Rock Throw",
+        "STAB": "yes",
+        "Type": "Rock"
+    },
+    "ROCKTOMB": {
+        "Name": "Rock Tomb",
+        "STAB": "yes",
+        "Type": "Rock"
+    },
+    "ROCKWRECKER": {
+        "Name": "Rock Wrecker",
+        "STAB": "yes",
+        "Type": "Rock"
+    },
+    "ROLEPLAY": {
+        "Name": "Role Play",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "ROLLINGKICK": {
+        "Name": "Rolling Kick",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "ROLLOUT": {
+        "Name": "Rollout",
+        "STAB": "yes",
+        "Type": "Rock"
+    },
+    "ROOST": {
+        "Name": "Roost",
+        "STAB": "no",
+        "Type": "Flying"
+    },
+    "ROTOTILLER": {
+        "Name": "Rototiller",
+        "STAB": "no",
+        "Type": "Ground"
+    },
+    "ROUND": {
+        "Name": "Round",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "SACREDFIRE": {
+        "Name": "Sacred Fire",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "SACREDSWORD": {
+        "Name": "Sacred Sword",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "SAFEGUARD": {
+        "Name": "Safeguard",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SANDATTACK": {
+        "Name": "Sand Attack",
+        "STAB": "no",
+        "Type": "Ground"
+    },
+    "SANDSTORM": {
+        "Name": "Sandstorm",
+        "STAB": "no",
+        "Type": "Rock"
+    },
+    "SANDTOMB": {
+        "Name": "Sand Tomb",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "SCALD": {
+        "Name": "Scald",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "SCARYFACE": {
+        "Name": "Scary Face",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SCORCHEDASHES": {
+        "Name": "Scorched Ashes",
+        "STAB": "no",
+        "Type": "Fire"
+    },
+    "SCRATCH": {
+        "Name": "Scratch",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "SCREECH": {
+        "Name": "Screech",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SEARINGSHOT": {
+        "Name": "Searing Shot",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "SECRETPOWER": {
+        "Name": "Secret Power",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "SECRETSWORD": {
+        "Name": "Secret Sword",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "SEEDBOMB": {
+        "Name": "Seed Bomb",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "SEEDFLARE": {
+        "Name": "Seed Flare",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "SEISMICTOSS": {
+        "Name": "Seismic Toss",
+        "STAB": "no",
+        "Type": "Fighting"
+    },
+    "SELFDESTRUCT": {
+        "Name": "Self-Destruct",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "SHADOWBALL": {
+        "Name": "Shadow Ball",
+        "STAB": "yes",
+        "Type": "Ghost"
+    },
+    "SHADOWBONE": {
+        "Name": "Shadow Bone",
+        "STAB": "yes",
+        "Type": "Ghost"
+    },
+    "SHADOWCLAW": {
+        "Name": "Shadow Claw",
+        "STAB": "yes",
+        "Type": "Ghost"
+    },
+    "SHADOWFORCE": {
+        "Name": "Shadow Force",
+        "STAB": "yes",
+        "Type": "Ghost"
+    },
+    "SHADOWPUNCH": {
+        "Name": "Shadow Punch",
+        "STAB": "yes",
+        "Type": "Ghost"
+    },
+    "SHADOWSNEAK": {
+        "Name": "Shadow Sneak",
+        "STAB": "yes",
+        "Type": "Ghost"
+    },
+    "SHARPEN": {
+        "Name": "Sharpen",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SHEERCOLD": {
+        "Name": "Sheer Cold",
+        "STAB": "no",
+        "Type": "Ice"
+    },
+    "SHELLSMASH": {
+        "Name": "Shell Smash",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SHELLTRAP": {
+        "Name": "Shell Trap",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "SHIFTGEAR": {
+        "Name": "Shift Gear",
+        "STAB": "no",
+        "Type": "Steel"
+    },
+    "SHOCKWAVE": {
+        "Name": "Shock Wave",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "SHOREUP": {
+        "Name": "Shore Up",
+        "STAB": "no",
+        "Type": "Ground"
+    },
+    "SIGNALBEAM": {
+        "Name": "Signal Beam",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "SILVERWIND": {
+        "Name": "Silver Wind",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "SIMPLEBEAM": {
+        "Name": "Simple Beam",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SING": {
+        "Name": "Sing",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SKETCH": {
+        "Name": "Sketch",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SKILLSWAP": {
+        "Name": "Skill Swap",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "SKULLBASH": {
+        "Name": "Skull Bash",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "SKYATTACK": {
+        "Name": "Sky Attack",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "SKYDROP": {
+        "Name": "Sky Drop",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "SKYFALL": {
+        "Name": "Sky Fall",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "SKYUPPERCUT": {
+        "Name": "Sky Uppercut",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "SLACKOFF": {
+        "Name": "Slack Off",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SLAM": {
+        "Name": "Slam",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "SLASH": {
+        "Name": "Slash",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "SLEEPPOWDER": {
+        "Name": "Sleep Powder",
+        "STAB": "no",
+        "Type": "Grass"
+    },
+    "SLEEPTALK": {
+        "Name": "Sleep Talk",
+        "STAB": "no",
+        "Type": "Sound"
+    },
+    "SLUDGE": {
+        "Name": "Sludge",
+        "STAB": "yes",
+        "Type": "Poison"
+    },
+    "SLUDGEBOMB": {
+        "Name": "Sludge Bomb",
+        "STAB": "yes",
+        "Type": "Poison"
+    },
+    "SLUDGEWAVE": {
+        "Name": "Sludge Wave",
+        "STAB": "yes",
+        "Type": "Poison"
+    },
+    "SMACKDOWN": {
+        "Name": "Smack Down",
+        "STAB": "yes",
+        "Type": "Rock"
+    },
+    "SMARTSTRIKE": {
+        "Name": "Smart Strike",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "SMELLINGSALT": {
+        "Name": "Smelling Salts",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "SMOG": {
+        "Name": "Smog",
+        "STAB": "yes",
+        "Type": "Poison"
+    },
+    "SMOKESCREEN": {
+        "Name": "Smokescreen",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SNARL": {
+        "Name": "Snarl",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "SNATCH": {
+        "Name": "Snatch",
+        "STAB": "no",
+        "Type": "Dark"
+    },
+    "SNORE": {
+        "Name": "Snore",
+        "STAB": "yes",
+        "Type": "Sound"
+    },
+    "SOAK": {
+        "Name": "Soak",
+        "STAB": "no",
+        "Type": "Water"
+    },
+    "SOFTBOILED": {
+        "Name": "Soft-Boiled",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SOLARBEAM": {
+        "Name": "Solar Beam",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "SOLARBLADE": {
+        "Name": "Solar Blade",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "SONICBOOM": {
+        "Name": "Sonic Boom",
+        "STAB": "no",
+        "Type": "Sound"
+    },
+    "SOUNDBARRIER": {
+        "Name": "Sound Barrier",
+        "STAB": "no",
+        "Type": "Sound"
+    },
+    "SOUNDPLEDGE": {
+        "Name": "Sound Pledge",
+        "STAB": "yes",
+        "Type": "Sound"
+    },
+    "SPACIALREND": {
+        "Name": "Spacial Rend",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "SPARK": {
+        "Name": "Spark",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "SPARKLINGARIA": {
+        "Name": "Sparkling Aria",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "SPECTRALTHIEF": {
+        "Name": "Spectral Thief",
+        "STAB": "yes",
+        "Type": "Ghost"
+    },
+    "SPEEDSWAP": {
+        "Name": "Speed Swap",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "SPIDERWEB": {
+        "Name": "Spider Web",
+        "STAB": "no",
+        "Type": "Bug"
+    },
+    "SPIKECANNON": {
+        "Name": "Spike Cannon",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "SPIKES": {
+        "Name": "Spikes",
+        "STAB": "no",
+        "Type": "Ground"
+    },
+    "SPIKYSHIELD": {
+        "Name": "Spiky Shield",
+        "STAB": "no",
+        "Type": "Grass"
+    },
+    "SPIRITSHACKLE": {
+        "Name": "Spirit Shackle",
+        "STAB": "yes",
+        "Type": "Ghost"
+    },
+    "SPITE": {
+        "Name": "Spite",
+        "STAB": "no",
+        "Type": "Ghost"
+    },
+    "SPITUP": {
+        "Name": "Spit Up",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "SPLASH": {
+        "Name": "Splash",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SPORE": {
+        "Name": "Spore",
+        "STAB": "no",
+        "Type": "Grass"
+    },
+    "SPOTLIGHT": {
+        "Name": "Spotlight",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "STARBURSTSHU": {
+        "Name": "Star Burst_Shu",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "STARBURSTSHY": {
+        "Name": "Star Burst_Shy",
+        "STAB": "yes",
+        "Type": "Fairy"
+    },
+    "STARBURSTTRI": {
+        "Name": "Star Burst_Tri",
+        "STAB": "yes",
+        "Type": "Sound"
+    },
+    "STEALTHROCK": {
+        "Name": "Stealth Rock",
+        "STAB": "no",
+        "Type": "Rock"
+    },
+    "STEAMERUPTION": {
+        "Name": "Steam Eruption",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "STEAMROLLER": {
+        "Name": "Steamroller",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "STEELWING": {
+        "Name": "Steel Wing",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "STICKYTERRAIN": {
+        "Name": "Sticky Terrain",
+        "STAB": "no",
+        "Type": "Poison"
+    },
+    "STICKYWEB": {
+        "Name": "Sticky Web",
+        "STAB": "no",
+        "Type": "Bug"
+    },
+    "STOCKPILE": {
+        "Name": "Stockpile",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "STOMP": {
+        "Name": "Stomp",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "STOMPINGTANTRUM": {
+        "Name": "Stomping Tantrum",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "STONEEDGE": {
+        "Name": "Stone Edge",
+        "STAB": "yes",
+        "Type": "Rock"
+    },
+    "STOREDPOWER": {
+        "Name": "Stored Power",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "STORMTHROW": {
+        "Name": "Storm Throw",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "STRENGTH": {
+        "Name": "Strength",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "STRENGTHSAP": {
+        "Name": "Strength Sap",
+        "STAB": "no",
+        "Type": "Grass"
+    },
+    "STRINGSHOT": {
+        "Name": "String Shot",
+        "STAB": "no",
+        "Type": "Bug"
+    },
+    "STRUGGLE": {
+        "Name": "Struggle",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "STRUGGLEBUG": {
+        "Name": "Struggle Bug",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "STUNSPORE": {
+        "Name": "Stun Spore",
+        "STAB": "no",
+        "Type": "Grass"
+    },
+    "SUBDUCTION": {
+        "Name": "Subduction",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "SUBMISSION": {
+        "Name": "Submission",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "SUBSTITUTE": {
+        "Name": "Substitute",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SUBWOOFER": {
+        "Name": "Subwoofer",
+        "STAB": "yes",
+        "Type": "Sound"
+    },
+    "SUCKERPUNCH": {
+        "Name": "Sucker Punch",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "SUDDENSTRIKE": {
+        "Name": "Sudden Strike",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "SUGARRUSH": {
+        "Name": "Sugar Rush",
+        "STAB": "yes",
+        "Type": "Fairy"
+    },
+    "SUNNYDAY": {
+        "Name": "Sunny Day",
+        "STAB": "no",
+        "Type": "Fire"
+    },
+    "SUNSTEELSTRIKE": {
+        "Name": "Sunsteel Strike",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "SUPERFANG": {
+        "Name": "Super Fang",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SUPERPOWER": {
+        "Name": "Superpower",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "SUPERSONIC": {
+        "Name": "Supersonic",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SURF": {
+        "Name": "Surf",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "SWAGGER": {
+        "Name": "Swagger",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SWALLOW": {
+        "Name": "Swallow",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SWEETKISS": {
+        "Name": "Sweet Kiss",
+        "STAB": "no",
+        "Type": "Fairy"
+    },
+    "SWEETSCENT": {
+        "Name": "Sweet Scent",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SWIFT": {
+        "Name": "Swift",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "SWITCHEROO": {
+        "Name": "Switcheroo",
+        "STAB": "no",
+        "Type": "Dark"
+    },
+    "SWORDSDANCE": {
+        "Name": "Swords Dance",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SYNCHRONOISE": {
+        "Name": "Synchronoise",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "SYNTHESIS": {
+        "Name": "Synthesis",
+        "STAB": "no",
+        "Type": "Grass"
+    },
+    "TACKLE": {
+        "Name": "Tackle",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "TAILGLOW": {
+        "Name": "Tail Glow",
+        "STAB": "no",
+        "Type": "Bug"
+    },
+    "TAILSLAP": {
+        "Name": "Tail Slap",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "TAILWHIP": {
+        "Name": "Tail Whip",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "TAILWIND": {
+        "Name": "Tailwind",
+        "STAB": "no",
+        "Type": "Flying"
+    },
+    "TAKEDOWN": {
+        "Name": "Take Down",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "TAUNT": {
+        "Name": "Taunt",
+        "STAB": "no",
+        "Type": "Dark"
+    },
+    "TEARFULLOOK": {
+        "Name": "Tearful Look",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "TECHNOBLAST": {
+        "Name": "Techno Blast",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "TEETERDANCE": {
+        "Name": "Teeter Dance",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "TELEKINESIS": {
+        "Name": "Telekinesis",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "TELEPORT": {
+        "Name": "Teleport",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "THIEF": {
+        "Name": "Thief",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "THOUSANDARROWS": {
+        "Name": "Thousand Arrows",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "THOUSANDWAVES": {
+        "Name": "Thousand Waves",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "THRASH": {
+        "Name": "Thrash",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "THROATCHOP": {
+        "Name": "Throat Chop",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "THUNDER": {
+        "Name": "Thunder",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "THUNDERBOLT": {
+        "Name": "Thunderbolt",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "THUNDERCAGE": {
+        "Name": "Thunder Cage",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "THUNDERFANG": {
+        "Name": "Thunder Fang",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "THUNDERHAMMER": {
+        "Name": "Thunderstruck",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "THUNDERPUNCH": {
+        "Name": "Thunder Punch",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "THUNDERSHOCK": {
+        "Name": "Thunder Shock",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "THUNDERSTORM": {
+        "Name": "Thunderstorm",
+        "STAB": "no",
+        "Type": "Electric"
+    },
+    "THUNDERSTRUCK": {
+        "Name": "Thunderstruck",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "THUNDERWAVE": {
+        "Name": "Thunder Wave",
+        "STAB": "no",
+        "Type": "Electric"
+    },
+    "TICKLE": {
+        "Name": "Tickle",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "TIDALDRAGOON": {
+        "Name": "Tidal Dragoon",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "TOPSYTURVY": {
+        "Name": "Topsy-Turvy",
+        "STAB": "no",
+        "Type": "Dark"
+    },
+    "TORMENT": {
+        "Name": "Torment",
+        "STAB": "no",
+        "Type": "Dark"
+    },
+    "TOXIC": {
+        "Name": "Toxic",
+        "STAB": "no",
+        "Type": "Poison"
+    },
+    "TOXICSPIKES": {
+        "Name": "Toxic Spikes",
+        "STAB": "no",
+        "Type": "Poison"
+    },
+    "TOXICTHREAD": {
+        "Name": "Toxic Thread",
+        "STAB": "no",
+        "Type": "Poison"
+    },
+    "TRANSFORM": {
+        "Name": "Transform",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "TRIATTACK": {
+        "Name": "Tri Attack",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "TRICK": {
+        "Name": "Trick",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "TRICKORTREAT": {
+        "Name": "Trick-or-Treat",
+        "STAB": "no",
+        "Type": "Ghost"
+    },
+    "TRICKROOM": {
+        "Name": "Trick Room",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "TRIPLEKICK": {
+        "Name": "Triple Kick",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "TROPKICK": {
+        "Name": "Trop Kick",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "TRUMPCARD": {
+        "Name": "Trump Card",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "TWINEEDLE": {
+        "Name": "Twineedle",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "TWISTER": {
+        "Name": "Twister",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "UPROAR": {
+        "Name": "Uproar",
+        "STAB": "yes",
+        "Type": "Sound"
+    },
+    "UTURN": {
+        "Name": "U-turn",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "VACUUMWAVE": {
+        "Name": "Vacuum Wave",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "VCREATE": {
+        "Name": "V-create",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "VELVETSCALES": {
+        "Name": "Velvet Scales",
+        "STAB": "no",
+        "Type": "Dragon"
+    },
+    "VENOMDRENCH": {
+        "Name": "Venom Drench",
+        "STAB": "no",
+        "Type": "Poison"
+    },
+    "VENOSHOCK": {
+        "Name": "Venoshock",
+        "STAB": "yes",
+        "Type": "Poison"
+    },
+    "VICEGRIP": {
+        "Name": "Vice Grip",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "VINEWHIP": {
+        "Name": "Vine Whip",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "VITALTHROW": {
+        "Name": "Vital Throw",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "VOIDSTAR": {
+        "Name": "Void Star",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "VOLTSWITCH": {
+        "Name": "Volt Switch",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "VOLTTACKLE": {
+        "Name": "Volt Tackle",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "WAKEUPSLAP": {
+        "Name": "Wake-Up Slap",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "WATERFALL": {
+        "Name": "Waterfall",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "WATERGUN": {
+        "Name": "Water Gun",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "WATERPLEDGE": {
+        "Name": "Water Pledge",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "WATERPULSE": {
+        "Name": "Water Pulse",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "WATERSHURIKEN": {
+        "Name": "Water Shuriken",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "WATERSPORT": {
+        "Name": "Water Sport",
+        "STAB": "no",
+        "Type": "Water"
+    },
+    "WATERSPOUT": {
+        "Name": "Water Spout",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "WEATHERBALL": {
+        "Name": "Weather Ball",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "WHIRLPOOL": {
+        "Name": "Whirlpool",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "WHIRLWIND": {
+        "Name": "Whirlwind",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "WIDEGUARD": {
+        "Name": "Wide Guard",
+        "STAB": "no",
+        "Type": "Rock"
+    },
+    "WILDCHARGE": {
+        "Name": "Wild Charge",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "WILDDANCE": {
+        "Name": "Wild Dance",
+        "STAB": "yes",
+        "Type": "Sound"
+    },
+    "WILLOWISP": {
+        "Name": "Will-O-Wisp",
+        "STAB": "no",
+        "Type": "Fire"
+    },
+    "WINGATTACK": {
+        "Name": "Wing Attack",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "WISH": {
+        "Name": "Wish",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "WITHDRAW": {
+        "Name": "Withdraw",
+        "STAB": "no",
+        "Type": "Water"
+    },
+    "WONDERROOM": {
+        "Name": "Wonder Room",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "WOODHAMMER": {
+        "Name": "Wood Hammer",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "WORKUP": {
+        "Name": "Work Up",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "WORRYSEED": {
+        "Name": "Worry Seed",
+        "STAB": "no",
+        "Type": "Grass"
+    },
+    "WRAP": {
+        "Name": "Wrap",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "WRINGOUT": {
+        "Name": "Wring Out",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "XSCISSOR": {
+        "Name": "X-Scissor",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "XTRANSFORM": {
+        "Name": "X Transform",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "YAWN": {
+        "Name": "Yawn",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "ZAPCANNON": {
+        "Name": "Zap Cannon",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "ZENHEADBUTT": {
+        "Name": "Zen Headbutt",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "ZINGZAP": {
+        "Name": "Zing Zap",
+        "STAB": "yes",
+        "Type": "Electric"
+    }
 }

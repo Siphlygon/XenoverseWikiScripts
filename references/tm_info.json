@@ -1,97 +1,477 @@
 {
-	"HONECLAWS": "01,no,Dark",
-    "DRAGONCLAW": "02,yes,Dragon",
-    "PSYSHOCK": "03,yes,Psychic",
-    "CALMMIND": "04,no,Psychic",
-    "ROAR": "05,no,Sound",
-    "TOXIC": "06,no,Poison",
-    "HAIL": "07,no,Ice",
-    "BULKUP": "08,no,Fighting",
-    "VENOSHOCK": "09,yes,Poison",
-    "HIDDENPOWER": "10,no,Normal",
-    "SUNNYDAY": "11,no,Fire",
-    "TAUNT": "12,no,Dark",
-    "ICEBEAM": "13,yes,Ice",
-    "BLIZZARD": "14,yes,Ice",
-    "HYPERBEAM": "15,yes,Normal",
-    "LIGHTSCREEN": "16,no,Psychic",
-    "PROTECT": "17,no,Normal",
-    "RAINDANCE": "18,no,Water",
-    "ROOST": "19,no,Flying",
-    "SAFEGUARD": "20,no,Normal",
-    "SUBWOOFER": "21,yes,Sound",
-    "SOLARBEAM": "22,yes,Grass",
-    "SMACKDOWN": "23,yes,Rock",
-    "THUNDERBOLT": "24,yes,Electric",
-    "THUNDER": "25,yes,Electric",
-    "EARTHQUAKE": "26,yes,Ground",
-    "RETURN": "27,yes,Normal",
-    "DIG": "28,yes,Ground",
-    "PSYCHIC": "29,yes,Psychic",
-    "SHADOWBALL": "30,yes,Ghost",
-    "BRICKBREAK": "31,yes,Fighting",
-    "DOUBLETEAM": "32,no,Normal",
-    "REFLECT": "33,no,Psychic",
-    "LEECHLIFE": "34,yes,Bug",
-    "FLAMETHROWER": "35,yes,Fire",
-    "SLUDGEBOMB": "36,yes,Poison",
-    "SANDSTORM": "37,no,Rock",
-    "FIREBLAST": "38,yes,Fire",
-    "ROCKTOMB": "39,yes,Rock",
-    "AERIALACE": "40,yes,Flying",
-    "TORMENT": "41,no,Dark",
-    "FACADE": "42,yes,Normal",
-    "FLAMECHARGE": "43,yes,Fire",
-    "REST": "44,no,Psychic",
-    "ATTRACT": "45,no,Normal",
-    "THIEF": "46,yes,Dark",
-    "LOWSWEEP": "47,yes,Fighting",
-    "ROUND": "48,yes,Sound",
-    "ECHOEDVOICE": "49,yes,Sound",
-    "OVERHEAT": "50,yes,Fire",
-    "STEELWING": "51,yes,Steel",
-    "FOCUSBLAST": "52,yes,Fighting",
-    "ENERGYBALL": "53,yes,Grass",
-    "FALSESWIPE": "54,yes,Normal",
-    "SCALD": "55,yes,Water",
-    "FLING": "56,yes,Dark",
-    "CHARGEBEAM": "57,yes,Electric",
-    "SKYDROP": "58,yes,Flying",
-    "BRUTALSWING": "59,yes,Dark",
-    "QUASH": "60,no,Dark",
-    "WILLOWISP": "61,no,Fire",
-    "ACROBATICS": "62,yes,Flying",
-    "EMBARGO": "63,no,Dark",
-    "EXPLOSION": "64,yes,Normal",
-    "SHADOWCLAW": "65,yes,Ghost",
-    "PAYBACK": "66,yes,Dark",
-    "SMARTSTRIKE": "67,yes,Steel",
-    "GIGAIMPACT": "68,yes,Normal",
-    "ROCKPOLISH": "69,no,Rock",
-    "SURF": "70,yes,Water",
-    "STONEEDGE": "71,yes,Rock",
-    "VOLTSWITCH": "72,yes,Electric",
-    "THUNDERWAVE": "73,no,Electric",
-    "GYROBALL": "74,yes,Steel",
-    "SWORDSDANCE": "75,no,Normal",
-    "POWERUPPUNCH": "76,yes,Fighting",
-    "PSYCHUP": "77,no,Normal",
-    "BULLDOZE": "78,yes,Ground",
-    "FROSTBREATH": "79,yes,Ice",
-    "ROCKSLIDE": "80,yes,Rock",
-    "XSCISSOR": "81,yes,Bug",
-    "DRAGONTAIL": "82,yes,Dragon",
-    "INFESTATION": "83,yes,Bug",
-    "POISONJAB": "84,yes,Poison",
-    "DREAMEATER": "85,yes,Psychic",
-    "GRASSKNOT": "86,yes,Grass",
-    "SWAGGER": "87,no,Normal",
-    "WATERFALL": "88,yes,Water",
-    "UTURN": "89,yes,Bug",
-    "SUBSTITUTE": "90,no,Normal",
-    "FLASHCANNON": "91,yes,Steel",
-    "TRICKROOM": "92,no,Psychic",
-    "WILDCHARGE": "93,yes,Electric",
-    "DAZZLINGGLEAM": "94,yes,Fairy",
-    "DARKPULSE": "95,yes,Dark"
+    "HONECLAWS": {
+        "TMNo": "01",
+        "STAB": "no",
+        "Type": "Dark"
+    },
+    "DRAGONCLAW": {
+        "TMNo": "02",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "PSYSHOCK": {
+        "TMNo": "03",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "CALMMIND": {
+        "TMNo": "04",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "ROAR": {
+        "TMNo": "05",
+        "STAB": "no",
+        "Type": "Sound"
+    },
+    "TOXIC": {
+        "TMNo": "06",
+        "STAB": "no",
+        "Type": "Poison"
+    },
+    "HAIL": {
+        "TMNo": "07",
+        "STAB": "no",
+        "Type": "Ice"
+    },
+    "BULKUP": {
+        "TMNo": "08",
+        "STAB": "no",
+        "Type": "Fighting"
+    },
+    "VENOSHOCK": {
+        "TMNo": "09",
+        "STAB": "yes",
+        "Type": "Poison"
+    },
+    "HIDDENPOWER": {
+        "TMNo": "10",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SUNNYDAY": {
+        "TMNo": "11",
+        "STAB": "no",
+        "Type": "Fire"
+    },
+    "TAUNT": {
+        "TMNo": "12",
+        "STAB": "no",
+        "Type": "Dark"
+    },
+    "ICEBEAM": {
+        "TMNo": "13",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "BLIZZARD": {
+        "TMNo": "14",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "HYPERBEAM": {
+        "TMNo": "15",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "LIGHTSCREEN": {
+        "TMNo": "16",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "PROTECT": {
+        "TMNo": "17",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "RAINDANCE": {
+        "TMNo": "18",
+        "STAB": "no",
+        "Type": "Water"
+    },
+    "ROOST": {
+        "TMNo": "19",
+        "STAB": "no",
+        "Type": "Flying"
+    },
+    "SAFEGUARD": {
+        "TMNo": "20",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "SUBWOOFER": {
+        "TMNo": "21",
+        "STAB": "yes",
+        "Type": "Sound"
+    },
+    "SOLARBEAM": {
+        "TMNo": "22",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "SMACKDOWN": {
+        "TMNo": "23",
+        "STAB": "yes",
+        "Type": "Rock"
+    },
+    "THUNDERBOLT": {
+        "TMNo": "24",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "THUNDER": {
+        "TMNo": "25",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "EARTHQUAKE": {
+        "TMNo": "26",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "RETURN": {
+        "TMNo": "27",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "DIG": {
+        "TMNo": "28",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "PSYCHIC": {
+        "TMNo": "29",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "SHADOWBALL": {
+        "TMNo": "30",
+        "STAB": "yes",
+        "Type": "Ghost"
+    },
+    "BRICKBREAK": {
+        "TMNo": "31",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "DOUBLETEAM": {
+        "TMNo": "32",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "REFLECT": {
+        "TMNo": "33",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "LEECHLIFE": {
+        "TMNo": "34",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "FLAMETHROWER": {
+        "TMNo": "35",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "SLUDGEBOMB": {
+        "TMNo": "36",
+        "STAB": "yes",
+        "Type": "Poison"
+    },
+    "SANDSTORM": {
+        "TMNo": "37",
+        "STAB": "no",
+        "Type": "Rock"
+    },
+    "FIREBLAST": {
+        "TMNo": "38",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "ROCKTOMB": {
+        "TMNo": "39",
+        "STAB": "yes",
+        "Type": "Rock"
+    },
+    "AERIALACE": {
+        "TMNo": "40",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "TORMENT": {
+        "TMNo": "41",
+        "STAB": "no",
+        "Type": "Dark"
+    },
+    "FACADE": {
+        "TMNo": "42",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "FLAMECHARGE": {
+        "TMNo": "43",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "REST": {
+        "TMNo": "44",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "ATTRACT": {
+        "TMNo": "45",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "THIEF": {
+        "TMNo": "46",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "LOWSWEEP": {
+        "TMNo": "47",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "ROUND": {
+        "TMNo": "48",
+        "STAB": "yes",
+        "Type": "Sound"
+    },
+    "ECHOEDVOICE": {
+        "TMNo": "49",
+        "STAB": "yes",
+        "Type": "Sound"
+    },
+    "OVERHEAT": {
+        "TMNo": "50",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
+    "STEELWING": {
+        "TMNo": "51",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "FOCUSBLAST": {
+        "TMNo": "52",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "ENERGYBALL": {
+        "TMNo": "53",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "FALSESWIPE": {
+        "TMNo": "54",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "SCALD": {
+        "TMNo": "55",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "FLING": {
+        "TMNo": "56",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "CHARGEBEAM": {
+        "TMNo": "57",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "SKYDROP": {
+        "TMNo": "58",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "BRUTALSWING": {
+        "TMNo": "59",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "QUASH": {
+        "TMNo": "60",
+        "STAB": "no",
+        "Type": "Dark"
+    },
+    "WILLOWISP": {
+        "TMNo": "61",
+        "STAB": "no",
+        "Type": "Fire"
+    },
+    "ACROBATICS": {
+        "TMNo": "62",
+        "STAB": "yes",
+        "Type": "Flying"
+    },
+    "EMBARGO": {
+        "TMNo": "63",
+        "STAB": "no",
+        "Type": "Dark"
+    },
+    "EXPLOSION": {
+        "TMNo": "64",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "SHADOWCLAW": {
+        "TMNo": "65",
+        "STAB": "yes",
+        "Type": "Ghost"
+    },
+    "PAYBACK": {
+        "TMNo": "66",
+        "STAB": "yes",
+        "Type": "Dark"
+    },
+    "SMARTSTRIKE": {
+        "TMNo": "67",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "GIGAIMPACT": {
+        "TMNo": "68",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
+    "ROCKPOLISH": {
+        "TMNo": "69",
+        "STAB": "no",
+        "Type": "Rock"
+    },
+    "SURF": {
+        "TMNo": "70",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "STONEEDGE": {
+        "TMNo": "71",
+        "STAB": "yes",
+        "Type": "Rock"
+    },
+    "VOLTSWITCH": {
+        "TMNo": "72",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "THUNDERWAVE": {
+        "TMNo": "73",
+        "STAB": "no",
+        "Type": "Electric"
+    },
+    "GYROBALL": {
+        "TMNo": "74",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "SWORDSDANCE": {
+        "TMNo": "75",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "POWERUPPUNCH": {
+        "TMNo": "76",
+        "STAB": "yes",
+        "Type": "Fighting"
+    },
+    "PSYCHUP": {
+        "TMNo": "77",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "BULLDOZE": {
+        "TMNo": "78",
+        "STAB": "yes",
+        "Type": "Ground"
+    },
+    "FROSTBREATH": {
+        "TMNo": "79",
+        "STAB": "yes",
+        "Type": "Ice"
+    },
+    "ROCKSLIDE": {
+        "TMNo": "80",
+        "STAB": "yes",
+        "Type": "Rock"
+    },
+    "XSCISSOR": {
+        "TMNo": "81",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "DRAGONTAIL": {
+        "TMNo": "82",
+        "STAB": "yes",
+        "Type": "Dragon"
+    },
+    "INFESTATION": {
+        "TMNo": "83",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "POISONJAB": {
+        "TMNo": "84",
+        "STAB": "yes",
+        "Type": "Poison"
+    },
+    "DREAMEATER": {
+        "TMNo": "85",
+        "STAB": "yes",
+        "Type": "Psychic"
+    },
+    "GRASSKNOT": {
+        "TMNo": "86",
+        "STAB": "yes",
+        "Type": "Grass"
+    },
+    "SWAGGER": {
+        "TMNo": "87",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "WATERFALL": {
+        "TMNo": "88",
+        "STAB": "yes",
+        "Type": "Water"
+    },
+    "UTURN": {
+        "TMNo": "89",
+        "STAB": "yes",
+        "Type": "Bug"
+    },
+    "SUBSTITUTE": {
+        "TMNo": "90",
+        "STAB": "no",
+        "Type": "Normal"
+    },
+    "FLASHCANNON": {
+        "TMNo": "91",
+        "STAB": "yes",
+        "Type": "Steel"
+    },
+    "TRICKROOM": {
+        "TMNo": "92",
+        "STAB": "no",
+        "Type": "Psychic"
+    },
+    "WILDCHARGE": {
+        "TMNo": "93",
+        "STAB": "yes",
+        "Type": "Electric"
+    },
+    "DAZZLINGGLEAM": {
+        "TMNo": "94",
+        "STAB": "yes",
+        "Type": "Fairy"
+    },
+    "DARKPULSE": {
+        "TMNo": "95",
+        "STAB": "yes",
+        "Type": "Dark"
+    }
 }
