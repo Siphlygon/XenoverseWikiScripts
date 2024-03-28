@@ -24,7 +24,7 @@ It does not yet, and may never:
 - Completely function for the Vintagedex (I plan to implement this, but there are some unresolved discrepancies between the wiki and the game data for vintage Pokémon).
 
 ### Acknowledgements
-I would like to thank N for their help and their work in compiling game information for my use, and Phye for her stellar advice and game & wiki knowledge I most desperately needed.
+I would like to thank N for his help and work in compiling game information for my use, and Phye for her stellar advice and game & wiki knowledge I most desperately needed.
 
 
 ### Disclaimer
