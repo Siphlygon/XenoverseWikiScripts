@@ -1,5 +1,4 @@
 # pylint: disable=line-too-long, too-many-boolean-expressions, missing-module-docstring, F0401
-import numpy as np
 from data_access import (gender_code, growth_rate, pokemon_info, wild_item_info, ability_info, species_and_dex_entry)
 from utility_methods import (make_three_digits, find_dex_number)
 
@@ -204,7 +203,7 @@ class PokemonBoxGenerator:
                 found_items.append(item)
 
         # Accounts for how the game data indicates a 100% item
-        if np.unique(found_items).size == 1:
+        if len(set(found_items)) == 1 and len(found_items) == 3:
             wild_items.append("|always = " + "{{Item|" + found_items[0] + "}} " + f"[[{found_items[0]}]]")
         else:
             wild_items.extend(temp_box)
