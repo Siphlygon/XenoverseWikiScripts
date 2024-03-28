@@ -182,6 +182,9 @@
 	"REGISTEEL": {
 		"Pink Tomb": "Static"
 	},
+	"ROCKAPYE": {
+		"Dorado Village": "Revive from [[Print Fossil]]"
+	},
 	"ROSERADEX": {
 		"Shyleon Temple": "Boss"
 	},
@@ -208,6 +211,9 @@
 	},
 	"SHYLEONX": {
 		"Xenoverse": "Static"
+	},
+	"SPUTNINK": {
+		"Dorado Village": "Revive from [[Space Fossil]]"
 	},
 	"SUICUNE": {
 		"Cardinal's Pagoda": "Furious Battles"
