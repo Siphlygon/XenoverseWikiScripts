@@ -1,897 +1,3582 @@
 {
-    "001": "SHYLEON,Shyleon",
-    "002": "TRISHOUT,Trishout",
-    "003": "SHULONG,Shulong",
-    "004": "ZIGZAGOON,Zigzagoon",
-    "005": "LINOONE,Linoone",
-    "006": "BIDOOF,Bidoof",
-    "007": "BIBAREL,Bibarel",
-    "008": "SPARKOWL,Sparkowl",
-    "009": "SHAWKBIRD,Shawkbird",
-    "010": "HARROWK,Harrowk",
-    "011": "WEEDLE,Weedle",
-    "012": "KAKUNA,Kakuna",
-    "013": "BEEDRILL,Beedrill",
-    "014": "LEDYBA,Ledyba",
-    "015": "LEDIAN,Ledian",
-    "016": "KRICKETOT,Kricketot",
-    "017": "KRICKETUNE,Kricketune",
-    "018": "MAREEP,Mareep",
-    "019": "FLAAFFY,Flaaffy",
-    "020": "AMPHAROS,Ampharos",
-    "021": "YEMIN,Yemin",
-    "022": "KUNGFUR,Kungfur",
-    "023": "ABRA,Abra",
-    "024": "KADABRA,Kadabra",
-    "025": "ALAKAZAM,Alakazam",
-    "026": "TAILLOW,Taillow",
-    "027": "SWELLOW,Swellow",
-    "028": "WINGULL,Wingull",
-    "029": "PELIPPER,Pelipper",
-    "030": "MASGOT,Masgot",
-    "030_1": "MASGOT,Masgot",
-    "030_2": "MASGOT,Masgot",
-    "030_3": "MASGOT,Masgot",
-    "030_4": "MASGOT,Masgot",
-    "030_5": "MASGOT,Masgot",
-    "030_6": "MASGOT,Masgot",
-    "030_7": "MASGOT,Masgot",
-    "030_8": "MASGOT,Masgot",
-    "030_9": "MASGOT,Masgot",
-    "030_10": "MASGOT,Masgot",
-    "030_11": "MASGOT,Masgot",
-    "030_12": "MASGOT,Masgot",
-    "030_13": "MASGOT,Masgot",
-    "030_14": "MASGOT,Masgot",
-    "030_15": "MASGOT,Masgot",
-    "030_16": "MASGOT,Masgot",
-    "030_17": "MASGOT,Masgot",
-    "031": "DWEBBLE,Dwebble",
-    "032": "CRUSTLE,Crustle",
-    "033": "BREMAND,Bremand",
-    "033_1": "BREMAND,Bremand",
-    "033_2": "BREMAND,Bremand",
-    "033_3": "BREMAND,Bremand",
-    "034": "MAGIKARP,Magikarp",
-    "035": "GYARADOS,Gyarados",
-    "036": "CORPHISH,Corphish",
-    "037": "CRAWDAUNT,Crawdaunt",
-    "038": "FEEBAS,Feebas",
-    "039": "MILOTIC,Milotic",
-    "040": "PYUKUMUKU,Pyukumuku",
-    "041": "REMORAID,Remoraid",
-    "042": "OCTILLERY,Octillery",
-    "043": "SANDYGAST,Sandygast",
-    "044": "PALOSSAND,Palossand",
-    "045": "CORSOLA,Corsola",
-    "046": "STARYU,Staryu",
-    "047": "STARMIE,Starmie",
-    "048": "INKAY,Inkay",
-    "049": "MALAMAR,Malamar",
-    "050": "MANTYKE,Mantyke",
-    "051": "MANTINE,Mantine",
-    "052": "POPPLIO,Popplio",
-    "053": "BRIONNE,Brionne",
-    "054": "PRIMARINA,Primarina",
-    "055": "SHUCKLE,Shuckle",
-    "056": "PHANTUMP,Phantump",
-    "057": "TREVENANT,Trevenant",
-    "058": "ODDISH,Oddish",
-    "059": "GLOOM,Gloom",
-    "060": "VILEPLUME,Vileplume",
-    "061": "BELLOSSOM,Bellossom",
-    "061_1": "BELLOSSOM,Bellossom",
-    "062": "MORELULL,Morelull",
-    "063": "SHIINOTIC,Shiinotic",
-    "064": "ZUBAT,Zubat",
-    "065": "GOLBAT,Golbat",
-    "066": "CROBAT,Crobat",
-    "067": "CARVANHA,Carvanha",
-    "068": "SHARPEDO,Sharpedo",
-    "069": "MAREANIE,Mareanie",
-    "070": "TOXAPEX,Toxapex",
-    "071": "GASTLY,Gastly",
-    "072": "HAUNTER,Haunter",
-    "073": "GENGAR,Gengar",
-    "074": "GRIMER,Grimer",
-    "074_1": "GRIMER,Grimer",
-    "075": "MUK,Muk",
-    "075_1": "MUK,Muk",
-    "076": "PUPPILLON,Puppillon",
-    "077": "HANGEAD,Hangead",
-    "078": "NUNVIL,Nunvil",
-    "079": "WHISTERACT,Whisteract",
-    "080": "ONIX,Onix",
-    "081": "STEELIX,Steelix",
-    "082": "CUBCHOO,Cubchoo",
-    "083": "BEARTIC,Beartic",
-    "084": "GEODUDE,Geodude",
-    "084_1": "GEODUDE,Geodude",
-    "085": "GRAVELER,Graveler",
-    "085_1": "GRAVELER,Graveler",
-    "086": "GOLEM,Golem",
-    "086_1": "GOLEM,Golem",
-    "087": "ROGGENROLA,Roggenrola",
-    "088": "BOLDORE,Boldore",
-    "089": "GIGALITH,Gigalith",
-    "090": "BERGMITE,Bergmite",
-    "091": "AVALUGG,Avalugg",
-    "092": "SNEASEL,Sneasel",
-    "093": "WEAVILE,Weavile",
-    "093_1": "WEAVILE,Weavile",
-    "094": "BLINGRIMM,Blingrimm",
-    "095": "BLINGRUDGE,Blingrudge",
-    "096": "SPHEAL,Spheal",
-    "097": "SEALEO,Sealeo",
-    "098": "WALREIN,Walrein",
-    "099": "SEEL,Seel",
-    "100": "DEWGONG,Dewgong",
-    "101": "HIKILOO,Hikiloo",
-    "102": "MYLOMUTE,Mylomute",
-    "103": "BUIZEL,Buizel",
-    "104": "FLOATZEL,Floatzel",
-    "105": "KIDOON,Kidoon",
-    "106": "HONCHEN,Honchen",
-    "107": "SMEARGLE,Smeargle",
-    "108": "MEOWTHELDIW,Meowth",
-    "108_1": "MEOWTH,Meowth",
-    "108_2": "MEOWTH,Meowth",
-    "109": "PERSIANELDIW,Persage",
-    "109_1": "PERSIAN,Persian",
-    "109_2": "PERSIAN,Persian",
-    "110": "SNUBBULL,Snubbull",
-    "111": "GRANBULL,Granbull",
-    "112": "DROWZEE,Drowzee",
-    "113": "HYPNO,Hypno",
-    "114": "KOINKOIN,Koinkoin",
-    "115": "BEEFLE,Beefle",
-    "116": "PUNCHBUG,Punchbug",
-    "117": "HERCURCULES,Hercurcules",
-    "118": "COMBEE,Combee",
-    "119": "VESPIQUEN,Vespiquen",
-    "120": "CHIGAMI,Chigami",
-    "121": "GRUDAKO,Grudako",
-    "122": "SABOLT,Sabolt",
-    "123": "SEWADDLE,Sewaddle",
-    "124": "SWADLOON,Swadloon",
-    "125": "LEAVANNY,Leavanny",
-    "126": "AUDINO,Audino",
-    "127": "CHIKORITA,Chikorita",
-    "128": "BAYLEEF,Bayleef",
-    "129": "MEGANIUM,Meganium",
-    "130": "COTTONEE,Cottonee",
-    "131": "WHIMSICOTT,Whimsicott",
-    "132": "YANMA,Yanma",
-    "133": "YANMEGA,Yanmega",
-    "134": "HERACROSS,Heracross",
-    "135": "EKANS,Ekans",
-    "136": "ARBOK,Arbok",
-    "137": "CROAGUNK,Croagunk",
-    "138": "TOXICROAK,Toxicroak",
-    "139": "STUNKY,Stunky",
-    "140": "SKUNTANK,Skuntank",
-    "141": "DITTO,Ditto",
-    "142": "PICHU,Pichu",
-    "143": "PIKACHU,Pikachu",
-    "144": "RAICHU,Raichu",
-    "144_1": "RAICHU,Raichu",
-    "145": "GACHIGACHOO,Gachigachoo",
-    "146": "MILTANK,Miltank",
-    "147": "BUDEW,Budew",
-    "148": "ROSELIA,Roselia",
-    "149": "ROSERADE,Roserade",
-    "150": "BUNEARY,Buneary",
-    "151": "LOPUNNY,Lopunny",
-    "152": "MINCCINO,Minccino",
-    "153": "CINCCINO,Cinccino",
-    "154": "SWIRLIX,Swirlix",
-    "155": "SLURPUFF,Slurpuff",
-    "156": "HYSTEARIC,Hystearic",
-    "157": "WYSTEARIA,Wystearia",
-    "158": "WHISMUR,Whismur",
-    "159": "LOUDRED,Loudred",
-    "160": "EXPLOUD,Exploud",
-    "161": "PLUSLE,Plusle",
-    "162": "MINUN,Minun",
-    "163": "PEPEQUENO,Pepequeno",
-    "164": "SCOVILE,Scovile",
-    "165": "EXCALIBOULD,Excalibould",
-    "166": "MADIEVAL,Madieval",
-    "167": "DIGLETT,Diglett",
-    "167_1": "DIGLETT,Diglett",
-    "168": "DUGTRIO,Dugtrio",
-    "168_1": "DUGTRIO,Dugtrio",
-    "169": "DRILBUR,Drilbur",
-    "170": "EXCADRILL,Excadrill",
-    "171": "ARON,Aron",
-    "172": "LAIRON,Lairon",
-    "173": "AGGRON,Aggron",
-    "174": "LARVITAR,Larvitar",
-    "175": "PUPITAR,Pupitar",
-    "176": "TYRANITAR,Tyranitar",
-    "177": "KLINK,Klink",
-    "178": "KLANG,Klang",
-    "179": "KLINKLANG,Klinklang",
-    "180": "TYNAMO,Tynamo",
-    "181": "EELEKTRIK,Eelektrik",
-    "182": "EELEKTROSS,Eelektross",
-    "183": "ROCKAPYE,Rockapye",
-    "184": "TROGLOLITH,Troglolith",
-    "185": "SPUTNINK,Sputnink",
-    "186": "NEBYURA,Nebyura",
-    "187": "HIPPOPOTAS,Hippopotas",
-    "188": "HIPPOWDON,Hippowdon",
-    "189": "BIRIGIRI,Birigiri",
-    "190": "CHUBIBURNY,Chubiburny",
-    "191": "GOOMBEAR,Goombear",
-    "192": "DRATINI,Dratini",
-    "193": "DRAGONAIR,Dragonair",
-    "194": "DRAGONITE,Dragonite",
-    "195": "TRAPINCH,Trapinch",
-    "196": "VIBRAVA,Vibrava",
-    "197": "FLYGON,Flygon",
-    "198": "DRUDDIGON,Druddigon",
-    "199": "MANTICOEUR,Manticoeur",
-    "200": "FATAIL,Fatail",
-    "201": "AXEW,Axew",
-    "202": "FRAXURE,Fraxure",
-    "203": "HAXORUS,Haxorus",
-    "204": "NOIBAT,Noibat",
-    "205": "NOIVERN,Noivern",
-    "206": "TURTONATOR,Turtonator",
-    "207": "CHARMANDER,Charmander",
-    "208": "CHARMELEON,Charmeleon",
-    "209": "CHARIZARD,Charizard",
-    "210": "VULPIX,Vulpix",
-    "210_1": "VULPIX,Vulpix",
-    "211": "NINETALES,Ninetales",
-    "211_1": "NINETALES,Ninetales",
-    "212": "KOFFING,Koffing",
-    "213": "WEEZING,Weezing",
-    "214": "HOUNDOUR,Houndour",
-    "215": "HOUNDOOM,Houndoom",
-    "216": "NUMEL,Numel",
-    "217": "CAMERUPT,Camerupt",
-    "218": "TORKOAL,Torkoal",
-    "219": "REINDAR,Reindear",
-    "220": "REINDIGO,Reindigo",
-    "221": "SOSQWATCH,Sosqwatch",
-    "222": "SQUIRTLE,Squirtle",
-    "223": "WARTORTLE,Wartortle",
-    "224": "BLASTOISE,Blastoise",
-    "225": "TEDDIURSA,Teddiursa",
-    "226": "URSARING,Ursaring",
-    "227": "ABSOL,Absol",
-    "228": "RIOLU,Riolu",
-    "229": "LUCARIO,Lucario",
-    "230": "DRAMPA,Drampa",
-    "231": "PONYTA,Ponyta",
-    "232": "RAPIDASH,Rapidash",
-    "233": "SANDSHREW,Sandshrew",
-    "233_1": "SANDSHREW,Sandshrew",
-    "234": "SANDSLASH,Sandslash",
-    "234_1": "SANDSLASH,Sandslash",
-    "235": "CUBONE,Cubone",
-    "236": "MAROWAK,Marowak",
-    "236_1": "MAROWAK,Marowak",
-    "237": "NATU,Natu",
-    "238": "XATU,Xatu",
-    "239": "CACNEA,Cacnea",
-    "240": "CACTURNE,Cacturne",
-    "241": "RUFFLET,Rufflet",
-    "242": "BRAVIARY,Braviary",
-    "243": "VULLABY,Vullaby",
-    "244": "MANDIBUZZ,Mandibuzz",
-    "245": "VROOMBUG,Vroombug",
-    "246": "SKRAVROOM,Skravroom",
-    "247": "CHIKABOO,Chikaboo",
-    "248": "PECKABONE,Peckabone",
-    "249": "REXQUIEM,Rexquiem",
-    "250": "KECLEON,Kecleon",
-    "251": "SKARMORY,Skarmory",
-    "252": "RHYHORN,Rhyhorn",
-    "253": "RHYDON,Rhydon",
-    "254": "RHYPERIOR,Rhyperior",
-    "255": "BELDUM,Beldum",
-    "256": "METANG,Metang",
-    "257": "METAGROSS,Metagross",
-    "258": "ELGYEM,Elgyem",
-    "259": "BEHEEYEM,Beheeyem",
-    "260": "LITWICK,Litwick",
-    "261": "LAMPENT,Lampent",
-    "262": "CHANDELURE,Chandelure",
-    "263": "MIMIKYU,Mimikyu",
-    "264": "MURKROW,Murkrow",
-    "265": "HONCHKROW,Honchkrow",
-    "266": "SCARACNO,Scaracno",
-    "267": "SCARACLUO,Scaracluo",
-    "268": "SCARPHASMO,Scarphasmo",
-    "269": "TAUROS,Tauros",
-    "270": "MAGNEMITE,Magnemite",
-    "271": "MAGNETON,Magneton",
-    "272": "MAGNEZONE,Magnezone",
-    "273": "ELEKID,Elekid",
-    "274": "ELECTABUZZ,Electabuzz",
-    "275": "ELECTIVIRE,Electivire",
-    "276": "BOUFFALANT,Bouffalant",
-    "277": "JOLTIK,Joltik",
-    "278": "GALVANTULA,Galvantula",
-    "279": "SCRAGGY,Scraggy",
-    "280": "SCRAFTY,Scrafty",
-    "281": "SPINDA,Spinda",
-    "282": "TOKAKLE,Tokakle",
-    "283": "BLITZLE,Blitzle",
-    "284": "ZEBSTRIKA,Zebstrika",
-    "285": "LITTEN,Litten",
-    "286": "TORRACAT,Torracat",
-    "287": "INCINEROAR,Incineroar",
-    "288": "IGGLYBUFF,Igglybuff",
-    "289": "JIGGLYPUFF,Jigglypuff",
-    "290": "WIGGLYTUFF,Wigglytuff",
-    "291": "PACHIRISU,Pachirisu",
-    "292": "TIMBURR,Timburr",
-    "293": "GURDURR,Gurdurr",
-    "294": "CONKELDURR,Conkeldurr",
-    "295": "PAWNIARD,Pawniard",
-    "296": "BISHARP,Bisharp",
-    "297": "SANDILE,Sandile",
-    "298": "KROKOROK,Krokorok",
-    "299": "KROOKODILE,Krookodile",
-    "300": "TOTODILE,Totodile",
-    "301": "CROCONAW,Croconaw",
-    "302": "FERALIGATR,Feraligatr",
-    "303": "EXEGGCUTE,Exeggcute",
-    "304": "EXEGGUTOR,Exeggutor",
-    "304_1": "EXEGGUTOR,Exeggutor",
-    "305": "HAPPINY,Happiny",
-    "306": "CHANSEY,Chansey",
-    "307": "BLISSEY,Blissey",
-    "308": "DONANAS,Donanas",
-    "309": "SCYTHER,Scyther",
-    "310": "SCIZOR,Scizor",
-    "311": "ROWLET,Rowlet",
-    "312": "DARTRIX,Dartrix",
-    "313": "DECIDUEYE,Decidueye",
-    "314": "PASSIMIAN,Passimian",
-    "315": "AIPOM,Aipom",
-    "316": "AMBIPOM,Ambipom",
-    "317": "GIRAFARIG,Girafarig",
-    "318": "CHATOT,Chatot",
-    "319": "LITLEO,Litleo",
-    "320": "PYROAR,Pyroar",
-    "321": "TROPIUS,Tropius",
-    "322": "CARNIVINE,Carnivine",
-    "323": "BULBASAUR,Bulbasaur",
-    "324": "IVYSAUR,Ivysaur",
-    "325": "VENUSAUR,Venusaur",
-    "326": "SIGILYPH,Sigilyph",
-    "327": "BALTOY,Baltoy",
-    "328": "CLAYDOL,Claydol",
-    "329": "SPIRITOMB,Spiritomb",
-    "330": "YAMASK,Yamask",
-    "331": "COFAGRIGUS,Cofagrigus",
-    "332": "HAWLUCHA,Hawlucha",
-    "333": "NOSEPASS,Nosepass",
-    "334": "PROBOPASS,Probopass",
-    "335": "RATTATA,Rattata",
-    "335_1": "RATTATA,Rattata",
-    "336": "RATICATE,Raticate",
-    "336_1": "RATICATE,Raticate",
-    "337": "CYNDAQUIL,Cyndaquil",
-    "338": "QUILAVA,Quilava",
-    "339": "TYPHLOSION,Typhlosion",
-    "340": "GULPIN,Gulpin",
-    "341": "SWALOT,Swalot",
-    "342": "TRUBBISH,Trubbish",
-    "343": "GARBODOR,Garbodor",
-    "344": "CHIMAOOZE,Chimaooze",
-    "345": "CLAMPERL,Clamperl",
-    "346": "HUNTAIL,Huntail",
-    "347": "GOREBYSS,Gorebyss",
-    "348": "ALOMOMOLA,Alomomola",
-    "349": "LAPRAS,Lapras",
-    "350": "EEVEE,Eevee",
-    "351": "VAPOREON,Vaporeon",
-    "352": "JOLTEON,Jolteon",
-    "353": "FLAREON,Flareon",
-    "354": "ESPEON,Espeon",
-    "355": "UMBREON,Umbreon",
-    "356": "LEAFEON,Leafeon",
-    "357": "GLACEON,Glaceon",
-    "358": "SYLVEON,Sylveon",
-    "359": "BANDEON,Bandeon",
-    "360": "SCALEON,Scaleon",
-    "361": "PORYGON,Porygon",
-    "362": "PORYGON2,Porygon2",
-    "363": "PORYGONZ,Porygon-Z",
-    "364": "PORYGONWES,Porygon-WES",
-    "365": "DUSMEE,Dusmee",
-    "366": "EGOHISS,Egohiss",
-    "367": "EGORGEON,Egorgeon",
-    "368": "CHIRIPE,Chiripe",
-    "369": "BATNANA,Batnana",
-    "370": "ERBA3,Vesperfum",
-    "371": "FUOCO1,Croakling",
-    "372": "FUOCO2,Bullverin",
-    "373": "FUOCO3,Croakraze",
-    "374": "FLOATUB,Inflant",
-    "375": "TUSKIEVOUS,Floatusk",
-    "376": "GANESHANT,Swelephant",
-    "377": "LUXFLON,Luxflon",
-    "378": "DIELEBI,Dielebi",
-    "379": "MEW,Mew",
-    "380": "LUGIA,Lugia",
-    "381": "HOOH,Ho-oh",
-    "382": "CELEBI,Celebi",
-    "383": "DEOXYS,Deoxys",
-    "383_1": "DEOXYS,Deoxys",
-    "384": "HEATRAN,Heatran",
-    "385": "CRESSELIA,Cresselia",
-    "386": "DARKRAI,Darkrai",
-    "387": "MELOETTA,Meloetta",
-    "387_1": "MELOETTA,Meloetta",
-    "388": "GENESECT,Genesect",
-    "389": "MARSHADOW,Marshadow",
-    "390": "GROWLITHE,Growlithe",
-    "390_1": "GROWLITHE,Growlithe",
-    "391": "ARCANINE,Arcanine",
-    "391_1": "ARCANINE,Arcanine",
-    "391_2": "ARCANINE,Arcanine",
-    "392": "SEEDOT,Seedot",
-    "393": "NUZLEAF,Nuzleaf",
-    "394": "SHIFTRY,Shiftry",
-    "394_1": "SHIFTRY,Shiftry",
-    "395": "MIENFOO,Mienfoo",
-    "396": "MIENSHAO,Mienshao",
-    "396_1": "MIENSHAO,Mienshao",
-    "397": "MAGBY,Magby",
-    "398": "MAGMAR,Magmar",
-    "399": "MAGMORTAR,Magmortar",
-    "400": "TURTWIG,Turtwig",
-    "401": "GROTLE,Grotle",
-    "402": "TORTERRA,Torterra",
-    "403": "CHIMCHAR,Chimchar",
-    "404": "MONFERNO,Monferno",
-    "405": "INFERNAPE,Infernape",
-    "406": "PIPLUP,Piplup",
-    "407": "PRINPLUP,Prinplup",
-    "408": "EMPOLEON,Empoleon",
-    "409": "SURSKIT,Surskit",
-    "410": "MASQUERAIN,Masquerain",
-    "411": "LOTAD,Lotad",
-    "412": "LOMBRE,Lombre",
-    "413": "LUDICOLO,Ludicolo",
-    "414": "HORSEA,Horsea",
-    "415": "SEADRA,Seadra",
-    "416": "KINGDRA,Kingdra",
-    "417": "PSYDUCK,Psyduck",
-    "418": "GOLDUCK,Golduck",
-    "419": "WOOPER,Wooper",
-    "420": "QUAGSIRE,Quagsire",
-    "421": "CHEWTLE,Chewtle",
-    "422": "DREDNAW,Drednaw",
-    "423": "LARVESTA,Larvesta",
-    "424": "VOLCARONA,Volcarona",
-    "425": "GLIGAR,Gligar",
-    "426": "GLISCOR,Gliscor",
-    "427": "POOCHYENA,Poochyena",
-    "428": "MIGHTYENA,Mightyena",
-    "429": "DEINO,Deino",
-    "430": "ZWEILOUS,Zweilous",
-    "431": "HYDREIGON,Hydreigon",
-    "432": "DURALUDON,Duraludon",
-    "433": "BELLSPROUT,Bellsprout",
-    "434": "WEEPINBELL,Weepinbell",
-    "435": "VICTREEBEL,Victreebel",
-    "436": "TANGELA,Tangela",
-    "437": "TANGROWTH,Tangrowth",
-    "438": "FERROSEED,Ferroseed",
-    "439": "FERROTHORN,Ferrothorn",
-    "440": "MUNNA,Munna",
-    "441": "MUSHARNA,Musharna",
-    "442": "SWINUB,Swinub",
-    "443": "PILOSWINE,Piloswine",
-    "444": "MAMOSWINE,Mamoswine",
-    "445": "SNORUNT,Snorunt",
-    "446": "GLALIE,Glalie",
-    "447": "FROSLASS,Froslass",
-    "448": "MISDREAVUS,Misdreavus",
-    "449": "MISMAGIUS,Mismagius",
-    "450": "CRYOGONAL,Cryogonal",
-    "451": "SNIVY,Snivy",
-    "452": "SERVINE,Servine",
-    "453": "SERPERIOR,Serperior",
-    "454": "TEPIG,Tepig",
-    "455": "PIGNITE,Pignite",
-    "456": "EMBOAR,Emboar",
-    "457": "OSHAWOTT,Oshawott",
-    "458": "DEWOTT,Dewott",
-    "459": "SAMUROTT,Samurott",
-    "460": "UNOWN,Unown",
-    "461": "RAIKOU,Raikou",
-    "461_1": "RAIKOU,Raikou",
-    "462": "ENTEI,Entei",
-    "462_1": "ENTEI,Entei",
-    "463": "SUICUNE,Suicune",
-    "463_1": "SUICUNE,Suicune",
-    "464": "MAWILE,Mawile",
-    "465": "DUSKULL,Duskull",
-    "466": "DUSCLOPS,Dusclops",
-    "467": "DUSKNOIR,Dusknoir",
-    "468": "PINECO,Pineco",
-    "469": "FORRETRESS,Forretress",
-    "470": "SALANDIT,Salandit",
-    "471": "SALAZZLE,Salazzle",
-    "472": "KANGASKHAN,Kangaskhan",
-    "473": "BONSLY,Bonsly",
-    "474": "SUDOWOODO,Sudowoodo",
-    "475": "PARAS,Paras",
-    "476": "PARASECT,Parasect",
-    "477": "MIMEJR,Mime Jr.",
-    "478": "MRMIME,Mr. Mime",
-    "479": "TREECKO,Treecko",
-    "480": "GROVYLE,Grovyle",
-    "481": "SCEPTILE,Sceptile",
-    "482": "TORCHIC,Torchic",
-    "483": "COMBUSKEN,Combusken",
-    "484": "BLAZIKEN,Blaziken",
-    "485": "MUDKIP,Mudkip",
-    "486": "MARSHTOMP,Marshtomp",
-    "487": "SWAMPERT,Swampert",
-    "488": "TOXEL,Toxel",
-    "489": "TOXTRICITY,Toxtricity",
-    "489_1": "TOXTRICITY,Toxtricity",
-    "490": "CASTFORM,Castform",
-    "491": "FOONGUS,Foongus",
-    "492": "AMOONGUSS,Amoonguss",
-    "493": "SLOWPOKE,Slowpoke",
-    "494": "SLOWBRO,Slowbro",
-    "495": "SLOWKING,Slowking",
-    "496": "RALTS,Ralts",
-    "497": "KIRLIA,Kirlia",
-    "498": "GARDEVOIR,Gardevoir",
-    "499": "GALLADE,Gallade",
-    "500": "AZURILL,Azurill",
-    "501": "MARILL,Marill",
-    "502": "AZUMARILL,Azumarill",
-    "503": "SHROOMISH,Shroomish",
-    "504": "BRELOOM,Breloom",
-    "505": "MUNCHLAX,Munchlax",
-    "506": "SNORLAX,Snorlax",
-    "507": "ARCTOZOLT,Arctozolt",
-    "508": "ZORUAHISUI,Zorua",
-    "509": "ZOROARKHISUI,Zoroark",
-    "510": "SHELLOS,Shellos",
-    "511": "GASTRODON,Gastrodon",
-    "512": "EMOLGA,Emolga",
-    "513": "BRONZOR,Bronzor",
-    "514": "BRONZONG,Bronzong",
-    "515": "ARCHEN,Archen",
-    "516": "ARCHEOPS,Archeops",
-    "517": "GIBLE,Gible",
-    "518": "GABITE,Gabite",
-    "519": "GARCHOMP,Garchomp",
-    "520": "SHINX,Shinx",
-    "521": "LUXIO,Luxio",
-    "522": "LUXRAY,Luxray",
-    "522_1": "LUXRAY,Luxray",
-    "523": "AERODACTYL,Aerodactyl",
-    "524": "CHESPIN,Chespin",
-    "525": "QUILLADIN,Quilladin",
-    "526": "CHESNAUGHT,Chesnaught",
-    "527": "FENNEKIN,Fennekin",
-    "528": "BRAIXEN,Braixen",
-    "529": "DELPHOX,Delphox",
-    "530": "FROAKIE,Froakie",
-    "531": "FROGADIER,Frogadier",
-    "532": "GRENINJA,Greninja",
-    "533": "TORNADUS,Tornadus",
-    "533_1": "TORNADUS,Tornadus",
-    "534": "THUNDURUS,Thundurus",
-    "534_1": "THUNDURUS,Thundurus",
-    "535": "LANDORUS,Landorus",
-    "535_1": "LANDORUS,Landorus",
-    "536": "ENAMORUS,Enamorus",
-    "536_1": "ENAMORUS,Enamorus",
-    "537": "SWABLU,Swablu",
-    "538": "ALTARIA,Altaria",
-    "538_1": "ALTARIA,Altaria",
-    "539": "VENIPEDE,Venipede",
-    "540": "WHIRLIPEDE,Whirlipede",
-    "541": "SCOLIPEDE,Scolipede",
-    "542": "SKORUPI,Skorupi",
-    "543": "DRAPION,Drapion",
-    "544": "CRANIDOS,Cranidos",
-    "545": "RAMPARDOS,Rampardos",
-    "545_1": "RAMPARDOS,Rampardos",
-    "546": "SHIELDON,Shieldon",
-    "547": "BASTIODON,Bastiodon",
-    "548": "CATERPIE,Caterpie",
-    "549": "METAPOD,Metapod",
-    "550": "BUTTERFREE,Butterfree",
-    "551": "CHARCADET,Charcadet",
-    "552": "ARMAROUGE,Armarouge",
-    "553": "CERULEDGE,Ceruledge",
-    "554": "BINACLE,Binacle",
-    "555": "BARBARACLE,Barbaracle",
-    "556": "TATSUGIRI,Tatsugiri",
-    "557": "KINGAMBIT,Kingambit",
-    "558": "TYROGUE,Tyrogue",
-    "559": "HITMONLEE,Hitmonlee",
-    "560": "HITMONCHAN,Hitmonchan",
-    "561": "HITMONTOP,Hitmontop",
-    "562": "SLUGMA,Slugma",
-    "563": "MAGCARGO,Magcargo",
-    "564": "LUNATONE,Lunatone",
-    "565": "SOLROCK,Solrock",
-    "566": "KARRABLAST,Karrablast",
-    "567": "ESCAVALIER,Escavalier",
-    "568": "SHELMET,Shelmet",
-    "569": "ACCELGOR,Accelgor",
-    "570": "SPRIGATITO,Sprigatito",
-    "571": "FLORAGATO,Floragato",
-    "572": "MEOWSCARADA,Meowscarada",
-    "573": "SOBBLE,Sobble",
-    "574": "DRIZZILE,Drizzile",
-    "575": "INTELEON,Inteleon",
-    "576": "REGIROCK,Regirock",
-    "577": "REGICE,Regice",
-    "578": "REGISTEEL,Registeel",
-    "579": "REGIGIGAS,Regigigas",
-    "580": "REGIELEKI,Regieleki",
-    "581": "REGIDRAGO,Regidrago",
-    "582": "REGINALOUS,Reginalous",
-    "583": "MEWTWO,Mewtwo",
-    "583_1": "MEWTWO,Mewtwo",
-    "X001": "ELEKIDX,Elekid X",
-    "X002": "ELECTABUZZX,Electabuzz X",
-    "X003": "ELECTABURST,Electaburst",
-    "X004": "SPIRITOMBX,Spiritomb X",
-    "X005": "CARVANHAX,Carvanha X",
-    "X006": "SHARPEDOX,Sharpedo X",
-    "X007": "PYUKUMUKUX,Pyukumuku X",
-    "X008": "PIKACHUX,Pikachu X",
-    "X008_1": "PIKACHUX,Pikachu X",
-    "X009": "JOLTIKX,Joltik X",
-    "X010": "GALVANTULAX,Galvantula X",
-    "X011": "SMEARGLEX,Smeargle X",
-    "X012": "CHIENTILLY,Chientilly",
-    "X013": "GASTLYX,Gastly X",
-    "X014": "HAUNTERX,Haunter X",
-    "X015": "GENGARX,Gengar X",
-    "X016": "YAMASKX,Yamask X",
-    "X017": "COFAGRIGUSX,Cofagrigus X",
-    "X018": "PONYTAX,Ponyta X",
-    "X019": "RAPIDASHX,Rapidash X",
-    "X020": "CACNEAX,Cacnea X",
-    "X021": "CACTURNEX,Cacturne X",
-    "X022": "SWIRLIXX,Swirlix X",
-    "X023": "SLURPUFFX,Slurpuff X",
-    "X024": "BUDEWX,Budew X",
-    "X025": "ROSELIAX,Roselia X",
-    "X026": "ROSERADEX,Roserade X",
-    "X027": "MAREANIEX,Mareanie X",
-    "X028": "TOXAPEXX,Toxapex X",
-    "X029": "GRENINJAX,Greninja X",
-    "X030": "MEWTWOX,Mewtwo X",
-    "X031": "RAICHUX,Raichu X",
-    "X032": "BISHARPX,Bisharp X",
-    "X033": "SCOVILEX,Scovile X",
-    "X034": "TYRANITARX,Tyranitar X",
-    "X035": "DITTOX,Ditto X",
-    "X036": "AEGISLASHX,Aegislash X",
-    "X037": "TAPUFINIX,Tapu Fini X",
-    "X038": "TAPULELEX,Tapu Lele X",
-    "X039": "TAPUKOKOX,Tapu Koko X",
-    "X040": "TAPUBULUX,Tapu Bulu X",
-    "X041": "DRAGALISKFURIA,Dragalisk X",
-    "X042": "SHYLEONP,Shyleon X",
-    "X043": "TRISHOUTP,Trishout X",
-    "X044": "SHULONGP,Shulong X",
-    "V001": "VINTAGEWEEDLE,Vintage Weedle",
-    "V002": "VINTAGEKAKUNA,Vintage Kakuna",
-    "V003": "VINTAGEBEEDRILL,Vintage Beedrill",
-    "V004": "VINTAGELEDYBA,Vintage Ledyba",
-    "V005": "VINTAGELEDIAN,Vintage Ledian",
-    "V006": "VINTAGEMAREEP,Vintage Mareep",
-    "V007": "VINTAGEFLAAFFY,Vintage Flaaffy",
-    "V008": "VINTAGEAMPHAROS,Vintage Ampharos",
-    "V009": "VINTAGEABRA,Vintage Abra",
-    "V010": "VINTAGEKADABRA,Vintage Kadabra",
-    "V011": "VINTAGEALAKAZAM,Vintage Alakazam",
-    "V012": "VINTAGEMAGIKARP,Vintage Magikarp",
-    "V013": "VINTAGEGYARADOS,Vintage Gyarados",
-    "V014": "VINTAGEREMORAID,Vintage Remoraid",
-    "V015": "VINTAGEOCTILLERY,Vintage Octillery",
-    "V016": "VINTAGECORSOLA,Vintage Corsola",
-    "V017": "VINTAGESTARYU,Vintage Staryu",
-    "V018": "VINTAGESTARMIE,Vintage Starmie",
-    "V019": "VINTAGEMANTINE,Vintage Mantine",
-    "V020": "VINTAGESHUCKLE,Vintage Shuckle",
-    "V021": "VINTAGEODDISH,Vintage Oddish",
-    "V022": "VINTAGEGLOOM,Vintage Gloom",
-    "V023": "VINTAGEVILEPLUME,Vintage Vileplume",
-    "V024": "VINTAGEBELLOSSOM,Vintage Bellossom",
-    "V025": "VINTAGEZUBAT,Vintage Zubat",
-    "V026": "VINTAGEGOLBAT,Vintage Golbat",
-    "V027": "VINTAGECROBAT,Vintage Crobat",
-    "V028": "VINTAGEGASTLY,Vintage Gastly",
-    "V029": "VINTAGEHAUNTER,Vintage Haunter",
-    "V030": "VINTAGEGENGAR,Vintage Gengar",
-    "V031": "VINTAGEGRIMER,Vintage Grimer",
-    "V032": "VINTAGEMUK,Vintage Muk",
-    "V033": "VINTAGEONIX,Vintage Onix",
-    "V034": "VINTAGESTEELIX,Vintage Steelix",
-    "V035": "VINTAGEGEODUDE,Vintage Geodude",
-    "V036": "VINTAGEGRAVELER,Vintage Graveler",
-    "V037": "VINTAGEGOLEM,Vintage Golem",
-    "V038": "VINTAGESNEASEL,Vintage Sneasel",
-    "V039": "VINTAGESEEL,Vintage Seel",
-    "V040": "VINTAGEDEWGONG,Vintage Dewgong",
-    "V041": "VINTAGESMEARGLE,Vintage Smeargle",
-    "V042": "VINTAGESNUBBULL,Vintage Snubbull",
-    "V043": "VINTAGEGRANBULL,Vintage Granbull",
-    "V044": "VINTAGEDROWZEE,Vintage Drowzee",
-    "V045": "VINTAGEHYPNO,Vintage Hypno",
-    "V046": "VINTAGECHIKORITA,Vintage Chikorita",
-    "V047": "VINTAGEBAYLEEF,Vintage Bayleef",
-    "V048": "VINTAGEMEGANIUM,Vintage Meganium",
-    "V049": "VINTAGEYANMA,Vintage Yanma",
-    "V050": "VINTAGEHERACROSS,Vintage Heracross",
-    "V051": "VINTAGEEKANS,Vintage Ekans",
-    "V052": "VINTAGEARBOK,Vintage Arbok",
-    "V053": "VINTAGEPICHU,Vintage Pichu",
-    "V054": "VINTAGEPIKACHU,Vintage Pikachu",
-    "V055": "VINTAGERAICHU,Vintage Raichu",
-    "V056": "GOROCHU,Gorochu",
-    "V057": "VINTAGEMILTANK,Vintage Miltank",
-    "V058": "VINTAGEDIGLETT,Vintage Diglett",
-    "V059": "VINTAGEDUGTRIO,Vintage Dugtrio",
-    "V060": "VINTAGELARVITAR,Vintage Larvitar",
-    "V061": "VINTAGEPUPITAR,Vintage Pupitar",
-    "V062": "VINTAGETYRANITAR,Vintage Tyranitar",
-    "V063": "VINTAGEDRATINI,Vintage Dratini",
-    "V064": "VINTAGEDRAGONAIR,Vintage Dragonair",
-    "V065": "VINTAGEDRAGONITE,Vintage Dragonite",
-    "V066": "VINTAGECHARMANDER,Vintage Charmander",
-    "V067": "VINTAGECHARMELEON,Vintage Charmeleon",
-    "V068": "VINTAGECHARIZARD,Vintage Charizard",
-    "V069": "VINTAGEVULPIX,Vintage Vulpix",
-    "V070": "VINTAGENINETALES,Vintage Ninetales",
-    "V071": "VINTAGEKOFFING,Vintage Koffing",
-    "V072": "VINTAGEWEEZING,Vintage Weezing",
-    "V073": "VINTAGEHOUNDOUR,Vintage Houndour",
-    "V074": "VINTAGEHOUNDOOM,Vintage Houndoom",
-    "V075": "VINTAGESQUIRTLE,Vintage Squirtle",
-    "V076": "VINTAGEWARTORTLE,Vintage Wartortle",
-    "V077": "VINTAGEBLASTOISE,Vintage Blastoise",
-    "V078": "VINTAGETEDDIURSA,Vintage Teddiursa",
-    "V079": "VINTAGEURSARING,Vintage Ursaring",
-    "V080": "VINTAGEPONYTA,Vintage Ponyta",
-    "V081": "VINTAGERAPIDASH,Vintage Rapidash",
-    "V082": "VINTAGESANDSHREW,Vintage Sandshrew",
-    "V083": "VINTAGESANDSLASH,Vintage Sandslash",
-    "V084": "VINTAGECUBONE,Vintage Cubone",
-    "V085": "VINTAGEMAROWAK,Vintage Marowak",
-    "V086": "VINTAGENATU,Vintage Natu",
-    "V087": "VINTAGEXATU,Vintage Xatu",
-    "V088": "VINTAGESKARMORY,Vintage Skarmory",
-    "V089": "VINTAGERHYHORN,Vintage Rhyhorn",
-    "V090": "VINTAGERHYDON,Vintage Rhydon",
-    "V091": "VINTAGEMURKROW,Vintage Murkrow",
-    "V092": "VINTAGETAUROS,Vintage Tauros",
-    "V093": "VINTAGEMAGNEMITE,Vintage Magnemite",
-    "V094": "VINTAGEMAGNETON,Vintage Magneton",
-    "V095": "VINTAGEELEKID,Vintage Elekid",
-    "V096": "VINTAGEELECTABUZZ,Vintage Electabuzz",
-    "V097": "MEOWSY,Meowsy",
-    "V098": "VINTAGEMEOWTH,Vintage Meowth",
-    "V099": "VINTAGEPERSIAN,Vintage Persian",
-    "V100": "VINTAGEIGGLYBUFF,Vintage Igglybuff",
-    "V101": "VINTAGEJIGGLYPUFF,Vintage Jigglypuff",
-    "V102": "VINTAGEWIGGLYTUFF,Vintage Wigglytuff",
-    "V103": "VINTAGETOTODILE,Vintage Totodile",
-    "V104": "VINTAGECROCONAW,Vintage Croconaw",
-    "V105": "VINTAGEFERALIGATR,Vintage Feraligatr",
-    "V106": "VINTAGEEXEGGCUTE,Vintage Exeggcute",
-    "V107": "VINTAGEEXEGGUTOR,Vintage Exeggutor",
-    "V108": "VINTAGECHANSEY,Vintage Chansey",
-    "V109": "VINTAGEBLISSEY,Vintage Blissey",
-    "V110": "VINTAGESCYTHER,Vintage Scyther",
-    "V111": "VINTAGESCIZOR,Vintage Scizor",
-    "V112": "VINTAGEAIPOM,Vintage Aipom",
-    "V113": "VINTAGEGIRAFARIG,Vintage Girafarig",
-    "V114": "VINTAGEBULBASAUR,Vintage Bulbasaur",
-    "V115": "VINTAGEIVYSAUR,Vintage Ivysaur",
-    "V116": "VINTAGEVENUSAUR,Vintage Venusaur",
-    "V117": "VINTAGERATTATA,Vintage Rattata",
-    "V118": "VINTAGERATICATE,Vintage Raticate",
-    "V119": "VINTAGECYNDAQUIL,Vintage Cyndaquil",
-    "V120": "VINTAGEQUILAVA,Vintage Quilava",
-    "V121": "VINTAGETYPHLOSION,Vintage Typhlosion",
-    "V122": "VINTAGELAPRAS,Vintage Lapras",
-    "V123": "VINTAGEDITTO,Vintage Ditto",
-    "V124": "VINTAGEEEVEE,Vintage Eevee",
-    "V125": "VINTAGEVAPOREON,Vintage Vaporeon",
-    "V126": "VINTAGEJOLTEON,Vintage Jolteon",
-    "V127": "VINTAGEFLAREON,Vintage Flareon",
-    "V128": "VINTAGEESPEON,Vintage Espeon",
-    "V129": "VINTAGEUMBREON,Vintage Umbreon",
-    "V130": "VINTAGEPORYGON,Vintage Porygon",
-    "V131": "VINTAGEPORYGON2,Vintage Porygon2",
-    "V132": "SUNMOLA,Sunmola",
-    "V133": "ANCHORAGE, Anchorage",
-    "V134": "GROTESS,Grotess",
-    "V135": "BOMSEAKER,Bomseaker",
-    "V136": "TIGRETTE,Tigrette",
-    "V137": "ELECTIGER,Electiger",
-    "V138": "WOLFMAN,Wolfman",
-    "V139": "WARWOLF,Warwolf",
-    "V140": "VINTAGEGROWLITHE,Vintage Growlithe",
-    "V141": "VINTAGEARCANINE,Vintage Arcanine",
-    "V142": "VINTAGEMAGBY,Vintage Magby",
-    "V143": "VINTAGEMAGMAR,Vintage Magmar",
-    "V144": "VINTAGEHORSEA,Vintage Horsea",
-    "V145": "VINTAGESEADRA,Vintage Seadra",
-    "V146": "VINTAGEKINGDRA,Vintage Kingdra",
-    "V147": "VINTAGEPSYDUCK,Vintage Psyduck",
-    "V148": "VINTAGEGOLDUCK,Vintage Golduck",
-    "V149": "VINTAGEWOOPER,Vintage Wooper",
-    "V150": "VINTAGEQUAGSIRE,Vintage Quagsire",
-    "V151": "WEEDLEBETA,Weedle Beta",
-    "V152": "KAKUNABETA,Kakuna Beta",
-    "V153": "KASANAGY,Kasanagy",
-    "V154": "TWINZ,Twinz",
-    "V155": "VINTAGEBELLSPROUT,Vintage Bellsprout",
-    "V156": "VINTAGEWEEPINBELL,Vintage Weepinbell",
-    "V157": "VINTAGEVICTREEBELL,Vintage Victreebell",
-    "V158": "BELLMIT,Bellmit",
-    "V159": "VINTAGEGLIGAR,Vintage Gligar",
-    "V160": "VINTAGETANGELA,Vintage Tangela",
-    "V161": "VINTAGESWINUB,Vintage Swinub",
-    "V162": "VINTAGEPILOSWINE,Vintage Piloswine",
-    "V163": "VINTAGEMISDREAVUS,Vintage Misdreavus",
-    "V164": "KURSTRAW,Kurstraw",
-    "V165": "PANGSHI,Pangshi",
-    "V166": "VINTAGEPINECO,Vintage Pineco",
-    "V167": "VINTAGEFORETRESS,Vintage Foretress",
-    "V168": "VINTAGEKANGASKHAN,Vintage Kangaskhan",
-    "V169": "TRIFOX,Trifox",
-    "V170": "VINTAGESUDOWOODO,Vintage Sudowoodo",
-    "V171": "PARA,Para",
-    "V172": "VINTAGEPARAS,Vintage Paras",
-    "V173": "VINTAGEPARASECT,Vintage Parasect",
-    "V174": "VINTAGEMR.MIME,Vintage Mr. Mime",
-    "V175": "VINTAGESLOWPOKE,Vintage Slowpoke",
-    "V176": "VINTAGESLOWBRO,Vintage Slowbro",
-    "V177": "VINTAGESLOWKING,Vintage Slowking",
-    "V178": "VINTAGEMARILL,Vintage Marill",
-    "V179": "VINTAGEAZUMARILL,Vintage Azumarill",
-    "V180": "VINTAGESNORLAX,Vintage Snorlax",
-    "V181": "VINTAGEAERODACTYL,Vintage Aerodactyl",
-    "V182": "GHIFT,Ghift",
-    "V183": "SUNNEE,Sunnee",
-    "V184": "PUDDI,Puddi",
-    "V185": "VINTAGEVENONAT,Vintage Venonat",
-    "V186": "VINTAGEVENOMOTH,Vintage Venomoth",
-    "V187": "VINTAGEHOPPIP,Vintage Hoppip",
-    "V188": "VINTAGESKIPLOOM,Vintage Skiploom",
-    "V189": "VINTAGEJUMPLUFF,Vintage Jumpluff",
-    "V190": "VINTAGEPHANPY,Vintage Phanpy",
-    "V191": "VINTAGEDONPHAN,Vintage Donphan",
-    "V192": "VINTAGEHOOTHOOT,Vintage Hoothoot",
-    "V193": "VINTAGENOCTOWL,Vintage Noctowl",
-    "V194": "GOHNG,Gohng",
-    "V205": "VINTAGEHITMONTOP,Vintage Hitmontop",
-    "V196": "ANIMON,Animon",
-    "V197": "VINTAGEUNKNOWN,Vintage Unknown",
-    "V198": "VINTAGESTANTLER,Vintage Stantler",
-    "V199": "VINTAGECATERPIE,Vintage Caterpie",
-    "V200": "VINTAGEMETAPOD,Vintage Metapod",
-    "V201": "VINTAGEBUTTERFREE,Vintage Butterfree",
-    "V202": "VINTAGETYROGUE,Vintage Tyrogue",
-    "V203": "VINTAGEHITMONLEE,Vintage Hitmonlee",
-    "V204": "VINTAGEHITMONCHAN,Vintage Hitmonchan",
-    "V206": "VINTAGESLUGMA,Vintage Slugma",
-    "V207": "VINTAGEMACARGO,Vintage Macargo"
+    "001": {
+        "InternalName": "SHYLEON",
+        "DisplayName": "Shyleon"
+    },
+    "002": {
+        "InternalName": "TRISHOUT",
+        "DisplayName": "Trishout"
+    },
+    "003": {
+        "InternalName": "SHULONG",
+        "DisplayName": "Shulong"
+    },
+    "004": {
+        "InternalName": "ZIGZAGOON",
+        "DisplayName": "Zigzagoon"
+    },
+    "005": {
+        "InternalName": "LINOONE",
+        "DisplayName": "Linoone"
+    },
+    "006": {
+        "InternalName": "BIDOOF",
+        "DisplayName": "Bidoof"
+    },
+    "007": {
+        "InternalName": "BIBAREL",
+        "DisplayName": "Bibarel"
+    },
+    "008": {
+        "InternalName": "SPARKOWL",
+        "DisplayName": "Sparkowl"
+    },
+    "009": {
+        "InternalName": "SHAWKBIRD",
+        "DisplayName": "Shawkbird"
+    },
+    "010": {
+        "InternalName": "HARROWK",
+        "DisplayName": "Harrowk"
+    },
+    "011": {
+        "InternalName": "WEEDLE",
+        "DisplayName": "Weedle"
+    },
+    "012": {
+        "InternalName": "KAKUNA",
+        "DisplayName": "Kakuna"
+    },
+    "013": {
+        "InternalName": "BEEDRILL",
+        "DisplayName": "Beedrill"
+    },
+    "014": {
+        "InternalName": "LEDYBA",
+        "DisplayName": "Ledyba"
+    },
+    "015": {
+        "InternalName": "LEDIAN",
+        "DisplayName": "Ledian"
+    },
+    "016": {
+        "InternalName": "KRICKETOT",
+        "DisplayName": "Kricketot"
+    },
+    "017": {
+        "InternalName": "KRICKETUNE",
+        "DisplayName": "Kricketune"
+    },
+    "018": {
+        "InternalName": "MAREEP",
+        "DisplayName": "Mareep"
+    },
+    "019": {
+        "InternalName": "FLAAFFY",
+        "DisplayName": "Flaaffy"
+    },
+    "020": {
+        "InternalName": "AMPHAROS",
+        "DisplayName": "Ampharos"
+    },
+    "021": {
+        "InternalName": "YEMIN",
+        "DisplayName": "Yemin"
+    },
+    "022": {
+        "InternalName": "KUNGFUR",
+        "DisplayName": "Kungfur"
+    },
+    "023": {
+        "InternalName": "ABRA",
+        "DisplayName": "Abra"
+    },
+    "024": {
+        "InternalName": "KADABRA",
+        "DisplayName": "Kadabra"
+    },
+    "025": {
+        "InternalName": "ALAKAZAM",
+        "DisplayName": "Alakazam"
+    },
+    "026": {
+        "InternalName": "TAILLOW",
+        "DisplayName": "Taillow"
+    },
+    "027": {
+        "InternalName": "SWELLOW",
+        "DisplayName": "Swellow"
+    },
+    "028": {
+        "InternalName": "WINGULL",
+        "DisplayName": "Wingull"
+    },
+    "029": {
+        "InternalName": "PELIPPER",
+        "DisplayName": "Pelipper"
+    },
+    "030": {
+        "InternalName": "MASGOT",
+        "DisplayName": "Masgot"
+    },
+    "030_1": {
+        "InternalName": "MASGOT",
+        "DisplayName": "Masgot"
+    },
+    "030_2": {
+        "InternalName": "MASGOT",
+        "DisplayName": "Masgot"
+    },
+    "030_3": {
+        "InternalName": "MASGOT",
+        "DisplayName": "Masgot"
+    },
+    "030_4": {
+        "InternalName": "MASGOT",
+        "DisplayName": "Masgot"
+    },
+    "030_5": {
+        "InternalName": "MASGOT",
+        "DisplayName": "Masgot"
+    },
+    "030_6": {
+        "InternalName": "MASGOT",
+        "DisplayName": "Masgot"
+    },
+    "030_7": {
+        "InternalName": "MASGOT",
+        "DisplayName": "Masgot"
+    },
+    "030_8": {
+        "InternalName": "MASGOT",
+        "DisplayName": "Masgot"
+    },
+    "030_9": {
+        "InternalName": "MASGOT",
+        "DisplayName": "Masgot"
+    },
+    "030_10": {
+        "InternalName": "MASGOT",
+        "DisplayName": "Masgot"
+    },
+    "030_11": {
+        "InternalName": "MASGOT",
+        "DisplayName": "Masgot"
+    },
+    "030_12": {
+        "InternalName": "MASGOT",
+        "DisplayName": "Masgot"
+    },
+    "030_13": {
+        "InternalName": "MASGOT",
+        "DisplayName": "Masgot"
+    },
+    "030_14": {
+        "InternalName": "MASGOT",
+        "DisplayName": "Masgot"
+    },
+    "030_15": {
+        "InternalName": "MASGOT",
+        "DisplayName": "Masgot"
+    },
+    "030_16": {
+        "InternalName": "MASGOT",
+        "DisplayName": "Masgot"
+    },
+    "030_17": {
+        "InternalName": "MASGOT",
+        "DisplayName": "Masgot"
+    },
+    "031": {
+        "InternalName": "DWEBBLE",
+        "DisplayName": "Dwebble"
+    },
+    "032": {
+        "InternalName": "CRUSTLE",
+        "DisplayName": "Crustle"
+    },
+    "033": {
+        "InternalName": "BREMAND",
+        "DisplayName": "Bremand"
+    },
+    "033_1": {
+        "InternalName": "BREMAND",
+        "DisplayName": "Bremand"
+    },
+    "033_2": {
+        "InternalName": "BREMAND",
+        "DisplayName": "Bremand"
+    },
+    "033_3": {
+        "InternalName": "BREMAND",
+        "DisplayName": "Bremand"
+    },
+    "034": {
+        "InternalName": "MAGIKARP",
+        "DisplayName": "Magikarp"
+    },
+    "035": {
+        "InternalName": "GYARADOS",
+        "DisplayName": "Gyarados"
+    },
+    "036": {
+        "InternalName": "CORPHISH",
+        "DisplayName": "Corphish"
+    },
+    "037": {
+        "InternalName": "CRAWDAUNT",
+        "DisplayName": "Crawdaunt"
+    },
+    "038": {
+        "InternalName": "FEEBAS",
+        "DisplayName": "Feebas"
+    },
+    "039": {
+        "InternalName": "MILOTIC",
+        "DisplayName": "Milotic"
+    },
+    "040": {
+        "InternalName": "PYUKUMUKU",
+        "DisplayName": "Pyukumuku"
+    },
+    "041": {
+        "InternalName": "REMORAID",
+        "DisplayName": "Remoraid"
+    },
+    "042": {
+        "InternalName": "OCTILLERY",
+        "DisplayName": "Octillery"
+    },
+    "043": {
+        "InternalName": "SANDYGAST",
+        "DisplayName": "Sandygast"
+    },
+    "044": {
+        "InternalName": "PALOSSAND",
+        "DisplayName": "Palossand"
+    },
+    "045": {
+        "InternalName": "CORSOLA",
+        "DisplayName": "Corsola"
+    },
+    "046": {
+        "InternalName": "STARYU",
+        "DisplayName": "Staryu"
+    },
+    "047": {
+        "InternalName": "STARMIE",
+        "DisplayName": "Starmie"
+    },
+    "048": {
+        "InternalName": "INKAY",
+        "DisplayName": "Inkay"
+    },
+    "049": {
+        "InternalName": "MALAMAR",
+        "DisplayName": "Malamar"
+    },
+    "050": {
+        "InternalName": "MANTYKE",
+        "DisplayName": "Mantyke"
+    },
+    "051": {
+        "InternalName": "MANTINE",
+        "DisplayName": "Mantine"
+    },
+    "052": {
+        "InternalName": "POPPLIO",
+        "DisplayName": "Popplio"
+    },
+    "053": {
+        "InternalName": "BRIONNE",
+        "DisplayName": "Brionne"
+    },
+    "054": {
+        "InternalName": "PRIMARINA",
+        "DisplayName": "Primarina"
+    },
+    "055": {
+        "InternalName": "SHUCKLE",
+        "DisplayName": "Shuckle"
+    },
+    "056": {
+        "InternalName": "PHANTUMP",
+        "DisplayName": "Phantump"
+    },
+    "057": {
+        "InternalName": "TREVENANT",
+        "DisplayName": "Trevenant"
+    },
+    "058": {
+        "InternalName": "ODDISH",
+        "DisplayName": "Oddish"
+    },
+    "059": {
+        "InternalName": "GLOOM",
+        "DisplayName": "Gloom"
+    },
+    "060": {
+        "InternalName": "VILEPLUME",
+        "DisplayName": "Vileplume"
+    },
+    "061": {
+        "InternalName": "BELLOSSOM",
+        "DisplayName": "Bellossom"
+    },
+    "061_1": {
+        "InternalName": "BELLOSSOM",
+        "DisplayName": "Bellossom"
+    },
+    "062": {
+        "InternalName": "MORELULL",
+        "DisplayName": "Morelull"
+    },
+    "063": {
+        "InternalName": "SHIINOTIC",
+        "DisplayName": "Shiinotic"
+    },
+    "064": {
+        "InternalName": "ZUBAT",
+        "DisplayName": "Zubat"
+    },
+    "065": {
+        "InternalName": "GOLBAT",
+        "DisplayName": "Golbat"
+    },
+    "066": {
+        "InternalName": "CROBAT",
+        "DisplayName": "Crobat"
+    },
+    "067": {
+        "InternalName": "CARVANHA",
+        "DisplayName": "Carvanha"
+    },
+    "068": {
+        "InternalName": "SHARPEDO",
+        "DisplayName": "Sharpedo"
+    },
+    "069": {
+        "InternalName": "MAREANIE",
+        "DisplayName": "Mareanie"
+    },
+    "070": {
+        "InternalName": "TOXAPEX",
+        "DisplayName": "Toxapex"
+    },
+    "071": {
+        "InternalName": "GASTLY",
+        "DisplayName": "Gastly"
+    },
+    "072": {
+        "InternalName": "HAUNTER",
+        "DisplayName": "Haunter"
+    },
+    "073": {
+        "InternalName": "GENGAR",
+        "DisplayName": "Gengar"
+    },
+    "074": {
+        "InternalName": "GRIMER",
+        "DisplayName": "Grimer"
+    },
+    "074_1": {
+        "InternalName": "GRIMER",
+        "DisplayName": "Grimer"
+    },
+    "075": {
+        "InternalName": "MUK",
+        "DisplayName": "Muk"
+    },
+    "075_1": {
+        "InternalName": "MUK",
+        "DisplayName": "Muk"
+    },
+    "076": {
+        "InternalName": "PUPPILLON",
+        "DisplayName": "Puppillon"
+    },
+    "077": {
+        "InternalName": "HANGEAD",
+        "DisplayName": "Hangead"
+    },
+    "078": {
+        "InternalName": "NUNVIL",
+        "DisplayName": "Nunvil"
+    },
+    "079": {
+        "InternalName": "WHISTERACT",
+        "DisplayName": "Whisteract"
+    },
+    "080": {
+        "InternalName": "ONIX",
+        "DisplayName": "Onix"
+    },
+    "081": {
+        "InternalName": "STEELIX",
+        "DisplayName": "Steelix"
+    },
+    "082": {
+        "InternalName": "CUBCHOO",
+        "DisplayName": "Cubchoo"
+    },
+    "083": {
+        "InternalName": "BEARTIC",
+        "DisplayName": "Beartic"
+    },
+    "084": {
+        "InternalName": "GEODUDE",
+        "DisplayName": "Geodude"
+    },
+    "084_1": {
+        "InternalName": "GEODUDE",
+        "DisplayName": "Geodude"
+    },
+    "085": {
+        "InternalName": "GRAVELER",
+        "DisplayName": "Graveler"
+    },
+    "085_1": {
+        "InternalName": "GRAVELER",
+        "DisplayName": "Graveler"
+    },
+    "086": {
+        "InternalName": "GOLEM",
+        "DisplayName": "Golem"
+    },
+    "086_1": {
+        "InternalName": "GOLEM",
+        "DisplayName": "Golem"
+    },
+    "087": {
+        "InternalName": "ROGGENROLA",
+        "DisplayName": "Roggenrola"
+    },
+    "088": {
+        "InternalName": "BOLDORE",
+        "DisplayName": "Boldore"
+    },
+    "089": {
+        "InternalName": "GIGALITH",
+        "DisplayName": "Gigalith"
+    },
+    "090": {
+        "InternalName": "BERGMITE",
+        "DisplayName": "Bergmite"
+    },
+    "091": {
+        "InternalName": "AVALUGG",
+        "DisplayName": "Avalugg"
+    },
+    "092": {
+        "InternalName": "SNEASEL",
+        "DisplayName": "Sneasel"
+    },
+    "093": {
+        "InternalName": "WEAVILE",
+        "DisplayName": "Weavile"
+    },
+    "093_1": {
+        "InternalName": "WEAVILE",
+        "DisplayName": "Weavile"
+    },
+    "094": {
+        "InternalName": "BLINGRIMM",
+        "DisplayName": "Blingrimm"
+    },
+    "095": {
+        "InternalName": "BLINGRUDGE",
+        "DisplayName": "Blingrudge"
+    },
+    "096": {
+        "InternalName": "SPHEAL",
+        "DisplayName": "Spheal"
+    },
+    "097": {
+        "InternalName": "SEALEO",
+        "DisplayName": "Sealeo"
+    },
+    "098": {
+        "InternalName": "WALREIN",
+        "DisplayName": "Walrein"
+    },
+    "099": {
+        "InternalName": "SEEL",
+        "DisplayName": "Seel"
+    },
+    "100": {
+        "InternalName": "DEWGONG",
+        "DisplayName": "Dewgong"
+    },
+    "101": {
+        "InternalName": "HIKILOO",
+        "DisplayName": "Hikiloo"
+    },
+    "102": {
+        "InternalName": "MYLOMUTE",
+        "DisplayName": "Mylomute"
+    },
+    "103": {
+        "InternalName": "BUIZEL",
+        "DisplayName": "Buizel"
+    },
+    "104": {
+        "InternalName": "FLOATZEL",
+        "DisplayName": "Floatzel"
+    },
+    "105": {
+        "InternalName": "KIDOON",
+        "DisplayName": "Kidoon"
+    },
+    "106": {
+        "InternalName": "HONCHEN",
+        "DisplayName": "Honchen"
+    },
+    "107": {
+        "InternalName": "SMEARGLE",
+        "DisplayName": "Smeargle"
+    },
+    "108": {
+        "InternalName": "MEOWTHELDIW",
+        "DisplayName": "Meowth"
+    },
+    "108_1": {
+        "InternalName": "MEOWTH",
+        "DisplayName": "Meowth"
+    },
+    "108_2": {
+        "InternalName": "MEOWTH",
+        "DisplayName": "Meowth"
+    },
+    "109": {
+        "InternalName": "PERSIANELDIW",
+        "DisplayName": "Persage"
+    },
+    "109_1": {
+        "InternalName": "PERSIAN",
+        "DisplayName": "Persian"
+    },
+    "109_2": {
+        "InternalName": "PERSIAN",
+        "DisplayName": "Persian"
+    },
+    "110": {
+        "InternalName": "SNUBBULL",
+        "DisplayName": "Snubbull"
+    },
+    "111": {
+        "InternalName": "GRANBULL",
+        "DisplayName": "Granbull"
+    },
+    "112": {
+        "InternalName": "DROWZEE",
+        "DisplayName": "Drowzee"
+    },
+    "113": {
+        "InternalName": "HYPNO",
+        "DisplayName": "Hypno"
+    },
+    "114": {
+        "InternalName": "KOINKOIN",
+        "DisplayName": "Koinkoin"
+    },
+    "115": {
+        "InternalName": "BEEFLE",
+        "DisplayName": "Beefle"
+    },
+    "116": {
+        "InternalName": "PUNCHBUG",
+        "DisplayName": "Punchbug"
+    },
+    "117": {
+        "InternalName": "HERCURCULES",
+        "DisplayName": "Hercurcules"
+    },
+    "118": {
+        "InternalName": "COMBEE",
+        "DisplayName": "Combee"
+    },
+    "119": {
+        "InternalName": "VESPIQUEN",
+        "DisplayName": "Vespiquen"
+    },
+    "120": {
+        "InternalName": "CHIGAMI",
+        "DisplayName": "Chigami"
+    },
+    "121": {
+        "InternalName": "GRUDAKO",
+        "DisplayName": "Grudako"
+    },
+    "122": {
+        "InternalName": "SABOLT",
+        "DisplayName": "Sabolt"
+    },
+    "123": {
+        "InternalName": "SEWADDLE",
+        "DisplayName": "Sewaddle"
+    },
+    "124": {
+        "InternalName": "SWADLOON",
+        "DisplayName": "Swadloon"
+    },
+    "125": {
+        "InternalName": "LEAVANNY",
+        "DisplayName": "Leavanny"
+    },
+    "126": {
+        "InternalName": "AUDINO",
+        "DisplayName": "Audino"
+    },
+    "127": {
+        "InternalName": "CHIKORITA",
+        "DisplayName": "Chikorita"
+    },
+    "128": {
+        "InternalName": "BAYLEEF",
+        "DisplayName": "Bayleef"
+    },
+    "129": {
+        "InternalName": "MEGANIUM",
+        "DisplayName": "Meganium"
+    },
+    "130": {
+        "InternalName": "COTTONEE",
+        "DisplayName": "Cottonee"
+    },
+    "131": {
+        "InternalName": "WHIMSICOTT",
+        "DisplayName": "Whimsicott"
+    },
+    "132": {
+        "InternalName": "YANMA",
+        "DisplayName": "Yanma"
+    },
+    "133": {
+        "InternalName": "YANMEGA",
+        "DisplayName": "Yanmega"
+    },
+    "134": {
+        "InternalName": "HERACROSS",
+        "DisplayName": "Heracross"
+    },
+    "135": {
+        "InternalName": "EKANS",
+        "DisplayName": "Ekans"
+    },
+    "136": {
+        "InternalName": "ARBOK",
+        "DisplayName": "Arbok"
+    },
+    "137": {
+        "InternalName": "CROAGUNK",
+        "DisplayName": "Croagunk"
+    },
+    "138": {
+        "InternalName": "TOXICROAK",
+        "DisplayName": "Toxicroak"
+    },
+    "139": {
+        "InternalName": "STUNKY",
+        "DisplayName": "Stunky"
+    },
+    "140": {
+        "InternalName": "SKUNTANK",
+        "DisplayName": "Skuntank"
+    },
+    "141": {
+        "InternalName": "DITTO",
+        "DisplayName": "Ditto"
+    },
+    "142": {
+        "InternalName": "PICHU",
+        "DisplayName": "Pichu"
+    },
+    "143": {
+        "InternalName": "PIKACHU",
+        "DisplayName": "Pikachu"
+    },
+    "144": {
+        "InternalName": "RAICHU",
+        "DisplayName": "Raichu"
+    },
+    "144_1": {
+        "InternalName": "RAICHU",
+        "DisplayName": "Raichu"
+    },
+    "145": {
+        "InternalName": "GACHIGACHOO",
+        "DisplayName": "Gachigachoo"
+    },
+    "146": {
+        "InternalName": "MILTANK",
+        "DisplayName": "Miltank"
+    },
+    "147": {
+        "InternalName": "BUDEW",
+        "DisplayName": "Budew"
+    },
+    "148": {
+        "InternalName": "ROSELIA",
+        "DisplayName": "Roselia"
+    },
+    "149": {
+        "InternalName": "ROSERADE",
+        "DisplayName": "Roserade"
+    },
+    "150": {
+        "InternalName": "BUNEARY",
+        "DisplayName": "Buneary"
+    },
+    "151": {
+        "InternalName": "LOPUNNY",
+        "DisplayName": "Lopunny"
+    },
+    "152": {
+        "InternalName": "MINCCINO",
+        "DisplayName": "Minccino"
+    },
+    "153": {
+        "InternalName": "CINCCINO",
+        "DisplayName": "Cinccino"
+    },
+    "154": {
+        "InternalName": "SWIRLIX",
+        "DisplayName": "Swirlix"
+    },
+    "155": {
+        "InternalName": "SLURPUFF",
+        "DisplayName": "Slurpuff"
+    },
+    "156": {
+        "InternalName": "HYSTEARIC",
+        "DisplayName": "Hystearic"
+    },
+    "157": {
+        "InternalName": "WYSTEARIA",
+        "DisplayName": "Wystearia"
+    },
+    "158": {
+        "InternalName": "WHISMUR",
+        "DisplayName": "Whismur"
+    },
+    "159": {
+        "InternalName": "LOUDRED",
+        "DisplayName": "Loudred"
+    },
+    "160": {
+        "InternalName": "EXPLOUD",
+        "DisplayName": "Exploud"
+    },
+    "161": {
+        "InternalName": "PLUSLE",
+        "DisplayName": "Plusle"
+    },
+    "162": {
+        "InternalName": "MINUN",
+        "DisplayName": "Minun"
+    },
+    "163": {
+        "InternalName": "PEPEQUENO",
+        "DisplayName": "Pepequeno"
+    },
+    "164": {
+        "InternalName": "SCOVILE",
+        "DisplayName": "Scovile"
+    },
+    "165": {
+        "InternalName": "EXCALIBOULD",
+        "DisplayName": "Excalibould"
+    },
+    "166": {
+        "InternalName": "MADIEVAL",
+        "DisplayName": "Madieval"
+    },
+    "167": {
+        "InternalName": "DIGLETT",
+        "DisplayName": "Diglett"
+    },
+    "167_1": {
+        "InternalName": "DIGLETT",
+        "DisplayName": "Diglett"
+    },
+    "168": {
+        "InternalName": "DUGTRIO",
+        "DisplayName": "Dugtrio"
+    },
+    "168_1": {
+        "InternalName": "DUGTRIO",
+        "DisplayName": "Dugtrio"
+    },
+    "169": {
+        "InternalName": "DRILBUR",
+        "DisplayName": "Drilbur"
+    },
+    "170": {
+        "InternalName": "EXCADRILL",
+        "DisplayName": "Excadrill"
+    },
+    "171": {
+        "InternalName": "ARON",
+        "DisplayName": "Aron"
+    },
+    "172": {
+        "InternalName": "LAIRON",
+        "DisplayName": "Lairon"
+    },
+    "173": {
+        "InternalName": "AGGRON",
+        "DisplayName": "Aggron"
+    },
+    "174": {
+        "InternalName": "LARVITAR",
+        "DisplayName": "Larvitar"
+    },
+    "175": {
+        "InternalName": "PUPITAR",
+        "DisplayName": "Pupitar"
+    },
+    "176": {
+        "InternalName": "TYRANITAR",
+        "DisplayName": "Tyranitar"
+    },
+    "177": {
+        "InternalName": "KLINK",
+        "DisplayName": "Klink"
+    },
+    "178": {
+        "InternalName": "KLANG",
+        "DisplayName": "Klang"
+    },
+    "179": {
+        "InternalName": "KLINKLANG",
+        "DisplayName": "Klinklang"
+    },
+    "180": {
+        "InternalName": "TYNAMO",
+        "DisplayName": "Tynamo"
+    },
+    "181": {
+        "InternalName": "EELEKTRIK",
+        "DisplayName": "Eelektrik"
+    },
+    "182": {
+        "InternalName": "EELEKTROSS",
+        "DisplayName": "Eelektross"
+    },
+    "183": {
+        "InternalName": "ROCKAPYE",
+        "DisplayName": "Rockapye"
+    },
+    "184": {
+        "InternalName": "TROGLOLITH",
+        "DisplayName": "Troglolith"
+    },
+    "185": {
+        "InternalName": "SPUTNINK",
+        "DisplayName": "Sputnink"
+    },
+    "186": {
+        "InternalName": "NEBYURA",
+        "DisplayName": "Nebyura"
+    },
+    "187": {
+        "InternalName": "HIPPOPOTAS",
+        "DisplayName": "Hippopotas"
+    },
+    "188": {
+        "InternalName": "HIPPOWDON",
+        "DisplayName": "Hippowdon"
+    },
+    "189": {
+        "InternalName": "BIRIGIRI",
+        "DisplayName": "Birigiri"
+    },
+    "190": {
+        "InternalName": "CHUBIBURNY",
+        "DisplayName": "Chubiburny"
+    },
+    "191": {
+        "InternalName": "GOOMBEAR",
+        "DisplayName": "Goombear"
+    },
+    "192": {
+        "InternalName": "DRATINI",
+        "DisplayName": "Dratini"
+    },
+    "193": {
+        "InternalName": "DRAGONAIR",
+        "DisplayName": "Dragonair"
+    },
+    "194": {
+        "InternalName": "DRAGONITE",
+        "DisplayName": "Dragonite"
+    },
+    "195": {
+        "InternalName": "TRAPINCH",
+        "DisplayName": "Trapinch"
+    },
+    "196": {
+        "InternalName": "VIBRAVA",
+        "DisplayName": "Vibrava"
+    },
+    "197": {
+        "InternalName": "FLYGON",
+        "DisplayName": "Flygon"
+    },
+    "198": {
+        "InternalName": "DRUDDIGON",
+        "DisplayName": "Druddigon"
+    },
+    "199": {
+        "InternalName": "MANTICOEUR",
+        "DisplayName": "Manticoeur"
+    },
+    "200": {
+        "InternalName": "FATAIL",
+        "DisplayName": "Fatail"
+    },
+    "201": {
+        "InternalName": "AXEW",
+        "DisplayName": "Axew"
+    },
+    "202": {
+        "InternalName": "FRAXURE",
+        "DisplayName": "Fraxure"
+    },
+    "203": {
+        "InternalName": "HAXORUS",
+        "DisplayName": "Haxorus"
+    },
+    "204": {
+        "InternalName": "NOIBAT",
+        "DisplayName": "Noibat"
+    },
+    "205": {
+        "InternalName": "NOIVERN",
+        "DisplayName": "Noivern"
+    },
+    "206": {
+        "InternalName": "TURTONATOR",
+        "DisplayName": "Turtonator"
+    },
+    "207": {
+        "InternalName": "CHARMANDER",
+        "DisplayName": "Charmander"
+    },
+    "208": {
+        "InternalName": "CHARMELEON",
+        "DisplayName": "Charmeleon"
+    },
+    "209": {
+        "InternalName": "CHARIZARD",
+        "DisplayName": "Charizard"
+    },
+    "210": {
+        "InternalName": "VULPIX",
+        "DisplayName": "Vulpix"
+    },
+    "210_1": {
+        "InternalName": "VULPIX",
+        "DisplayName": "Vulpix"
+    },
+    "211": {
+        "InternalName": "NINETALES",
+        "DisplayName": "Ninetales"
+    },
+    "211_1": {
+        "InternalName": "NINETALES",
+        "DisplayName": "Ninetales"
+    },
+    "212": {
+        "InternalName": "KOFFING",
+        "DisplayName": "Koffing"
+    },
+    "213": {
+        "InternalName": "WEEZING",
+        "DisplayName": "Weezing"
+    },
+    "214": {
+        "InternalName": "HOUNDOUR",
+        "DisplayName": "Houndour"
+    },
+    "215": {
+        "InternalName": "HOUNDOOM",
+        "DisplayName": "Houndoom"
+    },
+    "216": {
+        "InternalName": "NUMEL",
+        "DisplayName": "Numel"
+    },
+    "217": {
+        "InternalName": "CAMERUPT",
+        "DisplayName": "Camerupt"
+    },
+    "218": {
+        "InternalName": "TORKOAL",
+        "DisplayName": "Torkoal"
+    },
+    "219": {
+        "InternalName": "REINDAR",
+        "DisplayName": "Reindear"
+    },
+    "220": {
+        "InternalName": "REINDIGO",
+        "DisplayName": "Reindigo"
+    },
+    "221": {
+        "InternalName": "SOSQWATCH",
+        "DisplayName": "Sosqwatch"
+    },
+    "222": {
+        "InternalName": "SQUIRTLE",
+        "DisplayName": "Squirtle"
+    },
+    "223": {
+        "InternalName": "WARTORTLE",
+        "DisplayName": "Wartortle"
+    },
+    "224": {
+        "InternalName": "BLASTOISE",
+        "DisplayName": "Blastoise"
+    },
+    "225": {
+        "InternalName": "TEDDIURSA",
+        "DisplayName": "Teddiursa"
+    },
+    "226": {
+        "InternalName": "URSARING",
+        "DisplayName": "Ursaring"
+    },
+    "227": {
+        "InternalName": "ABSOL",
+        "DisplayName": "Absol"
+    },
+    "228": {
+        "InternalName": "RIOLU",
+        "DisplayName": "Riolu"
+    },
+    "229": {
+        "InternalName": "LUCARIO",
+        "DisplayName": "Lucario"
+    },
+    "230": {
+        "InternalName": "DRAMPA",
+        "DisplayName": "Drampa"
+    },
+    "231": {
+        "InternalName": "PONYTA",
+        "DisplayName": "Ponyta"
+    },
+    "232": {
+        "InternalName": "RAPIDASH",
+        "DisplayName": "Rapidash"
+    },
+    "233": {
+        "InternalName": "SANDSHREW",
+        "DisplayName": "Sandshrew"
+    },
+    "233_1": {
+        "InternalName": "SANDSHREW",
+        "DisplayName": "Sandshrew"
+    },
+    "234": {
+        "InternalName": "SANDSLASH",
+        "DisplayName": "Sandslash"
+    },
+    "234_1": {
+        "InternalName": "SANDSLASH",
+        "DisplayName": "Sandslash"
+    },
+    "235": {
+        "InternalName": "CUBONE",
+        "DisplayName": "Cubone"
+    },
+    "236": {
+        "InternalName": "MAROWAK",
+        "DisplayName": "Marowak"
+    },
+    "236_1": {
+        "InternalName": "MAROWAK",
+        "DisplayName": "Marowak"
+    },
+    "237": {
+        "InternalName": "NATU",
+        "DisplayName": "Natu"
+    },
+    "238": {
+        "InternalName": "XATU",
+        "DisplayName": "Xatu"
+    },
+    "239": {
+        "InternalName": "CACNEA",
+        "DisplayName": "Cacnea"
+    },
+    "240": {
+        "InternalName": "CACTURNE",
+        "DisplayName": "Cacturne"
+    },
+    "241": {
+        "InternalName": "RUFFLET",
+        "DisplayName": "Rufflet"
+    },
+    "242": {
+        "InternalName": "BRAVIARY",
+        "DisplayName": "Braviary"
+    },
+    "243": {
+        "InternalName": "VULLABY",
+        "DisplayName": "Vullaby"
+    },
+    "244": {
+        "InternalName": "MANDIBUZZ",
+        "DisplayName": "Mandibuzz"
+    },
+    "245": {
+        "InternalName": "VROOMBUG",
+        "DisplayName": "Vroombug"
+    },
+    "246": {
+        "InternalName": "SKRAVROOM",
+        "DisplayName": "Skravroom"
+    },
+    "247": {
+        "InternalName": "CHIKABOO",
+        "DisplayName": "Chikaboo"
+    },
+    "248": {
+        "InternalName": "PECKABONE",
+        "DisplayName": "Peckabone"
+    },
+    "249": {
+        "InternalName": "REXQUIEM",
+        "DisplayName": "Rexquiem"
+    },
+    "250": {
+        "InternalName": "KECLEON",
+        "DisplayName": "Kecleon"
+    },
+    "251": {
+        "InternalName": "SKARMORY",
+        "DisplayName": "Skarmory"
+    },
+    "252": {
+        "InternalName": "RHYHORN",
+        "DisplayName": "Rhyhorn"
+    },
+    "253": {
+        "InternalName": "RHYDON",
+        "DisplayName": "Rhydon"
+    },
+    "254": {
+        "InternalName": "RHYPERIOR",
+        "DisplayName": "Rhyperior"
+    },
+    "255": {
+        "InternalName": "BELDUM",
+        "DisplayName": "Beldum"
+    },
+    "256": {
+        "InternalName": "METANG",
+        "DisplayName": "Metang"
+    },
+    "257": {
+        "InternalName": "METAGROSS",
+        "DisplayName": "Metagross"
+    },
+    "258": {
+        "InternalName": "ELGYEM",
+        "DisplayName": "Elgyem"
+    },
+    "259": {
+        "InternalName": "BEHEEYEM",
+        "DisplayName": "Beheeyem"
+    },
+    "260": {
+        "InternalName": "LITWICK",
+        "DisplayName": "Litwick"
+    },
+    "261": {
+        "InternalName": "LAMPENT",
+        "DisplayName": "Lampent"
+    },
+    "262": {
+        "InternalName": "CHANDELURE",
+        "DisplayName": "Chandelure"
+    },
+    "263": {
+        "InternalName": "MIMIKYU",
+        "DisplayName": "Mimikyu"
+    },
+    "264": {
+        "InternalName": "MURKROW",
+        "DisplayName": "Murkrow"
+    },
+    "265": {
+        "InternalName": "HONCHKROW",
+        "DisplayName": "Honchkrow"
+    },
+    "266": {
+        "InternalName": "SCARACNO",
+        "DisplayName": "Scaracno"
+    },
+    "267": {
+        "InternalName": "SCARACLUO",
+        "DisplayName": "Scaracluo"
+    },
+    "268": {
+        "InternalName": "SCARPHASMO",
+        "DisplayName": "Scarphasmo"
+    },
+    "269": {
+        "InternalName": "TAUROS",
+        "DisplayName": "Tauros"
+    },
+    "270": {
+        "InternalName": "MAGNEMITE",
+        "DisplayName": "Magnemite"
+    },
+    "271": {
+        "InternalName": "MAGNETON",
+        "DisplayName": "Magneton"
+    },
+    "272": {
+        "InternalName": "MAGNEZONE",
+        "DisplayName": "Magnezone"
+    },
+    "273": {
+        "InternalName": "ELEKID",
+        "DisplayName": "Elekid"
+    },
+    "274": {
+        "InternalName": "ELECTABUZZ",
+        "DisplayName": "Electabuzz"
+    },
+    "275": {
+        "InternalName": "ELECTIVIRE",
+        "DisplayName": "Electivire"
+    },
+    "276": {
+        "InternalName": "BOUFFALANT",
+        "DisplayName": "Bouffalant"
+    },
+    "277": {
+        "InternalName": "JOLTIK",
+        "DisplayName": "Joltik"
+    },
+    "278": {
+        "InternalName": "GALVANTULA",
+        "DisplayName": "Galvantula"
+    },
+    "279": {
+        "InternalName": "SCRAGGY",
+        "DisplayName": "Scraggy"
+    },
+    "280": {
+        "InternalName": "SCRAFTY",
+        "DisplayName": "Scrafty"
+    },
+    "281": {
+        "InternalName": "SPINDA",
+        "DisplayName": "Spinda"
+    },
+    "282": {
+        "InternalName": "TOKAKLE",
+        "DisplayName": "Tokakle"
+    },
+    "283": {
+        "InternalName": "BLITZLE",
+        "DisplayName": "Blitzle"
+    },
+    "284": {
+        "InternalName": "ZEBSTRIKA",
+        "DisplayName": "Zebstrika"
+    },
+    "285": {
+        "InternalName": "LITTEN",
+        "DisplayName": "Litten"
+    },
+    "286": {
+        "InternalName": "TORRACAT",
+        "DisplayName": "Torracat"
+    },
+    "287": {
+        "InternalName": "INCINEROAR",
+        "DisplayName": "Incineroar"
+    },
+    "288": {
+        "InternalName": "IGGLYBUFF",
+        "DisplayName": "Igglybuff"
+    },
+    "289": {
+        "InternalName": "JIGGLYPUFF",
+        "DisplayName": "Jigglypuff"
+    },
+    "290": {
+        "InternalName": "WIGGLYTUFF",
+        "DisplayName": "Wigglytuff"
+    },
+    "291": {
+        "InternalName": "PACHIRISU",
+        "DisplayName": "Pachirisu"
+    },
+    "292": {
+        "InternalName": "TIMBURR",
+        "DisplayName": "Timburr"
+    },
+    "293": {
+        "InternalName": "GURDURR",
+        "DisplayName": "Gurdurr"
+    },
+    "294": {
+        "InternalName": "CONKELDURR",
+        "DisplayName": "Conkeldurr"
+    },
+    "295": {
+        "InternalName": "PAWNIARD",
+        "DisplayName": "Pawniard"
+    },
+    "296": {
+        "InternalName": "BISHARP",
+        "DisplayName": "Bisharp"
+    },
+    "297": {
+        "InternalName": "SANDILE",
+        "DisplayName": "Sandile"
+    },
+    "298": {
+        "InternalName": "KROKOROK",
+        "DisplayName": "Krokorok"
+    },
+    "299": {
+        "InternalName": "KROOKODILE",
+        "DisplayName": "Krookodile"
+    },
+    "300": {
+        "InternalName": "TOTODILE",
+        "DisplayName": "Totodile"
+    },
+    "301": {
+        "InternalName": "CROCONAW",
+        "DisplayName": "Croconaw"
+    },
+    "302": {
+        "InternalName": "FERALIGATR",
+        "DisplayName": "Feraligatr"
+    },
+    "303": {
+        "InternalName": "EXEGGCUTE",
+        "DisplayName": "Exeggcute"
+    },
+    "304": {
+        "InternalName": "EXEGGUTOR",
+        "DisplayName": "Exeggutor"
+    },
+    "304_1": {
+        "InternalName": "EXEGGUTOR",
+        "DisplayName": "Exeggutor"
+    },
+    "305": {
+        "InternalName": "HAPPINY",
+        "DisplayName": "Happiny"
+    },
+    "306": {
+        "InternalName": "CHANSEY",
+        "DisplayName": "Chansey"
+    },
+    "307": {
+        "InternalName": "BLISSEY",
+        "DisplayName": "Blissey"
+    },
+    "308": {
+        "InternalName": "DONANAS",
+        "DisplayName": "Donanas"
+    },
+    "309": {
+        "InternalName": "SCYTHER",
+        "DisplayName": "Scyther"
+    },
+    "310": {
+        "InternalName": "SCIZOR",
+        "DisplayName": "Scizor"
+    },
+    "311": {
+        "InternalName": "ROWLET",
+        "DisplayName": "Rowlet"
+    },
+    "312": {
+        "InternalName": "DARTRIX",
+        "DisplayName": "Dartrix"
+    },
+    "313": {
+        "InternalName": "DECIDUEYE",
+        "DisplayName": "Decidueye"
+    },
+    "314": {
+        "InternalName": "PASSIMIAN",
+        "DisplayName": "Passimian"
+    },
+    "315": {
+        "InternalName": "AIPOM",
+        "DisplayName": "Aipom"
+    },
+    "316": {
+        "InternalName": "AMBIPOM",
+        "DisplayName": "Ambipom"
+    },
+    "317": {
+        "InternalName": "GIRAFARIG",
+        "DisplayName": "Girafarig"
+    },
+    "318": {
+        "InternalName": "CHATOT",
+        "DisplayName": "Chatot"
+    },
+    "319": {
+        "InternalName": "LITLEO",
+        "DisplayName": "Litleo"
+    },
+    "320": {
+        "InternalName": "PYROAR",
+        "DisplayName": "Pyroar"
+    },
+    "321": {
+        "InternalName": "TROPIUS",
+        "DisplayName": "Tropius"
+    },
+    "322": {
+        "InternalName": "CARNIVINE",
+        "DisplayName": "Carnivine"
+    },
+    "323": {
+        "InternalName": "BULBASAUR",
+        "DisplayName": "Bulbasaur"
+    },
+    "324": {
+        "InternalName": "IVYSAUR",
+        "DisplayName": "Ivysaur"
+    },
+    "325": {
+        "InternalName": "VENUSAUR",
+        "DisplayName": "Venusaur"
+    },
+    "326": {
+        "InternalName": "SIGILYPH",
+        "DisplayName": "Sigilyph"
+    },
+    "327": {
+        "InternalName": "BALTOY",
+        "DisplayName": "Baltoy"
+    },
+    "328": {
+        "InternalName": "CLAYDOL",
+        "DisplayName": "Claydol"
+    },
+    "329": {
+        "InternalName": "SPIRITOMB",
+        "DisplayName": "Spiritomb"
+    },
+    "330": {
+        "InternalName": "YAMASK",
+        "DisplayName": "Yamask"
+    },
+    "331": {
+        "InternalName": "COFAGRIGUS",
+        "DisplayName": "Cofagrigus"
+    },
+    "332": {
+        "InternalName": "HAWLUCHA",
+        "DisplayName": "Hawlucha"
+    },
+    "333": {
+        "InternalName": "NOSEPASS",
+        "DisplayName": "Nosepass"
+    },
+    "334": {
+        "InternalName": "PROBOPASS",
+        "DisplayName": "Probopass"
+    },
+    "335": {
+        "InternalName": "RATTATA",
+        "DisplayName": "Rattata"
+    },
+    "335_1": {
+        "InternalName": "RATTATA",
+        "DisplayName": "Rattata"
+    },
+    "336": {
+        "InternalName": "RATICATE",
+        "DisplayName": "Raticate"
+    },
+    "336_1": {
+        "InternalName": "RATICATE",
+        "DisplayName": "Raticate"
+    },
+    "337": {
+        "InternalName": "CYNDAQUIL",
+        "DisplayName": "Cyndaquil"
+    },
+    "338": {
+        "InternalName": "QUILAVA",
+        "DisplayName": "Quilava"
+    },
+    "339": {
+        "InternalName": "TYPHLOSION",
+        "DisplayName": "Typhlosion"
+    },
+    "340": {
+        "InternalName": "GULPIN",
+        "DisplayName": "Gulpin"
+    },
+    "341": {
+        "InternalName": "SWALOT",
+        "DisplayName": "Swalot"
+    },
+    "342": {
+        "InternalName": "TRUBBISH",
+        "DisplayName": "Trubbish"
+    },
+    "343": {
+        "InternalName": "GARBODOR",
+        "DisplayName": "Garbodor"
+    },
+    "344": {
+        "InternalName": "CHIMAOOZE",
+        "DisplayName": "Chimaooze"
+    },
+    "345": {
+        "InternalName": "CLAMPERL",
+        "DisplayName": "Clamperl"
+    },
+    "346": {
+        "InternalName": "HUNTAIL",
+        "DisplayName": "Huntail"
+    },
+    "347": {
+        "InternalName": "GOREBYSS",
+        "DisplayName": "Gorebyss"
+    },
+    "348": {
+        "InternalName": "ALOMOMOLA",
+        "DisplayName": "Alomomola"
+    },
+    "349": {
+        "InternalName": "LAPRAS",
+        "DisplayName": "Lapras"
+    },
+    "350": {
+        "InternalName": "EEVEE",
+        "DisplayName": "Eevee"
+    },
+    "351": {
+        "InternalName": "VAPOREON",
+        "DisplayName": "Vaporeon"
+    },
+    "352": {
+        "InternalName": "JOLTEON",
+        "DisplayName": "Jolteon"
+    },
+    "353": {
+        "InternalName": "FLAREON",
+        "DisplayName": "Flareon"
+    },
+    "354": {
+        "InternalName": "ESPEON",
+        "DisplayName": "Espeon"
+    },
+    "355": {
+        "InternalName": "UMBREON",
+        "DisplayName": "Umbreon"
+    },
+    "356": {
+        "InternalName": "LEAFEON",
+        "DisplayName": "Leafeon"
+    },
+    "357": {
+        "InternalName": "GLACEON",
+        "DisplayName": "Glaceon"
+    },
+    "358": {
+        "InternalName": "SYLVEON",
+        "DisplayName": "Sylveon"
+    },
+    "359": {
+        "InternalName": "BANDEON",
+        "DisplayName": "Bandeon"
+    },
+    "360": {
+        "InternalName": "SCALEON",
+        "DisplayName": "Scaleon"
+    },
+    "361": {
+        "InternalName": "PORYGON",
+        "DisplayName": "Porygon"
+    },
+    "362": {
+        "InternalName": "PORYGON2",
+        "DisplayName": "Porygon2"
+    },
+    "363": {
+        "InternalName": "PORYGONZ",
+        "DisplayName": "Porygon-Z"
+    },
+    "364": {
+        "InternalName": "PORYGONWES",
+        "DisplayName": "Porygon-WES"
+    },
+    "365": {
+        "InternalName": "DUSMEE",
+        "DisplayName": "Dusmee"
+    },
+    "366": {
+        "InternalName": "EGOHISS",
+        "DisplayName": "Egohiss"
+    },
+    "367": {
+        "InternalName": "EGORGEON",
+        "DisplayName": "Egorgeon"
+    },
+    "368": {
+        "InternalName": "CHIRIPE",
+        "DisplayName": "Chiripe"
+    },
+    "369": {
+        "InternalName": "BATNANA",
+        "DisplayName": "Batnana"
+    },
+    "370": {
+        "InternalName": "ERBA3",
+        "DisplayName": "Vesperfum"
+    },
+    "371": {
+        "InternalName": "FUOCO1",
+        "DisplayName": "Croakling"
+    },
+    "372": {
+        "InternalName": "FUOCO2",
+        "DisplayName": "Bullverin"
+    },
+    "373": {
+        "InternalName": "FUOCO3",
+        "DisplayName": "Croakraze"
+    },
+    "374": {
+        "InternalName": "FLOATUB",
+        "DisplayName": "Inflant"
+    },
+    "375": {
+        "InternalName": "TUSKIEVOUS",
+        "DisplayName": "Floatusk"
+    },
+    "376": {
+        "InternalName": "GANESHANT",
+        "DisplayName": "Swelephant"
+    },
+    "377": {
+        "InternalName": "LUXFLON",
+        "DisplayName": "Luxflon"
+    },
+    "378": {
+        "InternalName": "DIELEBI",
+        "DisplayName": "Dielebi"
+    },
+    "379": {
+        "InternalName": "MEW",
+        "DisplayName": "Mew"
+    },
+    "380": {
+        "InternalName": "LUGIA",
+        "DisplayName": "Lugia"
+    },
+    "381": {
+        "InternalName": "HOOH",
+        "DisplayName": "Ho-oh"
+    },
+    "382": {
+        "InternalName": "CELEBI",
+        "DisplayName": "Celebi"
+    },
+    "383": {
+        "InternalName": "DEOXYS",
+        "DisplayName": "Deoxys"
+    },
+    "383_1": {
+        "InternalName": "DEOXYS",
+        "DisplayName": "Deoxys"
+    },
+    "384": {
+        "InternalName": "HEATRAN",
+        "DisplayName": "Heatran"
+    },
+    "385": {
+        "InternalName": "CRESSELIA",
+        "DisplayName": "Cresselia"
+    },
+    "386": {
+        "InternalName": "DARKRAI",
+        "DisplayName": "Darkrai"
+    },
+    "387": {
+        "InternalName": "MELOETTA",
+        "DisplayName": "Meloetta"
+    },
+    "387_1": {
+        "InternalName": "MELOETTA",
+        "DisplayName": "Meloetta"
+    },
+    "388": {
+        "InternalName": "GENESECT",
+        "DisplayName": "Genesect"
+    },
+    "389": {
+        "InternalName": "MARSHADOW",
+        "DisplayName": "Marshadow"
+    },
+    "390": {
+        "InternalName": "GROWLITHE",
+        "DisplayName": "Growlithe"
+    },
+    "390_1": {
+        "InternalName": "GROWLITHE",
+        "DisplayName": "Growlithe"
+    },
+    "391": {
+        "InternalName": "ARCANINE",
+        "DisplayName": "Arcanine"
+    },
+    "391_1": {
+        "InternalName": "ARCANINE",
+        "DisplayName": "Arcanine"
+    },
+    "391_2": {
+        "InternalName": "ARCANINE",
+        "DisplayName": "Arcanine"
+    },
+    "392": {
+        "InternalName": "SEEDOT",
+        "DisplayName": "Seedot"
+    },
+    "393": {
+        "InternalName": "NUZLEAF",
+        "DisplayName": "Nuzleaf"
+    },
+    "394": {
+        "InternalName": "SHIFTRY",
+        "DisplayName": "Shiftry"
+    },
+    "394_1": {
+        "InternalName": "SHIFTRY",
+        "DisplayName": "Shiftry"
+    },
+    "395": {
+        "InternalName": "MIENFOO",
+        "DisplayName": "Mienfoo"
+    },
+    "396": {
+        "InternalName": "MIENSHAO",
+        "DisplayName": "Mienshao"
+    },
+    "396_1": {
+        "InternalName": "MIENSHAO",
+        "DisplayName": "Mienshao"
+    },
+    "397": {
+        "InternalName": "MAGBY",
+        "DisplayName": "Magby"
+    },
+    "398": {
+        "InternalName": "MAGMAR",
+        "DisplayName": "Magmar"
+    },
+    "399": {
+        "InternalName": "MAGMORTAR",
+        "DisplayName": "Magmortar"
+    },
+    "400": {
+        "InternalName": "TURTWIG",
+        "DisplayName": "Turtwig"
+    },
+    "401": {
+        "InternalName": "GROTLE",
+        "DisplayName": "Grotle"
+    },
+    "402": {
+        "InternalName": "TORTERRA",
+        "DisplayName": "Torterra"
+    },
+    "403": {
+        "InternalName": "CHIMCHAR",
+        "DisplayName": "Chimchar"
+    },
+    "404": {
+        "InternalName": "MONFERNO",
+        "DisplayName": "Monferno"
+    },
+    "405": {
+        "InternalName": "INFERNAPE",
+        "DisplayName": "Infernape"
+    },
+    "406": {
+        "InternalName": "PIPLUP",
+        "DisplayName": "Piplup"
+    },
+    "407": {
+        "InternalName": "PRINPLUP",
+        "DisplayName": "Prinplup"
+    },
+    "408": {
+        "InternalName": "EMPOLEON",
+        "DisplayName": "Empoleon"
+    },
+    "409": {
+        "InternalName": "SURSKIT",
+        "DisplayName": "Surskit"
+    },
+    "410": {
+        "InternalName": "MASQUERAIN",
+        "DisplayName": "Masquerain"
+    },
+    "411": {
+        "InternalName": "LOTAD",
+        "DisplayName": "Lotad"
+    },
+    "412": {
+        "InternalName": "LOMBRE",
+        "DisplayName": "Lombre"
+    },
+    "413": {
+        "InternalName": "LUDICOLO",
+        "DisplayName": "Ludicolo"
+    },
+    "414": {
+        "InternalName": "HORSEA",
+        "DisplayName": "Horsea"
+    },
+    "415": {
+        "InternalName": "SEADRA",
+        "DisplayName": "Seadra"
+    },
+    "416": {
+        "InternalName": "KINGDRA",
+        "DisplayName": "Kingdra"
+    },
+    "417": {
+        "InternalName": "PSYDUCK",
+        "DisplayName": "Psyduck"
+    },
+    "418": {
+        "InternalName": "GOLDUCK",
+        "DisplayName": "Golduck"
+    },
+    "419": {
+        "InternalName": "WOOPER",
+        "DisplayName": "Wooper"
+    },
+    "420": {
+        "InternalName": "QUAGSIRE",
+        "DisplayName": "Quagsire"
+    },
+    "421": {
+        "InternalName": "CHEWTLE",
+        "DisplayName": "Chewtle"
+    },
+    "422": {
+        "InternalName": "DREDNAW",
+        "DisplayName": "Drednaw"
+    },
+    "423": {
+        "InternalName": "LARVESTA",
+        "DisplayName": "Larvesta"
+    },
+    "424": {
+        "InternalName": "VOLCARONA",
+        "DisplayName": "Volcarona"
+    },
+    "425": {
+        "InternalName": "GLIGAR",
+        "DisplayName": "Gligar"
+    },
+    "426": {
+        "InternalName": "GLISCOR",
+        "DisplayName": "Gliscor"
+    },
+    "427": {
+        "InternalName": "POOCHYENA",
+        "DisplayName": "Poochyena"
+    },
+    "428": {
+        "InternalName": "MIGHTYENA",
+        "DisplayName": "Mightyena"
+    },
+    "429": {
+        "InternalName": "DEINO",
+        "DisplayName": "Deino"
+    },
+    "430": {
+        "InternalName": "ZWEILOUS",
+        "DisplayName": "Zweilous"
+    },
+    "431": {
+        "InternalName": "HYDREIGON",
+        "DisplayName": "Hydreigon"
+    },
+    "432": {
+        "InternalName": "DURALUDON",
+        "DisplayName": "Duraludon"
+    },
+    "433": {
+        "InternalName": "BELLSPROUT",
+        "DisplayName": "Bellsprout"
+    },
+    "434": {
+        "InternalName": "WEEPINBELL",
+        "DisplayName": "Weepinbell"
+    },
+    "435": {
+        "InternalName": "VICTREEBEL",
+        "DisplayName": "Victreebel"
+    },
+    "436": {
+        "InternalName": "TANGELA",
+        "DisplayName": "Tangela"
+    },
+    "437": {
+        "InternalName": "TANGROWTH",
+        "DisplayName": "Tangrowth"
+    },
+    "438": {
+        "InternalName": "FERROSEED",
+        "DisplayName": "Ferroseed"
+    },
+    "439": {
+        "InternalName": "FERROTHORN",
+        "DisplayName": "Ferrothorn"
+    },
+    "440": {
+        "InternalName": "MUNNA",
+        "DisplayName": "Munna"
+    },
+    "441": {
+        "InternalName": "MUSHARNA",
+        "DisplayName": "Musharna"
+    },
+    "442": {
+        "InternalName": "SWINUB",
+        "DisplayName": "Swinub"
+    },
+    "443": {
+        "InternalName": "PILOSWINE",
+        "DisplayName": "Piloswine"
+    },
+    "444": {
+        "InternalName": "MAMOSWINE",
+        "DisplayName": "Mamoswine"
+    },
+    "445": {
+        "InternalName": "SNORUNT",
+        "DisplayName": "Snorunt"
+    },
+    "446": {
+        "InternalName": "GLALIE",
+        "DisplayName": "Glalie"
+    },
+    "447": {
+        "InternalName": "FROSLASS",
+        "DisplayName": "Froslass"
+    },
+    "448": {
+        "InternalName": "MISDREAVUS",
+        "DisplayName": "Misdreavus"
+    },
+    "449": {
+        "InternalName": "MISMAGIUS",
+        "DisplayName": "Mismagius"
+    },
+    "450": {
+        "InternalName": "CRYOGONAL",
+        "DisplayName": "Cryogonal"
+    },
+    "451": {
+        "InternalName": "SNIVY",
+        "DisplayName": "Snivy"
+    },
+    "452": {
+        "InternalName": "SERVINE",
+        "DisplayName": "Servine"
+    },
+    "453": {
+        "InternalName": "SERPERIOR",
+        "DisplayName": "Serperior"
+    },
+    "454": {
+        "InternalName": "TEPIG",
+        "DisplayName": "Tepig"
+    },
+    "455": {
+        "InternalName": "PIGNITE",
+        "DisplayName": "Pignite"
+    },
+    "456": {
+        "InternalName": "EMBOAR",
+        "DisplayName": "Emboar"
+    },
+    "457": {
+        "InternalName": "OSHAWOTT",
+        "DisplayName": "Oshawott"
+    },
+    "458": {
+        "InternalName": "DEWOTT",
+        "DisplayName": "Dewott"
+    },
+    "459": {
+        "InternalName": "SAMUROTT",
+        "DisplayName": "Samurott"
+    },
+    "460": {
+        "InternalName": "UNOWN",
+        "DisplayName": "Unown"
+    },
+    "461": {
+        "InternalName": "RAIKOU",
+        "DisplayName": "Raikou"
+    },
+    "461_1": {
+        "InternalName": "RAIKOU",
+        "DisplayName": "Raikou"
+    },
+    "462": {
+        "InternalName": "ENTEI",
+        "DisplayName": "Entei"
+    },
+    "462_1": {
+        "InternalName": "ENTEI",
+        "DisplayName": "Entei"
+    },
+    "463": {
+        "InternalName": "SUICUNE",
+        "DisplayName": "Suicune"
+    },
+    "463_1": {
+        "InternalName": "SUICUNE",
+        "DisplayName": "Suicune"
+    },
+    "464": {
+        "InternalName": "MAWILE",
+        "DisplayName": "Mawile"
+    },
+    "465": {
+        "InternalName": "DUSKULL",
+        "DisplayName": "Duskull"
+    },
+    "466": {
+        "InternalName": "DUSCLOPS",
+        "DisplayName": "Dusclops"
+    },
+    "467": {
+        "InternalName": "DUSKNOIR",
+        "DisplayName": "Dusknoir"
+    },
+    "468": {
+        "InternalName": "PINECO",
+        "DisplayName": "Pineco"
+    },
+    "469": {
+        "InternalName": "FORRETRESS",
+        "DisplayName": "Forretress"
+    },
+    "470": {
+        "InternalName": "SALANDIT",
+        "DisplayName": "Salandit"
+    },
+    "471": {
+        "InternalName": "SALAZZLE",
+        "DisplayName": "Salazzle"
+    },
+    "472": {
+        "InternalName": "KANGASKHAN",
+        "DisplayName": "Kangaskhan"
+    },
+    "473": {
+        "InternalName": "BONSLY",
+        "DisplayName": "Bonsly"
+    },
+    "474": {
+        "InternalName": "SUDOWOODO",
+        "DisplayName": "Sudowoodo"
+    },
+    "475": {
+        "InternalName": "PARAS",
+        "DisplayName": "Paras"
+    },
+    "476": {
+        "InternalName": "PARASECT",
+        "DisplayName": "Parasect"
+    },
+    "477": {
+        "InternalName": "MIMEJR",
+        "DisplayName": "Mime Jr."
+    },
+    "478": {
+        "InternalName": "MRMIME",
+        "DisplayName": "Mr. Mime"
+    },
+    "479": {
+        "InternalName": "TREECKO",
+        "DisplayName": "Treecko"
+    },
+    "480": {
+        "InternalName": "GROVYLE",
+        "DisplayName": "Grovyle"
+    },
+    "481": {
+        "InternalName": "SCEPTILE",
+        "DisplayName": "Sceptile"
+    },
+    "482": {
+        "InternalName": "TORCHIC",
+        "DisplayName": "Torchic"
+    },
+    "483": {
+        "InternalName": "COMBUSKEN",
+        "DisplayName": "Combusken"
+    },
+    "484": {
+        "InternalName": "BLAZIKEN",
+        "DisplayName": "Blaziken"
+    },
+    "485": {
+        "InternalName": "MUDKIP",
+        "DisplayName": "Mudkip"
+    },
+    "486": {
+        "InternalName": "MARSHTOMP",
+        "DisplayName": "Marshtomp"
+    },
+    "487": {
+        "InternalName": "SWAMPERT",
+        "DisplayName": "Swampert"
+    },
+    "488": {
+        "InternalName": "TOXEL",
+        "DisplayName": "Toxel"
+    },
+    "489": {
+        "InternalName": "TOXTRICITY",
+        "DisplayName": "Toxtricity"
+    },
+    "489_1": {
+        "InternalName": "TOXTRICITY",
+        "DisplayName": "Toxtricity"
+    },
+    "490": {
+        "InternalName": "CASTFORM",
+        "DisplayName": "Castform"
+    },
+    "491": {
+        "InternalName": "FOONGUS",
+        "DisplayName": "Foongus"
+    },
+    "492": {
+        "InternalName": "AMOONGUSS",
+        "DisplayName": "Amoonguss"
+    },
+    "493": {
+        "InternalName": "SLOWPOKE",
+        "DisplayName": "Slowpoke"
+    },
+    "494": {
+        "InternalName": "SLOWBRO",
+        "DisplayName": "Slowbro"
+    },
+    "495": {
+        "InternalName": "SLOWKING",
+        "DisplayName": "Slowking"
+    },
+    "496": {
+        "InternalName": "RALTS",
+        "DisplayName": "Ralts"
+    },
+    "497": {
+        "InternalName": "KIRLIA",
+        "DisplayName": "Kirlia"
+    },
+    "498": {
+        "InternalName": "GARDEVOIR",
+        "DisplayName": "Gardevoir"
+    },
+    "499": {
+        "InternalName": "GALLADE",
+        "DisplayName": "Gallade"
+    },
+    "500": {
+        "InternalName": "AZURILL",
+        "DisplayName": "Azurill"
+    },
+    "501": {
+        "InternalName": "MARILL",
+        "DisplayName": "Marill"
+    },
+    "502": {
+        "InternalName": "AZUMARILL",
+        "DisplayName": "Azumarill"
+    },
+    "503": {
+        "InternalName": "SHROOMISH",
+        "DisplayName": "Shroomish"
+    },
+    "504": {
+        "InternalName": "BRELOOM",
+        "DisplayName": "Breloom"
+    },
+    "505": {
+        "InternalName": "MUNCHLAX",
+        "DisplayName": "Munchlax"
+    },
+    "506": {
+        "InternalName": "SNORLAX",
+        "DisplayName": "Snorlax"
+    },
+    "507": {
+        "InternalName": "ARCTOZOLT",
+        "DisplayName": "Arctozolt"
+    },
+    "508": {
+        "InternalName": "ZORUAHISUI",
+        "DisplayName": "Zorua"
+    },
+    "509": {
+        "InternalName": "ZOROARKHISUI",
+        "DisplayName": "Zoroark"
+    },
+    "510": {
+        "InternalName": "SHELLOS",
+        "DisplayName": "Shellos"
+    },
+    "511": {
+        "InternalName": "GASTRODON",
+        "DisplayName": "Gastrodon"
+    },
+    "512": {
+        "InternalName": "EMOLGA",
+        "DisplayName": "Emolga"
+    },
+    "513": {
+        "InternalName": "BRONZOR",
+        "DisplayName": "Bronzor"
+    },
+    "514": {
+        "InternalName": "BRONZONG",
+        "DisplayName": "Bronzong"
+    },
+    "515": {
+        "InternalName": "ARCHEN",
+        "DisplayName": "Archen"
+    },
+    "516": {
+        "InternalName": "ARCHEOPS",
+        "DisplayName": "Archeops"
+    },
+    "517": {
+        "InternalName": "GIBLE",
+        "DisplayName": "Gible"
+    },
+    "518": {
+        "InternalName": "GABITE",
+        "DisplayName": "Gabite"
+    },
+    "519": {
+        "InternalName": "GARCHOMP",
+        "DisplayName": "Garchomp"
+    },
+    "520": {
+        "InternalName": "SHINX",
+        "DisplayName": "Shinx"
+    },
+    "521": {
+        "InternalName": "LUXIO",
+        "DisplayName": "Luxio"
+    },
+    "522": {
+        "InternalName": "LUXRAY",
+        "DisplayName": "Luxray"
+    },
+    "522_1": {
+        "InternalName": "LUXRAY",
+        "DisplayName": "Luxray"
+    },
+    "523": {
+        "InternalName": "AERODACTYL",
+        "DisplayName": "Aerodactyl"
+    },
+    "524": {
+        "InternalName": "CHESPIN",
+        "DisplayName": "Chespin"
+    },
+    "525": {
+        "InternalName": "QUILLADIN",
+        "DisplayName": "Quilladin"
+    },
+    "526": {
+        "InternalName": "CHESNAUGHT",
+        "DisplayName": "Chesnaught"
+    },
+    "527": {
+        "InternalName": "FENNEKIN",
+        "DisplayName": "Fennekin"
+    },
+    "528": {
+        "InternalName": "BRAIXEN",
+        "DisplayName": "Braixen"
+    },
+    "529": {
+        "InternalName": "DELPHOX",
+        "DisplayName": "Delphox"
+    },
+    "530": {
+        "InternalName": "FROAKIE",
+        "DisplayName": "Froakie"
+    },
+    "531": {
+        "InternalName": "FROGADIER",
+        "DisplayName": "Frogadier"
+    },
+    "532": {
+        "InternalName": "GRENINJA",
+        "DisplayName": "Greninja"
+    },
+    "533": {
+        "InternalName": "TORNADUS",
+        "DisplayName": "Tornadus"
+    },
+    "533_1": {
+        "InternalName": "TORNADUS",
+        "DisplayName": "Tornadus"
+    },
+    "534": {
+        "InternalName": "THUNDURUS",
+        "DisplayName": "Thundurus"
+    },
+    "534_1": {
+        "InternalName": "THUNDURUS",
+        "DisplayName": "Thundurus"
+    },
+    "535": {
+        "InternalName": "LANDORUS",
+        "DisplayName": "Landorus"
+    },
+    "535_1": {
+        "InternalName": "LANDORUS",
+        "DisplayName": "Landorus"
+    },
+    "536": {
+        "InternalName": "ENAMORUS",
+        "DisplayName": "Enamorus"
+    },
+    "536_1": {
+        "InternalName": "ENAMORUS",
+        "DisplayName": "Enamorus"
+    },
+    "537": {
+        "InternalName": "SWABLU",
+        "DisplayName": "Swablu"
+    },
+    "538": {
+        "InternalName": "ALTARIA",
+        "DisplayName": "Altaria"
+    },
+    "538_1": {
+        "InternalName": "ALTARIA",
+        "DisplayName": "Altaria"
+    },
+    "539": {
+        "InternalName": "VENIPEDE",
+        "DisplayName": "Venipede"
+    },
+    "540": {
+        "InternalName": "WHIRLIPEDE",
+        "DisplayName": "Whirlipede"
+    },
+    "541": {
+        "InternalName": "SCOLIPEDE",
+        "DisplayName": "Scolipede"
+    },
+    "542": {
+        "InternalName": "SKORUPI",
+        "DisplayName": "Skorupi"
+    },
+    "543": {
+        "InternalName": "DRAPION",
+        "DisplayName": "Drapion"
+    },
+    "544": {
+        "InternalName": "CRANIDOS",
+        "DisplayName": "Cranidos"
+    },
+    "545": {
+        "InternalName": "RAMPARDOS",
+        "DisplayName": "Rampardos"
+    },
+    "545_1": {
+        "InternalName": "RAMPARDOS",
+        "DisplayName": "Rampardos"
+    },
+    "546": {
+        "InternalName": "SHIELDON",
+        "DisplayName": "Shieldon"
+    },
+    "547": {
+        "InternalName": "BASTIODON",
+        "DisplayName": "Bastiodon"
+    },
+    "548": {
+        "InternalName": "CATERPIE",
+        "DisplayName": "Caterpie"
+    },
+    "549": {
+        "InternalName": "METAPOD",
+        "DisplayName": "Metapod"
+    },
+    "550": {
+        "InternalName": "BUTTERFREE",
+        "DisplayName": "Butterfree"
+    },
+    "551": {
+        "InternalName": "CHARCADET",
+        "DisplayName": "Charcadet"
+    },
+    "552": {
+        "InternalName": "ARMAROUGE",
+        "DisplayName": "Armarouge"
+    },
+    "553": {
+        "InternalName": "CERULEDGE",
+        "DisplayName": "Ceruledge"
+    },
+    "554": {
+        "InternalName": "BINACLE",
+        "DisplayName": "Binacle"
+    },
+    "555": {
+        "InternalName": "BARBARACLE",
+        "DisplayName": "Barbaracle"
+    },
+    "556": {
+        "InternalName": "TATSUGIRI",
+        "DisplayName": "Tatsugiri"
+    },
+    "557": {
+        "InternalName": "KINGAMBIT",
+        "DisplayName": "Kingambit"
+    },
+    "558": {
+        "InternalName": "TYROGUE",
+        "DisplayName": "Tyrogue"
+    },
+    "559": {
+        "InternalName": "HITMONLEE",
+        "DisplayName": "Hitmonlee"
+    },
+    "560": {
+        "InternalName": "HITMONCHAN",
+        "DisplayName": "Hitmonchan"
+    },
+    "561": {
+        "InternalName": "HITMONTOP",
+        "DisplayName": "Hitmontop"
+    },
+    "562": {
+        "InternalName": "SLUGMA",
+        "DisplayName": "Slugma"
+    },
+    "563": {
+        "InternalName": "MAGCARGO",
+        "DisplayName": "Magcargo"
+    },
+    "564": {
+        "InternalName": "LUNATONE",
+        "DisplayName": "Lunatone"
+    },
+    "565": {
+        "InternalName": "SOLROCK",
+        "DisplayName": "Solrock"
+    },
+    "566": {
+        "InternalName": "KARRABLAST",
+        "DisplayName": "Karrablast"
+    },
+    "567": {
+        "InternalName": "ESCAVALIER",
+        "DisplayName": "Escavalier"
+    },
+    "568": {
+        "InternalName": "SHELMET",
+        "DisplayName": "Shelmet"
+    },
+    "569": {
+        "InternalName": "ACCELGOR",
+        "DisplayName": "Accelgor"
+    },
+    "570": {
+        "InternalName": "SPRIGATITO",
+        "DisplayName": "Sprigatito"
+    },
+    "571": {
+        "InternalName": "FLORAGATO",
+        "DisplayName": "Floragato"
+    },
+    "572": {
+        "InternalName": "MEOWSCARADA",
+        "DisplayName": "Meowscarada"
+    },
+    "573": {
+        "InternalName": "SOBBLE",
+        "DisplayName": "Sobble"
+    },
+    "574": {
+        "InternalName": "DRIZZILE",
+        "DisplayName": "Drizzile"
+    },
+    "575": {
+        "InternalName": "INTELEON",
+        "DisplayName": "Inteleon"
+    },
+    "576": {
+        "InternalName": "REGIROCK",
+        "DisplayName": "Regirock"
+    },
+    "577": {
+        "InternalName": "REGICE",
+        "DisplayName": "Regice"
+    },
+    "578": {
+        "InternalName": "REGISTEEL",
+        "DisplayName": "Registeel"
+    },
+    "579": {
+        "InternalName": "REGIGIGAS",
+        "DisplayName": "Regigigas"
+    },
+    "580": {
+        "InternalName": "REGIELEKI",
+        "DisplayName": "Regieleki"
+    },
+    "581": {
+        "InternalName": "REGIDRAGO",
+        "DisplayName": "Regidrago"
+    },
+    "582": {
+        "InternalName": "REGINALOUS",
+        "DisplayName": "Reginalous"
+    },
+    "583": {
+        "InternalName": "MEWTWO",
+        "DisplayName": "Mewtwo"
+    },
+    "583_1": {
+        "InternalName": "MEWTWO",
+        "DisplayName": "Mewtwo"
+    },
+    "X001": {
+        "InternalName": "ELEKIDX",
+        "DisplayName": "Elekid X"
+    },
+    "X002": {
+        "InternalName": "ELECTABUZZX",
+        "DisplayName": "Electabuzz X"
+    },
+    "X003": {
+        "InternalName": "ELECTABURST",
+        "DisplayName": "Electaburst"
+    },
+    "X004": {
+        "InternalName": "SPIRITOMBX",
+        "DisplayName": "Spiritomb X"
+    },
+    "X005": {
+        "InternalName": "CARVANHAX",
+        "DisplayName": "Carvanha X"
+    },
+    "X006": {
+        "InternalName": "SHARPEDOX",
+        "DisplayName": "Sharpedo X"
+    },
+    "X007": {
+        "InternalName": "PYUKUMUKUX",
+        "DisplayName": "Pyukumuku X"
+    },
+    "X008": {
+        "InternalName": "PIKACHUX",
+        "DisplayName": "Pikachu X"
+    },
+    "X008_1": {
+        "InternalName": "PIKACHUX",
+        "DisplayName": "Pikachu X"
+    },
+    "X009": {
+        "InternalName": "JOLTIKX",
+        "DisplayName": "Joltik X"
+    },
+    "X010": {
+        "InternalName": "GALVANTULAX",
+        "DisplayName": "Galvantula X"
+    },
+    "X011": {
+        "InternalName": "SMEARGLEX",
+        "DisplayName": "Smeargle X"
+    },
+    "X012": {
+        "InternalName": "CHIENTILLY",
+        "DisplayName": "Chientilly"
+    },
+    "X013": {
+        "InternalName": "GASTLYX",
+        "DisplayName": "Gastly X"
+    },
+    "X014": {
+        "InternalName": "HAUNTERX",
+        "DisplayName": "Haunter X"
+    },
+    "X015": {
+        "InternalName": "GENGARX",
+        "DisplayName": "Gengar X"
+    },
+    "X016": {
+        "InternalName": "YAMASKX",
+        "DisplayName": "Yamask X"
+    },
+    "X017": {
+        "InternalName": "COFAGRIGUSX",
+        "DisplayName": "Cofagrigus X"
+    },
+    "X018": {
+        "InternalName": "PONYTAX",
+        "DisplayName": "Ponyta X"
+    },
+    "X019": {
+        "InternalName": "RAPIDASHX",
+        "DisplayName": "Rapidash X"
+    },
+    "X020": {
+        "InternalName": "CACNEAX",
+        "DisplayName": "Cacnea X"
+    },
+    "X021": {
+        "InternalName": "CACTURNEX",
+        "DisplayName": "Cacturne X"
+    },
+    "X022": {
+        "InternalName": "SWIRLIXX",
+        "DisplayName": "Swirlix X"
+    },
+    "X023": {
+        "InternalName": "SLURPUFFX",
+        "DisplayName": "Slurpuff X"
+    },
+    "X024": {
+        "InternalName": "BUDEWX",
+        "DisplayName": "Budew X"
+    },
+    "X025": {
+        "InternalName": "ROSELIAX",
+        "DisplayName": "Roselia X"
+    },
+    "X026": {
+        "InternalName": "ROSERADEX",
+        "DisplayName": "Roserade X"
+    },
+    "X027": {
+        "InternalName": "MAREANIEX",
+        "DisplayName": "Mareanie X"
+    },
+    "X028": {
+        "InternalName": "TOXAPEXX",
+        "DisplayName": "Toxapex X"
+    },
+    "X029": {
+        "InternalName": "GRENINJAX",
+        "DisplayName": "Greninja X"
+    },
+    "X030": {
+        "InternalName": "MEWTWOX",
+        "DisplayName": "Mewtwo X"
+    },
+    "X031": {
+        "InternalName": "RAICHUX",
+        "DisplayName": "Raichu X"
+    },
+    "X032": {
+        "InternalName": "BISHARPX",
+        "DisplayName": "Bisharp X"
+    },
+    "X033": {
+        "InternalName": "SCOVILEX",
+        "DisplayName": "Scovile X"
+    },
+    "X034": {
+        "InternalName": "TYRANITARX",
+        "DisplayName": "Tyranitar X"
+    },
+    "X035": {
+        "InternalName": "DITTOX",
+        "DisplayName": "Ditto X"
+    },
+    "X036": {
+        "InternalName": "AEGISLASHX",
+        "DisplayName": "Aegislash X"
+    },
+    "X037": {
+        "InternalName": "TAPUFINIX",
+        "DisplayName": "Tapu Fini X"
+    },
+    "X038": {
+        "InternalName": "TAPULELEX",
+        "DisplayName": "Tapu Lele X"
+    },
+    "X039": {
+        "InternalName": "TAPUKOKOX",
+        "DisplayName": "Tapu Koko X"
+    },
+    "X040": {
+        "InternalName": "TAPUBULUX",
+        "DisplayName": "Tapu Bulu X"
+    },
+    "X041": {
+        "InternalName": "DRAGALISKFURIA",
+        "DisplayName": "Dragalisk X"
+    },
+    "X042": {
+        "InternalName": "SHYLEONP",
+        "DisplayName": "Shyleon X"
+    },
+    "X043": {
+        "InternalName": "TRISHOUTP",
+        "DisplayName": "Trishout X"
+    },
+    "X044": {
+        "InternalName": "SHULONGP",
+        "DisplayName": "Shulong X"
+    },
+    "V001": {
+        "InternalName": "VINTAGEWEEDLE",
+        "DisplayName": "Vintage Weedle"
+    },
+    "V002": {
+        "InternalName": "VINTAGEKAKUNA",
+        "DisplayName": "Vintage Kakuna"
+    },
+    "V003": {
+        "InternalName": "VINTAGEBEEDRILL",
+        "DisplayName": "Vintage Beedrill"
+    },
+    "V004": {
+        "InternalName": "VINTAGELEDYBA",
+        "DisplayName": "Vintage Ledyba"
+    },
+    "V005": {
+        "InternalName": "VINTAGELEDIAN",
+        "DisplayName": "Vintage Ledian"
+    },
+    "V006": {
+        "InternalName": "VINTAGEMAREEP",
+        "DisplayName": "Vintage Mareep"
+    },
+    "V007": {
+        "InternalName": "VINTAGEFLAAFFY",
+        "DisplayName": "Vintage Flaaffy"
+    },
+    "V008": {
+        "InternalName": "VINTAGEAMPHAROS",
+        "DisplayName": "Vintage Ampharos"
+    },
+    "V009": {
+        "InternalName": "VINTAGEABRA",
+        "DisplayName": "Vintage Abra"
+    },
+    "V010": {
+        "InternalName": "VINTAGEKADABRA",
+        "DisplayName": "Vintage Kadabra"
+    },
+    "V011": {
+        "InternalName": "VINTAGEALAKAZAM",
+        "DisplayName": "Vintage Alakazam"
+    },
+    "V012": {
+        "InternalName": "VINTAGEMAGIKARP",
+        "DisplayName": "Vintage Magikarp"
+    },
+    "V013": {
+        "InternalName": "VINTAGEGYARADOS",
+        "DisplayName": "Vintage Gyarados"
+    },
+    "V014": {
+        "InternalName": "VINTAGEREMORAID",
+        "DisplayName": "Vintage Remoraid"
+    },
+    "V015": {
+        "InternalName": "VINTAGEOCTILLERY",
+        "DisplayName": "Vintage Octillery"
+    },
+    "V016": {
+        "InternalName": "VINTAGECORSOLA",
+        "DisplayName": "Vintage Corsola"
+    },
+    "V017": {
+        "InternalName": "VINTAGESTARYU",
+        "DisplayName": "Vintage Staryu"
+    },
+    "V018": {
+        "InternalName": "VINTAGESTARMIE",
+        "DisplayName": "Vintage Starmie"
+    },
+    "V019": {
+        "InternalName": "VINTAGEMANTINE",
+        "DisplayName": "Vintage Mantine"
+    },
+    "V020": {
+        "InternalName": "VINTAGESHUCKLE",
+        "DisplayName": "Vintage Shuckle"
+    },
+    "V021": {
+        "InternalName": "VINTAGEODDISH",
+        "DisplayName": "Vintage Oddish"
+    },
+    "V022": {
+        "InternalName": "VINTAGEGLOOM",
+        "DisplayName": "Vintage Gloom"
+    },
+    "V023": {
+        "InternalName": "VINTAGEVILEPLUME",
+        "DisplayName": "Vintage Vileplume"
+    },
+    "V024": {
+        "InternalName": "VINTAGEBELLOSSOM",
+        "DisplayName": "Vintage Bellossom"
+    },
+    "V025": {
+        "InternalName": "VINTAGEZUBAT",
+        "DisplayName": "Vintage Zubat"
+    },
+    "V026": {
+        "InternalName": "VINTAGEGOLBAT",
+        "DisplayName": "Vintage Golbat"
+    },
+    "V027": {
+        "InternalName": "VINTAGECROBAT",
+        "DisplayName": "Vintage Crobat"
+    },
+    "V028": {
+        "InternalName": "VINTAGEGASTLY",
+        "DisplayName": "Vintage Gastly"
+    },
+    "V029": {
+        "InternalName": "VINTAGEHAUNTER",
+        "DisplayName": "Vintage Haunter"
+    },
+    "V030": {
+        "InternalName": "VINTAGEGENGAR",
+        "DisplayName": "Vintage Gengar"
+    },
+    "V031": {
+        "InternalName": "VINTAGEGRIMER",
+        "DisplayName": "Vintage Grimer"
+    },
+    "V032": {
+        "InternalName": "VINTAGEMUK",
+        "DisplayName": "Vintage Muk"
+    },
+    "V033": {
+        "InternalName": "VINTAGEONIX",
+        "DisplayName": "Vintage Onix"
+    },
+    "V034": {
+        "InternalName": "VINTAGESTEELIX",
+        "DisplayName": "Vintage Steelix"
+    },
+    "V035": {
+        "InternalName": "VINTAGEGEODUDE",
+        "DisplayName": "Vintage Geodude"
+    },
+    "V036": {
+        "InternalName": "VINTAGEGRAVELER",
+        "DisplayName": "Vintage Graveler"
+    },
+    "V037": {
+        "InternalName": "VINTAGEGOLEM",
+        "DisplayName": "Vintage Golem"
+    },
+    "V038": {
+        "InternalName": "VINTAGESNEASEL",
+        "DisplayName": "Vintage Sneasel"
+    },
+    "V039": {
+        "InternalName": "VINTAGESEEL",
+        "DisplayName": "Vintage Seel"
+    },
+    "V040": {
+        "InternalName": "VINTAGEDEWGONG",
+        "DisplayName": "Vintage Dewgong"
+    },
+    "V041": {
+        "InternalName": "VINTAGESMEARGLE",
+        "DisplayName": "Vintage Smeargle"
+    },
+    "V042": {
+        "InternalName": "VINTAGESNUBBULL",
+        "DisplayName": "Vintage Snubbull"
+    },
+    "V043": {
+        "InternalName": "VINTAGEGRANBULL",
+        "DisplayName": "Vintage Granbull"
+    },
+    "V044": {
+        "InternalName": "VINTAGEDROWZEE",
+        "DisplayName": "Vintage Drowzee"
+    },
+    "V045": {
+        "InternalName": "VINTAGEHYPNO",
+        "DisplayName": "Vintage Hypno"
+    },
+    "V046": {
+        "InternalName": "VINTAGECHIKORITA",
+        "DisplayName": "Vintage Chikorita"
+    },
+    "V047": {
+        "InternalName": "VINTAGEBAYLEEF",
+        "DisplayName": "Vintage Bayleef"
+    },
+    "V048": {
+        "InternalName": "VINTAGEMEGANIUM",
+        "DisplayName": "Vintage Meganium"
+    },
+    "V049": {
+        "InternalName": "VINTAGEYANMA",
+        "DisplayName": "Vintage Yanma"
+    },
+    "V050": {
+        "InternalName": "VINTAGEHERACROSS",
+        "DisplayName": "Vintage Heracross"
+    },
+    "V051": {
+        "InternalName": "VINTAGEEKANS",
+        "DisplayName": "Vintage Ekans"
+    },
+    "V052": {
+        "InternalName": "VINTAGEARBOK",
+        "DisplayName": "Vintage Arbok"
+    },
+    "V053": {
+        "InternalName": "VINTAGEPICHU",
+        "DisplayName": "Vintage Pichu"
+    },
+    "V054": {
+        "InternalName": "VINTAGEPIKACHU",
+        "DisplayName": "Vintage Pikachu"
+    },
+    "V055": {
+        "InternalName": "VINTAGERAICHU",
+        "DisplayName": "Vintage Raichu"
+    },
+    "V056": {
+        "InternalName": "GOROCHU",
+        "DisplayName": "Gorochu"
+    },
+    "V057": {
+        "InternalName": "VINTAGEMILTANK",
+        "DisplayName": "Vintage Miltank"
+    },
+    "V058": {
+        "InternalName": "VINTAGEDIGLETT",
+        "DisplayName": "Vintage Diglett"
+    },
+    "V059": {
+        "InternalName": "VINTAGEDUGTRIO",
+        "DisplayName": "Vintage Dugtrio"
+    },
+    "V060": {
+        "InternalName": "VINTAGELARVITAR",
+        "DisplayName": "Vintage Larvitar"
+    },
+    "V061": {
+        "InternalName": "VINTAGEPUPITAR",
+        "DisplayName": "Vintage Pupitar"
+    },
+    "V062": {
+        "InternalName": "VINTAGETYRANITAR",
+        "DisplayName": "Vintage Tyranitar"
+    },
+    "V063": {
+        "InternalName": "VINTAGEDRATINI",
+        "DisplayName": "Vintage Dratini"
+    },
+    "V064": {
+        "InternalName": "VINTAGEDRAGONAIR",
+        "DisplayName": "Vintage Dragonair"
+    },
+    "V065": {
+        "InternalName": "VINTAGEDRAGONITE",
+        "DisplayName": "Vintage Dragonite"
+    },
+    "V066": {
+        "InternalName": "VINTAGECHARMANDER",
+        "DisplayName": "Vintage Charmander"
+    },
+    "V067": {
+        "InternalName": "VINTAGECHARMELEON",
+        "DisplayName": "Vintage Charmeleon"
+    },
+    "V068": {
+        "InternalName": "VINTAGECHARIZARD",
+        "DisplayName": "Vintage Charizard"
+    },
+    "V069": {
+        "InternalName": "VINTAGEVULPIX",
+        "DisplayName": "Vintage Vulpix"
+    },
+    "V070": {
+        "InternalName": "VINTAGENINETALES",
+        "DisplayName": "Vintage Ninetales"
+    },
+    "V071": {
+        "InternalName": "VINTAGEKOFFING",
+        "DisplayName": "Vintage Koffing"
+    },
+    "V072": {
+        "InternalName": "VINTAGEWEEZING",
+        "DisplayName": "Vintage Weezing"
+    },
+    "V073": {
+        "InternalName": "VINTAGEHOUNDOUR",
+        "DisplayName": "Vintage Houndour"
+    },
+    "V074": {
+        "InternalName": "VINTAGEHOUNDOOM",
+        "DisplayName": "Vintage Houndoom"
+    },
+    "V075": {
+        "InternalName": "VINTAGESQUIRTLE",
+        "DisplayName": "Vintage Squirtle"
+    },
+    "V076": {
+        "InternalName": "VINTAGEWARTORTLE",
+        "DisplayName": "Vintage Wartortle"
+    },
+    "V077": {
+        "InternalName": "VINTAGEBLASTOISE",
+        "DisplayName": "Vintage Blastoise"
+    },
+    "V078": {
+        "InternalName": "VINTAGETEDDIURSA",
+        "DisplayName": "Vintage Teddiursa"
+    },
+    "V079": {
+        "InternalName": "VINTAGEURSARING",
+        "DisplayName": "Vintage Ursaring"
+    },
+    "V080": {
+        "InternalName": "VINTAGEPONYTA",
+        "DisplayName": "Vintage Ponyta"
+    },
+    "V081": {
+        "InternalName": "VINTAGERAPIDASH",
+        "DisplayName": "Vintage Rapidash"
+    },
+    "V082": {
+        "InternalName": "VINTAGESANDSHREW",
+        "DisplayName": "Vintage Sandshrew"
+    },
+    "V083": {
+        "InternalName": "VINTAGESANDSLASH",
+        "DisplayName": "Vintage Sandslash"
+    },
+    "V084": {
+        "InternalName": "VINTAGECUBONE",
+        "DisplayName": "Vintage Cubone"
+    },
+    "V085": {
+        "InternalName": "VINTAGEMAROWAK",
+        "DisplayName": "Vintage Marowak"
+    },
+    "V086": {
+        "InternalName": "VINTAGENATU",
+        "DisplayName": "Vintage Natu"
+    },
+    "V087": {
+        "InternalName": "VINTAGEXATU",
+        "DisplayName": "Vintage Xatu"
+    },
+    "V088": {
+        "InternalName": "VINTAGESKARMORY",
+        "DisplayName": "Vintage Skarmory"
+    },
+    "V089": {
+        "InternalName": "VINTAGERHYHORN",
+        "DisplayName": "Vintage Rhyhorn"
+    },
+    "V090": {
+        "InternalName": "VINTAGERHYDON",
+        "DisplayName": "Vintage Rhydon"
+    },
+    "V091": {
+        "InternalName": "VINTAGEMURKROW",
+        "DisplayName": "Vintage Murkrow"
+    },
+    "V092": {
+        "InternalName": "VINTAGETAUROS",
+        "DisplayName": "Vintage Tauros"
+    },
+    "V093": {
+        "InternalName": "VINTAGEMAGNEMITE",
+        "DisplayName": "Vintage Magnemite"
+    },
+    "V094": {
+        "InternalName": "VINTAGEMAGNETON",
+        "DisplayName": "Vintage Magneton"
+    },
+    "V095": {
+        "InternalName": "VINTAGEELEKID",
+        "DisplayName": "Vintage Elekid"
+    },
+    "V096": {
+        "InternalName": "VINTAGEELECTABUZZ",
+        "DisplayName": "Vintage Electabuzz"
+    },
+    "V097": {
+        "InternalName": "MEOWSY",
+        "DisplayName": "Meowsy"
+    },
+    "V098": {
+        "InternalName": "VINTAGEMEOWTH",
+        "DisplayName": "Vintage Meowth"
+    },
+    "V099": {
+        "InternalName": "VINTAGEPERSIAN",
+        "DisplayName": "Vintage Persian"
+    },
+    "V100": {
+        "InternalName": "VINTAGEIGGLYBUFF",
+        "DisplayName": "Vintage Igglybuff"
+    },
+    "V101": {
+        "InternalName": "VINTAGEJIGGLYPUFF",
+        "DisplayName": "Vintage Jigglypuff"
+    },
+    "V102": {
+        "InternalName": "VINTAGEWIGGLYTUFF",
+        "DisplayName": "Vintage Wigglytuff"
+    },
+    "V103": {
+        "InternalName": "VINTAGETOTODILE",
+        "DisplayName": "Vintage Totodile"
+    },
+    "V104": {
+        "InternalName": "VINTAGECROCONAW",
+        "DisplayName": "Vintage Croconaw"
+    },
+    "V105": {
+        "InternalName": "VINTAGEFERALIGATR",
+        "DisplayName": "Vintage Feraligatr"
+    },
+    "V106": {
+        "InternalName": "VINTAGEEXEGGCUTE",
+        "DisplayName": "Vintage Exeggcute"
+    },
+    "V107": {
+        "InternalName": "VINTAGEEXEGGUTOR",
+        "DisplayName": "Vintage Exeggutor"
+    },
+    "V108": {
+        "InternalName": "VINTAGECHANSEY",
+        "DisplayName": "Vintage Chansey"
+    },
+    "V109": {
+        "InternalName": "VINTAGEBLISSEY",
+        "DisplayName": "Vintage Blissey"
+    },
+    "V110": {
+        "InternalName": "VINTAGESCYTHER",
+        "DisplayName": "Vintage Scyther"
+    },
+    "V111": {
+        "InternalName": "VINTAGESCIZOR",
+        "DisplayName": "Vintage Scizor"
+    },
+    "V112": {
+        "InternalName": "VINTAGEAIPOM",
+        "DisplayName": "Vintage Aipom"
+    },
+    "V113": {
+        "InternalName": "VINTAGEGIRAFARIG",
+        "DisplayName": "Vintage Girafarig"
+    },
+    "V114": {
+        "InternalName": "VINTAGEBULBASAUR",
+        "DisplayName": "Vintage Bulbasaur"
+    },
+    "V115": {
+        "InternalName": "VINTAGEIVYSAUR",
+        "DisplayName": "Vintage Ivysaur"
+    },
+    "V116": {
+        "InternalName": "VINTAGEVENUSAUR",
+        "DisplayName": "Vintage Venusaur"
+    },
+    "V117": {
+        "InternalName": "VINTAGERATTATA",
+        "DisplayName": "Vintage Rattata"
+    },
+    "V118": {
+        "InternalName": "VINTAGERATICATE",
+        "DisplayName": "Vintage Raticate"
+    },
+    "V119": {
+        "InternalName": "VINTAGECYNDAQUIL",
+        "DisplayName": "Vintage Cyndaquil"
+    },
+    "V120": {
+        "InternalName": "VINTAGEQUILAVA",
+        "DisplayName": "Vintage Quilava"
+    },
+    "V121": {
+        "InternalName": "VINTAGETYPHLOSION",
+        "DisplayName": "Vintage Typhlosion"
+    },
+    "V122": {
+        "InternalName": "VINTAGELAPRAS",
+        "DisplayName": "Vintage Lapras"
+    },
+    "V123": {
+        "InternalName": "VINTAGEDITTO",
+        "DisplayName": "Vintage Ditto"
+    },
+    "V124": {
+        "InternalName": "VINTAGEEEVEE",
+        "DisplayName": "Vintage Eevee"
+    },
+    "V125": {
+        "InternalName": "VINTAGEVAPOREON",
+        "DisplayName": "Vintage Vaporeon"
+    },
+    "V126": {
+        "InternalName": "VINTAGEJOLTEON",
+        "DisplayName": "Vintage Jolteon"
+    },
+    "V127": {
+        "InternalName": "VINTAGEFLAREON",
+        "DisplayName": "Vintage Flareon"
+    },
+    "V128": {
+        "InternalName": "VINTAGEESPEON",
+        "DisplayName": "Vintage Espeon"
+    },
+    "V129": {
+        "InternalName": "VINTAGEUMBREON",
+        "DisplayName": "Vintage Umbreon"
+    },
+    "V130": {
+        "InternalName": "VINTAGEPORYGON",
+        "DisplayName": "Vintage Porygon"
+    },
+    "V131": {
+        "InternalName": "VINTAGEPORYGON2",
+        "DisplayName": "Vintage Porygon2"
+    },
+    "V132": {
+        "InternalName": "SUNMOLA",
+        "DisplayName": "Sunmola"
+    },
+    "V133": {
+        "InternalName": "ANCHORAGE",
+        "DisplayName": " Anchorage"
+    },
+    "V134": {
+        "InternalName": "GROTESS",
+        "DisplayName": "Grotess"
+    },
+    "V135": {
+        "InternalName": "BOMSEAKER",
+        "DisplayName": "Bomseaker"
+    },
+    "V136": {
+        "InternalName": "TIGRETTE",
+        "DisplayName": "Tigrette"
+    },
+    "V137": {
+        "InternalName": "ELECTIGER",
+        "DisplayName": "Electiger"
+    },
+    "V138": {
+        "InternalName": "WOLFMAN",
+        "DisplayName": "Wolfman"
+    },
+    "V139": {
+        "InternalName": "WARWOLF",
+        "DisplayName": "Warwolf"
+    },
+    "V140": {
+        "InternalName": "VINTAGEGROWLITHE",
+        "DisplayName": "Vintage Growlithe"
+    },
+    "V141": {
+        "InternalName": "VINTAGEARCANINE",
+        "DisplayName": "Vintage Arcanine"
+    },
+    "V142": {
+        "InternalName": "VINTAGEMAGBY",
+        "DisplayName": "Vintage Magby"
+    },
+    "V143": {
+        "InternalName": "VINTAGEMAGMAR",
+        "DisplayName": "Vintage Magmar"
+    },
+    "V144": {
+        "InternalName": "VINTAGEHORSEA",
+        "DisplayName": "Vintage Horsea"
+    },
+    "V145": {
+        "InternalName": "VINTAGESEADRA",
+        "DisplayName": "Vintage Seadra"
+    },
+    "V146": {
+        "InternalName": "VINTAGEKINGDRA",
+        "DisplayName": "Vintage Kingdra"
+    },
+    "V147": {
+        "InternalName": "VINTAGEPSYDUCK",
+        "DisplayName": "Vintage Psyduck"
+    },
+    "V148": {
+        "InternalName": "VINTAGEGOLDUCK",
+        "DisplayName": "Vintage Golduck"
+    },
+    "V149": {
+        "InternalName": "VINTAGEWOOPER",
+        "DisplayName": "Vintage Wooper"
+    },
+    "V150": {
+        "InternalName": "VINTAGEQUAGSIRE",
+        "DisplayName": "Vintage Quagsire"
+    },
+    "V151": {
+        "InternalName": "WEEDLEBETA",
+        "DisplayName": "Weedle Beta"
+    },
+    "V152": {
+        "InternalName": "KAKUNABETA",
+        "DisplayName": "Kakuna Beta"
+    },
+    "V153": {
+        "InternalName": "KASANAGY",
+        "DisplayName": "Kasanagy"
+    },
+    "V154": {
+        "InternalName": "TWINZ",
+        "DisplayName": "Twinz"
+    },
+    "V155": {
+        "InternalName": "VINTAGEBELLSPROUT",
+        "DisplayName": "Vintage Bellsprout"
+    },
+    "V156": {
+        "InternalName": "VINTAGEWEEPINBELL",
+        "DisplayName": "Vintage Weepinbell"
+    },
+    "V157": {
+        "InternalName": "VINTAGEVICTREEBELL",
+        "DisplayName": "Vintage Victreebell"
+    },
+    "V158": {
+        "InternalName": "BELLMIT",
+        "DisplayName": "Bellmit"
+    },
+    "V159": {
+        "InternalName": "VINTAGEGLIGAR",
+        "DisplayName": "Vintage Gligar"
+    },
+    "V160": {
+        "InternalName": "VINTAGETANGELA",
+        "DisplayName": "Vintage Tangela"
+    },
+    "V161": {
+        "InternalName": "VINTAGESWINUB",
+        "DisplayName": "Vintage Swinub"
+    },
+    "V162": {
+        "InternalName": "VINTAGEPILOSWINE",
+        "DisplayName": "Vintage Piloswine"
+    },
+    "V163": {
+        "InternalName": "VINTAGEMISDREAVUS",
+        "DisplayName": "Vintage Misdreavus"
+    },
+    "V164": {
+        "InternalName": "KURSTRAW",
+        "DisplayName": "Kurstraw"
+    },
+    "V165": {
+        "InternalName": "PANGSHI",
+        "DisplayName": "Pangshi"
+    },
+    "V166": {
+        "InternalName": "VINTAGEPINECO",
+        "DisplayName": "Vintage Pineco"
+    },
+    "V167": {
+        "InternalName": "VINTAGEFORETRESS",
+        "DisplayName": "Vintage Foretress"
+    },
+    "V168": {
+        "InternalName": "VINTAGEKANGASKHAN",
+        "DisplayName": "Vintage Kangaskhan"
+    },
+    "V169": {
+        "InternalName": "TRIFOX",
+        "DisplayName": "Trifox"
+    },
+    "V170": {
+        "InternalName": "VINTAGESUDOWOODO",
+        "DisplayName": "Vintage Sudowoodo"
+    },
+    "V171": {
+        "InternalName": "PARA",
+        "DisplayName": "Para"
+    },
+    "V172": {
+        "InternalName": "VINTAGEPARAS",
+        "DisplayName": "Vintage Paras"
+    },
+    "V173": {
+        "InternalName": "VINTAGEPARASECT",
+        "DisplayName": "Vintage Parasect"
+    },
+    "V174": {
+        "InternalName": "VINTAGEMR.MIME",
+        "DisplayName": "Vintage Mr. Mime"
+    },
+    "V175": {
+        "InternalName": "VINTAGESLOWPOKE",
+        "DisplayName": "Vintage Slowpoke"
+    },
+    "V176": {
+        "InternalName": "VINTAGESLOWBRO",
+        "DisplayName": "Vintage Slowbro"
+    },
+    "V177": {
+        "InternalName": "VINTAGESLOWKING",
+        "DisplayName": "Vintage Slowking"
+    },
+    "V178": {
+        "InternalName": "VINTAGEMARILL",
+        "DisplayName": "Vintage Marill"
+    },
+    "V179": {
+        "InternalName": "VINTAGEAZUMARILL",
+        "DisplayName": "Vintage Azumarill"
+    },
+    "V180": {
+        "InternalName": "VINTAGESNORLAX",
+        "DisplayName": "Vintage Snorlax"
+    },
+    "V181": {
+        "InternalName": "VINTAGEAERODACTYL",
+        "DisplayName": "Vintage Aerodactyl"
+    },
+    "V182": {
+        "InternalName": "GHIFT",
+        "DisplayName": "Ghift"
+    },
+    "V183": {
+        "InternalName": "SUNNEE",
+        "DisplayName": "Sunnee"
+    },
+    "V184": {
+        "InternalName": "PUDDI",
+        "DisplayName": "Puddi"
+    },
+    "V185": {
+        "InternalName": "VINTAGEVENONAT",
+        "DisplayName": "Vintage Venonat"
+    },
+    "V186": {
+        "InternalName": "VINTAGEVENOMOTH",
+        "DisplayName": "Vintage Venomoth"
+    },
+    "V187": {
+        "InternalName": "VINTAGEHOPPIP",
+        "DisplayName": "Vintage Hoppip"
+    },
+    "V188": {
+        "InternalName": "VINTAGESKIPLOOM",
+        "DisplayName": "Vintage Skiploom"
+    },
+    "V189": {
+        "InternalName": "VINTAGEJUMPLUFF",
+        "DisplayName": "Vintage Jumpluff"
+    },
+    "V190": {
+        "InternalName": "VINTAGEPHANPY",
+        "DisplayName": "Vintage Phanpy"
+    },
+    "V191": {
+        "InternalName": "VINTAGEDONPHAN",
+        "DisplayName": "Vintage Donphan"
+    },
+    "V192": {
+        "InternalName": "VINTAGEHOOTHOOT",
+        "DisplayName": "Vintage Hoothoot"
+    },
+    "V193": {
+        "InternalName": "VINTAGENOCTOWL",
+        "DisplayName": "Vintage Noctowl"
+    },
+    "V194": {
+        "InternalName": "GOHNG",
+        "DisplayName": "Gohng"
+    },
+    "V205": {
+        "InternalName": "VINTAGEHITMONTOP",
+        "DisplayName": "Vintage Hitmontop"
+    },
+    "V196": {
+        "InternalName": "ANIMON",
+        "DisplayName": "Animon"
+    },
+    "V197": {
+        "InternalName": "VINTAGEUNKNOWN",
+        "DisplayName": "Vintage Unknown"
+    },
+    "V198": {
+        "InternalName": "VINTAGESTANTLER",
+        "DisplayName": "Vintage Stantler"
+    },
+    "V199": {
+        "InternalName": "VINTAGECATERPIE",
+        "DisplayName": "Vintage Caterpie"
+    },
+    "V200": {
+        "InternalName": "VINTAGEMETAPOD",
+        "DisplayName": "Vintage Metapod"
+    },
+    "V201": {
+        "InternalName": "VINTAGEBUTTERFREE",
+        "DisplayName": "Vintage Butterfree"
+    },
+    "V202": {
+        "InternalName": "VINTAGETYROGUE",
+        "DisplayName": "Vintage Tyrogue"
+    },
+    "V203": {
+        "InternalName": "VINTAGEHITMONLEE",
+        "DisplayName": "Vintage Hitmonlee"
+    },
+    "V204": {
+        "InternalName": "VINTAGEHITMONCHAN",
+        "DisplayName": "Vintage Hitmonchan"
+    },
+    "V206": {
+        "InternalName": "VINTAGESLUGMA",
+        "DisplayName": "Vintage Slugma"
+    },
+    "V207": {
+        "InternalName": "VINTAGEMACARGO",
+        "DisplayName": "Vintage Macargo"
+    }
 }
