@@ -158,7 +158,7 @@ class PokemonBoxGenerator:
         if self.second_type != self.first_type:
             pokedex_entry.append("|type2 = " + self.second_type)
 
-        pokedex_entry.append(f"''{species_and_dex_entry(self.p_data['InternalNumber'])['Dex Entry']}''")
+        pokedex_entry.append(f"|''{species_and_dex_entry(self.p_data['InternalNumber'])['Dex Entry']}''")
 
         pokedex_entry.append("}}")
 
