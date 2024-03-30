@@ -1,5 +1,5 @@
 # pylint: disable=locally-disabled, line-too-long, missing-module-docstring, too-few-public-methods
-from data_access import location_info, static_encounters
+from data_access import location_info, static_encounters, location_order
 
 
 # region Percentages
@@ -221,11 +221,12 @@ def _process_zone_biomes(zone, loc_name, p_data):
     for idx, (biome, data) in enumerate(biome_dict.items()):
         # Can't believe I have to account for this, but old "Land" code is overwritten by "LandDay" and "LandNight"
         biomes_processed[biome] = idx
-        if biome in ["LandDay", "LandNight"] and "Land" in biomes_processed:
-            del zone_data[biomes_processed["Land"]]
 
         percentages, secondary_info = calculate_percentages_and_secondary_info(data, p_data, biome)
         zone_data.append([percentages, (loc_name, secondary_info)])
+
+    if biomes_processed.keys() == {"Land", "LandDay", "LandNight"}:
+        del zone_data[biomes_processed["Land"]]
 
     return zone_data
 
@@ -291,6 +292,7 @@ def _format_rarity_list(rarity_list):
         "Day Only": "Normal",
         "Night Only": "Normal",
         "Cave": "Normal",
+        "Rock Smash": "Rock Smash",
         "Surfing": "Surfing",
         "Old Rod": "Old Rod",
         "Good Rod": "Good Rod",
@@ -372,7 +374,11 @@ def _merge_day_and_night(rarity_list):
     n = 1
     day_night = ["Day", "Night"]
     while n < len(rarity_list):
-        if rarity_list[n - 1][0] == rarity_list[n][0] and [rarity_list[n - 1][1], rarity_list[n][1]] == day_night:
+        old_rte = rarity_list[n - 1][0]
+        rte = rarity_list[n][0]
+        old_bio = rarity_list[n - 1][1]
+        bio = rarity_list[n][1]
+        if old_rte == rte and ([old_bio, bio] == day_night or (old_bio == "" and bio in day_night)):
             rarity_list[n - 1][1] = ""
             del rarity_list[n]
         else:
@@ -447,6 +453,10 @@ class LocationDataGenerator:
                 loc_name = location_info(self.zone_ids[idx])
                 zone_data = _process_zone_biomes(zone, loc_name, self.p_data)
                 all_zone_data.extend(zone_data)
+
+            # Sort based on an order loosely connected to in game order
+            sorting_order = location_order()
+            all_zone_data.sort(key=lambda x: sorting_order[x[1][0]])
 
             # Multiple zones are present in the same location, with different encounter tables. Only display the highest
             location_dict = _merge_same_location_data(all_zone_data)
