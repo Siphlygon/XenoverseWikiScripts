@@ -183,9 +183,9 @@ def calculate_rarity_for_good_rod(indexes):
             percentage += 20
 
     if percentage >= 40:
-        rarity = "C"
+        rarity = "Common"
     else:
-        rarity = "U"
+        rarity = "Uncommon"
 
     return rarity
 
@@ -222,11 +222,11 @@ def calculate_rarity_for_super_rod(indexes):
             percentage += 5
 
     if percentage >= 30:
-        rarity = "C"
+        rarity = "Common"
     elif percentage > 10:
-        rarity = "U"
+        rarity = "Uncommon"
     else:
-        rarity = "R"
+        rarity = "Rare"
 
     return rarity
 # endregion
