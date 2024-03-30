@@ -5723,9 +5723,7 @@
     },
     "PORYGON2VINTAGE": {
         "PreEvolution": "PORYGONVINTAGE",
-        "Evolution": [
-            "SUNMOLA"
-        ],
+        "Evolution": "no",
         "PreEvolutionMethod": {
             "Item": "Virtual Update"
         }
@@ -5970,9 +5968,7 @@
     },
     "MISDREAVUSVINTAGE": {
         "PreEvolution": "no",
-        "Evolution": [
-            "KURSTRAW"
-        ]
+        "Evolution": "no"
     },
     "KURSTRAW": {
         "PreEvolution": "no",
