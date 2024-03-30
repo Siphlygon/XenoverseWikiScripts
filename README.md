@@ -7,6 +7,7 @@ I am neither a professional coder nor particularly good at it. If you have any r
 ### Warning
 This project is not meant as a total replacement to manual editing, and should be used with caution. It is not perfect and may not always produce the desired results, especially if there are special cases I have not accounted for. It is recommended to check the output of the scripts before pasting them into the wiki. If you run into any errors/issues, please contact me.
 
+Note: especially check Availability box outputs, it is the most likely to have errors.
 ### Features & Planned
 Generates Pokémon wiki pages for Xenoverse 1.5.5, and currently:
 - Supports all Pokémon found in the main Pokédex and the Xenodex.
