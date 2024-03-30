@@ -3,23 +3,23 @@ from data_access import location_info, static_encounters, location_order
 
 
 # region Percentages
-def calculate_percentages_and_secondary_info(biome_encounters, p_data, biome):
+def calculate_rarity_and_secondary_info(biome_encounters, p_data, biome):
     """
     Branching method which decides the secondary information based on biome, and accesses other methods to calculate
-    encounter percentages, which follow specific, positional rules based on the biome.
+    encounter rarity, which follow specific, positional rules based on the biome.
 
-    The secondary information is returned as a string, and the percentage as an integer.
+    The secondary information is returned as a string, and the rarity as a string.
 
     :param list[str] biome_encounters: Encounter data for a particular biome.
     :param dict[str, str] p_data: A dictionary containing all the Pokémon's data in pokemon.txt.
     :param str biome: Biome type.
-    :return tuple: Encounter percentage and any secondary information.
+    :return tuple: Encounter rarity and any secondary information.
     """
     # Gets the positions of a Pokémon in a biome list
     indexes = [i + 1 for i, e in enumerate(biome_encounters) if p_data["InternalName"] in e]
 
     if biome in ["Land", "LandDay", "LandNight", "Cave"]:
-        percentage = calculate_percentage_for_land_and_cave(indexes)
+        rarity = calculate_rarity_for_land_and_cave(indexes)
         if biome == "LandDay":
             secondary_info = "Day"
         elif biome == "Cave":
@@ -28,27 +28,27 @@ def calculate_percentages_and_secondary_info(biome_encounters, p_data, biome):
             secondary_info = "Night" if biome == "LandNight" else ""
 
     elif biome in ["RockSmash", "Water"]:
-        percentage = calculate_percentage_for_rock_smash_and_water(indexes)
+        rarity = calculate_rarity_for_rock_smash_and_water(indexes)
         secondary_info = "Rock Smash" if biome == "RockSmash" else "Surfing"
 
     elif biome == "OldRod":
-        percentage = calculate_percentage_for_old_rod(indexes)
+        rarity = calculate_rarity_for_old_rod(indexes)
         secondary_info = "Old Rod"
 
     elif biome == "GoodRod":
-        percentage = calculate_percentage_for_good_rod(indexes)
+        rarity = calculate_rarity_for_good_rod(indexes)
         secondary_info = "Good Rod"
 
     else:  # SuperRod
-        percentage = calculate_percentage_for_super_rod(indexes)
+        rarity = calculate_rarity_for_super_rod(indexes)
         secondary_info = "Super Rod"
 
-    return percentage, secondary_info
+    return rarity, secondary_info
 
 
-def calculate_percentage_for_land_and_cave(indexes):
+def calculate_rarity_for_land_and_cave(indexes):
     """
-    Calculate encounter percentages for land and cave biomes based on index in the list of encounters.
+    Calculate encounter percentages and thus rarity for land and cave biomes based on index in the list of encounters.
 
     Pokémon may appear at multiple indices, and the resultant encounter percentage is the sum. The percentage is decided
     as follows:
@@ -59,8 +59,10 @@ def calculate_percentage_for_land_and_cave(indexes):
     Pokémon 9-10 - 4%
     Pokémon 11-12 - 1%
 
+    For this specific biome, common rarity is >=20%, uncommon rarity is >5%, and rare rarity is <=5%.
+
     :param list[int] indexes: Indexes of the Pokémon's encounter data.
-    :return int: Calculated percentage of encounter.
+    :return string: Calculated rarity of encounter.
     """
     percentage = 0
     for index in indexes:
@@ -74,12 +76,21 @@ def calculate_percentage_for_land_and_cave(indexes):
             percentage += 4
         else:
             percentage += 1
-    return percentage
+
+    if percentage >= 20:
+        rarity = "Common"
+    elif percentage > 5:
+        rarity = "Uncommon"
+    else:
+        rarity = "Rarity"
+
+    return rarity
 
 
-def calculate_percentage_for_rock_smash_and_water(indexes):
+def calculate_rarity_for_rock_smash_and_water(indexes):
     """
-    Calculate encounter percentages for rock smash and water biomes based on index in the list of encounters.
+    Calculate encounter percentages and thus rarity for rock smash and water biomes based on index in the list of
+    encounters.
 
     Pokémon may appear at multiple indices, and the resultant encounter percentage is the sum. The percentage is decided
     as follows:
@@ -90,8 +101,10 @@ def calculate_percentage_for_rock_smash_and_water(indexes):
     Pokémon 4 - 4%
     Pokémon 5 - 1%
 
+    For this specific biome, common rarity is >=40%, uncommon rarity is >10%, and rare rarity is <=10%.
+
     :param list[int] indexes: Indexes of the Pokémon's encounter data.
-    :return int: Calculated percentage of encounter.
+    :return string: Calculated rarity of encounter.
     """
     percentage = 0
     for index in indexes:
@@ -105,12 +118,20 @@ def calculate_percentage_for_rock_smash_and_water(indexes):
             percentage += 4
         else:
             percentage += 1
-    return percentage
+
+    if percentage >= 40:
+        rarity = "Common"
+    elif percentage > 10:
+        rarity = "Uncommon"
+    else:
+        rarity = "Rare"
+
+    return rarity
 
 
-def calculate_percentage_for_old_rod(indexes):
+def calculate_rarity_for_old_rod(indexes):
     """
-    Calculate encounter percentages for old rod encounters based on index in the list of encounters.
+    Calculate encounter percentages and thus rarity for old rod encounters based on index in the list of encounters.
 
     Pokémon may appear at multiple indices, and the resultant encounter percentage is the sum. The percentage is decided
     as follows:
@@ -118,8 +139,10 @@ def calculate_percentage_for_old_rod(indexes):
     Pokémon 1 - 70%
     Pokémon 2 - 30%
 
+    For this specific biome, common rarity is >=70%, and uncommon rarity is <=30%.
+
     :param list[int] indexes: Indexes of the Pokémon's encounter data.
-    :return int: Calculated percentage.
+    :return string: Calculated rarity.
     """
     percentage = 0
     for index in indexes:
@@ -127,12 +150,18 @@ def calculate_percentage_for_old_rod(indexes):
             percentage += 70
         else:
             percentage += 30
-    return percentage
+
+    if percentage >= 70:
+        rarity = "Common"
+    else:
+        rarity = "Uncommon"
+
+    return rarity
 
 
-def calculate_percentage_for_good_rod(indexes):
+def calculate_rarity_for_good_rod(indexes):
     """
-    Calculate encounter percentages for good rod encounters based on index in the list of encounters.
+    Calculate encounter percentages and thus rarity for good rod encounters based on index in the list of encounters.
 
     Pokémon may appear at multiple indices, and the resultant encounter percentage is the sum. The percentage is decided
     as follows:
@@ -141,8 +170,10 @@ def calculate_percentage_for_good_rod(indexes):
     Pokémon 2 - 20%
     Pokémon 3 - 20%
 
+    For this specific biome, common rarity is >=40%, uncommon rarity is <40%,
+
     :param list[int] indexes: Indexes of the Pokémon's encounter data.
-    :return int: Calculated percentage.
+    :return string: Calculated rarity.
     """
     percentage = 0
     for index in indexes:
@@ -150,12 +181,18 @@ def calculate_percentage_for_good_rod(indexes):
             percentage += 60
         else:
             percentage += 20
-    return percentage
+
+    if percentage >= 40:
+        rarity = "C"
+    else:
+        rarity = "U"
+
+    return rarity
 
 
-def calculate_percentage_for_super_rod(indexes):
+def calculate_rarity_for_super_rod(indexes):
     """
-    Calculate encounter percentages for super rod encounters based on index in the list of encounters.
+    Calculate encounter percentages and thus rarity for super rod encounters based on index in the list of encounters.
 
     Pokémon may appear at multiple indices, and the resultant encounter percentage is the sum. The percentage is decided
     as follows:
@@ -166,8 +203,10 @@ def calculate_percentage_for_super_rod(indexes):
     Pokémon 4 - 10%
     Pokémon 5 - 5%
 
+    For this specific biome, common rarity is >=30%, uncommon rarity is >10%, and rare rarity is <=10%.
+
     :param list[int] indexes: Indexes of the Pokémon's encounter data.
-    :return int: Calculated percentage.
+    :return string: Calculated rarity.
     """
     percentage = 0
     for index in indexes:
@@ -181,7 +220,15 @@ def calculate_percentage_for_super_rod(indexes):
             percentage += 10
         else:
             percentage += 5
-    return percentage
+
+    if percentage >= 30:
+        rarity = "C"
+    elif percentage > 10:
+        rarity = "U"
+    else:
+        rarity = "R"
+
+    return rarity
 # endregion
 
 
@@ -190,12 +237,12 @@ def _process_zone_biomes(zone, loc_name, p_data):
     Breaks down zone data into biomes and determines encounter percentages and secondary information.
 
     Breaks down the zone data into biomes which include the target Pokémon, and processes each biome separately. The
-    resultant data is stored in a list of lists, with each sublist containing the percentage and route string for a
+    resultant data is stored in a list of lists, with each sublist containing the rarity and route string for a
     particular biome.
 
     :param list[str] zone: Full encounter table for a particular zone.
     :param str loc_name: Name of the location.
-    :return list[list[str]]: Processed zone data consisting of a percentage, route name, and secondary information.
+    :return list[list[str]]: Processed zone data consisting of a rarity, route name, and secondary information.
     """
     # Collection of location biomes, which is the type of encounter area
     location_biomes = ["Land", "LandDay", "LandNight", "Cave", "RockSmash", "Water", "OldRod", "GoodRod", "SuperRod"]
@@ -219,12 +266,12 @@ def _process_zone_biomes(zone, loc_name, p_data):
     zone_data = []
     biomes_processed = {}
     for idx, (biome, data) in enumerate(biome_dict.items()):
-        # Can't believe I have to account for this, but old "Land" code is overwritten by "LandDay" and "LandNight"
         biomes_processed[biome] = idx
 
-        percentages, secondary_info = calculate_percentages_and_secondary_info(data, p_data, biome)
-        zone_data.append([percentages, (loc_name, secondary_info)])
+        rarity, secondary_info = calculate_rarity_and_secondary_info(data, p_data, biome)
+        zone_data.append([rarity, (loc_name, secondary_info)])
 
+    # Can't believe I have to account for this, but old "Land" code is overwritten by "LandDay" and "LandNight"
     if biomes_processed.keys() == {"Land", "LandDay", "LandNight"}:
         del zone_data[biomes_processed["Land"]]
 
@@ -238,7 +285,7 @@ def _add_rarity_lists(location_data, game_locations):
     The location data is split into three lists based on rarity, and then formatted into locations grouped by secondary
     information. The rarity lists are then added to the game locations list.
 
-    :param dict[tuple[str, str], int]: The merged location data to be rarity analysed.
+    :param dict[tuple[str, str], str]: The merged location data to be rarity analysed.
     :param list[str] game_locations: The wiki code to produce the availability information.
     """
     enc_common = []
@@ -247,9 +294,9 @@ def _add_rarity_lists(location_data, game_locations):
 
     # Add the location data to the appropriate rarity list
     for location in location_data:
-        if location[0] > 15:
+        if location[0] == "Common":
             enc_common.append([location[1][0], location[1][1]])
-        elif location[0] > 5:
+        elif location[0] == "Uncommon":
             enc_uncommon.append([location[1][0], location[1][1]])
         else:
             enc_rare.append([location[1][0], location[1][1]])
@@ -326,15 +373,17 @@ def _merge_same_location_data(all_zone_data):
     Merge different zone datas for the same location.
 
     Any location may have multiple zones, and although many have duplicate encounter tables, not all do. This function
-    merges the data for the same location, keeping only the highest encounter rate for display purposes/rarity.
+    merges the data for the same location, keeping only the highest encounter rarity for display purposes. A dictionary
+    is used to weight the rarity of the encounters such that the most common rarity is displayed.
 
-    :param  list[list[int | tuple[str, str]]] all_zone_data: The list of all zone data.
-    :return dict[tuple[str, str], int]: The merged location data.
+    :param  list[list[str | tuple[str, str]]] all_zone_data: The list of all zone data.
+    :return dict[tuple[str, str], str]: The merged location data.
     """
     location_data = {}
+    rarity_weight = {"Common": 3, "Uncommon": 2, "Rare": 1}
     for zone in all_zone_data:
         if zone[1] in location_data:
-            if zone[0] > location_data[zone[1]]:
+            if rarity_weight[zone[0]] > rarity_weight[location_data[zone[1]]]:
                 location_data[zone[1]] = zone[0]
         else:
             location_data[zone[1]] = zone[0]
@@ -350,17 +399,17 @@ def _specify_day_night_exclusivity(location_dict):
     to differentiate between encounters which are e.g., Day exclusive (Day Only) and those which can have different
     encounter chances and thus rarity in Day and Night.
 
-    :param dict[tuple[str, str], int] location_dict: The merged location data.
-    :return dict[tuple[str, str], int]: The modified location data.
+    :param dict[tuple[str, str], str] location_dict: The merged location data.
+    :return dict[tuple[str, str], str]: The modified location data.
     """
     modified_location_dict = {}
-    for (route, secondary_info), percentage in location_dict.items():
+    for (route, secondary_info), rarity in location_dict.items():
         if secondary_info == "Day" and (route, "Night") not in location_dict:
-            modified_location_dict[(route, "Day Only")] = percentage
+            modified_location_dict[(route, "Day Only")] = rarity
         elif secondary_info == "Night" and (route, "Day") not in location_dict:
-            modified_location_dict[(route, "Night Only")] = percentage
+            modified_location_dict[(route, "Night Only")] = rarity
         else:
-            modified_location_dict[(route, secondary_info)] = percentage
+            modified_location_dict[(route, secondary_info)] = rarity
 
     return modified_location_dict
 
