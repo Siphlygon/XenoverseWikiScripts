@@ -378,7 +378,7 @@ def _merge_day_and_night(rarity_list):
         rte = rarity_list[n][0]
         old_bio = rarity_list[n - 1][1]
         bio = rarity_list[n][1]
-        if old_rte == rte and ([old_bio, bio] == day_night or (old_bio == "" and bio in day_night)):
+        if old_rte == rte and ([old_bio, bio] == day_night or (old_bio == "" and bio in [day_night, "Day Only", "Night Only"])):
             rarity_list[n - 1][1] = ""
             del rarity_list[n]
         else:
@@ -456,7 +456,7 @@ class LocationDataGenerator:
 
             # Sort based on an order loosely connected to in game order
             sorting_order = location_order()
-            all_zone_data.sort(key=lambda x: sorting_order[x[1][0]])
+            all_zone_data.sort(key=lambda x: (sorting_order[x[1][0]], x[1][1]))
 
             # Multiple zones are present in the same location, with different encounter tables. Only display the highest
             location_dict = _merge_same_location_data(all_zone_data)
