@@ -82,7 +82,6 @@ class DataCollection:
                     raw_data.remove(line)
                     raw_data.remove(line_list[idx - 1])
                     raw_data.remove(line_list[idx - 2])
-                    raw_data.remove(line_list[idx - 3])
                     break
 
         raw_data[0] = "InternalNumber=" + raw_data[0].replace("[", "").replace("]", "")
