@@ -3,407 +3,430 @@
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TRISHOUT": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SHULONG": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ZIGZAGOON": {
         "PreEvolution": "no",
         "Evolution": [
             "LINOONE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "LINOONE": {
         "PreEvolution": "ZIGZAGOON",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "20"
+        }
     },
     "BIDOOF": {
         "PreEvolution": "no",
         "Evolution": [
             "BIBAREL"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BIBAREL": {
         "PreEvolution": "BIDOOF",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "15"
+        }
     },
     "SPARKOWL": {
         "PreEvolution": "no",
         "Evolution": [
             "SHAWKBIRD"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SHAWKBIRD": {
         "PreEvolution": "SPARKOWL",
         "Evolution": [
             "HARROWK"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "15"
+        }
     },
     "HARROWK": {
         "PreEvolution": "SHAWKBIRD",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "34"
+        }
     },
     "WEEDLE": {
         "PreEvolution": "no",
         "Evolution": [
             "KAKUNA"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "KAKUNA": {
         "PreEvolution": "WEEDLE",
         "Evolution": [
             "BEEDRILL"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "7"
+        }
     },
     "BEEDRILL": {
         "PreEvolution": "KAKUNA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "10"
+        }
     },
     "LEDYBA": {
         "PreEvolution": "no",
         "Evolution": [
             "LEDIAN"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "LEDIAN": {
         "PreEvolution": "LEDYBA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "18"
+        }
     },
     "KRICKETOT": {
         "PreEvolution": "no",
         "Evolution": [
             "KRICKETUNE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "KRICKETUNE": {
         "PreEvolution": "KRICKETOT",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "10"
+        }
     },
     "MAREEP": {
         "PreEvolution": "no",
         "Evolution": [
             "FLAAFFY"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "FLAAFFY": {
         "PreEvolution": "MAREEP",
         "Evolution": [
             "AMPHAROS"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "15"
+        }
     },
     "AMPHAROS": {
         "PreEvolution": "FLAAFFY",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "YEMIN": {
         "PreEvolution": "no",
         "Evolution": [
             "KUNGFUR"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "KUNGFUR": {
         "PreEvolution": "YEMIN",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "21"
+        }
     },
     "ABRA": {
         "PreEvolution": "no",
         "Evolution": [
             "KADABRA"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "KADABRA": {
         "PreEvolution": "ABRA",
         "Evolution": [
             "ALAKAZAM"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "16"
+        }
     },
     "ALAKAZAM": {
         "PreEvolution": "KADABRA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Psi Update"
+        }
     },
     "TAILLOW": {
         "PreEvolution": "no",
         "Evolution": [
             "SWELLOW"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SWELLOW": {
         "PreEvolution": "TAILLOW",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "22"
+        }
     },
     "WINGULL": {
         "PreEvolution": "no",
         "Evolution": [
             "PELIPPER"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PELIPPER": {
         "PreEvolution": "WINGULL",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "25"
+        }
     },
     "MASGOT": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DWEBBLE": {
         "PreEvolution": "no",
         "Evolution": [
             "CRUSTLE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CRUSTLE": {
         "PreEvolution": "DWEBBLE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "34"
+        }
     },
     "BREMAND": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MAGIKARP": {
         "PreEvolution": "no",
         "Evolution": [
             "GYARADOS"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GYARADOS": {
         "PreEvolution": "MAGIKARP",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "20"
+        }
     },
     "CORPHISH": {
         "PreEvolution": "no",
         "Evolution": [
             "CRAWDAUNT"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CRAWDAUNT": {
         "PreEvolution": "CORPHISH",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "FEEBAS": {
         "PreEvolution": "no",
         "Evolution": [
             "MILOTIC"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MILOTIC": {
         "PreEvolution": "FEEBAS",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Tender Update"
+        }
     },
     "PYUKUMUKU": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "REMORAID": {
         "PreEvolution": "no",
         "Evolution": [
             "OCTILLERY"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "OCTILLERY": {
         "PreEvolution": "REMORAID",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "25"
+        }
     },
     "SANDYGAST": {
         "PreEvolution": "no",
         "Evolution": [
             "PALOSSAND"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PALOSSAND": {
         "PreEvolution": "SANDYGAST",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "42"
+        }
     },
     "CORSOLA": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "STARYU": {
         "PreEvolution": "no",
         "Evolution": [
             "STARMIE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "STARMIE": {
         "PreEvolution": "STARYU",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Water Stone"
+        }
     },
     "INKAY": {
         "PreEvolution": "no",
         "Evolution": [
             "MALAMAR"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MALAMAR": {
         "PreEvolution": "INKAY",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "MANTYKE": {
         "PreEvolution": "no",
         "Evolution": [
             "MANTINE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MANTINE": {
         "PreEvolution": "MANTYKE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HasInParty": "REMORAID"
+        }
     },
     "POPPLIO": {
         "PreEvolution": "no",
         "Evolution": [
             "BRIONNE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BRIONNE": {
         "PreEvolution": "POPPLIO",
         "Evolution": [
             "PRIMARINA"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "17"
+        }
     },
     "PRIMARINA": {
         "PreEvolution": "BRIONNE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "34"
+        }
     },
     "SHUCKLE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PHANTUMP": {
         "PreEvolution": "no",
         "Evolution": [
             "TREVENANT"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TREVENANT": {
         "PreEvolution": "PHANTUMP",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Elder Update"
+        }
     },
     "ODDISH": {
         "PreEvolution": "no",
         "Evolution": [
             "GLOOM"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GLOOM": {
         "PreEvolution": "ODDISH",
@@ -411,2052 +434,2203 @@
             "VILEPLUME",
             "BELLOSSOM"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "21"
+        }
     },
     "VILEPLUME": {
         "PreEvolution": "GLOOM",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Leaf Stone"
+        }
     },
     "BELLOSSOM": {
         "PreEvolution": "GLOOM",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Sun Stone"
+        }
     },
     "MORELULL": {
         "PreEvolution": "no",
         "Evolution": [
             "SHIINOTIC"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SHIINOTIC": {
         "PreEvolution": "MORELULL",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "24"
+        }
     },
     "ZUBAT": {
         "PreEvolution": "no",
         "Evolution": [
             "GOLBAT"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GOLBAT": {
         "PreEvolution": "ZUBAT",
         "Evolution": [
             "CROBAT"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "22"
+        }
     },
     "CROBAT": {
         "PreEvolution": "GOLBAT",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Happiness": ""
+        }
     },
     "CARVANHA": {
         "PreEvolution": "no",
         "Evolution": [
             "SHARPEDO"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SHARPEDO": {
         "PreEvolution": "CARVANHA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "MAREANIE": {
         "PreEvolution": "no",
         "Evolution": [
             "TOXAPEX"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TOXAPEX": {
         "PreEvolution": "MAREANIE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "38"
+        }
     },
     "GASTLY": {
         "PreEvolution": "no",
         "Evolution": [
             "HAUNTER"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "HAUNTER": {
         "PreEvolution": "GASTLY",
         "Evolution": [
             "GENGAR"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "25"
+        }
     },
     "GENGAR": {
         "PreEvolution": "HAUNTER",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Shadow Update"
+        }
     },
     "GRIMER": {
         "PreEvolution": "no",
         "Evolution": [
             "MUK"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MUK": {
         "PreEvolution": "GRIMER",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "38"
+        }
     },
     "PUPPILLON": {
         "PreEvolution": "no",
         "Evolution": [
             "HANGEAD"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "HANGEAD": {
         "PreEvolution": "PUPPILLON",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Dread Pendant"
+        }
     },
     "NUNVIL": {
         "PreEvolution": "no",
         "Evolution": [
             "WHISTERACT"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "WHISTERACT": {
         "PreEvolution": "NUNVIL",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Dread Pendant"
+        }
     },
     "ONIX": {
         "PreEvolution": "no",
         "Evolution": [
             "STEELIX"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "STEELIX": {
         "PreEvolution": "ONIX",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Iron Update"
+        }
     },
     "CUBCHOO": {
         "PreEvolution": "no",
         "Evolution": [
             "BEARTIC"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BEARTIC": {
         "PreEvolution": "CUBCHOO",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "37"
+        }
     },
     "GEODUDE": {
         "PreEvolution": "no",
         "Evolution": [
             "GRAVELER"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GRAVELER": {
         "PreEvolution": "GEODUDE",
         "Evolution": [
             "GOLEM"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "25"
+        }
     },
     "GOLEM": {
         "PreEvolution": "GRAVELER",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Megaton Update"
+        }
     },
     "ROGGENROLA": {
         "PreEvolution": "no",
         "Evolution": [
             "BOLDORE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BOLDORE": {
         "PreEvolution": "ROGGENROLA",
         "Evolution": [
             "GIGALITH"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "25"
+        }
     },
     "GIGALITH": {
         "PreEvolution": "BOLDORE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Compressed Update"
+        }
     },
     "BERGMITE": {
         "PreEvolution": "no",
         "Evolution": [
             "AVALUGG"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "AVALUGG": {
         "PreEvolution": "BERGMITE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "37"
+        }
     },
     "SNEASEL": {
         "PreEvolution": "no",
         "Evolution": [
             "WEAVILE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "WEAVILE": {
         "PreEvolution": "SNEASEL",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "NightHoldItem": "Razor Claw"
+        }
     },
     "BLINGRIMM": {
         "PreEvolution": "no",
         "Evolution": [
             "BLINGRUDGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BLINGRUDGE": {
         "PreEvolution": "BLINGRIMM",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "40"
+        }
     },
     "SPHEAL": {
         "PreEvolution": "no",
         "Evolution": [
             "SEALEO"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SEALEO": {
         "PreEvolution": "SPHEAL",
         "Evolution": [
             "WALREIN"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "32"
+        }
     },
     "WALREIN": {
         "PreEvolution": "SEALEO",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "44"
+        }
     },
     "SEEL": {
         "PreEvolution": "no",
         "Evolution": [
             "DEWGONG"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DEWGONG": {
         "PreEvolution": "SEEL",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "34"
+        }
     },
     "HIKILOO": {
         "PreEvolution": "no",
         "Evolution": [
             "MYLOMUTE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MYLOMUTE": {
         "PreEvolution": "HIKILOO",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Ice Stone"
+        }
     },
     "BUIZEL": {
         "PreEvolution": "no",
         "Evolution": [
             "FLOATZEL"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "FLOATZEL": {
         "PreEvolution": "BUIZEL",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "26"
+        }
     },
     "KIDOON": {
         "PreEvolution": "no",
         "Evolution": [
             "HONCHEN"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "HONCHEN": {
         "PreEvolution": "KIDOON",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "SMEARGLE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MEOWTHELDIW": {
         "PreEvolution": "no",
         "Evolution": [
             "PERSIANELDIW"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MEOWTH": {
         "PreEvolution": "no",
         "Evolution": [
             "PERSIAN"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PERSIANELDIW": {
         "PreEvolution": "MEOWTHELDIW",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "28"
+        }
     },
     "PERSIAN": {
         "PreEvolution": "MEOWTHELDIW",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "28"
+        }
     },
     "SNUBBULL": {
         "PreEvolution": "no",
         "Evolution": [
             "GRANBULL"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GRANBULL": {
         "PreEvolution": "SNUBBULL",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "23"
+        }
     },
     "DROWZEE": {
         "PreEvolution": "no",
         "Evolution": [
             "HYPNO"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "HYPNO": {
         "PreEvolution": "DROWZEE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "26"
+        }
     },
     "KOINKOIN": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BEEFLE": {
         "PreEvolution": "no",
         "Evolution": [
             "PUNCHBUG"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PUNCHBUG": {
         "PreEvolution": "BEEFLE",
         "Evolution": [
             "HERCURCULES"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "18"
+        }
     },
     "HERCURCULES": {
         "PreEvolution": "PUNCHBUG",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "38"
+        }
     },
     "COMBEE": {
         "PreEvolution": "no",
         "Evolution": [
             "VESPIQUEN"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "VESPIQUEN": {
         "PreEvolution": "COMBEE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "LevelFemale": "21"
+        }
     },
     "CHIGAMI": {
         "PreEvolution": "no",
         "Evolution": [
             "GRUDAKO"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GRUDAKO": {
         "PreEvolution": "CHIGAMI",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HasMove": "PAPERCUT"
+        }
     },
     "SABOLT": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SEWADDLE": {
         "PreEvolution": "no",
         "Evolution": [
             "SWADLOON"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SWADLOON": {
         "PreEvolution": "SEWADDLE",
         "Evolution": [
             "LEAVANNY"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "20"
+        }
     },
     "LEAVANNY": {
         "PreEvolution": "SWADLOON",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Happiness": ""
+        }
     },
     "AUDINO": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CHIKORITA": {
         "PreEvolution": "no",
         "Evolution": [
             "BAYLEEF"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BAYLEEF": {
         "PreEvolution": "CHIKORITA",
         "Evolution": [
             "MEGANIUM"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "16"
+        }
     },
     "MEGANIUM": {
         "PreEvolution": "BAYLEEF",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "32"
+        }
     },
     "COTTONEE": {
         "PreEvolution": "no",
         "Evolution": [
             "WHIMSICOTT"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "WHIMSICOTT": {
         "PreEvolution": "COTTONEE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Sun Stone"
+        }
     },
     "YANMA": {
         "PreEvolution": "no",
         "Evolution": [
             "YANMEGA"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "YANMEGA": {
         "PreEvolution": "YANMA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HasMove": "ANCIENTPOWER"
+        }
     },
     "HERACROSS": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "EKANS": {
         "PreEvolution": "no",
         "Evolution": [
             "ARBOK"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ARBOK": {
         "PreEvolution": "EKANS",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "22"
+        }
     },
     "CROAGUNK": {
         "PreEvolution": "no",
         "Evolution": [
             "TOXICROAK"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TOXICROAK": {
         "PreEvolution": "CROAGUNK",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "37"
+        }
     },
     "STUNKY": {
         "PreEvolution": "no",
         "Evolution": [
             "SKUNTANK"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SKUNTANK": {
         "PreEvolution": "STUNKY",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "34"
+        }
     },
     "DITTO": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PICHU": {
         "PreEvolution": "no",
         "Evolution": [
             "PIKACHU"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PIKACHU": {
         "PreEvolution": "PICHU",
         "Evolution": [
             "RAICHU"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Happiness": ""
+        }
     },
     "RAICHU": {
         "PreEvolution": "PIKACHU",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Thunder Stone"
+        }
     },
     "GACHIGACHOO": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MILTANK": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BUDEW": {
         "PreEvolution": "no",
         "Evolution": [
             "ROSELIA"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ROSELIA": {
         "PreEvolution": "BUDEW",
         "Evolution": [
             "ROSERADE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HappinessDay": ""
+        }
     },
     "ROSERADE": {
         "PreEvolution": "ROSELIA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Shiny Stone"
+        }
     },
     "BUNEARY": {
         "PreEvolution": "no",
         "Evolution": [
             "LOPUNNY"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "LOPUNNY": {
         "PreEvolution": "BUNEARY",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Happiness": ""
+        }
     },
     "MINCCINO": {
         "PreEvolution": "no",
         "Evolution": [
             "CINCCINO"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CINCCINO": {
         "PreEvolution": "MINCCINO",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Shiny Stone"
+        }
     },
     "SWIRLIX": {
         "PreEvolution": "no",
         "Evolution": [
             "SLURPUFF"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SLURPUFF": {
         "PreEvolution": "SWIRLIX",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Meringue Update"
+        }
     },
     "HYSTEARIC": {
         "PreEvolution": "no",
         "Evolution": [
             "WYSTEARIA"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "WYSTEARIA": {
         "PreEvolution": "HYSTEARIC",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Leaf Stone"
+        }
     },
     "WHISMUR": {
         "PreEvolution": "no",
         "Evolution": [
             "LOUDRED"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "LOUDRED": {
         "PreEvolution": "WHISMUR",
         "Evolution": [
             "EXPLOUD"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "20"
+        }
     },
     "EXPLOUD": {
         "PreEvolution": "LOUDRED",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "40"
+        }
     },
     "PLUSLE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MINUN": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PEPEQUENO": {
         "PreEvolution": "no",
         "Evolution": [
             "SCOVILE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SCOVILE": {
         "PreEvolution": "PEPEQUENO",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Fire Stone"
+        }
     },
     "EXCALIBOULD": {
         "PreEvolution": "no",
         "Evolution": [
             "MADIEVAL"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MADIEVAL": {
         "PreEvolution": "EXCALIBOULD",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "NightHoldItem": "King's Rock"
+        }
     },
     "DIGLETT": {
         "PreEvolution": "no",
         "Evolution": [
             "DUGTRIO"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DUGTRIO": {
         "PreEvolution": "DIGLETT",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "26"
+        }
     },
     "DRILBUR": {
         "PreEvolution": "no",
         "Evolution": [
             "EXCADRILL"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "EXCADRILL": {
         "PreEvolution": "DRILBUR",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "31"
+        }
     },
     "ARON": {
         "PreEvolution": "no",
         "Evolution": [
             "LAIRON"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "LAIRON": {
         "PreEvolution": "ARON",
         "Evolution": [
             "AGGRON"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "32"
+        }
     },
     "AGGRON": {
         "PreEvolution": "LAIRON",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "42"
+        }
     },
     "LARVITAR": {
         "PreEvolution": "no",
         "Evolution": [
             "PUPITAR"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PUPITAR": {
         "PreEvolution": "LARVITAR",
         "Evolution": [
             "TYRANITAR"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "TYRANITAR": {
         "PreEvolution": "PUPITAR",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "55"
+        }
     },
     "KLINK": {
         "PreEvolution": "no",
         "Evolution": [
             "KLANG"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "KLANG": {
         "PreEvolution": "KLINK",
         "Evolution": [
             "KLINKLANG"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "38"
+        }
     },
     "KLINKLANG": {
         "PreEvolution": "KLANG",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "49"
+        }
     },
     "TYNAMO": {
         "PreEvolution": "no",
         "Evolution": [
             "EELEKTRIK"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "EELEKTRIK": {
         "PreEvolution": "TYNAMO",
         "Evolution": [
             "EELEKTROSS"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "39"
+        }
     },
     "EELEKTROSS": {
         "PreEvolution": "EELEKTRIK",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Thunder Stone"
+        }
     },
     "ROCKAPYE": {
         "PreEvolution": "no",
         "Evolution": [
             "TROGLOLITH"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TROGLOLITH": {
         "PreEvolution": "ROCKAPYE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "38"
+        }
     },
     "SPUTNINK": {
         "PreEvolution": "no",
         "Evolution": [
             "NEBYURA"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "NEBYURA": {
         "PreEvolution": "SPUTNINK",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "38"
+        }
     },
     "HIPPOPOTAS": {
         "PreEvolution": "no",
         "Evolution": [
             "HIPPOWDON"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "HIPPOWDON": {
         "PreEvolution": "HIPPOPOTAS",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "34"
+        }
     },
     "BIRIGIRI": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CHUBIBURNY": {
         "PreEvolution": "no",
         "Evolution": [
             "GOOMBEAR"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GOOMBEAR": {
         "PreEvolution": "CHUBIBURNY",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HasInParty": "BIRIGIRI"
+        }
     },
     "DRATINI": {
         "PreEvolution": "no",
         "Evolution": [
             "DRAGONAIR"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DRAGONAIR": {
         "PreEvolution": "DRATINI",
         "Evolution": [
             "DRAGONITE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "DRAGONITE": {
         "PreEvolution": "DRAGONAIR",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "55"
+        }
     },
     "TRAPINCH": {
         "PreEvolution": "no",
         "Evolution": [
             "VIBRAVA"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "VIBRAVA": {
         "PreEvolution": "TRAPINCH",
         "Evolution": [
             "FLYGON"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "35"
+        }
     },
     "FLYGON": {
         "PreEvolution": "VIBRAVA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "45"
+        }
     },
     "DRUDDIGON": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MANTICOEUR": {
         "PreEvolution": "no",
         "Evolution": [
             "FATAIL"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "FATAIL": {
         "PreEvolution": "MANTICOEUR",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HappinessNight": "45"
+        }
     },
     "AXEW": {
         "PreEvolution": "no",
         "Evolution": [
             "FRAXURE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "FRAXURE": {
         "PreEvolution": "AXEW",
         "Evolution": [
             "HAXORUS"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "38"
+        }
     },
     "HAXORUS": {
         "PreEvolution": "FRAXURE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "48"
+        }
     },
     "NOIBAT": {
         "PreEvolution": "no",
         "Evolution": [
             "NOIVERN"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "NOIVERN": {
         "PreEvolution": "NOIBAT",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "48"
+        }
     },
     "TURTONATOR": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CHARMANDER": {
         "PreEvolution": "no",
         "Evolution": [
             "CHARMELEON"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CHARMELEON": {
         "PreEvolution": "CHARMANDER",
         "Evolution": [
             "CHARIZARD"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "16"
+        }
     },
     "CHARIZARD": {
         "PreEvolution": "CHARMELEON",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "VULPIX": {
         "PreEvolution": "no",
         "Evolution": [
             "NINETALES"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "NINETALES": {
         "PreEvolution": "VULPIX",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Fire Stone"
+        }
     },
     "KOFFING": {
         "PreEvolution": "no",
         "Evolution": [
             "WEEZING"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "WEEZING": {
         "PreEvolution": "KOFFING",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "35"
+        }
     },
     "HOUNDOUR": {
         "PreEvolution": "no",
         "Evolution": [
             "HOUNDOOM"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "HOUNDOOM": {
         "PreEvolution": "HOUNDOUR",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "24"
+        }
     },
     "NUMEL": {
         "PreEvolution": "no",
         "Evolution": [
             "CAMERUPT"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CAMERUPT": {
         "PreEvolution": "NUMEL",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "33"
+        }
     },
     "TORKOAL": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "REINDAR": {
         "PreEvolution": "no",
         "Evolution": [
             "REINDIGO"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "REINDIGO": {
         "PreEvolution": "REINDAR",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HasMove": "FRUSTRATION"
+        }
     },
     "SOSQWATCH": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SQUIRTLE": {
         "PreEvolution": "no",
         "Evolution": [
             "WARTORTLE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "WARTORTLE": {
         "PreEvolution": "SQUIRTLE",
         "Evolution": [
             "BLASTOISE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "16"
+        }
     },
     "BLASTOISE": {
         "PreEvolution": "WARTORTLE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "TEDDIURSA": {
         "PreEvolution": "no",
         "Evolution": [
             "URSARING"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "URSARING": {
         "PreEvolution": "TEDDIURSA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "ABSOL": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "RIOLU": {
         "PreEvolution": "no",
         "Evolution": [
             "LUCARIO"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "LUCARIO": {
         "PreEvolution": "RIOLU",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HappinessDay": ""
+        }
     },
     "DRAMPA": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PONYTA": {
         "PreEvolution": "no",
         "Evolution": [
             "RAPIDASH"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "RAPIDASH": {
         "PreEvolution": "PONYTA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "40"
+        }
     },
     "SANDSHREW": {
         "PreEvolution": "no",
         "Evolution": [
             "SANDSLASH"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SANDSLASH": {
         "PreEvolution": "SANDSHREW",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "22"
+        }
     },
     "CUBONE": {
         "PreEvolution": "no",
         "Evolution": [
             "MAROWAK"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MAROWAK": {
         "PreEvolution": "CUBONE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "28"
+        }
     },
     "NATU": {
         "PreEvolution": "no",
         "Evolution": [
             "XATU"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "XATU": {
         "PreEvolution": "NATU",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "25"
+        }
     },
     "CACNEA": {
         "PreEvolution": "no",
         "Evolution": [
             "CACTURNE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CACTURNE": {
         "PreEvolution": "CACNEA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "32"
+        }
     },
     "RUFFLET": {
         "PreEvolution": "no",
         "Evolution": [
             "BRAVIARY"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BRAVIARY": {
         "PreEvolution": "RUFFLET",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "54"
+        }
     },
     "VULLABY": {
         "PreEvolution": "no",
         "Evolution": [
             "MANDIBUZZ"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MANDIBUZZ": {
         "PreEvolution": "VULLABY",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "54"
+        }
     },
     "VROOMBUG": {
         "PreEvolution": "no",
         "Evolution": [
             "SKRAVROOM"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SKRAVROOM": {
         "PreEvolution": "VROOMBUG",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Spare Parts"
+        }
     },
     "CHIKABOO": {
         "PreEvolution": "no",
         "Evolution": [
             "PECKABONE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PECKABONE": {
         "PreEvolution": "CHIKABOO",
         "Evolution": [
             "REXQUIEM"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "29"
+        }
     },
     "REXQUIEM": {
         "PreEvolution": "PECKABONE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Dusk Stone"
+        }
     },
     "KECLEON": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SKARMORY": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "RHYHORN": {
         "PreEvolution": "no",
         "Evolution": [
             "RHYDON"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "RHYDON": {
         "PreEvolution": "RHYHORN",
         "Evolution": [
             "RHYPERIOR"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "42"
+        }
     },
     "RHYPERIOR": {
         "PreEvolution": "RHYDON",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Drill Update"
+        }
     },
     "BELDUM": {
         "PreEvolution": "no",
         "Evolution": [
             "METANG"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "METANG": {
         "PreEvolution": "BELDUM",
         "Evolution": [
             "METAGROSS"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "20"
+        }
     },
     "METAGROSS": {
         "PreEvolution": "METANG",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "45"
+        }
     },
     "ELGYEM": {
         "PreEvolution": "no",
         "Evolution": [
             "BEHEEYEM"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BEHEEYEM": {
         "PreEvolution": "ELGYEM",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "42"
+        }
     },
     "LITWICK": {
         "PreEvolution": "no",
         "Evolution": [
             "LAMPENT"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "LAMPENT": {
         "PreEvolution": "LITWICK",
         "Evolution": [
             "CHANDELURE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "41"
+        }
     },
     "CHANDELURE": {
         "PreEvolution": "LAMPENT",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Dusk Stone"
+        }
     },
     "MIMIKYU": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MURKROW": {
         "PreEvolution": "no",
         "Evolution": [
             "HONCHKROW"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "HONCHKROW": {
         "PreEvolution": "MURKROW",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Dusk Stone"
+        }
     },
     "SCARACNO": {
         "PreEvolution": "no",
         "Evolution": [
             "SCARACLUO"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SCARACLUO": {
         "PreEvolution": "SCARACNO",
         "Evolution": [
             "SCARPHASMO"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "SCARPHASMO": {
         "PreEvolution": "SCARACLUO",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Location": "Westar Cemetery"
+        }
     },
     "TAUROS": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MAGNEMITE": {
         "PreEvolution": "no",
         "Evolution": [
             "MAGNETON"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MAGNETON": {
         "PreEvolution": "MAGNEMITE",
         "Evolution": [
             "MAGNEZONE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "MAGNEZONE": {
         "PreEvolution": "MAGNETON",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Location": "Steelix Gorge"
+        }
     },
     "ELEKID": {
         "PreEvolution": "no",
         "Evolution": [
             "ELECTABUZZ"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ELECTABUZZ": {
         "PreEvolution": "ELEKID",
         "Evolution": [
             "ELECTIVIRE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "ELECTIVIRE": {
         "PreEvolution": "ELECTABUZZ",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Thunderbolt Update"
+        }
     },
     "BOUFFALANT": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "JOLTIK": {
         "PreEvolution": "no",
         "Evolution": [
             "GALVANTULA"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GALVANTULA": {
         "PreEvolution": "JOLTIK",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "SCRAGGY": {
         "PreEvolution": "no",
         "Evolution": [
             "SCRAFTY"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SCRAFTY": {
         "PreEvolution": "SCRAGGY",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "39"
+        }
     },
     "SPINDA": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TOKAKLE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BLITZLE": {
         "PreEvolution": "no",
         "Evolution": [
             "ZEBSTRIKA"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ZEBSTRIKA": {
         "PreEvolution": "BLITZLE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "27"
+        }
     },
     "LITTEN": {
         "PreEvolution": "no",
         "Evolution": [
             "TORRACAT"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TORRACAT": {
         "PreEvolution": "LITTEN",
         "Evolution": [
             "INCINEROAR"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "17"
+        }
     },
     "INCINEROAR": {
         "PreEvolution": "TORRACAT",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "34"
+        }
     },
     "IGGLYBUFF": {
         "PreEvolution": "no",
         "Evolution": [
             "JIGGLYPUFF"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "JIGGLYPUFF": {
         "PreEvolution": "IGGLYBUFF",
         "Evolution": [
             "WIGGLYTUFF"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Happiness": ""
+        }
     },
     "WIGGLYTUFF": {
         "PreEvolution": "JIGGLYPUFF",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Moon Stone"
+        }
     },
     "PACHIRISU": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TIMBURR": {
         "PreEvolution": "no",
         "Evolution": [
             "GURDURR"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GURDURR": {
         "PreEvolution": "TIMBURR",
         "Evolution": [
             "CONKELDURR"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "25"
+        }
     },
     "CONKELDURR": {
         "PreEvolution": "GURDURR",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Muscular Update"
+        }
     },
     "PAWNIARD": {
         "PreEvolution": "no",
         "Evolution": [
             "BISHARP"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BISHARP": {
         "PreEvolution": "PAWNIARD",
         "Evolution": [
             "KINGAMBIT"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "52"
+        }
     },
     "SANDILE": {
         "PreEvolution": "no",
         "Evolution": [
             "KROKOROK"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "KROKOROK": {
         "PreEvolution": "SANDILE",
         "Evolution": [
             "KROOKODILE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "29"
+        }
     },
     "KROOKODILE": {
         "PreEvolution": "KROKOROK",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "40"
+        }
     },
     "TOTODILE": {
         "PreEvolution": "no",
         "Evolution": [
             "CROCONAW"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CROCONAW": {
         "PreEvolution": "TOTODILE",
         "Evolution": [
             "FERALIGATR"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "18"
+        }
     },
     "FERALIGATR": {
         "PreEvolution": "CROCONAW",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "EXEGGCUTE": {
         "PreEvolution": "no",
         "Evolution": [
             "EXEGGUTOR"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "EXEGGUTOR": {
         "PreEvolution": "EXEGGCUTE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Leaf Stone"
+        }
     },
     "HAPPINY": {
         "PreEvolution": "no",
         "Evolution": [
             "CHANSEY"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CHANSEY": {
         "PreEvolution": "HAPPINY",
         "Evolution": [
             "BLISSEY"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "DayHoldItem": "Oval Stone"
+        }
     },
     "BLISSEY": {
         "PreEvolution": "CHANSEY",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Happiness": ""
+        }
     },
     "DONANAS": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SCYTHER": {
         "PreEvolution": "no",
         "Evolution": [
             "SCIZOR"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SCIZOR": {
         "PreEvolution": "SCYTHER",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Pincer Update"
+        }
     },
     "ROWLET": {
         "PreEvolution": "no",
         "Evolution": [
             "DARTRIX"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DARTRIX": {
         "PreEvolution": "ROWLET",
         "Evolution": [
             "DECIDUEYE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "17"
+        }
     },
     "DECIDUEYE": {
         "PreEvolution": "DARTRIX",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "34"
+        }
     },
     "PASSIMIAN": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "AIPOM": {
         "PreEvolution": "no",
         "Evolution": [
             "AMBIPOM"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "AMBIPOM": {
         "PreEvolution": "AIPOM",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HasMove": "DOUBLEHIT"
+        }
     },
     "GIRAFARIG": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CHATOT": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "LITLEO": {
         "PreEvolution": "no",
         "Evolution": [
             "PYROAR"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PYROAR": {
         "PreEvolution": "LITLEO",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "35"
+        }
     },
     "TROPIUS": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CARNIVINE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BULBASAUR": {
         "PreEvolution": "no",
         "Evolution": [
             "IVYSAUR"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "IVYSAUR": {
         "PreEvolution": "BULBASAUR",
         "Evolution": [
             "VENUSAUR"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "16"
+        }
     },
     "VENUSAUR": {
         "PreEvolution": "IVYSAUR",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "32"
+        }
     },
     "SIGILYPH": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BALTOY": {
         "PreEvolution": "no",
         "Evolution": [
             "CLAYDOL"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CLAYDOL": {
         "PreEvolution": "BALTOY",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "SPIRITOMB": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "YAMASK": {
         "PreEvolution": "no",
         "Evolution": [
             "COFAGRIGUS"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "COFAGRIGUS": {
         "PreEvolution": "YAMASK",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "34"
+        }
     },
     "HAWLUCHA": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "NOSEPASS": {
         "PreEvolution": "no",
         "Evolution": [
             "PROBOPASS"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PROBOPASS": {
         "PreEvolution": "NOSEPASS",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Location": "Steelix Gorge"
+        }
     },
     "RATTATA": {
         "PreEvolution": "no",
         "Evolution": [
             "RATICATE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "RATICATE": {
         "PreEvolution": "RATTATA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "20"
+        }
     },
     "CYNDAQUIL": {
         "PreEvolution": "no",
         "Evolution": [
             "QUILAVA"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "QUILAVA": {
         "PreEvolution": "CYNDAQUIL",
         "Evolution": [
             "TYPHLOSION"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "14"
+        }
     },
     "TYPHLOSION": {
         "PreEvolution": "QUILAVA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "GULPIN": {
         "PreEvolution": "no",
         "Evolution": [
             "SWALOT"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SWALOT": {
         "PreEvolution": "GULPIN",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "26"
+        }
     },
     "TRUBBISH": {
         "PreEvolution": "no",
         "Evolution": [
             "GARBODOR"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GARBODOR": {
         "PreEvolution": "TRUBBISH",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "CHIMAOOZE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CLAMPERL": {
         "PreEvolution": "no",
         "Evolution": [
             "HUNTAIL",
             "GOREBYSS"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "HUNTAIL": {
         "PreEvolution": "CLAMPERL",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Deep Sea Update"
+        }
     },
     "GOREBYSS": {
         "PreEvolution": "CLAMPERL",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "South Sea Update"
+        }
     },
     "ALOMOMOLA": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "LAPRAS": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "EEVEE": {
         "PreEvolution": "no",
@@ -2471,1032 +2645,1122 @@
             "SYLVEON",
             "BANDEON",
             "SCALEON"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "VAPOREON": {
         "PreEvolution": "EEVEE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Water Stone"
+        }
     },
     "JOLTEON": {
         "PreEvolution": "EEVEE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Thunder Stone"
+        }
     },
     "FLAREON": {
         "PreEvolution": "EEVEE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Fire Stone"
+        }
     },
     "ESPEON": {
         "PreEvolution": "EEVEE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HappinessDay": ""
+        }
     },
     "UMBREON": {
         "PreEvolution": "EEVEE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HappinessNight": ""
+        }
     },
     "LEAFEON": {
         "PreEvolution": "EEVEE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Leaf Stone"
+        }
     },
     "GLACEON": {
         "PreEvolution": "EEVEE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Ice Stone"
+        }
     },
     "SYLVEON": {
         "PreEvolution": "EEVEE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HasMove": "FAIRYPLEDGE"
+        }
     },
     "BANDEON": {
         "PreEvolution": "EEVEE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HasMove": "SOUNDIMPACT"
+        }
     },
     "SCALEON": {
         "PreEvolution": "EEVEE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HasMove": "DRAGONPLEDGE"
+        }
     },
     "PORYGON": {
         "PreEvolution": "no",
         "Evolution": [
             "PORYGON2"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PORYGON2": {
         "PreEvolution": "PORYGON",
         "Evolution": [
             "PORYGONZ"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Virtual Update"
+        }
     },
     "PORYGONZ": {
         "PreEvolution": "PORYGON2",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Error Update"
+        }
     },
     "PORYGONWES": {
         "PreEvolution": "PORYGON2",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "WES Update"
+        }
     },
     "DUSMEE": {
         "PreEvolution": "no",
         "Evolution": [
             "EGOHISS"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "EGOHISS": {
         "PreEvolution": "DUSMEE",
         "Evolution": [
             "EGORGEON"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "45"
+        }
     },
     "EGORGEON": {
         "PreEvolution": "EGOHISS",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "62"
+        }
     },
     "CHIRIPE": {
         "PreEvolution": "no",
         "Evolution": [
             "BATNANA"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BATNANA": {
         "PreEvolution": "CHIRIPE",
         "Evolution": [
             "ERBA3"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "18"
+        }
     },
     "ERBA3": {
         "PreEvolution": "BATNANA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "34"
+        }
     },
     "FUOCO1": {
         "PreEvolution": "no",
         "Evolution": [
             "FUOCO2"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "FUOCO2": {
         "PreEvolution": "FUOCO1",
         "Evolution": [
             "FUOCO3"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "18"
+        }
     },
     "FUOCO3": {
         "PreEvolution": "FUOCO2",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "34"
+        }
     },
     "FLOATUB": {
         "PreEvolution": "no",
         "Evolution": [
             "TUSKIEVOUS"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TUSKIEVOUS": {
         "PreEvolution": "FLOATUB",
         "Evolution": [
             "GANESHANT"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "18"
+        }
     },
     "GANESHANT": {
         "PreEvolution": "TUSKIEVOUS",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "34"
+        }
     },
     "LUXFLON": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DIELEBI": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MEW": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "LUGIA": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "HOOH": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CELEBI": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DEOXYS": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "HEATRAN": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CRESSELIA": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DARKRAI": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MELOETTA": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GENESECT": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MARSHADOW": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GROWLITHE": {
         "PreEvolution": "no",
         "Evolution": [
             "ARCANINE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ARCANINE": {
         "PreEvolution": "GROWLITHE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Fire Stone"
+        }
     },
     "SEEDOT": {
         "PreEvolution": "no",
         "Evolution": [
             "NUZLEAF"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "NUZLEAF": {
         "PreEvolution": "SEEDOT",
         "Evolution": [
             "SHIFTRY"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "14"
+        }
     },
     "SHIFTRY": {
         "PreEvolution": "NUZLEAF",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Leaf Stone"
+        }
     },
     "MIENFOO": {
         "PreEvolution": "no",
         "Evolution": [
             "MIENSHAO"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MIENSHAO": {
         "PreEvolution": "MIENFOO",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "50"
+        }
     },
     "MAGBY": {
         "PreEvolution": "no",
         "Evolution": [
             "MAGMAR"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MAGMAR": {
         "PreEvolution": "MAGBY",
         "Evolution": [
             "MAGMORTAR"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "MAGMORTAR": {
         "PreEvolution": "MAGMAR",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Blast Update"
+        }
     },
     "TURTWIG": {
         "PreEvolution": "no",
         "Evolution": [
             "GROTLE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GROTLE": {
         "PreEvolution": "TURTWIG",
         "Evolution": [
             "TORTERRA"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "18"
+        }
     },
     "TORTERRA": {
         "PreEvolution": "GROTLE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "32"
+        }
     },
     "CHIMCHAR": {
         "PreEvolution": "no",
         "Evolution": [
             "MONFERNO"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MONFERNO": {
         "PreEvolution": "CHIMCHAR",
         "Evolution": [
             "INFERNAPE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "14"
+        }
     },
     "INFERNAPE": {
         "PreEvolution": "MONFERNO",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "PIPLUP": {
         "PreEvolution": "no",
         "Evolution": [
             "PRINPLUP"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PRINPLUP": {
         "PreEvolution": "PIPLUP",
         "Evolution": [
             "EMPOLEON"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "16"
+        }
     },
     "EMPOLEON": {
         "PreEvolution": "PRINPLUP",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "SURSKIT": {
         "PreEvolution": "no",
         "Evolution": [
             "MASQUERAIN"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MASQUERAIN": {
         "PreEvolution": "SURSKIT",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "22"
+        }
     },
     "LOTAD": {
         "PreEvolution": "no",
         "Evolution": [
             "LOMBRE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "LOMBRE": {
         "PreEvolution": "LOTAD",
         "Evolution": [
             "LUDICOLO"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "14"
+        }
     },
     "LUDICOLO": {
         "PreEvolution": "LOMBRE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Water Stone"
+        }
     },
     "HORSEA": {
         "PreEvolution": "no",
         "Evolution": [
             "SEADRA"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SEADRA": {
         "PreEvolution": "HORSEA",
         "Evolution": [
             "KINGDRA"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "32"
+        }
     },
     "KINGDRA": {
         "PreEvolution": "SEADRA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Dragon Update"
+        }
     },
     "PSYDUCK": {
         "PreEvolution": "no",
         "Evolution": [
             "GOLDUCK"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GOLDUCK": {
         "PreEvolution": "PSYDUCK",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "33"
+        }
     },
     "WOOPER": {
         "PreEvolution": "no",
         "Evolution": [
             "QUAGSIRE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "QUAGSIRE": {
         "PreEvolution": "WOOPER",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "20"
+        }
     },
     "CHEWTLE": {
         "PreEvolution": "no",
         "Evolution": [
             "DREDNAW"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DREDNAW": {
         "PreEvolution": "CHEWTLE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "22"
+        }
     },
     "LARVESTA": {
         "PreEvolution": "no",
         "Evolution": [
             "VOLCARONA"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "VOLCARONA": {
         "PreEvolution": "LARVESTA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "59"
+        }
     },
     "GLIGAR": {
         "PreEvolution": "no",
         "Evolution": [
             "GLISCOR"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GLISCOR": {
         "PreEvolution": "GLIGAR",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "NightHoldItem": "Razor Fang"
+        }
     },
     "POOCHYENA": {
         "PreEvolution": "no",
         "Evolution": [
             "MIGHTYENA"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MIGHTYENA": {
         "PreEvolution": "POOCHYENA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "18"
+        }
     },
     "DEINO": {
         "PreEvolution": "no",
         "Evolution": [
             "ZWEILOUS"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ZWEILOUS": {
         "PreEvolution": "DEINO",
         "Evolution": [
             "HYDREIGON"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "50"
+        }
     },
     "HYDREIGON": {
         "PreEvolution": "ZWEILOUS",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "64"
+        }
     },
     "DURALUDON": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BELLSPROUT": {
         "PreEvolution": "no",
         "Evolution": [
             "WEEPINBELL"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "WEEPINBELL": {
         "PreEvolution": "BELLSPROUT",
         "Evolution": [
             "VICTREEBEL"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "21"
+        }
     },
     "VICTREEBEL": {
         "PreEvolution": "WEEPINBELL",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Leaf Stone"
+        }
     },
     "TANGELA": {
         "PreEvolution": "no",
         "Evolution": [
             "TANGROWTH"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TANGROWTH": {
         "PreEvolution": "TANGELA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HasMove": "ANCIENTPOWER"
+        }
     },
     "FERROSEED": {
         "PreEvolution": "no",
         "Evolution": [
             "FERROTHORN"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "FERROTHORN": {
         "PreEvolution": "FERROSEED",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "40"
+        }
     },
     "MUNNA": {
         "PreEvolution": "no",
         "Evolution": [
             "MUSHARNA"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MUSHARNA": {
         "PreEvolution": "MUNNA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Moon Stone"
+        }
     },
     "SWINUB": {
         "PreEvolution": "no",
         "Evolution": [
             "PILOSWINE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PILOSWINE": {
         "PreEvolution": "SWINUB",
         "Evolution": [
             "MAMOSWINE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "33"
+        }
     },
     "MAMOSWINE": {
         "PreEvolution": "PILOSWINE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HasMove": "ANCIENTPOWER"
+        }
     },
     "SNORUNT": {
         "PreEvolution": "no",
         "Evolution": [
             "GLALIE",
             "FROSLASS"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GLALIE": {
         "PreEvolution": "SNORUNT",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "42"
+        }
     },
     "FROSLASS": {
         "PreEvolution": "SNORUNT",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "ItemFemale": "Dawn Stone"
+        }
     },
     "MISDREAVUS": {
         "PreEvolution": "no",
         "Evolution": [
             "MISMAGIUS"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MISMAGIUS": {
         "PreEvolution": "MISDREAVUS",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Dusk Stone"
+        }
     },
     "CRYOGONAL": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SNIVY": {
         "PreEvolution": "no",
         "Evolution": [
             "SERVINE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SERVINE": {
         "PreEvolution": "SNIVY",
         "Evolution": [
             "SERPERIOR"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "17"
+        }
     },
     "SERPERIOR": {
         "PreEvolution": "SERVINE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "TEPIG": {
         "PreEvolution": "no",
         "Evolution": [
             "PIGNITE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PIGNITE": {
         "PreEvolution": "TEPIG",
         "Evolution": [
             "EMBOAR"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "17"
+        }
     },
     "EMBOAR": {
         "PreEvolution": "PIGNITE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "OSHAWOTT": {
         "PreEvolution": "no",
         "Evolution": [
             "DEWOTT"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DEWOTT": {
         "PreEvolution": "OSHAWOTT",
         "Evolution": [
             "SAMUROTT"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "17"
+        }
     },
     "SAMUROTT": {
         "PreEvolution": "DEWOTT",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "UNOWNELDIW": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "RAIKOU": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ENTEI": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SUICUNE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MAWILE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DUSKULL": {
         "PreEvolution": "no",
         "Evolution": [
             "DUSCLOPS"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DUSCLOPS": {
         "PreEvolution": "DUSKULL",
         "Evolution": [
             "DUSKNOIR"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "37"
+        }
     },
     "DUSKNOIR": {
         "PreEvolution": "DUSCLOPS",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Gripper Update"
+        }
     },
     "PINECO": {
         "PreEvolution": "no",
         "Evolution": [
             "FORRETRESS"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "FORRETRESS": {
         "PreEvolution": "PINECO",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "31"
+        }
     },
     "SALANDIT": {
         "PreEvolution": "no",
         "Evolution": [
             "SALAZZLE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SALAZZLE": {
         "PreEvolution": "SALANDIT",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "LevelFemale": "33"
+        }
     },
     "KANGASKHAN": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BONSLY": {
         "PreEvolution": "no",
         "Evolution": [
             "SUDOWOODO"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SUDOWOODO": {
         "PreEvolution": "BONSLY",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HasMove": "MIMIC"
+        }
     },
     "PARAS": {
         "PreEvolution": "no",
         "Evolution": [
             "PARASECT"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PARASECT": {
         "PreEvolution": "PARAS",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "24"
+        }
     },
     "MIMEJR": {
         "PreEvolution": "no",
         "Evolution": [
             "MRMIME"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MRMIME": {
         "PreEvolution": "MIMEJR",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HasMove": "MIMIC"
+        }
     },
     "TREECKO": {
         "PreEvolution": "no",
         "Evolution": [
             "GROVYLE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GROVYLE": {
         "PreEvolution": "TREECKO",
         "Evolution": [
             "SCEPTILE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "16"
+        }
     },
     "SCEPTILE": {
         "PreEvolution": "GROVYLE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "TORCHIC": {
         "PreEvolution": "no",
         "Evolution": [
             "COMBUSKEN"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "COMBUSKEN": {
         "PreEvolution": "TORCHIC",
         "Evolution": [
             "BLAZIKEN"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "16"
+        }
     },
     "BLAZIKEN": {
         "PreEvolution": "COMBUSKEN",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "MUDKIP": {
         "PreEvolution": "no",
         "Evolution": [
             "MARSHTOMP"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MARSHTOMP": {
         "PreEvolution": "MUDKIP",
         "Evolution": [
             "SWAMPERT"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "16"
+        }
     },
     "SWAMPERT": {
         "PreEvolution": "MARSHTOMP",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "TOXEL": {
         "PreEvolution": "no",
         "Evolution": [
             "TOXTRICITY"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TOXTRICITY": {
         "PreEvolution": "TOXEL",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "CASTFORM": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "FOONGUS": {
         "PreEvolution": "no",
         "Evolution": [
             "AMOONGUSS"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "AMOONGUSS": {
         "PreEvolution": "FOONGUS",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "39"
+        }
     },
     "SLOWPOKE": {
         "PreEvolution": "no",
         "Evolution": [
             "SLOWBRO",
             "SLOWKING"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SLOWBRO": {
         "PreEvolution": "SLOWPOKE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "37"
+        }
     },
     "SLOWKING": {
         "PreEvolution": "SLOWPOKE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Royal Update"
+        }
     },
     "RALTS": {
         "PreEvolution": "no",
         "Evolution": [
             "KIRLIA"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "KIRLIA": {
         "PreEvolution": "RALTS",
@@ -3504,428 +3768,466 @@
             "GARDEVOIR",
             "GALLADE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "20"
+        }
     },
     "GARDEVOIR": {
         "PreEvolution": "KIRLIA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "GALLADE": {
         "PreEvolution": "KIRLIA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "ItemMale": "Dawn Stone"
+        }
     },
     "AZURILL": {
         "PreEvolution": "no",
         "Evolution": [
             "MARILL"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MARILL": {
         "PreEvolution": "AZURILL",
         "Evolution": [
             "AZUMARILL"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Happiness": ""
+        }
     },
     "AZUMARILL": {
         "PreEvolution": "MARILL",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "18"
+        }
     },
     "SHROOMISH": {
         "PreEvolution": "no",
         "Evolution": [
             "BRELOOM"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BRELOOM": {
         "PreEvolution": "SHROOMISH",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "23"
+        }
     },
     "MUNCHLAX": {
         "PreEvolution": "no",
         "Evolution": [
             "SNORLAX"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SNORLAX": {
         "PreEvolution": "MUNCHLAX",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Happiness": ""
+        }
     },
     "ARCTOZOLT": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ZORUAHISUI": {
         "PreEvolution": "no",
         "Evolution": [
             "ZOROARKHISUI"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ZOROARKHISUI": {
         "PreEvolution": "ZORUAHISUI",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Ancient Stone"
+        }
     },
     "SHELLOS": {
         "PreEvolution": "no",
         "Evolution": [
             "GASTRODON"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GASTRODON": {
         "PreEvolution": "SHELLOS",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "EMOLGA": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BRONZOR": {
         "PreEvolution": "no",
         "Evolution": [
             "BRONZONG"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BRONZONG": {
         "PreEvolution": "BRONZOR",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "33"
+        }
     },
     "ARCHEN": {
         "PreEvolution": "no",
         "Evolution": [
             "ARCHEOPS"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ARCHEOPS": {
         "PreEvolution": "ARCHEN",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "37"
+        }
     },
     "GIBLE": {
         "PreEvolution": "no",
         "Evolution": [
             "GABITE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GABITE": {
         "PreEvolution": "GIBLE",
         "Evolution": [
             "GARCHOMP"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "24"
+        }
     },
     "GARCHOMP": {
         "PreEvolution": "GABITE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "48"
+        }
     },
     "SHINX": {
         "PreEvolution": "no",
         "Evolution": [
             "LUXIO"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "LUXIO": {
         "PreEvolution": "SHINX",
         "Evolution": [
             "LUXRAY"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "15"
+        }
     },
     "LUXRAY": {
         "PreEvolution": "LUXIO",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "AERODACTYL": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CHESPIN": {
         "PreEvolution": "no",
         "Evolution": [
             "QUILLADIN"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "QUILLADIN": {
         "PreEvolution": "CHESPIN",
         "Evolution": [
             "CHESNAUGHT"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "16"
+        }
     },
     "CHESNAUGHT": {
         "PreEvolution": "QUILLADIN",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "FENNEKIN": {
         "PreEvolution": "no",
         "Evolution": [
             "BRAIXEN"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BRAIXEN": {
         "PreEvolution": "FENNEKIN",
         "Evolution": [
             "DELPHOX"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "16"
+        }
     },
     "DELPHOX": {
         "PreEvolution": "BRAIXEN",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "FROAKIE": {
         "PreEvolution": "no",
         "Evolution": [
             "FROGADIER"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "FROGADIER": {
         "PreEvolution": "FROAKIE",
         "Evolution": [
             "GRENINJA"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "16"
+        }
     },
     "GRENINJA": {
         "PreEvolution": "FROGADIER",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "TORNADUS": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "THUNDURUS": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "LANDORUS": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ENAMORUS": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SWABLU": {
         "PreEvolution": "no",
         "Evolution": [
             "ALTARIA"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ALTARIA": {
         "PreEvolution": "SWABLU",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "35"
+        }
     },
     "VENIPEDE": {
         "PreEvolution": "no",
         "Evolution": [
             "WHIRLIPEDE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "WHIRLIPEDE": {
         "PreEvolution": "VENIPEDE",
         "Evolution": [
             "SCOLIPEDE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "22"
+        }
     },
     "SCOLIPEDE": {
         "PreEvolution": "WHIRLIPEDE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "SKORUPI": {
         "PreEvolution": "no",
         "Evolution": [
             "DRAPION"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DRAPION": {
         "PreEvolution": "SKORUPI",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "40"
+        }
     },
     "CRANIDOS": {
         "PreEvolution": "no",
         "Evolution": [
             "RAMPARDOS"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "RAMPARDOS": {
         "PreEvolution": "CRANIDOS",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "SHIELDON": {
         "PreEvolution": "no",
         "Evolution": [
             "BASTIODON"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BASTIODON": {
         "PreEvolution": "SHIELDON",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "CATERPIE": {
         "PreEvolution": "no",
         "Evolution": [
             "METAPOD"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "METAPOD": {
         "PreEvolution": "CATERPIE",
         "Evolution": [
             "BUTTERFREE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "7"
+        }
     },
     "BUTTERFREE": {
         "PreEvolution": "METAPOD",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "10"
+        }
     },
     "CHARCADET": {
         "PreEvolution": "no",
         "Evolution": [
             "ARMAROUGE",
             "CERULEDGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ARMAROUGE": {
         "PreEvolution": "CHARCADET",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Auspicious Armor"
+        }
     },
     "CERULEDGE": {
         "PreEvolution": "CHARCADET",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Malicious Armor"
+        }
     },
     "BINACLE": {
         "PreEvolution": "no",
         "Evolution": [
             "BARBARACLE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BARBARACLE": {
         "PreEvolution": "BINACLE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "39"
+        }
     },
     "TATSUGIRI": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "KINGAMBIT": {
         "PreEvolution": "BISHARP",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Kingambit": "39"
+        }
     },
     "TYROGUE": {
         "PreEvolution": "no",
@@ -3933,638 +4235,649 @@
             "HITMONLEE",
             "HITMONCHAN",
             "HITMONTOP"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "HITMONLEE": {
         "PreEvolution": "TYROGUE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "AttackGreater": "20"
+        }
     },
     "HITMONCHAN": {
         "PreEvolution": "TYROGUE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "DefenseGreater": "20"
+        }
     },
     "HITMONTOP": {
         "PreEvolution": "TYROGUE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "AtkDefEqual": "20"
+        }
     },
     "SLUGMA": {
         "PreEvolution": "no",
         "Evolution": [
             "MAGCARGO"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MAGCARGO": {
         "PreEvolution": "SLUGMA",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "38"
+        }
     },
     "LUNATONE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SOLROCK": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "KARRABLAST": {
         "PreEvolution": "no",
         "Evolution": [
             "ESCAVALIER"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ESCAVALIER": {
         "PreEvolution": "KARRABLAST",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Cavalry Update"
+        }
     },
     "SHELMET": {
         "PreEvolution": "no",
         "Evolution": [
             "ACCELGOR"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ACCELGOR": {
         "PreEvolution": "SHELMET",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Shell Update"
+        }
     },
     "SPRIGATITO": {
         "PreEvolution": "no",
         "Evolution": [
             "FLORAGATO"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "FLORAGATO": {
         "PreEvolution": "SPRIGATITO",
         "Evolution": [
             "MEOWSCARADA"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "16"
+        }
     },
     "MEOWSCARADA": {
         "PreEvolution": "FLORAGATO",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "SOBBLE": {
         "PreEvolution": "no",
         "Evolution": [
             "DRIZZILE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DRIZZILE": {
         "PreEvolution": "SOBBLE",
         "Evolution": [
             "INTELEON"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "16"
+        }
     },
     "INTELEON": {
         "PreEvolution": "DRIZZILE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "35"
+        }
     },
     "REGIROCK": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "REGICE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "REGISTEEL": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "REGIGIGAS": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "REGIELEKI": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "REGIDRAGO": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "REGINALOUS": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MEWTWO": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ELEKIDX": {
         "PreEvolution": "no",
         "Evolution": [
             "ELECTABUZZX"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ELECTABUZZX": {
         "PreEvolution": "ELEKIDX",
         "Evolution": [
             "ELECTABURST"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "ELECTABURST": {
         "PreEvolution": "ELECTABUZZX",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Xenolite"
+        }
     },
     "SPIRITOMBX": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CARVANHAX": {
         "PreEvolution": "no",
         "Evolution": [
             "SHARPEDOX"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SHARPEDOX": {
         "PreEvolution": "CARVANHAX",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Xenolite"
+        }
     },
     "PYUKUMUKUX": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PIKACHUX": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "JOLTIKX": {
         "PreEvolution": "no",
         "Evolution": [
             "GALVANTULAX"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GALVANTULAX": {
         "PreEvolution": "JOLTIKX",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "SMEARGLEX": {
         "PreEvolution": "no",
         "Evolution": [
             "CHIENTILLY"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CHIENTILLY": {
         "PreEvolution": "SMEARGLEX",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Xenolite"
+        }
     },
     "GASTLYX": {
         "PreEvolution": "no",
         "Evolution": [
             "HAUNTERX"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "HAUNTERX": {
         "PreEvolution": "GASTLYX",
         "Evolution": [
             "GENGARX"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "25"
+        }
     },
     "GENGARX": {
         "PreEvolution": "HAUNTERX",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Xenolite"
+        }
     },
     "YAMASKX": {
         "PreEvolution": "no",
         "Evolution": [
             "COFAGRIGUSX"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "COFAGRIGUSX": {
         "PreEvolution": "YAMASKX",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "34"
+        }
     },
     "PONYTAX": {
         "PreEvolution": "no",
         "Evolution": [
             "RAPIDASHX"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "RAPIDASHX": {
         "PreEvolution": "PONYTAX",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "40"
+        }
     },
     "CACNEAX": {
         "PreEvolution": "no",
         "Evolution": [
             "CACTURNEX"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CACTURNEX": {
         "PreEvolution": "CACNEAX",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "32"
+        }
     },
     "SWIRLIXX": {
         "PreEvolution": "no",
         "Evolution": [
             "SLURPUFFX"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SLURPUFFX": {
         "PreEvolution": "SWIRLIXX",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Xenolite"
+        }
     },
     "BUDEWX": {
         "PreEvolution": "no",
         "Evolution": [
             "ROSELIAX"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ROSELIAX": {
         "PreEvolution": "BUDEWX",
         "Evolution": [
             "ROSERADEX"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "20"
+        }
     },
     "ROSERADEX": {
         "PreEvolution": "ROSELIAX",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Xenolite"
+        }
     },
     "MAREANIEX": {
         "PreEvolution": "no",
         "Evolution": [
             "TOXAPEXX"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TOXAPEXX": {
         "PreEvolution": "MAREANIEX",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "38"
+        }
     },
     "GRENINJAX": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MEWTWOX": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "RAICHUX": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BISHARPX": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SCOVILEX": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TYRANITARX": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DITTOX": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "AEGISLASHX": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TAPUFINIX": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TAPULELEX": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TAPUKOKOX": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TAPUBULUX": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DRAGALISKFURIA": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SHYLEONP": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TRISHOUTP": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SHULONGP": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "WEEDLEVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "KAKUNAVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "KAKUNAVINTAGE": {
         "PreEvolution": "WEEDLEVINTAGE",
         "Evolution": [
             "BEEDRILLVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "7"
+        }
     },
     "BEEDRILLVINTAGE": {
         "PreEvolution": "KAKUNAVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "10"
+        }
     },
     "LEDYBAVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "LEDIANVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "LEDIANVINTAGE": {
         "PreEvolution": "LEDYBAVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "18"
+        }
     },
     "MAREEPVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "FLAAFFYVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "FLAAFFYVINTAGE": {
         "PreEvolution": "MAREEPVINTAGE",
         "Evolution": [
             "AMPHAROSVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "15"
+        }
     },
     "AMPHAROSVINTAGE": {
         "PreEvolution": "FLAAFFYVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "ABRAVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "KADABRAVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "KADABRAVINTAGE": {
         "PreEvolution": "ABRAVINTAGE",
         "Evolution": [
             "ALAKAZAMVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "16"
+        }
     },
     "ALAKAZAMVINTAGE": {
         "PreEvolution": "KADABRAVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Psi Update"
+        }
     },
     "MAGIKARPVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "GYARADOSVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GYARADOSVINTAGE": {
         "PreEvolution": "MAGIKARPVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "20"
+        }
     },
     "REMORAIDVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "OCTILLERYVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "OCTILLERYVINTAGE": {
         "PreEvolution": "REMORAIDVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "25"
+        }
     },
     "CORSOLAVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "STARYUVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "STARMIEVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "STARMIEVINTAGE": {
         "PreEvolution": "STARYUVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Water Stone"
+        }
     },
     "MANTINEVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SHUCKLEVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ODDISHVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "GLOOMVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GLOOMVINTAGE": {
         "PreEvolution": "ODDISHVINTAGE",
@@ -4572,714 +4885,780 @@
             "VILEPLUMEVINTAGE",
             "BELLOSSOMVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "21"
+        }
     },
     "VILEPLUMEVINTAGE": {
         "PreEvolution": "GLOOMVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Leaf Stone"
+        }
     },
     "BELLOSSOMVINTAGE": {
         "PreEvolution": "GLOOMVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Sun Stone"
+        }
     },
     "ZUBATVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "GOLBATVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GOLBATVINTAGE": {
         "PreEvolution": "ZUBATVINTAGE",
         "Evolution": [
             "CROBATVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "22"
+        }
     },
     "CROBATVINTAGE": {
         "PreEvolution": "GOLBATVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Happiness": ""
+        }
     },
     "GASTLYVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "HAUNTERVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "HAUNTERVINTAGE": {
         "PreEvolution": "GASTLYVINTAGE",
         "Evolution": [
             "GENGARVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "25"
+        }
     },
     "GENGARVINTAGE": {
         "PreEvolution": "HAUNTERVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Shadow Update"
+        }
     },
     "GRIMERVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "MUKVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MUKVINTAGE": {
         "PreEvolution": "GRIMERVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "38"
+        }
     },
     "ONIXVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "STEELIXVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "STEELIXVINTAGE": {
         "PreEvolution": "ONIXVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Iron Update"
+        }
     },
     "GEODUDEVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "GRAVELERVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GRAVELERVINTAGE": {
         "PreEvolution": "GEODUDEVINTAGE",
         "Evolution": [
             "GOLEMVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "25"
+        }
     },
     "GOLEMVINTAGE": {
         "PreEvolution": "GRAVELERVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Megaton Update"
+        }
     },
     "SNEASELVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SEELVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "DEWGONGVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DEWGONGVINTAGE": {
         "PreEvolution": "SEELVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "34"
+        }
     },
     "SMEARGLEVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SNUBBULLVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "GRANBULLVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GRANBULLVINTAGE": {
         "PreEvolution": "SNUBBULLVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "23"
+        }
     },
     "DROWZEEVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "HYPNOVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "HYPNOVINTAGE": {
         "PreEvolution": "DROWZEEVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "26"
+        }
     },
     "CHIKORITAVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "BAYLEEFVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BAYLEEFVINTAGE": {
         "PreEvolution": "CHIKORITAVINTAGE",
         "Evolution": [
             "MEGANIUMVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "16"
+        }
     },
     "MEGANIUMVINTAGE": {
         "PreEvolution": "BAYLEEFVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "32"
+        }
     },
     "YANMAVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "HERACROSSVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "EKANSVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "ARBOKVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ARBOKVINTAGE": {
         "PreEvolution": "EKANSVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "22"
+        }
     },
     "PICHUVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "PIKACHUVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PIKACHUVINTAGE": {
         "PreEvolution": "PICHUVINTAGE",
         "Evolution": [
             "RAICHUVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Happiness": ""
+        }
     },
     "RAICHUVINTAGE": {
         "PreEvolution": "PIKACHUVINTAGE",
         "Evolution": [
             "GOROCHU"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Thunder Stone"
+        }
     },
     "GOROCHU": {
         "PreEvolution": "RAICHUVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Thunder Stone"
+        }
     },
     "MILTANKVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DIGLETTVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "DUGTRIOVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DUGTRIOVINTAGE": {
         "PreEvolution": "DIGLETTVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "26"
+        }
     },
     "LARVITARVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "PUPITARVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PUPITARVINTAGE": {
         "PreEvolution": "LARVITARVINTAGE",
         "Evolution": [
             "TYRANITARVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "TYRANITARVINTAGE": {
         "PreEvolution": "PUPITARVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "55"
+        }
     },
     "DRATINIVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "DRAGONAIRVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DRAGONAIRVINTAGE": {
         "PreEvolution": "DRATINIVINTAGE",
         "Evolution": [
             "DRAGONITEVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "DRAGONITEVINTAGE": {
         "PreEvolution": "DRAGONAIRVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "55"
+        }
     },
     "CHARMANDERVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "CHARMELEONVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CHARMELEONVINTAGE": {
         "PreEvolution": "CHARMANDERVINTAGE",
         "Evolution": [
             "CHARIZARDVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "16"
+        }
     },
     "CHARIZARDVINTAGE": {
         "PreEvolution": "CHARMELEONVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "VULPIXVINTAGE": {
         "PreEvolution": "TRIFOX",
         "Evolution": [
             "NINETALESVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Happiness": ""
+        }
     },
     "NINETALESVINTAGE": {
         "PreEvolution": "VULPIXVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Fire Stone"
+        }
     },
     "KOFFINGVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "WEEZINGVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "WEEZINGVINTAGE": {
         "PreEvolution": "KOFFINGVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "35"
+        }
     },
     "HOUNDOURVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "HOUNDOOMVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "HOUNDOOMVINTAGE": {
         "PreEvolution": "HOUNDOURVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "24"
+        }
     },
     "SQUIRTLEVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "WARTORTLEVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "WARTORTLEVINTAGE": {
         "PreEvolution": "SQUIRTLEVINTAGE",
         "Evolution": [
             "BLASTOISEVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "16"
+        }
     },
     "BLASTOISEVINTAGE": {
         "PreEvolution": "WARTORTLEVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "TEDDIURSAVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "URSARINGVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "URSARINGVINTAGE": {
         "PreEvolution": "TEDDIURSAVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "PONYTAVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "RAPIDASHVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "RAPIDASHVINTAGE": {
         "PreEvolution": "PONYTAVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "40"
+        }
     },
     "SANDSHREWVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "SANDSLASHVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SANDSLASHVINTAGE": {
         "PreEvolution": "SANDSHREWVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "22"
+        }
     },
     "CUBONEVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "MAROWAKVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MAROWAKVINTAGE": {
         "PreEvolution": "CUBONEVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "28"
+        }
     },
     "NATUVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "XATUVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "XATUVINTAGE": {
         "PreEvolution": "NATUVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "25"
+        }
     },
     "SKARMORYVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "RHYHORNVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "RHYDONVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "RHYDONVINTAGE": {
         "PreEvolution": "RHYHORNVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "42"
+        }
     },
     "MURKROWVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TAUROSVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MAGNEMITEVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "MAGNETONVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MAGNETONVINTAGE": {
         "PreEvolution": "MAGNEMITEVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "ELEKIDVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "ELECTABUZZVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "ELECTABUZZVINTAGE": {
         "PreEvolution": "ELEKIDVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
-    "MEOWSY": {
+    "MEOWSYVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "MEOWTHVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MEOWTHVINTAGE": {
-        "PreEvolution": "MEOWSY",
+        "PreEvolution": "MEOWSYVINTAGE",
         "Evolution": [
             "PERSIANVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Happiness": ""
+        }
     },
     "PERSIANVINTAGE": {
         "PreEvolution": "MEOWTHVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "28"
+        }
     },
     "IGGLYBUFFVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "JIGGLYPUFFVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "JIGGLYPUFFVINTAGE": {
         "PreEvolution": "IGGLYBUFFVINTAGE",
         "Evolution": [
             "WIGGLYTUFFVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Happiness": ""
+        }
     },
     "WIGGLYTUFFVINTAGE": {
         "PreEvolution": "JIGGLYPUFFVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Moon Stone"
+        }
     },
     "TOTODILEVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "CROCONAWVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CROCONAWVINTAGE": {
         "PreEvolution": "TOTODILEVINTAGE",
         "Evolution": [
             "FERALIGATRVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "18"
+        }
     },
     "FERALIGATRVINTAGE": {
         "PreEvolution": "CROCONAWVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "EXEGGCUTEVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "EXEGGUTORVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "EXEGGUTORVINTAGE": {
         "PreEvolution": "EXEGGCUTEVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Leaf Stone"
+        }
     },
     "CHANSEYVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "BLISSEYVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BLISSEYVINTAGE": {
         "PreEvolution": "CHANSEYVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Happiness": ""
+        }
     },
     "SCYTHERVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "SCIZORVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SCIZORVINTAGE": {
         "PreEvolution": "SCYTHERVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Pincer Update"
+        }
     },
     "AIPOMVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GIRAFARIGVINTAGE": {
         "PreEvolution": "TWINZ",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "29"
+        }
     },
     "BULBASAURVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "IVYSAURVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "IVYSAURVINTAGE": {
         "PreEvolution": "BULBASAURVINTAGE",
         "Evolution": [
             "VENUSAURVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "16"
+        }
     },
     "VENUSAURVINTAGE": {
         "PreEvolution": "IVYSAURVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "32"
+        }
     },
     "RATTATAVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "RATICATEVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "RATICATEVINTAGE": {
         "PreEvolution": "RATTATAVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "20"
+        }
     },
     "CYNDAQUILVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "QUILAVAVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "QUILAVAVINTAGE": {
         "PreEvolution": "CYNDAQUILVINTAGE",
         "Evolution": [
             "TYPHLOSIONVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "14"
+        }
     },
     "TYPHLOSIONVINTAGE": {
         "PreEvolution": "QUILAVAVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "36"
+        }
     },
     "LAPRASVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DITTOVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "EEVEEVINTAGE": {
         "PreEvolution": "no",
@@ -5289,225 +5668,250 @@
             "FLAREONVINTAGE",
             "ESPEONVINTAGE",
             "UMBREONVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "VAPOREONVINTAGE": {
         "PreEvolution": "EEVEEVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Water Stone"
+        }
     },
     "JOLTEONVINTAGE": {
         "PreEvolution": "EEVEEVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Thunder Stone"
+        }
     },
     "FLAREONVINTAGE": {
         "PreEvolution": "EEVEEVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Fire Stone"
+        }
     },
     "ESPEONVINTAGE": {
         "PreEvolution": "EEVEEVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HappinessDay": ""
+        }
     },
     "UMBREONVINTAGE": {
         "PreEvolution": "EEVEEVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HappinessNight": ""
+        }
     },
     "PORYGONVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "PORYGON2VINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PORYGON2VINTAGE": {
         "PreEvolution": "PORYGONVINTAGE",
         "Evolution": [
             "SUNMOLA"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Virtual Update"
+        }
     },
-    "SUNMOLA": {
+    "SUNMOLAVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
-            "ANCHORAGE"
-        ],
-        "PreEvolutionMethod": "method"
+            "ANCHORAGEVINTAGE"
+        ]
     },
-    "ANCHORAGE": {
-        "PreEvolution": "SUNMOLA",
+    "ANCHORAGEVINTAGE": {
+        "PreEvolution": "SUNMOLAVINTAGE",
         "Evolution": [
-            "GROTESS"
+            "GROTESSVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "16"
+        }
     },
-    "GROTESS": {
-        "PreEvolution": "ANCHORAGE",
+    "GROTESSVINTAGE": {
+        "PreEvolution": "ANCHORAGEVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "32"
+        }
     },
-    "BOMSEAKER": {
+    "BOMSEAKERVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
-    "TIGRETTE": {
+    "TIGRETTEVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
-            "ELECTIGER"
-        ],
-        "PreEvolutionMethod": "method"
+            "ELECTIGERVINTAGE"
+        ]
     },
-    "ELECTIGER": {
-        "PreEvolution": "TIGRETTE",
+    "ELECTIGERVINTAGE": {
+        "PreEvolution": "TIGRETTEVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "32"
+        }
     },
-    "WOLFMAN": {
+    "WOLFMANVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
-            "WARWOLF"
-        ],
-        "PreEvolutionMethod": "method"
+            "WARWOLFVINTAGE"
+        ]
     },
-    "WARWOLF": {
-        "PreEvolution": "WOLFMAN",
+    "WARWOLFVINTAGE": {
+        "PreEvolution": "WOLFMANVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "40"
+        }
     },
     "GROWLITHEVINTAGE": {
         "PreEvolution": "PUDDI",
         "Evolution": [
             "ARCANINEVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Happiness": ""
+        }
     },
     "ARCANINEVINTAGE": {
         "PreEvolution": "GROWLITHEVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Fire Stone"
+        }
     },
     "MAGBYVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "MAGMARVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MAGMARVINTAGE": {
         "PreEvolution": "MAGBYVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "30"
+        }
     },
     "HORSEAVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "SEADRAVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SEADRAVINTAGE": {
         "PreEvolution": "HORSEAVINTAGE",
         "Evolution": [
             "KINGDRAVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "32"
+        }
     },
     "KINGDRAVINTAGE": {
         "PreEvolution": "SEADRAVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Dragon Update"
+        }
     },
     "PSYDUCKVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "GOLDUCKVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GOLDUCKVINTAGE": {
         "PreEvolution": "PSYDUCKVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "33"
+        }
     },
     "WOOPERVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "QUAGSIREVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "QUAGSIREVINTAGE": {
         "PreEvolution": "WOOPERVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "20"
+        }
     },
-    "WEEDLEBETA": {
+    "WEEDLESTARKEY": {
         "PreEvolution": "no",
         "Evolution": [
-            "KAKUNABETA"
-        ],
-        "PreEvolutionMethod": "method"
+            "KAKUNASTARKEY"
+        ]
     },
-    "KAKUNABETA": {
-        "PreEvolution": "WEEDLEBETA",
+    "KAKUNASTARKEY": {
+        "PreEvolution": "WEEDLESTARKEY",
         "Evolution": [
-            "KASANAGY"
+            "KASANAGYVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "7"
+        }
     },
-    "KASANAGY": {
-        "PreEvolution": "KAKUNABETA",
+    "KASANAGYVINTAGE": {
+        "PreEvolution": "KAKUNASTARKEY",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "7"
+        }
     },
     "TWINZ": {
         "PreEvolution": "no",
         "Evolution": [
             "GIRAFARIGVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "BELLSPROUTVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "WEEPINBELLVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "WEEPINBELLVINTAGE": {
         "PreEvolution": "BELLSPROUTVINTAGE",
@@ -5515,323 +5919,334 @@
             "VICTREEBELLVINTAGE",
             "BELLMIT"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "21"
+        }
     },
     "VICTREEBELLVINTAGE": {
         "PreEvolution": "WEEPINBELLVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Leaf Stone"
+        }
     },
     "BELLMIT": {
         "PreEvolution": "WEEPINBELLVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Poison Stone"
+        }
     },
     "GLIGARVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TANGELAVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SWINUBVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "PILOSWINEVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PILOSWINEVINTAGE": {
         "PreEvolution": "SWINUBVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "33"
+        }
     },
     "MISDREAVUSVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "KURSTRAW"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "KURSTRAW": {
         "PreEvolution": "no",
         "Evolution": [
             "PANGSHI"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PANGSHI": {
         "PreEvolution": "KURSTRAW",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HasMove": "CURSE"
+        }
     },
     "PINECOVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "FORETRESSVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "FORETRESSVINTAGE": {
         "PreEvolution": "PINECOVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "HasMove": "CURSE"
+        }
     },
     "KANGASKHANVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "TRIFOX": {
         "PreEvolution": "no",
         "Evolution": [
             "VULPIXVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SUDOWOODOVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
-    "PARA": {
+    "PARAVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "PARASVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PARASVINTAGE": {
-        "PreEvolution": "PARA",
+        "PreEvolution": "PARAVINTAGE",
         "Evolution": [
             "PARASECTVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Happiness": ""
+        }
     },
     "PARASECTVINTAGE": {
         "PreEvolution": "PARASVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "24"
+        }
     },
     "MRMIMEVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SLOWPOKEVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "SLOWBROVINTAGE",
             "SLOWKINGVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SLOWBROVINTAGE": {
         "PreEvolution": "SLOWPOKEVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "37"
+        }
     },
     "SLOWKINGVINTAGE": {
         "PreEvolution": "SLOWPOKEVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Item": "Royal Update"
+        }
     },
     "MARILLVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "AZUMARILLVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "AZUMARILLVINTAGE": {
         "PreEvolution": "MARILLVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "18"
+        }
     },
     "SNORLAXVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "AERODACTYLVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "GHIFT": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SUNNEE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "PUDDI": {
         "PreEvolution": "no",
         "Evolution": [
             "GROWLITHEVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "VENONATVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "VENOMOTHVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "VENOMOTHVINTAGE": {
         "PreEvolution": "VENONATVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "31"
+        }
     },
     "HOPPIPVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "SKIPLOOMVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "SKIPLOOMVINTAGE": {
         "PreEvolution": "HOPPIPVINTAGE",
         "Evolution": [
             "JUMPLUFFVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "18"
+        }
     },
     "JUMPLUFFVINTAGE": {
         "PreEvolution": "SKIPLOOMVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "27"
+        }
     },
     "PHANPYVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "DONPHANVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "DONPHANVINTAGE": {
         "PreEvolution": "PHANPYVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "25"
+        }
     },
     "HOOTHOOTVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "NOCTOWLVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "NOCTOWLVINTAGE": {
         "PreEvolution": "HOOTHOOTVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "20"
+        }
     },
     "GOHNG": {
         "PreEvolution": "no",
         "Evolution": [
             "HITMONTOPVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "HITMONTOPVINTAGE": {
         "PreEvolution": "GOHNG",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "AtkDefEqual": "20"
+        }
     },
     "ANIMON": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "UNKNOWNVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "STANTLERVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "no"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "CATERPIEVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "METAPODVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "METAPODVINTAGE": {
         "PreEvolution": "CATERPIEVINTAGE",
         "Evolution": [
             "BUTTERFREEVINTAGE"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "7"
+        }
     },
     "BUTTERFREEVINTAGE": {
         "PreEvolution": "METAPODVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "Level": "10"
+        }
     },
     "TYROGUEVINTAGE": {
         "PreEvolution": "no",
@@ -5839,35 +6254,39 @@
             "HITMONLEEVINTAGE",
             "HITMONCHANVINTAGE",
             "VINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "HITMONLEEVINTAGE": {
         "PreEvolution": "TYROGUEVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "AttackGreater": "20"
+        }
     },
     "HITMONCHANVINTAGE": {
         "PreEvolution": "TYROGUEVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "DefenseGreater": "20"
+        }
     },
     "SLUGMAVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
             "MACARGOVINTAGE"
-        ],
-        "PreEvolutionMethod": "method"
+        ]
     },
     "MACARGOVINTAGE": {
         "PreEvolution": "SLUGMAVINTAGE",
         "Evolution": [
             "no"
         ],
-        "PreEvolutionMethod": "method"
+        "PreEvolutionMethod": {
+            "DefenseGreater": "20"
+        }
     }
 }
