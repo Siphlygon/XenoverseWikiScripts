@@ -202,3 +202,20 @@ def species_and_dex_entry(internal_num):
     with open('references/species_and_dex_entry.json', encoding="utf-8") as f:
         switch = json.load(f)
     return switch.get(internal_num)
+
+
+def location_order():
+    """
+    Accesses a dictionary of location names and index numbers.
+
+    An artificial order is created to order the locations displayed in the availability information, as the encounter
+    information has a random order. Every location has an order in this dictionary, and the whole dictionary is used to
+    sort the locations in the wiki page.
+
+    Format: {"LocationName": LocationIndex}
+
+    :return dict[str, int]: A dictionary of locations and associated indexes.
+    """
+    with open('references/location_order.json', encoding="utf-8") as f:
+        switch = json.load(f)
+    return switch
