@@ -82,7 +82,7 @@ def calculate_rarity_for_land_and_cave(indexes):
     elif percentage > 5:
         rarity = "Uncommon"
     else:
-        rarity = "Rarity"
+        rarity = "Rare"
 
     return rarity
 
