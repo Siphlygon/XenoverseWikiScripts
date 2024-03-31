@@ -2,6 +2,7 @@
 from data_access import (pokemon_info, move_info, tm_info)
 from utility_methods import find_dex_number, get_two_types
 from evolution import EvolutionHandler
+from data_collection import DataCollection
 
 
 def _is_stab(move_data, type1, type2):
@@ -160,13 +161,21 @@ class MoveListGenerator:
                      self.second_type + "}}"]
 
         breed_string = ""
+        evh = EvolutionHandler(self.p_data)
+        chain_pos = evh.find_chain_position()
         # Breeding moves need to be handled differently, as they require a breed string, and may not always be needed.
         if list_type == "breed":
+            # Smeargle learns all breeding move by default, so a special string is used to indicate this.
+            breed_string = "{{EM|107|Smeargle}} '''WIP'''" if "Field" in self.p_data["Compatibility"] \
+                else "'''WIP'''"
+
+            first_evo_name = evh.get_first_evo_stage()
+            p_data = DataCollection(first_evo_name).extract_pokemon_data()
+
             if "EggMoves" in self.p_data:
-                # Smeargle learns all breeding move by default, so a special string is used to indicate this.
-                breed_string = "{{EM|107|Smeargle}} '''WIP'''" if "Field" in self.p_data["Compatibility"]\
-                    else "'''WIP'''"
                 moves = self.p_data["EggMoves"].split(",")
+            elif chain_pos > 1 and "EggMoves" in p_data:
+                moves = p_data["EggMoves"].split(",")
             else:
                 move_list.append("{{MoveBreedNone}}")
                 move_list.append("{{Move" + header + "End|" + dex_data["DisplayName"] + "|" + self.first_type + "|" +
@@ -176,7 +185,6 @@ class MoveListGenerator:
             # Otherwise, can access other move lists from self
             moves = getattr(self, list_type + "_list")
 
-        evh = EvolutionHandler(self.p_data)
         future_type = evh.find_future_type()
 
         if list_type == "level":

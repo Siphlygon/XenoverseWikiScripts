@@ -285,7 +285,7 @@ class EvolutionHandler:
         if not _is_in_evolution_chain(self.evol_info):
             return "It is not known to evolve from or into any other Pokémon."
 
-        evo_chain, branch_info = _construct_evolution_chain(self.evol_info, self.internal_name)
+        evo_chain, _ = _construct_evolution_chain(self.evol_info, self.internal_name)
 
         chain_pos = self.find_chain_position()
 
@@ -346,3 +346,12 @@ class EvolutionHandler:
             if type_ not in {primary_type1, primary_type2}:
                 return type_
         return ""
+
+    def get_first_evo_stage(self):
+        """
+        Gets the first stage of the Pokémon's evolution chain.
+
+        :return str: The internal name of the first stage of the Pokémon's evolution chain.
+        """
+        evo_chain, _ = _construct_evolution_chain(self.evol_info, self.internal_name)
+        return evo_chain[1]["Name"]
