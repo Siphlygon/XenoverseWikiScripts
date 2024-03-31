@@ -1,6 +1,6 @@
 # pylint: disable=line-too-long, missing-module-docstring, F0401, too-many-branches, too-many-return-statements
 from data_access import evolution_info, pokemon_info, move_info
-from utility_methods import find_dex_number
+from utility_methods import find_dex_number, get_two_types
 from data_collection import DataCollection
 
 
@@ -103,7 +103,25 @@ def _construct_evolution_chain(evol_info, internal_name):
             evo_chain[3] = {"Name": evo_2["Evolution"][0], "Method": None}
             branch_info = "Linear"
 
-    return evo_chain, branch_info
+    return _populate_evo_chain(evo_chain), branch_info
+
+
+def _populate_evo_chain(evo_chain):
+    """
+    Populates the evolution chain of the Pokémon with extra information from the data files.
+
+    :param dict[str, dict[str, str]] evo_chain: The evolution chain of the Pokémon.
+    :return dict[str, dict[str, str]]: The populated evolution chain of the Pokémon.
+    """
+    for key, value in evo_chain.items():
+        dc = DataCollection(value["Name"])
+        p_data = dc.extract_pokemon_data()
+        display_name = pokemon_info(find_dex_number(p_data["RegionalNumbers"]))["DisplayName"]
+        evo_chain[key]["DisplayName"] = display_name
+        first_type, second_type = get_two_types(p_data)
+        evo_chain[key]["Type1"] = first_type
+        evo_chain[key]["Type2"] = second_type
+    return evo_chain
 
 
 def _create_evo_string(method):
@@ -213,12 +231,7 @@ class EvolutionHandler:
         self.internal_name = pokemon_info(find_dex_number(p_data["RegionalNumbers"]))["InternalName"]
         self.evol_info = evolution_info(self.internal_name)
         self.p_data = p_data
-        self.first_type = p_data["Type1"].title()
-        self.second_type = p_data.get("Type2", self.first_type).title()
-        if self.first_type == 'Suono':
-            self.first_type = "Sound"
-        if self.second_type == 'Suono':
-            self.second_type = "Sound"
+        self.first_type, self.second_type = get_two_types(p_data)
 
     def create_evolution_box(self):
         """
@@ -235,23 +248,12 @@ class EvolutionHandler:
 
         evo_box = [evo_box_header, f"|type1 = {self.first_type}", f"|type2 = {self.second_type}"]
         for key, value in evo_chain.items():
-            dc = DataCollection(value["Name"])
-            p_data = dc.extract_pokemon_data()
-            display_name = pokemon_info(find_dex_number(p_data["RegionalNumbers"]))["DisplayName"]
+            evo_box.append(f"|type1-{key} = {value["Type1"]}")
+            if value["Type1"] != value["Type2"]:
+                evo_box.append(f"|type2-{key} = {value["Type2"]}")
 
-            first_type = p_data["Type1"].title()
-            if first_type == 'Suono':
-                first_type = "Sound"
-            evo_box.append(f"|type1-{key} = {first_type}")
-
-            if "Type2" in p_data:
-                second_type = p_data["Type2"].title()
-                if second_type == 'Suono':
-                    second_type = "Sound"
-                evo_box.append(f"|type2-{key} = {second_type}")
-
-            evo_box.append(f"|image{key} = {display_name.replace(" ", "")}Front.png")
-            evo_box.append(f"|name{key} = {display_name}")
+            evo_box.append(f"|image{key} = {value["DisplayName"].replace(" ", "")}Front.png")
+            evo_box.append(f"|name{key} = {value["DisplayName"]}")
             if value["Method"]:
                 evo_string = _create_evo_string(value["Method"])
                 evo_box.append(f"|evo{key} = {evo_string}")
@@ -259,6 +261,20 @@ class EvolutionHandler:
         evo_box.append("}}")
 
         return evo_box
+
+    def find_chain_position(self):
+        """
+        Finds the position of the Pokémon in the evolution chain.
+
+        :return int: The position of the Pokémon in the evolution chain.
+        """
+        chain_pos = 0
+        evo_chain, _ = _construct_evolution_chain(self.evol_info, self.internal_name)
+        for key, value in evo_chain.items():
+            if value["Name"] == self.internal_name:
+                chain_pos = key
+                break
+        return chain_pos
 
     def create_evolution_statement(self):
         """
@@ -271,22 +287,13 @@ class EvolutionHandler:
 
         evo_chain, branch_info = _construct_evolution_chain(self.evol_info, self.internal_name)
 
-        # Find position of the Pokémon in the evolution chain
-        chain_pos = 0
-        for key, value in evo_chain.items():
-            if value["Name"] == self.internal_name:
-                chain_pos = key
-                break
+        chain_pos = self.find_chain_position()
 
         # Construct list of Pokémon evolution components for the statement
         evo_list = []
         for i in range(1, len(evo_chain)):
-            dc = DataCollection(evo_chain[i+1]["Name"])
-            p_data = dc.extract_pokemon_data()
-            display_name = pokemon_info(find_dex_number(p_data["RegionalNumbers"]))["DisplayName"]
-
             evo_method = _create_evo_statement_method(evo_chain[i]["Method"]) if evo_chain[i]["Method"] else None
-            evo_list.append(f"[[{display_name}]] {evo_method}")
+            evo_list.append(f"[[{evo_chain[i]["DisplayName"]}]] {evo_method}")
 
         # Order of match up of evo method and display name is reversed depending on chain position
         # Create two lists and vary their indexing to allow for this
@@ -304,3 +311,38 @@ class EvolutionHandler:
             evo_statement += "."
 
         return evo_statement
+
+    def find_future_type(self):
+        """
+        Finds the type of the Pokémon after evolution(s) for use in indicating future STAB.
+
+        I use the fact that in this game, no Pokémon has multiple type changes upon evolution. I.e., you can't go from
+        Grass -> Water/Flying. This does not properly account for branching evolutions, but the only specific case that
+        this is applicable for is Eevee (e.g., Tyrogue line is all fighting), which I am very tempted to handle
+        manually.
+
+        :return str: The type of the Pokémon after evolution.
+        """
+        evo_chain, _ = _construct_evolution_chain(self.evol_info, self.internal_name)
+        chain_pos = self.find_chain_position()
+
+        # If a single stage evo or the final evo, no future type
+        if chain_pos == len(evo_chain):
+            return ""
+
+        # Gets the type of the current Pokémon to compare with future types for STAB
+        primary_type1 = evo_chain[chain_pos]["Type1"]
+        primary_type2 = evo_chain[chain_pos]["Type2"]
+
+        # Gets the types of the future Pokémon to compare with the current Pokémon's types for STAB
+        types_of_evos = []
+        for i in range(chain_pos + 1, len(evo_chain) + 1):
+            types_of_evos.append(evo_chain[i]["Type1"])
+            if evo_chain[i]["Type1"] != evo_chain[i]["Type2"]:
+                types_of_evos.append(evo_chain[i]["Type2"])
+
+        # If the current Pokémon has a type that is not in the future types, return that type
+        for type_ in types_of_evos:
+            if type_ not in {primary_type1, primary_type2}:
+                return type_
+        return ""
