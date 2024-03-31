@@ -107,7 +107,7 @@ class PokemonBoxGenerator:
         if len(egg_groups) > 1:
             infobox.append("|egggroup2 = " + egg_groups[1])
         infobox.append("|eggsteps = " + self.p_data["StepsToHatch"])
-        chain_pos = EvolutionHandler(self.p_data).find_chain_position()
+        chain_pos = EvolutionHandler(self.p_data).get_chain_position()
         if chain_pos > 1:
             infobox.append("|egggroupn = 0 <!-- 0 if can't legitimately obtain this as an egg -->")
 

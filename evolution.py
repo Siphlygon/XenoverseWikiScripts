@@ -63,7 +63,7 @@ def _construct_evolution_chain(evol_info, internal_name):
     # Single-stage Pokémon
     if not _is_in_evolution_chain(evol_info):
         evo_chain[1] = {"Name": internal_name, "Method": None}
-        return evo_chain, "Linear"
+        return _populate_evo_chain(evo_chain), "Linear"
 
     # Find the first stage of the evolution chain
     evo_1 = _find_first_stage(evol_info)
@@ -247,6 +247,7 @@ class EvolutionHandler:
             evo_box_header = "{{Evobox-" + f"{branch_info}"
 
         evo_box = [evo_box_header, f"|type1 = {self.first_type}", f"|type2 = {self.second_type}"]
+        print(evo_chain)
         for key, value in evo_chain.items():
             evo_box.append(f"|type1-{key} = {value["Type1"]}")
             if value["Type1"] != value["Type2"]:
@@ -262,7 +263,7 @@ class EvolutionHandler:
 
         return evo_box
 
-    def find_chain_position(self):
+    def get_chain_position(self):
         """
         Finds the position of the Pokémon in the evolution chain.
 
@@ -287,7 +288,7 @@ class EvolutionHandler:
 
         evo_chain, _ = _construct_evolution_chain(self.evol_info, self.internal_name)
 
-        chain_pos = self.find_chain_position()
+        chain_pos = self.get_chain_position()
 
         # Construct list of Pokémon evolution components for the statement
         evo_list = []
@@ -324,7 +325,7 @@ class EvolutionHandler:
         :return str: The type of the Pokémon after evolution.
         """
         evo_chain, _ = _construct_evolution_chain(self.evol_info, self.internal_name)
-        chain_pos = self.find_chain_position()
+        chain_pos = self.get_chain_position()
 
         # If a single stage evo or the final evo, no future type
         if chain_pos == len(evo_chain):
@@ -355,3 +356,12 @@ class EvolutionHandler:
         """
         evo_chain, _ = _construct_evolution_chain(self.evol_info, self.internal_name)
         return evo_chain[1]["Name"]
+
+    def get_evo_chain(self):
+        """
+        Gets the evolution chain of the Pokémon.
+
+        :return dict[str, dict[str, str]]: The evolution chain of the Pokémon.
+        """
+        evo_chain, _ = _construct_evolution_chain(self.evol_info, self.internal_name)
+        return evo_chain

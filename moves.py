@@ -162,7 +162,7 @@ class MoveListGenerator:
 
         breed_string = ""
         evh = EvolutionHandler(self.p_data)
-        chain_pos = evh.find_chain_position()
+        chain_pos = evh.get_chain_position()
         # Breeding moves need to be handled differently, as they require a breed string, and may not always be needed.
         if list_type == "breed":
             # Smeargle learns all breeding move by default, so a special string is used to indicate this.

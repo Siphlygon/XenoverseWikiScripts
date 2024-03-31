@@ -1,6 +1,7 @@
 # pylint: disable=locally-disabled, line-too-long, missing-module-docstring, too-few-public-methods
 from data_access import location_info, static_encounters, location_order
 from utility_methods import get_two_types
+from evolution import EvolutionHandler
 
 
 # region Percentages
@@ -494,7 +495,13 @@ class LocationDataGenerator:
         # If no wild encounters, the Pokémon is static only or evolution only or breeding only, not handled currently
         if not self.encounter_locs:
             if not _account_for_static_encounters(self.p_data, game_locations):
-                game_locations.append("|none = WIP")
+                evh = EvolutionHandler(self.p_data)
+                evo_chain = evh.get_evo_chain()
+                chain_pos = evh.get_chain_position()
+                if chain_pos > 1:
+                    game_locations.append(f"|none = Evolve [[{evo_chain[chain_pos - 1]["DisplayName"]}]]")
+                else:
+                    game_locations.append(f"|none = Breed [[{evo_chain[chain_pos + 1]["DisplayName"]}]]")
         else:
             _account_for_static_encounters(self.p_data, game_locations)
 
