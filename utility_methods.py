@@ -47,3 +47,20 @@ def find_dex_number(regional_numbers):
         dex_nums = f"V{make_three_digits(dex_parts[2])}"
 
     return dex_nums
+
+
+def get_two_types(p_data):
+    """
+    Extracts the two types of a Pokémon from its data.
+
+    :param dict p_data: The data for the Pokémon.
+    :return tuple[str, str]: The two types of the Pokémon.
+    """
+    type1 = p_data["Type1"].title()
+    type2 = p_data.get("Type2", type1).title()
+    if type1 == 'Suono':
+        type1 = "Sound"
+    if type2 == 'Suono':
+        type2 = "Sound"
+
+    return type1, type2

@@ -1,6 +1,7 @@
-# pylint: disable=too-many-lines, line-too-long, missing-module-docstring, import-error
+# pylint: disable=too-many-lines, line-too-long, missing-module-docstring, import-error, too-many-arguments
 from data_access import (pokemon_info, move_info, tm_info)
-from utility_methods import find_dex_number
+from utility_methods import find_dex_number, get_two_types
+from evolution import EvolutionHandler
 
 
 def _is_stab(move_data, type1, type2):
@@ -16,7 +17,7 @@ def _is_stab(move_data, type1, type2):
     return move_data["STAB"] == "yes" and (move_data["Type"] == type1 or move_data["Type"] == type2)
 
 
-def _add_level_moves_to_list(moves, type1, type2, list_name):
+def _add_level_moves_to_list(moves, type1, type2, future_type, list_name):
     """
     Adds moves a Pokémon learns by level up to a given list in wiki format, accounting for STAB and indicating level.
 
@@ -25,6 +26,7 @@ def _add_level_moves_to_list(moves, type1, type2, list_name):
     :param list[str] moves: A list of levels and moves learned at those levels in sequential order.
     :param str type1: The first type of the Pokémon.
     :param str type2: The second type of the Pokémon, which may be the same as type1 if single-typed.
+    :param str future_type: The type of the Pokémon at the next evolution stage.
     :param list[str] list_name: The wiki template to add formatted moves to.
     """
     for x in range(0, len(moves) - 1, 2):
@@ -32,11 +34,13 @@ def _add_level_moves_to_list(moves, type1, type2, list_name):
 
         if _is_stab(move_data, type1, type2):
             list_name.append("{{MoveLevel+|" + moves[x] + "|" + move_data["Name"] + "|'''}}")
+        elif _is_stab(move_data, future_type, future_type):
+            list_name.append("{{MoveLevel+|" + moves[x] + "|" + move_data["Name"] + "|''}}")
         else:
             list_name.append("{{MoveLevel+|" + moves[x] + "|" + move_data["Name"] + "}}")
 
 
-def _add_tm_moves_to_list(moves, type1, type2, list_name):
+def _add_tm_moves_to_list(moves, type1, type2, future_type, list_name):
     """
     Adds moves a Pokémon learns by TM to a given list in wiki format, accounting for STAB and indicating TM number.
 
@@ -46,6 +50,7 @@ def _add_tm_moves_to_list(moves, type1, type2, list_name):
     :param list[str] moves: A list of TM moves learnable by a Pokémon.
     :param str type1: The first type of the Pokémon.
     :param str type2: The second type of the Pokémon, which may be the same as type1 if single-typed.
+    :param str future_type: The type of the Pokémon at the next evolution stage.
     :param list[str] list_name: The wiki template to add formatted moves to.
     """
     for move in moves:
@@ -53,11 +58,13 @@ def _add_tm_moves_to_list(moves, type1, type2, list_name):
 
         if _is_stab(tm_data, type1, type2):
             list_name.append("{{MoveTM+|TM" + tm_data["TMNo"] + "|'''}}")
+        elif _is_stab(tm_data, future_type, future_type):
+            list_name.append("{{MoveTM+|TM" + tm_data["TMNo"] + "|''}}")
         else:
             list_name.append("{{MoveTM+|TM" + tm_data["TMNo"] + "}}")
 
 
-def _add_breed_moves_to_list(moves, breed_string, type1, type2, list_name):
+def _add_breed_moves_to_list(moves, breed_string, type1, type2, future_type, list_name):
     """
     Adds moves a Pokémon may learn by breeding to a given list in wiki format, accounting for STAB and parentage.
 
@@ -69,6 +76,7 @@ def _add_breed_moves_to_list(moves, breed_string, type1, type2, list_name):
     :param str breed_string: A formatted string indicating the parents to get the egg moves from.
     :param str type1: The first type of the Pokémon.
     :param str type2: The second type of the Pokémon, which may be the same as type1 if single-typed.
+    :param str future_type: The type of the Pokémon at the next evolution stage.
     :param list[str] list_name: The wiki template to add formatted moves to.
     """
     for move in sorted(moves):
@@ -76,11 +84,13 @@ def _add_breed_moves_to_list(moves, breed_string, type1, type2, list_name):
 
         if _is_stab(move_data, type1, type2):
             list_name.append("{{MoveBreed+|" + breed_string + "|" + move_data["Name"] + "|'''}}")
+        elif _is_stab(move_data, future_type, future_type):
+            list_name.append("{{MoveBreed+|" + breed_string + "|" + move_data["Name"] + "|''}}")
         else:
             list_name.append("{{MoveBreed+|" + breed_string + "|" + move_data["Name"] + "}}")
 
 
-def _add_tutor_moves_to_list(moves, type1, type2, list_name):
+def _add_tutor_moves_to_list(moves, type1, type2, future_type, list_name):
     """
     Adds moves a Pokémon learns by tutoring to a given list in wiki format, accounting for STAB.
 
@@ -90,6 +100,7 @@ def _add_tutor_moves_to_list(moves, type1, type2, list_name):
     :param list[str] moves: A list of moves a Pokémon can be tutored in.
     :param str type1: The first type of the Pokémon.
     :param str type2: The second type of the Pokémon, which may be the same as type1 if single-typed.
+    :param str future_type: The type of the Pokémon at the next evolution stage.
     :param list[str] list_name: The wiki template to add formatted moves to.
     """
     for move in sorted(moves):
@@ -97,6 +108,8 @@ def _add_tutor_moves_to_list(moves, type1, type2, list_name):
 
         if _is_stab(move_data, type1, type2):
             list_name.append("{{MoveTutor+|" + move_data["Name"] + "|'''|Varies}}")
+        elif _is_stab(move_data, future_type, future_type):
+            list_name.append("{{MoveTutor+|" + move_data["Name"] + "|''|Varies}}")
         else:
             list_name.append("{{MoveTutor+|" + move_data["Name"] + "||Varies}}")
 
@@ -115,11 +128,10 @@ class MoveListGenerator:
         :param list[str] tutor_list: A list of moves the Pokémon can be tutored in.
         """
         self.p_data = p_data
-        self.level_list = self.p_data["Moves"].split(",")
+        self.level_list = p_data["Moves"].split(",")
         self.tm_list = tm_list
         self.tutor_list = tutor_list
-        self.first_type = p_data["Type1"].title()
-        self.second_type = p_data.get("Type2", self.p_data["Type1"]).title()
+        self.first_type, self.second_type = get_two_types(p_data)
 
     def _get_dex_data(self):
         """
@@ -164,14 +176,17 @@ class MoveListGenerator:
             # Otherwise, can access other move lists from self
             moves = getattr(self, list_type + "_list")
 
+        evh = EvolutionHandler(self.p_data)
+        future_type = evh.find_future_type()
+
         if list_type == "level":
-            _add_level_moves_to_list(moves, self.first_type, self.second_type, move_list)
+            _add_level_moves_to_list(moves, self.first_type, self.second_type, future_type, move_list)
         elif list_type == "tm":
-            _add_tm_moves_to_list(moves, self.first_type, self.second_type, move_list)
+            _add_tm_moves_to_list(moves, self.first_type, self.second_type, future_type, move_list)
         elif list_type == "breed" and "EggMoves" in self.p_data:
-            _add_breed_moves_to_list(moves, breed_string, self.first_type, self.second_type, move_list)
+            _add_breed_moves_to_list(moves, breed_string, self.first_type, self.second_type, future_type, move_list)
         else:
-            _add_tutor_moves_to_list(moves, self.first_type, self.second_type, move_list)
+            _add_tutor_moves_to_list(moves, self.first_type, self.second_type, future_type, move_list)
 
         move_list.append("{{Move" + header + "End|" + dex_data["DisplayName"] + "|" + self.first_type + "|" +
                          self.second_type + "}}")

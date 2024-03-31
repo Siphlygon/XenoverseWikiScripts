@@ -1,5 +1,6 @@
 # pylint: disable=locally-disabled, line-too-long, missing-module-docstring, too-few-public-methods
 from data_access import location_info, static_encounters, location_order
+from utility_methods import get_two_types
 
 
 # region Percentages
@@ -473,6 +474,7 @@ class LocationDataGenerator:
         :param list[str] zone_ids: The ID of every zone the Pokémon is available in.
         """
         self.p_data = p_data
+        self.first_type, self.second_type = get_two_types(p_data)
         self.encounter_locs = encounter_locs
         self.zone_ids = zone_ids
 
@@ -485,9 +487,9 @@ class LocationDataGenerator:
 
         :return list[str]: The wiki code to produce the availability information.
         """
-        game_locations = ["{{Availability", "|type = " + self.p_data["Type1"].title()]
-        if "Type2" in self.p_data:
-            game_locations.append("|type2 = " + self.p_data["Type2"].title())
+        game_locations = ["{{Availability", f"|type = {self.first_type}"]
+        if self.first_type != self.second_type:
+            game_locations.append(f"|type2 = {self.second_type}")
 
         # If no wild encounters, the Pokémon is static only or evolution only or breeding only, not handled currently
         if not self.encounter_locs:

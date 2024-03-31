@@ -1,5 +1,6 @@
 # pylint: disable=locally-disabled, line-too-long, missing-module-docstring, too-few-public-methods
 from data_access import ability_immunities
+from utility_methods import get_two_types
 
 
 def _generate_type_chart():
@@ -86,16 +87,9 @@ class TypeEffectivenessCalculator:
         :param p_data: A dictionary containing all the Pokémon's data in pokemon.txt.
         """
         self.p_data = p_data
+        self.first_type, self.second_type = get_two_types(p_data)
 
-        self.first_type = p_data["Type1"].title()
-        if self.first_type == 'Suono':
-            self.first_type = "Sound"
-
-        self.second_type = p_data.get("Type2", self.first_type).title()
-        if self.second_type == 'Suono':
-            self.second_type = "Sound"
-
-        self.abilities = self.p_data["Abilities"].split(",")
+        self.abilities = p_data["Abilities"].split(",")
         if "HiddenAbility" in p_data:
             self.abilities.append(p_data["HiddenAbility"])
 

@@ -1,6 +1,6 @@
-# pylint: disable=line-too-long, too-many-boolean-expressions, missing-module-docstring, F0401
-from data_access import (gender_code, growth_rate, pokemon_info, wild_item_info, ability_info, species_and_dex_entry)
-from utility_methods import (make_three_digits, find_dex_number)
+# pylint: disable=line-too-long, too-many-boolean-expressions, missing-module-docstring, F0401, too-many-locals
+from data_access import gender_code, growth_rate, pokemon_info, wild_item_info, ability_info, species_and_dex_entry
+from utility_methods import make_three_digits, find_dex_number, get_two_types
 from evolution import EvolutionHandler
 
 
@@ -15,14 +15,8 @@ class PokemonBoxGenerator:
         :param p_data: A dictionary containing all the Pokémon's data in pokemon.txt.
         """
         self.p_data = p_data
-        if p_data["Type1"] == 'SUONO':
-            self.first_type = "Sound"
-        else:
-            self.first_type = p_data["Type1"].title()
-        self.second_type = p_data.get("Type2", self.first_type).title()
-        if self.second_type == 'Suono':
-            self.second_type = "Sound"
-        self.name = pokemon_info(find_dex_number(self.p_data["RegionalNumbers"]))["DisplayName"]
+        self.first_type, self.second_type = get_two_types(p_data)
+        self.name = pokemon_info(find_dex_number(p_data["RegionalNumbers"]))["DisplayName"]
 
     def create_header_footer(self):
         """
@@ -113,6 +107,9 @@ class PokemonBoxGenerator:
         if len(egg_groups) > 1:
             infobox.append("|egggroup2 = " + egg_groups[1])
         infobox.append("|eggsteps = " + self.p_data["StepsToHatch"])
+        chain_pos = EvolutionHandler(self.p_data).find_chain_position()
+        if chain_pos > 1:
+            infobox.append("|egggroupn = 0 <!-- 0 if can't legitimately obtain this as an egg -->")
 
         # Metric height & weight
         metric_height = int(self.p_data["Height"]) / 10
@@ -171,9 +168,9 @@ class PokemonBoxGenerator:
 
         :return list[str]: The wiki code to produce the opening paragraph.
         """
-        dual_type = "dual-type " if "Type2" in self.p_data else ""
+        dual_type = "dual-type " if self.second_type != self.first_type else ""
         typing = "{{Type|" + self.first_type + "}}/{{Type|" + self.second_type + "}}" \
-            if "Type2" in self.p_data else "{{Type|" + self.first_type + "}}"
+            if self.second_type != self.first_type else "{{Type|" + self.first_type + "}}"
 
         determiner = "an" if typing[7] in ["E", "I"] else "a"
         opening_paragraph = [f"'''{self.name}''' is {determiner} {dual_type}{typing}-type Pokémon.", ""]
