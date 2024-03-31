@@ -247,7 +247,6 @@ class EvolutionHandler:
             evo_box_header = "{{Evobox-" + f"{branch_info}"
 
         evo_box = [evo_box_header, f"|type1 = {self.first_type}", f"|type2 = {self.second_type}"]
-        print(evo_chain)
         for key, value in evo_chain.items():
             evo_box.append(f"|type1-{key} = {value["Type1"]}")
             if value["Type1"] != value["Type2"]:

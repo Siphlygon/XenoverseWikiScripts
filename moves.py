@@ -191,7 +191,7 @@ class MoveListGenerator:
             _add_level_moves_to_list(moves, self.first_type, self.second_type, future_type, move_list)
         elif list_type == "tm":
             _add_tm_moves_to_list(moves, self.first_type, self.second_type, future_type, move_list)
-        elif list_type == "breed" and "EggMoves" in self.p_data:
+        elif list_type == "breed":
             _add_breed_moves_to_list(moves, breed_string, self.first_type, self.second_type, future_type, move_list)
         else:
             _add_tutor_moves_to_list(moves, self.first_type, self.second_type, future_type, move_list)
