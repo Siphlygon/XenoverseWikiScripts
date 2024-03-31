@@ -7,22 +7,21 @@ I am neither a professional coder nor particularly good at it. If you have any r
 ### Warning
 This project is not meant as a total replacement to manual editing, and should be used with caution. It is not perfect and may not always produce the desired results, especially if there are special cases I have not accounted for. It is recommended to check the output of the scripts before pasting them into the wiki. If you run into any errors/issues, please contact me.
 
-Note: especially check Availability box outputs, it is the most likely to have errors.
+Note: especially check Availability box outputs, it is the most likely to have errors. Opening paragraph is a major WIP.
 ### Features & Planned
 Generates Pokémon wiki pages for Xenoverse 1.5.5, and currently:
-- Supports all Pokémon found in the main Pokédex and the Xenodex.
+- Supports all Pokémon found in the main Pokédex, the Xenodex, and the Vintagedex.
 - Extracts the abilities, wild held items, metric height and weight, base exp, base stats, gender code, growth rate, EV yield, egg groups & steps, friendship, and catch rate for a Pokémon from the game files.
 - Finds the English species name and dex entry for display.
 - Calculates the effectiveness of other types against a given Pokémon, including the Sound type, and accounting for abilities.
 - Extracts all moves learnable by a Pokémon through level up, TMs, breeding, or tutoring, account for STAB.
 - Finds information about wild encounters and static encounters and displays with appropriate rarity.
+- Account for evolutions and related aspects (egg moves of previous evolutions, future STAB, in the evolution box, in the opening paragraph, or if egg hatching is possible).
 - Matches up information in the game files to pre-made reference dictionaries for correct, English display and other related information.
 - Prints all results to the console in wiki-applicable code and according to the style and templates currently found on the unofficial English wiki.
 
 It does not yet, and may never:
-- Account for evolutions and related aspects (egg moves of previous evolutions, future STAB, in the evolution box, in the opening paragraph, or if egg hatching is possible) .
 - Find the fathers for applicable egg moves.
-- Completely function for the Vintagedex (I plan to implement this, but there are some unresolved discrepancies between the wiki and the game data for vintage Pokémon).
 
 ### Acknowledgements
 I would like to thank N for his help and work in compiling game information for my use, and Phye for her stellar advice and game & wiki knowledge I most desperately needed.
