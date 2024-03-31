@@ -1,11 +1,11 @@
-# pylint: disable=locally-disabled, line-too-long, missing-module-docstring, too-few-public-methods
+# pylint: disable=line-too-long, missing-module-docstring, too-few-public-methods, too-many-arguments
 
 
 class WikiPage:
     """
     Simple class collating different methods together in order to print a full wiki page for a certain Pokémon.
     """
-    def __init__(self, poke_box_gen, move_list_gen, location_data_gen, type_eff_calc):
+    def __init__(self, poke_box_gen, move_list_gen, location_data_gen, type_eff_calc, evo_handler):
         """
         The init function of WikiPage.
 
@@ -13,11 +13,13 @@ class WikiPage:
         :param class move_list_gen: An initialised MoveListGenerator class.
         :param class location_data_gen: An initialised LocationDataGenerator class.
         :param class type_eff_calc: An initialised TypeEffectivenessCalculator class.
+        :param class evo_handler: An initialised EvolutionHandler class.
         """
         self.poke_box_gen = poke_box_gen
         self.move_list_gen = move_list_gen
         self.location_data_gen = location_data_gen
         self.type_eff_calc = type_eff_calc
+        self.evo_handler = evo_handler
 
     def generate_wiki_page(self):
         """
@@ -41,7 +43,7 @@ class WikiPage:
                 "By breeding": self.move_list_gen.create_breeding_learn_list(),
                 "By tutoring": self.move_list_gen.create_tutor_learn_list()
             },
-            "Evolution": self.poke_box_gen.create_evolution_line(),
+            "Evolution": self.evo_handler.create_evolution_box(),
             "Sprites": self.poke_box_gen.create_sprites()
         }
 

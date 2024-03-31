@@ -219,3 +219,21 @@ def location_order():
     with open('references/location_order.json', encoding="utf-8") as f:
         switch = json.load(f)
     return switch
+
+
+def evolution_info(internal_name):
+    """
+    Accesses a dictionary of evolution info.
+
+    Pre-evolution information is not stored with a Pokémon in the game data, and you would need to search the entire
+    file otherwise. This dictionary is instead used as a convenience to establish the evolutionary chain of a Pokémon
+    line. Pre-evolution method is stored because it's a one-to-one relationship (every evo has exactly 1 pre-evo)
+    compared to e.g., gloom having 2 evos.
+
+    Format: "PokémonInternalName" -> {"PreEvolution": "PreEvolution", "Evolution": ["Evolution"], "PreEvoMethod": {"Method": "Info"}}
+
+    :return dict[str, str | list[str] | dict[str, str]]: A dictionary of pre-evo, evo, and pre-evo method information.
+    """
+    with open('references/evolution_info.json', encoding="utf-8") as f:
+        switch = json.load(f)
+    return switch.get(internal_name)

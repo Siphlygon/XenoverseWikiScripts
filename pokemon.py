@@ -1,6 +1,7 @@
 # pylint: disable=line-too-long, too-many-boolean-expressions, missing-module-docstring, F0401
 from data_access import (gender_code, growth_rate, pokemon_info, wild_item_info, ability_info, species_and_dex_entry)
 from utility_methods import (make_three_digits, find_dex_number)
+from evolution import EvolutionHandler
 
 
 class PokemonBoxGenerator:
@@ -175,8 +176,11 @@ class PokemonBoxGenerator:
             if "Type2" in self.p_data else "{{Type|" + self.first_type + "}}"
 
         determiner = "an" if typing[7] in ["E", "I"] else "a"
-        opening_paragraph = [f"'''{self.name}''' is {determiner} {dual_type}{typing}-type Pokémon.", "",
-                             "It is not known to evolve from or into any other Pokémon."]
+        opening_paragraph = [f"'''{self.name}''' is {determiner} {dual_type}{typing}-type Pokémon.", ""]
+
+        evh = EvolutionHandler(self.p_data)
+        evo_statement = evh.create_evolution_statement()
+        opening_paragraph.append(evo_statement)
 
         return opening_paragraph
 
@@ -234,18 +238,6 @@ class PokemonBoxGenerator:
         stats.append("}}")
 
         return stats
-
-    def create_evolution_line(self):
-        """
-        Creates the type effectiveness box for the Pokémon wiki page given relevant information.
-
-        :return list[str]: The wiki code to produce the type effectiveness box.
-        """
-        evo_line = ["{{Evobox-1", "|type1 = " + self.first_type, "|type2 = " + self.second_type,
-                    "|type1-1 = " + self.first_type, "|type2-1 = " + self.second_type,
-                    "|image1 = " + self.name.replace(" ", "") + ".png", "|name1 = " + self.name, "}}"]
-
-        return evo_line
 
     def create_sprites(self):
         """

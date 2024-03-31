@@ -10,6 +10,7 @@ from locations import LocationDataGenerator
 from wiki import WikiPage
 from data_collection import DataCollection
 from pokemontypes import TypeEffectivenessCalculator
+from evolution import EvolutionHandler
 
 
 def main():
@@ -26,9 +27,10 @@ def main():
     move_list_gen = MoveListGenerator(pokemon_data, tm_data, tutor_data)
     location_data_gen = LocationDataGenerator(pokemon_data, location_data, loc_nums)
     type_eff_calc = TypeEffectivenessCalculator(pokemon_data)
+    evo_handler = EvolutionHandler(pokemon_data)
 
     # Generate Wiki page
-    wiki_page = WikiPage(poke_box_gen, move_list_gen, location_data_gen, type_eff_calc)
+    wiki_page = WikiPage(poke_box_gen, move_list_gen, location_data_gen, type_eff_calc, evo_handler)
     wiki_page.generate_wiki_page()
 
 
