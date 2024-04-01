@@ -112,9 +112,12 @@ class PokemonBoxGenerator:
             infobox.append("|egggroupn = 0 <!-- 0 if can't legitimately obtain this as an egg -->")
 
         # Metric height & weight
-        metric_height = int(self.p_data["Height"]) / 10
-        metric_weight = int(self.p_data["Weight"]) / 10
-        infobox.extend(["|height-m = " + str(metric_height),
+        metric_height = float(self.p_data["Height"]) / 10
+        metric_weight = float(self.p_data["Weight"]) / 10
+        if self.name == "Duraludon":
+            metric_weight *= 10
+            metric_height *= 10
+        infobox.extend([f"|height-m = {metric_height:g}",
                         f"|weight-kg =  {metric_weight:g}"])
 
         # Imperial height & weight

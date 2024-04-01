@@ -3,6 +3,7 @@
     "Fast": "800000",
     "Medium": "1000000",
     "Parabolic": "1059860",
+    "MediumSlow": "1059860",
     "Slow": "1250000",
     "Fluctuating": "1640000"
 }
