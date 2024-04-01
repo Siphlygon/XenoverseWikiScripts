@@ -114,6 +114,11 @@
         "STAB": "yes",
         "Type": "Fighting"
     },
+    "ARMORCANNON": {
+        "Name": "Armor Cannon",
+        "STAB": "yes",
+        "Type": "Fire"
+    },
     "AROMATHERAPY": {
         "Name": "Aromatherapy",
         "STAB": "no",
@@ -253,6 +258,11 @@
         "Name": "Bite",
         "STAB": "yes",
         "Type": "Dark"
+    },
+    "BITTERBLADE": {
+        "Name": "Bitter Blade",
+        "STAB": "yes",
+        "Type": "Fire"
     },
     "BLASTBURN": {
         "Name": "Blast Burn",
