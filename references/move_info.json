@@ -899,6 +899,11 @@
         "STAB": "yes",
         "Type": "Electric"
     },
+    "ELEPUNCH": {
+        "Name": "Elepunch",
+        "STAB": "yes",
+        "Type": "Normal"
+    },
     "EMBARGO": {
         "Name": "Embargo",
         "STAB": "no",
