@@ -291,9 +291,10 @@ class EvolutionHandler:
 
         # Construct list of Pokémon evolution components for the statement
         evo_list = []
-        for i in range(1, len(evo_chain)):
-            evo_method = _create_evo_statement_method(evo_chain[i]["Method"]) if evo_chain[i]["Method"] else None
-            evo_list.append(f"[[{evo_chain[i]["DisplayName"]}]] {evo_method}")
+        evo_len = len(evo_chain)
+        for i in range(1, evo_len):
+            evo_method = _create_evo_statement_method(evo_chain[evo_len - i]["Method"]) if evo_chain[evo_len - i]["Method"] else None
+            evo_list.append(f"[[{evo_chain[evo_len - i]["DisplayName"]}]] {evo_method}")
 
         # Order of match up of evo method and display name is reversed depending on chain position
         # Create two lists and vary their indexing to allow for this
