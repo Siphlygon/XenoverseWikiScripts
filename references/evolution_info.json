@@ -6273,10 +6273,10 @@
     "SLUGMAVINTAGE": {
         "PreEvolution": "no",
         "Evolution": [
-            "MACARGOVINTAGE"
+            "MAGCARGOVINTAGE"
         ]
     },
-    "MACARGOVINTAGE": {
+    "MAGCARGOVINTAGE": {
         "PreEvolution": "SLUGMAVINTAGE",
         "Evolution": [
             "no"
