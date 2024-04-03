@@ -57,7 +57,10 @@ def _construct_evolution_chain(evol_info, internal_name):
     Otherwise, starts at the 1st stage evolution and constructs a chain based on the next stage(s) of evolution.
     Uses the fact that all branching evolutions are final evolutions (i.e., no Wurmple-like evolutions).
 
-    :return dict[str, dict[str, str]]: A dictionary containing the evolution chain of the Pokémon.
+    :param dict[str, str | list[str] | dict[str, str]] evol_info: The information for the current stage of the evolution chain.
+    :param str internal_name: The internal name of the Pokémon.
+    :return dict[int, dict[str, str]]: The evolution chain of the Pokémon.
+    :return str: The branching information of the evolution chain.
     """
     evo_chain = {}
     # Single-stage Pokémon
@@ -100,8 +103,15 @@ def _construct_evolution_chain(evol_info, internal_name):
         else:
             evo_chain[1] = {"Name": evo_2["PreEvolution"], "Method": evo_2["PreEvolutionMethod"]}
             evo_chain[2] = {"Name": evo_3["PreEvolution"], "Method": evo_3["PreEvolutionMethod"]}
-            evo_chain[3] = {"Name": evo_2["Evolution"][0], "Method": None}
-            branch_info = "Linear"
+            # Gorochu is a 4-stage evolution line
+            if evo_2["Evolution"][0] == "RAICHUVINTAGE":
+                evo_4 = _determine_next_stage(evo_3)
+                evo_chain[3] = {"Name": evo_2["Evolution"][0], "Method": evo_4["PreEvolutionMethod"]}
+                evo_chain[4] = {"Name": evo_3["Evolution"][0], "Method": None}
+                branch_info = "Linear"
+            else:
+                evo_chain[3] = {"Name": evo_2["Evolution"][0], "Method": None}
+                branch_info = "Linear"
 
     return _populate_evo_chain(evo_chain), branch_info
 
@@ -162,6 +172,8 @@ def _create_evo_string(method):
         return "{{Item|Rare Candy}}{{Item|Power Belt}}<br>{{color2|000|Level " + method["DefenseGreater"] + "}}<br><small>({{color2|000|Attack}} > {{color2|000|Defense}})</small>"
     if method.keys() == {"AtkDefEqual"}:
         return "{{Item|Rare Candy}}{{Item|Macho Brace}}<br>{{color2|000|Level " + method["AtkDefEqual"] + "}}<br><small>({{color2|000|Attack}} = {{color2|000|Defense}})</small>"
+    if method.keys() == {"Kingambit"}:
+        return "{{Item|Rare Candy}} + {{Item|King's Rock}}<br>{{color2|000|Level up}}<br><small>on [[Shinobi Island]]<br>with 3 Pawniards and <br>1 Bisharp X in party</small>"
 
     # Otherwise, the method is "HasInParty"
     dc = DataCollection(method["HasInParty"])
@@ -209,6 +221,8 @@ def _create_evo_statement_method(method):
         return f"starting at level {method["DefenseGreater"]} if its Defense is higher than its Attack"
     if method.keys() == {"AtkDefEqual"}:
         return f"starting at level {method["AtkDefEqual"]} if its Attack and Defense are equal"
+    if method.keys() == {"Kingambit"}:
+        return "if leveled up on [[Shinobi Island]] with 3 Pawniards and 1 [[Bisharp X]] in your party"
 
     # Otherwise, the method is "HasInParty"
     dc = DataCollection(method["HasInParty"])
@@ -239,6 +253,10 @@ class EvolutionHandler:
 
         :return list[str]: The wiki code to produce the evolution box.
         """
+        # Eeveelutions are super broken and those pages are complete anyway.
+        if self.internal_name in ["EEVEE", "VAPOREON", "JOLTEON", "FLAREON", "ESPEON", "UMBREON", "LEAFEON", "GLACEON", "SYLVEON", "BANDEON", "SCALEON"]:
+            return ""
+
         evo_chain, branch_info = _construct_evolution_chain(self.evol_info, self.internal_name)
 
         if branch_info == "Linear":
@@ -284,6 +302,10 @@ class EvolutionHandler:
         """
         if not _is_in_evolution_chain(self.evol_info):
             return "It is not known to evolve from or into any other Pokémon."
+
+        # Eeveelutions are super broken and those pages are complete anyway.
+        if self.internal_name in ["EEVEE", "VAPOREON", "JOLTEON", "FLAREON", "ESPEON", "UMBREON", "LEAFEON", "GLACEON", "SYLVEON", "BANDEON", "SCALEON"]:
+            return ""
 
         evo_chain, _ = _construct_evolution_chain(self.evol_info, self.internal_name)
 
