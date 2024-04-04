@@ -2976,7 +2976,7 @@
         "DisplayName": "Vintage Raichu"
     },
     "V056": {
-        "InternalName": "GOROCHU",
+        "InternalName": "GOROCHUVINTAGE",
         "DisplayName": "Gorochu"
     },
     "V057": {
@@ -3300,7 +3300,7 @@
         "DisplayName": "Tigrette"
     },
     "V137": {
-        "InternalName": "ELECTIGERVINTAGE",
+        "InternalName": "ELECTYGERVINTAGE",
         "DisplayName": "Electiger"
     },
     "V138": {
@@ -3420,8 +3420,8 @@
         "DisplayName": "Vintage Pineco"
     },
     "V167": {
-        "InternalName": "FORETRESSVINTAGE",
-        "DisplayName": "Vintage Foretress"
+        "InternalName": "FORRETRESSVINTAGE",
+        "DisplayName": "Vintage Forretress"
     },
     "V168": {
         "InternalName": "KANGASKHANVINTAGE",
@@ -3572,7 +3572,7 @@
         "DisplayName": "Vintage Hitmonchan"
     },
     "V205": {
-        "InternalName": "HITMONTOP2VINTAGE",
+        "InternalName": "HITMONTOPVINTAGE2",
         "DisplayName": "Vintage Hitmontop"
     },
     "V206": {
@@ -3580,7 +3580,7 @@
         "DisplayName": "Vintage Slugma"
     },
     "V207": {
-        "InternalName": "MACARGOVINTAGE",
-        "DisplayName": "Vintage Macargo"
+        "InternalName": "MAGCARGOVINTAGE",
+        "DisplayName": "Vintage Magcargo"
     }
 }
