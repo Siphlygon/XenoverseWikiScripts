@@ -1,42 +1,6 @@
 # pylint: disable=line-too-long, missing-module-docstring, import-error, too-many-arguments
 import json
-import sys
 from data_collection import DataCollection
-
-sys.path.append("C:/Users/ampar/PycharmProjects/XenoverseWiki")
-
-# def progress_bar(iterable, prefix='', suffix='', decimals=1, length=100, fill='█', print_end="\r"):
-#     """
-#     Call in a loop to create terminal progress bar
-#
-#     :param iterable: An iterable object.
-#     :param prefix: A string to be printed before the progress bar.
-#     :param suffix: A string to be printed after the progress bar.
-#     :param decimals: Number of decimal places to display.
-#     :param length: The length of the progress bar.
-#     :param fill: The character to fill the bar with.
-#     :param print_end: The character to print at the end of the progress bar.
-#
-#     :return: Yields the next item in the iterable.
-#     """
-#     total = len(iterable)
-#
-#     # Progress Bar Printing Function
-#     def print_progress_bar (iteration):
-#         percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
-#         filled_length = int(length * iteration // total)
-#         pbar = fill * filled_length + '-' * (length - filled_length)
-#         print(f'\r{prefix} |{pbar}| {percent}% {suffix}', end=print_end)
-#
-#     # Initial Call
-#     print_progress_bar(0)
-#     # Update Progress Bar
-#     for i, item in enumerate(iterable):
-#         yield item
-#         print_progress_bar(i + 1)
-#     # Print New Line on Complete
-#     print()
-
 
 # Print iterations progress
 def print_progress_bar(iteration, total, prefix='', suffix='', decimals=1, length=100, fill='█', print_end="\r"):
