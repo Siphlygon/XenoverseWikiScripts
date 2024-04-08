@@ -1,0 +1,261 @@
+{{HeldItemsEntry|Zigzagoon||{{Item|{{{1|Oran Berry}}}}}|}}
+{{HeldItemsEntry|Bibarel|{{Item|{{{1|Oran Berry}}}}}|{{Item|{{{1|Sitrus Berry}}}}}|}}
+{{HeldItemsEntry|Beedrill||{{Item|{{{1|Poison Barb}}}}}|}}
+{{HeldItemsEntry|Kricketot||{{Item|{{{1|Metronome}}}}}|}}
+{{HeldItemsEntry|Kricketune||{{Item|{{{1|Metronome}}}}}|}}
+{{HeldItemsEntry|Yemin||||{{Item|{{{1|Black Belt}}}}}}}
+{{HeldItemsEntry|Kungfur|{{Item|{{{1|Black Belt}}}}}|{{Item|{{{1|Black Belt}}}}}|{{Item|{{{1|Expert Belt}}}}}}}
+{{HeldItemsEntry|Abra||{{Item|{{{1|Twisted Spoon}}}}}|}}
+{{HeldItemsEntry|Kadabra|||{{Item|{{{1|Psi Update}}}}}}}
+{{HeldItemsEntry|Taillow||{{Item|{{{1|Charti Berry}}}}}|}}
+{{HeldItemsEntry|Dwebble||{{Item|{{{1|Hard Stone}}}}}|{{Item|{{{1|Rare Bone}}}}}}}
+{{HeldItemsEntry|Crustle||{{Item|{{{1|Hard Stone}}}}}|{{Item|{{{1|Rare Bone}}}}}}}
+{{HeldItemsEntry|Bremand_V||{{Item|{{{1|Metronome}}}}}|{{Item|{{{1|Metronome}}}}}}}
+{{HeldItemsEntry|Feebas|||{{Item|{{{1|Tender Update}}}}}}}
+{{HeldItemsEntry|Sandygast|{{Item|{{{1|Pearl}}}}}|{{Item|{{{1|Spell Tag}}}}}|}}
+{{HeldItemsEntry|Palossand|{{Item|{{{1|Pearl}}}}}||}}
+{{HeldItemsEntry|Corsola||{{Item|{{{1|Hard Stone}}}}}|}}
+{{HeldItemsEntry|Staryu|{{Item|{{{1|Stardust}}}}}|{{Item|{{{1|Star Piece}}}}}|{{Item|{{{1|Water Stone}}}}}}}
+{{HeldItemsEntry|Starmie|{{Item|{{{1|Stardust}}}}}|{{Item|{{{1|Star Piece}}}}}|}}
+{{HeldItemsEntry|Shuckle||||{{Item|{{{1|Berry Juice}}}}}}}
+{{HeldItemsEntry|Phantump|||{{Item|{{{1|Elder Update}}}}}}}
+{{HeldItemsEntry|Gloom||{{Item|{{{1|Leaf Stone}}}}}|{{Item|{{{1|Sun Stone}}}}}}}
+{{HeldItemsEntry|Morelull|{{Item|{{{1|Tiny Mushroom}}}}}|{{Item|{{{1|Big Mushroom}}}}}|}}
+{{HeldItemsEntry|Carvanha||{{Item|{{{1|Deep Sea Tooth}}}}}|}}
+{{HeldItemsEntry|Sharpedo||{{Item|{{{1|Deep Sea Tooth}}}}}|}}
+{{HeldItemsEntry|Mareanie||{{Item|{{{1|Poison Barb}}}}}|}}
+{{HeldItemsEntry|Haunter|||{{Item|{{{1|Shadow Update}}}}}}}
+{{HeldItemsEntry|Grimer|{{Item|{{{1|Pearl}}}}}|{{Item|{{{1|Nugget}}}}}|}}
+{{HeldItemsEntry|Muk|{{Item|{{{1|Pearl}}}}}|{{Item|{{{1|Nugget}}}}}|}}
+{{HeldItemsEntry|Puppillon|||{{Item|{{{1|Dread Pendant}}}}}}}
+{{HeldItemsEntry|Nunvil|||{{Item|{{{1|Dread Pendant}}}}}}}
+{{HeldItemsEntry|Onix|||{{Item|{{{1|Iron Update}}}}}}}
+{{HeldItemsEntry|Steelix||{{Item|{{{1|Metal Coat}}}}}|}}
+{{HeldItemsEntry|Cubchoo|{{Item|{{{1|Aspear Berry}}}}}||}}
+{{HeldItemsEntry|Beartic|{{Item|{{{1|Aspear Berry}}}}}||}}
+{{HeldItemsEntry|Geodude||{{Item|{{{1|Everstone}}}}}|}}
+{{HeldItemsEntry|Graveler||{{Item|{{{1|Everstone}}}}}|{{Item|{{{1|Megaton Update}}}}}}}
+{{HeldItemsEntry|Roggenrola|{{Item|{{{1|Everstone}}}}}|{{Item|{{{1|Hard Stone}}}}}|}}
+{{HeldItemsEntry|Boldore|{{Item|{{{1|Everstone}}}}}|{{Item|{{{1|Hard Stone}}}}}|{{Item|{{{1|Compressed Update}}}}}}}
+{{HeldItemsEntry|Sneasel|{{Item|{{{1|Grip Claw}}}}}|{{Item|{{{1|Quick Claw}}}}}|{{Item|{{{1|Razor Claw}}}}}}}
+{{HeldItemsEntry|Weavile|{{Item|{{{1|Grip Claw}}}}}|{{Item|{{{1|Quick Claw}}}}}|}}
+{{HeldItemsEntry|Blingrimm||{{Item|{{{1|Toxic Orb}}}}}|{{Item|{{{1|Toxic Orb}}}}}}}
+{{HeldItemsEntry|Hikiloo|||{{Item|{{{1|Ice Stone}}}}}}}
+{{HeldItemsEntry|Buizel||{{Item|{{{1|Wacan Berry}}}}}|}}
+{{HeldItemsEntry|Floatzel||{{Item|{{{1|Wacan Berry}}}}}|}}
+{{HeldItemsEntry|Meowth||{{Item|{{{1|Pearl}}}}}|{{Item|{{{1|Big Pearl}}}}}}}
+{{HeldItemsEntry|Koinkoin|{{Item|{{{1|Pearl}}}}}|{{Item|{{{1|Big Pearl}}}}}|{{Item|{{{1|Pearl String}}}}}}}
+{{HeldItemsEntry|Combee||||{{Item|{{{1|Honey}}}}}}}
+{{HeldItemsEntry|Chigami|{{Item|{{{1|Sticky Barb}}}}}|{{Item|{{{1|Sticky Barb}}}}}|}}
+{{HeldItemsEntry|Sewaddle||{{Item|{{{1|Mental Herb}}}}}|}}
+{{HeldItemsEntry|Swadloon||{{Item|{{{1|Mental Herb}}}}}|}}
+{{HeldItemsEntry|Audino|{{Item|{{{1|Oran Berry}}}}}|{{Item|{{{1|Sitrus Berry}}}}}|}}
+{{HeldItemsEntry|Cottonee|||{{Item|{{{1|Sun Stone}}}}}}}
+{{HeldItemsEntry|Yanma||{{Item|{{{1|Wide Lens}}}}}|}}
+{{HeldItemsEntry|Arbok|{{Item|{{{1|Oran Berry}}}}}|{{Item|{{{1|Leppa Berry}}}}}|{{Item|{{{1|Lum Berry}}}}}}}
+{{HeldItemsEntry|Croagunk||{{Item|{{{1|Black Sludge}}}}}|}}
+{{HeldItemsEntry|Toxicroak||{{Item|{{{1|Black Sludge}}}}}|}}
+{{HeldItemsEntry|Stunky||{{Item|{{{1|Pecha Berry}}}}}|}}
+{{HeldItemsEntry|Skuntank||{{Item|{{{1|Pecha Berry}}}}}|}}
+{{HeldItemsEntry|Ditto|{{Item|{{{1|Quick Powder}}}}}|{{Item|{{{1|Metal Powder}}}}}|}}
+{{HeldItemsEntry|Pikachu|{{Item|{{{1|Light Ball}}}}}||{{Item|{{{1|Thunder Stone}}}}}}}
+{{HeldItemsEntry|Raichu|{{Item|{{{1|Oran Berry}}}}}||}}
+{{HeldItemsEntry|Gachigachoo|{{Item|{{{1|Oran Berry}}}}}||}}
+{{HeldItemsEntry|Miltank||||{{Item|{{{1|Moomoo Milk}}}}}}}
+{{HeldItemsEntry|Budew||{{Item|{{{1|Poison Barb}}}}}|}}
+{{HeldItemsEntry|Roselia||{{Item|{{{1|Poison Barb}}}}}|{{Item|{{{1|Shiny Stone}}}}}}}
+{{HeldItemsEntry|Roserade||{{Item|{{{1|Poison Barb}}}}}|}}
+{{HeldItemsEntry|Buneary||{{Item|{{{1|Chople Berry}}}}}|}}
+{{HeldItemsEntry|Minccino|{{Item|{{{1|Chesto Berry}}}}}||{{Item|{{{1|Shiny Stone}}}}}}}
+{{HeldItemsEntry|Swirlix|||{{Item|{{{1|Meringue Update}}}}}}}
+{{HeldItemsEntry|Hystearic|||{{Item|{{{1|Leaf Stone}}}}}}}
+{{HeldItemsEntry|Whismur||{{Item|{{{1|Chesto Berry}}}}}|}}
+{{HeldItemsEntry|Loudred||{{Item|{{{1|Chesto Berry}}}}}|}}
+{{HeldItemsEntry|Pepequeno|||{{Item|{{{1|Fire Stone}}}}}}}
+{{HeldItemsEntry|Scovile|{{Item|{{{1|Rawst Berry}}}}}|{{Item|{{{1|Occa Berry}}}}}|}}
+{{HeldItemsEntry|Excalibould||||{{Item|{{{1|King's Rock}}}}}}}
+{{HeldItemsEntry|Diglett||{{Item|{{{1|Soft Sand}}}}}|}}
+{{HeldItemsEntry|Dugtrio||{{Item|{{{1|Soft Sand}}}}}|}}
+{{HeldItemsEntry|Aron||{{Item|{{{1|Hard Stone}}}}}|}}
+{{HeldItemsEntry|Lairon||{{Item|{{{1|Hard Stone}}}}}|}}
+{{HeldItemsEntry|Eelektrik|||{{Item|{{{1|Thunder Stone}}}}}}}
+{{HeldItemsEntry|Birigiri||{{Item|{{{1|Poison Barb}}}}}|}}
+{{HeldItemsEntry|Goombear||{{Item|{{{1|Leftovers}}}}}|{{Item|{{{1|Leftovers}}}}}}}
+{{HeldItemsEntry|Dratini||{{Item|{{{1|Dragon Scale}}}}}|}}
+{{HeldItemsEntry|Dragonair||{{Item|{{{1|Dragon Scale}}}}}|}}
+{{HeldItemsEntry|Trapinch||{{Item|{{{1|Soft Sand}}}}}|}}
+{{HeldItemsEntry|Druddigon||{{Item|{{{1|Dragon Fang}}}}}|}}
+{{HeldItemsEntry|Turtonator||{{Item|{{{1|Charcoal}}}}}|}}
+{{HeldItemsEntry|Vulpix||||{{Item|{{{1|Rawst Berry}}}}}}}
+{{HeldItemsEntry|Ninetales||||{{Item|{{{1|Rawst Berry}}}}}}}
+{{HeldItemsEntry|Koffing||{{Item|{{{1|Smoke Ball}}}}}|}}
+{{HeldItemsEntry|Weezing||{{Item|{{{1|Smoke Ball}}}}}|}}
+{{HeldItemsEntry|Numel||||{{Item|{{{1|Rawst Berry}}}}}}}
+{{HeldItemsEntry|Camerupt||||{{Item|{{{1|Rawst Berry}}}}}}}
+{{HeldItemsEntry|Drampa||{{Item|{{{1|Persim Berry}}}}}|}}
+{{HeldItemsEntry|Ponyta||{{Item|{{{1|Shuca Berry}}}}}|}}
+{{HeldItemsEntry|Rapidash||{{Item|{{{1|Shuca Berry}}}}}|}}
+{{HeldItemsEntry|Sandshrew||{{Item|{{{1|Quick Claw}}}}}|}}
+{{HeldItemsEntry|Sandslash||{{Item|{{{1|Quick Claw}}}}}|}}
+{{HeldItemsEntry|Cubone||{{Item|{{{1|Thick Club}}}}}|}}
+{{HeldItemsEntry|Cacnea||{{Item|{{{1|Sticky Barb}}}}}|}}
+{{HeldItemsEntry|Vroombug|||{{Item|{{{1|Spare Parts}}}}}}}
+{{HeldItemsEntry|Peckabone|||{{Item|{{{1|Dusk Stone}}}}}}}
+{{HeldItemsEntry|Kecleon||{{Item|{{{1|Persim Berry}}}}}|}}
+{{HeldItemsEntry|Rhyhorn|||{{Item|{{{1|Drill Update}}}}}}}
+{{HeldItemsEntry|Beldum||{{Item|{{{1|Metal Coat}}}}}|}}
+{{HeldItemsEntry|Metang||{{Item|{{{1|Metal Coat}}}}}|}}
+{{HeldItemsEntry|Mimikyu||{{Item|{{{1|Chesto Berry}}}}}|}}
+{{HeldItemsEntry|Murkrow|||{{Item|{{{1|Dusk Stone}}}}}}}
+{{HeldItemsEntry|Magnemite||{{Item|{{{1|Metal Coat}}}}}|}}
+{{HeldItemsEntry|Magneton||{{Item|{{{1|Metal Coat}}}}}|}}
+{{HeldItemsEntry|Elekid||{{Item|{{{1|Electirizer}}}}}|}}
+{{HeldItemsEntry|Electabuzz|||{{Item|{{{1|Thunderbolt Update}}}}}}}
+{{HeldItemsEntry|Scraggy||{{Item|{{{1|Shed Shell}}}}}|}}
+{{HeldItemsEntry|Spinda||{{Item|{{{1|Chesto Berry}}}}}|}}
+{{HeldItemsEntry|Tokakle||{{Item|{{{1|Persim Berry}}}}}|}}
+{{HeldItemsEntry|Blitzle|{{Item|{{{1|Cheri Berry}}}}}||}}
+{{HeldItemsEntry|Zebstrika|{{Item|{{{1|Cheri Berry}}}}}||}}
+{{HeldItemsEntry|Jigglypuff|||{{Item|{{{1|Moon Stone}}}}}}}
+{{HeldItemsEntry|Gurdurr|||{{Item|{{{1|Muscular Update}}}}}}}
+{{HeldItemsEntry|Exeggutor|{{Item|{{{1|Oran Berry}}}}}|{{Item|{{{1|Occa Berry}}}}}|}}
+{{HeldItemsEntry|Chansey|{{Item|{{{1|Lum Berry}}}}}||}}
+{{HeldItemsEntry|Blissey|{{Item|{{{1|Oval Stone}}}}}|{{Item|{{{1|Lucky Egg}}}}}|}}
+{{HeldItemsEntry|Donanas||||{{Item|{{{1|Pinap Berry}}}}}}}
+{{HeldItemsEntry|Scyther|||{{Item|{{{1|Pincer Update}}}}}}}
+{{HeldItemsEntry|Rowlet|{{Item|{{{1|Leppa Berry}}}}}|{{Item|{{{1|Occa Berry}}}}}|}}
+{{HeldItemsEntry|Passimian||{{Item|{{{1|Leppa Berry}}}}}|{{Item|{{{1|Sitrus Berry}}}}}}}
+{{HeldItemsEntry|Aipom|{{Item|{{{1|Leppa Berry}}}}}||{{Item|{{{1|Occa Berry}}}}}}}
+{{HeldItemsEntry|Girafarig||{{Item|{{{1|Leppa Berry}}}}}|{{Item|{{{1|Lum Berry}}}}}}}
+{{HeldItemsEntry|Chatot|{{Item|{{{1|Oran Berry}}}}}|{{Item|{{{1|Leppa Berry}}}}}|}}
+{{HeldItemsEntry|Pyroar|{{Item|{{{1|Rawst Berry}}}}}|{{Item|{{{1|Sitrus Berry}}}}}|}}
+{{HeldItemsEntry|Carnivine|{{Item|{{{1|Leppa Berry}}}}}|{{Item|{{{1|Occa Berry}}}}}|{{Item|{{{1|Lum Berry}}}}}}}
+{{HeldItemsEntry|Yamask||{{Item|{{{1|Spell Tag}}}}}|}}
+{{HeldItemsEntry|Cofagrigus||{{Item|{{{1|Spell Tag}}}}}|}}
+{{HeldItemsEntry|Nosepass||{{Item|{{{1|Hard Stone}}}}}|}}
+{{HeldItemsEntry|Rattata||{{Item|{{{1|Chilan Berry}}}}}|}}
+{{HeldItemsEntry|Raticate||{{Item|{{{1|Chilan Berry}}}}}|}}
+{{HeldItemsEntry|Swalot||{{Item|{{{1|Big Pearl}}}}}|}}
+{{HeldItemsEntry|Trubbish||{{Item|{{{1|Black Sludge}}}}}|{{Item|{{{1|Nugget}}}}}}}
+{{HeldItemsEntry|Clamperl||{{Item|{{{1|South Sea Update}}}}}|{{Item|{{{1|Deep Sea Update}}}}}}}
+{{HeldItemsEntry|Porygon|{{Item|{{{1|Virtual Update}}}}}|{{Item|{{{1|Error Update}}}}}|{{Item|{{{1|WES Update}}}}}}}
+{{HeldItemsEntry|Dusmee||{{Item|{{{1|Heart Scale}}}}}|{{Item|{{{1|Heart Scale}}}}}}}
+{{HeldItemsEntry|Celebi||||{{Item|{{{1|Lum Berry}}}}}}}
+{{HeldItemsEntry|Meloetta||||{{Item|{{{1|Star Piece}}}}}}}
+{{HeldItemsEntry|Marshadow||{{Item|{{{1|Sitrus Berry}}}}}|}}
+{{HeldItemsEntry|Growlithe|{{Item|{{{1|Rawst Berry}}}}}|{{Item|{{{1|Rawst Berry}}}}}|{{Item|{{{1|Fire Stone}}}}}}}
+{{HeldItemsEntry|Magmar|||{{Item|{{{1|Blast Update}}}}}}}
+{{HeldItemsEntry|Seadra||{{Item|{{{1|Dragon Update}}}}}|{{Item|{{{1|Dragon Update}}}}}}}
+{{HeldItemsEntry|Gligar||{{Item|{{{1|Razor Fang}}}}}|{{Item|{{{1|Razor Fang}}}}}}}
+{{HeldItemsEntry|Mightyena||{{Item|{{{1|Pecha Berry}}}}}|}}
+{{HeldItemsEntry|Weepinbell||{{Item|{{{1|Leaf Stone}}}}}|{{Item|{{{1|Poison Stone}}}}}}}
+{{HeldItemsEntry|Ferrothorn||{{Item|{{{1|Sticky Barb}}}}}|}}
+{{HeldItemsEntry|Glalie||{{Item|{{{1|Babiri Berry}}}}}|}}
+{{HeldItemsEntry|Froslass||{{Item|{{{1|Babiri Berry}}}}}|}}
+{{HeldItemsEntry|Cryogonal||{{Item|{{{1|Never-Melt Ice}}}}}|}}
+{{HeldItemsEntry|Mawile||{{Item|{{{1|Occa Berry}}}}}|}}
+{{HeldItemsEntry|Dusclops||{{Item|{{{1|Kasib Berry}}}}}|{{Item|{{{1|Gripper Update}}}}}}}
+{{HeldItemsEntry|Paras|{{Item|{{{1|Tiny Mushroom}}}}}|{{Item|{{{1|Big Mushroom}}}}}|}}
+{{HeldItemsEntry|Parasect|{{Item|{{{1|Tiny Mushroom}}}}}|{{Item|{{{1|Big Mushroom}}}}}|{{Item|{{{1|Balm Mushroom}}}}}}}
+{{HeldItemsEntry|Mr. Mime||{{Item|{{{1|Leppa Berry}}}}}|}}
+{{HeldItemsEntry|Castform||||{{Item|{{{1|Mystic Water}}}}}}}
+{{HeldItemsEntry|Amoonguss|{{Item|{{{1|Tiny Mushroom}}}}}|{{Item|{{{1|Big Mushroom}}}}}|}}
+{{HeldItemsEntry|Slowbro|||{{Item|{{{1|Royal Update}}}}}}}
+{{HeldItemsEntry|Azumarill||{{Item|{{{1|Pixie Plate}}}}}|}}
+{{HeldItemsEntry|Snorlax||||{{Item|{{{1|Leftovers}}}}}}}
+{{HeldItemsEntry|Zorua_H|||{{Item|{{{1|Ancient Stone}}}}}}}
+{{HeldItemsEntry|Emolga||||{{Item|{{{1|Cheri Berry}}}}}}}
+{{HeldItemsEntry|Bronzong||{{Item|{{{1|Sound Plate}}}}}|}}
+{{HeldItemsEntry|Gabite||{{Item|{{{1|Haban Berry}}}}}|}}
+{{HeldItemsEntry|Garchomp||{{Item|{{{1|Haban Berry}}}}}|}}
+{{HeldItemsEntry|Venipede|{{Item|{{{1|Pecha Berry}}}}}|{{Item|{{{1|Poison Barb}}}}}|}}
+{{HeldItemsEntry|Skorupi||{{Item|{{{1|Poison Barb}}}}}|}}
+{{HeldItemsEntry|Butterfree||{{Item|{{{1|Silver Powder}}}}}|}}
+{{HeldItemsEntry|Charcadet||{{Item|{{{1|Auspicious Armor}}}}}|{{Item|{{{1|Malicious Armor}}}}}}}
+{{HeldItemsEntry|Lunatone||{{Item|{{{1|Moon Stone}}}}}|{{Item|{{{1|Comet Shard}}}}}}}
+{{HeldItemsEntry|Solrock||{{Item|{{{1|Sun Stone}}}}}|{{Item|{{{1|Comet Shard}}}}}}}
+{{HeldItemsEntry|Karrablast|||{{Item|{{{1|Shell Update}}}}}}}
+{{HeldItemsEntry|Shelmet|||{{Item|{{{1|Cavalry Update}}}}}}}
+{{HeldItemsEntry|ElekidX|{{Item|{{{1|Eden Berry}}}}}|{{Item|{{{1|Xenolite}}}}}|{{Item|{{{1|Xenolite}}}}}}}
+{{HeldItemsEntry|ElectabuzzX|{{Item|{{{1|Eden Berry}}}}}|{{Item|{{{1|Xenolite}}}}}|{{Item|{{{1|Xenolite}}}}}}}
+{{HeldItemsEntry|SpiritombX|{{Item|{{{1|Eden Berry}}}}}|{{Item|{{{1|Xenolite}}}}}|{{Item|{{{1|Xenolite}}}}}}}
+{{HeldItemsEntry|CarvanhaX|{{Item|{{{1|Eden Berry}}}}}|{{Item|{{{1|Xenolite}}}}}|{{Item|{{{1|Xenolite}}}}}}}
+{{HeldItemsEntry|PyukumukuX|{{Item|{{{1|Eden Berry}}}}}|{{Item|{{{1|Xenolite}}}}}|{{Item|{{{1|Xenolite}}}}}}}
+{{HeldItemsEntry|PikachuXM||{{Item|{{{1|Alter Ball}}}}}|}}
+{{HeldItemsEntry|JoltikX|{{Item|{{{1|Eden Berry}}}}}|{{Item|{{{1|Xenolite}}}}}|{{Item|{{{1|Xenolite}}}}}}}
+{{HeldItemsEntry|SmeargleX|{{Item|{{{1|Eden Berry}}}}}|{{Item|{{{1|Xenolite}}}}}|{{Item|{{{1|Xenolite}}}}}}}
+{{HeldItemsEntry|GastlyX|{{Item|{{{1|Eden Berry}}}}}|{{Item|{{{1|Xenolite}}}}}|{{Item|{{{1|Xenolite}}}}}}}
+{{HeldItemsEntry|YamaskX|{{Item|{{{1|Eden Berry}}}}}|{{Item|{{{1|Xenolite}}}}}|{{Item|{{{1|Xenolite}}}}}}}
+{{HeldItemsEntry|PonytaX|{{Item|{{{1|Eden Berry}}}}}|{{Item|{{{1|Xenolite}}}}}|{{Item|{{{1|Xenolite}}}}}}}
+{{HeldItemsEntry|CacneaX|{{Item|{{{1|Eden Berry}}}}}|{{Item|{{{1|Xenolite}}}}}|{{Item|{{{1|Xenolite}}}}}}}
+{{HeldItemsEntry|SwirlixX|{{Item|{{{1|Eden Berry}}}}}|{{Item|{{{1|Xenolite}}}}}|{{Item|{{{1|Xenolite}}}}}}}
+{{HeldItemsEntry|BudewX|{{Item|{{{1|Eden Berry}}}}}|{{Item|{{{1|Xenolite}}}}}|{{Item|{{{1|Xenolite}}}}}}}
+{{HeldItemsEntry|RoseliaX||{{Item|{{{1|Xenolite}}}}}|}}
+{{HeldItemsEntry|RoseradeX||{{Item|{{{1|Xenolite}}}}}|}}
+{{HeldItemsEntry|MareanieX|{{Item|{{{1|Eden Berry}}}}}|{{Item|{{{1|Xenolite}}}}}|{{Item|{{{1|Xenolite}}}}}}}
+{{HeldItemsEntry|RaichuX|{{Item|{{{1|Oran Berry}}}}}||}}
+{{HeldItemsEntry|DittoX|{{Item|{{{1|Quick Powder}}}}}|{{Item|{{{1|Metal Powder}}}}}|}}
+{{HeldItemsEntry|Vintage Beedrill||{{Item|{{{1|Poison Barb}}}}}|}}
+{{HeldItemsEntry|Vintage Abra||{{Item|{{{1|Twisted Spoon}}}}}|}}
+{{HeldItemsEntry|Vintage Kadabra||{{Item|{{{1|Twisted Spoon}}}}}|}}
+{{HeldItemsEntry|Vintage Alakazam||{{Item|{{{1|Twisted Spoon}}}}}|}}
+{{HeldItemsEntry|Vintage Corsola||{{Item|{{{1|Hard Stone}}}}}|}}
+{{HeldItemsEntry|Vintage Staryu|{{Item|{{{1|Stardust}}}}}|{{Item|{{{1|Star Piece}}}}}|}}
+{{HeldItemsEntry|Vintage Starmie|{{Item|{{{1|Stardust}}}}}|{{Item|{{{1|Star Piece}}}}}|}}
+{{HeldItemsEntry|Vintage Shuckle||||{{Item|{{{1|Berry Juice}}}}}}}
+{{HeldItemsEntry|Vintage Grimer|{{Item|{{{1|Pearl}}}}}|{{Item|{{{1|Nugget}}}}}|}}
+{{HeldItemsEntry|Vintage Muk|{{Item|{{{1|Pearl}}}}}|{{Item|{{{1|Nugget}}}}}|}}
+{{HeldItemsEntry|Vintage Steelix||{{Item|{{{1|Metal Coat}}}}}|}}
+{{HeldItemsEntry|Vintage Geodude||{{Item|{{{1|Everstone}}}}}|}}
+{{HeldItemsEntry|Vintage Graveler||{{Item|{{{1|Everstone}}}}}|}}
+{{HeldItemsEntry|Vintage Golem||{{Item|{{{1|Everstone}}}}}|}}
+{{HeldItemsEntry|Vintage Sneasel|{{Item|{{{1|Grip Claw}}}}}|{{Item|{{{1|Quick Claw}}}}}|}}
+{{HeldItemsEntry|Vintage Yanma||{{Item|{{{1|Wide Lens}}}}}|}}
+{{HeldItemsEntry|Vintage Arbok|{{Item|{{{1|Oran Berry}}}}}|{{Item|{{{1|Leppa Berry}}}}}|{{Item|{{{1|Sitrus Berry}}}}}}}
+{{HeldItemsEntry|Vintage Pichu|{{Item|{{{1|Oran Berry}}}}}||}}
+{{HeldItemsEntry|Vintage Pikachu|{{Item|{{{1|Oran Berry}}}}}||{{Item|{{{1|Light Ball}}}}}}}
+{{HeldItemsEntry|Vintage Raichu|{{Item|{{{1|Oran Berry}}}}}||}}
+{{HeldItemsEntry|Vintage Miltank||||{{Item|{{{1|Moomoo Milk}}}}}}}
+{{HeldItemsEntry|Vintage Diglett||{{Item|{{{1|Soft Sand}}}}}|}}
+{{HeldItemsEntry|Vintage Dugtrio||{{Item|{{{1|Soft Sand}}}}}|}}
+{{HeldItemsEntry|Vintage Dratini||{{Item|{{{1|Dragon Scale}}}}}|}}
+{{HeldItemsEntry|Vintage Dragonair||{{Item|{{{1|Dragon Scale}}}}}|}}
+{{HeldItemsEntry|Vintage Dragonite||{{Item|{{{1|Dragon Scale}}}}}|}}
+{{HeldItemsEntry|Vintage Vulpix|{{Item|{{{1|Rawst Berry}}}}}|{{Item|{{{1|Rawst Berry}}}}}|{{Item|{{{1|Fire Stone}}}}}}}
+{{HeldItemsEntry|Vintage Ninetales||||{{Item|{{{1|Rawst Berry}}}}}}}
+{{HeldItemsEntry|Vintage Koffing||{{Item|{{{1|Smoke Ball}}}}}|}}
+{{HeldItemsEntry|Vintage Weezing||{{Item|{{{1|Smoke Ball}}}}}|}}
+{{HeldItemsEntry|Vintage Ponyta||{{Item|{{{1|Shuca Berry}}}}}|}}
+{{HeldItemsEntry|Vintage Rapidash||{{Item|{{{1|Shuca Berry}}}}}|}}
+{{HeldItemsEntry|Vintage Sandshrew||{{Item|{{{1|Quick Claw}}}}}|}}
+{{HeldItemsEntry|Vintage Sandslash||{{Item|{{{1|Quick Claw}}}}}|}}
+{{HeldItemsEntry|Vintage Cubone||{{Item|{{{1|Thick Club}}}}}|}}
+{{HeldItemsEntry|Vintage Marowak||{{Item|{{{1|Thick Club}}}}}|}}
+{{HeldItemsEntry|Vintage Magnemite||{{Item|{{{1|Metal Coat}}}}}|}}
+{{HeldItemsEntry|Vintage Magneton||{{Item|{{{1|Metal Coat}}}}}|}}
+{{HeldItemsEntry|Vintage Elekid||{{Item|{{{1|Electirizer}}}}}|}}
+{{HeldItemsEntry|Vintage Meowth||{{Item|{{{1|Quick Claw}}}}}|}}
+{{HeldItemsEntry|Vintage Persian||{{Item|{{{1|Quick Claw}}}}}|}}
+{{HeldItemsEntry|Vintage Exeggutor|{{Item|{{{1|Oran Berry}}}}}|{{Item|{{{1|Leppa Berry}}}}}|{{Item|{{{1|Sitrus Berry}}}}}}}
+{{HeldItemsEntry|Vintage Chansey|{{Item|{{{1|Oran Berry}}}}}|{{Item|{{{1|Leppa Berry}}}}}|{{Item|{{{1|Lum Berry}}}}}}}
+{{HeldItemsEntry|Vintage Blissey|{{Item|{{{1|Oval Stone}}}}}|{{Item|{{{1|Lucky Egg}}}}}|}}
+{{HeldItemsEntry|Vintage Aipom|{{Item|{{{1|Oran Berry}}}}}|{{Item|{{{1|Leppa Berry}}}}}|{{Item|{{{1|Sitrus Berry}}}}}}}
+{{HeldItemsEntry|Vintage Girafarig||{{Item|{{{1|Persim Berry}}}}}|}}
+{{HeldItemsEntry|Vintage Rattata||{{Item|{{{1|Chilan Berry}}}}}|}}
+{{HeldItemsEntry|Vintage Raticate||{{Item|{{{1|Chilan Berry}}}}}|}}
+{{HeldItemsEntry|Vintage Ditto|{{Item|{{{1|Quick Powder}}}}}|{{Item|{{{1|Metal Powder}}}}}|}}
+{{HeldItemsEntry|Vintage Growlithe|{{Item|{{{1|Rawst Berry}}}}}|{{Item|{{{1|Rawst Berry}}}}}|{{Item|{{{1|Fire Stone}}}}}}}
+{{HeldItemsEntry|Vintage Arcanine||||{{Item|{{{1|Rawst Berry}}}}}}}
+{{HeldItemsEntry|Vintage Bellsprout|{{Item|{{{1|Leaf Stone}}}}}|{{Item|{{{1|Poison Stone}}}}}|{{Item|{{{1|Poison Stone}}}}}}}
+{{HeldItemsEntry|Vintage Weepinbell||{{Item|{{{1|Leaf Stone}}}}}|{{Item|{{{1|Poison Stone}}}}}}}
+{{HeldItemsEntry|Kurstraw||{{Item|{{{1|Spell Tag}}}}}|}}
+{{HeldItemsEntry|Trifox|{{Item|{{{1|Rawst Berry}}}}}|{{Item|{{{1|Rawst Berry}}}}}|{{Item|{{{1|Fire Stone}}}}}}}
+{{HeldItemsEntry|Para|{{Item|{{{1|Tiny Mushroom}}}}}|{{Item|{{{1|Big Mushroom}}}}}|}}
+{{HeldItemsEntry|Vintage Paras|{{Item|{{{1|Tiny Mushroom}}}}}|{{Item|{{{1|Big Mushroom}}}}}|}}
+{{HeldItemsEntry|Vintage Parasect|{{Item|{{{1|Tiny Mushroom}}}}}|{{Item|{{{1|Big Mushroom}}}}}|{{Item|{{{1|Balm Mushroom}}}}}}}
+{{HeldItemsEntry|Vintage Mr. Mime||{{Item|{{{1|Leppa Berry}}}}}|}}
+{{HeldItemsEntry|Vintage Slowbro|||{{Item|{{{1|Royal Update}}}}}}}
+{{HeldItemsEntry|Vintage Snorlax||||{{Item|{{{1|Leftovers}}}}}}}
+{{HeldItemsEntry|Puddi|{{Item|{{{1|Rawst Berry}}}}}|{{Item|{{{1|Rawst Berry}}}}}|{{Item|{{{1|Fire Stone}}}}}}}
+{{HeldItemsEntry|Vintage Stantler||{{Item|{{{1|Pearl}}}}}|}}
+{{HeldItemsEntry|Vintage Butterfree||{{Item|{{{1|Silver Powder}}}}}|}}

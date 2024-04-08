@@ -1,0 +1,834 @@
+{{BaseStatsListEntry|001|Shyleon|0|0|0|0|0|2}}
+{{BaseStatsListEntry|002|Trishout|0|2|0|0|0|0}}
+{{BaseStatsListEntry|003|Shulong|0|0|2|0|0|0}}
+{{BaseStatsListEntry|004|Zigzagoon|0|0|0|0|0|1}}
+{{BaseStatsListEntry|005|Linoone|0|0|0|0|0|2}}
+{{BaseStatsListEntry|006|Bidoof|1|0|0|0|0|0}}
+{{BaseStatsListEntry|007|Bibarel|0|2|0|0|0|0}}
+{{BaseStatsListEntry|008|Sparkowl|0|0|0|0|0|1}}
+{{BaseStatsListEntry|009|Shawkbird|0|1|0|0|0|1}}
+{{BaseStatsListEntry|010|Harrowk|0|2|0|0|0|1}}
+{{BaseStatsListEntry|011|Weedle|0|0|0|0|0|1}}
+{{BaseStatsListEntry|012|Kakuna|0|0|2|0|0|0}}
+{{BaseStatsListEntry|013|Beedrill|0|2|0|0|1|0}}
+{{BaseStatsListEntry|014|Ledyba|0|0|0|0|1|0}}
+{{BaseStatsListEntry|015|Ledian|0|0|0|0|2|0}}
+{{BaseStatsListEntry|016|Kricketot|0|0|1|0|0|0}}
+{{BaseStatsListEntry|017|Kricketune|0|2|0|0|0|0}}
+{{BaseStatsListEntry|018|Mareep|0|0|0|1|0|0}}
+{{BaseStatsListEntry|019|Flaaffy|0|0|0|2|0|0}}
+{{BaseStatsListEntry|020|Ampharos|0|0|0|3|0|0}}
+{{BaseStatsListEntry|021|Yemin|0|1|0|0|0|0}}
+{{BaseStatsListEntry|022|Kungfur|0|2|0|0|0|0}}
+{{BaseStatsListEntry|023|Abra|0|0|0|1|0|0}}
+{{BaseStatsListEntry|024|Kadabra|0|0|0|2|0|0}}
+{{BaseStatsListEntry|025|Alakazam|0|0|0|3|0|0}}
+{{BaseStatsListEntry|026|Taillow|0|0|0|0|0|1}}
+{{BaseStatsListEntry|027|Swellow|0|0|0|0|0|2}}
+{{BaseStatsListEntry|028|Wingull|0|0|0|0|0|1}}
+{{BaseStatsListEntry|029|Pelipper|0|0|2|0|0|0}}
+{{BaseStatsListEntry|030|Masgot|1|0|0|0|0|0}}
+{{BaseStatsListEntry|031|Dwebble|0|0|1|0|0|0}}
+{{BaseStatsListEntry|032|Crustle|0|0|2|0|0|0}}
+{{BaseStatsListEntry|033|Bremand|1|0|0|1|0|0}}
+{{BaseStatsListEntry|034|Magikarp|0|0|0|0|0|1}}
+{{BaseStatsListEntry|035|Gyarados|0|2|0|0|0|0}}
+{{BaseStatsListEntry|036|Corphish|0|1|0|0|0|0}}
+{{BaseStatsListEntry|037|Crawdaunt|0|2|0|0|0|0}}
+{{BaseStatsListEntry|038|Feebas|0|0|0|0|0|1}}
+{{BaseStatsListEntry|039|Milotic|0|0|0|0|2|0}}
+{{BaseStatsListEntry|040|Pyukumuku|0|0|0|2|0|0}}
+{{BaseStatsListEntry|041|Remoraid|0|0|0|1|0|0}}
+{{BaseStatsListEntry|042|Octillery|0|1|0|1|0|0}}
+{{BaseStatsListEntry|043|Sandygast|0|0|1|0|0|0}}
+{{BaseStatsListEntry|044|Palossand|0|0|2|0|0|0}}
+{{BaseStatsListEntry|045|Corsola|0|0|1|0|1|0}}
+{{BaseStatsListEntry|046|Staryu|0|0|0|0|0|1}}
+{{BaseStatsListEntry|047|Starmie|0|0|0|0|0|2}}
+{{BaseStatsListEntry|048|Inkay|0|1|0|0|0|0}}
+{{BaseStatsListEntry|049|Malamar|0|2|0|0|0|0}}
+{{BaseStatsListEntry|050|Mantyke|0|0|0|0|1|0}}
+{{BaseStatsListEntry|051|Mantine|0|0|0|0|2|0}}
+{{BaseStatsListEntry|052|Popplio|0|0|0|0|0|1}}
+{{BaseStatsListEntry|053|Brionne|0|0|0|0|0|2}}
+{{BaseStatsListEntry|054|Primarina|0|0|0|0|0|3}}
+{{BaseStatsListEntry|055|Shuckle|0|0|1|0|1|0}}
+{{BaseStatsListEntry|056|Phantump|0|1|0|0|0|0}}
+{{BaseStatsListEntry|057|Trevenant|0|2|0|0|0|0}}
+{{BaseStatsListEntry|058|Oddish|0|0|0|1|0|0}}
+{{BaseStatsListEntry|059|Gloom|0|0|0|2|0|0}}
+{{BaseStatsListEntry|060|Vileplume|0|0|0|3|0|0}}
+{{BaseStatsListEntry|061|Bellossom|0|0|0|0|3|0}}
+{{BaseStatsListEntry|062|Morelull|0|0|0|1|0|0}}
+{{BaseStatsListEntry|063|Shiinotic|0|0|0|2|0|0}}
+{{BaseStatsListEntry|064|Zubat|0|0|0|0|0|1}}
+{{BaseStatsListEntry|065|Golbat|0|0|0|0|0|2}}
+{{BaseStatsListEntry|066|Crobat|0|0|0|0|0|3}}
+{{BaseStatsListEntry|067|Carvanha|0|1|0|0|0|0}}
+{{BaseStatsListEntry|068|Sharpedo|0|2|0|0|0|0}}
+{{BaseStatsListEntry|069|Mareanie|0|0|1|0|0|0}}
+{{BaseStatsListEntry|070|Toxapex|0|0|2|0|0|0}}
+{{BaseStatsListEntry|071|Gastly|0|0|0|1|0|0}}
+{{BaseStatsListEntry|072|Haunter|0|0|0|2|0|0}}
+{{BaseStatsListEntry|073|Gengar|0|0|0|3|0|0}}
+{{BaseStatsListEntry|074|Grimer|1|0|0|0|0|0}}
+{{BaseStatsListEntry|075|Muk|1|1|0|0|0|0}}
+{{BaseStatsListEntry|076|Puppillon|0|0|0|1|0|0}}
+{{BaseStatsListEntry|077|Hangead|0|0|0|2|0|0}}
+{{BaseStatsListEntry|078|Nunvil|0|0|0|0|1|0}}
+{{BaseStatsListEntry|079|Whisteract|0|0|0|0|2|0}}
+{{BaseStatsListEntry|080|Onix|0|0|1|0|0|0}}
+{{BaseStatsListEntry|081|Steelix|0|0|2|0|0|0}}
+{{BaseStatsListEntry|082|Cubchoo|0|1|0|0|0|0}}
+{{BaseStatsListEntry|083|Beartic|0|2|0|0|0|0}}
+{{BaseStatsListEntry|084|Geodude|0|0|1|0|0|0}}
+{{BaseStatsListEntry|085|Graveler|0|0|2|0|0|0}}
+{{BaseStatsListEntry|086|Golem|0|0|3|0|0|0}}
+{{BaseStatsListEntry|087|Roggenrola|0|0|1|0|0|0}}
+{{BaseStatsListEntry|088|Boldore|0|1|1|0|0|0}}
+{{BaseStatsListEntry|089|Gigalith|0|3|0|0|0|0}}
+{{BaseStatsListEntry|090|Bergmite|0|0|1|0|0|0}}
+{{BaseStatsListEntry|091|Avalugg|0|0|2|0|0|0}}
+{{BaseStatsListEntry|092|Sneasel|0|0|0|0|0|1}}
+{{BaseStatsListEntry|093|Weavile|0|1|0|0|0|1}}
+{{BaseStatsListEntry|094|Blingrimm|0|0|1|0|0|0}}
+{{BaseStatsListEntry|095|Blingrudge|0|0|2|0|0|0}}
+{{BaseStatsListEntry|096|Spheal|1|0|0|0|0|0}}
+{{BaseStatsListEntry|097|Sealeo|2|0|0|0|0|0}}
+{{BaseStatsListEntry|098|Walrein|3|0|0|0|0|0}}
+{{BaseStatsListEntry|099|Seel|0|0|0|0|1|0}}
+{{BaseStatsListEntry|100|Dewgong|0|0|0|0|2|0}}
+{{BaseStatsListEntry|101|Hikiloo|0|1|0|0|0|0}}
+{{BaseStatsListEntry|102|Mylomute|0|1|1|0|0|0}}
+{{BaseStatsListEntry|103|Buizel|0|0|0|0|0|1}}
+{{BaseStatsListEntry|104|Floatzel|0|0|0|0|0|2}}
+{{BaseStatsListEntry|105|Kidoon|0|0|0|0|0|1}}
+{{BaseStatsListEntry|106|Honchen|0|2|0|0|0|0}}
+{{BaseStatsListEntry|107|Smeargle|0|0|0|0|0|1}}
+{{BaseStatsListEntry|108|Meowth|0|0|0|1|0|0}}
+{{BaseStatsListEntry|109|Persage|0|0|0|2|0|0}}
+{{BaseStatsListEntry|110|Snubbull|0|1|0|0|0|0}}
+{{BaseStatsListEntry|111|Granbull|0|2|0|0|0|0}}
+{{BaseStatsListEntry|112|Drowzee|0|0|0|0|1|0}}
+{{BaseStatsListEntry|113|Hypno|0|0|0|0|2|0}}
+{{BaseStatsListEntry|114|Koinkoin|2|0|0|0|0|0}}
+{{BaseStatsListEntry|115|Beefle|0|1|0|0|0|0}}
+{{BaseStatsListEntry|116|Punchbug|0|1|1|0|0|0}}
+{{BaseStatsListEntry|117|Hercurcules|0|2|1|0|0|0}}
+{{BaseStatsListEntry|118|Combee|0|0|0|0|0|1}}
+{{BaseStatsListEntry|119|Vespiquen|0|0|1|0|1|0}}
+{{BaseStatsListEntry|120|Chigami|0|0|0|0|0|1}}
+{{BaseStatsListEntry|121|Grudako|0|0|0|0|0|2}}
+{{BaseStatsListEntry|122|Sabolt|0|0|0|2|0|0}}
+{{BaseStatsListEntry|123|Sewaddle|0|0|1|0|0|0}}
+{{BaseStatsListEntry|124|Swadloon|0|0|2|0|0|0}}
+{{BaseStatsListEntry|125|Leavanny|0|3|0|0|0|0}}
+{{BaseStatsListEntry|126|Audino|2|0|0|0|0|0}}
+{{BaseStatsListEntry|127|Chikorita|0|0|0|0|1|0}}
+{{BaseStatsListEntry|128|Bayleef|0|0|1|0|1|0}}
+{{BaseStatsListEntry|129|Meganium|0|0|1|0|2|0}}
+{{BaseStatsListEntry|130|Cottonee|0|0|0|0|0|1}}
+{{BaseStatsListEntry|131|Whimsicott|0|0|0|0|0|2}}
+{{BaseStatsListEntry|132|Yanma|0|0|0|0|0|1}}
+{{BaseStatsListEntry|133|Yanmega|0|2|0|0|0|0}}
+{{BaseStatsListEntry|134|Heracross|0|2|0|0|0|0}}
+{{BaseStatsListEntry|135|Ekans|0|1|0|0|0|0}}
+{{BaseStatsListEntry|136|Arbok|0|2|0|0|0|0}}
+{{BaseStatsListEntry|137|Croagunk|0|1|0|0|0|0}}
+{{BaseStatsListEntry|138|Toxicroak|0|2|0|0|0|0}}
+{{BaseStatsListEntry|139|Stunky|0|0|0|0|0|1}}
+{{BaseStatsListEntry|140|Skuntank|2|0|0|0|0|0}}
+{{BaseStatsListEntry|141|Ditto|1|0|0|0|0|0}}
+{{BaseStatsListEntry|142|Pichu|0|0|0|0|0|1}}
+{{BaseStatsListEntry|143|Pikachu|0|0|0|0|0|2}}
+{{BaseStatsListEntry|144|Raichu|0|0|0|0|0|3}}
+{{BaseStatsListEntry|145|Gachigachoo|0|0|0|0|0|2}}
+{{BaseStatsListEntry|146|Miltank|0|0|2|0|0|0}}
+{{BaseStatsListEntry|147|Budew|0|0|0|1|0|0}}
+{{BaseStatsListEntry|148|Roselia|0|0|0|2|0|0}}
+{{BaseStatsListEntry|149|Roserade|0|0|0|3|0|0}}
+{{BaseStatsListEntry|150|Buneary|0|0|0|0|0|1}}
+{{BaseStatsListEntry|151|Lopunny|0|0|0|0|0|2}}
+{{BaseStatsListEntry|152|Minccino|0|0|0|0|0|2}}
+{{BaseStatsListEntry|153|Cinccino|0|0|0|0|0|2}}
+{{BaseStatsListEntry|154|Swirlix|0|0|1|0|0|0}}
+{{BaseStatsListEntry|155|Slurpuff|0|0|2|0|0|0}}
+{{BaseStatsListEntry|156|Hystearic|0|0|0|0|1|0}}
+{{BaseStatsListEntry|157|Wystearia|0|0|0|1|1|0}}
+{{BaseStatsListEntry|158|Whismur|1|0|0|0|0|0}}
+{{BaseStatsListEntry|159|Loudred|2|0|0|0|0|0}}
+{{BaseStatsListEntry|160|Exploud|3|0|0|0|0|0}}
+{{BaseStatsListEntry|161|Plusle|0|0|0|0|0|1}}
+{{BaseStatsListEntry|162|Minun|0|0|0|0|0|1}}
+{{BaseStatsListEntry|163|Pepequeno|0|0|0|1|0|0}}
+{{BaseStatsListEntry|164|Scovile|0|0|0|2|0|0}}
+{{BaseStatsListEntry|165|Excalibould|0|0|1|0|0|0}}
+{{BaseStatsListEntry|166|Madieval|0|0|2|0|0|0}}
+{{BaseStatsListEntry|167|Diglett|0|0|0|0|0|1}}
+{{BaseStatsListEntry|168|Dugtrio|0|0|0|0|0|2}}
+{{BaseStatsListEntry|169|Drilbur|0|1|0|0|0|0}}
+{{BaseStatsListEntry|170|Excadrill|0|2|0|0|0|0}}
+{{BaseStatsListEntry|171|Aron|0|0|1|0|0|0}}
+{{BaseStatsListEntry|172|Lairon|0|0|2|0|0|0}}
+{{BaseStatsListEntry|173|Aggron|0|0|3|0|0|0}}
+{{BaseStatsListEntry|174|Larvitar|0|1|0|0|0|0}}
+{{BaseStatsListEntry|175|Pupitar|0|2|0|0|0|0}}
+{{BaseStatsListEntry|176|Tyranitar|0|3|0|0|0|0}}
+{{BaseStatsListEntry|177|Klink|0|0|1|0|0|0}}
+{{BaseStatsListEntry|178|Klang|0|0|2|0|0|0}}
+{{BaseStatsListEntry|179|Klinklang|0|0|3|0|0|0}}
+{{BaseStatsListEntry|180|Tynamo|0|0|0|0|0|1}}
+{{BaseStatsListEntry|181|Eelektrik|0|2|0|0|0|0}}
+{{BaseStatsListEntry|182|Eelektross|0|3|0|0|0|0}}
+{{BaseStatsListEntry|183|Rockapye|0|0|1|0|0|0}}
+{{BaseStatsListEntry|184|Troglolith|0|1|1|0|0|0}}
+{{BaseStatsListEntry|185|Sputnink|0|0|0|0|1|0}}
+{{BaseStatsListEntry|186|Nebyura|0|0|0|1|1|0}}
+{{BaseStatsListEntry|187|Hippopotas|0|0|1|0|0|0}}
+{{BaseStatsListEntry|188|Hippowdon|0|0|2|0|0|0}}
+{{BaseStatsListEntry|189|Birigiri|0|0|0|0|0|2}}
+{{BaseStatsListEntry|190|Chubiburny|1|0|0|0|0|0}}
+{{BaseStatsListEntry|191|Goombear|2|0|0|0|0|0}}
+{{BaseStatsListEntry|192|Dratini|0|1|0|0|0|0}}
+{{BaseStatsListEntry|193|Dragonair|0|2|0|0|0|0}}
+{{BaseStatsListEntry|194|Dragonite|0|3|0|0|0|0}}
+{{BaseStatsListEntry|195|Trapinch|0|1|0|0|0|0}}
+{{BaseStatsListEntry|196|Vibrava|0|1|0|0|0|1}}
+{{BaseStatsListEntry|197|Flygon|0|1|0|0|0|2}}
+{{BaseStatsListEntry|198|Druddigon|0|2|0|0|0|0}}
+{{BaseStatsListEntry|199|Manticoeur|0|0|0|0|0|1}}
+{{BaseStatsListEntry|200|Fatail|0|0|0|0|0|2}}
+{{BaseStatsListEntry|201|Axew|0|1|0|0|0|0}}
+{{BaseStatsListEntry|202|Fraxure|0|2|0|0|0|0}}
+{{BaseStatsListEntry|203|Haxorus|0|3|0|0|0|0}}
+{{BaseStatsListEntry|204|Noibat|0|0|0|0|0|1}}
+{{BaseStatsListEntry|205|Noivern|0|0|0|0|0|2}}
+{{BaseStatsListEntry|206|Turtonator|0|0|2|0|0|0}}
+{{BaseStatsListEntry|207|Charmander|0|0|0|0|0|1}}
+{{BaseStatsListEntry|208|Charmeleon|0|0|0|1|0|1}}
+{{BaseStatsListEntry|209|Charizard|0|0|0|3|0|0}}
+{{BaseStatsListEntry|210|Vulpix|0|0|0|0|0|1}}
+{{BaseStatsListEntry|211|Ninetales|0|0|0|0|1|1}}
+{{BaseStatsListEntry|212|Koffing|0|0|1|0|0|0}}
+{{BaseStatsListEntry|213|Weezing|0|0|2|0|0|0}}
+{{BaseStatsListEntry|214|Houndour|0|0|0|1|0|0}}
+{{BaseStatsListEntry|215|Houndoom|0|0|0|2|0|0}}
+{{BaseStatsListEntry|216|Numel|0|0|0|1|0|0}}
+{{BaseStatsListEntry|217|Camerupt|0|1|0|1|0|0}}
+{{BaseStatsListEntry|218|Torkoal|0|0|2|0|0|0}}
+{{BaseStatsListEntry|219|Reindear|1|0|0|0|0|0}}
+{{BaseStatsListEntry|220|Reindigo|2|0|0|0|0|0}}
+{{BaseStatsListEntry|221|Sosqwatch|0|0|0|0|0|2}}
+{{BaseStatsListEntry|222|Squirtle|0|0|1|0|0|0}}
+{{BaseStatsListEntry|223|Wartortle|0|0|1|0|1|0}}
+{{BaseStatsListEntry|224|Blastoise|0|0|0|0|3|0}}
+{{BaseStatsListEntry|225|Teddiursa|0|1|0|0|0|0}}
+{{BaseStatsListEntry|226|Ursaring|0|2|0|0|0|0}}
+{{BaseStatsListEntry|227|Absol|0|2|0|0|0|0}}
+{{BaseStatsListEntry|228|Riolu|0|1|0|0|0|0}}
+{{BaseStatsListEntry|229|Lucario|0|1|0|1|0|0}}
+{{BaseStatsListEntry|230|Drampa|0|0|0|0|0|2}}
+{{BaseStatsListEntry|231|Ponyta|0|0|0|0|0|1}}
+{{BaseStatsListEntry|232|Rapidash|0|0|0|0|0|2}}
+{{BaseStatsListEntry|233|Sandshrew|0|0|1|0|0|0}}
+{{BaseStatsListEntry|234|Sandslash|0|0|2|0|0|0}}
+{{BaseStatsListEntry|235|Cubone|0|0|1|0|0|0}}
+{{BaseStatsListEntry|236|Marowak|0|0|2|0|0|0}}
+{{BaseStatsListEntry|237|Natu|0|0|0|1|0|0}}
+{{BaseStatsListEntry|238|Xatu|0|0|0|1|0|1}}
+{{BaseStatsListEntry|239|Cacnea|0|0|0|1|0|0}}
+{{BaseStatsListEntry|240|Cacturne|0|1|0|1|0|0}}
+{{BaseStatsListEntry|241|Rufflet|0|1|0|0|0|0}}
+{{BaseStatsListEntry|242|Braviary|0|2|0|0|0|0}}
+{{BaseStatsListEntry|243|Vullaby|0|0|1|0|0|0}}
+{{BaseStatsListEntry|244|Mandibuzz|0|0|0|2|0|0}}
+{{BaseStatsListEntry|245|Vroombug|0|0|0|0|0|1}}
+{{BaseStatsListEntry|246|Skravroom|0|0|0|0|0|2}}
+{{BaseStatsListEntry|247|Chikaboo|0|0|0|0|0|1}}
+{{BaseStatsListEntry|248|Peckabone|1|1|0|0|0|0}}
+{{BaseStatsListEntry|249|Rexquiem|2|1|0|0|0|0}}
+{{BaseStatsListEntry|250|Kecleon|0|0|0|0|1|0}}
+{{BaseStatsListEntry|251|Skarmory|0|0|2|0|0|0}}
+{{BaseStatsListEntry|252|Rhyhorn|0|0|1|0|0|0}}
+{{BaseStatsListEntry|253|Rhydon|0|2|0|0|0|0}}
+{{BaseStatsListEntry|254|Rhyperior|0|3|0|0|0|0}}
+{{BaseStatsListEntry|255|Beldum|0|0|1|0|0|0}}
+{{BaseStatsListEntry|256|Metang|0|0|2|0|0|0}}
+{{BaseStatsListEntry|257|Metagross|0|0|3|0|0|0}}
+{{BaseStatsListEntry|258|Elgyem|0|0|0|1|0|0}}
+{{BaseStatsListEntry|259|Beheeyem|0|0|0|2|0|0}}
+{{BaseStatsListEntry|260|Litwick|0|0|0|1|0|0}}
+{{BaseStatsListEntry|261|Lampent|0|0|0|2|0|0}}
+{{BaseStatsListEntry|262|Chandelure|0|0|0|3|0|0}}
+{{BaseStatsListEntry|263|Mimikyu|0|0|0|2|0|0}}
+{{BaseStatsListEntry|264|Murkrow|0|0|0|0|0|1}}
+{{BaseStatsListEntry|265|Honchkrow|0|2|0|0|0|0}}
+{{BaseStatsListEntry|266|Scaracno|0|0|0|1|0|0}}
+{{BaseStatsListEntry|267|Scaracluo|0|0|0|2|0|0}}
+{{BaseStatsListEntry|268|Scarphasmo|0|0|0|3|0|0}}
+{{BaseStatsListEntry|269|Tauros|0|1|0|0|0|1}}
+{{BaseStatsListEntry|270|Magnemite|0|0|0|1|0|0}}
+{{BaseStatsListEntry|271|Magneton|0|0|0|2|0|0}}
+{{BaseStatsListEntry|272|Magnezone|0|0|0|3|0|0}}
+{{BaseStatsListEntry|273|Elekid|0|0|0|0|0|1}}
+{{BaseStatsListEntry|274|Electabuzz|0|0|0|0|0|2}}
+{{BaseStatsListEntry|275|Electivire|0|3|0|0|0|0}}
+{{BaseStatsListEntry|276|Bouffalant|0|2|0|0|0|0}}
+{{BaseStatsListEntry|277|Joltik|0|0|0|0|0|1}}
+{{BaseStatsListEntry|278|Galvantula|0|0|0|0|0|2}}
+{{BaseStatsListEntry|279|Scraggy|0|1|0|0|0|0}}
+{{BaseStatsListEntry|280|Scrafty|0|0|1|0|1|0}}
+{{BaseStatsListEntry|281|Spinda|0|0|0|1|0|0}}
+{{BaseStatsListEntry|282|Tokakle|0|0|0|0|0|2}}
+{{BaseStatsListEntry|283|Blitzle|0|0|0|0|0|1}}
+{{BaseStatsListEntry|284|Zebstrika|0|0|0|0|0|2}}
+{{BaseStatsListEntry|285|Litten|0|0|0|0|1|0}}
+{{BaseStatsListEntry|286|Torracat|0|0|0|0|2|0}}
+{{BaseStatsListEntry|287|Incineroar|0|3|0|0|0|0}}
+{{BaseStatsListEntry|288|Igglybuff|1|0|0|0|0|0}}
+{{BaseStatsListEntry|289|Jigglypuff|2|0|0|0|0|0}}
+{{BaseStatsListEntry|290|Wigglytuff|3|0|0|0|0|0}}
+{{BaseStatsListEntry|291|Pachirisu|0|0|0|0|0|1}}
+{{BaseStatsListEntry|292|Timburr|0|1|0|0|0|0}}
+{{BaseStatsListEntry|293|Gurdurr|0|2|0|0|0|0}}
+{{BaseStatsListEntry|294|Conkeldurr|0|3|0|0|0|0}}
+{{BaseStatsListEntry|295|Pawniard|0|1|0|0|0|0}}
+{{BaseStatsListEntry|296|Bisharp|0|2|0|0|0|0}}
+{{BaseStatsListEntry|297|Sandile|0|1|0|0|0|0}}
+{{BaseStatsListEntry|298|Krokorok|0|2|0|0|0|0}}
+{{BaseStatsListEntry|299|Krookodile|0|3|0|0|0|0}}
+{{BaseStatsListEntry|300|Totodile|0|1|0|0|0|0}}
+{{BaseStatsListEntry|301|Croconaw|0|1|1|0|0|0}}
+{{BaseStatsListEntry|302|Feraligatr|0|2|1|0|0|0}}
+{{BaseStatsListEntry|303|Exeggcute|0|0|1|0|0|0}}
+{{BaseStatsListEntry|304|Exeggutor|0|0|0|2|0|0}}
+{{BaseStatsListEntry|305|Happiny|1|0|0|0|0|0}}
+{{BaseStatsListEntry|306|Chansey|2|0|0|0|0|0}}
+{{BaseStatsListEntry|307|Blissey|3|0|0|0|0|0}}
+{{BaseStatsListEntry|308|Donanas|0|0|1|0|0|1}}
+{{BaseStatsListEntry|309|Scyther|0|1|0|0|0|0}}
+{{BaseStatsListEntry|310|Scizor|0|2|0|0|0|0}}
+{{BaseStatsListEntry|311|Rowlet|1|0|0|0|0|0}}
+{{BaseStatsListEntry|312|Dartrix|2|0|0|0|0|0}}
+{{BaseStatsListEntry|313|Decidueye|0|3|0|0|0|0}}
+{{BaseStatsListEntry|314|Passimian|0|2|0|0|0|0}}
+{{BaseStatsListEntry|315|Aipom|0|0|0|0|0|1}}
+{{BaseStatsListEntry|316|Ambipom|0|0|0|0|0|2}}
+{{BaseStatsListEntry|317|Girafarig|0|0|0|2|0|0}}
+{{BaseStatsListEntry|318|Chatot|0|1|0|0|0|0}}
+{{BaseStatsListEntry|319|Litleo|0|0|0|1|0|0}}
+{{BaseStatsListEntry|320|Pyroar|0|0|0|2|0|0}}
+{{BaseStatsListEntry|321|Tropius|2|0|0|0|0|0}}
+{{BaseStatsListEntry|322|Carnivine|0|2|0|0|0|0}}
+{{BaseStatsListEntry|323|Bulbasaur|0|0|0|1|0|0}}
+{{BaseStatsListEntry|324|Ivysaur|0|0|0|1|1|0}}
+{{BaseStatsListEntry|325|Venusaur|0|0|0|2|1|0}}
+{{BaseStatsListEntry|326|Sigilyph|0|0|0|2|0|0}}
+{{BaseStatsListEntry|327|Baltoy|0|0|0|0|1|0}}
+{{BaseStatsListEntry|328|Claydol|0|0|0|0|2|0}}
+{{BaseStatsListEntry|329|Spiritomb|0|0|1|0|1|0}}
+{{BaseStatsListEntry|330|Yamask|0|0|1|0|0|0}}
+{{BaseStatsListEntry|331|Cofagrigus|0|0|2|0|0|0}}
+{{BaseStatsListEntry|332|Hawlucha|0|2|0|0|0|0}}
+{{BaseStatsListEntry|333|Nosepass|0|0|1|0|0|0}}
+{{BaseStatsListEntry|334|Probopass|0|0|1|0|2|0}}
+{{BaseStatsListEntry|335|Rattata|0|0|0|0|0|1}}
+{{BaseStatsListEntry|336|Raticate|0|0|0|0|0|2}}
+{{BaseStatsListEntry|337|Cyndaquil|0|0|0|0|0|1}}
+{{BaseStatsListEntry|338|Quilava|0|0|0|1|0|1}}
+{{BaseStatsListEntry|339|Typhlosion|0|0|0|3|0|0}}
+{{BaseStatsListEntry|340|Gulpin|1|0|0|0|0|0}}
+{{BaseStatsListEntry|341|Swalot|2|0|0|0|0|0}}
+{{BaseStatsListEntry|342|Trubbish|0|0|0|0|0|1}}
+{{BaseStatsListEntry|343|Garbodor|0|2|0|0|0|0}}
+{{BaseStatsListEntry|344|Chimaooze|1|0|0|0|0|0}}
+{{BaseStatsListEntry|345|Clamperl|0|0|1|0|0|0}}
+{{BaseStatsListEntry|346|Huntail|0|1|1|0|0|0}}
+{{BaseStatsListEntry|347|Gorebyss|0|0|0|2|0|0}}
+{{BaseStatsListEntry|348|Alomomola|2|0|0|0|0|0}}
+{{BaseStatsListEntry|349|Lapras|2|0|0|0|0|0}}
+{{BaseStatsListEntry|350|Eevee|0|0|0|0|1|0}}
+{{BaseStatsListEntry|351|Vaporeon|2|0|0|0|0|0}}
+{{BaseStatsListEntry|352|Jolteon|0|0|0|0|0|2}}
+{{BaseStatsListEntry|353|Flareon|0|2|0|0|0|0}}
+{{BaseStatsListEntry|354|Espeon|0|0|0|2|0|0}}
+{{BaseStatsListEntry|355|Umbreon|0|0|0|0|2|0}}
+{{BaseStatsListEntry|356|Leafeon|0|0|2|0|0|0}}
+{{BaseStatsListEntry|357|Glaceon|0|0|0|2|0|0}}
+{{BaseStatsListEntry|358|Sylveon|0|0|0|0|2|0}}
+{{BaseStatsListEntry|359|Bandeon|0|0|0|0|2|0}}
+{{BaseStatsListEntry|360|Scaleon|0|2|0|0|0|0}}
+{{BaseStatsListEntry|361|Porygon|0|0|0|1|0|0}}
+{{BaseStatsListEntry|362|Porygon2|0|0|0|2|0|0}}
+{{BaseStatsListEntry|363|Porygon-Z|0|0|0|3|0|0}}
+{{BaseStatsListEntry|364|Porygon-WES|0|0|0|0|3|0}}
+{{BaseStatsListEntry|365|Dusmee|0|0|0|1|0|0}}
+{{BaseStatsListEntry|366|Egohiss|0|0|0|2|0|0}}
+{{BaseStatsListEntry|367|Egorgeon|0|0|0|3|0|0}}
+{{BaseStatsListEntry|368|Chiripe|0|0|0|1|0|0}}
+{{BaseStatsListEntry|369|Batnana|0|0|0|1|0|1}}
+{{BaseStatsListEntry|370|Vesperfum|0|0|0|1|0|2}}
+{{BaseStatsListEntry|371|Croakling|0|0|0|1|0|0}}
+{{BaseStatsListEntry|372|Bullverin|0|1|0|1|0|0}}
+{{BaseStatsListEntry|373|Croakraze|0|1|0|2|0|0}}
+{{BaseStatsListEntry|374|Inflant|0|1|0|0|0|0}}
+{{BaseStatsListEntry|375|Floatusk|0|2|0|0|0|0}}
+{{BaseStatsListEntry|376|Swelephant|0|3|0|0|0|0}}
+{{BaseStatsListEntry|377|Luxflon|0|0|2|0|0|0}}
+{{BaseStatsListEntry|378|Dielebi|3|0|0|0|0|0}}
+{{BaseStatsListEntry|379|Mew|3|0|0|0|0|0}}
+{{BaseStatsListEntry|380|Lugia|0|0|0|0|3|0}}
+{{BaseStatsListEntry|381|Ho-oh|0|0|0|0|3|0}}
+{{BaseStatsListEntry|382|Celebi|3|0|0|0|0|0}}
+{{BaseStatsListEntry|383|Deoxys|0|1|0|1|0|1}}
+{{BaseStatsListEntry|384|Heatran|0|0|0|3|0|0}}
+{{BaseStatsListEntry|385|Cresselia|0|0|0|0|3|0}}
+{{BaseStatsListEntry|386|Darkrai|0|0|0|2|0|1}}
+{{BaseStatsListEntry|387|Meloetta|0|0|0|1|1|1}}
+{{BaseStatsListEntry|388|Genesect|0|1|0|1|0|1}}
+{{BaseStatsListEntry|389|Marshadow|0|2|0|0|0|0}}
+{{BaseStatsListEntry|390|Growlithe|0|1|0|0|0|0}}
+{{BaseStatsListEntry|391|Arcanine|0|2|0|0|0|0}}
+{{BaseStatsListEntry|392|Seedot|0|0|1|0|0|0}}
+{{BaseStatsListEntry|393|Nuzleaf|0|2|0|0|0|0}}
+{{BaseStatsListEntry|394|Shiftry|0|3|0|0|0|0}}
+{{BaseStatsListEntry|395|Mienfoo|0|1|0|0|0|0}}
+{{BaseStatsListEntry|396|Mienshao|0|2|0|0|0|0}}
+{{BaseStatsListEntry|397|Magby|0|0|0|0|0|1}}
+{{BaseStatsListEntry|398|Magmar|0|0|0|2|0|0}}
+{{BaseStatsListEntry|399|Magmortar|0|0|0|3|0|0}}
+{{BaseStatsListEntry|400|Turtwig|0|1|0|0|0|0}}
+{{BaseStatsListEntry|401|Grotle|0|1|1|0|0|0}}
+{{BaseStatsListEntry|402|Torterra|0|2|1|0|0|0}}
+{{BaseStatsListEntry|403|Chimchar|0|0|0|0|0|1}}
+{{BaseStatsListEntry|404|Monferno|0|0|0|1|0|1}}
+{{BaseStatsListEntry|405|Infernape|0|1|0|1|0|1}}
+{{BaseStatsListEntry|406|Piplup|0|0|0|1|0|0}}
+{{BaseStatsListEntry|407|Prinplup|0|0|0|2|0|0}}
+{{BaseStatsListEntry|408|Empoleon|0|0|0|3|0|0}}
+{{BaseStatsListEntry|409|Surskit|0|0|0|0|0|1}}
+{{BaseStatsListEntry|410|Masquerain|0|0|0|1|1|0}}
+{{BaseStatsListEntry|411|Lotad|0|0|0|0|1|0}}
+{{BaseStatsListEntry|412|Lombre|0|0|0|0|2|0}}
+{{BaseStatsListEntry|413|Ludicolo|0|0|0|0|3|0}}
+{{BaseStatsListEntry|414|Horsea|0|0|0|1|0|0}}
+{{BaseStatsListEntry|415|Seadra|0|0|1|1|0|0}}
+{{BaseStatsListEntry|416|Kingdra|0|1|0|1|1|0}}
+{{BaseStatsListEntry|417|Psyduck|0|0|0|1|0|0}}
+{{BaseStatsListEntry|418|Golduck|0|0|0|2|0|0}}
+{{BaseStatsListEntry|419|Wooper|1|0|0|0|0|0}}
+{{BaseStatsListEntry|420|Quagsire|2|0|0|0|0|0}}
+{{BaseStatsListEntry|421|Chewtle|0|1|0|0|0|0}}
+{{BaseStatsListEntry|422|Drednaw|0|2|0|0|0|0}}
+{{BaseStatsListEntry|423|Larvesta|0|1|0|0|0|0}}
+{{BaseStatsListEntry|424|Volcarona|0|0|0|3|0|0}}
+{{BaseStatsListEntry|425|Gligar|0|0|1|0|0|0}}
+{{BaseStatsListEntry|426|Gliscor|0|0|2|0|0|0}}
+{{BaseStatsListEntry|427|Poochyena|0|1|0|0|0|0}}
+{{BaseStatsListEntry|428|Mightyena|0|2|0|0|0|0}}
+{{BaseStatsListEntry|429|Deino|0|1|0|0|0|0}}
+{{BaseStatsListEntry|430|Zweilous|0|2|0|0|0|0}}
+{{BaseStatsListEntry|431|Hydreigon|0|0|0|3|0|0}}
+{{BaseStatsListEntry|432|Duraludon|0|0|0|2|0|0}}
+{{BaseStatsListEntry|433|Bellsprout|0|1|0|0|0|0}}
+{{BaseStatsListEntry|434|Weepinbell|0|2|0|0|0|0}}
+{{BaseStatsListEntry|435|Victreebel|0|3|0|0|0|0}}
+{{BaseStatsListEntry|436|Tangela|0|0|1|0|0|0}}
+{{BaseStatsListEntry|437|Tangrowth|0|0|2|0|0|0}}
+{{BaseStatsListEntry|438|Ferroseed|0|0|1|0|0|0}}
+{{BaseStatsListEntry|439|Ferrothorn|0|0|2|0|0|0}}
+{{BaseStatsListEntry|440|Munna|1|0|0|0|0|0}}
+{{BaseStatsListEntry|441|Musharna|2|0|0|0|0|0}}
+{{BaseStatsListEntry|442|Swinub|0|1|0|0|0|0}}
+{{BaseStatsListEntry|443|Piloswine|1|1|0|0|0|0}}
+{{BaseStatsListEntry|444|Mamoswine|0|3|0|0|0|0}}
+{{BaseStatsListEntry|445|Snorunt|1|0|0|0|0|0}}
+{{BaseStatsListEntry|446|Glalie|2|0|0|0|0|0}}
+{{BaseStatsListEntry|447|Froslass|0|0|0|0|0|2}}
+{{BaseStatsListEntry|448|Misdreavus|0|0|0|0|1|0}}
+{{BaseStatsListEntry|449|Mismagius|0|0|0|1|1|0}}
+{{BaseStatsListEntry|450|Cryogonal|0|0|0|0|2|0}}
+{{BaseStatsListEntry|451|Snivy|0|0|0|0|0|1}}
+{{BaseStatsListEntry|452|Servine|0|0|0|0|0|2}}
+{{BaseStatsListEntry|453|Serperior|0|0|0|0|0|3}}
+{{BaseStatsListEntry|454|Tepig|1|0|0|0|0|0}}
+{{BaseStatsListEntry|455|Pignite|0|2|0|0|0|0}}
+{{BaseStatsListEntry|456|Emboar|0|3|0|0|0|0}}
+{{BaseStatsListEntry|457|Oshawott|0|0|0|1|0|0}}
+{{BaseStatsListEntry|458|Dewott|0|0|0|2|0|0}}
+{{BaseStatsListEntry|459|Samurott|0|0|0|3|0|0}}
+{{BaseStatsListEntry|460|Unown|0|1|0|1|0|0}}
+{{BaseStatsListEntry|461|Raikou|0|0|0|1|0|2}}
+{{BaseStatsListEntry|462|Entei|1|2|0|0|0|0}}
+{{BaseStatsListEntry|463|Suicune|0|0|1|0|2|0}}
+{{BaseStatsListEntry|464|Mawile|0|1|1|0|0|0}}
+{{BaseStatsListEntry|465|Duskull|0|0|0|0|1|0}}
+{{BaseStatsListEntry|466|Dusclops|0|0|1|0|1|0}}
+{{BaseStatsListEntry|467|Dusknoir|0|0|1|0|2|0}}
+{{BaseStatsListEntry|468|Pineco|0|0|1|0|0|0}}
+{{BaseStatsListEntry|469|Forretress|0|0|2|0|0|0}}
+{{BaseStatsListEntry|470|Salandit|0|0|0|0|0|1}}
+{{BaseStatsListEntry|471|Salazzle|0|0|0|0|0|2}}
+{{BaseStatsListEntry|472|Kangaskhan|2|0|0|0|0|0}}
+{{BaseStatsListEntry|473|Bonsly|0|0|1|0|0|0}}
+{{BaseStatsListEntry|474|Sudowoodo|0|0|2|0|0|0}}
+{{BaseStatsListEntry|475|Paras|0|1|0|0|0|0}}
+{{BaseStatsListEntry|476|Parasect|0|2|1|0|0|0}}
+{{BaseStatsListEntry|477|Mime Jr.|0|0|0|0|1|0}}
+{{BaseStatsListEntry|478|Mr. Mime|0|0|0|0|2|0}}
+{{BaseStatsListEntry|479|Treecko|0|0|0|0|0|1}}
+{{BaseStatsListEntry|480|Grovyle|0|0|0|0|0|2}}
+{{BaseStatsListEntry|481|Sceptile|0|0|0|0|0|3}}
+{{BaseStatsListEntry|482|Torchic|0|0|0|1|0|0}}
+{{BaseStatsListEntry|483|Combusken|0|1|0|1|0|0}}
+{{BaseStatsListEntry|484|Blaziken|0|3|0|0|0|0}}
+{{BaseStatsListEntry|485|Mudkip|0|1|0|0|0|0}}
+{{BaseStatsListEntry|486|Marshtomp|0|2|0|0|0|0}}
+{{BaseStatsListEntry|487|Swampert|0|3|0|0|0|0}}
+{{BaseStatsListEntry|488|Toxel|0|0|0|1|0|0}}
+{{BaseStatsListEntry|489|Toxtricity|0|0|0|2|0|0}}
+{{BaseStatsListEntry|490|Castform|1|0|0|0|0|0}}
+{{BaseStatsListEntry|491|Foongus|1|0|0|0|0|0}}
+{{BaseStatsListEntry|492|Amoonguss|2|0|0|0|0|0}}
+{{BaseStatsListEntry|493|Slowpoke|1|0|0|0|0|0}}
+{{BaseStatsListEntry|494|Slowbro|0|0|2|0|0|0}}
+{{BaseStatsListEntry|495|Slowking|0|0|0|0|3|0}}
+{{BaseStatsListEntry|496|Ralts|0|0|0|1|0|0}}
+{{BaseStatsListEntry|497|Kirlia|0|0|0|2|0|0}}
+{{BaseStatsListEntry|498|Gardevoir|0|0|0|3|0|0}}
+{{BaseStatsListEntry|499|Gallade|0|3|0|0|0|0}}
+{{BaseStatsListEntry|500|Azurill|1|0|0|0|0|0}}
+{{BaseStatsListEntry|501|Marill|2|0|0|0|0|0}}
+{{BaseStatsListEntry|502|Azumarill|3|0|0|0|0|0}}
+{{BaseStatsListEntry|503|Shroomish|1|0|0|0|0|0}}
+{{BaseStatsListEntry|504|Breloom|0|2|0|0|0|0}}
+{{BaseStatsListEntry|505|Munchlax|1|0|0|0|0|0}}
+{{BaseStatsListEntry|506|Snorlax|2|0|0|0|0|0}}
+{{BaseStatsListEntry|507|Arctozolt|0|2|0|0|0|0}}
+{{BaseStatsListEntry|508|Zorua|0|0|0|1|0|0}}
+{{BaseStatsListEntry|509|Zoroark|0|0|0|2|0|0}}
+{{BaseStatsListEntry|510|Shellos|1|0|0|0|0|0}}
+{{BaseStatsListEntry|511|Gastrodon|2|0|0|0|0|0}}
+{{BaseStatsListEntry|512|Emolga|0|0|0|0|0|2}}
+{{BaseStatsListEntry|513|Bronzor|0|0|1|0|0|0}}
+{{BaseStatsListEntry|514|Bronzong|0|0|1|0|1|0}}
+{{BaseStatsListEntry|515|Archen|0|1|0|0|0|0}}
+{{BaseStatsListEntry|516|Archeops|0|2|0|0|0|0}}
+{{BaseStatsListEntry|517|Gible|0|1|0|0|0|0}}
+{{BaseStatsListEntry|518|Gabite|0|2|0|0|0|0}}
+{{BaseStatsListEntry|519|Garchomp|0|3|0|0|0|0}}
+{{BaseStatsListEntry|520|Shinx|0|1|0|0|0|0}}
+{{BaseStatsListEntry|521|Luxio|0|2|0|0|0|0}}
+{{BaseStatsListEntry|522|Luxray|0|3|0|0|0|0}}
+{{BaseStatsListEntry|523|Aerodactyl|0|0|0|0|0|2}}
+{{BaseStatsListEntry|524|Chespin|0|0|1|0|0|0}}
+{{BaseStatsListEntry|525|Quilladin|0|0|2|0|0|0}}
+{{BaseStatsListEntry|526|Chesnaught|0|0|3|0|0|0}}
+{{BaseStatsListEntry|527|Fennekin|0|0|0|0|0|1}}
+{{BaseStatsListEntry|528|Braixen|0|0|0|0|0|2}}
+{{BaseStatsListEntry|529|Delphox|0|0|0|0|0|3}}
+{{BaseStatsListEntry|530|Froakie|0|0|0|0|1|0}}
+{{BaseStatsListEntry|531|Frogadier|0|0|0|0|2|0}}
+{{BaseStatsListEntry|532|Greninja|0|0|0|0|3|0}}
+{{BaseStatsListEntry|533|Tornadus|0|3|0|0|0|0}}
+{{BaseStatsListEntry|534|Thundurus|0|3|0|0|0|0}}
+{{BaseStatsListEntry|535|Landorus|0|0|0|3|0|0}}
+{{BaseStatsListEntry|536|Enamorus|0|0|0|3|0|0}}
+{{BaseStatsListEntry|537|Swablu|0|0|0|0|1|0}}
+{{BaseStatsListEntry|538|Altaria|0|0|0|0|2|0}}
+{{BaseStatsListEntry|539|Venipede|0|0|1|0|0|0}}
+{{BaseStatsListEntry|540|Whirlipede|0|0|2|0|0|0}}
+{{BaseStatsListEntry|541|Scolipede|0|0|0|0|0|3}}
+{{BaseStatsListEntry|542|Skorupi|0|0|1|0|0|0}}
+{{BaseStatsListEntry|543|Drapion|0|0|2|0|0|0}}
+{{BaseStatsListEntry|544|Cranidos|0|1|0|0|0|0}}
+{{BaseStatsListEntry|545|Rampardos|0|2|0|0|0|0}}
+{{BaseStatsListEntry|546|Shieldon|0|0|1|0|0|0}}
+{{BaseStatsListEntry|547|Bastiodon|0|0|2|0|0|0}}
+{{BaseStatsListEntry|548|Caterpie|1|0|0|0|0|0}}
+{{BaseStatsListEntry|549|Metapod|0|0|2|0|0|0}}
+{{BaseStatsListEntry|550|Butterfree|0|0|0|2|1|0}}
+{{BaseStatsListEntry|551|Charcadet|0|0|0|1|0|0}}
+{{BaseStatsListEntry|552|Armarouge|0|0|0|2|0|0}}
+{{BaseStatsListEntry|553|Ceruledge|0|2|0|0|0|0}}
+{{BaseStatsListEntry|554|Binacle|0|1|0|0|0|0}}
+{{BaseStatsListEntry|555|Barbaracle|0|2|0|0|0|0}}
+{{BaseStatsListEntry|556|Tatsugiri|0|0|0|0|0|2}}
+{{BaseStatsListEntry|557|Kingambit|0|2|0|0|0|0}}
+{{BaseStatsListEntry|558|Tyrogue|0|1|0|0|0|0}}
+{{BaseStatsListEntry|559|Hitmonlee|0|2|0|0|0|0}}
+{{BaseStatsListEntry|560|Hitmonchan|0|0|0|0|2|0}}
+{{BaseStatsListEntry|561|Hitmontop|0|0|0|0|2|0}}
+{{BaseStatsListEntry|562|Slugma|0|0|0|1|0|0}}
+{{BaseStatsListEntry|563|Magcargo|0|0|2|0|0|0}}
+{{BaseStatsListEntry|564|Lunatone|0|0|0|2|0|0}}
+{{BaseStatsListEntry|565|Solrock|0|2|0|0|0|0}}
+{{BaseStatsListEntry|566|Karrablast|0|1|0|0|0|0}}
+{{BaseStatsListEntry|567|Escavalier|0|2|0|0|0|0}}
+{{BaseStatsListEntry|568|Shelmet|0|0|1|0|0|0}}
+{{BaseStatsListEntry|569|Accelgor|0|0|0|0|0|2}}
+{{BaseStatsListEntry|570|Sprigatito|0|0|0|0|0|1}}
+{{BaseStatsListEntry|571|Floragato|0|0|0|0|0|2}}
+{{BaseStatsListEntry|572|Meowscarada|0|0|0|0|0|3}}
+{{BaseStatsListEntry|573|Sobble|0|0|0|1|0|1}}
+{{BaseStatsListEntry|574|Drizzile|0|0|0|2|0|0}}
+{{BaseStatsListEntry|575|Inteleon|0|0|0|0|0|3}}
+{{BaseStatsListEntry|576|Regirock|0|0|3|0|0|0}}
+{{BaseStatsListEntry|577|Regice|0|0|0|0|3|0}}
+{{BaseStatsListEntry|578|Registeel|0|0|2|0|1|0}}
+{{BaseStatsListEntry|579|Regigigas|0|3|0|0|0|0}}
+{{BaseStatsListEntry|580|Regieleki|0|0|0|0|0|3}}
+{{BaseStatsListEntry|581|Regidrago|3|0|0|0|0|0}}
+{{BaseStatsListEntry|582|Reginalous|0|1|0|2|0|0}}
+{{BaseStatsListEntry|583|Mewtwo|0|0|0|3|0|0}}
+{{BaseStatsListEntry|X001|Elekid X|0|0|0|0|0|1}}
+{{BaseStatsListEntry|X002|Electabuzz X|0|0|0|1|0|1}}
+{{BaseStatsListEntry|X003|Electaburst|0|0|0|3|0|0}}
+{{BaseStatsListEntry|X004|Spiritomb X|0|0|0|1|0|0}}
+{{BaseStatsListEntry|X005|Carvanha X|0|1|0|0|0|0}}
+{{BaseStatsListEntry|X006|Sharpedo X|0|2|0|0|0|0}}
+{{BaseStatsListEntry|X007|Pyukumuku X|0|2|0|0|0|0}}
+{{BaseStatsListEntry|X008|Pikachu X|0|0|0|0|0|2}}
+{{BaseStatsListEntry|X009|Joltik X|0|0|0|0|0|1}}
+{{BaseStatsListEntry|X010|Galvantula X|0|0|0|1|0|1}}
+{{BaseStatsListEntry|X011|Smeargle X|0|0|0|0|0|1}}
+{{BaseStatsListEntry|X012|Chientilly|0|1|0|0|1|0}}
+{{BaseStatsListEntry|X013|Gastly X|0|0|0|1|0|0}}
+{{BaseStatsListEntry|X014|Haunter X|0|0|0|2|0|0}}
+{{BaseStatsListEntry|X015|Gengar X|0|0|0|3|0|0}}
+{{BaseStatsListEntry|X016|Yamask X|0|0|1|0|0|0}}
+{{BaseStatsListEntry|X017|Cofagrigus X|0|0|2|1|0|0}}
+{{BaseStatsListEntry|X018|Ponyta X|0|0|0|0|0|1}}
+{{BaseStatsListEntry|X019|Rapidash X|0|0|0|0|0|2}}
+{{BaseStatsListEntry|X020|Cacnea X|0|0|0|1|0|0}}
+{{BaseStatsListEntry|X021|Cacturne X|0|1|0|1|0|0}}
+{{BaseStatsListEntry|X022|Swirlix X|0|0|1|0|0|0}}
+{{BaseStatsListEntry|X023|Slurpuff X|2|0|0|0|0|0}}
+{{BaseStatsListEntry|X024|Budew X|0|0|0|1|0|0}}
+{{BaseStatsListEntry|X025|Roselia X|0|0|0|2|0|0}}
+{{BaseStatsListEntry|X026|Roserade X|0|0|0|3|0|0}}
+{{BaseStatsListEntry|X027|Mareanie X|0|0|0|1|0|0}}
+{{BaseStatsListEntry|X028|Toxapex X|0|0|0|2|0|0}}
+{{BaseStatsListEntry|X029|Greninja X|0|0|0|0|0|3}}
+{{BaseStatsListEntry|X030|Mewtwo X|0|0|0|3|0|0}}
+{{BaseStatsListEntry|X031|Raichu X|0|0|0|0|0|3}}
+{{BaseStatsListEntry|X032|Bisharp X|0|2|0|0|0|0}}
+{{BaseStatsListEntry|X033|Scovile X|0|0|0|0|0|2}}
+{{BaseStatsListEntry|X034|Tyranitar X|0|3|0|0|0|0}}
+{{BaseStatsListEntry|X035|Ditto X|1|0|0|0|0|0}}
+{{BaseStatsListEntry|X036|Aegislash X|0|2|0|0|0|1}}
+{{BaseStatsListEntry|X037|Tapu Fini X|0|0|0|3|0|0}}
+{{BaseStatsListEntry|X038|Tapu Lele X|0|0|3|0|0|0}}
+{{BaseStatsListEntry|X039|Tapu Koko X|0|0|0|0|0|3}}
+{{BaseStatsListEntry|X040|Tapu Bulu X|0|3|0|0|0|0}}
+{{BaseStatsListEntry|X041|Dragalisk X|0|0|0|3|0|0}}
+{{BaseStatsListEntry|X042|Shyleon X|0|0|0|0|1|0}}
+{{BaseStatsListEntry|X043|Trishout X|0|0|0|0|0|1}}
+{{BaseStatsListEntry|X044|Shulong X|0|0|1|0|0|0}}
+{{BaseStatsListEntry|V001|Vintage Weedle|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V002|Vintage Kakuna|0|0|2|0|0|0}}
+{{BaseStatsListEntry|V003|Vintage Beedrill|0|2|0|0|1|0}}
+{{BaseStatsListEntry|V004|Vintage Ledyba|0|0|0|0|1|0}}
+{{BaseStatsListEntry|V005|Vintage Ledian|0|0|0|0|2|0}}
+{{BaseStatsListEntry|V006|Vintage Mareep|0|0|0|1|0|0}}
+{{BaseStatsListEntry|V007|Vintage Flaaffy|0|0|0|2|0|0}}
+{{BaseStatsListEntry|V008|Vintage Ampharos|0|0|0|3|0|0}}
+{{BaseStatsListEntry|V009|Vintage Abra|0|0|0|1|0|0}}
+{{BaseStatsListEntry|V010|Vintage Kadabra|0|0|0|2|0|0}}
+{{BaseStatsListEntry|V011|Vintage Alakazam|0|0|0|3|0|0}}
+{{BaseStatsListEntry|V012|Vintage Magikarp|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V013|Vintage Gyarados|0|2|0|0|0|0}}
+{{BaseStatsListEntry|V014|Vintage Remoraid|0|0|0|1|0|0}}
+{{BaseStatsListEntry|V015|Vintage Octillery|0|1|0|1|0|0}}
+{{BaseStatsListEntry|V016|Vintage Corsola|0|0|1|0|1|0}}
+{{BaseStatsListEntry|V017|Vintage Staryu|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V018|Vintage Starmie|0|0|0|0|0|2}}
+{{BaseStatsListEntry|V019|Vintage Mantine|0|0|0|0|2|0}}
+{{BaseStatsListEntry|V020|Vintage Shuckle|0|0|1|0|1|0}}
+{{BaseStatsListEntry|V021|Vintage Oddish|0|0|0|1|0|0}}
+{{BaseStatsListEntry|V022|Vintage Gloom|0|0|0|2|0|0}}
+{{BaseStatsListEntry|V023|Vintage Vileplume|0|0|0|3|0|0}}
+{{BaseStatsListEntry|V024|Vintage Bellossom|0|0|0|0|3|0}}
+{{BaseStatsListEntry|V025|Vintage Zubat|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V026|Vintage Golbat|0|0|0|0|0|2}}
+{{BaseStatsListEntry|V027|Vintage Crobat|0|0|0|0|0|3}}
+{{BaseStatsListEntry|V028|Vintage Gastly|0|0|0|1|0|0}}
+{{BaseStatsListEntry|V029|Vintage Haunter|0|0|0|2|0|0}}
+{{BaseStatsListEntry|V030|Vintage Gengar|0|0|0|3|0|0}}
+{{BaseStatsListEntry|V031|Vintage Grimer|1|0|0|0|0|0}}
+{{BaseStatsListEntry|V032|Vintage Muk|1|1|0|0|0|0}}
+{{BaseStatsListEntry|V033|Vintage Onix|0|0|1|0|0|0}}
+{{BaseStatsListEntry|V034|Vintage Steelix|0|0|2|0|0|0}}
+{{BaseStatsListEntry|V035|Vintage Geodude|0|0|1|0|0|0}}
+{{BaseStatsListEntry|V036|Vintage Graveler|0|0|2|0|0|0}}
+{{BaseStatsListEntry|V037|Vintage Golem|0|0|3|0|0|0}}
+{{BaseStatsListEntry|V038|Vintage Sneasel|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V039|Vintage Seel|0|0|0|0|1|0}}
+{{BaseStatsListEntry|V040|Vintage Dewgong|0|0|0|0|2|0}}
+{{BaseStatsListEntry|V041|Vintage Smeargle|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V042|Vintage Snubbull|0|1|0|0|0|0}}
+{{BaseStatsListEntry|V043|Vintage Granbull|0|2|0|0|0|0}}
+{{BaseStatsListEntry|V044|Vintage Drowzee|0|0|0|0|1|0}}
+{{BaseStatsListEntry|V045|Vintage Hypno|0|0|0|0|2|0}}
+{{BaseStatsListEntry|V046|Vintage Chikorita|0|0|0|0|1|0}}
+{{BaseStatsListEntry|V047|Vintage Bayleef|0|0|1|0|1|0}}
+{{BaseStatsListEntry|V048|Vintage Meganium|0|0|1|0|2|0}}
+{{BaseStatsListEntry|V049|Vintage Yanma|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V050|Vintage Heracross|0|2|0|0|0|0}}
+{{BaseStatsListEntry|V051|Vintage Ekans|0|1|0|0|0|0}}
+{{BaseStatsListEntry|V052|Vintage Arbok|0|2|0|0|0|0}}
+{{BaseStatsListEntry|V053|Vintage Pichu|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V054|Vintage Pikachu|0|0|0|0|0|2}}
+{{BaseStatsListEntry|V055|Vintage Raichu|0|0|0|0|0|3}}
+{{BaseStatsListEntry|V056|Gorochu|0|0|0|0|0|3}}
+{{BaseStatsListEntry|V057|Vintage Miltank|0|0|2|0|0|0}}
+{{BaseStatsListEntry|V058|Vintage Diglett|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V059|Vintage Dugtrio|0|0|0|0|0|2}}
+{{BaseStatsListEntry|V060|Vintage Larvitar|0|1|0|0|0|0}}
+{{BaseStatsListEntry|V061|Vintage Pupitar|0|2|0|0|0|0}}
+{{BaseStatsListEntry|V062|Vintage Tyranitar|0|3|0|0|0|0}}
+{{BaseStatsListEntry|V063|Vintage Dratini|0|1|0|0|0|0}}
+{{BaseStatsListEntry|V064|Vintage Dragonair|0|2|0|0|0|0}}
+{{BaseStatsListEntry|V065|Vintage Dragonite|0|3|0|0|0|0}}
+{{BaseStatsListEntry|V066|Vintage Charmander|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V067|Vintage Charmeleon|0|0|0|1|0|1}}
+{{BaseStatsListEntry|V068|Vintage Charizard|0|0|0|3|0|0}}
+{{BaseStatsListEntry|V069|Vintage Vulpix|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V070|Vintage Ninetales|0|0|0|0|1|1}}
+{{BaseStatsListEntry|V071|Vintage Koffing|0|0|1|0|0|0}}
+{{BaseStatsListEntry|V072|Vintage Weezing|0|0|2|0|0|0}}
+{{BaseStatsListEntry|V073|Vintage Houndour|0|0|0|1|0|0}}
+{{BaseStatsListEntry|V074|Vintage Houndoom|0|0|0|2|0|0}}
+{{BaseStatsListEntry|V075|Vintage Squirtle|0|0|1|0|0|0}}
+{{BaseStatsListEntry|V076|Vintage Wartortle|0|0|1|0|1|0}}
+{{BaseStatsListEntry|V077|Vintage Blastoise|0|0|0|0|3|0}}
+{{BaseStatsListEntry|V078|Vintage Teddiursa|0|1|0|0|0|0}}
+{{BaseStatsListEntry|V079|Vintage Ursaring|0|2|0|0|0|0}}
+{{BaseStatsListEntry|V080|Vintage Ponyta|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V081|Vintage Rapidash|0|0|0|0|0|2}}
+{{BaseStatsListEntry|V082|Vintage Sandshrew|0|0|1|0|0|0}}
+{{BaseStatsListEntry|V083|Vintage Sandslash|0|0|2|0|0|0}}
+{{BaseStatsListEntry|V084|Vintage Cubone|0|0|1|0|0|0}}
+{{BaseStatsListEntry|V085|Vintage Marowak|0|0|2|0|0|0}}
+{{BaseStatsListEntry|V086|Vintage Natu|0|0|0|1|0|0}}
+{{BaseStatsListEntry|V087|Vintage Xatu|0|0|0|1|0|1}}
+{{BaseStatsListEntry|V088|Vintage Skarmory|0|0|2|0|0|0}}
+{{BaseStatsListEntry|V089|Vintage Rhyhorn|0|0|1|0|0|0}}
+{{BaseStatsListEntry|V090|Vintage Rhydon|0|2|0|0|0|0}}
+{{BaseStatsListEntry|V091|Vintage Murkrow|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V092|Vintage Tauros|0|1|0|0|0|1}}
+{{BaseStatsListEntry|V093|Vintage Magnemite|0|0|0|1|0|0}}
+{{BaseStatsListEntry|V094|Vintage Magneton|0|0|0|2|0|0}}
+{{BaseStatsListEntry|V095|Vintage Elekid|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V096|Vintage Electabuzz|0|0|0|0|0|2}}
+{{BaseStatsListEntry|V097|Meowsy|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V098|Vintage Meowth|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V099|Vintage Persian|0|0|0|0|0|2}}
+{{BaseStatsListEntry|V100|Vintage Igglybuff|1|0|0|0|0|0}}
+{{BaseStatsListEntry|V101|Vintage Jigglypuff|2|0|0|0|0|0}}
+{{BaseStatsListEntry|V102|Vintage Wigglytuff|3|0|0|0|0|0}}
+{{BaseStatsListEntry|V103|Vintage Totodile|0|1|0|0|0|0}}
+{{BaseStatsListEntry|V104|Vintage Croconaw|0|1|1|0|0|0}}
+{{BaseStatsListEntry|V105|Vintage Feraligatr|0|2|1|0|0|0}}
+{{BaseStatsListEntry|V106|Vintage Exeggcute|0|0|1|0|0|0}}
+{{BaseStatsListEntry|V107|Vintage Exeggutor|0|0|0|2|0|0}}
+{{BaseStatsListEntry|V108|Vintage Chansey|2|0|0|0|0|0}}
+{{BaseStatsListEntry|V109|Vintage Blissey|3|0|0|0|0|0}}
+{{BaseStatsListEntry|V110|Vintage Scyther|0|1|0|0|0|0}}
+{{BaseStatsListEntry|V111|Vintage Scizor|0|2|0|0|0|0}}
+{{BaseStatsListEntry|V112|Vintage Aipom|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V113|Vintage Girafarig|0|0|0|2|0|0}}
+{{BaseStatsListEntry|V114|Vintage Bulbasaur|0|0|0|1|0|0}}
+{{BaseStatsListEntry|V115|Vintage Ivysaur|0|0|0|1|1|0}}
+{{BaseStatsListEntry|V116|Vintage Venusaur|0|0|0|2|1|0}}
+{{BaseStatsListEntry|V117|Vintage Rattata|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V118|Vintage Raticate|0|0|0|0|0|2}}
+{{BaseStatsListEntry|V119|Vintage Cyndaquil|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V120|Vintage Quilava|0|0|0|1|0|1}}
+{{BaseStatsListEntry|V121|Vintage Typhlosion|0|0|0|3|0|0}}
+{{BaseStatsListEntry|V122|Vintage Lapras|2|0|0|0|0|0}}
+{{BaseStatsListEntry|V123|Vintage Ditto|1|0|0|0|0|0}}
+{{BaseStatsListEntry|V124|Vintage Eevee|0|0|0|0|1|0}}
+{{BaseStatsListEntry|V125|Vintage Vaporeon|2|0|0|0|0|0}}
+{{BaseStatsListEntry|V126|Vintage Jolteon|0|0|0|0|0|2}}
+{{BaseStatsListEntry|V127|Vintage Flareon|0|2|0|0|0|0}}
+{{BaseStatsListEntry|V128|Vintage Espeon|0|0|0|2|0|0}}
+{{BaseStatsListEntry|V129|Vintage Umbreon|0|0|0|0|2|0}}
+{{BaseStatsListEntry|V130|Vintage Porygon|0|0|0|1|0|0}}
+{{BaseStatsListEntry|V131|Vintage Porygon2|0|0|0|2|0|0}}
+{{BaseStatsListEntry|V132|Sunmola|0|0|1|0|0|0}}
+{{BaseStatsListEntry|V133| Anchorage|0|0|1|0|0|0}}
+{{BaseStatsListEntry|V134|Grotess|0|0|1|0|0|0}}
+{{BaseStatsListEntry|V135|Bomseaker|0|0|1|0|0|0}}
+{{BaseStatsListEntry|V136|Tigrette|0|0|0|0|0|2}}
+{{BaseStatsListEntry|V137|Electiger|0|0|0|0|0|3}}
+{{BaseStatsListEntry|V138|Wolfman|0|0|0|0|1|0}}
+{{BaseStatsListEntry|V139|Warwolf|0|0|0|0|2|0}}
+{{BaseStatsListEntry|V140|Vintage Growlithe|0|1|0|0|0|0}}
+{{BaseStatsListEntry|V141|Vintage Arcanine|0|2|0|0|0|0}}
+{{BaseStatsListEntry|V142|Vintage Magby|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V143|Vintage Magmar|0|0|0|2|0|0}}
+{{BaseStatsListEntry|V144|Vintage Horsea|0|0|0|1|0|0}}
+{{BaseStatsListEntry|V145|Vintage Seadra|0|0|1|1|0|0}}
+{{BaseStatsListEntry|V146|Vintage Kingdra|0|1|0|1|1|0}}
+{{BaseStatsListEntry|V147|Vintage Psyduck|0|0|0|1|0|0}}
+{{BaseStatsListEntry|V148|Vintage Golduck|0|0|0|2|0|0}}
+{{BaseStatsListEntry|V149|Vintage Wooper|1|0|0|0|0|0}}
+{{BaseStatsListEntry|V150|Vintage Quagsire|2|0|0|0|0|0}}
+{{BaseStatsListEntry|V151|Weedle Beta|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V152|Kakuna Beta|0|0|2|0|0|0}}
+{{BaseStatsListEntry|V153|Kasanagy|0|2|0|0|1|0}}
+{{BaseStatsListEntry|V154|Twinz|0|0|0|1|0|0}}
+{{BaseStatsListEntry|V155|Vintage Bellsprout|0|1|0|0|0|0}}
+{{BaseStatsListEntry|V156|Vintage Weepinbell|0|2|0|0|0|0}}
+{{BaseStatsListEntry|V157|Vintage Victreebell|0|3|0|0|0|0}}
+{{BaseStatsListEntry|V158|Bellmit|0|3|0|0|0|0}}
+{{BaseStatsListEntry|V159|Vintage Gligar|0|0|1|0|0|0}}
+{{BaseStatsListEntry|V160|Vintage Tangela|0|0|1|0|0|0}}
+{{BaseStatsListEntry|V161|Vintage Swinub|0|1|0|0|0|0}}
+{{BaseStatsListEntry|V162|Vintage Piloswine|1|1|0|0|0|0}}
+{{BaseStatsListEntry|V163|Vintage Misdreavus|0|0|0|0|1|0}}
+{{BaseStatsListEntry|V164|Kurstraw|0|0|0|1|0|0}}
+{{BaseStatsListEntry|V165|Pangshi|0|0|0|1|0|0}}
+{{BaseStatsListEntry|V166|Vintage Pineco|0|0|1|0|0|0}}
+{{BaseStatsListEntry|V167|Vintage Forretress|0|0|2|0|0|0}}
+{{BaseStatsListEntry|V168|Vintage Kangaskhan|2|0|0|0|0|0}}
+{{BaseStatsListEntry|V169|Trifox|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V170|Vintage Sudowoodo|0|0|2|0|0|0}}
+{{BaseStatsListEntry|V171|Para|0|1|0|0|0|0}}
+{{BaseStatsListEntry|V172|Vintage Paras|0|1|0|0|0|0}}
+{{BaseStatsListEntry|V173|Vintage Parasect|0|2|1|0|0|0}}
+{{BaseStatsListEntry|V174|Vintage Mr. Mime|0|0|0|0|2|0}}
+{{BaseStatsListEntry|V175|Vintage Slowpoke|1|0|0|0|0|0}}
+{{BaseStatsListEntry|V176|Vintage Slowbro|0|0|2|0|0|0}}
+{{BaseStatsListEntry|V177|Vintage Slowking|0|0|0|0|3|0}}
+{{BaseStatsListEntry|V178|Vintage Marill|2|0|0|0|0|0}}
+{{BaseStatsListEntry|V179|Vintage Azumarill|3|0|0|0|0|0}}
+{{BaseStatsListEntry|V180|Vintage Snorlax|2|0|0|0|0|0}}
+{{BaseStatsListEntry|V181|Vintage Aerodactyl|0|0|0|0|0|2}}
+{{BaseStatsListEntry|V182|Ghift|0|0|0|0|0|1}}
+{{BaseStatsListEntry|V183|Sunnee|0|0|0|2|0|0}}
+{{BaseStatsListEntry|V184|Puddi|0|1|0|0|0|0}}
+{{BaseStatsListEntry|V185|Vintage Venonat|0|0|0|0|1|0}}
+{{BaseStatsListEntry|V186|Vintage Venomoth|0|0|0|1|0|1}}
+{{BaseStatsListEntry|V187|Vintage Hoppip|0|0|0|0|1|0}}
+{{BaseStatsListEntry|V188|Vintage Skiploom|0|0|0|0|0|2}}
+{{BaseStatsListEntry|V189|Vintage Jumpluff|0|0|0|0|0|3}}
+{{BaseStatsListEntry|V190|Vintage Phanpy|1|0|0|0|0|0}}
+{{BaseStatsListEntry|V191|Vintage Donphan|0|1|1|0|0|0}}
+{{BaseStatsListEntry|V192|Vintage Hoothoot|1|0|0|0|0|0}}
+{{BaseStatsListEntry|V193|Vintage Noctowl|2|0|0|0|0|0}}
+{{BaseStatsListEntry|V194|Gohng|0|1|0|0|0|0}}
+{{BaseStatsListEntry|V195|Retro Hitmontop|0|0|0|0|2|0}}
+{{BaseStatsListEntry|V196|Animon|1|0|0|0|0|0}}
+{{BaseStatsListEntry|V197|Vintage Unown|0|1|0|1|0|0}}
+{{BaseStatsListEntry|V198|Vintage Stantler|0|1|0|0|0|0}}
+{{BaseStatsListEntry|V199|Vintage Caterpie|1|0|0|0|0|0}}
+{{BaseStatsListEntry|V200|Vintage Metapod|0|0|2|0|0|0}}
+{{BaseStatsListEntry|V201|Vintage Butterfree|0|0|0|2|1|0}}
+{{BaseStatsListEntry|V202|Vintage Tyrogue|0|1|0|0|0|0}}
+{{BaseStatsListEntry|V203|Vintage Hitmonlee|0|2|0|0|0|0}}
+{{BaseStatsListEntry|V204|Vintage Hitmonchan|0|0|0|0|2|0}}
+{{BaseStatsListEntry|V205|Vintage Hitmontop|0|0|0|0|2|0}}
+{{BaseStatsListEntry|V206|Vintage Slugma|0|0|0|1|0|0}}
+{{BaseStatsListEntry|V207|Vintage Magcargo|0|0|2|0|0|0}}

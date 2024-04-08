@@ -1,0 +1,834 @@
+{{BaseStatsListEntry|001|Shyleon|58|44|53|53|68|74}}
+{{BaseStatsListEntry|002|Trishout|58|75|50|44|65|58}}
+{{BaseStatsListEntry|003|Shulong|58|40|73|73|55|51}}
+{{BaseStatsListEntry|004|Zigzagoon|38|30|41|41|30|60}}
+{{BaseStatsListEntry|005|Linoone|78|70|61|61|50|100}}
+{{BaseStatsListEntry|006|Bidoof|59|45|40|40|35|31}}
+{{BaseStatsListEntry|007|Bibarel|79|85|60|60|55|71}}
+{{BaseStatsListEntry|008|Sparkowl|40|41|34|38|33|58}}
+{{BaseStatsListEntry|009|Shawkbird|67|73|51|54|56|68}}
+{{BaseStatsListEntry|010|Harrowk|85|62|71|64|112|106}}
+{{BaseStatsListEntry|011|Weedle|40|35|30|20|20|50}}
+{{BaseStatsListEntry|012|Kakuna|45|25|50|25|25|35}}
+{{BaseStatsListEntry|013|Beedrill|65|80|40|80|45|75}}
+{{BaseStatsListEntry|014|Ledyba|40|20|30|80|40|55}}
+{{BaseStatsListEntry|015|Ledian|55|35|50|110|55|85}}
+{{BaseStatsListEntry|016|Kricketot|37|25|41|41|25|25}}
+{{BaseStatsListEntry|017|Kricketune|77|85|51|51|55|65}}
+{{BaseStatsListEntry|018|Mareep|55|40|40|45|65|35}}
+{{BaseStatsListEntry|019|Flaaffy|70|55|55|60|80|45}}
+{{BaseStatsListEntry|020|Ampharos|90|75|75|90|115|55}}
+{{BaseStatsListEntry|021|Yemin|30|40|35|30|30|55}}
+{{BaseStatsListEntry|022|Kungfur|75|93|70|64|55|63}}
+{{BaseStatsListEntry|023|Abra|25|20|15|55|105|90}}
+{{BaseStatsListEntry|024|Kadabra|40|35|30|70|120|105}}
+{{BaseStatsListEntry|025|Alakazam|55|50|45|85|135|120}}
+{{BaseStatsListEntry|026|Taillow|40|55|30|30|30|85}}
+{{BaseStatsListEntry|027|Swellow|60|85|60|50|50|125}}
+{{BaseStatsListEntry|028|Wingull|40|30|30|30|55|85}}
+{{BaseStatsListEntry|029|Pelipper|60|50|100|70|85|65}}
+{{BaseStatsListEntry|030|Masgot|50|50|50|50|50|50}}
+{{BaseStatsListEntry|031|Dwebble|50|65|85|35|35|55}}
+{{BaseStatsListEntry|032|Crustle|70|95|125|75|65|45}}
+{{BaseStatsListEntry|033|Bremand|80|80|80|80|80|80}}
+{{BaseStatsListEntry|034|Magikarp|20|10|55|20|15|80}}
+{{BaseStatsListEntry|035|Gyarados|95|125|79|100|60|81}}
+{{BaseStatsListEntry|036|Corphish|43|80|65|35|50|35}}
+{{BaseStatsListEntry|037|Crawdaunt|63|120|85|55|90|55}}
+{{BaseStatsListEntry|038|Feebas|20|15|20|55|10|80}}
+{{BaseStatsListEntry|039|Milotic|95|60|79|125|100|81}}
+{{BaseStatsListEntry|040|Pyukumuku|55|60|130|130|30|5}}
+{{BaseStatsListEntry|041|Remoraid|35|65|35|35|65|65}}
+{{BaseStatsListEntry|042|Octillery|75|105|75|75|105|45}}
+{{BaseStatsListEntry|043|Sandygast|55|55|80|45|70|15}}
+{{BaseStatsListEntry|044|Palossand|85|75|110|75|100|35}}
+{{BaseStatsListEntry|045|Corsola|55|55|85|85|65|35}}
+{{BaseStatsListEntry|046|Staryu|30|45|55|55|70|85}}
+{{BaseStatsListEntry|047|Starmie|60|75|85|85|100|115}}
+{{BaseStatsListEntry|048|Inkay|53|54|53|46|37|45}}
+{{BaseStatsListEntry|049|Malamar|86|92|88|75|68|73}}
+{{BaseStatsListEntry|050|Mantyke|45|20|50|120|60|50}}
+{{BaseStatsListEntry|051|Mantine|65|40|70|140|80|70}}
+{{BaseStatsListEntry|052|Popplio|50|54|54|56|66|40}}
+{{BaseStatsListEntry|053|Brionne|60|69|69|81|91|50}}
+{{BaseStatsListEntry|054|Primarina|80|74|74|116|126|60}}
+{{BaseStatsListEntry|055|Shuckle|20|10|230|230|10|5}}
+{{BaseStatsListEntry|056|Phantump|43|70|48|60|50|38}}
+{{BaseStatsListEntry|057|Trevenant|85|110|76|82|65|56}}
+{{BaseStatsListEntry|058|Oddish|45|50|55|65|75|30}}
+{{BaseStatsListEntry|059|Gloom|60|65|70|75|85|40}}
+{{BaseStatsListEntry|060|Vileplume|75|80|85|90|100|50}}
+{{BaseStatsListEntry|061|Bellossom|75|80|85|100|90|50}}
+{{BaseStatsListEntry|062|Morelull|40|35|55|75|65|15}}
+{{BaseStatsListEntry|063|Shiinotic|60|45|80|100|90|30}}
+{{BaseStatsListEntry|064|Zubat|40|45|35|40|30|55}}
+{{BaseStatsListEntry|065|Golbat|75|80|70|75|65|90}}
+{{BaseStatsListEntry|066|Crobat|85|90|80|80|70|130}}
+{{BaseStatsListEntry|067|Carvanha|45|90|20|20|65|65}}
+{{BaseStatsListEntry|068|Sharpedo|70|120|40|40|95|95}}
+{{BaseStatsListEntry|069|Mareanie|50|53|62|52|43|45}}
+{{BaseStatsListEntry|070|Toxapex|50|63|152|142|53|35}}
+{{BaseStatsListEntry|071|Gastly|30|35|30|35|100|80}}
+{{BaseStatsListEntry|072|Haunter|45|50|45|55|115|95}}
+{{BaseStatsListEntry|073|Gengar|60|65|60|75|130|110}}
+{{BaseStatsListEntry|074|Grimer|80|80|50|50|40|25}}
+{{BaseStatsListEntry|075|Muk|105|105|75|100|65|50}}
+{{BaseStatsListEntry|076|Puppillon|30|30|50|60|70|50}}
+{{BaseStatsListEntry|077|Hangead|80|52|73|80|90|70}}
+{{BaseStatsListEntry|078|Nunvil|35|30|62|65|65|33}}
+{{BaseStatsListEntry|079|Whisteract|85|52|80|95|90|43}}
+{{BaseStatsListEntry|080|Onix|35|45|160|45|30|70}}
+{{BaseStatsListEntry|081|Steelix|75|85|200|65|55|30}}
+{{BaseStatsListEntry|082|Cubchoo|55|70|40|40|60|40}}
+{{BaseStatsListEntry|083|Beartic|95|110|80|80|70|50}}
+{{BaseStatsListEntry|084|Geodude|40|80|100|30|30|20}}
+{{BaseStatsListEntry|085|Graveler|55|95|115|45|45|35}}
+{{BaseStatsListEntry|086|Golem|80|110|130|65|55|45}}
+{{BaseStatsListEntry|087|Roggenrola|55|75|85|25|25|15}}
+{{BaseStatsListEntry|088|Boldore|70|105|105|40|50|20}}
+{{BaseStatsListEntry|089|Gigalith|85|135|130|70|60|25}}
+{{BaseStatsListEntry|090|Bergmite|55|69|85|35|32|28}}
+{{BaseStatsListEntry|091|Avalugg|95|117|184|46|44|28}}
+{{BaseStatsListEntry|092|Sneasel|55|95|55|75|35|115}}
+{{BaseStatsListEntry|093|Weavile|70|120|65|85|45|125}}
+{{BaseStatsListEntry|094|Blingrimm|50|68|77|40|30|40}}
+{{BaseStatsListEntry|095|Blingrudge|80|101|109|75|55|45}}
+{{BaseStatsListEntry|096|Spheal|70|40|50|50|55|25}}
+{{BaseStatsListEntry|097|Sealeo|90|60|70|70|75|45}}
+{{BaseStatsListEntry|098|Walrein|110|80|90|90|95|65}}
+{{BaseStatsListEntry|099|Seel|65|45|55|70|45|45}}
+{{BaseStatsListEntry|100|Dewgong|90|70|80|95|70|70}}
+{{BaseStatsListEntry|101|Hikiloo|40|65|55|40|40|60}}
+{{BaseStatsListEntry|102|Mylomute|75|100|95|85|70|80}}
+{{BaseStatsListEntry|103|Buizel|55|65|35|30|60|85}}
+{{BaseStatsListEntry|104|Floatzel|85|105|55|50|85|115}}
+{{BaseStatsListEntry|105|Kidoon|25|20|55|20|10|70}}
+{{BaseStatsListEntry|106|Honchen|105|125|100|79|60|71}}
+{{BaseStatsListEntry|107|Smeargle|55|20|35|45|20|75}}
+{{BaseStatsListEntry|108|Meowth|50|40|40|55|65|40}}
+{{BaseStatsListEntry|109|Persage|70|50|60|100|110|50}}
+{{BaseStatsListEntry|110|Snubbull|60|80|50|40|40|30}}
+{{BaseStatsListEntry|111|Granbull|90|120|75|60|60|45}}
+{{BaseStatsListEntry|112|Drowzee|60|48|45|90|43|42}}
+{{BaseStatsListEntry|113|Hypno|85|73|70|115|73|67}}
+{{BaseStatsListEntry|114|Koinkoin|120|60|105|105|40|20}}
+{{BaseStatsListEntry|115|Beefle|34|46|28|31|21|21}}
+{{BaseStatsListEntry|116|Punchbug|60|73|85|64|38|15}}
+{{BaseStatsListEntry|117|Hercurcules|106|140|90|65|60|34}}
+{{BaseStatsListEntry|118|Combee|30|30|42|42|30|70}}
+{{BaseStatsListEntry|119|Vespiquen|70|80|102|102|80|40}}
+{{BaseStatsListEntry|120|Chigami|40|37|35|40|27|66}}
+{{BaseStatsListEntry|121|Grudako|70|147|62|61|57|115}}
+{{BaseStatsListEntry|122|Sabolt|45|70|50|70|40|45}}
+{{BaseStatsListEntry|123|Sewaddle|45|53|70|60|40|42}}
+{{BaseStatsListEntry|124|Swadloon|55|63|90|80|50|42}}
+{{BaseStatsListEntry|125|Leavanny|75|103|80|70|70|92}}
+{{BaseStatsListEntry|126|Audino|103|60|86|86|60|50}}
+{{BaseStatsListEntry|127|Chikorita|45|49|65|65|49|45}}
+{{BaseStatsListEntry|128|Bayleef|60|62|80|80|63|60}}
+{{BaseStatsListEntry|129|Meganium|80|82|100|100|83|80}}
+{{BaseStatsListEntry|130|Cottonee|40|27|60|50|37|66}}
+{{BaseStatsListEntry|131|Whimsicott|60|67|85|75|77|116}}
+{{BaseStatsListEntry|132|Yanma|65|65|45|45|75|95}}
+{{BaseStatsListEntry|133|Yanmega|86|76|86|56|116|95}}
+{{BaseStatsListEntry|134|Heracross|80|125|75|95|40|85}}
+{{BaseStatsListEntry|135|Ekans|35|60|44|54|40|55}}
+{{BaseStatsListEntry|136|Arbok|60|85|69|79|65|80}}
+{{BaseStatsListEntry|137|Croagunk|48|61|40|40|61|50}}
+{{BaseStatsListEntry|138|Toxicroak|83|106|65|65|86|85}}
+{{BaseStatsListEntry|139|Stunky|63|63|47|41|41|74}}
+{{BaseStatsListEntry|140|Skuntank|103|93|67|61|71|84}}
+{{BaseStatsListEntry|141|Ditto|48|48|48|48|48|48}}
+{{BaseStatsListEntry|142|Pichu|20|40|15|35|35|60}}
+{{BaseStatsListEntry|143|Pikachu|35|55|30|40|50|90}}
+{{BaseStatsListEntry|144|Raichu|60|90|55|80|90|100}}
+{{BaseStatsListEntry|145|Gachigachoo|55|62|70|80|63|100}}
+{{BaseStatsListEntry|146|Miltank|95|80|105|70|40|100}}
+{{BaseStatsListEntry|147|Budew|40|30|35|70|50|55}}
+{{BaseStatsListEntry|148|Roselia|50|60|45|80|100|65}}
+{{BaseStatsListEntry|149|Roserade|60|70|55|105|125|90}}
+{{BaseStatsListEntry|150|Buneary|55|66|44|56|44|85}}
+{{BaseStatsListEntry|151|Lopunny|65|76|84|96|54|105}}
+{{BaseStatsListEntry|152|Minccino|55|50|40|40|40|75}}
+{{BaseStatsListEntry|153|Cinccino|75|95|60|60|65|115}}
+{{BaseStatsListEntry|154|Swirlix|62|48|66|57|59|49}}
+{{BaseStatsListEntry|155|Slurpuff|82|80|86|75|85|72}}
+{{BaseStatsListEntry|156|Hystearic|30|32|42|58|58|20}}
+{{BaseStatsListEntry|157|Wystearia|60|54|64|116|106|20}}
+{{BaseStatsListEntry|158|Whismur|64|51|23|23|51|28}}
+{{BaseStatsListEntry|159|Loudred|84|71|43|43|71|48}}
+{{BaseStatsListEntry|160|Exploud|104|91|63|63|91|68}}
+{{BaseStatsListEntry|161|Plusle|60|50|40|75|85|95}}
+{{BaseStatsListEntry|162|Minun|60|40|50|85|75|95}}
+{{BaseStatsListEntry|163|Pepequeno|40|50|44|47|60|56}}
+{{BaseStatsListEntry|164|Scovile|90|65|75|75|100|110}}
+{{BaseStatsListEntry|165|Excalibould|50|50|82|70|36|38}}
+{{BaseStatsListEntry|166|Madieval|100|86|122|90|50|58}}
+{{BaseStatsListEntry|167|Diglett|10|55|25|45|35|95}}
+{{BaseStatsListEntry|168|Dugtrio|35|80|50|70|50|120}}
+{{BaseStatsListEntry|169|Drilbur|60|85|40|45|30|68}}
+{{BaseStatsListEntry|170|Excadrill|110|135|60|65|50|88}}
+{{BaseStatsListEntry|171|Aron|50|70|100|40|40|30}}
+{{BaseStatsListEntry|172|Lairon|60|90|140|50|50|40}}
+{{BaseStatsListEntry|173|Aggron|70|110|180|60|60|50}}
+{{BaseStatsListEntry|174|Larvitar|50|64|50|50|45|41}}
+{{BaseStatsListEntry|175|Pupitar|70|84|70|70|65|51}}
+{{BaseStatsListEntry|176|Tyranitar|100|134|110|100|95|61}}
+{{BaseStatsListEntry|177|Klink|40|55|70|60|45|30}}
+{{BaseStatsListEntry|178|Klang|60|80|95|85|70|50}}
+{{BaseStatsListEntry|179|Klinklang|60|100|115|85|70|90}}
+{{BaseStatsListEntry|180|Tynamo|35|55|40|40|45|60}}
+{{BaseStatsListEntry|181|Eelektrik|65|85|70|70|75|40}}
+{{BaseStatsListEntry|182|Eelektross|85|115|80|80|105|50}}
+{{BaseStatsListEntry|183|Rockapye|60|70|80|60|40|55}}
+{{BaseStatsListEntry|184|Troglolith|95|90|100|80|50|80}}
+{{BaseStatsListEntry|185|Sputnink|60|40|60|80|70|55}}
+{{BaseStatsListEntry|186|Nebyura|95|50|100|100|100|50}}
+{{BaseStatsListEntry|187|Hippopotas|68|72|78|42|38|32}}
+{{BaseStatsListEntry|188|Hippowdon|108|112|118|72|68|47}}
+{{BaseStatsListEntry|189|Birigiri|70|80|75|75|60|95}}
+{{BaseStatsListEntry|190|Chubiburny|59|63|47|43|35|33}}
+{{BaseStatsListEntry|191|Goombear|108|116|92|86|62|55}}
+{{BaseStatsListEntry|192|Dratini|41|64|45|50|50|50}}
+{{BaseStatsListEntry|193|Dragonair|61|84|65|70|70|70}}
+{{BaseStatsListEntry|194|Dragonite|91|134|95|100|100|80}}
+{{BaseStatsListEntry|195|Trapinch|45|100|45|45|45|10}}
+{{BaseStatsListEntry|196|Vibrava|50|70|50|50|50|70}}
+{{BaseStatsListEntry|197|Flygon|80|100|80|80|80|100}}
+{{BaseStatsListEntry|198|Druddigon|77|120|90|90|60|48}}
+{{BaseStatsListEntry|199|Manticoeur|30|45|40|50|40|60}}
+{{BaseStatsListEntry|200|Fatail|55|100|76|77|75|104}}
+{{BaseStatsListEntry|201|Axew|46|87|60|40|30|57}}
+{{BaseStatsListEntry|202|Fraxure|66|117|70|50|40|67}}
+{{BaseStatsListEntry|203|Haxorus|76|147|90|70|60|97}}
+{{BaseStatsListEntry|204|Noibat|40|30|35|40|45|55}}
+{{BaseStatsListEntry|205|Noivern|85|70|80|80|97|123}}
+{{BaseStatsListEntry|206|Turtonator|60|78|135|85|91|36}}
+{{BaseStatsListEntry|207|Charmander|39|52|43|50|60|65}}
+{{BaseStatsListEntry|208|Charmeleon|58|64|58|65|80|80}}
+{{BaseStatsListEntry|209|Charizard|78|84|78|85|109|100}}
+{{BaseStatsListEntry|210|Vulpix|38|41|40|65|50|65}}
+{{BaseStatsListEntry|211|Ninetales|73|76|75|100|81|100}}
+{{BaseStatsListEntry|212|Koffing|40|65|95|45|60|35}}
+{{BaseStatsListEntry|213|Weezing|65|90|120|70|85|60}}
+{{BaseStatsListEntry|214|Houndour|45|60|30|50|80|65}}
+{{BaseStatsListEntry|215|Houndoom|75|90|50|80|110|95}}
+{{BaseStatsListEntry|216|Numel|60|60|40|45|65|35}}
+{{BaseStatsListEntry|217|Camerupt|70|100|70|75|105|40}}
+{{BaseStatsListEntry|218|Torkoal|70|85|140|70|85|20}}
+{{BaseStatsListEntry|219|Reindear|76|20|77|78|35|53}}
+{{BaseStatsListEntry|220|Reindigo|110|128|90|108|54|60}}
+{{BaseStatsListEntry|221|Sosqwatch|72|74|72|66|93|118}}
+{{BaseStatsListEntry|222|Squirtle|44|48|65|64|50|43}}
+{{BaseStatsListEntry|223|Wartortle|59|63|80|80|65|58}}
+{{BaseStatsListEntry|224|Blastoise|79|83|100|105|85|78}}
+{{BaseStatsListEntry|225|Teddiursa|60|80|50|50|50|40}}
+{{BaseStatsListEntry|226|Ursaring|90|130|75|75|75|55}}
+{{BaseStatsListEntry|227|Absol|65|130|60|60|75|75}}
+{{BaseStatsListEntry|228|Riolu|40|70|40|40|35|60}}
+{{BaseStatsListEntry|229|Lucario|70|110|70|70|115|90}}
+{{BaseStatsListEntry|230|Drampa|78|60|85|91|135|36}}
+{{BaseStatsListEntry|231|Ponyta|50|85|55|65|65|90}}
+{{BaseStatsListEntry|232|Rapidash|65|100|70|80|80|105}}
+{{BaseStatsListEntry|233|Sandshrew|50|75|85|30|20|40}}
+{{BaseStatsListEntry|234|Sandslash|75|100|110|55|45|65}}
+{{BaseStatsListEntry|235|Cubone|50|50|95|50|40|35}}
+{{BaseStatsListEntry|236|Marowak|60|80|110|80|50|45}}
+{{BaseStatsListEntry|237|Natu|40|50|45|45|70|70}}
+{{BaseStatsListEntry|238|Xatu|65|75|70|70|95|95}}
+{{BaseStatsListEntry|239|Cacnea|50|85|40|40|85|35}}
+{{BaseStatsListEntry|240|Cacturne|70|115|60|60|115|55}}
+{{BaseStatsListEntry|241|Rufflet|70|83|50|50|37|60}}
+{{BaseStatsListEntry|242|Braviary|100|123|75|75|57|80}}
+{{BaseStatsListEntry|243|Vullaby|70|55|75|65|45|60}}
+{{BaseStatsListEntry|244|Mandibuzz|110|65|105|95|55|80}}
+{{BaseStatsListEntry|245|Vroombug|50|65|55|40|40|90}}
+{{BaseStatsListEntry|246|Skravroom|67|115|75|65|60|128}}
+{{BaseStatsListEntry|247|Chikaboo|40|45|40|35|35|56}}
+{{BaseStatsListEntry|248|Peckabone|60|70|60|55|50|60}}
+{{BaseStatsListEntry|249|Rexquiem|100|121|80|90|59|80}}
+{{BaseStatsListEntry|250|Kecleon|60|90|70|120|60|40}}
+{{BaseStatsListEntry|251|Skarmory|65|80|140|70|40|70}}
+{{BaseStatsListEntry|252|Rhyhorn|80|85|95|30|30|25}}
+{{BaseStatsListEntry|253|Rhydon|105|130|120|45|45|40}}
+{{BaseStatsListEntry|254|Rhyperior|115|140|130|55|55|40}}
+{{BaseStatsListEntry|255|Beldum|40|55|80|60|35|30}}
+{{BaseStatsListEntry|256|Metang|60|75|100|80|55|50}}
+{{BaseStatsListEntry|257|Metagross|80|135|130|90|95|70}}
+{{BaseStatsListEntry|258|Elgyem|55|55|55|55|85|30}}
+{{BaseStatsListEntry|259|Beheeyem|75|75|75|95|125|40}}
+{{BaseStatsListEntry|260|Litwick|50|30|55|55|65|20}}
+{{BaseStatsListEntry|261|Lampent|60|40|60|60|95|55}}
+{{BaseStatsListEntry|262|Chandelure|60|55|90|90|145|80}}
+{{BaseStatsListEntry|263|Mimikyu|55|90|80|105|50|96}}
+{{BaseStatsListEntry|264|Murkrow|60|85|42|42|85|91}}
+{{BaseStatsListEntry|265|Honchkrow|100|125|52|52|105|71}}
+{{BaseStatsListEntry|266|Scaracno|40|35|50|65|80|40}}
+{{BaseStatsListEntry|267|Scaracluo|65|50|75|85|100|35}}
+{{BaseStatsListEntry|268|Scarphasmo|90|60|100|105|125|30}}
+{{BaseStatsListEntry|269|Tauros|75|100|95|70|40|110}}
+{{BaseStatsListEntry|270|Magnemite|25|35|70|55|95|45}}
+{{BaseStatsListEntry|271|Magneton|50|60|95|70|120|70}}
+{{BaseStatsListEntry|272|Magnezone|70|70|115|90|130|60}}
+{{BaseStatsListEntry|273|Elekid|45|63|37|55|65|95}}
+{{BaseStatsListEntry|274|Electabuzz|65|83|57|85|95|105}}
+{{BaseStatsListEntry|275|Electivire|75|123|67|85|95|95}}
+{{BaseStatsListEntry|276|Bouffalant|95|110|95|95|40|55}}
+{{BaseStatsListEntry|277|Joltik|50|47|50|50|57|65}}
+{{BaseStatsListEntry|278|Galvantula|70|77|60|60|97|108}}
+{{BaseStatsListEntry|279|Scraggy|50|75|70|70|35|48}}
+{{BaseStatsListEntry|280|Scrafty|65|90|115|115|45|58}}
+{{BaseStatsListEntry|281|Spinda|60|60|60|60|60|60}}
+{{BaseStatsListEntry|282|Tokakle|55|88|77|66|55|99}}
+{{BaseStatsListEntry|283|Blitzle|45|60|32|32|50|76}}
+{{BaseStatsListEntry|284|Zebstrika|75|100|63|63|80|116}}
+{{BaseStatsListEntry|285|Litten|45|65|40|40|60|70}}
+{{BaseStatsListEntry|286|Torracat|65|85|50|50|80|90}}
+{{BaseStatsListEntry|287|Incineroar|95|115|90|90|80|60}}
+{{BaseStatsListEntry|288|Igglybuff|90|30|15|20|40|15}}
+{{BaseStatsListEntry|289|Jigglypuff|115|45|20|25|45|20}}
+{{BaseStatsListEntry|290|Wigglytuff|140|70|45|50|75|45}}
+{{BaseStatsListEntry|291|Pachirisu|60|45|70|90|45|95}}
+{{BaseStatsListEntry|292|Timburr|75|80|55|35|25|35}}
+{{BaseStatsListEntry|293|Gurdurr|85|105|85|50|40|40}}
+{{BaseStatsListEntry|294|Conkeldurr|105|140|95|65|55|45}}
+{{BaseStatsListEntry|295|Pawniard|45|85|70|40|40|60}}
+{{BaseStatsListEntry|296|Bisharp|65|125|100|70|60|70}}
+{{BaseStatsListEntry|297|Sandile|50|72|35|35|35|65}}
+{{BaseStatsListEntry|298|Krokorok|60|82|45|45|45|74}}
+{{BaseStatsListEntry|299|Krookodile|95|117|70|70|65|92}}
+{{BaseStatsListEntry|300|Totodile|50|65|64|48|44|43}}
+{{BaseStatsListEntry|301|Croconaw|65|80|80|63|59|58}}
+{{BaseStatsListEntry|302|Feraligatr|85|105|100|83|79|78}}
+{{BaseStatsListEntry|303|Exeggcute|60|40|80|45|60|40}}
+{{BaseStatsListEntry|304|Exeggutor|95|95|85|65|125|55}}
+{{BaseStatsListEntry|305|Happiny|100|5|5|65|15|30}}
+{{BaseStatsListEntry|306|Chansey|250|5|5|105|35|50}}
+{{BaseStatsListEntry|307|Blissey|255|10|10|135|75|55}}
+{{BaseStatsListEntry|308|Donanas|65|65|105|85|40|120}}
+{{BaseStatsListEntry|309|Scyther|70|110|80|80|55|105}}
+{{BaseStatsListEntry|310|Scizor|70|130|100|80|55|65}}
+{{BaseStatsListEntry|311|Rowlet|68|55|55|50|50|42}}
+{{BaseStatsListEntry|312|Dartrix|78|75|75|70|70|52}}
+{{BaseStatsListEntry|313|Decidueye|78|107|75|100|100|70}}
+{{BaseStatsListEntry|314|Passimian|100|120|90|60|40|80}}
+{{BaseStatsListEntry|315|Aipom|55|70|55|55|40|85}}
+{{BaseStatsListEntry|316|Ambipom|75|100|66|66|60|115}}
+{{BaseStatsListEntry|317|Girafarig|70|80|65|65|90|85}}
+{{BaseStatsListEntry|318|Chatot|76|65|45|42|92|91}}
+{{BaseStatsListEntry|319|Litleo|62|50|58|54|73|72}}
+{{BaseStatsListEntry|320|Pyroar|86|68|72|66|109|106}}
+{{BaseStatsListEntry|321|Tropius|99|68|83|87|72|51}}
+{{BaseStatsListEntry|322|Carnivine|74|100|72|72|90|46}}
+{{BaseStatsListEntry|323|Bulbasaur|45|49|49|65|65|45}}
+{{BaseStatsListEntry|324|Ivysaur|60|62|63|80|80|60}}
+{{BaseStatsListEntry|325|Venusaur|80|82|83|100|100|80}}
+{{BaseStatsListEntry|326|Sigilyph|72|58|80|80|103|97}}
+{{BaseStatsListEntry|327|Baltoy|40|40|55|70|40|55}}
+{{BaseStatsListEntry|328|Claydol|60|70|105|120|70|75}}
+{{BaseStatsListEntry|329|Spiritomb|50|92|108|108|92|35}}
+{{BaseStatsListEntry|330|Yamask|38|30|85|65|55|30}}
+{{BaseStatsListEntry|331|Cofagrigus|58|50|145|105|95|30}}
+{{BaseStatsListEntry|332|Hawlucha|78|92|75|63|74|118}}
+{{BaseStatsListEntry|333|Nosepass|30|45|135|90|45|30}}
+{{BaseStatsListEntry|334|Probopass|60|55|145|150|75|40}}
+{{BaseStatsListEntry|335|Rattata|30|56|35|35|25|72}}
+{{BaseStatsListEntry|336|Raticate|55|81|60|70|50|97}}
+{{BaseStatsListEntry|337|Cyndaquil|39|52|43|50|60|65}}
+{{BaseStatsListEntry|338|Quilava|58|64|58|65|80|80}}
+{{BaseStatsListEntry|339|Typhlosion|78|84|78|85|109|100}}
+{{BaseStatsListEntry|340|Gulpin|70|43|53|53|43|40}}
+{{BaseStatsListEntry|341|Swalot|100|73|83|83|73|55}}
+{{BaseStatsListEntry|342|Trubbish|50|50|62|62|40|65}}
+{{BaseStatsListEntry|343|Garbodor|80|95|82|82|60|75}}
+{{BaseStatsListEntry|344|Chimaooze|45|20|30|35|25|20}}
+{{BaseStatsListEntry|345|Clamperl|35|64|85|55|74|32}}
+{{BaseStatsListEntry|346|Huntail|55|104|105|75|94|52}}
+{{BaseStatsListEntry|347|Gorebyss|55|84|105|75|114|52}}
+{{BaseStatsListEntry|348|Alomomola|165|75|80|45|40|65}}
+{{BaseStatsListEntry|349|Lapras|130|85|80|95|85|60}}
+{{BaseStatsListEntry|350|Eevee|55|55|50|65|45|55}}
+{{BaseStatsListEntry|351|Vaporeon|130|65|60|95|110|65}}
+{{BaseStatsListEntry|352|Jolteon|65|65|60|95|110|130}}
+{{BaseStatsListEntry|353|Flareon|65|130|60|110|95|65}}
+{{BaseStatsListEntry|354|Espeon|65|65|60|95|130|110}}
+{{BaseStatsListEntry|355|Umbreon|95|65|110|130|60|65}}
+{{BaseStatsListEntry|356|Leafeon|65|110|130|65|60|95}}
+{{BaseStatsListEntry|357|Glaceon|65|60|110|95|130|65}}
+{{BaseStatsListEntry|358|Sylveon|95|65|65|130|110|60}}
+{{BaseStatsListEntry|359|Bandeon|110|60|65|130|95|65}}
+{{BaseStatsListEntry|360|Scaleon|95|130|110|65|65|60}}
+{{BaseStatsListEntry|361|Porygon|65|60|70|75|85|40}}
+{{BaseStatsListEntry|362|Porygon2|85|80|90|95|105|60}}
+{{BaseStatsListEntry|363|Porygon-Z|85|80|70|75|135|90}}
+{{BaseStatsListEntry|364|Porygon-WES|85|80|70|115|100|75}}
+{{BaseStatsListEntry|365|Dusmee|40|40|50|55|60|55}}
+{{BaseStatsListEntry|366|Egohiss|70|50|80|80|80|60}}
+{{BaseStatsListEntry|367|Egorgeon|80|100|80|80|140|120}}
+{{BaseStatsListEntry|368|Chiripe|45|40|43|55|65|65}}
+{{BaseStatsListEntry|369|Batnana|62|60|63|60|80|80}}
+{{BaseStatsListEntry|370|Vesperfum|80|72|75|75|118|110}}
+{{BaseStatsListEntry|371|Croakling|39|55|53|55|55|52}}
+{{BaseStatsListEntry|372|Bullverin|70|75|62|63|75|60}}
+{{BaseStatsListEntry|373|Croakraze|85|110|70|70|110|85}}
+{{BaseStatsListEntry|374|Inflant|50|60|65|52|43|44}}
+{{BaseStatsListEntry|375|Floatusk|73|82|80|60|50|60}}
+{{BaseStatsListEntry|376|Swelephant|100|114|96|82|60|78}}
+{{BaseStatsListEntry|377|Luxflon|160|90|150|150|90|80}}
+{{BaseStatsListEntry|378|Dielebi|100|100|100|100|100|100}}
+{{BaseStatsListEntry|379|Mew|100|100|100|100|100|100}}
+{{BaseStatsListEntry|380|Lugia|106|90|130|154|90|110}}
+{{BaseStatsListEntry|381|Ho-oh|106|130|90|154|110|90}}
+{{BaseStatsListEntry|382|Celebi|100|100|100|100|100|100}}
+{{BaseStatsListEntry|383|Deoxys|50|150|50|50|150|150}}
+{{BaseStatsListEntry|384|Heatran|91|90|106|106|130|77}}
+{{BaseStatsListEntry|385|Cresselia|120|70|120|130|75|85}}
+{{BaseStatsListEntry|386|Darkrai|70|90|90|90|135|125}}
+{{BaseStatsListEntry|387|Meloetta|100|77|77|128|128|90}}
+{{BaseStatsListEntry|388|Genesect|71|120|95|95|120|99}}
+{{BaseStatsListEntry|389|Marshadow|90|125|80|90|90|125}}
+{{BaseStatsListEntry|390|Growlithe|55|70|45|50|70|60}}
+{{BaseStatsListEntry|391|Arcanine|90|110|80|80|100|95}}
+{{BaseStatsListEntry|392|Seedot|40|40|50|30|30|30}}
+{{BaseStatsListEntry|393|Nuzleaf|70|70|40|40|60|60}}
+{{BaseStatsListEntry|394|Shiftry|90|100|60|60|90|80}}
+{{BaseStatsListEntry|395|Mienfoo|45|85|50|50|55|65}}
+{{BaseStatsListEntry|396|Mienshao|65|125|60|60|95|105}}
+{{BaseStatsListEntry|397|Magby|45|75|37|55|70|83}}
+{{BaseStatsListEntry|398|Magmar|65|95|57|85|100|93}}
+{{BaseStatsListEntry|399|Magmortar|75|95|67|95|125|83}}
+{{BaseStatsListEntry|400|Turtwig|55|68|64|55|45|31}}
+{{BaseStatsListEntry|401|Grotle|75|89|85|65|55|36}}
+{{BaseStatsListEntry|402|Torterra|95|109|105|85|75|56}}
+{{BaseStatsListEntry|403|Chimchar|44|58|44|44|58|61}}
+{{BaseStatsListEntry|404|Monferno|64|78|52|52|78|81}}
+{{BaseStatsListEntry|405|Infernape|76|104|71|71|104|108}}
+{{BaseStatsListEntry|406|Piplup|53|51|53|56|61|40}}
+{{BaseStatsListEntry|407|Prinplup|64|66|68|76|81|50}}
+{{BaseStatsListEntry|408|Empoleon|84|86|88|101|111|60}}
+{{BaseStatsListEntry|409|Surskit|40|30|32|52|50|65}}
+{{BaseStatsListEntry|410|Masquerain|70|60|62|82|80|60}}
+{{BaseStatsListEntry|411|Lotad|40|30|30|50|40|30}}
+{{BaseStatsListEntry|412|Lombre|60|50|50|70|60|50}}
+{{BaseStatsListEntry|413|Ludicolo|80|70|70|100|90|70}}
+{{BaseStatsListEntry|414|Horsea|30|40|70|25|70|60}}
+{{BaseStatsListEntry|415|Seadra|55|65|95|45|95|85}}
+{{BaseStatsListEntry|416|Kingdra|75|95|95|95|95|85}}
+{{BaseStatsListEntry|417|Psyduck|50|52|48|50|65|55}}
+{{BaseStatsListEntry|418|Golduck|80|82|78|80|95|85}}
+{{BaseStatsListEntry|419|Wooper|55|45|45|25|25|15}}
+{{BaseStatsListEntry|420|Quagsire|95|85|85|65|65|35}}
+{{BaseStatsListEntry|421|Chewtle|50|64|50|38|38|44}}
+{{BaseStatsListEntry|422|Drednaw|90|115|90|68|48|74}}
+{{BaseStatsListEntry|423|Larvesta|55|85|55|55|50|60}}
+{{BaseStatsListEntry|424|Volcarona|85|60|65|105|135|100}}
+{{BaseStatsListEntry|425|Gligar|65|75|105|65|35|85}}
+{{BaseStatsListEntry|426|Gliscor|75|95|125|75|45|95}}
+{{BaseStatsListEntry|427|Poochyena|35|55|35|30|30|35}}
+{{BaseStatsListEntry|428|Mightyena|70|90|70|60|60|70}}
+{{BaseStatsListEntry|429|Deino|52|65|50|50|45|38}}
+{{BaseStatsListEntry|430|Zweilous|72|85|70|70|65|58}}
+{{BaseStatsListEntry|431|Hydreigon|92|105|90|90|125|98}}
+{{BaseStatsListEntry|432|Duraludon|70|95|115|50|120|85}}
+{{BaseStatsListEntry|433|Bellsprout|50|75|35|30|70|40}}
+{{BaseStatsListEntry|434|Weepinbell|65|90|50|45|85|55}}
+{{BaseStatsListEntry|435|Victreebel|80|105|65|70|100|70}}
+{{BaseStatsListEntry|436|Tangela|65|55|115|40|100|60}}
+{{BaseStatsListEntry|437|Tangrowth|100|100|125|50|110|50}}
+{{BaseStatsListEntry|438|Ferroseed|44|50|91|86|24|10}}
+{{BaseStatsListEntry|439|Ferrothorn|74|94|131|116|54|20}}
+{{BaseStatsListEntry|440|Munna|76|25|45|55|67|24}}
+{{BaseStatsListEntry|441|Musharna|116|55|85|95|107|29}}
+{{BaseStatsListEntry|442|Swinub|50|50|40|30|30|50}}
+{{BaseStatsListEntry|443|Piloswine|100|100|80|60|60|50}}
+{{BaseStatsListEntry|444|Mamoswine|110|130|80|60|70|80}}
+{{BaseStatsListEntry|445|Snorunt|50|50|50|50|50|50}}
+{{BaseStatsListEntry|446|Glalie|80|80|80|80|80|80}}
+{{BaseStatsListEntry|447|Froslass|70|80|70|70|80|110}}
+{{BaseStatsListEntry|448|Misdreavus|60|60|60|85|85|85}}
+{{BaseStatsListEntry|449|Mismagius|60|60|60|105|105|105}}
+{{BaseStatsListEntry|450|Cryogonal|70|50|30|135|95|105}}
+{{BaseStatsListEntry|451|Snivy|45|45|55|55|45|63}}
+{{BaseStatsListEntry|452|Servine|60|60|75|75|60|83}}
+{{BaseStatsListEntry|453|Serperior|75|75|95|95|75|113}}
+{{BaseStatsListEntry|454|Tepig|65|63|45|45|45|45}}
+{{BaseStatsListEntry|455|Pignite|90|93|55|55|70|55}}
+{{BaseStatsListEntry|456|Emboar|110|123|65|65|100|65}}
+{{BaseStatsListEntry|457|Oshawott|55|55|45|45|63|45}}
+{{BaseStatsListEntry|458|Dewott|75|75|60|60|83|60}}
+{{BaseStatsListEntry|459|Samurott|95|100|85|70|108|70}}
+{{BaseStatsListEntry|460|Unown|48|72|48|48|72|48}}
+{{BaseStatsListEntry|461|Raikou|90|85|75|100|115|115}}
+{{BaseStatsListEntry|462|Entei|115|115|85|75|90|100}}
+{{BaseStatsListEntry|463|Suicune|100|75|115|115|90|85}}
+{{BaseStatsListEntry|464|Mawile|50|85|85|55|55|50}}
+{{BaseStatsListEntry|465|Duskull|20|40|90|90|30|25}}
+{{BaseStatsListEntry|466|Dusclops|40|70|130|130|60|25}}
+{{BaseStatsListEntry|467|Dusknoir|45|100|135|135|65|45}}
+{{BaseStatsListEntry|468|Pineco|50|65|90|35|35|15}}
+{{BaseStatsListEntry|469|Forretress|75|90|140|60|60|40}}
+{{BaseStatsListEntry|470|Salandit|48|44|40|40|71|77}}
+{{BaseStatsListEntry|471|Salazzle|68|64|60|60|111|117}}
+{{BaseStatsListEntry|472|Kangaskhan|105|95|80|80|40|90}}
+{{BaseStatsListEntry|473|Bonsly|50|80|95|45|10|10}}
+{{BaseStatsListEntry|474|Sudowoodo|70|100|115|65|30|30}}
+{{BaseStatsListEntry|475|Paras|35|70|55|55|45|25}}
+{{BaseStatsListEntry|476|Parasect|60|95|80|80|60|30}}
+{{BaseStatsListEntry|477|Mime Jr.|20|25|45|90|70|60}}
+{{BaseStatsListEntry|478|Mr. Mime|40|45|65|120|100|90}}
+{{BaseStatsListEntry|479|Treecko|40|45|35|55|65|70}}
+{{BaseStatsListEntry|480|Grovyle|50|65|45|65|85|95}}
+{{BaseStatsListEntry|481|Sceptile|70|85|65|85|105|120}}
+{{BaseStatsListEntry|482|Torchic|45|60|40|50|70|45}}
+{{BaseStatsListEntry|483|Combusken|60|85|60|60|85|55}}
+{{BaseStatsListEntry|484|Blaziken|80|120|70|70|110|80}}
+{{BaseStatsListEntry|485|Mudkip|50|70|50|50|50|40}}
+{{BaseStatsListEntry|486|Marshtomp|70|85|70|70|60|50}}
+{{BaseStatsListEntry|487|Swampert|100|110|90|90|85|60}}
+{{BaseStatsListEntry|488|Toxel|40|38|35|35|54|40}}
+{{BaseStatsListEntry|489|Toxtricity|75|98|70|70|114|75}}
+{{BaseStatsListEntry|490|Castform|70|70|70|70|70|70}}
+{{BaseStatsListEntry|491|Foongus|69|55|45|55|55|15}}
+{{BaseStatsListEntry|492|Amoonguss|114|85|70|80|85|30}}
+{{BaseStatsListEntry|493|Slowpoke|90|65|65|40|40|15}}
+{{BaseStatsListEntry|494|Slowbro|95|75|110|80|100|30}}
+{{BaseStatsListEntry|495|Slowking|95|75|80|110|100|30}}
+{{BaseStatsListEntry|496|Ralts|28|25|25|35|45|40}}
+{{BaseStatsListEntry|497|Kirlia|38|35|35|55|65|50}}
+{{BaseStatsListEntry|498|Gardevoir|68|65|65|115|125|80}}
+{{BaseStatsListEntry|499|Gallade|68|125|65|115|65|80}}
+{{BaseStatsListEntry|500|Azurill|50|20|40|40|20|20}}
+{{BaseStatsListEntry|501|Marill|70|20|50|50|20|40}}
+{{BaseStatsListEntry|502|Azumarill|100|50|80|80|50|50}}
+{{BaseStatsListEntry|503|Shroomish|60|40|60|60|40|35}}
+{{BaseStatsListEntry|504|Breloom|60|130|80|60|60|70}}
+{{BaseStatsListEntry|505|Munchlax|135|85|40|85|40|5}}
+{{BaseStatsListEntry|506|Snorlax|160|110|65|110|65|30}}
+{{BaseStatsListEntry|507|Arctozolt|90|100|90|80|90|55}}
+{{BaseStatsListEntry|508|Zorua|35|60|40|40|85|70}}
+{{BaseStatsListEntry|509|Zoroark|55|100|60|60|125|110}}
+{{BaseStatsListEntry|510|Shellos|76|48|48|62|57|34}}
+{{BaseStatsListEntry|511|Gastrodon|111|83|68|82|92|39}}
+{{BaseStatsListEntry|512|Emolga|55|75|60|60|75|103}}
+{{BaseStatsListEntry|513|Bronzor|57|24|86|86|24|23}}
+{{BaseStatsListEntry|514|Bronzong|67|89|116|116|79|33}}
+{{BaseStatsListEntry|515|Archen|55|112|45|45|74|70}}
+{{BaseStatsListEntry|516|Archeops|75|140|65|65|112|110}}
+{{BaseStatsListEntry|517|Gible|58|70|45|45|40|42}}
+{{BaseStatsListEntry|518|Gabite|68|90|65|55|50|82}}
+{{BaseStatsListEntry|519|Garchomp|108|130|95|85|80|102}}
+{{BaseStatsListEntry|520|Shinx|45|65|34|34|40|45}}
+{{BaseStatsListEntry|521|Luxio|60|85|49|49|60|60}}
+{{BaseStatsListEntry|522|Luxray|80|120|79|79|95|70}}
+{{BaseStatsListEntry|523|Aerodactyl|80|105|65|75|60|130}}
+{{BaseStatsListEntry|524|Chespin|56|61|65|45|48|38}}
+{{BaseStatsListEntry|525|Quilladin|61|78|95|58|56|57}}
+{{BaseStatsListEntry|526|Chesnaught|88|107|122|75|74|64}}
+{{BaseStatsListEntry|527|Fennekin|40|45|40|60|62|60}}
+{{BaseStatsListEntry|528|Braixen|59|59|58|70|90|73}}
+{{BaseStatsListEntry|529|Delphox|75|69|72|100|114|104}}
+{{BaseStatsListEntry|530|Froakie|41|56|40|44|62|71}}
+{{BaseStatsListEntry|531|Frogadier|54|63|52|56|83|97}}
+{{BaseStatsListEntry|532|Greninja|72|95|67|71|103|122}}
+{{BaseStatsListEntry|533|Tornadus|79|115|70|80|125|111}}
+{{BaseStatsListEntry|534|Thundurus|79|115|70|80|125|111}}
+{{BaseStatsListEntry|535|Landorus|89|125|90|80|115|101}}
+{{BaseStatsListEntry|536|Enamorus|74|115|70|80|135|106}}
+{{BaseStatsListEntry|537|Swablu|45|40|60|75|40|50}}
+{{BaseStatsListEntry|538|Altaria|75|70|90|105|70|80}}
+{{BaseStatsListEntry|539|Venipede|30|45|59|39|30|57}}
+{{BaseStatsListEntry|540|Whirlipede|40|55|99|79|40|47}}
+{{BaseStatsListEntry|541|Scolipede|60|90|89|69|55|112}}
+{{BaseStatsListEntry|542|Skorupi|40|50|90|55|30|65}}
+{{BaseStatsListEntry|543|Drapion|70|90|110|75|60|95}}
+{{BaseStatsListEntry|544|Cranidos|67|125|40|30|30|58}}
+{{BaseStatsListEntry|545|Rampardos|97|165|60|50|65|58}}
+{{BaseStatsListEntry|546|Shieldon|30|42|118|88|42|30}}
+{{BaseStatsListEntry|547|Bastiodon|60|52|168|138|47|30}}
+{{BaseStatsListEntry|548|Caterpie|45|30|35|20|20|45}}
+{{BaseStatsListEntry|549|Metapod|50|20|55|25|25|30}}
+{{BaseStatsListEntry|550|Butterfree|60|45|50|80|80|70}}
+{{BaseStatsListEntry|551|Charcadet|40|50|40|40|50|35}}
+{{BaseStatsListEntry|552|Armarouge|85|60|100|80|125|75}}
+{{BaseStatsListEntry|553|Ceruledge|75|125|80|100|60|85}}
+{{BaseStatsListEntry|554|Binacle|42|52|67|56|39|50}}
+{{BaseStatsListEntry|555|Barbaracle|72|105|115|68|86|54}}
+{{BaseStatsListEntry|556|Tatsugiri|68|50|60|82|120|92}}
+{{BaseStatsListEntry|557|Kingambit|100|135|120|85|60|50}}
+{{BaseStatsListEntry|558|Tyrogue|35|35|35|35|35|35}}
+{{BaseStatsListEntry|559|Hitmonlee|50|120|53|110|35|87}}
+{{BaseStatsListEntry|560|Hitmonchan|50|105|79|110|35|76}}
+{{BaseStatsListEntry|561|Hitmontop|50|95|95|110|35|70}}
+{{BaseStatsListEntry|562|Slugma|40|40|40|40|70|20}}
+{{BaseStatsListEntry|563|Magcargo|50|50|120|80|80|30}}
+{{BaseStatsListEntry|564|Lunatone|70|55|65|85|95|70}}
+{{BaseStatsListEntry|565|Solrock|70|95|85|65|55|70}}
+{{BaseStatsListEntry|566|Karrablast|50|75|45|45|40|60}}
+{{BaseStatsListEntry|567|Escavalier|70|135|105|105|60|20}}
+{{BaseStatsListEntry|568|Shelmet|50|40|85|65|40|25}}
+{{BaseStatsListEntry|569|Accelgor|80|70|40|60|100|145}}
+{{BaseStatsListEntry|570|Sprigatito|61|80|63|63|60|83}}
+{{BaseStatsListEntry|571|Floragato|60|62|80|80|63|60}}
+{{BaseStatsListEntry|572|Meowscarada|76|110|70|70|81|123}}
+{{BaseStatsListEntry|573|Sobble|50|40|40|40|70|70}}
+{{BaseStatsListEntry|574|Drizzile|65|60|55|55|95|90}}
+{{BaseStatsListEntry|575|Inteleon|70|85|65|65|125|120}}
+{{BaseStatsListEntry|576|Regirock|80|100|200|100|50|50}}
+{{BaseStatsListEntry|577|Regice|80|50|100|200|100|50}}
+{{BaseStatsListEntry|578|Registeel|80|75|150|150|75|50}}
+{{BaseStatsListEntry|579|Regigigas|110|160|110|110|80|100}}
+{{BaseStatsListEntry|580|Regieleki|80|100|50|50|100|200}}
+{{BaseStatsListEntry|581|Regidrago|200|100|50|50|100|80}}
+{{BaseStatsListEntry|582|Reginalous|50|150|75|75|150|80}}
+{{BaseStatsListEntry|583|Mewtwo|106|110|90|90|154|130}}
+{{BaseStatsListEntry|X001|Elekid X|45|63|37|55|65|95}}
+{{BaseStatsListEntry|X002|Electabuzz X|65|83|57|85|95|105}}
+{{BaseStatsListEntry|X003|Electaburst|75|95|67|85|123|95}}
+{{BaseStatsListEntry|X004|Spiritomb X|50|108|92|92|108|35}}
+{{BaseStatsListEntry|X005|Carvanha X|45|90|20|20|65|65}}
+{{BaseStatsListEntry|X006|Sharpedo X|70|120|40|40|95|95}}
+{{BaseStatsListEntry|X007|Pyukumuku X|55|130|60|30|5|130}}
+{{BaseStatsListEntry|X008|Pikachu X|85|40|65|40|85|90}}
+{{BaseStatsListEntry|X009|Joltik X|50|47|40|40|57|85}}
+{{BaseStatsListEntry|X010|Galvantula X|70|74|50|50|100|128}}
+{{BaseStatsListEntry|X011|Smeargle X|55|20|35|45|20|75}}
+{{BaseStatsListEntry|X012|Chientilly|78|115|71|91|52|33}}
+{{BaseStatsListEntry|X013|Gastly X|30|35|30|65|100|35}}
+{{BaseStatsListEntry|X014|Haunter X|45|55|70|75|115|45}}
+{{BaseStatsListEntry|X015|Gengar X|80|70|80|85|130|55}}
+{{BaseStatsListEntry|X016|Yamask X|38|30|85|55|65|30}}
+{{BaseStatsListEntry|X017|Cofagrigus X|58|50|145|95|105|30}}
+{{BaseStatsListEntry|X018|Ponyta X|50|75|55|65|65|100}}
+{{BaseStatsListEntry|X019|Rapidash X|65|90|70|80|80|115}}
+{{BaseStatsListEntry|X020|Cacnea X|50|85|40|40|85|35}}
+{{BaseStatsListEntry|X021|Cacturne X|125|115|70|65|60|40}}
+{{BaseStatsListEntry|X022|Swirlix X|62|48|66|57|59|49}}
+{{BaseStatsListEntry|X023|Slurpuff X|102|80|86|72|85|52}}
+{{BaseStatsListEntry|X024|Budew X|40|30|35|55|70|50}}
+{{BaseStatsListEntry|X025|Roselia X|50|56|45|80|104|85}}
+{{BaseStatsListEntry|X026|Roserade X|60|61|65|90|134|105}}
+{{BaseStatsListEntry|X027|Mareanie X|50|62|53|43|52|45}}
+{{BaseStatsListEntry|X028|Toxapex X|142|63|53|50|147|40}}
+{{BaseStatsListEntry|X029|Greninja X|72|107|71|75|133|127}}
+{{BaseStatsListEntry|X030|Mewtwo X|72|164|80|80|164|140}}
+{{BaseStatsListEntry|X031|Raichu X|40|150|39|33|55|153}}
+{{BaseStatsListEntry|X032|Bisharp X|130|125|100|70|60|70}}
+{{BaseStatsListEntry|X033|Scovile X|80|67|78|84|124|112}}
+{{BaseStatsListEntry|X034|Tyranitar X|100|144|120|110|105|71}}
+{{BaseStatsListEntry|X035|Ditto X|48|48|48|48|48|48}}
+{{BaseStatsListEntry|X036|Aegislash X|90|140|78|79|60|103}}
+{{BaseStatsListEntry|X037|Tapu Fini X|70|85|115|105|130|95}}
+{{BaseStatsListEntry|X038|Tapu Lele X|70|75|145|130|95|85}}
+{{BaseStatsListEntry|X039|Tapu Koko X|70|95|75|85|115|160}}
+{{BaseStatsListEntry|X040|Tapu Bulu X|70|160|115|95|85|75}}
+{{BaseStatsListEntry|X041|Dragalisk X|70|170|70|70|170|130}}
+{{BaseStatsListEntry|X042|Shyleon X|68|44|87|87|100|114}}
+{{BaseStatsListEntry|X043|Trishout X|68|125|60|60|115|72}}
+{{BaseStatsListEntry|X044|Shulong X|68|40|113|113|80|66}}
+{{BaseStatsListEntry|V001|Vintage Weedle|40|35|30|20|20|50}}
+{{BaseStatsListEntry|V002|Vintage Kakuna|45|25|50|25|25|35}}
+{{BaseStatsListEntry|V003|Vintage Beedrill|65|80|40|80|45|75}}
+{{BaseStatsListEntry|V004|Vintage Ledyba|40|20|30|80|40|55}}
+{{BaseStatsListEntry|V005|Vintage Ledian|55|35|50|110|55|85}}
+{{BaseStatsListEntry|V006|Vintage Mareep|55|40|40|45|65|35}}
+{{BaseStatsListEntry|V007|Vintage Flaaffy|70|55|55|60|80|45}}
+{{BaseStatsListEntry|V008|Vintage Ampharos|90|75|75|90|115|55}}
+{{BaseStatsListEntry|V009|Vintage Abra|25|20|15|55|105|90}}
+{{BaseStatsListEntry|V010|Vintage Kadabra|40|35|30|70|120|105}}
+{{BaseStatsListEntry|V011|Vintage Alakazam|55|50|45|85|135|120}}
+{{BaseStatsListEntry|V012|Vintage Magikarp|20|10|55|20|15|80}}
+{{BaseStatsListEntry|V013|Vintage Gyarados|95|125|79|100|60|81}}
+{{BaseStatsListEntry|V014|Vintage Remoraid|35|65|35|35|65|65}}
+{{BaseStatsListEntry|V015|Vintage Octillery|75|105|75|75|105|45}}
+{{BaseStatsListEntry|V016|Vintage Corsola|55|55|85|85|65|35}}
+{{BaseStatsListEntry|V017|Vintage Staryu|30|45|55|55|70|85}}
+{{BaseStatsListEntry|V018|Vintage Starmie|60|75|85|85|100|115}}
+{{BaseStatsListEntry|V019|Vintage Mantine|65|40|70|140|80|70}}
+{{BaseStatsListEntry|V020|Vintage Shuckle|20|10|230|230|10|5}}
+{{BaseStatsListEntry|V021|Vintage Oddish|45|50|55|65|75|30}}
+{{BaseStatsListEntry|V022|Vintage Gloom|60|65|70|75|85|40}}
+{{BaseStatsListEntry|V023|Vintage Vileplume|75|80|85|90|100|50}}
+{{BaseStatsListEntry|V024|Vintage Bellossom|75|80|85|100|90|50}}
+{{BaseStatsListEntry|V025|Vintage Zubat|40|45|35|40|30|55}}
+{{BaseStatsListEntry|V026|Vintage Golbat|75|80|70|75|65|90}}
+{{BaseStatsListEntry|V027|Vintage Crobat|85|90|80|80|70|130}}
+{{BaseStatsListEntry|V028|Vintage Gastly|30|35|30|35|100|80}}
+{{BaseStatsListEntry|V029|Vintage Haunter|45|50|45|55|115|95}}
+{{BaseStatsListEntry|V030|Vintage Gengar|60|65|60|75|130|110}}
+{{BaseStatsListEntry|V031|Vintage Grimer|80|80|50|50|40|25}}
+{{BaseStatsListEntry|V032|Vintage Muk|105|105|75|100|65|50}}
+{{BaseStatsListEntry|V033|Vintage Onix|35|45|160|45|30|70}}
+{{BaseStatsListEntry|V034|Vintage Steelix|75|85|200|65|55|30}}
+{{BaseStatsListEntry|V035|Vintage Geodude|40|80|100|30|30|20}}
+{{BaseStatsListEntry|V036|Vintage Graveler|55|95|115|45|45|35}}
+{{BaseStatsListEntry|V037|Vintage Golem|80|110|130|65|55|45}}
+{{BaseStatsListEntry|V038|Vintage Sneasel|55|95|55|75|35|115}}
+{{BaseStatsListEntry|V039|Vintage Seel|65|45|55|70|45|45}}
+{{BaseStatsListEntry|V040|Vintage Dewgong|90|70|80|95|70|70}}
+{{BaseStatsListEntry|V041|Vintage Smeargle|55|20|35|45|20|75}}
+{{BaseStatsListEntry|V042|Vintage Snubbull|60|80|50|40|40|30}}
+{{BaseStatsListEntry|V043|Vintage Granbull|90|120|75|60|60|45}}
+{{BaseStatsListEntry|V044|Vintage Drowzee|60|48|45|90|43|42}}
+{{BaseStatsListEntry|V045|Vintage Hypno|85|73|70|115|73|67}}
+{{BaseStatsListEntry|V046|Vintage Chikorita|45|49|65|65|49|45}}
+{{BaseStatsListEntry|V047|Vintage Bayleef|60|62|80|80|63|60}}
+{{BaseStatsListEntry|V048|Vintage Meganium|80|82|100|100|83|80}}
+{{BaseStatsListEntry|V049|Vintage Yanma|65|65|45|45|75|95}}
+{{BaseStatsListEntry|V050|Vintage Heracross|80|125|75|95|40|85}}
+{{BaseStatsListEntry|V051|Vintage Ekans|35|60|44|54|40|55}}
+{{BaseStatsListEntry|V052|Vintage Arbok|60|85|69|79|65|80}}
+{{BaseStatsListEntry|V053|Vintage Pichu|20|40|15|35|35|60}}
+{{BaseStatsListEntry|V054|Vintage Pikachu|35|55|30|40|50|90}}
+{{BaseStatsListEntry|V055|Vintage Raichu|60|90|55|80|90|100}}
+{{BaseStatsListEntry|V056|Gorochu|80|110|75|100|110|100}}
+{{BaseStatsListEntry|V057|Vintage Miltank|95|80|105|70|40|100}}
+{{BaseStatsListEntry|V058|Vintage Diglett|10|55|25|45|35|95}}
+{{BaseStatsListEntry|V059|Vintage Dugtrio|35|80|50|70|50|120}}
+{{BaseStatsListEntry|V060|Vintage Larvitar|50|64|50|50|45|41}}
+{{BaseStatsListEntry|V061|Vintage Pupitar|70|84|70|70|65|51}}
+{{BaseStatsListEntry|V062|Vintage Tyranitar|100|134|110|100|95|61}}
+{{BaseStatsListEntry|V063|Vintage Dratini|41|64|45|50|50|50}}
+{{BaseStatsListEntry|V064|Vintage Dragonair|61|84|65|70|70|70}}
+{{BaseStatsListEntry|V065|Vintage Dragonite|91|134|95|100|100|80}}
+{{BaseStatsListEntry|V066|Vintage Charmander|39|52|43|50|60|65}}
+{{BaseStatsListEntry|V067|Vintage Charmeleon|58|64|58|65|80|80}}
+{{BaseStatsListEntry|V068|Vintage Charizard|78|84|78|85|109|100}}
+{{BaseStatsListEntry|V069|Vintage Vulpix|38|41|40|65|50|65}}
+{{BaseStatsListEntry|V070|Vintage Ninetales|73|76|75|100|81|100}}
+{{BaseStatsListEntry|V071|Vintage Koffing|40|65|95|45|60|35}}
+{{BaseStatsListEntry|V072|Vintage Weezing|65|90|120|70|85|60}}
+{{BaseStatsListEntry|V073|Vintage Houndour|45|60|30|50|80|65}}
+{{BaseStatsListEntry|V074|Vintage Houndoom|75|90|50|80|110|95}}
+{{BaseStatsListEntry|V075|Vintage Squirtle|44|48|65|64|50|43}}
+{{BaseStatsListEntry|V076|Vintage Wartortle|59|63|80|80|65|58}}
+{{BaseStatsListEntry|V077|Vintage Blastoise|79|83|100|105|85|78}}
+{{BaseStatsListEntry|V078|Vintage Teddiursa|60|80|50|50|50|40}}
+{{BaseStatsListEntry|V079|Vintage Ursaring|90|130|75|75|75|55}}
+{{BaseStatsListEntry|V080|Vintage Ponyta|50|85|55|65|65|90}}
+{{BaseStatsListEntry|V081|Vintage Rapidash|65|100|70|80|80|105}}
+{{BaseStatsListEntry|V082|Vintage Sandshrew|50|75|85|30|20|40}}
+{{BaseStatsListEntry|V083|Vintage Sandslash|75|100|110|55|45|65}}
+{{BaseStatsListEntry|V084|Vintage Cubone|50|50|95|50|40|35}}
+{{BaseStatsListEntry|V085|Vintage Marowak|60|80|110|80|50|45}}
+{{BaseStatsListEntry|V086|Vintage Natu|40|50|45|45|70|70}}
+{{BaseStatsListEntry|V087|Vintage Xatu|65|75|70|70|95|95}}
+{{BaseStatsListEntry|V088|Vintage Skarmory|65|80|140|70|40|70}}
+{{BaseStatsListEntry|V089|Vintage Rhyhorn|80|85|95|30|30|25}}
+{{BaseStatsListEntry|V090|Vintage Rhydon|105|130|120|45|45|40}}
+{{BaseStatsListEntry|V091|Vintage Murkrow|60|85|42|42|85|91}}
+{{BaseStatsListEntry|V092|Vintage Tauros|75|100|95|70|40|110}}
+{{BaseStatsListEntry|V093|Vintage Magnemite|25|35|70|55|95|45}}
+{{BaseStatsListEntry|V094|Vintage Magneton|50|60|95|70|120|70}}
+{{BaseStatsListEntry|V095|Vintage Elekid|45|63|37|55|65|95}}
+{{BaseStatsListEntry|V096|Vintage Electabuzz|65|83|57|85|95|105}}
+{{BaseStatsListEntry|V097|Meowsy|40|45|35|40|40|90}}
+{{BaseStatsListEntry|V098|Vintage Meowth|40|45|35|40|40|90}}
+{{BaseStatsListEntry|V099|Vintage Persian|65|70|60|65|65|115}}
+{{BaseStatsListEntry|V100|Vintage Igglybuff|90|30|15|20|40|15}}
+{{BaseStatsListEntry|V101|Vintage Jigglypuff|115|45|20|25|45|20}}
+{{BaseStatsListEntry|V102|Vintage Wigglytuff|140|70|45|50|75|45}}
+{{BaseStatsListEntry|V103|Vintage Totodile|50|65|64|48|44|43}}
+{{BaseStatsListEntry|V104|Vintage Croconaw|65|80|80|63|59|58}}
+{{BaseStatsListEntry|V105|Vintage Feraligatr|85|105|100|83|79|78}}
+{{BaseStatsListEntry|V106|Vintage Exeggcute|60|40|80|45|60|40}}
+{{BaseStatsListEntry|V107|Vintage Exeggutor|95|95|85|65|125|55}}
+{{BaseStatsListEntry|V108|Vintage Chansey|250|5|5|105|35|50}}
+{{BaseStatsListEntry|V109|Vintage Blissey|255|10|10|135|75|55}}
+{{BaseStatsListEntry|V110|Vintage Scyther|70|110|80|80|55|105}}
+{{BaseStatsListEntry|V111|Vintage Scizor|70|130|100|80|55|65}}
+{{BaseStatsListEntry|V112|Vintage Aipom|55|70|55|55|40|85}}
+{{BaseStatsListEntry|V113|Vintage Girafarig|70|80|65|65|90|85}}
+{{BaseStatsListEntry|V114|Vintage Bulbasaur|45|49|49|65|65|45}}
+{{BaseStatsListEntry|V115|Vintage Ivysaur|60|62|63|80|80|60}}
+{{BaseStatsListEntry|V116|Vintage Venusaur|80|82|83|100|100|80}}
+{{BaseStatsListEntry|V117|Vintage Rattata|30|56|35|35|25|72}}
+{{BaseStatsListEntry|V118|Vintage Raticate|55|81|60|70|50|97}}
+{{BaseStatsListEntry|V119|Vintage Cyndaquil|39|52|43|50|60|65}}
+{{BaseStatsListEntry|V120|Vintage Quilava|58|64|58|65|80|80}}
+{{BaseStatsListEntry|V121|Vintage Typhlosion|78|84|78|85|109|100}}
+{{BaseStatsListEntry|V122|Vintage Lapras|130|85|80|95|85|60}}
+{{BaseStatsListEntry|V123|Vintage Ditto|48|48|48|48|48|48}}
+{{BaseStatsListEntry|V124|Vintage Eevee|55|55|50|65|45|55}}
+{{BaseStatsListEntry|V125|Vintage Vaporeon|130|65|60|95|110|65}}
+{{BaseStatsListEntry|V126|Vintage Jolteon|65|65|60|95|110|130}}
+{{BaseStatsListEntry|V127|Vintage Flareon|65|130|60|110|95|65}}
+{{BaseStatsListEntry|V128|Vintage Espeon|65|65|60|95|130|110}}
+{{BaseStatsListEntry|V129|Vintage Umbreon|95|65|110|130|60|65}}
+{{BaseStatsListEntry|V130|Vintage Porygon|65|60|70|75|85|40}}
+{{BaseStatsListEntry|V131|Vintage Porygon2|85|80|90|95|105|60}}
+{{BaseStatsListEntry|V132|Sunmola|44|48|65|64|50|43}}
+{{BaseStatsListEntry|V133| Anchorage|44|48|65|64|50|43}}
+{{BaseStatsListEntry|V134|Grotess|44|48|65|64|50|43}}
+{{BaseStatsListEntry|V135|Bomseaker|44|48|65|64|50|43}}
+{{BaseStatsListEntry|V136|Tigrette|35|55|30|40|50|90}}
+{{BaseStatsListEntry|V137|Electiger|60|90|55|80|90|100}}
+{{BaseStatsListEntry|V138|Wolfman|65|45|55|70|45|45}}
+{{BaseStatsListEntry|V139|Warwolf|90|70|80|95|70|70}}
+{{BaseStatsListEntry|V140|Vintage Growlithe|55|70|45|50|70|60}}
+{{BaseStatsListEntry|V141|Vintage Arcanine|90|110|80|80|100|95}}
+{{BaseStatsListEntry|V142|Vintage Magby|45|75|37|55|70|83}}
+{{BaseStatsListEntry|V143|Vintage Magmar|65|95|57|85|100|93}}
+{{BaseStatsListEntry|V144|Vintage Horsea|30|40|70|25|70|60}}
+{{BaseStatsListEntry|V145|Vintage Seadra|55|65|95|45|95|85}}
+{{BaseStatsListEntry|V146|Vintage Kingdra|75|95|95|95|95|85}}
+{{BaseStatsListEntry|V147|Vintage Psyduck|50|52|48|50|65|55}}
+{{BaseStatsListEntry|V148|Vintage Golduck|80|82|78|80|95|85}}
+{{BaseStatsListEntry|V149|Vintage Wooper|55|45|45|25|25|15}}
+{{BaseStatsListEntry|V150|Vintage Quagsire|95|85|85|65|65|35}}
+{{BaseStatsListEntry|V151|Weedle Beta|40|35|30|20|20|50}}
+{{BaseStatsListEntry|V152|Kakuna Beta|45|25|50|25|25|35}}
+{{BaseStatsListEntry|V153|Kasanagy|65|80|40|80|45|75}}
+{{BaseStatsListEntry|V154|Twinz|25|10|30|40|50|50}}
+{{BaseStatsListEntry|V155|Vintage Bellsprout|50|75|35|30|70|40}}
+{{BaseStatsListEntry|V156|Vintage Weepinbell|65|90|50|45|85|55}}
+{{BaseStatsListEntry|V157|Vintage Victreebell|80|105|65|70|100|70}}
+{{BaseStatsListEntry|V158|Bellmit|80|65|105|100|70|70}}
+{{BaseStatsListEntry|V159|Vintage Gligar|65|75|105|65|35|85}}
+{{BaseStatsListEntry|V160|Vintage Tangela|65|55|115|40|100|60}}
+{{BaseStatsListEntry|V161|Vintage Swinub|50|50|40|30|30|50}}
+{{BaseStatsListEntry|V162|Vintage Piloswine|100|100|80|60|60|50}}
+{{BaseStatsListEntry|V163|Vintage Misdreavus|60|60|60|85|85|85}}
+{{BaseStatsListEntry|V164|Kurstraw|50|30|30|60|70|60}}
+{{BaseStatsListEntry|V165|Pangshi|110|40|55|80|95|70}}
+{{BaseStatsListEntry|V166|Vintage Pineco|50|65|90|35|35|15}}
+{{BaseStatsListEntry|V167|Vintage Forretress|75|90|140|60|60|40}}
+{{BaseStatsListEntry|V168|Vintage Kangaskhan|105|95|80|80|40|90}}
+{{BaseStatsListEntry|V169|Trifox|45|75|37|55|70|83}}
+{{BaseStatsListEntry|V170|Vintage Sudowoodo|70|100|115|65|30|30}}
+{{BaseStatsListEntry|V171|Para|50|80|95|45|10|10}}
+{{BaseStatsListEntry|V172|Vintage Paras|35|70|55|55|45|25}}
+{{BaseStatsListEntry|V173|Vintage Parasect|60|95|80|80|60|30}}
+{{BaseStatsListEntry|V174|Vintage Mr. Mime|40|45|65|120|100|90}}
+{{BaseStatsListEntry|V175|Vintage Slowpoke|90|65|65|40|40|15}}
+{{BaseStatsListEntry|V176|Vintage Slowbro|95|75|110|80|100|30}}
+{{BaseStatsListEntry|V177|Vintage Slowking|95|75|80|110|100|30}}
+{{BaseStatsListEntry|V178|Vintage Marill|70|20|50|50|20|40}}
+{{BaseStatsListEntry|V179|Vintage Azumarill|100|50|80|80|50|50}}
+{{BaseStatsListEntry|V180|Vintage Snorlax|160|110|65|110|65|30}}
+{{BaseStatsListEntry|V181|Vintage Aerodactyl|80|105|65|75|60|130}}
+{{BaseStatsListEntry|V182|Ghift|45|55|45|45|65|75}}
+{{BaseStatsListEntry|V183|Sunnee|75|75|55|85|105|30}}
+{{BaseStatsListEntry|V184|Puddi|35|45|35|30|50|40}}
+{{BaseStatsListEntry|V185|Vintage Venonat|60|55|50|55|40|45}}
+{{BaseStatsListEntry|V186|Vintage Venomoth|70|65|60|75|90|90}}
+{{BaseStatsListEntry|V187|Vintage Hoppip|35|35|40|55|35|50}}
+{{BaseStatsListEntry|V188|Vintage Skiploom|55|45|50|65|45|80}}
+{{BaseStatsListEntry|V189|Vintage Jumpluff|75|55|70|85|55|110}}
+{{BaseStatsListEntry|V190|Vintage Phanpy|90|60|60|40|40|40}}
+{{BaseStatsListEntry|V191|Vintage Donphan|90|120|120|60|60|50}}
+{{BaseStatsListEntry|V192|Vintage Hoothoot|60|30|30|56|36|50}}
+{{BaseStatsListEntry|V193|Vintage Noctowl|100|50|50|96|76|70}}
+{{BaseStatsListEntry|V194|Gohng|35|35|35|35|35|35}}
+{{BaseStatsListEntry|V195|Retro Hitmontop|50|95|95|110|35|70}}
+{{BaseStatsListEntry|V196|Animon|48|48|48|48|48|48}}
+{{BaseStatsListEntry|V197|Vintage Unown|48|72|48|48|72|48}}
+{{BaseStatsListEntry|V198|Vintage Stantler|73|95|62|65|85|85}}
+{{BaseStatsListEntry|V199|Vintage Caterpie|45|30|35|20|20|45}}
+{{BaseStatsListEntry|V200|Vintage Metapod|50|20|55|25|25|30}}
+{{BaseStatsListEntry|V201|Vintage Butterfree|60|45|50|80|80|70}}
+{{BaseStatsListEntry|V202|Vintage Tyrogue|35|35|35|35|35|35}}
+{{BaseStatsListEntry|V203|Vintage Hitmonlee|50|120|53|110|35|87}}
+{{BaseStatsListEntry|V204|Vintage Hitmonchan|50|105|79|110|35|76}}
+{{BaseStatsListEntry|V205|Vintage Hitmontop|50|95|95|110|35|70}}
+{{BaseStatsListEntry|V206|Vintage Slugma|40|40|40|40|70|20}}
+{{BaseStatsListEntry|V207|Vintage Magcargo|50|50|120|80|80|30}}

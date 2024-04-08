@@ -1,0 +1,834 @@
+{{AbilityListEntry|001|Shyleon|Rattled||Jungle Spirit}}
+{{AbilityListEntry|002|Trishout|Keen Eye||Voice Tuning}}
+{{AbilityListEntry|003|Shulong|Hydration||Dragon Armor}}
+{{AbilityListEntry|004|Zigzagoon|Pickup|Gluttony|Quick Feet}}
+{{AbilityListEntry|005|Linoone|Pickup|Gluttony|Quick Feet}}
+{{AbilityListEntry|006|Bidoof|Simple|Unaware|Moody}}
+{{AbilityListEntry|007|Bibarel|Simple|Unaware|Moody}}
+{{AbilityListEntry|008|Sparkowl|Big Pecks|Static|Motor Drive}}
+{{AbilityListEntry|009|Shawkbird|Big Pecks|Static|Motor Drive}}
+{{AbilityListEntry|010|Harrowk|Sniper|Static|Drizzle}}
+{{AbilityListEntry|011|Weedle|Shield Dust||Runaway}}
+{{AbilityListEntry|012|Kakuna|Shed Skin||}}
+{{AbilityListEntry|013|Beedrill|Swarm||Sniper}}
+{{AbilityListEntry|014|Ledyba|Swarm|Early Bird|Rattled}}
+{{AbilityListEntry|015|Ledian|Swarm|Early Bird|Iron Fist}}
+{{AbilityListEntry|016|Kricketot|Shed Skin||Runaway}}
+{{AbilityListEntry|017|Kricketune|Swarm||Technician}}
+{{AbilityListEntry|018|Mareep|Static||Plus}}
+{{AbilityListEntry|019|Flaaffy|Static||Plus}}
+{{AbilityListEntry|020|Ampharos|Static||Plus}}
+{{AbilityListEntry|021|Yemin|Inner Focus|Technician|Guts}}
+{{AbilityListEntry|022|Kungfur|Inner Focus|Technician|Pure Power}}
+{{AbilityListEntry|023|Abra|Synchronize|Inner Focus|Magic Guard}}
+{{AbilityListEntry|024|Kadabra|Synchronize|Inner Focus|Magic Guard}}
+{{AbilityListEntry|025|Alakazam|Synchronize|Inner Focus|Magic Guard}}
+{{AbilityListEntry|026|Taillow|Guts||Scrappy}}
+{{AbilityListEntry|027|Swellow|Guts||Scrappy}}
+{{AbilityListEntry|028|Wingull|Keen Eye|Hydration|Rain Dish}}
+{{AbilityListEntry|029|Pelipper|Keen Eye|Drizzle|Rain Dish}}
+{{AbilityListEntry|030|Masgot|Intimidate||Overcoat}}
+{{AbilityListEntry|031|Dwebble|Sturdy|Shell Armor|Weak Armor}}
+{{AbilityListEntry|032|Crustle|Sturdy|Shell Armor|Weak Armor}}
+{{AbilityListEntry|033|Bremand|Mold Breaker||}}
+{{AbilityListEntry|034|Magikarp|Swift Swim||Rattled}}
+{{AbilityListEntry|035|Gyarados|Intimidate||Moxie}}
+{{AbilityListEntry|036|Corphish|Hyper Cutter|Shell Armor|Adaptability}}
+{{AbilityListEntry|037|Crawdaunt|Hyper Cutter|Shell Armor|Adaptability}}
+{{AbilityListEntry|038|Feebas|Swift Swim|Oblivious|Adaptability}}
+{{AbilityListEntry|039|Milotic|Marvel Scale|Competitive|Cute Charm}}
+{{AbilityListEntry|040|Pyukumuku|Innards Out||Unaware}}
+{{AbilityListEntry|041|Remoraid|Hustle|Sniper|Moody}}
+{{AbilityListEntry|042|Octillery|Suction Cups|Sniper|Moody}}
+{{AbilityListEntry|043|Sandygast|Water Compaction||Sand Veil}}
+{{AbilityListEntry|044|Palossand|Water Compaction||Sand Veil}}
+{{AbilityListEntry|045|Corsola|Hustle|Natural Cure|Regenerator}}
+{{AbilityListEntry|046|Staryu|Illuminate|Natural Cure|Analytic}}
+{{AbilityListEntry|047|Starmie|Illuminate|Natural Cure|Analytic}}
+{{AbilityListEntry|048|Inkay|Contrary|Suction Cups|Infiltrator}}
+{{AbilityListEntry|049|Malamar|Contrary|Suction Cups|Infiltrator}}
+{{AbilityListEntry|050|Mantyke|Swift Swim|Water Absorb|Water Veil}}
+{{AbilityListEntry|051|Mantine|Swift Swim|Water Absorb|Water Veil}}
+{{AbilityListEntry|052|Popplio|Torrent||Synthesizer}}
+{{AbilityListEntry|053|Brionne|Torrent||Synthesizer}}
+{{AbilityListEntry|054|Primarina|Torrent||Liquid Voice}}
+{{AbilityListEntry|055|Shuckle|Sturdy|Gluttony|Contrary}}
+{{AbilityListEntry|056|Phantump|Natural Cure|Frisk|Harvest}}
+{{AbilityListEntry|057|Trevenant|Natural Cure|Frisk|Harvest}}
+{{AbilityListEntry|058|Oddish|Chlorophyll||Runaway}}
+{{AbilityListEntry|059|Gloom|Chlorophyll||Stench}}
+{{AbilityListEntry|060|Vileplume|Chlorophyll||Effect Spore}}
+{{AbilityListEntry|061|Bellossom|Chlorophyll||Healer}}
+{{AbilityListEntry|062|Morelull|Illuminate|Effect Spore|Rain Dish}}
+{{AbilityListEntry|063|Shiinotic|Illuminate|Effect Spore|Rain Dish}}
+{{AbilityListEntry|064|Zubat|Inner Focus||Infiltrator}}
+{{AbilityListEntry|065|Golbat|Inner Focus||Infiltrator}}
+{{AbilityListEntry|066|Crobat|Inner Focus||Infiltrator}}
+{{AbilityListEntry|067|Carvanha|Rough Skin||Speed Boost}}
+{{AbilityListEntry|068|Sharpedo|Rough Skin||Speed Boost}}
+{{AbilityListEntry|069|Mareanie|Merciless|Limber|Regenerator}}
+{{AbilityListEntry|070|Toxapex|Merciless|Limber|Regenerator}}
+{{AbilityListEntry|071|Gastly|Levitate||}}
+{{AbilityListEntry|072|Haunter|Levitate||}}
+{{AbilityListEntry|073|Gengar|Cursed Body||}}
+{{AbilityListEntry|074|Grimer|Stench|Sticky Hold|Poison Touch}}
+{{AbilityListEntry|075|Muk|Stench|Sticky Hold|Poison Touch}}
+{{AbilityListEntry|076|Puppillon|Frisk||Shadow Tag}}
+{{AbilityListEntry|077|Hangead|Frisk||Shadow Tag}}
+{{AbilityListEntry|078|Nunvil|Anticipation||Cursed Body}}
+{{AbilityListEntry|079|Whisteract|Anticipation||Cursed Body}}
+{{AbilityListEntry|080|Onix|Rock Head|Sturdy|Weak Armor}}
+{{AbilityListEntry|081|Steelix|Rock Head|Sturdy|Sheer Force}}
+{{AbilityListEntry|082|Cubchoo|Snow Cloak|Slush Rush|Rattled}}
+{{AbilityListEntry|083|Beartic|Snow Cloak|Slush Rush|Swift Swim}}
+{{AbilityListEntry|084|Geodude|Rock Head|Sturdy|Sand Veil}}
+{{AbilityListEntry|085|Graveler|Rock Head|Sturdy|Sand Veil}}
+{{AbilityListEntry|086|Golem|Rock Head|Sturdy|Sand Veil}}
+{{AbilityListEntry|087|Roggenrola|Sturdy|Weak Armor|Sand Force}}
+{{AbilityListEntry|088|Boldore|Sturdy|Weak Armor|Sand Force}}
+{{AbilityListEntry|089|Gigalith|Sturdy|Sand Stream|Sand Force}}
+{{AbilityListEntry|090|Bergmite|Own Tempo|Ice Body|Sturdy}}
+{{AbilityListEntry|091|Avalugg|Own Tempo|Ice Body|Sturdy}}
+{{AbilityListEntry|092|Sneasel|Inner Focus|Keen Eye|Pickpocket}}
+{{AbilityListEntry|093|Weavile|Pressure||Pickpocket}}
+{{AbilityListEntry|094|Blingrimm|Hyper Cutter|Poison Touch|Tough Claws}}
+{{AbilityListEntry|095|Blingrudge|Hyper Cutter|Poison Touch|Tough Claws}}
+{{AbilityListEntry|096|Spheal|Thick Fat|Ice Body|Oblivious}}
+{{AbilityListEntry|097|Sealeo|Thick Fat|Ice Body|Oblivious}}
+{{AbilityListEntry|098|Walrein|Thick Fat|Ice Body|Oblivious}}
+{{AbilityListEntry|099|Seel|Thick Fat|Hydration|Ice Body}}
+{{AbilityListEntry|100|Dewgong|Thick Fat|Hydration|Ice Body}}
+{{AbilityListEntry|101|Hikiloo|Vital Spirit|Snow Cloak|Ice Body}}
+{{AbilityListEntry|102|Mylomute|Vital Spirit|Snow Cloak|Snow Warning}}
+{{AbilityListEntry|103|Buizel|Swift Swim||Water Veil}}
+{{AbilityListEntry|104|Floatzel|Swift Swim||Water Veil}}
+{{AbilityListEntry|105|Kidoon|Dry Skin||Weak Armor}}
+{{AbilityListEntry|106|Honchen|Dry Skin||Moxie}}
+{{AbilityListEntry|107|Smeargle|Own Tempo|Technician|Moody}}
+{{AbilityListEntry|108|Meowth|Pickup|Anticipation|Wonder Skin}}
+{{AbilityListEntry|109|Persage|Pickup|Anticipation|Wonder Skin}}
+{{AbilityListEntry|110|Snubbull|Intimidate|Runaway|Rattled}}
+{{AbilityListEntry|111|Granbull|Intimidate|Quick Feet|Rattled}}
+{{AbilityListEntry|112|Drowzee|Insomnia|Forewarn|Inner Focus}}
+{{AbilityListEntry|113|Hypno|Insomnia|Forewarn|Inner Focus}}
+{{AbilityListEntry|114|Koinkoin|Piggy Bank||}}
+{{AbilityListEntry|115|Beefle|Swarm|Battle Armor|Unaware}}
+{{AbilityListEntry|116|Punchbug|Swarm|Battle Armor|Huge Power}}
+{{AbilityListEntry|117|Hercurcules|Swarm|Battle Armor|Guts}}
+{{AbilityListEntry|118|Combee|Honey Gather||Hustle}}
+{{AbilityListEntry|119|Vespiquen|Pressure||Unnerve}}
+{{AbilityListEntry|120|Chigami|Rough Skin||Tough Claws}}
+{{AbilityListEntry|121|Grudako|Rough Skin||Tough Claws}}
+{{AbilityListEntry|122|Sabolt|Download||}}
+{{AbilityListEntry|123|Sewaddle|Swarm|Chlorophyll|Overcoat}}
+{{AbilityListEntry|124|Swadloon|Leaf Guard|Chlorophyll|Overcoat}}
+{{AbilityListEntry|125|Leavanny|Swarm|Chlorophyll|Overcoat}}
+{{AbilityListEntry|126|Audino|Healer|Regenerator|Klutz}}
+{{AbilityListEntry|127|Chikorita|Overgrow||Leaf Guard}}
+{{AbilityListEntry|128|Bayleef|Overgrow||Leaf Guard}}
+{{AbilityListEntry|129|Meganium|Overgrow||Leaf Guard}}
+{{AbilityListEntry|130|Cottonee|Prankster|Infiltrator|Chlorophyll}}
+{{AbilityListEntry|131|Whimsicott|Prankster|Infiltrator|Chlorophyll}}
+{{AbilityListEntry|132|Yanma|Speed Boost|Compound Eyes|Frisk}}
+{{AbilityListEntry|133|Yanmega|Speed Boost|Tinted Lens|Frisk}}
+{{AbilityListEntry|134|Heracross|Swarm|Guts|Moxie}}
+{{AbilityListEntry|135|Ekans|Intimidate|Shed Skin|Unnerve}}
+{{AbilityListEntry|136|Arbok|Intimidate|Shed Skin|Unnerve}}
+{{AbilityListEntry|137|Croagunk|Anticipation|Dry Skin|Poison Touch}}
+{{AbilityListEntry|138|Toxicroak|Anticipation|Dry Skin|Poison Touch}}
+{{AbilityListEntry|139|Stunky|Stench|Aftermath|Keen Eye}}
+{{AbilityListEntry|140|Skuntank|Stench|Aftermath|Keen Eye}}
+{{AbilityListEntry|141|Ditto|Limber||Imposter}}
+{{AbilityListEntry|142|Pichu|Static||Lightning Rod}}
+{{AbilityListEntry|143|Pikachu|Static||Lightning Rod}}
+{{AbilityListEntry|144|Raichu|Static||Lightning Rod}}
+{{AbilityListEntry|145|Gachigachoo|Static||Cheek Pouch}}
+{{AbilityListEntry|146|Miltank|Thick Fat|Scrappy|Sap Sipper}}
+{{AbilityListEntry|147|Budew|Natural Cure|Poison Point|Leaf Guard}}
+{{AbilityListEntry|148|Roselia|Natural Cure|Poison Point|Leaf Guard}}
+{{AbilityListEntry|149|Roserade|Natural Cure|Poison Point|Technician}}
+{{AbilityListEntry|150|Buneary|Runaway|Klutz|Limber}}
+{{AbilityListEntry|151|Lopunny|Cute Charm|Klutz|Limber}}
+{{AbilityListEntry|152|Minccino|Cute Charm|Technician|Skill Link}}
+{{AbilityListEntry|153|Cinccino|Cute Charm|Technician|Skill Link}}
+{{AbilityListEntry|154|Swirlix|Sweet Veil||Unburden}}
+{{AbilityListEntry|155|Slurpuff|Sweet Veil|Unaware|Unburden}}
+{{AbilityListEntry|156|Hystearic|Synthesizer||}}
+{{AbilityListEntry|157|Wystearia|Synthesizer||}}
+{{AbilityListEntry|158|Whismur|Soundproof||Rattled}}
+{{AbilityListEntry|159|Loudred|Soundproof||Scrappy}}
+{{AbilityListEntry|160|Exploud|Soundproof||Scrappy}}
+{{AbilityListEntry|161|Plusle|Plus||}}
+{{AbilityListEntry|162|Minun|Minus||}}
+{{AbilityListEntry|163|Pepequeno|Flame Body||Drought}}
+{{AbilityListEntry|164|Scovile|Flame Body||Drought}}
+{{AbilityListEntry|165|Excalibould|Sturdy|Rock Head|Justified}}
+{{AbilityListEntry|166|Madieval|Sturdy|Rock Head|Justified}}
+{{AbilityListEntry|167|Diglett|Sand Veil|Arena Trap|Sand Force}}
+{{AbilityListEntry|168|Dugtrio|Sand Veil|Arena Trap|Sand Force}}
+{{AbilityListEntry|169|Drilbur|Sand Rush|Sand Force|Mold Breaker}}
+{{AbilityListEntry|170|Excadrill|Sand Rush|Sand Force|Mold Breaker}}
+{{AbilityListEntry|171|Aron|Sturdy|Rock Head|Heavy Metal}}
+{{AbilityListEntry|172|Lairon|Sturdy|Rock Head|Heavy Metal}}
+{{AbilityListEntry|173|Aggron|Sturdy|Rock Head|Heavy Metal}}
+{{AbilityListEntry|174|Larvitar|Guts||Sand Veil}}
+{{AbilityListEntry|175|Pupitar|Shed Skin||}}
+{{AbilityListEntry|176|Tyranitar|Sand Stream||Unnerve}}
+{{AbilityListEntry|177|Klink|Plus|Minus|Clear Body}}
+{{AbilityListEntry|178|Klang|Plus|Minus|Clear Body}}
+{{AbilityListEntry|179|Klinklang|Plus|Minus|Clear Body}}
+{{AbilityListEntry|180|Tynamo|Levitate||}}
+{{AbilityListEntry|181|Eelektrik|Levitate||}}
+{{AbilityListEntry|182|Eelektross|Levitate||}}
+{{AbilityListEntry|183|Rockapye|Pickup||Adaptability}}
+{{AbilityListEntry|184|Troglolith|Defiant||Adaptability}}
+{{AbilityListEntry|185|Sputnink|Analytic||Levitate}}
+{{AbilityListEntry|186|Nebyura|Analytic||Levitate}}
+{{AbilityListEntry|187|Hippopotas|Sand Stream||Sand Force}}
+{{AbilityListEntry|188|Hippowdon|Sand Stream||Sand Force}}
+{{AbilityListEntry|189|Birigiri|Unnerve|Hustle|Motor Drive}}
+{{AbilityListEntry|190|Chubiburny|Thick Fat||Gluttony}}
+{{AbilityListEntry|191|Goombear|Thick Fat||Gluttony}}
+{{AbilityListEntry|192|Dratini|Shed Skin||Marvel Scale}}
+{{AbilityListEntry|193|Dragonair|Shed Skin||Marvel Scale}}
+{{AbilityListEntry|194|Dragonite|Inner Focus||Multiscale}}
+{{AbilityListEntry|195|Trapinch|Hyper Cutter|Arena Trap|Sheer Force}}
+{{AbilityListEntry|196|Vibrava|Levitate||}}
+{{AbilityListEntry|197|Flygon|Levitate||}}
+{{AbilityListEntry|198|Druddigon|Rough Skin|Sheer Force|Mold Breaker}}
+{{AbilityListEntry|199|Manticoeur|Cute Charm|Poison Point|Moody}}
+{{AbilityListEntry|200|Fatail|Cute Charm|Poison Touch|Moody}}
+{{AbilityListEntry|201|Axew|Rivalry|Mold Breaker|Unnerve}}
+{{AbilityListEntry|202|Fraxure|Rivalry|Mold Breaker|Unnerve}}
+{{AbilityListEntry|203|Haxorus|Rivalry|Mold Breaker|Unnerve}}
+{{AbilityListEntry|204|Noibat|Frisk|Infiltrator|Telepathy}}
+{{AbilityListEntry|205|Noivern|Frisk|Infiltrator|Telepathy}}
+{{AbilityListEntry|206|Turtonator|Shell Armor||}}
+{{AbilityListEntry|207|Charmander|Blaze||Solar Power}}
+{{AbilityListEntry|208|Charmeleon|Blaze||Solar Power}}
+{{AbilityListEntry|209|Charizard|Blaze||Solar Power}}
+{{AbilityListEntry|210|Vulpix|Flash Fire||Drought}}
+{{AbilityListEntry|211|Ninetales|Flash Fire||Drought}}
+{{AbilityListEntry|212|Koffing|Levitate||}}
+{{AbilityListEntry|213|Weezing|Levitate||}}
+{{AbilityListEntry|214|Houndour|Early Bird|Flash Fire|Unnerve}}
+{{AbilityListEntry|215|Houndoom|Early Bird|Flash Fire|Unnerve}}
+{{AbilityListEntry|216|Numel|Oblivious|Simple|Own Tempo}}
+{{AbilityListEntry|217|Camerupt|Magma Armor|Solid Rock|Anger Point}}
+{{AbilityListEntry|218|Torkoal|White Smoke|Drought|Shell Armor}}
+{{AbilityListEntry|219|Reindear|Vital Spirit||}}
+{{AbilityListEntry|220|Reindigo|Defeatist||}}
+{{AbilityListEntry|221|Sosqwatch|Slush Rush||}}
+{{AbilityListEntry|222|Squirtle|Torrent||Rain Dish}}
+{{AbilityListEntry|223|Wartortle|Torrent||Rain Dish}}
+{{AbilityListEntry|224|Blastoise|Torrent||Rain Dish}}
+{{AbilityListEntry|225|Teddiursa|Pickup|Quick Feet|Honey Gather}}
+{{AbilityListEntry|226|Ursaring|Guts|Quick Feet|Unnerve}}
+{{AbilityListEntry|227|Absol|Pressure|Super Luck|Justified}}
+{{AbilityListEntry|228|Riolu|Steadfast|Inner Focus|Prankster}}
+{{AbilityListEntry|229|Lucario|Steadfast|Inner Focus|Justified}}
+{{AbilityListEntry|230|Drampa|Berserk|Sap Sipper|Cloud Nine}}
+{{AbilityListEntry|231|Ponyta|Runaway|Flash Fire|Flame Body}}
+{{AbilityListEntry|232|Rapidash|Runaway|Flash Fire|Flame Body}}
+{{AbilityListEntry|233|Sandshrew|Sand Veil||Sand Rush}}
+{{AbilityListEntry|234|Sandslash|Sand Veil||Sand Rush}}
+{{AbilityListEntry|235|Cubone|Rock Head|Lightning Rod|Battle Armor}}
+{{AbilityListEntry|236|Marowak|Rock Head|Lightning Rod|Battle Armor}}
+{{AbilityListEntry|237|Natu|Synchronize|Early Bird|Magic Bounce}}
+{{AbilityListEntry|238|Xatu|Synchronize|Early Bird|Magic Bounce}}
+{{AbilityListEntry|239|Cacnea|Sand Veil||Water Absorb}}
+{{AbilityListEntry|240|Cacturne|Sand Veil||Water Absorb}}
+{{AbilityListEntry|241|Rufflet|Keen Eye|Sheer Force|Hustle}}
+{{AbilityListEntry|242|Braviary|Keen Eye|Sheer Force|Defiant}}
+{{AbilityListEntry|243|Vullaby|Big Pecks|Overcoat|Weak Armor}}
+{{AbilityListEntry|244|Mandibuzz|Big Pecks|Overcoat|Weak Armor}}
+{{AbilityListEntry|245|Vroombug|Aftermath|Speed Boost|Flare Boost}}
+{{AbilityListEntry|246|Skravroom|Aftermath|Speed Boost|Regenerator}}
+{{AbilityListEntry|247|Chikaboo|Runaway||Sand Veil}}
+{{AbilityListEntry|248|Peckabone|Pickpocket||Sand Veil}}
+{{AbilityListEntry|249|Rexquiem|Pressure||Raptor}}
+{{AbilityListEntry|250|Kecleon|Color Change||}}
+{{AbilityListEntry|251|Skarmory|Keen Eye|Sturdy|Weak Armor}}
+{{AbilityListEntry|252|Rhyhorn|Lightning Rod|Rock Head|Reckless}}
+{{AbilityListEntry|253|Rhydon|Lightning Rod|Rock Head|Reckless}}
+{{AbilityListEntry|254|Rhyperior|Lightning Rod|Solid Rock|Reckless}}
+{{AbilityListEntry|255|Beldum|Clear Body||Light Metal}}
+{{AbilityListEntry|256|Metang|Clear Body||Light Metal}}
+{{AbilityListEntry|257|Metagross|Clear Body||Light Metal}}
+{{AbilityListEntry|258|Elgyem|Telepathy|Synchronize|Analytic}}
+{{AbilityListEntry|259|Beheeyem|Telepathy|Synchronize|Analytic}}
+{{AbilityListEntry|260|Litwick|Flash Fire|Flame Body|Infiltrator}}
+{{AbilityListEntry|261|Lampent|Flash Fire|Flame Body|Infiltrator}}
+{{AbilityListEntry|262|Chandelure|Flash Fire|Flame Body|Infiltrator}}
+{{AbilityListEntry|263|Mimikyu|Disguise||Infiltrator}}
+{{AbilityListEntry|264|Murkrow|Insomnia|Super Luck|Prankster}}
+{{AbilityListEntry|265|Honchkrow|Insomnia|Super Luck|Moxie}}
+{{AbilityListEntry|266|Scaracno|Rattled||Insomnia}}
+{{AbilityListEntry|267|Scaracluo|Rattled||Insomnia}}
+{{AbilityListEntry|268|Scarphasmo|Volt Absorb||Insomnia}}
+{{AbilityListEntry|269|Tauros|Intimidate|Anger Point|Sheer Force}}
+{{AbilityListEntry|270|Magnemite|Magnet Pull|Sturdy|Analytic}}
+{{AbilityListEntry|271|Magneton|Magnet Pull|Sturdy|Analytic}}
+{{AbilityListEntry|272|Magnezone|Magnet Pull|Sturdy|Analytic}}
+{{AbilityListEntry|273|Elekid|Static||Vital Spirit}}
+{{AbilityListEntry|274|Electabuzz|Static||Vital Spirit}}
+{{AbilityListEntry|275|Electivire|Motor Drive||Vital Spirit}}
+{{AbilityListEntry|276|Bouffalant|Reckless|Sap Sipper|Soundproof}}
+{{AbilityListEntry|277|Joltik|Compound Eyes|Unnerve|Swarm}}
+{{AbilityListEntry|278|Galvantula|Compound Eyes|Unnerve|Swarm}}
+{{AbilityListEntry|279|Scraggy|Shed Skin|Moxie|Intimidate}}
+{{AbilityListEntry|280|Scrafty|Shed Skin|Moxie|Intimidate}}
+{{AbilityListEntry|281|Spinda|Own Tempo|Tangled Feet|Contrary}}
+{{AbilityListEntry|282|Tokakle|Simple||Prankster}}
+{{AbilityListEntry|283|Blitzle|Lightning Rod|Motor Drive|Sap Sipper}}
+{{AbilityListEntry|284|Zebstrika|Lightning Rod|Motor Drive|Sap Sipper}}
+{{AbilityListEntry|285|Litten|Blaze||Intimidate}}
+{{AbilityListEntry|286|Torracat|Blaze||Intimidate}}
+{{AbilityListEntry|287|Incineroar|Blaze||Intimidate}}
+{{AbilityListEntry|288|Igglybuff|Cute Charm||Friend Guard}}
+{{AbilityListEntry|289|Jigglypuff|Cute Charm||Friend Guard}}
+{{AbilityListEntry|290|Wigglytuff|Cute Charm|Competitive|Frisk}}
+{{AbilityListEntry|291|Pachirisu|Runaway|Pickup|Volt Absorb}}
+{{AbilityListEntry|292|Timburr|Guts|Sheer Force|Iron Fist}}
+{{AbilityListEntry|293|Gurdurr|Guts|Sheer Force|Iron Fist}}
+{{AbilityListEntry|294|Conkeldurr|Guts|Sheer Force|Iron Fist}}
+{{AbilityListEntry|295|Pawniard|Defiant|Inner Focus|Pressure}}
+{{AbilityListEntry|296|Bisharp|Defiant|Inner Focus|Pressure}}
+{{AbilityListEntry|297|Sandile|Intimidate|Moxie|Anger Point}}
+{{AbilityListEntry|298|Krokorok|Intimidate|Moxie|Anger Point}}
+{{AbilityListEntry|299|Krookodile|Intimidate|Moxie|Anger Point}}
+{{AbilityListEntry|300|Totodile|Torrent||Sheer Force}}
+{{AbilityListEntry|301|Croconaw|Torrent||Sheer Force}}
+{{AbilityListEntry|302|Feraligatr|Torrent||Sheer Force}}
+{{AbilityListEntry|303|Exeggcute|Chlorophyll||Harvest}}
+{{AbilityListEntry|304|Exeggutor|Chlorophyll||Harvest}}
+{{AbilityListEntry|305|Happiny|Natural Cure|Serene Grace|Friend Guard}}
+{{AbilityListEntry|306|Chansey|Natural Cure|Serene Grace|Healer}}
+{{AbilityListEntry|307|Blissey|Natural Cure|Serene Grace|Healer}}
+{{AbilityListEntry|308|Donanas|Shell Armor|Iron Barbs|Water Absorb}}
+{{AbilityListEntry|309|Scyther|Swarm|Technician|Steadfast}}
+{{AbilityListEntry|310|Scizor|Swarm|Technician|Light Metal}}
+{{AbilityListEntry|311|Rowlet|Overgrow||Long Reach}}
+{{AbilityListEntry|312|Dartrix|Overgrow||Long Reach}}
+{{AbilityListEntry|313|Decidueye|Overgrow||Long Reach}}
+{{AbilityListEntry|314|Passimian|Scrappy||Defiant}}
+{{AbilityListEntry|315|Aipom|Runaway|Pickup|Skill Link}}
+{{AbilityListEntry|316|Ambipom|Technician|Pickup|Skill Link}}
+{{AbilityListEntry|317|Girafarig|Inner Focus|Early Bird|Sap Sipper}}
+{{AbilityListEntry|318|Chatot|Keen Eye|Tangled Feet|Big Pecks}}
+{{AbilityListEntry|319|Litleo|Rivalry|Unnerve|Moxie}}
+{{AbilityListEntry|320|Pyroar|Rivalry|Unnerve|Moxie}}
+{{AbilityListEntry|321|Tropius|Chlorophyll|Solar Power|Harvest}}
+{{AbilityListEntry|322|Carnivine|Levitate||}}
+{{AbilityListEntry|323|Bulbasaur|Overgrow||Chlorophyll}}
+{{AbilityListEntry|324|Ivysaur|Overgrow||Chlorophyll}}
+{{AbilityListEntry|325|Venusaur|Overgrow||Chlorophyll}}
+{{AbilityListEntry|326|Sigilyph|Wonder Skin|Magic Guard|Tinted Lens}}
+{{AbilityListEntry|327|Baltoy|Levitate||}}
+{{AbilityListEntry|328|Claydol|Levitate||}}
+{{AbilityListEntry|329|Spiritomb|Pressure||Infiltrator}}
+{{AbilityListEntry|330|Yamask|Mummy||}}
+{{AbilityListEntry|331|Cofagrigus|Mummy||}}
+{{AbilityListEntry|332|Hawlucha|Unburden|Limber|Mold Breaker}}
+{{AbilityListEntry|333|Nosepass|Sturdy|Magnet Pull|Sand Force}}
+{{AbilityListEntry|334|Probopass|Sturdy|Magnet Pull|Sand Force}}
+{{AbilityListEntry|335|Rattata|Runaway|Guts|Hustle}}
+{{AbilityListEntry|336|Raticate|Runaway|Guts|Hustle}}
+{{AbilityListEntry|337|Cyndaquil|Blaze||Flash Fire}}
+{{AbilityListEntry|338|Quilava|Blaze||Flash Fire}}
+{{AbilityListEntry|339|Typhlosion|Blaze||Flash Fire}}
+{{AbilityListEntry|340|Gulpin|Liquid Ooze|Sticky Hold|Gluttony}}
+{{AbilityListEntry|341|Swalot|Liquid Ooze|Sticky Hold|Gluttony}}
+{{AbilityListEntry|342|Trubbish|Stench|Sticky Hold|Aftermath}}
+{{AbilityListEntry|343|Garbodor|Stench|Weak Armor|Aftermath}}
+{{AbilityListEntry|344|Chimaooze|Dirty Pool||}}
+{{AbilityListEntry|345|Clamperl|Shell Armor||Rattled}}
+{{AbilityListEntry|346|Huntail|Swift Swim||Water Veil}}
+{{AbilityListEntry|347|Gorebyss|Swift Swim||Hydration}}
+{{AbilityListEntry|348|Alomomola|Hydration|Healer|Regenerator}}
+{{AbilityListEntry|349|Lapras|Water Absorb|Shell Armor|Hydration}}
+{{AbilityListEntry|350|Eevee|Runaway|Adaptability|Anticipation}}
+{{AbilityListEntry|351|Vaporeon|Water Absorb||Hydration}}
+{{AbilityListEntry|352|Jolteon|Volt Absorb||Quick Feet}}
+{{AbilityListEntry|353|Flareon|Flash Fire||Guts}}
+{{AbilityListEntry|354|Espeon|Synchronize||Magic Bounce}}
+{{AbilityListEntry|355|Umbreon|Synchronize||Inner Focus}}
+{{AbilityListEntry|356|Leafeon|Leaf Guard||Chlorophyll}}
+{{AbilityListEntry|357|Glaceon|Snow Cloak||Ice Body}}
+{{AbilityListEntry|358|Sylveon|Cute Charm||Pixilate}}
+{{AbilityListEntry|359|Bandeon|Own Tempo||Equalize}}
+{{AbilityListEntry|360|Scaleon|Hyper Cutter||Scalate}}
+{{AbilityListEntry|361|Porygon|Trace|Download|Analytic}}
+{{AbilityListEntry|362|Porygon2|Trace|Download|Analytic}}
+{{AbilityListEntry|363|Porygon-Z|Adaptability|Download|Analytic}}
+{{AbilityListEntry|364|Porygon-WES|Magic Guard||}}
+{{AbilityListEntry|365|Dusmee|Shed Skin|Wonder Skin|Marvel Scale}}
+{{AbilityListEntry|366|Egohiss|Shed Skin|Wonder Skin|Marvel Scale}}
+{{AbilityListEntry|367|Egorgeon|Shed Skin|Wonder Skin|Multiscale}}
+{{AbilityListEntry|368|Chiripe|Overgrow||Unburden}}
+{{AbilityListEntry|369|Batnana|Overgrow||Klutz}}
+{{AbilityListEntry|370|Vesperfum|Overgrow||Technician}}
+{{AbilityListEntry|371|Croakling|Blaze||Reckless}}
+{{AbilityListEntry|372|Bullverin|Blaze||Reckless}}
+{{AbilityListEntry|373|Croakraze|Blaze||Speed Boost}}
+{{AbilityListEntry|374|Inflant|Torrent||Moxie}}
+{{AbilityListEntry|375|Floatusk|Torrent||Moxie}}
+{{AbilityListEntry|376|Swelephant|Torrent||Moxie}}
+{{AbilityListEntry|377|Luxflon|Holy Guard||}}
+{{AbilityListEntry|378|Dielebi|Serene Grace||}}
+{{AbilityListEntry|379|Mew|Synchronize||}}
+{{AbilityListEntry|380|Lugia|Pressure||Multiscale}}
+{{AbilityListEntry|381|Ho-oh|Pressure||Regenerator}}
+{{AbilityListEntry|382|Celebi|Natural Cure||}}
+{{AbilityListEntry|383|Deoxys|Pressure||}}
+{{AbilityListEntry|384|Heatran|Flash Fire||Flame Body}}
+{{AbilityListEntry|385|Cresselia|Levitate||}}
+{{AbilityListEntry|386|Darkrai|Bad Dreams||}}
+{{AbilityListEntry|387|Meloetta|Serene Grace||}}
+{{AbilityListEntry|388|Genesect|Download||}}
+{{AbilityListEntry|389|Marshadow|Technician||}}
+{{AbilityListEntry|390|Growlithe|Intimidate|Flash Fire|Justified}}
+{{AbilityListEntry|391|Arcanine|Intimidate|Flash Fire|Justified}}
+{{AbilityListEntry|392|Seedot|Chlorophyll|Early Bird|Pickpocket}}
+{{AbilityListEntry|393|Nuzleaf|Chlorophyll|Early Bird|Pickpocket}}
+{{AbilityListEntry|394|Shiftry|Chlorophyll|Early Bird|Pickpocket}}
+{{AbilityListEntry|395|Mienfoo|Inner Focus|Regenerator|Reckless}}
+{{AbilityListEntry|396|Mienshao|Inner Focus|Regenerator|Reckless}}
+{{AbilityListEntry|397|Magby|Flame Body||Vital Spirit}}
+{{AbilityListEntry|398|Magmar|Flame Body||Vital Spirit}}
+{{AbilityListEntry|399|Magmortar|Flame Body||Vital Spirit}}
+{{AbilityListEntry|400|Turtwig|Overgrow||Shell Armor}}
+{{AbilityListEntry|401|Grotle|Overgrow||Shell Armor}}
+{{AbilityListEntry|402|Torterra|Overgrow||Shell Armor}}
+{{AbilityListEntry|403|Chimchar|Blaze||Iron Fist}}
+{{AbilityListEntry|404|Monferno|Blaze||Iron Fist}}
+{{AbilityListEntry|405|Infernape|Blaze||Iron Fist}}
+{{AbilityListEntry|406|Piplup|Torrent||Defiant}}
+{{AbilityListEntry|407|Prinplup|Torrent||Defiant}}
+{{AbilityListEntry|408|Empoleon|Torrent||Defiant}}
+{{AbilityListEntry|409|Surskit|Swift Swim||Rain Dish}}
+{{AbilityListEntry|410|Masquerain|Intimidate||Unnerve}}
+{{AbilityListEntry|411|Lotad|Swift Swim|Rain Dish|Own Tempo}}
+{{AbilityListEntry|412|Lombre|Swift Swim|Rain Dish|Own Tempo}}
+{{AbilityListEntry|413|Ludicolo|Swift Swim|Rain Dish|Own Tempo}}
+{{AbilityListEntry|414|Horsea|Swift Swim|Sniper|Damp}}
+{{AbilityListEntry|415|Seadra|Poison Point|Sniper|Damp}}
+{{AbilityListEntry|416|Kingdra|Swift Swim|Sniper|Damp}}
+{{AbilityListEntry|417|Psyduck|Damp|Cloud Nine|Swift Swim}}
+{{AbilityListEntry|418|Golduck|Damp|Cloud Nine|Swift Swim}}
+{{AbilityListEntry|419|Wooper|Damp|Water Absorb|Unaware}}
+{{AbilityListEntry|420|Quagsire|Damp|Water Absorb|Unaware}}
+{{AbilityListEntry|421|Chewtle|Strong Jaw|Shell Armor|Swift Swim}}
+{{AbilityListEntry|422|Drednaw|Strong Jaw|Shell Armor|Swift Swim}}
+{{AbilityListEntry|423|Larvesta|Flame Body||Swarm}}
+{{AbilityListEntry|424|Volcarona|Flame Body||Swarm}}
+{{AbilityListEntry|425|Gligar|Hyper Cutter|Sand Veil|Immunity}}
+{{AbilityListEntry|426|Gliscor|Hyper Cutter|Sand Veil|Poison Heal}}
+{{AbilityListEntry|427|Poochyena|Runaway|Quick Feet|Rattled}}
+{{AbilityListEntry|428|Mightyena|Intimidate|Quick Feet|Moxie}}
+{{AbilityListEntry|429|Deino|Hustle||}}
+{{AbilityListEntry|430|Zweilous|Hustle||}}
+{{AbilityListEntry|431|Hydreigon|Levitate||}}
+{{AbilityListEntry|432|Duraludon|Light Metal|Heavy Metal|Mold Breaker}}
+{{AbilityListEntry|433|Bellsprout|Chlorophyll||Gluttony}}
+{{AbilityListEntry|434|Weepinbell|Chlorophyll||Gluttony}}
+{{AbilityListEntry|435|Victreebel|Chlorophyll||Gluttony}}
+{{AbilityListEntry|436|Tangela|Chlorophyll|Leaf Guard|Regenerator}}
+{{AbilityListEntry|437|Tangrowth|Chlorophyll|Leaf Guard|Regenerator}}
+{{AbilityListEntry|438|Ferroseed|Iron Barbs||}}
+{{AbilityListEntry|439|Ferrothorn|Iron Barbs||}}
+{{AbilityListEntry|440|Munna|Forewarn|Synchronize|Telepathy}}
+{{AbilityListEntry|441|Musharna|Forewarn|Synchronize|Telepathy}}
+{{AbilityListEntry|442|Swinub|Oblivious|Snow Cloak|Thick Fat}}
+{{AbilityListEntry|443|Piloswine|Oblivious|Snow Cloak|Thick Fat}}
+{{AbilityListEntry|444|Mamoswine|Oblivious|Snow Cloak|Thick Fat}}
+{{AbilityListEntry|445|Snorunt|Inner Focus|Ice Body|Moody}}
+{{AbilityListEntry|446|Glalie|Inner Focus|Ice Body|Moody}}
+{{AbilityListEntry|447|Froslass|Snow Cloak||Cursed Body}}
+{{AbilityListEntry|448|Misdreavus|Levitate||}}
+{{AbilityListEntry|449|Mismagius|Levitate||}}
+{{AbilityListEntry|450|Cryogonal|Levitate||}}
+{{AbilityListEntry|451|Snivy|Overgrow||Contrary}}
+{{AbilityListEntry|452|Servine|Overgrow||Contrary}}
+{{AbilityListEntry|453|Serperior|Overgrow||Contrary}}
+{{AbilityListEntry|454|Tepig|Blaze||Thick Fat}}
+{{AbilityListEntry|455|Pignite|Blaze||Thick Fat}}
+{{AbilityListEntry|456|Emboar|Blaze||Reckless}}
+{{AbilityListEntry|457|Oshawott|Torrent||Shell Armor}}
+{{AbilityListEntry|458|Dewott|Torrent||Shell Armor}}
+{{AbilityListEntry|459|Samurott|Torrent||Shell Armor}}
+{{AbilityListEntry|460|Unown|Levitate||}}
+{{AbilityListEntry|461|Raikou|Pressure||Volt Absorb}}
+{{AbilityListEntry|462|Entei|Pressure||Flash Fire}}
+{{AbilityListEntry|463|Suicune|Pressure||Water Absorb}}
+{{AbilityListEntry|464|Mawile|Hyper Cutter|Intimidate|Sheer Force}}
+{{AbilityListEntry|465|Duskull|Levitate||Frisk}}
+{{AbilityListEntry|466|Dusclops|Pressure||Frisk}}
+{{AbilityListEntry|467|Dusknoir|Pressure||Frisk}}
+{{AbilityListEntry|468|Pineco|Sturdy||Overcoat}}
+{{AbilityListEntry|469|Forretress|Sturdy||Overcoat}}
+{{AbilityListEntry|470|Salandit|Poison Touch||Oblivious}}
+{{AbilityListEntry|471|Salazzle|Poison Touch||Oblivious}}
+{{AbilityListEntry|472|Kangaskhan|Early Bird|Scrappy|Inner Focus}}
+{{AbilityListEntry|473|Bonsly|Sturdy|Rock Head|Rattled}}
+{{AbilityListEntry|474|Sudowoodo|Sturdy|Rock Head|Rattled}}
+{{AbilityListEntry|475|Paras|Effect Spore|Dry Skin|Damp}}
+{{AbilityListEntry|476|Parasect|Effect Spore|Dry Skin|Damp}}
+{{AbilityListEntry|477|Mime Jr.|Soundproof|Filter|Technician}}
+{{AbilityListEntry|478|Mr. Mime|Soundproof|Filter|Technician}}
+{{AbilityListEntry|479|Treecko|Overgrow||Unburden}}
+{{AbilityListEntry|480|Grovyle|Overgrow||Unburden}}
+{{AbilityListEntry|481|Sceptile|Overgrow||Unburden}}
+{{AbilityListEntry|482|Torchic|Blaze||Speed Boost}}
+{{AbilityListEntry|483|Combusken|Blaze||Speed Boost}}
+{{AbilityListEntry|484|Blaziken|Blaze||Speed Boost}}
+{{AbilityListEntry|485|Mudkip|Torrent||Damp}}
+{{AbilityListEntry|486|Marshtomp|Torrent||Damp}}
+{{AbilityListEntry|487|Swampert|Torrent||Damp}}
+{{AbilityListEntry|488|Toxel|Rattled|Static|Klutz}}
+{{AbilityListEntry|489|Toxtricity|Punk Rock|Plus|Technician}}
+{{AbilityListEntry|490|Castform|Forecast||}}
+{{AbilityListEntry|491|Foongus|Effect Spore||Regenerator}}
+{{AbilityListEntry|492|Amoonguss|Effect Spore||Regenerator}}
+{{AbilityListEntry|493|Slowpoke|Oblivious|Own Tempo|Regenerator}}
+{{AbilityListEntry|494|Slowbro|Oblivious|Own Tempo|Regenerator}}
+{{AbilityListEntry|495|Slowking|Oblivious|Own Tempo|Regenerator}}
+{{AbilityListEntry|496|Ralts|Synchronize|Trace|Telepathy}}
+{{AbilityListEntry|497|Kirlia|Synchronize|Trace|Telepathy}}
+{{AbilityListEntry|498|Gardevoir|Synchronize|Trace|Telepathy}}
+{{AbilityListEntry|499|Gallade|Steadfast||Justified}}
+{{AbilityListEntry|500|Azurill|Thick Fat|Huge Power|Sap Sipper}}
+{{AbilityListEntry|501|Marill|Thick Fat|Huge Power|Sap Sipper}}
+{{AbilityListEntry|502|Azumarill|Thick Fat|Huge Power|Sap Sipper}}
+{{AbilityListEntry|503|Shroomish|Effect Spore|Poison Heal|Quick Feet}}
+{{AbilityListEntry|504|Breloom|Effect Spore|Poison Heal|Technician}}
+{{AbilityListEntry|505|Munchlax|Pickup|Thick Fat|Gluttony}}
+{{AbilityListEntry|506|Snorlax|Immunity|Thick Fat|Gluttony}}
+{{AbilityListEntry|507|Arctozolt|Volt Absorb|Static|Slush Rush}}
+{{AbilityListEntry|508|Zorua|Illusion||}}
+{{AbilityListEntry|509|Zoroark|Illusion||}}
+{{AbilityListEntry|510|Shellos|Sticky Hold|Storm Drain|Sand Force}}
+{{AbilityListEntry|511|Gastrodon|Sticky Hold|Storm Drain|Sand Force}}
+{{AbilityListEntry|512|Emolga|Static||Motor Drive}}
+{{AbilityListEntry|513|Bronzor|Levitate|Heat Proof|Heavy Metal}}
+{{AbilityListEntry|514|Bronzong|Levitate|Heat Proof|Heavy Metal}}
+{{AbilityListEntry|515|Archen|Defeatist||}}
+{{AbilityListEntry|516|Archeops|Defeatist||}}
+{{AbilityListEntry|517|Gible|Sand Veil||Rough Skin}}
+{{AbilityListEntry|518|Gabite|Sand Veil||Rough Skin}}
+{{AbilityListEntry|519|Garchomp|Sand Veil||Rough Skin}}
+{{AbilityListEntry|520|Shinx|Rivalry|Intimidate|Guts}}
+{{AbilityListEntry|521|Luxio|Rivalry|Intimidate|Guts}}
+{{AbilityListEntry|522|Luxray|Rivalry|Intimidate|Guts}}
+{{AbilityListEntry|523|Aerodactyl|Rock Head|Pressure|Unnerve}}
+{{AbilityListEntry|524|Chespin|Overgrow||Bulletproof}}
+{{AbilityListEntry|525|Quilladin|Overgrow||Bulletproof}}
+{{AbilityListEntry|526|Chesnaught|Overgrow||Bulletproof}}
+{{AbilityListEntry|527|Fennekin|Blaze||Magician}}
+{{AbilityListEntry|528|Braixen|Blaze||Magician}}
+{{AbilityListEntry|529|Delphox|Blaze||Magician}}
+{{AbilityListEntry|530|Froakie|Torrent||Protean}}
+{{AbilityListEntry|531|Frogadier|Torrent||Protean}}
+{{AbilityListEntry|532|Greninja|Torrent||Protean}}
+{{AbilityListEntry|533|Tornadus|Prankster||Defiant}}
+{{AbilityListEntry|534|Thundurus|Prankster||Defiant}}
+{{AbilityListEntry|535|Landorus|Sand Force||Sheer Force}}
+{{AbilityListEntry|536|Enamorus|Healer||Contrary}}
+{{AbilityListEntry|537|Swablu|Natural Cure||Cloud Nine}}
+{{AbilityListEntry|538|Altaria|Natural Cure||Cloud Nine}}
+{{AbilityListEntry|539|Venipede|Poison Point|Swarm|Quick Feet}}
+{{AbilityListEntry|540|Whirlipede|Poison Point|Swarm|Quick Feet}}
+{{AbilityListEntry|541|Scolipede|Poison Point|Swarm|Quick Feet}}
+{{AbilityListEntry|542|Skorupi|Battle Armor|Sniper|Keen Eye}}
+{{AbilityListEntry|543|Drapion|Battle Armor|Sniper|Keen Eye}}
+{{AbilityListEntry|544|Cranidos|Mold Breaker||Sheer Force}}
+{{AbilityListEntry|545|Rampardos|Mold Breaker||Sheer Force}}
+{{AbilityListEntry|546|Shieldon|Sturdy||Soundproof}}
+{{AbilityListEntry|547|Bastiodon|Sturdy||Soundproof}}
+{{AbilityListEntry|548|Caterpie|Shield Dust||Runaway}}
+{{AbilityListEntry|549|Metapod|Shed Skin||}}
+{{AbilityListEntry|550|Butterfree|Compound Eyes||Tinted Lens}}
+{{AbilityListEntry|551|Charcadet|Flash Fire||Flame Body}}
+{{AbilityListEntry|552|Armarouge|Flash Fire||Weak Armor}}
+{{AbilityListEntry|553|Ceruledge|Flash Fire||Weak Armor}}
+{{AbilityListEntry|554|Binacle|Tough Claws|Sniper|Pickpocket}}
+{{AbilityListEntry|555|Barbaracle|Tough Claws|Sniper|Pickpocket}}
+{{AbilityListEntry|556|Tatsugiri|Multiscale||Storm Drain}}
+{{AbilityListEntry|557|Kingambit|Defiant|Supreme Overlord|Pressure}}
+{{AbilityListEntry|558|Tyrogue|Guts|Steadfast|Vital Spirit}}
+{{AbilityListEntry|559|Hitmonlee|Limber|Reckless|Unburden}}
+{{AbilityListEntry|560|Hitmonchan|Keen Eye|Iron Fist|Inner Focus}}
+{{AbilityListEntry|561|Hitmontop|Intimidate|Technician|Steadfast}}
+{{AbilityListEntry|562|Slugma|Magma Armor|Flame Body|Weak Armor}}
+{{AbilityListEntry|563|Magcargo|Magma Armor|Flame Body|Weak Armor}}
+{{AbilityListEntry|564|Lunatone|Levitate||}}
+{{AbilityListEntry|565|Solrock|Levitate||}}
+{{AbilityListEntry|566|Karrablast|Swarm|Shed Skin|No Guard}}
+{{AbilityListEntry|567|Escavalier|Swarm|Shell Armor|Overcoat}}
+{{AbilityListEntry|568|Shelmet|Hydration|Shell Armor|Overcoat}}
+{{AbilityListEntry|569|Accelgor|Hydration|Sticky Hold|Unburden}}
+{{AbilityListEntry|570|Sprigatito|Overgrow||Protean}}
+{{AbilityListEntry|571|Floragato|Overgrow||Protean}}
+{{AbilityListEntry|572|Meowscarada|Overgrow||Protean}}
+{{AbilityListEntry|573|Sobble|Torrent||Sniper}}
+{{AbilityListEntry|574|Drizzile|Torrent||Sniper}}
+{{AbilityListEntry|575|Inteleon|Torrent||Sniper}}
+{{AbilityListEntry|576|Regirock|Clear Body|Contrary|Sturdy}}
+{{AbilityListEntry|577|Regice|Clear Body|Contrary|Ice Body}}
+{{AbilityListEntry|578|Registeel|Clear Body|Contrary|Light Metal}}
+{{AbilityListEntry|579|Regigigas|Slow Start||Titan}}
+{{AbilityListEntry|580|Regieleki|Transistor||}}
+{{AbilityListEntry|581|Regidrago|Dragons Maw||}}
+{{AbilityListEntry|582|Reginalous|Mystic Wind||}}
+{{AbilityListEntry|583|Mewtwo|Pressure||Unnerve}}
+{{AbilityListEntry|X001|Elekid X|Aftermath||}}
+{{AbilityListEntry|X002|Electabuzz X|Aftermath||Vital Spirit}}
+{{AbilityListEntry|X003|Electaburst|Levitate||}}
+{{AbilityListEntry|X004|Spiritomb X|Leaf Guard||}}
+{{AbilityListEntry|X005|Carvanha X|Cursed Body|Infiltrator|}}
+{{AbilityListEntry|X006|Sharpedo X|Cursed Body|Infiltrator|}}
+{{AbilityListEntry|X007|Pyukumuku X|Iron Fist||}}
+{{AbilityListEntry|X008|Pikachu X|Keen Eye||Friend Guard}}
+{{AbilityListEntry|X009|Joltik X|Compound Eyes|Shield Dust|}}
+{{AbilityListEntry|X010|Galvantula X|Compound Eyes|Shield Dust|}}
+{{AbilityListEntry|X011|Smeargle X|Immunity|Sweet Veil|}}
+{{AbilityListEntry|X012|Chientilly|Immunity|Sweet Veil|Cream Shield}}
+{{AbilityListEntry|X013|Gastly X|Oblivious|Mold Breaker|}}
+{{AbilityListEntry|X014|Haunter X|Oblivious|Mold Breaker|}}
+{{AbilityListEntry|X015|Gengar X|Oblivious|Mold Breaker|Anger Point}}
+{{AbilityListEntry|X016|Yamask X|Storm Drain||}}
+{{AbilityListEntry|X017|Cofagrigus X|Storm Drain||}}
+{{AbilityListEntry|X018|Ponyta X|Cloud Nine||}}
+{{AbilityListEntry|X019|Rapidash X|Cloud Burst||}}
+{{AbilityListEntry|X020|Cacnea X|Iron Barbs||}}
+{{AbilityListEntry|X021|Cacturne X|Iron Barbs||}}
+{{AbilityListEntry|X022|Swirlix X|Poison Touch||Gluttony}}
+{{AbilityListEntry|X023|Slurpuff X|Poison Touch||Gluttony}}
+{{AbilityListEntry|X024|Budew X|Serene Grace||}}
+{{AbilityListEntry|X025|Roselia X|Serene Grace||}}
+{{AbilityListEntry|X026|Roserade X|Serene Grace||}}
+{{AbilityListEntry|X027|Mareanie X|Illuminate||}}
+{{AbilityListEntry|X028|Toxapex X|Arena Trap||}}
+{{AbilityListEntry|X029|Greninja X|Sniper||Magic Guard}}
+{{AbilityListEntry|X030|Mewtwo X|Protean||}}
+{{AbilityListEntry|X031|Raichu X|Magnet Pull||}}
+{{AbilityListEntry|X032|Bisharp X|Sturdy||Unburden}}
+{{AbilityListEntry|X033|Scovile X|Effect Spore|Lightning Rod|Intimidate}}
+{{AbilityListEntry|X034|Tyranitar X|Solid Rock||Sand Stream}}
+{{AbilityListEntry|X035|Ditto X|Limber||}}
+{{AbilityListEntry|X036|Aegislash X|Defiant|No Guard|Moxie}}
+{{AbilityListEntry|X037|Tapu Fini X|Full Metal Body||}}
+{{AbilityListEntry|X038|Tapu Lele X|Full Metal Body||}}
+{{AbilityListEntry|X039|Tapu Koko X|Full Metal Body||}}
+{{AbilityListEntry|X040|Tapu Bulu X|Full Metal Body||}}
+{{AbilityListEntry|X041|Dragalisk X|Dread Space||}}
+{{AbilityListEntry|X042|Shyleon X|Rattled||}}
+{{AbilityListEntry|X043|Trishout X|Keen Eye||}}
+{{AbilityListEntry|X044|Shulong X|Hydration||}}
+{{AbilityListEntry|V001|Vintage Weedle|Shield Dust||Runaway}}
+{{AbilityListEntry|V002|Vintage Kakuna|Shed Skin||}}
+{{AbilityListEntry|V003|Vintage Beedrill|Swarm||Sniper}}
+{{AbilityListEntry|V004|Vintage Ledyba|Swarm|Early Bird|Rattled}}
+{{AbilityListEntry|V005|Vintage Ledian|Swarm|Early Bird|Iron Fist}}
+{{AbilityListEntry|V006|Vintage Mareep|Static||Plus}}
+{{AbilityListEntry|V007|Vintage Flaaffy|Static||Plus}}
+{{AbilityListEntry|V008|Vintage Ampharos|Static||Plus}}
+{{AbilityListEntry|V009|Vintage Abra|Synchronize|Inner Focus|Magic Guard}}
+{{AbilityListEntry|V010|Vintage Kadabra|Synchronize|Inner Focus|Magic Guard}}
+{{AbilityListEntry|V011|Vintage Alakazam|Synchronize|Inner Focus|Magic Guard}}
+{{AbilityListEntry|V012|Vintage Magikarp|Swift Swim||Rattled}}
+{{AbilityListEntry|V013|Vintage Gyarados|Intimidate||Moxie}}
+{{AbilityListEntry|V014|Vintage Remoraid|Hustle|Sniper|Moody}}
+{{AbilityListEntry|V015|Vintage Octillery|Suction Cups|Sniper|Moody}}
+{{AbilityListEntry|V016|Vintage Corsola|Hustle|Natural Cure|Regenerator}}
+{{AbilityListEntry|V017|Vintage Staryu|Illuminate|Natural Cure|Analytic}}
+{{AbilityListEntry|V018|Vintage Starmie|Illuminate|Natural Cure|Analytic}}
+{{AbilityListEntry|V019|Vintage Mantine|Swift Swim|Water Absorb|Water Veil}}
+{{AbilityListEntry|V020|Vintage Shuckle|Sturdy|Gluttony|Contrary}}
+{{AbilityListEntry|V021|Vintage Oddish|Chlorophyll||Runaway}}
+{{AbilityListEntry|V022|Vintage Gloom|Chlorophyll||Stench}}
+{{AbilityListEntry|V023|Vintage Vileplume|Chlorophyll||Effect Spore}}
+{{AbilityListEntry|V024|Vintage Bellossom|Chlorophyll||Healer}}
+{{AbilityListEntry|V025|Vintage Zubat|Inner Focus||Infiltrator}}
+{{AbilityListEntry|V026|Vintage Golbat|Inner Focus||Infiltrator}}
+{{AbilityListEntry|V027|Vintage Crobat|Inner Focus||Infiltrator}}
+{{AbilityListEntry|V028|Vintage Gastly|Levitate||}}
+{{AbilityListEntry|V029|Vintage Haunter|Levitate||}}
+{{AbilityListEntry|V030|Vintage Gengar|Levitate||}}
+{{AbilityListEntry|V031|Vintage Grimer|Stench|Sticky Hold|Poison Touch}}
+{{AbilityListEntry|V032|Vintage Muk|Stench|Sticky Hold|Poison Touch}}
+{{AbilityListEntry|V033|Vintage Onix|Rock Head|Sturdy|Weak Armor}}
+{{AbilityListEntry|V034|Vintage Steelix|Rock Head|Sturdy|Sheer Force}}
+{{AbilityListEntry|V035|Vintage Geodude|Rock Head|Sturdy|Sand Veil}}
+{{AbilityListEntry|V036|Vintage Graveler|Rock Head|Sturdy|Sand Veil}}
+{{AbilityListEntry|V037|Vintage Golem|Rock Head|Sturdy|Sand Veil}}
+{{AbilityListEntry|V038|Vintage Sneasel|Inner Focus|Keen Eye|Pickpocket}}
+{{AbilityListEntry|V039|Vintage Seel|Thick Fat|Hydration|Ice Body}}
+{{AbilityListEntry|V040|Vintage Dewgong|Thick Fat|Hydration|Ice Body}}
+{{AbilityListEntry|V041|Vintage Smeargle|Own Tempo|Technician|Moody}}
+{{AbilityListEntry|V042|Vintage Snubbull|Intimidate|Runaway|Rattled}}
+{{AbilityListEntry|V043|Vintage Granbull|Intimidate|Quick Feet|Rattled}}
+{{AbilityListEntry|V044|Vintage Drowzee|Insomnia|Forewarn|Inner Focus}}
+{{AbilityListEntry|V045|Vintage Hypno|Insomnia|Forewarn|Inner Focus}}
+{{AbilityListEntry|V046|Vintage Chikorita|Overgrow||Leaf Guard}}
+{{AbilityListEntry|V047|Vintage Bayleef|Overgrow||Leaf Guard}}
+{{AbilityListEntry|V048|Vintage Meganium|Overgrow||Leaf Guard}}
+{{AbilityListEntry|V049|Vintage Yanma|Speed Boost|Compound Eyes|Frisk}}
+{{AbilityListEntry|V050|Vintage Heracross|Swarm|Guts|Moxie}}
+{{AbilityListEntry|V051|Vintage Ekans|Intimidate|Shed Skin|Unnerve}}
+{{AbilityListEntry|V052|Vintage Arbok|Intimidate|Shed Skin|Unnerve}}
+{{AbilityListEntry|V053|Vintage Pichu|Static||Lightning Rod}}
+{{AbilityListEntry|V054|Vintage Pikachu|Static||Lightning Rod}}
+{{AbilityListEntry|V055|Vintage Raichu|Static||Lightning Rod}}
+{{AbilityListEntry|V056|Gorochu|Static||Lightning Rod}}
+{{AbilityListEntry|V057|Vintage Miltank|Thick Fat|Scrappy|Sap Sipper}}
+{{AbilityListEntry|V058|Vintage Diglett|Sand Veil|Arena Trap|Sand Force}}
+{{AbilityListEntry|V059|Vintage Dugtrio|Sand Veil|Arena Trap|Sand Force}}
+{{AbilityListEntry|V060|Vintage Larvitar|Guts||Sand Veil}}
+{{AbilityListEntry|V061|Vintage Pupitar|Shed Skin||}}
+{{AbilityListEntry|V062|Vintage Tyranitar|Sand Stream||Unnerve}}
+{{AbilityListEntry|V063|Vintage Dratini|Shed Skin||Marvel Scale}}
+{{AbilityListEntry|V064|Vintage Dragonair|Shed Skin||Marvel Scale}}
+{{AbilityListEntry|V065|Vintage Dragonite|Inner Focus||Multiscale}}
+{{AbilityListEntry|V066|Vintage Charmander|Blaze||Solar Power}}
+{{AbilityListEntry|V067|Vintage Charmeleon|Blaze||Solar Power}}
+{{AbilityListEntry|V068|Vintage Charizard|Blaze||Solar Power}}
+{{AbilityListEntry|V069|Vintage Vulpix|Flash Fire||Drought}}
+{{AbilityListEntry|V070|Vintage Ninetales|Flash Fire||Drought}}
+{{AbilityListEntry|V071|Vintage Koffing|Levitate||}}
+{{AbilityListEntry|V072|Vintage Weezing|Levitate||}}
+{{AbilityListEntry|V073|Vintage Houndour|Early Bird|Flash Fire|Unnerve}}
+{{AbilityListEntry|V074|Vintage Houndoom|Early Bird|Flash Fire|Unnerve}}
+{{AbilityListEntry|V075|Vintage Squirtle|Torrent||Rain Dish}}
+{{AbilityListEntry|V076|Vintage Wartortle|Torrent||Rain Dish}}
+{{AbilityListEntry|V077|Vintage Blastoise|Torrent||Rain Dish}}
+{{AbilityListEntry|V078|Vintage Teddiursa|Pickup|Quick Feet|Honey Gather}}
+{{AbilityListEntry|V079|Vintage Ursaring|Guts|Quick Feet|Unnerve}}
+{{AbilityListEntry|V080|Vintage Ponyta|Runaway|Flash Fire|Flame Body}}
+{{AbilityListEntry|V081|Vintage Rapidash|Runaway|Flash Fire|Flame Body}}
+{{AbilityListEntry|V082|Vintage Sandshrew|Sand Veil||Sand Rush}}
+{{AbilityListEntry|V083|Vintage Sandslash|Sand Veil||Sand Rush}}
+{{AbilityListEntry|V084|Vintage Cubone|Rock Head|Lightning Rod|Battle Armor}}
+{{AbilityListEntry|V085|Vintage Marowak|Rock Head|Lightning Rod|Battle Armor}}
+{{AbilityListEntry|V086|Vintage Natu|Synchronize|Early Bird|Magic Bounce}}
+{{AbilityListEntry|V087|Vintage Xatu|Synchronize|Early Bird|Magic Bounce}}
+{{AbilityListEntry|V088|Vintage Skarmory|Keen Eye|Sturdy|Weak Armor}}
+{{AbilityListEntry|V089|Vintage Rhyhorn|Lightning Rod|Rock Head|Reckless}}
+{{AbilityListEntry|V090|Vintage Rhydon|Lightning Rod|Rock Head|Reckless}}
+{{AbilityListEntry|V091|Vintage Murkrow|Insomnia|Super Luck|Prankster}}
+{{AbilityListEntry|V092|Vintage Tauros|Intimidate|Anger Point|Sheer Force}}
+{{AbilityListEntry|V093|Vintage Magnemite|Magnet Pull|Sturdy|Analytic}}
+{{AbilityListEntry|V094|Vintage Magneton|Magnet Pull|Sturdy|Analytic}}
+{{AbilityListEntry|V095|Vintage Elekid|Static||Vital Spirit}}
+{{AbilityListEntry|V096|Vintage Electabuzz|Static||Vital Spirit}}
+{{AbilityListEntry|V097|Meowsy|Pickup|Technician|Unnerve}}
+{{AbilityListEntry|V098|Vintage Meowth|Pickup|Technician|Unnerve}}
+{{AbilityListEntry|V099|Vintage Persian|Limber|Technician|Unnerve}}
+{{AbilityListEntry|V100|Vintage Igglybuff|Cute Charm||Friend Guard}}
+{{AbilityListEntry|V101|Vintage Jigglypuff|Cute Charm||Friend Guard}}
+{{AbilityListEntry|V102|Vintage Wigglytuff|Cute Charm||Frisk}}
+{{AbilityListEntry|V103|Vintage Totodile|Torrent||Sheer Force}}
+{{AbilityListEntry|V104|Vintage Croconaw|Torrent||Sheer Force}}
+{{AbilityListEntry|V105|Vintage Feraligatr|Torrent||Sheer Force}}
+{{AbilityListEntry|V106|Vintage Exeggcute|Chlorophyll||Harvest}}
+{{AbilityListEntry|V107|Vintage Exeggutor|Chlorophyll||Harvest}}
+{{AbilityListEntry|V108|Vintage Chansey|Natural Cure|Serene Grace|Healer}}
+{{AbilityListEntry|V109|Vintage Blissey|Natural Cure|Serene Grace|Healer}}
+{{AbilityListEntry|V110|Vintage Scyther|Swarm|Technician|Steadfast}}
+{{AbilityListEntry|V111|Vintage Scizor|Swarm|Technician|Light Metal}}
+{{AbilityListEntry|V112|Vintage Aipom|Runaway|Pickup|Skill Link}}
+{{AbilityListEntry|V113|Vintage Girafarig|Inner Focus|Early Bird|Sap Sipper}}
+{{AbilityListEntry|V114|Vintage Bulbasaur|Overgrow||Chlorophyll}}
+{{AbilityListEntry|V115|Vintage Ivysaur|Overgrow||Chlorophyll}}
+{{AbilityListEntry|V116|Vintage Venusaur|Overgrow||Chlorophyll}}
+{{AbilityListEntry|V117|Vintage Rattata|Runaway|Guts|Hustle}}
+{{AbilityListEntry|V118|Vintage Raticate|Runaway|Guts|Hustle}}
+{{AbilityListEntry|V119|Vintage Cyndaquil|Blaze||Flash Fire}}
+{{AbilityListEntry|V120|Vintage Quilava|Blaze||Flash Fire}}
+{{AbilityListEntry|V121|Vintage Typhlosion|Blaze||Flash Fire}}
+{{AbilityListEntry|V122|Vintage Lapras|Water Absorb|Shell Armor|Hydration}}
+{{AbilityListEntry|V123|Vintage Ditto|Limber||Imposter}}
+{{AbilityListEntry|V124|Vintage Eevee|Runaway|Adaptability|Anticipation}}
+{{AbilityListEntry|V125|Vintage Vaporeon|Water Absorb||Hydration}}
+{{AbilityListEntry|V126|Vintage Jolteon|Volt Absorb||Quick Feet}}
+{{AbilityListEntry|V127|Vintage Flareon|Flash Fire||Guts}}
+{{AbilityListEntry|V128|Vintage Espeon|Synchronize||Magic Bounce}}
+{{AbilityListEntry|V129|Vintage Umbreon|Synchronize||Inner Focus}}
+{{AbilityListEntry|V130|Vintage Porygon|Trace|Download|Analytic}}
+{{AbilityListEntry|V131|Vintage Porygon2|Trace|Download|Analytic}}
+{{AbilityListEntry|V132|Sunmola|Swift Swim||}}
+{{AbilityListEntry|V133| Anchorage|Swift Swim||}}
+{{AbilityListEntry|V134|Grotess|Swift Swim||}}
+{{AbilityListEntry|V135|Bomseaker|Flash Fire||}}
+{{AbilityListEntry|V136|Tigrette|Lightning Rod||}}
+{{AbilityListEntry|V137|Electiger|Static||Lightning Rod}}
+{{AbilityListEntry|V138|Wolfman|Ice Body||}}
+{{AbilityListEntry|V139|Warwolf|Ice Body||}}
+{{AbilityListEntry|V140|Vintage Growlithe|Intimidate|Flash Fire|Justified}}
+{{AbilityListEntry|V141|Vintage Arcanine|Intimidate|Flash Fire|Justified}}
+{{AbilityListEntry|V142|Vintage Magby|Flame Body||Vital Spirit}}
+{{AbilityListEntry|V143|Vintage Magmar|Flame Body||Vital Spirit}}
+{{AbilityListEntry|V144|Vintage Horsea|Swift Swim|Sniper|Damp}}
+{{AbilityListEntry|V145|Vintage Seadra|Poison Point|Sniper|Damp}}
+{{AbilityListEntry|V146|Vintage Kingdra|Swift Swim|Sniper|Damp}}
+{{AbilityListEntry|V147|Vintage Psyduck|Damp|Cloud Nine|Swift Swim}}
+{{AbilityListEntry|V148|Vintage Golduck|Damp|Cloud Nine|Swift Swim}}
+{{AbilityListEntry|V149|Vintage Wooper|Damp|Water Absorb|Unaware}}
+{{AbilityListEntry|V150|Vintage Quagsire|Damp|Water Absorb|Unaware}}
+{{AbilityListEntry|V151|Weedle Beta|Shield Dust||Runaway}}
+{{AbilityListEntry|V152|Kakuna Beta|Shed Skin||}}
+{{AbilityListEntry|V153|Kasanagy|Swarm||Sniper}}
+{{AbilityListEntry|V154|Twinz|Levitate|Vital Spirit|}}
+{{AbilityListEntry|V155|Vintage Bellsprout|Chlorophyll||Gluttony}}
+{{AbilityListEntry|V156|Vintage Weepinbell|Chlorophyll||Gluttony}}
+{{AbilityListEntry|V157|Vintage Victreebell|Chlorophyll||Gluttony}}
+{{AbilityListEntry|V158|Bellmit|Chlorophyll||Gluttony}}
+{{AbilityListEntry|V159|Vintage Gligar|Hyper Cutter|Sand Veil|Immunity}}
+{{AbilityListEntry|V160|Vintage Tangela|Chlorophyll|Leaf Guard|Regenerator}}
+{{AbilityListEntry|V161|Vintage Swinub|Oblivious|Snow Cloak|Thick Fat}}
+{{AbilityListEntry|V162|Vintage Piloswine|Oblivious|Snow Cloak|Thick Fat}}
+{{AbilityListEntry|V163|Vintage Misdreavus|Levitate||}}
+{{AbilityListEntry|V164|Kurstraw|Shadow Tag|Levitate|}}
+{{AbilityListEntry|V165|Pangshi|Own Tempo|Levitate|}}
+{{AbilityListEntry|V166|Vintage Pineco|Sturdy||Overcoat}}
+{{AbilityListEntry|V167|Vintage Forretress|Sturdy||Overcoat}}
+{{AbilityListEntry|V168|Vintage Kangaskhan|Early Bird|Scrappy|Inner Focus}}
+{{AbilityListEntry|V169|Trifox|Flash Fire||Drought}}
+{{AbilityListEntry|V170|Vintage Sudowoodo|Sturdy|Rock Head|Rattled}}
+{{AbilityListEntry|V171|Para|Effect Spore|Dry Skin|Damp}}
+{{AbilityListEntry|V172|Vintage Paras|Effect Spore|Dry Skin|Damp}}
+{{AbilityListEntry|V173|Vintage Parasect|Effect Spore|Dry Skin|Damp}}
+{{AbilityListEntry|V174|Vintage Mr. Mime|Soundproof|Filter|Technician}}
+{{AbilityListEntry|V175|Vintage Slowpoke|Oblivious|Own Tempo|Regenerator}}
+{{AbilityListEntry|V176|Vintage Slowbro|Oblivious|Own Tempo|Regenerator}}
+{{AbilityListEntry|V177|Vintage Slowking|Oblivious|Own Tempo|Regenerator}}
+{{AbilityListEntry|V178|Vintage Marill|Thick Fat|Huge Power|Sap Sipper}}
+{{AbilityListEntry|V179|Vintage Azumarill|Thick Fat|Huge Power|Sap Sipper}}
+{{AbilityListEntry|V180|Vintage Snorlax|Immunity|Thick Fat|Gluttony}}
+{{AbilityListEntry|V181|Vintage Aerodactyl|Rock Head|Pressure|Unnerve}}
+{{AbilityListEntry|V182|Ghift|Vital Spirit|Hustle|Insomnia}}
+{{AbilityListEntry|V183|Sunnee|Chlorophyll|Solar Power|Early Bird}}
+{{AbilityListEntry|V184|Puddi|Intimidate|Flash Fire|Justified}}
+{{AbilityListEntry|V185|Vintage Venonat|Compound Eyes|Tinted Lens|Runaway}}
+{{AbilityListEntry|V186|Vintage Venomoth|Shield Dust|Tinted Lens|Wonder Skin}}
+{{AbilityListEntry|V187|Vintage Hoppip|Chlorophyll|Leaf Guard|Infiltrator}}
+{{AbilityListEntry|V188|Vintage Skiploom|Chlorophyll|Leaf Guard|Infiltrator}}
+{{AbilityListEntry|V189|Vintage Jumpluff|Chlorophyll|Leaf Guard|Infiltrator}}
+{{AbilityListEntry|V190|Vintage Phanpy|Pickup||Sand Veil}}
+{{AbilityListEntry|V191|Vintage Donphan|Sturdy||Sand Veil}}
+{{AbilityListEntry|V192|Vintage Hoothoot|Insomnia|Keen Eye|Tinted Lens}}
+{{AbilityListEntry|V193|Vintage Noctowl|Insomnia|Keen Eye|Tinted Lens}}
+{{AbilityListEntry|V194|Gohng|Guts|Steadfast|Vital Spirit}}
+{{AbilityListEntry|V195|Retro Hitmontop|Intimidate|Technician|Steadfast}}
+{{AbilityListEntry|V196|Animon|Limber||Imposter}}
+{{AbilityListEntry|V197|Vintage Unown|Levitate||}}
+{{AbilityListEntry|V198|Vintage Stantler|Intimidate|Frisk|Sap Sipper}}
+{{AbilityListEntry|V199|Vintage Caterpie|Shield Dust||Runaway}}
+{{AbilityListEntry|V200|Vintage Metapod|Shed Skin||}}
+{{AbilityListEntry|V201|Vintage Butterfree|Compound Eyes||Tinted Lens}}
+{{AbilityListEntry|V202|Vintage Tyrogue|Guts|Steadfast|Vital Spirit}}
+{{AbilityListEntry|V203|Vintage Hitmonlee|Limber|Reckless|Unburden}}
+{{AbilityListEntry|V204|Vintage Hitmonchan|Keen Eye|Iron Fist|Inner Focus}}
+{{AbilityListEntry|V205|Vintage Hitmontop|Intimidate|Technician|Steadfast}}
+{{AbilityListEntry|V206|Vintage Slugma|Magma Armor|Flame Body|Weak Armor}}
+{{AbilityListEntry|V207|Vintage Magcargo|Magma Armor|Flame Body|Weak Armor}}
