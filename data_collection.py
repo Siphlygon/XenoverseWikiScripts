@@ -1,4 +1,7 @@
 # pylint: disable=locally-disabled, line-too-long, missing-module-docstring
+import logging
+
+
 def read_file_lines(filename):
     """
     Read lines from a file and return them as a list, stripping any trailing whitespaces. Reduces the time a file is
@@ -52,6 +55,7 @@ class DataCollection:
         self.pokemon_path = pokemon_path
         self.tm_path = tm_path
         self.encounters_path = encounters_path
+        self.logger = logging.getLogger(__name__)
 
     def extract_pokemon_data(self):
         """
@@ -84,7 +88,11 @@ class DataCollection:
                     raw_data.remove(line_list[idx - 2])
                     break
 
-        raw_data[0] = "InternalNumber=" + raw_data[0].replace("[", "").replace("]", "")
+        try:
+            raw_data[0] = "InternalNumber=" + raw_data[0].replace("[", "").replace("]", "")
+        except IndexError as exc:
+            self.logger.error("Could not find internal name '%s' in the file.", self.name)
+            raise ValueError(f"Could not find internal name '{self.name}' in the file.") from exc
 
         return {key: value for line in raw_data for key, value in [line.split('=', 1)]}
 

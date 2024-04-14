@@ -4,6 +4,7 @@ Main script for generating a Pokémon's wiki page. The script will ask for the P
 other classes and functions to facilitate the generation of the wiki page. The script will then continue repeating until
 the user decides to stop the script.
 """
+import logging
 from pokemon import PokemonBoxGenerator
 from moves import MoveListGenerator
 from locations import LocationDataGenerator
@@ -19,9 +20,13 @@ def main():
 
     # Extract data from the game files
     dc = DataCollection(internal_name)
-    pokemon_data = dc.extract_pokemon_data()
-    tm_data, tutor_data = dc.extract_move_data()
-    location_data, loc_nums = dc.extract_encounter_data()
+    try:
+        pokemon_data = dc.extract_pokemon_data()
+        tm_data, tutor_data = dc.extract_move_data()
+        location_data, loc_nums = dc.extract_encounter_data()
+    except ValueError as e:
+        print(f"Error: {e}")
+        return
 
     poke_box_gen = PokemonBoxGenerator(pokemon_data)
     move_list_gen = MoveListGenerator(pokemon_data, tm_data, tutor_data)
@@ -37,6 +42,10 @@ def main():
 if __name__ == "__main__":
     print("This script was made by Siphlygon for the purpose of updating the english Pokémon Xenoverse Wiki.")
     print("Please report any problems to me.")
+
+    # Set up logging
+    logger = logging.getLogger(__name__)
+    logging.basicConfig(filename='example.log', encoding='utf-8', level=logging.DEBUG)
 
     while True:
         main()

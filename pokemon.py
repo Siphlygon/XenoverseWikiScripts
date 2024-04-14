@@ -1,4 +1,5 @@
 # pylint: disable=line-too-long, too-many-boolean-expressions, missing-module-docstring, F0401, too-many-locals
+import logging
 from data_access import gender_code, growth_rate, pokemon_info, wild_item_info, ability_info, species_and_dex_entry
 from utility_methods import make_three_digits, find_dex_number, get_two_types
 from evolution import EvolutionHandler
@@ -82,7 +83,11 @@ class PokemonBoxGenerator:
 
         # Name, Species
         infobox.append("|name = " + self.name)
-        infobox.append("|species = " + species_and_dex_entry(self.p_data["InternalNumber"])["Species"])
+        try:
+            infobox.append("|species = " + species_and_dex_entry(self.p_data["InternalNumber"])["Species"])
+        except TypeError:
+            logging.error("Error in creating infobox for %s:", self.name, exc_info=True)
+            infobox.append("|species = WIP")
 
         # Dex & Image
         dex_nums = find_dex_number(self.p_data["RegionalNumbers"])
@@ -159,7 +164,10 @@ class PokemonBoxGenerator:
         if self.second_type != self.first_type:
             pokedex_entry.append("|type2 = " + self.second_type)
 
-        pokedex_entry.append(f"|''{species_and_dex_entry(self.p_data['InternalNumber'])['Dex Entry']}''")
+        try:
+            pokedex_entry.append(f"|''{species_and_dex_entry(self.p_data['InternalNumber'])['Dex Entry']}''")
+        except TypeError:
+            pokedex_entry.append("|''WIP''")
 
         pokedex_entry.append("}}")
 
